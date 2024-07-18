@@ -12,7 +12,7 @@ proxies:
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 12|TW_speednode_0225
+  name: 12|TW_speednode_0139
   network: ws
   port: 23555
   server: 60.249.89.74
@@ -25,7 +25,7 @@ proxies:
       Host: page-us-qg0.pages.dev
     path: twitterfreecodes
 - client-fingerprint: chrome
-  name: 12|TW_speednode_0226
+  name: 12|TW_speednode_0140
   network: ws
   port: 23555
   server: 211.72.156.10

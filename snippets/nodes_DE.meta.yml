@@ -1,32 +1,8 @@
 proxies:
-- name: 12|DE_speednode_0100
-  network: ws
-  port: 443
-  server: 45.80.111.213
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: tg@zdyz2
-- name: 12|DE_speednode_0101
+- name: 12|DE_speednode_0034
   network: ws
   port: 443
   server: 188.244.122.64
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: tg@zdyz2
-- name: 12|DE_speednode_0102
-  network: ws
-  port: 443
-  server: 45.80.111.8
   servername: cfed.tgzdyz2.top
   tls: true
   type: vless

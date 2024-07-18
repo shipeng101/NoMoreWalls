@@ -20,7 +20,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12|CN_speednode_0034
+  name: 12|CN_speednode_0027
   password: MfqALmAJ
   port: 40081
   server: 183.232.139.24
@@ -30,7 +30,7 @@ proxies:
   type: trojan
   uuid: 4ff0df2c-2092-36ab-882f-29e46fea089c
 - client-fingerprint: chrome
-  name: 12|CN_speednode_0067
+  name: 12|CN_speednode_0029
   port: 7890
   server: 116.230.200.147
   skip-cert-verify: true
@@ -38,15 +38,7 @@ proxies:
   type: http
   udp: true
 - client-fingerprint: chrome
-  name: 12|CN_speednode_0068
-  port: 7890
-  server: 121.36.21.180
-  skip-cert-verify: true
-  tls: false
-  type: http
-  udp: true
-- client-fingerprint: chrome
-  name: 12|CN_speednode_0074
+  name: 12|CN_speednode_0030
   port: 7890
   server: 203.34.153.79
   skip-cert-verify: true
@@ -54,17 +46,9 @@ proxies:
   type: http
   udp: true
 - client-fingerprint: chrome
-  name: 12|CN_speednode_0077
+  name: 12|CN_speednode_0031
   port: 7890
   server: 171.121.161.31
-  skip-cert-verify: true
-  tls: false
-  type: http
-  udp: true
-- client-fingerprint: chrome
-  name: 12|CN_speednode_0081
-  port: 7890
-  server: 144.255.14.60
   skip-cert-verify: true
   tls: false
   type: http
