@@ -1,36 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-9
-  network: ws
-  port: 80
-  server: 66.81.247.246
-  servername: 127.0.0.1..j.spacecadet.day0ne.wonkacapitano.buzz.
-  skip-cert-verify: true
-  type: vmess
-  uuid: 28f8d51a-0e75-4fc3-a36e-03bf4e4d0910
-  ws-opts:
-    headers:
-      HOST: 127.0.0.1..j.spacecadet.day0ne.wonkacapitano.buzz.
-    path: /vmess
-- name: 0|-https://t.me/MrXbin-10
-  password: b06d7f06-51ba-402d-991a-3fe1e432247c
-  port: 443
-  server: usa.lydurlclub.top
-  skip-cert-verify: true
-  type: trojan
-- name: 0,12|SE_speednode_0133
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.60.141.186
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: false
-- alterId: 0
-  cipher: auto
   name: 2|d*********g.com_0
   network: ws
   port: 2086
@@ -2212,6 +2182,14 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: tg@zdyz2
+- name: 12|SE_speednode_0133
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.60.141.186
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: false
 - name: 12|SE_speednode_0134
   network: ws
   port: 443

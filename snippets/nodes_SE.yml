@@ -1,1 +1,10 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  name: 12|SE_speednode_0133
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.60.141.186
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: false
