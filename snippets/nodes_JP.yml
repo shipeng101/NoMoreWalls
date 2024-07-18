@@ -7,14 +7,6 @@ proxies:
   server: 183.232.139.24
   skip-cert-verify: true
   type: trojan
-- client-fingerprint: chrome
-  name: 10|🇯🇵 日本2|@ripaojiedian
-  password: epDl3yFT5CNCKazFSqAxDOAyau3IXjxl63YcZSE0248BnZ7gOa8C9pYR3weSDR
-  port: 28342
-  server: okelvv.superpokemon.com
-  skip-cert-verify: false
-  sni: okelvv.superpokemon.com
-  type: trojan
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -38,12 +30,3 @@ proxies:
   port: 28342
   server: okelvv.superpokemon.com
   type: trojan
-- alterId: -1
-  name: 12|JP_speednode_0149
-  password: 7b1dc908-93f8-4111-8d80-e69a9a2d5476
-  port: 20230
-  server: jp005.421421.xyz
-  skip-cert-verify: true
-  sni: 421421.xyz
-  type: trojan
-  udp: true

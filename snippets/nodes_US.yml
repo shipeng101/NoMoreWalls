@@ -11,13 +11,14 @@ proxies:
   type: vmess
   uuid: 5ffe58d1-ddbe-4fc0-8af7-06db520b48c9
 - client-fingerprint: chrome
-  name: 10,11|美国4|@ripaojiedian
+  name: 10,11,12|CN_speednode_0035
   network: tcp
   password: MfqALmAJ
   port: 40081
   server: 183.232.139.24
   skip-cert-verify: true
   type: trojan
+  udp: false
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -62,11 +63,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 5ffe58d1-ddbe-4fc0-8af7-06db520b48c9
-- name: 12|US_speednode_0265
-  password: e261dc84-1b52-42db-859a-ed575e0876fa
-  port: 40021
-  server: hk-2-ddns.sudatech.store
-  skip-cert-verify: true
-  sni: vpn-4-1.sudatech.store
-  type: trojan
-  udp: true

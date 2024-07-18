@@ -16,11 +16,11 @@ proxies:
     headers:
       Host: jpafzyhfsg3.yofnhkfc.xyz
     path: /video/u4eCZTxW
-- name: 12|SG_speednode_0215
+- name: 12|SG_speednode_0223
   network: ws
-  password: 7b06d22a8a7c764f
+  password: 0cc6b4268dea0ba8
   port: 3306
-  server: 5.44.249.43
+  server: 5.44.249.42
   skip-cert-verify: true
   sni: n2.gladns.com
   type: trojan
@@ -29,3 +29,10 @@ proxies:
     headers:
       Host: TG.WangCai_1
     path: /gateway/connect
+- name: 12|SG_speednode_0224
+  password: b06d7f06-51ba-402d-991a-3fe1e432247c
+  port: 443
+  server: usa.lydurlclub.top
+  skip-cert-verify: true
+  type: trojan
+  udp: false

@@ -1,16 +1,18 @@
 proxies:
-- client-fingerprint: chrome
-  name: 12|CN_speednode_0035
+- alterId: -1
+  client-fingerprint: chrome
+  name: 12|CN_speednode_0023
   port: 7890
   server: 39.69.146.69
   skip-cert-verify: true
   tls: false
   type: http
   udp: true
-- client-fingerprint: chrome
-  name: 12|CN_speednode_0039
+- alterId: -1
+  client-fingerprint: chrome
+  name: 12|CN_speednode_0025
   port: 7890
-  server: 112.193.99.136
+  server: 47.123.4.164
   skip-cert-verify: true
   tls: false
   type: http
@@ -18,64 +20,51 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12|CN_speednode_0059
-  password: GsKYmYOE
+  name: 12|CN_speednode_0034
+  password: MfqALmAJ
   port: 40081
-  server: 183.232.139.22
+  server: 183.232.139.24
   skip-cert-verify: true
+  sni: ip2648428075.mobgslb.tbcache.com
   tfo: false
   type: trojan
-  udp: false
-  uuid: 7345a163-c47b-47b3-8675-bf12b85ce364
-- alterId: -1
-  client-fingerprint: chrome
-  name: 12|CN_speednode_0047
+  uuid: 4ff0df2c-2092-36ab-882f-29e46fea089c
+- client-fingerprint: chrome
+  name: 12|CN_speednode_0067
   port: 7890
-  server: 47.123.4.164
+  server: 116.230.200.147
   skip-cert-verify: true
   tls: false
   type: http
   udp: true
 - client-fingerprint: chrome
-  name: 12|CN_speednode_0050
+  name: 12|CN_speednode_0068
   port: 7890
-  server: 59.175.60.83
+  server: 121.36.21.180
   skip-cert-verify: true
   tls: false
   type: http
   udp: true
 - client-fingerprint: chrome
-  name: 12|CN_speednode_0051
+  name: 12|CN_speednode_0074
   port: 7890
-  server: 113.132.113.243
+  server: 203.34.153.79
   skip-cert-verify: true
   tls: false
   type: http
   udp: true
-- name: 12|CN_speednode_0056
-  password: GsKYmYOE
-  port: 40081
-  server: 183.232.139.22
-  skip-cert-verify: true
-  sni: sg1111.156786.xyz
-  type: trojan
-  udp: true
-- name: 12|CN_speednode_0058
-  network: ws
-  port: 2053
-  server: 103.184.44.62
-  servername: juzibaipiao.5112233.xyz
-  tls: true
-  type: vless
-  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
-  ws-opts:
-    headers:
-      Host: juzibaipiao.5112233.xyz
-    path: /
 - client-fingerprint: chrome
-  name: 12|CN_speednode_0061
+  name: 12|CN_speednode_0077
   port: 7890
-  server: 222.125.133.107
+  server: 171.121.161.31
+  skip-cert-verify: true
+  tls: false
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  name: 12|CN_speednode_0081
+  port: 7890
+  server: 144.255.14.60
   skip-cert-verify: true
   tls: false
   type: http

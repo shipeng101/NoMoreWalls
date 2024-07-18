@@ -16,7 +16,7 @@ proxies:
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 10,11|香港|@ripaojiedian
+  name: 10,11,12|CN_speednode_0076
   network: tcp
   password: 15bc9e79-5ba0-388a-8804-67f203ee4487
   port: 13002
@@ -24,6 +24,7 @@ proxies:
   skip-cert-verify: true
   sni: ip2648428075.mobgslb.tbcache.com
   type: trojan
+  udp: true
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome

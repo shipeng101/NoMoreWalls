@@ -1,5 +1,5 @@
 proxies:
-- name: 12|RU_speednode_0180
+- name: 12|RU_speednode_0192
   network: ws
   port: 2096
   server: 188.42.145.159
@@ -12,7 +12,7 @@ proxies:
     headers:
       Host: juzibaipiao.5112233.xyz
     path: /?ed=2048
-- name: 12|RU_speednode_0181
+- name: 12|RU_speednode_0193
   network: ws
   port: 8443
   server: 188.42.145.159
@@ -25,7 +25,7 @@ proxies:
     headers:
       Host: juzibaipiao.5112233.xyz
     path: /?ed=2048
-- name: 12|RU_speednode_0182
+- name: 12|RU_speednode_0194
   network: ws
   port: 2087
   server: 185.176.24.140
@@ -38,31 +38,20 @@ proxies:
     headers:
       Host: juzibaipiao.5112233.xyz
     path: /?ed=2048
-- name: 12|RU_speednode_0183
+- client-fingerprint: chrome
+  name: 12|RU_speednode_0195
   network: ws
-  port: 443
-  server: 185.59.218.169
-  servername: cfed.tgzdyz2.top
+  port: 8443
+  server: 188.42.145.90
+  servername: juzibaipiao.5112233.xyz
   tls: true
   type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
   ws-opts:
     headers:
-      Host: cfed.tgzdyz2.top
-    path: /tg@zdyz2
-- name: 12|RU_speednode_0184
-  network: ws
-  port: 443
-  server: 185.59.218.158
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: tg@zdyz2
-- name: 12|RU_speednode_0185
+      Host: juzibaipiao.5112233.xyz
+    path: /?ed
+- name: 12|RU_speednode_0196
   network: ws
   port: 443
   server: 188.42.145.159
@@ -74,7 +63,19 @@ proxies:
     headers:
       Host: VIrgiNiavPn-nL.pagEs.dEv
     path: /
-- name: 12|RU_speednode_0186
+- name: 12|RU_speednode_0197
+  network: ws
+  port: 443
+  server: 185.176.24.253
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg@zdyz2
+- name: 12|RU_speednode_0198
   network: ws
   port: 443
   server: 185.176.24.120
@@ -86,19 +87,7 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: tg@zdyz2
-- name: 12|RU_speednode_0187
-  network: ws
-  port: 443
-  server: 185.59.218.144
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: tg@zdyz2
-- name: 12|RU_speednode_0188
+- name: 12|RU_speednode_0199
   network: ws
   port: 443
   server: 185.59.218.0
@@ -110,10 +99,34 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: tg@zdyz2
-- name: 12|RU_speednode_0189
+- name: 12|RU_speednode_0200
   network: ws
   port: 443
-  server: 193.9.49.150
+  server: 188.42.145.226
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg@zdyz2
+- name: 12|RU_speednode_0201
+  network: ws
+  port: 443
+  server: 185.59.218.158
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg@zdyz2
+- name: 12|RU_speednode_0202
+  network: ws
+  port: 8443
+  server: 188.42.145.159
   servername: cfed.tgzdyz2.top
   tls: true
   type: vless
@@ -123,7 +136,20 @@ proxies:
       Host: cfed.tgzdyz2.top
     path: tg@zdyz2
 - client-fingerprint: chrome
-  name: 12|RU_speednode_0190
+  name: 12|RU_speednode_0203
+  network: ws
+  port: 443
+  server: 188.42.145.84
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg@zdyz2
+- client-fingerprint: chrome
+  name: 12|RU_speednode_0204
   network: ws
   port: 443
   server: 188.42.145.140
@@ -137,10 +163,10 @@ proxies:
     headers:
       Host: g1.youyuan.us.kg
     path: /?proxyip=proxyip.multacom.fxxk.dedyn.io
-- name: 12|RU_speednode_0191
+- name: 12|RU_speednode_0205
   network: ws
-  port: 8443
-  server: 188.42.145.159
+  port: 443
+  server: 185.176.24.106
   servername: cfed.tgzdyz2.top
   tls: true
   type: vless
@@ -149,10 +175,10 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: tg@zdyz2
-- name: 12|RU_speednode_0192
+- name: 12|RU_speednode_0206
   network: ws
   port: 443
-  server: 193.9.49.233
+  server: 185.59.218.144
   servername: cfed.tgzdyz2.top
   tls: true
   type: vless
@@ -161,31 +187,7 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: tg@zdyz2
-- name: 12|RU_speednode_0193
-  network: ws
-  port: 443
-  server: 188.42.145.160
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: /tg@zdyz2
-- name: 12|RU_speednode_0194
-  network: ws
-  port: 443
-  server: 185.176.24.64
-  servername: hkm.ylks.link
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: hkm.ylks.link
-    path: /blue
-- name: 12|RU_speednode_0195
+- name: 12|RU_speednode_0207
   network: ws
   port: 443
   server: 185.176.24.186
@@ -197,31 +199,7 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: tg@zdyz2
-- name: 12|RU_speednode_0196
-  network: ws
-  port: 443
-  server: 45.8.211.37
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: /tg@zdyz2
-- name: 12|RU_speednode_0197
-  network: ws
-  port: 443
-  server: 193.9.49.80
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: tg@zdyz2
-- name: 12|RU_speednode_0198
+- name: 12|RU_speednode_0208
   network: ws
   port: 443
   server: 185.59.218.139
@@ -233,31 +211,7 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: tg@zdyz2
-- name: 12|RU_speednode_0199
-  network: ws
-  port: 443
-  server: 185.176.24.71
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: tg@zdyz2
-- name: 12|RU_speednode_0200
-  network: ws
-  port: 443
-  server: 185.176.24.253
-  servername: cfed.tgzdyz2.top
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: tg@zdyz2
-- name: 12|RU_speednode_0201
+- name: 12|RU_speednode_0209
   network: ws
   port: 443
   server: 193.9.49.43
@@ -269,10 +223,10 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: /tg@zdyz2
-- name: 12|RU_speednode_0202
+- name: 12|RU_speednode_0210
   network: ws
   port: 443
-  server: 188.42.145.226
+  server: 185.176.24.71
   servername: cfed.tgzdyz2.top
   tls: true
   type: vless

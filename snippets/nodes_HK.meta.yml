@@ -16,7 +16,7 @@ proxies:
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 10,11|香港|@ripaojiedian
+  name: 10,11,12|CN_speednode_0076
   network: tcp
   password: 15bc9e79-5ba0-388a-8804-67f203ee4487
   port: 13002
@@ -24,6 +24,7 @@ proxies:
   skip-cert-verify: true
   sni: ip2648428075.mobgslb.tbcache.com
   type: trojan
+  udp: true
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -92,24 +93,48 @@ proxies:
   tls: true
   type: vmess
   uuid: 4ff0df2c-2092-36ab-882f-29e46fea089c
-- name: 12|HK_speednode_0145
+- client-fingerprint: chrome
+  name: 12|HK_speednode_0167
   network: ws
-  port: 2087
-  server: 47.76.29.115
-  servername: go.jp980.cloudns.org
+  port: 2096
+  server: 47.238.6.58
+  servername: cfed.tgzdyz2.top
   tls: true
   type: vless
-  udp: true
-  uuid: b9011be4-b7d5-428e-a4cc-be5cc8768ba4
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
   ws-opts:
     headers:
-      Host: go.jp980.cloudns.org
-    path: /?ed=2560
+      Host: cfed.tgzdyz2.top
+    path: /tg@zdyz2
+- name: 12|HK_speednode_0168
+  network: ws
+  port: 443
+  server: 16.162.37.167
+  servername: hkx.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      Host: hkx.ylks.xyz
+    path: /freecodes
+- name: 12|HK_speednode_0169
+  network: ws
+  port: 443
+  server: 16.162.37.167
+  servername: xinx.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      Host: xinx.ylks.xyz
+    path: /freecodes
 - client-fingerprint: chrome
-  name: 12|HK_speednode_0146
+  name: 12|HK_speednode_0170
   network: ws
   port: 34237
-  server: 8.210.109.11
+  server: 47.76.154.53
   skip-cert-verify: true
   tls: true
   type: vless
@@ -119,10 +144,10 @@ proxies:
       Host: ccs.443888.xyz
     path: /vless?ed=2560
 - client-fingerprint: chrome
-  name: 12|HK_speednode_0147
+  name: 12|HK_speednode_0171
   network: ws
   port: 34237
-  server: 47.76.154.53
+  server: 8.210.109.11
   skip-cert-verify: true
   tls: true
   type: vless
