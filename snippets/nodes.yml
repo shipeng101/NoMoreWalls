@@ -1,6 +1,22 @@
 proxies:
 - alterId: 0
   cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-7
+  network: ws
+  port: 80
+  server: 66.81.247.246
+  servername: 127.0.0.1..j.spacecadet.day0ne.wonkacapitano.buzz.
+  skip-cert-verify: true
+  type: vmess
+  uuid: 28f8d51a-0e75-4fc3-a36e-03bf4e4d0910
+  ws-opts:
+    headers:
+      HOST: 127.0.0.1..j.spacecadet.day0ne.wonkacapitano.buzz.
+    path: /vmess
+- alterId: 0
+  cipher: auto
   name: 2|d*********g.com_0
   network: ws
   port: 2086
