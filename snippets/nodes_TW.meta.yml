@@ -12,6 +12,32 @@ proxies:
   tfo: false
   type: ss
 - client-fingerprint: chrome
+  name: 10,11|台湾2|@ripaojiedian
+  network: tcp
+  password: bebfc22b-e198-4f14-a8fd-2eca5f9af311
+  port: 61003
+  server: dc0.forlive.live
+  skip-cert-verify: false
+  sni: ssl.sbgfw.info
+  type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10,11|台湾3|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: cfcdn1.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 0921f18e-db32-4c07-939b-4388673bfe59
+  ws-opts:
+    headers:
+      Host: tw1bQiWSE4x.fzbqfrse.xyz
+    path: /video/GQ2qE5Us9g
+- client-fingerprint: chrome
   name: 12|TW_speednode_0139
   network: ws
   port: 23555

@@ -1,15 +1,13 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10|🇺🇸 美国2|@ripaojiedian
-  port: 19358
-  server: iepl.hongxingdl.vip
+- client-fingerprint: chrome
+  name: 10,11|美国2|@ripaojiedian
+  network: tcp
+  password: TlcDxy6NSZ33XD56zOlqFSauCeaySZ3CSFYa5RnDp39K8yYOZxY0xI7IXAnA2CE38wD33
+  port: 28331
+  server: cooker.homeofbrave.net
   skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 5ffe58d1-ddbe-4fc0-8af7-06db520b48c9
+  sni: cooker.homeofbrave.net
+  type: trojan
 - client-fingerprint: chrome
   name: 10,11,12|CN_speednode_0028
   network: tcp
@@ -53,16 +51,6 @@ proxies:
     headers:
       Host: cdn2.freegradely.xyz
     path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 11|美国2|@ripaojiedian
-  network: tcp
-  port: '19358'
-  server: iepl.hongxingdl.vip
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5ffe58d1-ddbe-4fc0-8af7-06db520b48c9
 - name: 12|US_speednode_0141
   network: ws
   port: 2096
@@ -368,6 +356,14 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: tg@zdyz2
+- name: 12|US_speednode_0165
+  password: epDl3yFT5CNCKazFSqAxDOAyau3IXjxl63YcZSE0248BnZ7gOa8C9pYR3weSDR
+  port: 28342
+  server: okelvv.superpokemon.com
+  skip-cert-verify: true
+  sni: okelvv.superpokemon.com
+  type: trojan
+  udp: true
 - name: 12|US_speednode_0189
   network: ws
   port: 80
