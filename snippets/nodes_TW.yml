@@ -11,15 +11,6 @@ proxies:
   server: cm1-tw.hutaonode3.top
   tfo: false
   type: ss
-- client-fingerprint: chrome
-  name: 10,11|台湾2|@ripaojiedian
-  network: tcp
-  password: bebfc22b-e198-4f14-a8fd-2eca5f9af311
-  port: 61003
-  server: dc0.forlive.live
-  skip-cert-verify: false
-  sni: ssl.sbgfw.info
-  type: trojan
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome

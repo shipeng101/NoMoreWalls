@@ -1,18 +1,1 @@
-proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10,11|韩国|@ripaojiedian
-  network: ws
-  port: '40396'
-  server: sui.forlive.live
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 545d58da-5cf4-4dd5-8760-353509720b0a
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
+proxies: []
