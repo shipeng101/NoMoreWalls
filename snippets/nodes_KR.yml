@@ -1,1 +1,18 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10,11|韩国|@ripaojiedian
+  network: ws
+  port: '80'
+  server: kr01.elizabethgilbert.buzz
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 8aa67fc2-83d7-4554-8d66-4f06c63de0da
+  ws-opts:
+    headers:
+      Host: kr01.elizabethgilbert.buzz
+    path: /

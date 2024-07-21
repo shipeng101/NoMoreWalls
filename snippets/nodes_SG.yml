@@ -1,1 +1,18 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10,11|新加坡|@ripaojiedian
+  network: ws
+  port: '80'
+  server: 104.19.173.68
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: b30dd940-b88e-4459-aac8-ec6f25c1112f
+  ws-opts:
+    headers:
+      Host: sg3.889611.com
+    path: /
