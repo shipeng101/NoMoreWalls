@@ -3,24 +3,33 @@ proxies:
   name: 10,11|日本|@ripaojiedian
   network: tcp
   password: MfqALmAJ
-  port: 36931
-  server: 183.232.139.24
+  port: 31666
+  server: 36.151.195.77
   skip-cert-verify: true
+  type: trojan
+- client-fingerprint: chrome
+  name: 10,11|日本2|@ripaojiedian
+  network: tcp
+  password: d2382a15-ae45-40ab-8925-84792b584bd8
+  port: 20230
+  server: jp005.421421.xyz
+  skip-cert-verify: false
+  sni: 421421.xyz
   type: trojan
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 10,11|日本2|@ripaojiedian
+  name: 10,11|日本3|@ripaojiedian
   network: ws
-  port: '80'
+  port: '2052'
   server: cfcdn3.sanfencdn9.com
   servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 0921f18e-db32-4c07-939b-4388673bfe59
+  uuid: 78c40177-c364-480d-bd77-76e9d89f69b4
   ws-opts:
     headers:
-      Host: oA5FSz9Tjp1.yofnhkfc.xyz
-    path: /video/P7EExoE2
+      Host: kvjqqknzjp6.yofnhkfc.xyz
+    path: /video/Zo98PYfE
