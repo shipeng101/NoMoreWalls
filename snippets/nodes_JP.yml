@@ -7,15 +7,23 @@ proxies:
   server: 36.151.195.77
   skip-cert-verify: true
   type: trojan
-- client-fingerprint: chrome
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
   name: 10,11|日本2|@ripaojiedian
-  network: tcp
-  password: d2382a15-ae45-40ab-8925-84792b584bd8
-  port: 20230
-  server: jp005.421421.xyz
+  network: ws
+  port: '63011'
+  server: in06.dns2024.org
+  servername: ''
   skip-cert-verify: false
-  sni: 421421.xyz
-  type: trojan
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e8e6f618-842c-33d4-9a9f-7827614a6bf9
+  ws-opts:
+    headers:
+      Host: jp-a-mugua.weibo-cdn.best
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome

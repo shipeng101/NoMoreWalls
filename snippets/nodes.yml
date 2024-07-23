@@ -1,4 +1,39 @@
 proxies:
+- cipher: rc4-md5
+  name: 0|-https://t.me/MrXbin-5
+  obfs: tls1.2_ticket_auth
+  password: Cskw6d
+  port: 13628
+  protocol: auth_aes128_md5
+  protocol-param: 524959:5u4MZ6
+  server: bb29cs.cdn.node.a.tddns-ounk.com
+  type: ssr
+- cipher: rc4-md5
+  name: 0|-https://t.me/MrXbin-6
+  obfs: tls1.2_ticket_auth
+  password: Cskw6d
+  port: 13305
+  protocol: auth_aes128_md5
+  protocol-param: 524959:5u4MZ6
+  server: mjk6.cdn.node.a.tddns-ounk.com
+  type: ssr
+- cipher: rc4-md5
+  name: 0|-https://t.me/MrXbin-7
+  obfs: tls1.2_ticket_auth
+  password: Cskw6d
+  port: 13299
+  protocol: auth_aes128_md5
+  protocol-param: 524959:5u4MZ6
+  server: mjk6.cdn.node.a.tddns-ounk.com
+  type: ssr
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-9
+  obfs: tls1.2_ticket_auth
+  password: fou8MBGij
+  port: 8081
+  protocol: origin
+  server: us-am3.eqnode.net
+  type: ssr
 - alterId: 0
   cipher: auto
   name: 2|d*********g.com_0
@@ -628,19 +663,19 @@ proxies:
     skip-cert-verify: false
     tls: true
   port: 8443
-  server: 36.232.14.119
+  server: 36.232.31.218
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
   name: 10|🇭🇰 香港|@ripaojiedian
-  port: 29767
-  server: bvip.hongxingdl.vip
+  port: 63099
+  server: in06.dns2024.org
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 0daceca8-228a-4cc6-a613-db4c6b05c899
+  uuid: e8e6f618-842c-33d4-9a9f-7827614a6bf9
 - alterId: 64
   cipher: auto
   name: 10|🇭🇰 香港2|@ripaojiedian
@@ -651,16 +686,14 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 10|🇭🇰 香港3|@ripaojiedian
-  port: 53061
-  server: 38.147.188.102
+- name: 10,11|香港3|@ripaojiedian
+  network: tcp
+  password: d6d86a97-2bef-4f89-9527-ce2003377677
+  port: 13007
+  server: naiu-hk.05vr9nyqg5.download
   skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 6f7ad57a-b1c8-4f83-988a-668a927d494e
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
 - name: 10,11|香港4|@ripaojiedian
   network: tcp
   password: MfqALmAJ
@@ -695,6 +728,16 @@ proxies:
     headers:
       Host: tw1bQiWSE4x.fzbqfrse.xyz
     path: /video/GQ2qE5Us9g
+- alterId: 0
+  cipher: auto
+  name: 10|🇹🇼 台湾3|@ripaojiedian
+  port: 3283
+  server: tw99.jinkela2024vpn.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: e8e6f618-842c-33d4-9a9f-7827614a6bf9
 - name: 10,11|日本|@ripaojiedian
   network: tcp
   password: MfqALmAJ
@@ -702,14 +745,22 @@ proxies:
   server: 36.151.195.77
   skip-cert-verify: true
   type: trojan
-- name: 10,11|日本2|@ripaojiedian
-  network: tcp
-  password: d2382a15-ae45-40ab-8925-84792b584bd8
-  port: 20230
-  server: jp005.421421.xyz
+- alterId: 0
+  cipher: auto
+  name: 10,11|日本2|@ripaojiedian
+  network: ws
+  port: '63011'
+  server: in06.dns2024.org
+  servername: ''
   skip-cert-verify: false
-  sni: 421421.xyz
-  type: trojan
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e8e6f618-842c-33d4-9a9f-7827614a6bf9
+  ws-opts:
+    headers:
+      Host: jp-a-mugua.weibo-cdn.best
+    path: /
 - alterId: 0
   cipher: auto
   name: 10,11|日本3|@ripaojiedian
@@ -726,6 +777,16 @@ proxies:
     headers:
       Host: kvjqqknzjp6.yofnhkfc.xyz
     path: /video/Zo98PYfE
+- alterId: 0
+  cipher: auto
+  name: 10|🇰🇷 韩国|@ripaojiedian
+  port: 63097
+  server: in06.dns2024.org
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e8e6f618-842c-33d4-9a9f-7827614a6bf9
 - alterId: 0
   cipher: auto
   name: 10,11|新加坡|@ripaojiedian
@@ -752,18 +813,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 10|🇺🇸 美国3|@ripaojiedian
-  network: ws
-  password: 401b8df2-10f3-4440-8b7f-9870474b2777
-  port: 443
-  server: ct.cfyun.top
-  skip-cert-verify: false
-  sni: cfus4.trojanwss.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: cfus4.trojanwss.xyz
-    path: /CFJICHANG
 - name: 10,11,12|CN_speednode_0028
   network: tcp
   password: MfqALmAJ
@@ -792,12 +841,12 @@ proxies:
   cipher: auto
   name: 11|香港|@ripaojiedian
   network: tcp
-  port: '29767'
-  server: bvip.hongxingdl.vip
+  port: '63099'
+  server: in06.dns2024.org
   servername: ''
   tls: false
   type: vmess
-  uuid: 0daceca8-228a-4cc6-a613-db4c6b05c899
+  uuid: e8e6f618-842c-33d4-9a9f-7827614a6bf9
 - alterId: 64
   cipher: auto
   name: 11|香港2|@ripaojiedian
@@ -810,14 +859,24 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11|香港3|@ripaojiedian
+  name: 11|台湾3|@ripaojiedian
   network: tcp
-  port: '53061'
-  server: 38.147.188.102
+  port: '3283'
+  server: tw99.jinkela2024vpn.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: e8e6f618-842c-33d4-9a9f-7827614a6bf9
+- alterId: 0
+  cipher: auto
+  name: 11|韩国|@ripaojiedian
+  network: tcp
+  port: '63097'
+  server: in06.dns2024.org
   servername: ''
   tls: false
   type: vmess
-  uuid: 6f7ad57a-b1c8-4f83-988a-668a927d494e
+  uuid: e8e6f618-842c-33d4-9a9f-7827614a6bf9
 - alterId: 64
   cipher: auto
   name: 11|美国2|@ripaojiedian
@@ -828,17 +887,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 11|美国3|@ripaojiedian
-  network: ws
-  password: 401b8df2-10f3-4440-8b7f-9870474b2777
-  port: 443
-  server: ct.cfyun.top
-  sni: cfus4.trojanwss.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: cfus4.trojanwss.xyz
-    path: '%2FCFJICHANG'
 - alterId: 0
   cipher: auto
   name: 12|CN_speednode_0027
