@@ -11,6 +11,15 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - client-fingerprint: chrome
+  name: 10,11|美国3|@ripaojiedian
+  network: tcp
+  password: Z3FSA9weaaRYpN89weaaRYpN89weaaRYpN80CDYFOxS5TSBqlCyAaXzaXzc7ZpngISBqlCyAaXzc7Zp
+  port: 443
+  server: tubular.wireshop.net
+  skip-cert-verify: false
+  sni: tubular.wireshop.net
+  type: trojan
+- client-fingerprint: chrome
   name: 10,11,12|CN_speednode_0028
   network: tcp
   password: MfqALmAJ
