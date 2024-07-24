@@ -10,13 +10,3 @@ proxies:
   tls: false
   type: vmess
   uuid: e8e6f618-842c-33d4-9a9f-7827614a6bf9
-- alterId: 0
-  cipher: auto
-  name: 11|韩国|@ripaojiedian
-  network: tcp
-  port: '63097'
-  server: in06.dns2024.org
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e8e6f618-842c-33d4-9a9f-7827614a6bf9
