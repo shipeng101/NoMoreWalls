@@ -1,18 +1,1 @@
-proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10,11|新加坡|@ripaojiedian
-  network: ws
-  port: '8443'
-  server: 54.179.130.50
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 4ca4e724-dd49-40a3-962d-1fa57369d705
-  ws-opts:
-    headers:
-      Host: ''
-    path: /helloword
+proxies: []
