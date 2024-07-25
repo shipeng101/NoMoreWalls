@@ -12,7 +12,7 @@ proxies:
     skip-cert-verify: false
     tls: true
   port: 8443
-  server: 36.232.48.74
+  server: 118.170.94.207
   tfo: false
   type: ss
 - alterId: 64
@@ -26,23 +26,15 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
+- client-fingerprint: chrome
   name: 10,11|香港3|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: 22.6bnw.top
-  servername: ''
+  network: tcp
+  password: d6d86a97-2bef-4f89-9527-ce2003377677
+  port: 13007
+  server: naiu-hk.05vr9nyqg5.download
   skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: b0549224-831d-4cba-bab9-94fdc6a1327e
-  ws-opts:
-    headers:
-      Host: polohk.6bnw.top
-    path: /cctv?ed=2048
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
 - client-fingerprint: chrome
   name: 10,11|香港4|@ripaojiedian
   network: tcp
@@ -51,17 +43,15 @@ proxies:
   server: 36.151.195.77
   skip-cert-verify: true
   type: trojan
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10|🇭🇰 香港5|@ripaojiedian
-  port: 63090
-  server: in06.dns2024.org
+- client-fingerprint: chrome
+  name: 10,11|香港5|@ripaojiedian
+  network: tcp
+  password: NUeBvQHox0BmnHpu
+  port: 443
+  server: ggghhhk51.xyz
   skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e8e6f618-842c-33d4-9a9f-7827614a6bf9
+  sni: ggghhhk51.xyz
+  type: trojan
 - alterId: 64
   cipher: auto
   name: 11|香港2|@ripaojiedian
@@ -72,13 +62,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11|香港5|@ripaojiedian
-  network: tcp
-  port: '63090'
-  server: in06.dns2024.org
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e8e6f618-842c-33d4-9a9f-7827614a6bf9
