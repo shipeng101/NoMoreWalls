@@ -1,15 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10|🇰🇷 韩国|@ripaojiedian
-  port: 63097
-  server: in06.dns2024.org
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e8e6f618-842c-33d4-9a9f-7827614a6bf9
 - name: 12|KR_speednode_0102
   network: ws
   port: 39109

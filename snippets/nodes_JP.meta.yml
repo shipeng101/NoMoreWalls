@@ -24,14 +24,6 @@ proxies:
     headers:
       Host: jp-a-mugua.weibo-cdn.best
     path: /
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 10|🇯🇵 日本3|@ripaojiedian
-  password: WcilR7WG
-  port: 33334
-  server: hna.lightssocks.com
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome

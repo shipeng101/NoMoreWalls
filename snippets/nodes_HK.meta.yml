@@ -51,6 +51,17 @@ proxies:
   server: 36.151.195.77
   skip-cert-verify: true
   type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇭🇰 香港5|@ripaojiedian
+  port: 63090
+  server: in06.dns2024.org
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e8e6f618-842c-33d4-9a9f-7827614a6bf9
 - alterId: 64
   cipher: auto
   name: 11|香港2|@ripaojiedian
