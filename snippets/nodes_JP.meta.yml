@@ -12,18 +12,18 @@ proxies:
   client-fingerprint: chrome
   name: 10,11|日本2|@ripaojiedian
   network: ws
-  port: '63011'
-  server: in06.dns2024.org
+  port: '2052'
+  server: 22.6bkc.top
   servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: e8e6f618-842c-33d4-9a9f-7827614a6bf9
+  uuid: 5bb63601-bac8-40fd-9dc4-92de6e6ecd33
   ws-opts:
     headers:
-      Host: jp-a-mugua.weibo-cdn.best
-    path: /
+      Host: xzjp.6bkc.top
+    path: /?ed=2560
 - name: 12|JP_speednode_0100
   network: ws
   port: 80

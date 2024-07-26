@@ -10,15 +10,23 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- client-fingerprint: chrome
-  name: 10,11,12|CN_speednode_0028
-  network: tcp
-  password: MfqALmAJ
-  port: 40081
-  server: 183.232.139.24
-  skip-cert-verify: true
-  type: trojan
-  udp: false
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10,11|美国3|@ripaojiedian
+  network: ws
+  port: '8080'
+  server: mugen11.6bnw.top
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 5bb63601-bac8-40fd-9dc4-92de6e6ecd33
+  ws-opts:
+    headers:
+      Host: buyvmus2.6bnw.top
+    path: /?ed=2560
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
