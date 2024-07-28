@@ -1,4 +1,13 @@
 proxies:
+- client-fingerprint: chrome
+  name: 10,11|新加坡|@ripaojiedian
+  network: tcp
+  password: cfa36789-94aa-4c4c-ad06-ab35a8eb9312
+  port: 718
+  server: 4sgmax02.156786.xyz
+  skip-cert-verify: false
+  sni: 4sgmax02.156786.xyz
+  type: trojan
 - client-fingerprint: random
   name: 12|SG_speednode_0135
   network: ws

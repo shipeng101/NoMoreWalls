@@ -16,23 +16,15 @@ proxies:
     headers:
       Host: ip005.dtku47.xyz
     path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
+- client-fingerprint: chrome
   name: 10,11|美国2|@ripaojiedian
-  network: ws
-  port: '8080'
-  server: bestcf.onecf.eu.org
-  servername: ''
+  network: tcp
+  password: cfa36789-94aa-4c4c-ad06-ab35a8eb9312
+  port: 18298
+  server: tw60.233235.xyz
   skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 1c1cb7fe-a929-4e47-b292-4073b63d2d4b
-  ws-opts:
-    headers:
-      Host: lamhosting.daozhang.link
-    path: /?ed=2048
+  sni: usmax03.170203.xyz
+  type: trojan
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
