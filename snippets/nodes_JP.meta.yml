@@ -24,6 +24,38 @@ proxies:
     headers:
       Host: wtywwcrzjp5.yofnhkfc.xyz
     path: /video/9TfVEyku
+- client-fingerprint: chrome
+  name: 10|🇯🇵 日本4|@ripaojiedian
+  password: 4bd14bdb-db19-4de4-a452-58b897046d2c
+  port: 29496
+  server: f10002.flyflylflyflysbs.sbs
+  skip-cert-verify: false
+  sni: jp01.ckcloud.info
+  type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇯🇵 日本5|@ripaojiedian
+  network: ws
+  port: 46011
+  server: mmjp11.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: f9b02d8c-b69b-435f-aa25-68393e5fb121
+  ws-opts:
+    headers:
+      Host: mmjp11.micloud.buzz
+    path: /zh-cn
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 10|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.212.113.208
+  tfo: false
+  type: ss
 - name: 12|JP_speednode_0100
   network: ws
   port: 80

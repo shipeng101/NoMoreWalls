@@ -16,15 +16,6 @@ proxies:
     headers:
       Host: ip005.dtku47.xyz
     path: github.com/Alvin9999
-- client-fingerprint: chrome
-  name: 10,11|美国2|@ripaojiedian
-  network: tcp
-  password: cfa36789-94aa-4c4c-ad06-ab35a8eb9312
-  port: 18298
-  server: tw60.233235.xyz
-  skip-cert-verify: false
-  sni: usmax03.170203.xyz
-  type: trojan
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -59,6 +50,13 @@ proxies:
     headers:
       Host: ip14.freegradely.xyz
     path: github.com/Alvin9999
+- name: 11|美国2|@ripaojiedian
+  network: tcp
+  password: cfa36789-94aa-4c4c-ad06-ab35a8eb9312
+  port: 18298
+  server: tw60.233235.xyz
+  sni: usmax03.170203.xyz
+  type: trojan
 - name: 12|US_speednode_0165
   password: epDl3yFT5CNCKazFSqAxDOAyau3IXjxl63YcZSE0248BnZ7gOa8C9pYR3weSDR
   port: 28342

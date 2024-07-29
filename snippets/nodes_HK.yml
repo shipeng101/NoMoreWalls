@@ -27,56 +27,20 @@ proxies:
       Host: mmhk01.micloud.buzz
     path: /zh-cn
 - client-fingerprint: chrome
-  name: 10,11|香港4|@ripaojiedian
-  network: tcp
+  name: 10|🇭🇰 香港4|@ripaojiedian
   password: MfqALmAJ
-  port: 20819
-  server: 36.151.195.77
+  port: 51000
+  server: 36.134.38.49
   skip-cert-verify: true
   type: trojan
 - client-fingerprint: chrome
-  name: 10,11|香港5|@ripaojiedian
-  network: tcp
+  name: 10|🇭🇰 香港5|@ripaojiedian
   password: NUeBvQHox0BmnHpu
   port: 443
-  server: gnmktnwq58.xyz
+  server: hjksdn03.xyz
   skip-cert-verify: false
-  sni: gnmktnwq58.xyz
+  sni: hjksdn03.xyz
   type: trojan
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10,11|香港6|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: 4.6bnw.top
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: b5abc4c0-b518-4195-88b4-57900f16fb65
-  ws-opts:
-    headers:
-      Host: hkbn.6bnw.top
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10,11|香港8|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: cfcdn2.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: a223af01-b481-4abf-a305-60d60587d1e4
-  ws-opts:
-    headers:
-      Host: zifstzamhk1.yofnhkfc.xyz
-    path: /video/VuDFdktz
 - alterId: 64
   cipher: auto
   name: 11|香港2|@ripaojiedian
@@ -101,3 +65,45 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
+- name: 11|香港4|@ripaojiedian
+  network: tcp
+  password: MfqALmAJ
+  port: 20819
+  server: 36.151.195.77
+  skip-cert-verify: true
+  type: trojan
+- name: 11|香港5|@ripaojiedian
+  network: tcp
+  password: NUeBvQHox0BmnHpu
+  port: 443
+  server: gnmktnwq58.xyz
+  sni: gnmktnwq58.xyz
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 11|香港6|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: 4.6bnw.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b5abc4c0-b518-4195-88b4-57900f16fb65
+  ws-opts:
+    headers:
+      Host: hkbn.6bnw.top
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 11|香港8|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: cfcdn2.sanfencdn9.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a223af01-b481-4abf-a305-60d60587d1e4
+  ws-opts:
+    headers:
+      Host: zifstzamhk1.yofnhkfc.xyz
+    path: /video/VuDFdktz
