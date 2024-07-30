@@ -1,8 +1,8 @@
 proxies:
-- name: 12|DE_speednode_0034
+- name: 12|DE_speednode_0022
   network: ws
   port: 443
-  server: 188.244.122.64
+  server: 188.244.122.109
   servername: cfed.tgzdyz2.top
   tls: true
   type: vless
@@ -10,4 +10,4 @@ proxies:
   ws-opts:
     headers:
       Host: cfed.tgzdyz2.top
-    path: tg@zdyz2
+    path: Twitterfreecodestg@zdyz2

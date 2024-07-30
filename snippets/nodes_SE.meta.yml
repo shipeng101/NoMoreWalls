@@ -1,15 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: 12|SE_speednode_0133
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.60.141.186
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: false
-- client-fingerprint: chrome
-  name: 12|SE_speednode_0134
+  name: 12|SE_speednode_0149
   network: ws
   port: 443
   server: 185.146.173.32
@@ -21,3 +12,30 @@ proxies:
     headers:
       Host: e10c0e4b.oodaeq2.pages.dev
     path: /tel.icv2ray.space
+- client-fingerprint: chrome
+  name: 12|SE_speednode_0148
+  network: ws
+  port: 443
+  server: 185.146.173.32
+  servername: e10c0e4b.oodaeq2.pages.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: d7bbfe83-b037-48ae-996c-b98ed0441ba2
+  ws-opts:
+    headers:
+      Host: e10c0e4b.oodaeq2.pages.dev
+    path: /tel.icv2ray.spacefp=chrome
+- client-fingerprint: chrome
+  name: 12|SE_speednode_0150
+  network: ws
+  port: 80
+  server: 185.146.173.94
+  servername: ch1.vless.site
+  type: vless
+  uuid: f935b2d4-229d-5f73-bc99-fdb3a8b48088
+  ws-opts:
+    headers:
+      Host: ch1.vless.site
+    path: /vless

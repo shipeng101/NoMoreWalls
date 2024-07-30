@@ -1,4 +1,31 @@
 proxies:
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 10|🇭🇰 香港KT|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: h1.fjdd.store
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: false
+    tls: true
+  port: 8443
+  server: 172.67.141.111
+  tfo: false
+  type: ss
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇭🇰 香港|@ripaojiedian
+  port: 42055
+  server: 120.232.153.37
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -27,20 +54,54 @@ proxies:
       Host: mmhk01.micloud.buzz
     path: /zh-cn
 - client-fingerprint: chrome
-  name: 10|🇭🇰 香港4|@ripaojiedian
+  name: 10,11|香港4|@ripaojiedian
+  network: tcp
   password: MfqALmAJ
   port: 51000
   server: 36.134.38.49
   skip-cert-verify: true
   type: trojan
-- client-fingerprint: chrome
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
   name: 10|🇭🇰 香港5|@ripaojiedian
+  port: 54104
+  server: 183.236.51.23
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇭🇰 香港7|@ripaojiedian
+  port: 29767
+  server: svip.hongxingdl.vip
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 01604cad-f37b-4f3d-84fe-165fb5d68bc4
+- client-fingerprint: chrome
+  name: 10,11|香港8|@ripaojiedian
+  network: tcp
   password: NUeBvQHox0BmnHpu
   port: 443
-  server: hjksdn03.xyz
+  server: pplaca05.top
   skip-cert-verify: false
-  sni: hjksdn03.xyz
+  sni: pplaca05.top
   type: trojan
+- alterId: 64
+  cipher: auto
+  name: 11|香港|@ripaojiedian
+  network: tcp
+  port: '42055'
+  server: 120.232.153.37
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 11|香港2|@ripaojiedian
@@ -65,57 +126,37 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
-- name: 11|香港4|@ripaojiedian
+- alterId: 64
+  cipher: auto
+  name: 11|香港5|@ripaojiedian
   network: tcp
-  password: MfqALmAJ
-  port: 20819
-  server: 36.151.195.77
+  port: '54104'
+  server: 183.236.51.23
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11|香港7|@ripaojiedian
+  network: tcp
+  port: '29767'
+  server: svip.hongxingdl.vip
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 01604cad-f37b-4f3d-84fe-165fb5d68bc4
+- client-fingerprint: chrome
+  name: 12|HK_speednode_0097
+  network: ws
+  port: 34237
+  server: 8.210.109.11
   skip-cert-verify: true
-  type: trojan
-- name: 11|香港5|@ripaojiedian
-  network: tcp
-  password: NUeBvQHox0BmnHpu
-  port: 443
-  server: gnmktnwq58.xyz
-  sni: gnmktnwq58.xyz
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 11|香港6|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: 4.6bnw.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b5abc4c0-b518-4195-88b4-57900f16fb65
-  ws-opts:
-    headers:
-      Host: hkbn.6bnw.top
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 11|香港8|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: cfcdn2.sanfencdn9.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a223af01-b481-4abf-a305-60d60587d1e4
-  ws-opts:
-    headers:
-      Host: zifstzamhk1.yofnhkfc.xyz
-    path: /video/VuDFdktz
-- name: 12|HK_speednode_0099
-  network: ws
-  port: 443
-  server: 16.162.37.167
-  servername: xinx.ylks.xyz
+  tfo: false
   tls: true
   type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  uuid: 7509f896-2115-4420-b487-501c9103bebd
   ws-opts:
     headers:
-      Host: xinx.ylks.xyz
-    path: /freecodes
+      Host: ccs.443888.xyz
+    path: /vless?ed=2560

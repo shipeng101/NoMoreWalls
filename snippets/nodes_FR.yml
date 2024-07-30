@@ -1,1 +1,10 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  name: 12|FR_speednode_0083
+  password: 2bf3db70-359e-11ef-93fe-1239d0255272
+  port: 443
+  server: fr1.test3.net
+  skip-cert-verify: true
+  sni: namasha.com
+  type: trojan
+  udp: true

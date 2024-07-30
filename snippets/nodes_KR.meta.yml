@@ -1,56 +1,32 @@
 proxies:
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 10|🇰🇷 韩国特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.78.200.155
-  tfo: false
-  type: ss
-- name: 12|KR_speednode_0102
+- name: 12|KR_speednode_0100
   network: ws
-  port: 39109
-  server: 59.3.87.55
-  servername: cfed.tgzdyz2.top
+  port: 443
+  server: 59.3.3.161
+  servername: page-us-qg0.pages.dev
   tls: true
   type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  uuid: bd7d2c5c-86bc-4d5c-8c6b-a5c58981e68c
   ws-opts:
     headers:
-      Host: cfed.tgzdyz2.top
-    path: /tg@zdyz2
-- client-fingerprint: random
-  name: 12|KR_speednode_0103
+      Host: page-us-qg0.pages.dev
+    path: /
+- name: 12|KR_speednode_0101
   network: ws
   port: 18916
   server: 49.165.150.206
   servername: cfed.tgzdyz2.top
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: /TG@ZDYZ2
-- name: 12|KR_speednode_0104
-  network: ws
-  port: 10103
-  server: 121.162.197.175
-  servername: cfed.tgzdyz2.top
   tls: true
   type: vless
   uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
   ws-opts:
     headers:
       Host: cfed.tgzdyz2.top
-    path: tg@zdyz2
-- name: 12|KR_speednode_0105
+    path: Twitterfreecodestg@zdyz2
+- name: 12|KR_speednode_0102
   network: ws
-  port: 38961
-  server: 222.113.18.206
+  port: 18916
+  server: 49.165.150.206
   servername: cfed.tgzdyz2.top
   tls: true
   type: vless
@@ -59,3 +35,68 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: /tg@zdyz2
+- client-fingerprint: chrome
+  name: 12|KR_speednode_0103
+  network: ws
+  port: 12371
+  server: 14.45.190.97
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 7509f896-2115-4420-b487-501c9103bebd
+  ws-opts:
+    headers:
+      Host: ccs.443888.xyz
+    path: /vless?ed=2560
+- client-fingerprint: chrome
+  name: 12|KR_speednode_0104
+  network: ws
+  port: 15800
+  server: 129.154.223.89
+  servername: dns68.putata.eu.org
+  tls: true
+  type: vless
+  uuid: d7dd3a35-b68b-4992-b319-a85b8a1fc8e5
+  ws-opts:
+    headers:
+      Host: dns68.putata.eu.org
+    path: /?ed=2048
+- client-fingerprint: chrome
+  name: 12|KR_speednode_0105
+  network: ws
+  port: 16575
+  server: 118.45.125.234
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 7509f896-2115-4420-b487-501c9103bebd
+  ws-opts:
+    headers:
+      Host: ccs.443888.xyz
+    path: /vless?ed=2560
+- client-fingerprint: chrome
+  name: 12|KR_speednode_0106
+  network: ws
+  port: 12245
+  server: 125.129.129.66
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 7509f896-2115-4420-b487-501c9103bebd
+  ws-opts:
+    headers:
+      Host: ccs.443888.xyz
+    path: /vless?ed=2560
+- client-fingerprint: chrome
+  name: 12|KR_speednode_0107
+  network: ws
+  port: 33185
+  server: 112.187.240.245
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 7509f896-2115-4420-b487-501c9103bebd
+  ws-opts:
+    headers:
+      Host: ccs.443888.xyz
+    path: /vless?ed=2560

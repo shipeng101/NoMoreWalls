@@ -10,31 +10,6 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 10,11|日本3|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: cfcdn3.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: a223af01-b481-4abf-a305-60d60587d1e4
-  ws-opts:
-    headers:
-      Host: wtywwcrzjp5.yofnhkfc.xyz
-    path: /video/9TfVEyku
-- client-fingerprint: chrome
-  name: 10|🇯🇵 日本4|@ripaojiedian
-  password: 4bd14bdb-db19-4de4-a452-58b897046d2c
-  port: 29496
-  server: f10002.flyflylflyflysbs.sbs
-  skip-cert-verify: false
-  sni: jp01.ckcloud.info
-  type: trojan
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
   name: 10|🇯🇵 日本5|@ripaojiedian
   network: ws
   port: 46011
@@ -48,35 +23,41 @@ proxies:
     headers:
       Host: mmjp11.micloud.buzz
     path: /zh-cn
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 10|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.212.113.208
-  tfo: false
-  type: ss
-- name: 12|JP_speednode_0100
+- alterId: 0
+  cipher: auto
+  name: 11|日本5|@ripaojiedian
   network: ws
-  port: 80
-  server: 138.2.18.184
-  servername: hkx.ylks.xyz
+  port: '46011'
+  server: mmjp11.micloud.buzz
+  servername: ''
   tls: false
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  type: vmess
+  uuid: f9b02d8c-b69b-435f-aa25-68393e5fb121
   ws-opts:
     headers:
-      Host: hkx.ylks.xyz
-    path: /freecodes
-- name: 12|JP_speednode_0101
+      Host: ''
+    path: /zh-cn
+- name: 12|JP_speednode_0098
   network: ws
-  port: 53780
-  server: 150.230.107.234
-  servername: vx.ylks.xyz
+  port: 443
+  server: 43.153.181.217
+  servername: cfed.tgzdyz2.top
   tls: true
   type: vless
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
   ws-opts:
     headers:
-      Host: vx.ylks.xyz
-    path: /
+      Host: cfed.tgzdyz2.top
+    path: /tg@zdyz2
+- name: 12|JP_speednode_0099
+  network: ws
+  port: 443
+  server: 43.153.181.217
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: Twitterfreecodestg@zdyz2

@@ -1,1 +1,20 @@
-proxies: []
+proxies:
+- name: 12|FR_speednode_0082
+  network: ws
+  port: 80
+  server: 193.70.90.159
+  servername: vkvd127.mycdn.me
+  tls: false
+  type: vless
+  uuid: f4859fc9-dc44-11ee-b9ba-00505603e70d
+  ws-opts:
+    path: /websocket
+- client-fingerprint: chrome
+  name: 12|FR_speednode_0083
+  password: 2bf3db70-359e-11ef-93fe-1239d0255272
+  port: 443
+  server: fr1.test3.net
+  skip-cert-verify: true
+  sni: namasha.com
+  type: trojan
+  udp: true
