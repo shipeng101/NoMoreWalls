@@ -1,37 +1,12 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-3
+  name: 0|-https://t.me/MrXbin-5
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
   protocol: origin
   server: us-am3.eqnode.net
   type: ssr
-- cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-4
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13225
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: xrbsy1.cdn.node.a.tddns-ounk.com
-  type: ssr
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-10
-  network: ws
-  port: 80
-  server: nlch.blueberrynetwork.store
-  skip-cert-verify: true
-  type: vmess
-  udp: true
-  uuid: 3e5cda0a-6122-4f54-9e3c-3f49e7a526f9
-  ws-opts:
-    headers:
-      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-    path: /
 - alterId: 0
   cipher: auto
   h2-opts: {}
@@ -46,6 +21,22 @@ proxies:
   udp: true
   uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
   ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-13
+  network: ws
+  port: 80
+  server: nlch.blueberrynetwork.store
+  skip-cert-verify: true
+  type: vmess
+  udp: true
+  uuid: 3e5cda0a-6122-4f54-9e3c-3f49e7a526f9
+  ws-opts:
+    headers:
+      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
     path: /
 - alterId: 0
   cipher: auto
@@ -729,16 +720,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 10|🇭🇰 香港7|@ripaojiedian
-  port: 29767
-  server: svip.hongxingdl.vip
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 01604cad-f37b-4f3d-84fe-165fb5d68bc4
 - name: 10,11|香港8|@ripaojiedian
   network: tcp
   password: NUeBvQHox0BmnHpu
@@ -804,26 +785,10 @@ proxies:
 - name: 10,11|美国2|@ripaojiedian
   network: tcp
   password: yEnxJlVC
-  port: 44877
-  server: 36.151.195.77
+  port: 42571
+  server: 183.232.139.24
   skip-cert-verify: true
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 10,11|美国5|@ripaojiedian
-  network: ws
-  port: '2086'
-  server: 104.26.0.56
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip14.freegradely.xyz
-    path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: 10,11|美国3|@ripaojiedian
@@ -840,6 +805,22 @@ proxies:
     headers:
       Host: us2jdgv5GC7.fzbqfrse.xyz
     path: /video/DDC4btA8wc/
+- alterId: 0
+  cipher: auto
+  name: 10,11|美国5|@ripaojiedian
+  network: ws
+  port: '2086'
+  server: 104.26.0.56
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip14.freegradely.xyz
+    path: github.com/Alvin9999
 - alterId: 64
   cipher: auto
   name: 11|香港|@ripaojiedian
@@ -884,16 +865,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11|香港7|@ripaojiedian
-  network: tcp
-  port: '29767'
-  server: svip.hongxingdl.vip
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 01604cad-f37b-4f3d-84fe-165fb5d68bc4
 - alterId: 0
   cipher: auto
   name: 11|日本5|@ripaojiedian

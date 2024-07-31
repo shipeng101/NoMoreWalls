@@ -72,17 +72,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10|🇭🇰 香港7|@ripaojiedian
-  port: 29767
-  server: svip.hongxingdl.vip
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 01604cad-f37b-4f3d-84fe-165fb5d68bc4
 - client-fingerprint: chrome
   name: 10,11|香港8|@ripaojiedian
   network: tcp
@@ -136,13 +125,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11|香港7|@ripaojiedian
-  network: tcp
-  port: '29767'
-  server: svip.hongxingdl.vip
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 01604cad-f37b-4f3d-84fe-165fb5d68bc4
