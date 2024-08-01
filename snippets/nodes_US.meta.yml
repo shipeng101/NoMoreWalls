@@ -20,7 +20,7 @@ proxies:
   name: 10,11|美国2|@ripaojiedian
   network: tcp
   password: yEnxJlVC
-  port: 42571
+  port: 54367
   server: 183.232.139.24
   skip-cert-verify: true
   type: trojan
