@@ -24,23 +24,19 @@ proxies:
   server: 183.232.139.24
   skip-cert-verify: true
   type: trojan
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10,11|美国3|@ripaojiedian
+- client-fingerprint: chrome
+  name: 10|🇺🇸 美国3|@ripaojiedian
   network: ws
-  port: '8080'
-  server: cfcdn1.sanfencdn9.com
-  servername: ''
+  password: f2191442-1436-3d79-801e-80d8de896c73
+  port: 443
+  server: us3-july.88888802.xyz
   skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 1dbf5c96-31cb-4fd7-8f63-ba8d2bdace34
+  sni: us3-july.88888802.xyz
+  type: trojan
   ws-opts:
     headers:
-      Host: us5PhAx6xsj.fzbqfrse.xyz
-    path: /video/f8ZKTGaGoC/
+      Host: us3-july.88888802.xyz
+    path: /91838f3b905c42c7aa5b664b27d8193b
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -74,6 +70,14 @@ proxies:
     headers:
       Host: ip14.freegradely.xyz
     path: github.com/Alvin9999
+- name: 11|美国3|@ripaojiedian
+  network: ws
+  password: f2191442-1436-3d79-801e-80d8de896c73
+  port: 443
+  server: us3-july.88888802.xyz
+  type: trojan
+  ws-opts:
+    path: '%2F91838f3b905c42c7aa5b664b27d8193b'
 - alterId: 0
   cipher: auto
   name: 11|美国4|@ripaojiedian

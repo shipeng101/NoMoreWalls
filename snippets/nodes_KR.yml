@@ -1,10 +1,1 @@
-proxies:
-- client-fingerprint: chrome
-  name: 10,11|韩国|@ripaojiedian
-  network: tcp
-  password: 5f27eb67-a1ea-43a3-9a33-8d85d61b9574
-  port: 443
-  server: 52.231.36.138
-  skip-cert-verify: false
-  sni: krnode01.oportal.cc
-  type: trojan
+proxies: []
