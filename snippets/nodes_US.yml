@@ -20,23 +20,27 @@ proxies:
   name: 10,11|美国2|@ripaojiedian
   network: tcp
   password: yEnxJlVC
-  port: 54367
+  port: 3464
   server: 183.232.139.24
   skip-cert-verify: true
   type: trojan
-- client-fingerprint: chrome
-  name: 10|🇺🇸 美国3|@ripaojiedian
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10,11|美国3|@ripaojiedian
   network: ws
-  password: f2191442-1436-3d79-801e-80d8de896c73
-  port: 443
-  server: us3-july.88888802.xyz
+  port: '2095'
+  server: cfcdn1.sanfencdn9.com
+  servername: ''
   skip-cert-verify: false
-  sni: us3-july.88888802.xyz
-  type: trojan
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 22ec0027-5230-462c-8100-ef7d489caaef
   ws-opts:
     headers:
-      Host: us3-july.88888802.xyz
-    path: /91838f3b905c42c7aa5b664b27d8193b
+      Host: us82pRzxDMb.fzbqfrse.xyz
+    path: /video/qYZue4zaWS
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -70,14 +74,31 @@ proxies:
     headers:
       Host: ip14.freegradely.xyz
     path: github.com/Alvin9999
-- name: 11|美国3|@ripaojiedian
-  network: ws
-  password: f2191442-1436-3d79-801e-80d8de896c73
-  port: 443
-  server: us3-july.88888802.xyz
+- client-fingerprint: chrome
+  name: 10,11|美国6|@ripaojiedian
+  network: tcp
+  password: IU5j1R3chk
+  port: 12398
+  server: gg.makezhan.xyz
+  skip-cert-verify: true
+  sni: gg.makezhan.xyz
   type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇺🇸 美国7|@ripaojiedian
+  network: ws
+  port: 38848
+  server: proxy.cc-la.152618.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 20fed645-619c-4ca1-c00e-743ea8a3b51f
   ws-opts:
-    path: '%2F91838f3b905c42c7aa5b664b27d8193b'
+    headers:
+      Host: proxy.cc-la.152618.xyz
+    path: /6c8e5a1b
 - alterId: 0
   cipher: auto
   name: 11|美国4|@ripaojiedian
@@ -92,3 +113,17 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: 11|美国7|@ripaojiedian
+  network: ws
+  port: '38848'
+  server: proxy.cc-la.152618.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 20fed645-619c-4ca1-c00e-743ea8a3b51f
+  ws-opts:
+    headers:
+      Host: ''
+    path: /6c8e5a1b
