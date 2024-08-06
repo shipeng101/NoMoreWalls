@@ -7,6 +7,22 @@ proxies:
   server: 183.232.139.24
   skip-cert-verify: true
   type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇭🇰 香港|@ripaojiedian
+  network: ws
+  port: 46001
+  server: mmhk01.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
+  ws-opts:
+    headers:
+      Host: mmhk01.micloud.buzz
+    path: /zh-cn
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -18,6 +34,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11|香港|@ripaojiedian
+  network: ws
+  port: '46001'
+  server: mmhk01.micloud.buzz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
 - alterId: 64
   cipher: auto
   name: 11|香港5|@ripaojiedian

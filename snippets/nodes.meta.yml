@@ -9,6 +9,21 @@ proxies:
   type: ssr
 - alterId: 0
   cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-9
+  network: ws
+  port: 80
+  server: 206.238.236.36
+  skip-cert-verify: true
+  type: vmess
+  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
+  ws-opts:
+    headers:
+      Host: mysan2.jaquay22.workers.dev
+    path: /gwdef.sbs/linkws
+- alterId: 0
+  cipher: auto
   name: 2|d*********g.com_0
   network: ws
   port: 2086
@@ -629,6 +644,21 @@ proxies:
   server: 183.232.139.24
   skip-cert-verify: true
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 10|🇭🇰 香港|@ripaojiedian
+  network: ws
+  port: 46001
+  server: mmhk01.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
+  ws-opts:
+    headers:
+      Host: mmhk01.micloud.buzz
+    path: /zh-cn
 - alterId: 64
   cipher: auto
   name: 10|🇭🇰 香港5|@ripaojiedian
@@ -639,22 +669,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 10,11|台湾3|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: cfcdn1.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 22ec0027-5230-462c-8100-ef7d489caaef
-  ws-opts:
-    headers:
-      Host: tw1bQiWSE4x.fzbqfrse.xyz
-    path: /video/GQ2qE5Us9g
 - name: 10,11|日本|@ripaojiedian
   network: tcp
   password: yEnxJlVC
@@ -664,7 +678,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 10,11|日本3|@ripaojiedian
+  name: 10,11|日本2|@ripaojiedian
   network: ws
   port: '80'
   server: cfcdn3.sanfencdn9.com
@@ -673,11 +687,57 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: 22ec0027-5230-462c-8100-ef7d489caaef
+  uuid: 823b4a45-8728-425b-abb4-2d9ea30fd61e
   ws-opts:
     headers:
       Host: oA5FSz9Tjp1.yofnhkfc.xyz
     path: /video/P7EExoE2
+- alterId: 0
+  cipher: auto
+  name: 10|🇯🇵 日本3|@ripaojiedian
+  network: ws
+  port: 46011
+  server: mmjp11.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
+  ws-opts:
+    headers:
+      Host: mmjp11.micloud.buzz
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: 10|🇸🇬 新加坡|@ripaojiedian
+  network: ws
+  port: 46016
+  server: mmsg16.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
+  ws-opts:
+    headers:
+      Host: mmsg16.micloud.buzz
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: 10,11|新加坡2|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: cfcdn2.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 823b4a45-8728-425b-abb4-2d9ea30fd61e
+  ws-opts:
+    headers:
+      Host: jpafzyhfsg3.yofnhkfc.xyz
+    path: /video/u4eCZTxW
 - alterId: 0
   cipher: auto
   name: 10,11|美国|@ripaojiedian
@@ -705,33 +765,18 @@ proxies:
   cipher: auto
   name: 10,11|美国3|@ripaojiedian
   network: ws
-  port: '2095'
+  port: '2052'
   server: cfcdn1.sanfencdn9.com
   servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 22ec0027-5230-462c-8100-ef7d489caaef
+  uuid: 823b4a45-8728-425b-abb4-2d9ea30fd61e
   ws-opts:
     headers:
-      Host: us82pRzxDMb.fzbqfrse.xyz
-    path: /video/qYZue4zaWS
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸 美国4|@ripaojiedian
-  network: ws
-  port: 46036
-  server: mmus36.micloud.buzz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: f9b02d8c-b69b-435f-aa25-68393e5fb121
-  ws-opts:
-    headers:
-      Host: mmus36.micloud.buzz
-    path: /zh-cn
+      Host: us1cPZiz8nb.fzbqfrse.xyz
+    path: /video/6VBhAkCtV4/
 - alterId: 0
   cipher: auto
   name: 10,11|美国5|@ripaojiedian
@@ -748,29 +793,20 @@ proxies:
     headers:
       Host: ip14.freegradely.xyz
     path: github.com/Alvin9999
-- name: 10,11|美国6|@ripaojiedian
-  network: tcp
-  password: IU5j1R3chk
-  port: 12398
-  server: gg.makezhan.xyz
-  skip-cert-verify: true
-  sni: gg.makezhan.xyz
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸 美国7|@ripaojiedian
+  name: 11|香港|@ripaojiedian
   network: ws
-  port: 38848
-  server: proxy.cc-la.152618.xyz
-  skip-cert-verify: false
-  tfo: false
+  port: '46001'
+  server: mmhk01.micloud.buzz
+  servername: ''
   tls: false
   type: vmess
-  uuid: 20fed645-619c-4ca1-c00e-743ea8a3b51f
+  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
   ws-opts:
     headers:
-      Host: proxy.cc-la.152618.xyz
-    path: /6c8e5a1b
+      Host: ''
+    path: /zh-cn
 - alterId: 64
   cipher: auto
   name: 11|香港5|@ripaojiedian
@@ -783,32 +819,32 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11|美国4|@ripaojiedian
+  name: 11|日本3|@ripaojiedian
   network: ws
-  port: '46036'
-  server: mmus36.micloud.buzz
+  port: '46011'
+  server: mmjp11.micloud.buzz
   servername: ''
   tls: false
   type: vmess
-  uuid: f9b02d8c-b69b-435f-aa25-68393e5fb121
+  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
   ws-opts:
     headers:
       Host: ''
     path: /zh-cn
 - alterId: 0
   cipher: auto
-  name: 11|美国7|@ripaojiedian
+  name: 11|新加坡|@ripaojiedian
   network: ws
-  port: '38848'
-  server: proxy.cc-la.152618.xyz
+  port: '46016'
+  server: mmsg16.micloud.buzz
   servername: ''
   tls: false
   type: vmess
-  uuid: 20fed645-619c-4ca1-c00e-743ea8a3b51f
+  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
   ws-opts:
     headers:
       Host: ''
-    path: /6c8e5a1b
+    path: /zh-cn
 - name: 12|AE_speednode_0002
   network: ws
   port: 80
