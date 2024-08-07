@@ -17,8 +17,7 @@ proxies:
       Host: ip005.dtku47.xyz
     path: github.com/Alvin9999
 - client-fingerprint: chrome
-  name: 10,11|美国2|@ripaojiedian
-  network: tcp
+  name: 10|🇺🇸 美国2|@ripaojiedian
   password: yEnxJlVC
   port: 3464
   server: 183.232.139.24
@@ -27,11 +26,10 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 10,11|美国3|@ripaojiedian
+  name: 10|🇺🇸 美国3|@ripaojiedian
   network: ws
-  port: '2052'
+  port: 2052
   server: cfcdn1.sanfencdn9.com
-  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -58,3 +56,31 @@ proxies:
     headers:
       Host: ip14.freegradely.xyz
     path: github.com/Alvin9999
+- alterId: 64
+  cipher: auto
+  name: 11|美国2|@ripaojiedian
+  network: ws
+  port: '30000'
+  server: 142.171.92.149
+  servername: www.56940816.xyz
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.56940816.xyz
+    path: /path/011410073331
+- alterId: 64
+  cipher: auto
+  name: 11|美国3|@ripaojiedian
+  network: ws
+  port: '49998'
+  server: 104.233.134.171
+  servername: www.32201598.xyz
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.32201598.xyz
+    path: /path/011410073331
