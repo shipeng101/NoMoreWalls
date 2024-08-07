@@ -1,29 +1,11 @@
 proxies:
-- cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-3
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13448
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: sjgysy.cdn.node.a.tddns-ounk.com
-  type: ssr
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-4
+  name: 0|-https://t.me/MrXbin-5
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
   protocol: origin
   server: us-am3.eqnode.net
-  type: ssr
-- cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-5
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13449
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: sjgysy.cdn.node.a.tddns-ounk.com
   type: ssr
 - alterId: 0
   cipher: auto
@@ -640,13 +622,6 @@ proxies:
     headers:
       Host: cdn3.freegradely.xyz
     path: github.com/Alvin9999
-- name: 10,11|香港4|@ripaojiedian
-  network: tcp
-  password: llyEnxJlVC
-  port: 51017
-  server: 183.232.139.24
-  skip-cert-verify: true
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 10|🇭🇰 香港|@ripaojiedian
@@ -664,6 +639,29 @@ proxies:
     path: /zh-cn
 - alterId: 64
   cipher: auto
+  name: 10,11|香港3|@ripaojiedian
+  network: ws
+  port: '30000'
+  server: 143.92.61.87
+  servername: www.13181057.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 99c2c24c-66bd-4419-afb8-ac0f5aaf337a
+  ws-opts:
+    headers:
+      Host: www.13181057.xyz
+    path: /path/011410073331
+- name: 10,11|香港4|@ripaojiedian
+  network: tcp
+  password: llyEnxJlVC
+  port: 51017
+  server: 183.232.139.24
+  skip-cert-verify: true
+  type: trojan
+- alterId: 64
+  cipher: auto
   name: 10|🇭🇰 香港5|@ripaojiedian
   port: 54104
   server: 183.236.51.23
@@ -672,27 +670,77 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 10|🇯🇵 日本|@ripaojiedian
+- alterId: 64
+  cipher: auto
+  name: 10,11|香港7|@ripaojiedian
+  network: ws
+  port: '443'
+  server: 172.247.118.254
+  servername: www.63461637.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.63461637.xyz
+    path: /path/011410073331
+- alterId: 64
+  cipher: auto
+  name: 10,11|香港8|@ripaojiedian
+  network: ws
+  port: '443'
+  server: 103.212.98.234
+  servername: www.59795160.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.59795160.xyz
+    path: /path/011410073331
+- alterId: 64
+  cipher: auto
+  name: 10,11|台湾2|@ripaojiedian
+  network: ws
+  port: '30000'
+  server: 211.23.160.242
+  servername: www.78384166.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.78384166.xyz
+    path: /path/011410073331
+- name: 10,11|日本|@ripaojiedian
+  network: tcp
   password: yEnxJlVC
-  port: 25560
+  port: 51012
   server: 183.232.139.24
   skip-cert-verify: true
   type: trojan
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 10|🇯🇵 日本2|@ripaojiedian
+  name: 10,11|日本2|@ripaojiedian
   network: ws
-  port: 80
-  server: cfcdn3.sanfencdn9.com
+  port: '443'
+  server: 134.122.139.79
+  servername: www.48907900.xyz
   skip-cert-verify: false
   tfo: false
-  tls: false
+  tls: true
   type: vmess
-  uuid: 823b4a45-8728-425b-abb4-2d9ea30fd61e
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: oA5FSz9Tjp1.yofnhkfc.xyz
-    path: /video/P7EExoE2
+      Host: www.48907900.xyz
+    path: /path/011410073331
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵 日本3|@ripaojiedian
@@ -708,6 +756,38 @@ proxies:
     headers:
       Host: mmjp11.micloud.buzz
     path: /zh-cn
+- alterId: 64
+  cipher: auto
+  name: 10,11|韩国|@ripaojiedian
+  network: ws
+  port: '30000'
+  server: 104.37.215.69
+  servername: www.47961225.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.47961225.xyz
+    path: /path/011410073331
+- alterId: 64
+  cipher: auto
+  name: 10,11|韩国2|@ripaojiedian
+  network: ws
+  port: '30000'
+  server: 137.220.130.58
+  servername: www.68703921.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.68703921.xyz
+    path: /path/011410073331
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬 新加坡|@ripaojiedian
@@ -725,21 +805,6 @@ proxies:
     path: /zh-cn
 - alterId: 0
   cipher: auto
-  name: 10|🇸🇬 新加坡2|@ripaojiedian
-  network: ws
-  port: 2052
-  server: cfcdn2.sanfencdn9.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 823b4a45-8728-425b-abb4-2d9ea30fd61e
-  ws-opts:
-    headers:
-      Host: jpafzyhfsg3.yofnhkfc.xyz
-    path: /video/u4eCZTxW
-- alterId: 0
-  cipher: auto
   name: 10,11|美国|@ripaojiedian
   network: ws
   port: '2086'
@@ -754,27 +819,38 @@ proxies:
     headers:
       Host: ip005.dtku47.xyz
     path: github.com/Alvin9999
-- name: 10|🇺🇸 美国2|@ripaojiedian
-  password: yEnxJlVC
-  port: 3464
-  server: 183.232.139.24
-  skip-cert-verify: true
-  type: trojan
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 10|🇺🇸 美国3|@ripaojiedian
+  name: 10,11|美国2|@ripaojiedian
   network: ws
-  port: 2052
-  server: cfcdn1.sanfencdn9.com
+  port: '30000'
+  server: 142.171.92.149
+  servername: www.56940816.xyz
   skip-cert-verify: false
   tfo: false
-  tls: false
+  tls: true
   type: vmess
-  uuid: 823b4a45-8728-425b-abb4-2d9ea30fd61e
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: us1cPZiz8nb.fzbqfrse.xyz
-    path: /video/6VBhAkCtV4/
+      Host: www.56940816.xyz
+    path: /path/011410073331
+- alterId: 64
+  cipher: auto
+  name: 10,11|美国3|@ripaojiedian
+  network: ws
+  port: '49998'
+  server: 104.233.134.171
+  servername: www.32201598.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.32201598.xyz
+    path: /path/011410073331
 - alterId: 0
   cipher: auto
   name: 10,11|美国5|@ripaojiedian
@@ -791,27 +867,6 @@ proxies:
     headers:
       Host: ip14.freegradely.xyz
     path: github.com/Alvin9999
-- cipher: aes-256-cfb
-  name: 10|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.197.150.228
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: 10|🇰🇷 韩国特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 3.112.216.172
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: 10|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.69.37.205
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 11|香港|@ripaojiedian
@@ -828,20 +883,6 @@ proxies:
     path: /zh-cn
 - alterId: 64
   cipher: auto
-  name: 11|香港3|@ripaojiedian
-  network: ws
-  port: '30000'
-  server: 143.92.61.87
-  servername: www.13181057.xyz
-  tls: true
-  type: vmess
-  uuid: 99c2c24c-66bd-4419-afb8-ac0f5aaf337a
-  ws-opts:
-    headers:
-      Host: www.13181057.xyz
-    path: /path/011410073331
-- alterId: 64
-  cipher: auto
   name: 11|香港5|@ripaojiedian
   network: tcp
   port: '54104'
@@ -850,69 +891,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 11|香港7|@ripaojiedian
-  network: ws
-  port: '443'
-  server: 172.247.118.254
-  servername: www.63461637.xyz
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.63461637.xyz
-    path: /path/011410073331
-- alterId: 64
-  cipher: auto
-  name: 11|香港8|@ripaojiedian
-  network: ws
-  port: '443'
-  server: 103.212.98.234
-  servername: www.59795160.xyz
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.59795160.xyz
-    path: /path/011410073331
-- alterId: 64
-  cipher: auto
-  name: 11|台湾2|@ripaojiedian
-  network: ws
-  port: '30000'
-  server: 211.23.160.242
-  servername: www.78384166.xyz
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.78384166.xyz
-    path: /path/011410073331
-- name: 11|日本|@ripaojiedian
-  network: tcp
-  password: yEnxJlVC
-  port: 51012
-  server: 183.232.139.24
-  skip-cert-verify: true
-  type: trojan
-- alterId: 64
-  cipher: auto
-  name: 11|日本2|@ripaojiedian
-  network: ws
-  port: '443'
-  server: 134.122.139.79
-  servername: www.48907900.xyz
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.48907900.xyz
-    path: /path/011410073331
 - alterId: 0
   cipher: auto
   name: 11|日本3|@ripaojiedian
@@ -927,34 +905,6 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
-- alterId: 64
-  cipher: auto
-  name: 11|韩国|@ripaojiedian
-  network: ws
-  port: '30000'
-  server: 104.37.215.69
-  servername: www.47961225.xyz
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.47961225.xyz
-    path: /path/011410073331
-- alterId: 64
-  cipher: auto
-  name: 11|韩国2|@ripaojiedian
-  network: ws
-  port: '30000'
-  server: 137.220.130.58
-  servername: www.68703921.xyz
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.68703921.xyz
-    path: /path/011410073331
 - alterId: 0
   cipher: auto
   name: 11|新加坡|@ripaojiedian
@@ -969,34 +919,6 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
-- alterId: 64
-  cipher: auto
-  name: 11|美国2|@ripaojiedian
-  network: ws
-  port: '30000'
-  server: 142.171.92.149
-  servername: www.56940816.xyz
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.56940816.xyz
-    path: /path/011410073331
-- alterId: 64
-  cipher: auto
-  name: 11|美国3|@ripaojiedian
-  network: ws
-  port: '49998'
-  server: 104.233.134.171
-  servername: www.32201598.xyz
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.32201598.xyz
-    path: /path/011410073331
 - name: 12|AE_speednode_0002
   network: ws
   port: 80
