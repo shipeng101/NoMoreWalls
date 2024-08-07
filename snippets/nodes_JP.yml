@@ -27,7 +27,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 10|🇯🇵 日本3|@ripaojiedian
+  name: 10|🇯🇵 日本5|@ripaojiedian
   network: ws
   port: 46011
   server: mmjp11.micloud.buzz
@@ -42,7 +42,24 @@ proxies:
     path: /zh-cn
 - alterId: 0
   cipher: auto
-  name: 11|日本3|@ripaojiedian
+  client-fingerprint: chrome
+  name: 10,11|日本6|@ripaojiedian
+  network: ws
+  port: '80'
+  server: cfcdn3.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 4c27e0c5-de26-43a5-bffd-2d25beb1c1d3
+  ws-opts:
+    headers:
+      Host: oA5FSz9Tjp1.yofnhkfc.xyz
+    path: /video/P7EExoE2
+- alterId: 0
+  cipher: auto
+  name: 11|日本5|@ripaojiedian
   network: ws
   port: '46011'
   server: mmjp11.micloud.buzz
@@ -54,3 +71,42 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
+- name: 12|JP_speednode_0177
+  network: ws
+  password: CMLiu
+  port: 56650
+  server: 45.143.234.181
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048
+- name: 12|JP_speednode_0178
+  network: ws
+  password: CMLiu
+  port: 13188
+  server: 45.251.241.54
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048
+- name: 12|JP_speednode_0179
+  network: ws
+  password: CMLiu
+  port: 58755
+  server: 116.206.93.237
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048

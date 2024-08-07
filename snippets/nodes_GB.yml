@@ -1,1 +1,27 @@
-proxies: []
+proxies:
+- name: 12|GB_speednode_0135
+  network: ws
+  password: TeleGram-VPNCTVIP
+  port: 443
+  server: 164.38.155.61
+  skip-cert-verify: true
+  sni: trojan-ws.vpnctvip.dns-dynamic.NeT
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      Host: trojan-ws.vpnctvip.dns-dynamic.NeT
+    path: /proxyIP=proxyip.us.fxxk.dedyn.io
+- name: 12|GB_speednode_0137
+  network: ws
+  password: TeleGram-VPNCTVIP
+  port: 443
+  server: 164.38.155.61
+  skip-cert-verify: true
+  sni: trojan-ws.vpnctvip.dns-dynamic.NeT
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      Host: trojan-ws.vpnctvip.dns-dynamic.NeT
+    path: /

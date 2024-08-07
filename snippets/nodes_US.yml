@@ -16,40 +16,39 @@ proxies:
     headers:
       Host: ip005.dtku47.xyz
     path: github.com/Alvin9999
-- alterId: 64
+- alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 10,11|美国2|@ripaojiedian
+  name: 10|🇺🇸 美国2|@ripaojiedian
   network: ws
-  port: '30000'
-  server: 142.171.92.149
-  servername: www.56940816.xyz
+  port: 46036
+  server: mmus36.micloud.buzz
   skip-cert-verify: false
   tfo: false
-  tls: true
+  tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
   ws-opts:
     headers:
-      Host: www.56940816.xyz
-    path: /path/011410073331
-- alterId: 64
+      Host: mmus36.micloud.buzz
+    path: /zh-cn
+- alterId: 0
   cipher: auto
   client-fingerprint: chrome
   name: 10,11|美国3|@ripaojiedian
   network: ws
-  port: '49998'
-  server: 104.233.134.171
-  servername: www.32201598.xyz
+  port: '2052'
+  server: cfcdn1.sanfencdn9.com
+  servername: ''
   skip-cert-verify: false
   tfo: false
-  tls: true
+  tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 4c27e0c5-de26-43a5-bffd-2d25beb1c1d3
   ws-opts:
     headers:
-      Host: www.32201598.xyz
-    path: /path/011410073331
+      Host: us2jdgv5GC7.fzbqfrse.xyz
+    path: /video/DDC4btA8wc/
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -67,3 +66,69 @@ proxies:
     headers:
       Host: ip14.freegradely.xyz
     path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 11|美国2|@ripaojiedian
+  network: ws
+  port: '46036'
+  server: mmus36.micloud.buzz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
+- name: 12|US_speednode_0278
+  network: ws
+  password: CMLiu
+  port: 29175
+  server: 206.237.127.47
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048
+- name: 12|US_speednode_0303
+  network: ws
+  password: CMLiu
+  port: 32011
+  server: 154.21.92.8
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048
+- name: 12|US_speednode_0305
+  network: ws
+  password: CMLiu
+  port: 22808
+  server: 154.17.227.4
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048
+- name: 12|US_speednode_0308
+  network: ws
+  password: CMLiu
+  port: 530
+  server: 38.59.246.12
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048

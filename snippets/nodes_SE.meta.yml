@@ -1,41 +1,46 @@
 proxies:
 - client-fingerprint: chrome
-  name: 12|SE_speednode_0149
+  name: 12|SE_speednode_0249
   network: ws
   port: 443
   server: 185.146.173.32
   servername: e10c0e4b.oodaeq2.pages.dev
+  skip-cert-verify: false
   tls: true
   type: vless
+  udp: true
   uuid: d7bbfe83-b037-48ae-996c-b98ed0441ba2
   ws-opts:
     headers:
       Host: e10c0e4b.oodaeq2.pages.dev
     path: /tel.icv2ray.space
 - client-fingerprint: chrome
-  name: 12|SE_speednode_0148
+  name: 12|SE_speednode_0250
   network: ws
   port: 443
   server: 185.146.173.32
   servername: e10c0e4b.oodaeq2.pages.dev
   skip-cert-verify: false
-  tfo: false
   tls: true
   type: vless
+  udp: true
+  uuid: d7bbfe83-b037-48ae-996c-b98ed0441ba2
+  ws-opts:
+    headers:
+      Host: e10c0e4b.oodaeq2.pages.dev
+    path: /tel.icv2ray.spacefp=chromefp=chrome
+- client-fingerprint: chrome
+  name: 12|SE_speednode_0251
+  network: ws
+  port: 443
+  server: 185.146.173.32
+  servername: e10c0e4b.oodaeq2.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
   uuid: d7bbfe83-b037-48ae-996c-b98ed0441ba2
   ws-opts:
     headers:
       Host: e10c0e4b.oodaeq2.pages.dev
     path: /tel.icv2ray.spacefp=chrome
-- client-fingerprint: chrome
-  name: 12|SE_speednode_0150
-  network: ws
-  port: 80
-  server: 185.146.173.94
-  servername: ch1.vless.site
-  type: vless
-  uuid: f935b2d4-229d-5f73-bc99-fdb3a8b48088
-  ws-opts:
-    headers:
-      Host: ch1.vless.site
-    path: /vless
