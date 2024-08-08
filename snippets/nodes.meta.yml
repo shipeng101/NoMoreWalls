@@ -11,7 +11,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-10
+  name: 0|-https://t.me/MrXbin-8
   network: ws
   port: 80
   server: 95.164.44.140
@@ -653,22 +653,22 @@ proxies:
     headers:
       Host: mmhk01.micloud.buzz
     path: /zh-cn
-- alterId: 64
+- alterId: 0
   cipher: auto
   name: 10,11|香港3|@ripaojiedian
   network: ws
-  port: '443'
-  server: 103.212.98.234
-  servername: www.59795160.xyz
+  port: '10184'
+  server: 36.139.183.164
+  servername: ''
   skip-cert-verify: false
   tfo: false
-  tls: true
+  tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: cbf73243-836e-4994-9d66-bc8b311a4491
   ws-opts:
     headers:
-      Host: www.59795160.xyz
-    path: /path/011410073331
+      Host: ''
+    path: /name
 - name: 10,11|香港4|@ripaojiedian
   network: tcp
   password: llyEnxJlVC
@@ -686,6 +686,22 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 10,11|香港7|@ripaojiedian
+  network: ws
+  port: '2083'
+  server: 104.16.205.187
+  servername: xg2.sux.lol
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 366496ee-03e4-4fd0-9fec-8cf20637f65b
+  ws-opts:
+    headers:
+      Host: xg2.sux.lol
+    path: /
 - name: 10,11|日本|@ripaojiedian
   network: tcp
   password: yEnxJlVC
@@ -693,22 +709,6 @@ proxies:
   server: 183.232.139.24
   skip-cert-verify: true
   type: trojan
-- alterId: 64
-  cipher: auto
-  name: 10,11|日本2|@ripaojiedian
-  network: ws
-  port: '443'
-  server: 134.122.139.79
-  servername: www.48907900.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.48907900.xyz
-    path: /path/011410073331
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵 日本5|@ripaojiedian
@@ -740,22 +740,6 @@ proxies:
     headers:
       Host: oA5FSz9Tjp1.yofnhkfc.xyz
     path: /video/P7EExoE2
-- alterId: 64
-  cipher: auto
-  name: 10,11|韩国2|@ripaojiedian
-  network: ws
-  port: '30000'
-  server: 137.220.130.58
-  servername: www.68703921.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.68703921.xyz
-    path: /path/011410073331
 - alterId: 0
   cipher: auto
   name: 10,11|美国|@ripaojiedian
@@ -772,21 +756,6 @@ proxies:
     headers:
       Host: ip005.dtku47.xyz
     path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸 美国2|@ripaojiedian
-  network: ws
-  port: 46036
-  server: mmus36.micloud.buzz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
-  ws-opts:
-    headers:
-      Host: mmus36.micloud.buzz
-    path: /zh-cn
 - alterId: 0
   cipher: auto
   name: 10,11|美国3|@ripaojiedian
@@ -879,20 +848,6 @@ proxies:
   network: ws
   port: '46011'
   server: mmjp11.micloud.buzz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn
-- alterId: 0
-  cipher: auto
-  name: 11|美国2|@ripaojiedian
-  network: ws
-  port: '46036'
-  server: mmus36.micloud.buzz
   servername: ''
   tls: false
   type: vmess
