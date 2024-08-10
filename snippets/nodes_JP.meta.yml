@@ -28,8 +28,8 @@ proxies:
   client-fingerprint: chrome
   name: 10,11|日本4|@ripaojiedian
   network: ws
-  port: '80'
-  server: cfcdn3.sanfencdn9.com
+  port: '2052'
+  server: pgrpxewcjptest.yofnhkfc.xyz
   servername: ''
   skip-cert-verify: false
   tfo: false
@@ -38,8 +38,8 @@ proxies:
   uuid: 409fe654-65e4-4fce-ac9a-faaff3d334ec
   ws-opts:
     headers:
-      Host: oA5FSz9Tjp1.yofnhkfc.xyz
-    path: /video/P7EExoE2
+      Host: pgrpxewcjptest.yofnhkfc.xyz
+    path: /video/KaUwgzfU
 - alterId: 0
   cipher: auto
   name: 11|日本5|@ripaojiedian
