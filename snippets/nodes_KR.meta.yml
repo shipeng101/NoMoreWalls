@@ -1,18 +1,5 @@
 proxies:
-- name: 12|KR_speednode_0182
-  network: ws
-  password: CMLiu
-  port: 20202
-  server: 14.44.107.239
-  skip-cert-verify: true
-  sni: aliorg.filegear-sg.me
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      Host: aliorg.filegear-sg.me
-    path: /?ed=2048
-- name: 12|KR_speednode_0183
+- name: 12|KR_speednode_0101
   network: ws
   password: CMLiu
   port: 11423
@@ -25,185 +12,18 @@ proxies:
     headers:
       Host: aliorg.filegear-sg.me
     path: /?ed=2048
-- name: 12|KR_speednode_0184
+- client-fingerprint: randomized
+  name: 12|KR_speednode_0102
   network: ws
-  password: CMLiu
-  port: 12245
-  server: 125.129.129.66
-  skip-cert-verify: true
-  sni: aliorg.filegear-sg.me
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      Host: aliorg.filegear-sg.me
-    path: /?ed=2048
-- name: 12|KR_speednode_0185
-  network: ws
-  password: CMLiu
-  port: 15443
-  server: 14.56.54.62
-  skip-cert-verify: true
-  sni: aliorg.filegear-sg.me
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      Host: aliorg.filegear-sg.me
-    path: /?ed=2048
-- client-fingerprint: chrome
-  name: 12|KR_speednode_0186
-  network: ws
-  port: 12693
-  server: 152.70.245.66
-  servername: dns68.putata.eu.org
+  port: 15800
+  server: 129.154.223.89
+  servername: edgetunnel-free.pages.dev
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: d7dd3a35-b68b-4992-b319-a85b8a1fc8e5
+  uuid: de44b044-8f90-4e18-b742-16591667ff96
   ws-opts:
     headers:
-      Host: dns68.putata.eu.org
-    path: /
-- name: 12|KR_speednode_0187
-  network: ws
-  port: 31285
-  server: 106.240.98.130
-  servername: kx.ylks.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: kx.ylks.xyz
-    path: /freecodes
-- client-fingerprint: chrome
-  name: 12|KR_speednode_0188
-  network: ws
-  port: 23022
-  server: 64.110.83.231
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: /tg@zdyz2
-- name: 12|KR_speednode_0189
-  network: ws
-  port: 443
-  server: 59.3.3.161
-  servername: kx.ylks.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: kx.ylks.xyz
-    path: /
-- name: 12|KR_speednode_0190
-  network: ws
-  port: 34237
-  server: 193.123.244.37
-  servername: kx.ylks.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: kx.ylks.xyz
-    path: /
-- name: 12|KR_speednode_0191
-  network: ws
-  port: 34237
-  server: 193.123.244.37
-  servername: vx.ylks.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  ws-opts:
-    headers:
-      Host: vx.ylks.xyz
-    path: /
-- name: 12|KR_speednode_0192
-  network: ws
-  port: 50026
-  server: 115.88.75.154
-  servername: kx.ylks.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: kx.ylks.xyz
-    path: /freecodes
-- client-fingerprint: chrome
-  name: 12|KR_speednode_0193
-  network: ws
-  port: 11659
-  server: 146.56.171.182
-  servername: dns68.putata.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d7dd3a35-b68b-4992-b319-a85b8a1fc8e5
-  ws-opts:
-    headers:
-      Host: dns68.putata.eu.org
-    path: /
-- name: 12|KR_speednode_0194
-  network: ws
-  port: 50036
-  server: 112.219.148.204
-  servername: kx.ylks.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: kx.ylks.xyz
-    path: /freecodes
-- name: 12|KR_speednode_0195
-  network: ws
-  password: moist
-  port: 34237
-  server: 152.70.239.134
-  skip-cert-verify: true
-  sni: trojan.freenods.sbs
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      Host: trojan.freenods.sbs
-    path: /
-- name: 12|KR_speednode_0196
-  network: ws
-  port: 10082
-  server: 14.52.249.135
-  servername: juzibaipiao.5112233.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
-  ws-opts:
-    headers:
-      Host: juzibaipiao.5112233.xyz
+      Host: edgetunnel-free.pages.dev
     path: /?ed=2048
