@@ -26,32 +26,18 @@ proxies:
   server: aa01gg.sssyun.xyz
   tfo: false
   type: ss
-- name: 12|TW_speednode_0146
-  network: ws
-  port: 16764
-  server: 211.75.243.91
-  servername: page-us-qg0.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: bd7d2c5c-86bc-4d5c-8c6b-a5c58981e68c
-  ws-opts:
-    headers:
-      Host: page-us-qg0.pages.dev
-    path: /
 - client-fingerprint: randomized
-  name: 12|TW_speednode_0147
+  name: 12|TW_speednode_0199
   network: ws
-  port: 16764
-  server: 211.75.243.91
-  servername: edgetunnel-free.pages.dev
+  port: 33022
+  server: 59.125.72.106
+  servername: dns68.putata.eu.org
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: de44b044-8f90-4e18-b742-16591667ff96
+  uuid: d7dd3a35-b68b-4992-b319-a85b8a1fc8e5
   ws-opts:
     headers:
-      Host: edgetunnel-free.pages.dev
+      Host: dns68.putata.eu.org
     path: /?ed=2048

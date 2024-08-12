@@ -7,11 +7,141 @@ proxies:
   server: 13.212.14.204
   tfo: false
   type: ss
-- name: 12|KR_speednode_0101
+- name: 12|KR_speednode_0110
   network: ws
   password: CMLiu
-  port: 11423
-  server: 218.158.87.155
+  port: 10443
+  server: 222.97.95.239
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048
+- name: 12|KR_speednode_0112
+  network: ws
+  password: CMLiu
+  port: 29015
+  server: 59.7.198.12
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048
+- name: 12|KR_speednode_0114
+  network: ws
+  password: CMLiu
+  port: 29984
+  server: 118.42.9.31
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048
+- name: 12|KR_speednode_0115
+  network: ws
+  password: CMLiu
+  port: 15151
+  server: 121.164.145.102
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048
+- name: 12|KR_speednode_0116
+  network: ws
+  password: CMLiu
+  port: 33185
+  server: 112.187.240.245
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048
+- name: 12|KR_speednode_0117
+  network: ws
+  password: CMLiu
+  port: 25006
+  server: 121.148.19.178
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048
+- name: 12|KR_speednode_0118
+  network: ws
+  password: CMLiu
+  port: 27017
+  server: 118.40.129.200
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048
+- name: 12|KR_speednode_0120
+  network: ws
+  password: CMLiu
+  port: 38520
+  server: 175.199.54.84
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048
+- name: 12|KR_speednode_0122
+  network: ws
+  password: CMLiu
+  port: 30051
+  server: 61.36.58.170
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048
+- name: 12|KR_speednode_0125
+  network: ws
+  password: CMLiu
+  port: 443
+  server: 59.3.3.161
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048
+- name: 12|KR_speednode_0126
+  network: ws
+  password: CMLiu
+  port: 32773
+  server: 211.230.167.207
   skip-cert-verify: true
   sni: aliorg.filegear-sg.me
   type: trojan

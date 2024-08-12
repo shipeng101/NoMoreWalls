@@ -66,3 +66,107 @@ proxies:
     headers:
       Host: ip14.freegradely.xyz
     path: github.com/Alvin9999
+- name: 12|US_speednode_0207
+  network: ws
+  password: CMLiu
+  port: 32958
+  server: 154.7.179.27
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048
+- name: 12|US_speednode_0254
+  network: ws
+  password: auto
+  port: 443
+  server: 159.246.55.132
+  skip-cert-verify: true
+  sni: vip.123789.pp.ua
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      Host: vip.123789.pp.ua
+    path: /
+- name: 12|US_speednode_0270
+  network: ws
+  password: CMLiu
+  port: 1443
+  server: 185.218.7.217
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048
+- name: 12|US_speednode_0271
+  network: ws
+  password: CMLiu
+  port: 36166
+  server: 154.17.21.13
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048
+- name: 12|US_speednode_0272
+  network: ws
+  password: CMLiu
+  port: 882
+  server: 154.17.9.71
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048
+- name: 12|US_speednode_0273
+  network: ws
+  password: CMLiu
+  port: 30553
+  server: 166.0.145.209
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048
+- name: 12|US_speednode_0274
+  network: ws
+  password: CMLiu
+  port: 20404
+  server: 154.9.238.155
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048
+- name: 12|US_speednode_0276
+  network: ws
+  password: CMLiu
+  port: 443
+  server: 43.153.80.208
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048

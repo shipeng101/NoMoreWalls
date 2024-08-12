@@ -24,11 +24,115 @@ proxies:
   server: 18.183.186.14
   tfo: false
   type: ss
-- name: 12|SG_speednode_0141
+- name: 12|SG_speednode_0162
+  network: ws
+  password: CMLiu
+  port: 2087
+  server: 47.237.84.173
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048
+- name: 12|SG_speednode_0163
   network: ws
   password: CMLiu
   port: 8443
-  server: 47.236.80.110
+  server: 47.237.8.82
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048
+- name: 12|SG_speednode_0167
+  network: ws
+  password: CMLiu
+  port: 2096
+  server: 47.236.165.25
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048
+- name: 12|SG_speednode_0168
+  network: ws
+  password: CMLiu
+  port: 8443
+  server: 47.236.180.24
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048
+- name: 12|SG_speednode_0169
+  network: ws
+  password: CMLiu
+  port: 2053
+  server: 47.237.0.31
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048
+- name: 12|SG_speednode_0170
+  network: ws
+  password: CMLiu
+  port: 2083
+  server: 47.236.253.41
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048
+- name: 12|SG_speednode_0172
+  network: ws
+  password: CMLiu
+  port: 8443
+  server: 47.236.167.231
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048
+- name: 12|SG_speednode_0173
+  network: ws
+  password: CMLiu
+  port: 2053
+  server: 47.236.130.95
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048
+- name: 12|SG_speednode_0174
+  network: ws
+  password: CMLiu
+  port: 2096
+  server: 47.236.189.92
   skip-cert-verify: true
   sni: aliorg.filegear-sg.me
   type: trojan
