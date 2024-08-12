@@ -16,6 +16,14 @@ proxies:
     headers:
       Host: 7nAi74jJsg1.yofnhkfc.xyz
     path: /video/c9efxRCi
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 10|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 18.183.186.14
+  tfo: false
+  type: ss
 - name: 12|SG_speednode_0139
   network: ws
   port: 443

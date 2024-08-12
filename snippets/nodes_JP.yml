@@ -40,6 +40,14 @@ proxies:
     headers:
       Host: 6Sn8mFtTjp3.yofnhkfc.xyz
     path: /video/X37qXHip
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 10|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 52.194.188.15
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 11|日本5|@ripaojiedian
