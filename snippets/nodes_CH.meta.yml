@@ -1,5 +1,5 @@
 proxies:
-- name: 12|CH_speednode_0012
+- name: 12|CH_speednode_0009
   network: ws
   port: 80
   server: 185.18.250.138

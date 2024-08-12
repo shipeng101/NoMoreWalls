@@ -29,7 +29,7 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
-- name: 12|DE_speednode_0036
+- name: 12|DE_speednode_0013
   network: ws
   port: 443
   server: 3.67.232.136
@@ -43,21 +43,7 @@ proxies:
     headers:
       Host: cv.ylks.xyz
     path: /
-- name: 12|DE_speednode_0037
-  network: ws
-  port: 443
-  server: 3.69.0.8
-  servername: ch.ylks.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ch.ylks.xyz
-    path: /freecodes
-- name: 12|DE_speednode_0038
+- name: 12|DE_speednode_0014
   network: ws
   port: 2096
   server: 45.80.111.38

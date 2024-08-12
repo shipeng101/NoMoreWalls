@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: 12|RU_speednode_0135
+  name: 12|RU_speednode_0097
   network: ws
   port: 443
   server: 188.42.145.178
@@ -14,7 +14,7 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: tg@zdyz2
-- name: 12|RU_speednode_0136
+- name: 12|RU_speednode_0098
   network: ws
   port: 443
   server: 45.67.215.41
@@ -29,7 +29,7 @@ proxies:
       Host: cx.ylks.xyz
     path: /
 - client-fingerprint: chrome
-  name: 12|RU_speednode_0137
+  name: 12|RU_speednode_0099
   network: ws
   port: 8443
   server: 188.42.145.90
@@ -43,7 +43,7 @@ proxies:
     headers:
       Host: juzibaipiao.5112233.xyz
     path: /?edfp=chrome
-- name: 12|RU_speednode_0138
+- name: 12|RU_speednode_0100
   network: ws
   port: 443
   server: 185.59.218.0
@@ -57,36 +57,8 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: tg@zdyz2
-- name: 12|RU_speednode_0139
-  network: ws
-  port: 443
-  server: 185.176.24.71
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
-  ws-opts:
-    headers:
-      Host: cfed.tgzdyz2.top
-    path: tg@zdyz2
-- name: 12|RU_speednode_0140
-  network: ws
-  port: 443
-  server: 45.67.215.99
-  servername: ah.ylks.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ah.ylks.xyz
-    path: /?proxyip=proxyip.oracle.fxxk.dedyn.io
 - client-fingerprint: chrome
-  name: 12|RU_speednode_0141
+  name: 12|RU_speednode_0101
   network: ws
   port: 8443
   server: 188.42.145.90
@@ -100,7 +72,7 @@ proxies:
     headers:
       Host: juzibaipiao.5112233.xyz
     path: /?edfp=chromefp=chromefp=chrome
-- name: 12|RU_speednode_0142
+- name: 12|RU_speednode_0102
   network: ws
   port: 443
   server: 185.59.218.158
@@ -115,7 +87,7 @@ proxies:
       Host: cfed.tgzdyz2.top
     path: tg@zdyz2
 - client-fingerprint: chrome
-  name: 12|RU_speednode_0143
+  name: 12|RU_speednode_0103
   network: ws
   port: 443
   server: 188.42.145.84
@@ -130,7 +102,7 @@ proxies:
       Host: cfed.tgzdyz2.top
     path: tg@zdyz2fp=chrome
 - client-fingerprint: chrome
-  name: 12|RU_speednode_0144
+  name: 12|RU_speednode_0104
   network: ws
   port: 443
   server: 188.42.145.140
@@ -144,7 +116,7 @@ proxies:
     headers:
       Host: g1.youyuan.us.kg
     path: /?proxyip=proxyip.multacom.fxxk.dedyn.iofp=chrome
-- name: 12|RU_speednode_0145
+- name: 12|RU_speednode_0105
   network: ws
   port: 443
   server: 212.41.15.119
@@ -158,7 +130,7 @@ proxies:
     headers:
       Host: juzibaipiao.5112233.xyz
     path: /
-- name: 12|RU_speednode_0146
+- name: 12|RU_speednode_0106
   network: ws
   port: 2096
   server: 188.42.145.159
@@ -172,7 +144,7 @@ proxies:
     headers:
       Host: juzibaipiao.5112233.xyz
     path: /?ed=2048
-- name: 12|RU_speednode_0147
+- name: 12|RU_speednode_0107
   network: ws
   port: 8443
   server: 188.42.145.159

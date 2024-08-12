@@ -27,7 +27,7 @@ proxies:
   tfo: false
   type: ss
 - client-fingerprint: randomized
-  name: 12|TW_speednode_0199
+  name: 12|TW_speednode_0141
   network: ws
   port: 33022
   server: 59.125.72.106

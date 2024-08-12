@@ -66,7 +66,7 @@ proxies:
     headers:
       Host: ip14.freegradely.xyz
     path: github.com/Alvin9999
-- name: 12|US_speednode_0201
+- name: 12|US_speednode_0142
   network: ws
   port: 2083
   server: 216.205.52.109
@@ -80,7 +80,7 @@ proxies:
     headers:
       Host: juzibaipiao.5112233.xyz
     path: /?ed=2048
-- name: 12|US_speednode_0203
+- name: 12|US_speednode_0143
   network: ws
   port: 8443
   server: 89.116.161.250
@@ -94,22 +94,7 @@ proxies:
     headers:
       Host: juzibaipiao.5112233.xyz
     path: /?ed=2048
-- client-fingerprint: chrome
-  name: 12|US_speednode_0206
-  network: ws
-  port: 443
-  server: 104.18.202.232
-  servername: 4d3d6f00.garywelch.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e6aedcd2-24ad-4bdd-82c5-006d84179197
-  ws-opts:
-    headers:
-      Host: 4d3d6f00.garywelch.pages.dev
-    path: /?ed=2560
-- name: 12|US_speednode_0207
+- name: 12|US_speednode_0144
   network: ws
   password: CMLiu
   port: 32958
@@ -122,7 +107,7 @@ proxies:
     headers:
       Host: aliorg.filegear-sg.me
     path: /?ed=2048
-- name: 12|US_speednode_0208
+- name: 12|US_speednode_0145
   network: ws
   port: 443
   server: 199.181.197.39
@@ -136,36 +121,7 @@ proxies:
     headers:
       Host: juzibaipiao.5112233.xyz
     path: /?ed=2048
-- name: 12|US_speednode_0209
-  network: ws
-  port: 443
-  server: www.hugedomains.com
-  servername: cz.linghang.buzz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: cz.linghang.buzz
-    path: /freecodes
-- client-fingerprint: chrome
-  name: 12|US_speednode_0213
-  network: ws
-  port: 443
-  server: 104.17.83.58
-  servername: mmdv2.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d9eb0df3-3190-4447-86b6-656fe5ff1119
-  ws-opts:
-    headers:
-      Host: mmdv2.pages.dev
-    path: /?ed=2048
-- name: 12|US_speednode_0214
+- name: 12|US_speednode_0146
   network: ws
   port: 80
   server: 45.159.216.99
@@ -178,21 +134,7 @@ proxies:
     headers:
       Host: a.ssll.gay
     path: Twitterfreecodesfp=chrome
-- name: 12|US_speednode_0216
-  network: ws
-  port: 38454
-  server: 43.153.103.203
-  servername: cv.ylkszy.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0
-  ws-opts:
-    headers:
-      Host: cv.ylkszy.eu.org
-    path: /
-- name: 12|US_speednode_0217
+- name: 12|US_speednode_0147
   network: ws
   port: 443
   server: 170.114.45.25
@@ -206,7 +148,7 @@ proxies:
     headers:
       Host: juzibaipiao.5112233.xyz
     path: /?ed=2048
-- name: 12|US_speednode_0218
+- name: 12|US_speednode_0148
   network: ws
   port: 8443
   server: 45.159.218.162
@@ -220,22 +162,7 @@ proxies:
     headers:
       Host: juzibaipiao.5112233.xyz
     path: /?ed=2048
-- client-fingerprint: firefox
-  name: 12|US_speednode_0221
-  network: ws
-  port: 443
-  server: 172.66.47.126
-  servername: 00e463Dc.beSTVPn-4xi.PAgES.dEv
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  ws-opts:
-    headers:
-      Host: 00e463Dc.beSTVPn-4xi.PAgES.dEv
-    path: /yuyg5ujoovohfscy?ed=2560
-- name: 12|US_speednode_0222
+- name: 12|US_speednode_0149
   network: ws
   port: 8443
   server: 204.93.210.185
@@ -250,7 +177,7 @@ proxies:
       Host: a.ssll.gay
     path: twitterfreecodes
 - client-fingerprint: chrome
-  name: 12|US_speednode_0223
+  name: 12|US_speednode_0150
   network: ws
   port: 443
   server: 198.62.62.4
@@ -264,7 +191,7 @@ proxies:
     headers:
       Host: page-us-qg0.pages.dev
     path: twitterfreecodes
-- name: 12|US_speednode_0224
+- name: 12|US_speednode_0151
   network: ws
   port: 2087
   server: 14.102.229.66
@@ -278,36 +205,7 @@ proxies:
     headers:
       Host: juzibaipiao.5112233.xyz
     path: /
-- name: 12|US_speednode_0226
-  network: ws
-  port: 443
-  server: 135.84.76.105
-  servername: cv.ylkszy.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0
-  ws-opts:
-    headers:
-      Host: cv.ylkszy.eu.org
-    path: /
-- client-fingerprint: chrome
-  name: 12|US_speednode_0227
-  network: ws
-  port: 443
-  server: 160.79.105.66
-  servername: ah.ylks.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ah.ylks.xyz
-    path: /blue
-- name: 12|US_speednode_0228
+- name: 12|US_speednode_0152
   network: ws
   port: 2053
   server: 130.250.137.196
@@ -322,7 +220,7 @@ proxies:
       Host: juzibaipiao.5112233.xyz
     path: /
 - client-fingerprint: chrome
-  name: 12|US_speednode_0229
+  name: 12|US_speednode_0153
   network: ws
   port: 443
   server: 45.159.218.7
@@ -336,7 +234,7 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: twitterfreecodestg@zdyz2
-- name: 12|US_speednode_0231
+- name: 12|US_speednode_0154
   network: ws
   port: 443
   server: 45.159.218.188
@@ -350,22 +248,8 @@ proxies:
     headers:
       Host: cv.ylks.xyz
     path: /
-- name: 12|US_speednode_0232
-  network: ws
-  port: 443
-  server: 192.200.160.89
-  servername: bx.ylks.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: bx.ylks.xyz
-    path: Twitterfreecodes
 - client-fingerprint: chrome
-  name: 12|US_speednode_0234
+  name: 12|US_speednode_0155
   network: ws
   port: 443
   server: 167.68.11.253
@@ -379,22 +263,8 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: tg@zdyz2
-- name: 12|US_speednode_0235
-  network: ws
-  port: 443
-  server: 69.84.182.27
-  servername: cv.ylkszy.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0
-  ws-opts:
-    headers:
-      Host: cv.ylkszy.eu.org
-    path: /
 - client-fingerprint: chrome
-  name: 12|US_speednode_0236
+  name: 12|US_speednode_0156
   network: ws
   port: 443
   server: 185.148.106.134
@@ -409,7 +279,7 @@ proxies:
       Host: cfed.tgzdyz2.top
     path: tg@zdyz2
 - client-fingerprint: chrome
-  name: 12|US_speednode_0237
+  name: 12|US_speednode_0157
   network: ws
   port: 443
   server: 167.68.11.253
@@ -423,7 +293,7 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: tg@zdyz2fp=chrome
-- name: 12|US_speednode_0238
+- name: 12|US_speednode_0158
   network: ws
   port: 8443
   server: 185.148.105.225
@@ -437,36 +307,8 @@ proxies:
     headers:
       Host: juzibaipiao.5112233.xyz
     path: /?ed=2048
-- name: 12|US_speednode_0239
-  network: ws
-  port: 443
-  server: 45.159.218.167
-  servername: cz.linghang.buzz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: cz.linghang.buzz
-    path: /freecodes
-- name: 12|US_speednode_0241
-  network: ws
-  port: 443
-  server: 69.84.182.172
-  servername: cz.linghang.buzz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: cz.linghang.buzz
-    path: /freecodes
 - client-fingerprint: chrome
-  name: 12|US_speednode_0242
+  name: 12|US_speednode_0159
   network: ws
   port: 8443
   server: 159.112.235.14
@@ -481,7 +323,7 @@ proxies:
       Host: juzibaipiao.5112233.xyz
     path: /?ed
 - client-fingerprint: randomized
-  name: 12|US_speednode_0244
+  name: 12|US_speednode_0160
   network: ws
   port: 2087
   server: 14.102.229.66
@@ -495,7 +337,7 @@ proxies:
     headers:
       Host: juzibaipiao.5112233.xyz
     path: /security=tls
-- name: 12|US_speednode_0245
+- name: 12|US_speednode_0161
   network: ws
   port: 443
   server: 160.79.104.191
@@ -509,22 +351,8 @@ proxies:
     headers:
       Host: ch.ylks.xyz
     path: /
-- name: 12|US_speednode_0246
-  network: ws
-  port: 2096
-  server: www.hugedomains.com
-  servername: bj.ylks01.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: bj.ylks01.eu.org
-    path: Twitterfreecodes
 - client-fingerprint: chrome
-  name: 12|US_speednode_0247
+  name: 12|US_speednode_0162
   network: ws
   port: 443
   server: 108.165.216.167
@@ -538,37 +366,8 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: tg@zdyz2
-- name: 12|US_speednode_0248
-  network: ws
-  port: 443
-  server: 198.62.62.223
-  servername: bj.ylks01.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: bj.ylks01.eu.org
-    path: Twitterfreecodes
 - client-fingerprint: chrome
-  name: 12|US_speednode_0249
-  network: ws
-  port: 443
-  server: 69.84.182.231
-  servername: ah.ylks.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: ah.ylks.xyz
-    path: /
-- client-fingerprint: chrome
-  name: 12|US_speednode_0250
+  name: 12|US_speednode_0163
   network: ws
   port: 443
   server: 45.159.217.220
@@ -582,35 +381,7 @@ proxies:
     headers:
       Host: juzibaipiao.5112233.xyz
     path: /
-- name: 12|US_speednode_0251
-  network: ws
-  port: 443
-  server: 192.0.54.146
-  servername: cj.ylks01.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: cj.ylks01.eu.org
-    path: /
-- name: 12|US_speednode_0252
-  network: ws
-  port: 443
-  server: 216.24.57.202
-  servername: cv.ylkszy.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0
-  ws-opts:
-    headers:
-      Host: cv.ylkszy.eu.org
-    path: /
-- name: 12|US_speednode_0253
+- name: 12|US_speednode_0164
   network: ws
   port: 443
   server: 63.141.128.98
@@ -624,7 +395,7 @@ proxies:
     headers:
       Host: cx.ylks.xyz
     path: /
-- name: 12|US_speednode_0254
+- name: 12|US_speednode_0165
   network: ws
   password: auto
   port: 443
@@ -637,51 +408,8 @@ proxies:
     headers:
       Host: vip.123789.pp.ua
     path: /
-- client-fingerprint: random
-  name: 12|US_speednode_0255
-  network: ws
-  port: 443
-  server: 63.141.128.103
-  servername: ax.ylks.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: ax.ylks.xyz
-    path: /
-- name: 12|US_speednode_0257
-  network: ws
-  port: 443
-  server: 158.224.90.158
-  servername: cz.linghang.buzz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: cz.linghang.buzz
-    path: /freecodes
-- name: 12|US_speednode_0258
-  network: ws
-  port: 443
-  server: 192.0.63.8
-  servername: cj.ylks01.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: cj.ylks01.eu.org
-    path: /freecodes
 - client-fingerprint: chrome
-  name: 12|US_speednode_0259
+  name: 12|US_speednode_0166
   network: ws
   port: 443
   server: 45.159.218.111
@@ -695,21 +423,7 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: tg@zdyz2
-- name: 12|US_speednode_0260
-  network: ws
-  port: 8443
-  server: www.hugedomains.com
-  servername: bj.ylks01.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: bj.ylks01.eu.org
-    path: Twitterfreecodes
-- name: 12|US_speednode_0261
+- name: 12|US_speednode_0167
   network: ws
   port: 8086
   server: 173.249.202.215
@@ -723,51 +437,7 @@ proxies:
     headers:
       Host: ck.ylks.xyz
     path: /freecodes
-- client-fingerprint: firefox
-  name: 12|US_speednode_0262
-  network: ws
-  port: 443
-  server: 151.101.194.133
-  servername: www.Arizona.edu
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: cefffd1d-cc58-4560-b4d1-44f1af528f30
-  ws-opts:
-    headers:
-      Host: fraud.chase
-    path: '@Selinc/?ed=2048'
-- name: 12|US_speednode_0264
-  network: ws
-  port: 8443
-  server: russia.com
-  servername: cj.ylks01.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: cj.ylks01.eu.org
-    path: /freecodes
-- client-fingerprint: safari
-  name: 12|US_speednode_0268
-  network: ws
-  port: 443
-  server: 108.162.192.79
-  servername: bpb-worker-panel-chf.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: fb710ee0-f2d3-421c-8556-d23e5075f57e
-  ws-opts:
-    headers:
-      Host: bpb-worker-panel-chf.pages.dev
-    path: /TELEGRAM/?ed=2048
-- name: 12|US_speednode_0270
+- name: 12|US_speednode_0168
   network: ws
   password: CMLiu
   port: 1443
@@ -780,7 +450,7 @@ proxies:
     headers:
       Host: aliorg.filegear-sg.me
     path: /?ed=2048
-- name: 12|US_speednode_0271
+- name: 12|US_speednode_0169
   network: ws
   password: CMLiu
   port: 36166
@@ -793,7 +463,7 @@ proxies:
     headers:
       Host: aliorg.filegear-sg.me
     path: /?ed=2048
-- name: 12|US_speednode_0272
+- name: 12|US_speednode_0170
   network: ws
   password: CMLiu
   port: 882
@@ -806,7 +476,7 @@ proxies:
     headers:
       Host: aliorg.filegear-sg.me
     path: /?ed=2048
-- name: 12|US_speednode_0273
+- name: 12|US_speednode_0171
   network: ws
   password: CMLiu
   port: 30553
@@ -819,7 +489,7 @@ proxies:
     headers:
       Host: aliorg.filegear-sg.me
     path: /?ed=2048
-- name: 12|US_speednode_0274
+- name: 12|US_speednode_0172
   network: ws
   password: CMLiu
   port: 20404
@@ -832,7 +502,7 @@ proxies:
     headers:
       Host: aliorg.filegear-sg.me
     path: /?ed=2048
-- name: 12|US_speednode_0276
+- name: 12|US_speednode_0173
   network: ws
   password: CMLiu
   port: 443
@@ -846,7 +516,7 @@ proxies:
       Host: aliorg.filegear-sg.me
     path: /?ed=2048
 - client-fingerprint: chrome
-  name: 12|US_speednode_0283
+  name: 12|US_speednode_0174
   network: ws
   port: 443
   server: 69.84.182.102
@@ -861,7 +531,7 @@ proxies:
       Host: a.ssll.gay
     path: Telegram🇨🇳 @WangCai_8 /?ed=2048
 - client-fingerprint: chrome
-  name: 12|US_speednode_0284
+  name: 12|US_speednode_0175
   network: ws
   port: 443
   server: 192.200.160.6
@@ -875,7 +545,7 @@ proxies:
     headers:
       Host: a.ssll.gay
     path: Telegram🇨🇳 @WangCai_8 /?ed=2048
-- name: 12|US_speednode_0287
+- name: 12|US_speednode_0176
   network: ws
   port: 2096
   server: 14.102.228.210

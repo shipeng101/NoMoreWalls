@@ -24,7 +24,7 @@ proxies:
   server: 18.183.186.14
   tfo: false
   type: ss
-- name: 12|SG_speednode_0162
+- name: 12|SG_speednode_0120
   network: ws
   password: CMLiu
   port: 2087
@@ -37,7 +37,7 @@ proxies:
     headers:
       Host: aliorg.filegear-sg.me
     path: /?ed=2048
-- name: 12|SG_speednode_0163
+- name: 12|SG_speednode_0121
   network: ws
   password: CMLiu
   port: 8443
@@ -50,7 +50,7 @@ proxies:
     headers:
       Host: aliorg.filegear-sg.me
     path: /?ed=2048
-- name: 12|SG_speednode_0167
+- name: 12|SG_speednode_0125
   network: ws
   password: CMLiu
   port: 2096
@@ -63,7 +63,7 @@ proxies:
     headers:
       Host: aliorg.filegear-sg.me
     path: /?ed=2048
-- name: 12|SG_speednode_0168
+- name: 12|SG_speednode_0126
   network: ws
   password: CMLiu
   port: 8443
@@ -76,7 +76,7 @@ proxies:
     headers:
       Host: aliorg.filegear-sg.me
     path: /?ed=2048
-- name: 12|SG_speednode_0169
+- name: 12|SG_speednode_0127
   network: ws
   password: CMLiu
   port: 2053
@@ -89,7 +89,7 @@ proxies:
     headers:
       Host: aliorg.filegear-sg.me
     path: /?ed=2048
-- name: 12|SG_speednode_0170
+- name: 12|SG_speednode_0128
   network: ws
   password: CMLiu
   port: 2083
@@ -102,7 +102,7 @@ proxies:
     headers:
       Host: aliorg.filegear-sg.me
     path: /?ed=2048
-- name: 12|SG_speednode_0172
+- name: 12|SG_speednode_0130
   network: ws
   password: CMLiu
   port: 8443
@@ -115,7 +115,7 @@ proxies:
     headers:
       Host: aliorg.filegear-sg.me
     path: /?ed=2048
-- name: 12|SG_speednode_0173
+- name: 12|SG_speednode_0131
   network: ws
   password: CMLiu
   port: 2053
@@ -128,7 +128,7 @@ proxies:
     headers:
       Host: aliorg.filegear-sg.me
     path: /?ed=2048
-- name: 12|SG_speednode_0174
+- name: 12|SG_speednode_0132
   network: ws
   password: CMLiu
   port: 2096
