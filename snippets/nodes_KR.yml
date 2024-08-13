@@ -1,12 +1,4 @@
 proxies:
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 10|🇰🇷 韩国特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.212.14.204
-  tfo: false
-  type: ss
 - name: 12|KR_speednode_0074
   network: ws
   password: CMLiu
