@@ -1,1 +1,10 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  name: 10,11|台湾2|@ripaojiedian
+  network: tcp
+  password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b
+  port: 21083
+  server: 103.6.220.71
+  skip-cert-verify: false
+  sni: k9.tudou211.com
+  type: trojan

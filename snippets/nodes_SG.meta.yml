@@ -1,25 +1,13 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10|🇸🇬 新加坡3|@ripaojiedian
-  port: 10420
-  server: xcsgp.cokecloud.top
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: b9dad5ed-74da-4a43-8145-90d06df1f890
-- alterId: 0
-  cipher: auto
-  name: 11|新加坡3|@ripaojiedian
+- client-fingerprint: chrome
+  name: 10,11|新加坡2|@ripaojiedian
   network: tcp
-  port: '10420'
-  server: xcsgp.cokecloud.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b9dad5ed-74da-4a43-8145-90d06df1f890
+  password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b
+  port: 21170
+  server: 103.6.220.71
+  skip-cert-verify: false
+  sni: k39.tudou211.com
+  type: trojan
 - name: 12|SG_speednode_0096
   network: ws
   port: 2083

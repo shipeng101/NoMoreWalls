@@ -7,6 +7,15 @@ proxies:
   server: 36.151.195.51
   skip-cert-verify: true
   type: trojan
+- client-fingerprint: chrome
+  name: 10,11|日本3|@ripaojiedian
+  network: tcp
+  password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b
+  port: 47479
+  server: 120.232.217.96
+  skip-cert-verify: false
+  sni: k74.tudou211.com
+  type: trojan
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
