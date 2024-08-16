@@ -1,25 +1,8 @@
 proxies:
-- client-fingerprint: chrome
-  name: 10,11|日本|@ripaojiedian
-  network: tcp
-  password: yEnxJlVC
-  port: 33609
-  server: 36.151.195.51
-  skip-cert-verify: true
-  type: trojan
-- client-fingerprint: chrome
-  name: 10,11|日本3|@ripaojiedian
-  network: tcp
-  password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b
-  port: 47479
-  server: 120.232.217.96
-  skip-cert-verify: false
-  sni: k74.tudou211.com
-  type: trojan
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 10,11|日本5|@ripaojiedian
+  name: 10,11|日本|@ripaojiedian
   network: ws
   port: '80'
   server: cfcdn3.sanfencdn9.com
@@ -28,8 +11,8 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: 7e1d0a3d-8d0d-46b9-83bf-0eac8cf895c6
+  uuid: c3d4cd98-a316-45d2-9725-d9be48ed8963
   ws-opts:
     headers:
-      Host: agzbjszujp4.yofnhkfc.xyz
-    path: /video/ibCT6z55
+      Host: oA5FSz9Tjp1.yofnhkfc.xyz
+    path: /video/P7EExoE2

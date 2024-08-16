@@ -21,27 +21,18 @@ proxies:
   client-fingerprint: chrome
   name: 10,11|美国2|@ripaojiedian
   network: ws
-  port: '8880'
+  port: '2086'
   server: cfcdn1.sanfencdn9.com
   servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 7e1d0a3d-8d0d-46b9-83bf-0eac8cf895c6
+  uuid: c3d4cd98-a316-45d2-9725-d9be48ed8963
   ws-opts:
     headers:
-      Host: us6gzxQRrE4.fzbqfrse.xyz
-    path: /video/bYdJ7Vc2We
-- client-fingerprint: chrome
-  name: 10,11|美国3|@ripaojiedian
-  network: tcp
-  password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b
-  port: 21134
-  server: shcm082.rennn.ren
-  skip-cert-verify: false
-  sni: k19.tudou211.com
-  type: trojan
+      Host: us77SmSk86j.fzbqfrse.xyz
+    path: /video/Z7qdcrAGRw
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
