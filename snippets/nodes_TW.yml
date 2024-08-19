@@ -1,1 +1,26 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  name: 10|🇹🇼 台湾|@ripaojiedian
+  network: ws
+  password: moist
+  port: 32495
+  server: 59.124.90.154
+  skip-cert-verify: false
+  sni: trojan.freenods.sbs
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojan.freenods.sbs
+    path: /?ed=2560
+- name: 11|台湾|@ripaojiedian
+  network: ws
+  password: moist
+  port: 32495
+  server: 59.124.90.154
+  skip-cert-verify: true
+  sni: trojan.freenods.sbs
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojan.freenods.sbs
+    path: '%2F%3Fed%3D2560'

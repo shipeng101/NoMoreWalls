@@ -5,7 +5,7 @@ proxies:
   password: a3467343-8c87-40a6-a87f-a466b340475c
   port: 20230
   server: jp007.421421.xyz
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 421421.xyz
   type: trojan
 - alterId: 0
