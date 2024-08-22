@@ -1,5 +1,5 @@
 proxies:
-- name: 12|SG_speednode_0064
+- name: 12|SG_speednode_0091
   network: ws
   port: 443
   server: 27.50.48.222
@@ -13,7 +13,7 @@ proxies:
     headers:
       Host: juzibaipiao.5112233.xyz
     path: /?ed=2048
-- name: 12|SG_speednode_0067
+- name: 12|SG_speednode_0093
   network: ws
   port: 80
   server: 8.223.2.222
