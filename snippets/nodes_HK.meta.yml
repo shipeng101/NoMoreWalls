@@ -10,40 +10,15 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10,11|香港2|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: 22.6bnw.top
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: f9b15148-7fd1-41c6-bd7e-b30e04c4699c
-  ws-opts:
-    headers:
-      Host: hkbn.6bnw.top
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
+- client-fingerprint: chrome
   name: 10,11|香港3|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: 33.6bnw.top
-  servername: ''
+  network: tcp
+  password: 88242522-45be-49d3-af70-ae72c7f1a11a
+  port: 10000
+  server: hk1.juelaohai.us.kg
   skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: f9b15148-7fd1-41c6-bd7e-b30e04c4699c
-  ws-opts:
-    headers:
-      Host: hkbn.6bnw.top
-    path: /?ed=2560
+  sni: hk1.juelaohai.us.kg
+  type: trojan
 - client-fingerprint: chrome
   name: 10,11|香港4|@ripaojiedian
   network: tcp
@@ -63,6 +38,17 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇭🇰 香港7|@ripaojiedian
+  port: 51000
+  server: iepl2.airtcp.vip
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 242eaf22-2c23-3181-a643-5e39bef2e08a
 - alterId: 64
   cipher: auto
   name: 11|香港|@ripaojiedian
@@ -83,6 +69,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 2
+  cipher: auto
+  name: 11|香港7|@ripaojiedian
+  network: tcp
+  port: '51000'
+  server: iepl2.airtcp.vip
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 242eaf22-2c23-3181-a643-5e39bef2e08a
 - name: 12|HK_speednode_0075
   network: ws
   port: 12346

@@ -16,3 +16,24 @@ proxies:
     headers:
       Host: GWYp69Yujp2.yofnhkfc.xyz
     path: /video/VDXcaM7r
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇯🇵 日本3|@ripaojiedian
+  port: 10009
+  server: cnah2.lanyunshi.top
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 242eaf22-2c23-3181-a643-5e39bef2e08a
+- alterId: 2
+  cipher: auto
+  name: 11|日本3|@ripaojiedian
+  network: tcp
+  port: '10009'
+  server: cnah2.lanyunshi.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 242eaf22-2c23-3181-a643-5e39bef2e08a
