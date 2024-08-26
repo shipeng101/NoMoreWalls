@@ -41,6 +41,13 @@ proxies:
   skip-cert-verify: true
   sni: cn1.cdn.xfltd-cdn.top
   type: trojan
+- name: 12|CN_speednode_0014
+  password: 3698a3e7-2877-4ded-a665-d81ee3cfd449
+  port: 12071
+  server: cn2.cdn.xfltd-cdn.top
+  skip-cert-verify: true
+  sni: cdn.alibaba.com
+  type: trojan
 - name: 12|CN_speednode_0015
   password: 3698a3e7-2877-4ded-a665-d81ee3cfd449
   port: 12031
@@ -128,6 +135,13 @@ proxies:
 - name: 12|CN_speednode_0027
   password: 3698a3e7-2877-4ded-a665-d81ee3cfd449
   port: 12075
+  server: cn2.cdn.xfltd-cdn.top
+  skip-cert-verify: true
+  sni: cdn.alibaba.com
+  type: trojan
+- name: 12|CN_speednode_0028
+  password: 3698a3e7-2877-4ded-a665-d81ee3cfd449
+  port: 12070
   server: cn2.cdn.xfltd-cdn.top
   skip-cert-verify: true
   sni: cdn.alibaba.com
