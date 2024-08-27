@@ -4,18 +4,18 @@ proxies:
   client-fingerprint: chrome
   name: 10,11|新加坡2|@ripaojiedian
   network: ws
-  port: '10001'
-  server: yxvmsglux01.naizi.vip
-  servername: yxvmsglux01.naizi.vip
+  port: '2052'
+  server: cfcdn2.sanfencdn9.com
+  servername: ''
   skip-cert-verify: false
   tfo: false
-  tls: true
+  tls: false
   type: vmess
-  uuid: e232885c-f037-4e96-a99a-1ce0f93be908
+  uuid: 9ebb09ef-ce69-4bbb-ba8f-3be6c52ef9c2
   ws-opts:
     headers:
-      Host: www.python.org
-    path: /nishidashabi
+      Host: jpafzyhfsg3.yofnhkfc.xyz
+    path: /video/u4eCZTxW
 - name: 12|SG_speednode_0091
   network: ws
   port: 443
