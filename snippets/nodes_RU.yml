@@ -1,1 +1,31 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇷🇺 公益|俄罗斯|V2
+  network: ws
+  port: 40045
+  server: mz.flmweb.cc
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 1cbb8f04-b0cc-4520-8b17-ed412f457b9f
+  ws-opts:
+    headers:
+      Host: mz.flmweb.cc
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|公益|俄罗斯|V2
+  network: ws
+  port: '40045'
+  server: mz.flmweb.cc
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1cbb8f04-b0cc-4520-8b17-ed412f457b9f
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
