@@ -2,7 +2,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 10|🇷🇺 公益|俄罗斯|V2
+  name: 10|🇷🇺 俄罗斯|@ripaojiedian
   network: ws
   port: 40045
   server: mz.flmweb.cc
@@ -17,7 +17,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11|公益|俄罗斯|V2
+  name: 11|俄罗斯|@ripaojiedian
   network: ws
   port: '40045'
   server: mz.flmweb.cc
