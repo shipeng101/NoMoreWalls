@@ -50,15 +50,7 @@ proxies:
     headers:
       Host: ip14.freegradely.xyz
     path: github.com/Alvin9999
-- name: 12|US_speednode_0311
-  password: 5150556f-3efb-3b94-b669-c8567cd61730
-  port: 3504
-  server: 103.136.185.28
-  skip-cert-verify: true
-  sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM
-  type: trojan
-  udp: true
-- name: 12|US_speednode_0326
+- name: 12|US_speednode_0181
   network: ws
   password: CMLiu
   port: 44017
@@ -70,7 +62,7 @@ proxies:
     headers:
       Host: aliorg.filegear-sg.me
     path: /?ed=2048
-- name: 12|US_speednode_0329
+- name: 12|US_speednode_0182
   network: ws
   password: CMLiu
   port: 53479
@@ -82,19 +74,7 @@ proxies:
     headers:
       Host: aliorg.filegear-sg.me
     path: /?ed=2048
-- name: 12|US_speednode_0330
-  network: ws
-  password: CMLiu
-  port: 30861
-  server: 154.17.22.88
-  skip-cert-verify: true
-  sni: aliorg.filegear-sg.me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: aliorg.filegear-sg.me
-    path: /?ed=2048
-- name: 12|US_speednode_0332
+- name: 12|US_speednode_0184
   network: ws
   password: CMLiu
   port: 34967
@@ -106,7 +86,19 @@ proxies:
     headers:
       Host: aliorg.filegear-sg.me
     path: /?ed=2048
-- name: 12|US_speednode_0336
+- name: 12|US_speednode_0185
+  network: ws
+  password: CMLiu
+  port: 30861
+  server: 154.17.22.88
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048
+- name: 12|US_speednode_0186
   network: ws
   password: CMLiu
   port: 14280
@@ -118,7 +110,7 @@ proxies:
     headers:
       Host: aliorg.filegear-sg.me
     path: /?ed=2048
-- name: 12|US_speednode_0340
+- name: 12|US_speednode_0190
   network: ws
   password: CMLiu
   port: 50376
@@ -130,7 +122,7 @@ proxies:
     headers:
       Host: aliorg.filegear-sg.me
     path: /?ed=2048
-- name: 12|US_speednode_0346
+- name: 12|US_speednode_0193
   network: ws
   password: CMLiu
   port: 48333
@@ -142,21 +134,8 @@ proxies:
     headers:
       Host: aliorg.filegear-sg.me
     path: /?ed=2048
-- name: 12|US_speednode_0349
-  network: ws
-  password: tg-dns68
-  port: 443
-  server: 198.62.62.37
-  skip-cert-verify: true
-  sni: vip.putata.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: vip.putata.eu.org
-    path: /
 - client-fingerprint: chrome
-  name: 12|US_speednode_0389
+  name: 12|US_speednode_0220
   network: ws
   password: CMLiu
   port: 443
@@ -169,7 +148,20 @@ proxies:
     headers:
       Host: aliorg.filegear-sg.me
     path: /?ed=2048
-- name: 12|US_speednode_0364
+- name: 12|US_speednode_0198
+  network: ws
+  password: tg-dns68
+  port: 443
+  server: 198.62.62.37
+  skip-cert-verify: true
+  sni: vip.putata.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: vip.putata.eu.org
+    path: /
+- name: 12|US_speednode_0207
   network: ws
   password: CMLiu
   port: 443
@@ -182,19 +174,7 @@ proxies:
     headers:
       Host: aliorg.filegear-sg.me
     path: /
-- name: 12|US_speednode_0370
-  network: ws
-  password: CMLiu
-  port: 443
-  server: 43.153.80.208
-  skip-cert-verify: true
-  sni: aliorg.filegear-sg.me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: aliorg.filegear-sg.me
-    path: '%2F'
-- name: 12|US_speednode_0377
+- name: 12|US_speednode_0212
   network: ws
   password: CMLiu
   port: 28619
@@ -206,3 +186,15 @@ proxies:
     headers:
       Host: aliorg.filegear-sg.me
     path: /?ed=2048
+- name: 12|US_speednode_0222
+  network: ws
+  password: CMLiu
+  port: 443
+  server: 43.153.80.208
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: '%2F'

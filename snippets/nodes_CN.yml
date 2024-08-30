@@ -1,40 +1,8 @@
 proxies:
-- name: 12|CN_speednode_0061
+- name: 12|CN_speednode_0051
   password: pTuMwddQ
   port: 41115
   server: 223.113.54.185
   skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 12|CN_speednode_0127
-  password: 5e05e472-128f-33d7-99f2-0d90d31c96c0
-  port: 20141
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z141.hongkongnode.top
-  type: trojan
-  udp: true
-- name: 12|CN_speednode_0128
-  password: 5e05e472-128f-33d7-99f2-0d90d31c96c0
-  port: 43337
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z102.hongkongnode.top
-  type: trojan
-  udp: true
-- name: 12|CN_speednode_0160
-  password: 5e05e472-128f-33d7-99f2-0d90d31c96c0
-  port: 20308
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z308.hongkongnode.top
-  type: trojan
-  udp: true
-- name: 12|CN_speednode_0162
-  password: 5e05e472-128f-33d7-99f2-0d90d31c96c0
-  port: 56783
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z266.hongkongnode.top
   type: trojan
   udp: true

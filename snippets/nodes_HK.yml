@@ -79,7 +79,7 @@ proxies:
     headers:
       Host: ''
     path: /
-- name: 12|HK_speednode_0251
+- name: 12|HK_speednode_0134
   network: ws
   password: CMLiu
   port: 32828

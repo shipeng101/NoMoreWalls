@@ -1,5 +1,5 @@
 proxies:
-- name: 12|KR_speednode_0257
+- name: 12|KR_speednode_0140
   network: ws
   password: CMLiu
   port: 16575
