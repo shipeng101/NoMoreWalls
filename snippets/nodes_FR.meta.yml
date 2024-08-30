@@ -1,1 +1,21 @@
-proxies: []
+proxies:
+- name: 12|FR_speednode_0223
+  network: ws
+  port: 80
+  server: 162.19.228.119
+  servername: google.com
+  tls: false
+  type: vless
+  uuid: dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51
+  ws-opts:
+    path: /http
+- client-fingerprint: chrome
+  name: 12|FR_speednode_0226
+  network: ws
+  port: 80
+  server: 193.70.90.159
+  tls: false
+  type: vless
+  uuid: f4859fc9-dc44-11ee-b9ba-00505603e70d
+  ws-opts:
+    path: /websocket
