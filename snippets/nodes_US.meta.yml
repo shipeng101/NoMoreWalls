@@ -74,6 +74,14 @@ proxies:
     headers:
       Host: feng.ipy29c99.workers.dev
     path: /?ed=2048
+- name: 12|US_speednode_0311
+  password: 5150556f-3efb-3b94-b669-c8567cd61730
+  port: 3504
+  server: 103.136.185.28
+  skip-cert-verify: true
+  sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM
+  type: trojan
+  udp: true
 - client-fingerprint: randomized
   name: 12|US_speednode_0312
   network: ws
