@@ -1,8 +1,1 @@
-proxies:
-- name: 12|CN_speednode_0051
-  password: pTuMwddQ
-  port: 41115
-  server: 223.113.54.185
-  skip-cert-verify: true
-  type: trojan
-  udp: true
+proxies: []

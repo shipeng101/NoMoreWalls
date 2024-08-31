@@ -10,12 +10,28 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇭🇰 香港2|@ripaojiedian
+  network: ws
+  port: 40046
+  server: shhkt.cdn-sgp.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 1cbb8f04-b0cc-4520-8b17-ed412f457b9f
+  ws-opts:
+    headers:
+      Host: shhkt.cdn-sgp.xyz
+    path: /
 - client-fingerprint: chrome
   name: 10,11|香港4|@ripaojiedian
   network: tcp
   password: bDDJrvVT
-  port: 51017
-  server: 183.232.139.24
+  port: 5395
+  server: 223.113.54.185
   skip-cert-verify: true
   type: trojan
 - alterId: 64
@@ -29,22 +45,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10|🇭🇰 香港6|@ripaojiedian
-  network: ws
-  port: 5101
-  server: v1.cdn.ddnschiyun.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 94850168-ba31-47f8-82e1-0666648fc7bc
-  ws-opts:
-    headers:
-      Host: v1.cdn.ddnschiyun.xyz
-    path: /
 - alterId: 64
   cipher: auto
   name: 11|香港|@ripaojiedian
@@ -55,6 +55,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11|香港2|@ripaojiedian
+  network: ws
+  port: '40046'
+  server: shhkt.cdn-sgp.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1cbb8f04-b0cc-4520-8b17-ed412f457b9f
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 64
   cipher: auto
   name: 11|香港5|@ripaojiedian
@@ -65,29 +79,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11|香港6|@ripaojiedian
-  network: ws
-  port: '5101'
-  server: v1.cdn.ddnschiyun.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 94850168-ba31-47f8-82e1-0666648fc7bc
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- name: 12|HK_speednode_0134
-  network: ws
-  password: CMLiu
-  port: 32828
-  server: 38.207.164.31
-  skip-cert-verify: true
-  sni: aliorg.filegear-sg.me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: aliorg.filegear-sg.me
-    path: /?ed=2048
