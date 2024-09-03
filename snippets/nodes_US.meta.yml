@@ -50,6 +50,23 @@ proxies:
     headers:
       Host: ip14.freegradely.xyz
     path: github.com/Alvin9999
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10,11|美国6|@ripaojiedian
+  network: ws
+  port: '38002'
+  server: 38.174.162.109
+  servername: www.78422888.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.78422888.xyz
+    path: /path/240811062813
 - client-fingerprint: chrome
   name: 12|US_speednode_0244
   network: ws
