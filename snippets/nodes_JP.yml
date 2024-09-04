@@ -2,18 +2,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 10|🇯🇵 日本3|@ripaojiedian
-  port: 42048
-  server: 45.77.128.224
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 61177f92-95e5-424d-b07c-38d3d1ef9675
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10,11|日本4|@ripaojiedian
+  name: 10,11|日本3|@ripaojiedian
   network: ws
   port: '80'
   server: cfcdn3.sanfencdn9.com
@@ -22,11 +11,20 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: 7928c5c4-f653-4733-8409-9b1ca0a117a1
+  uuid: dd6973d6-9af9-4edd-9140-c57eab178a0d
   ws-opts:
     headers:
       Host: GWYp69Yujp2.yofnhkfc.xyz
     path: /video/VDXcaM7r
+- client-fingerprint: chrome
+  name: 10,11|日本4|@ripaojiedian
+  network: tcp
+  password: FbhfsvNRhRWYAcRJfrvZZhrdSGsSEvZC
+  port: 889
+  server: zlwfj-1143-tr-1.tyo-c-02.iote.bond
+  skip-cert-verify: false
+  sni: edge.cjhh.mom
+  type: trojan
 - client-fingerprint: chrome
   name: 10,11|日本5|@ripaojiedian
   network: tcp
@@ -36,13 +34,3 @@ proxies:
   skip-cert-verify: false
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
-- alterId: 0
-  cipher: none
-  name: 11|日本3|@ripaojiedian
-  network: tcp
-  port: '42048'
-  server: 45.77.128.224
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 61177f92-95e5-424d-b07c-38d3d1ef9675
