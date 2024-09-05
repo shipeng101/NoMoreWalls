@@ -27,12 +27,29 @@ proxies:
     headers:
       Host: ''
     path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10,11|香港3|@ripaojiedian
+  network: ws
+  port: '10001'
+  server: 62.72.163.54
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 3dddcee7-2cb3-4260-81da-83d8b926840f
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - client-fingerprint: chrome
   name: 10,11|香港4|@ripaojiedian
   network: tcp
-  password: bDDJrvVT
-  port: 5395
-  server: 223.113.54.185
+  password: lNOcIAxy
+  port: 51377
+  server: 36.151.195.24
   skip-cert-verify: true
   type: trojan
 - alterId: 64
