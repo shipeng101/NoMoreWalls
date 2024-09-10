@@ -1,51 +1,18 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10|🇭🇰 香港|@ripaojiedian
-  port: 45020
-  server: 183.236.51.23
+- client-fingerprint: chrome
+  name: 10,11|香港3|@ripaojiedian
+  network: tcp
+  password: d6d86a97-2bef-4f89-9527-ce2003377677
+  port: 13008
+  server: naiu-hk.05vr9nyqg5.download
   skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10|🇭🇰 香港3|@ripaojiedian
-  port: 16431
-  server: relay.gz.flyidc.top
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 2d9a81f6-e86e-48e6-9646-b3b1325f8d61
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
 - client-fingerprint: chrome
   name: 10,11|香港4|@ripaojiedian
   network: tcp
   password: lNOcIAxy
-  port: 51377
-  server: 36.151.195.24
+  port: 444
+  server: 36.151.195.83
   skip-cert-verify: true
   type: trojan
-- alterId: 64
-  cipher: auto
-  name: 11|香港|@ripaojiedian
-  network: tcp
-  port: '45020'
-  server: 183.236.51.23
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11|香港3|@ripaojiedian
-  network: tcp
-  port: '16431'
-  server: relay.gz.flyidc.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2d9a81f6-e86e-48e6-9646-b3b1325f8d61
