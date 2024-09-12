@@ -1,1 +1,17 @@
-proxies: []
+proxies:
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 10|🇰🇷 韩国|@ripaojiedian
+  password: 5014dfd8-cbef-46d8-b96a-b75565be73ab
+  port: 11034
+  server: group-east-01.nutbit-node.lat
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 10|🇰🇷 韩国特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 43.201.253.79
+  tfo: false
+  type: ss

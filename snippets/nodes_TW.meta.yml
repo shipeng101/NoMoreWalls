@@ -1,15 +1,45 @@
 proxies:
-- name: 12|TW_speednode_0168
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 10|🇹🇼 台湾|@ripaojiedian
+  password: 5014dfd8-cbef-46d8-b96a-b75565be73ab
+  port: 11011
+  server: group-south-01.nutbit-node.lat
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 10|🇹🇼 台湾2|@ripaojiedian
+  password: 2b0ea7b4-bd27-4995-bc95-a817174b6f7c
+  port: 23334
+  server: link.karleynetwork.xyz
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11|台湾|@ripaojiedian
   network: ws
-  port: 13749
-  server: 1.34.89.47
-  servername: a.ssll.gay
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  port: '80'
+  server: 108.165.144.8
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2d9a81f6-e86e-48e6-9646-b3b1325f8d61
   ws-opts:
     headers:
-      Host: a.ssll.gay
-    path: /?ed=2048
+      Host: syjsq.tw1.flyidc.top
+    path: /syjsq/data
+- alterId: 0
+  cipher: auto
+  name: 11|台湾2|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: cfcdn1.sanfencdn9.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cd47cb10-d851-489b-86cd-ffaf659ed943
+  ws-opts:
+    headers:
+      Host: tw1eskJpKcA.inivtrak.xyz
+    path: /video/WNMicnDh
