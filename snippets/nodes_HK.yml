@@ -1,20 +1,15 @@
 proxies:
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 10|🇭🇰 香港|@ripaojiedian
-  password: 5014dfd8-cbef-46d8-b96a-b75565be73ab
-  port: 11005
-  server: group-south-01.nutbit-node.lat
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: 10|🇭🇰 香港3|@ripaojiedian
-  password: 2b0ea7b4-bd27-4995-bc95-a817174b6f7c
-  port: 23331
-  server: link.karleynetwork.xyz
+  port: 44806
+  server: ambxxic01hk.dorabbb.top
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: fe9333e9-c864-41ea-8076-a0df85cc50de
 - client-fingerprint: chrome
   name: 10,11|香港4|@ripaojiedian
   network: tcp
@@ -25,6 +20,23 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
+  name: 10,11|香港5|@ripaojiedian
+  network: ws
+  port: '80'
+  server: 38.207.142.31
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 2d9a81f6-e86e-48e6-9646-b3b1325f8d61
+  ws-opts:
+    headers:
+      Host: syjsq.hk6.flyidc.top
+    path: /syjsq/data
+- alterId: 0
+  cipher: auto
   name: 11|香港3|@ripaojiedian
   network: tcp
   port: '44806'
@@ -33,17 +45,3 @@ proxies:
   tls: false
   type: vmess
   uuid: fe9333e9-c864-41ea-8076-a0df85cc50de
-- alterId: 0
-  cipher: auto
-  name: 11|香港5|@ripaojiedian
-  network: ws
-  port: '80'
-  server: 38.207.142.31
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2d9a81f6-e86e-48e6-9646-b3b1325f8d61
-  ws-opts:
-    headers:
-      Host: syjsq.hk6.flyidc.top
-    path: /syjsq/data

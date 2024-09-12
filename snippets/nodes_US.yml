@@ -36,26 +36,13 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 10|🇺🇸 美国5|@ripaojiedian
-  network: ws
-  port: 8880
-  server: cfcdn1.sanfencdn9.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: de8a6fd5-9b7f-4f5c-9800-b3ff59bc0d44
-  ws-opts:
-    headers:
-      Host: us6rCQacjGq.inivtrak.xyz
-    path: /video/bcxQresd
-- alterId: 0
-  cipher: auto
-  name: 11|美国4|@ripaojiedian
+  name: 10,11|美国4|@ripaojiedian
   network: ws
   port: '2052'
   server: cfcdn1.sanfencdn9.com
   servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
   uuid: cd47cb10-d851-489b-86cd-ffaf659ed943
@@ -65,11 +52,14 @@ proxies:
     path: /video/QXjZG5u4F2
 - alterId: 0
   cipher: auto
-  name: 11|美国5|@ripaojiedian
+  client-fingerprint: chrome
+  name: 10,11|美国5|@ripaojiedian
   network: ws
   port: '80'
   server: 23.156.152.106
   servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
   uuid: 2d9a81f6-e86e-48e6-9646-b3b1325f8d61
@@ -77,3 +67,16 @@ proxies:
     headers:
       Host: syjsq.us4.flyidc.top
     path: /syjsq/data
+- name: 12|US_speednode_0274
+  network: ws
+  password: CMLiu
+  port: 443
+  server: 43.153.80.208
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048
