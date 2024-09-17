@@ -1,53 +1,92 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10,11|日本|@ripaojiedian
+- client-fingerprint: randomized
+  name: 12|JP_speednode_0213
   network: ws
-  port: '80'
-  server: cfcdn3.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 472628d9-f89c-4891-bb60-4161bc2583d5
+  password: A98XMiF6NA
+  port: 587
+  server: 103.201.131.150
+  skip-cert-verify: true
+  sni: dy.fxu.asia
+  type: trojan
   ws-opts:
     headers:
-      Host: GWYp69Yujp2.yofnhkfc.xyz
-    path: /video/VDXcaM7r
-- client-fingerprint: chrome
-  name: 10|🇯🇵 日本3|@ripaojiedian
-  password: '!!str 3669023853268705280'
-  port: 443
-  server: fresh-lemur.warthog415.mom
-  skip-cert-verify: false
-  sni: fresh-lemur.warthog415.mom
+      Host: dy.fxu.asia
+    path: /?ed=2560
+- client-fingerprint: randomized
+  name: 12|JP_speednode_0214
+  network: ws
+  password: A98XMiF6NA
+  port: 11217
+  server: 192.243.124.248
+  skip-cert-verify: true
+  sni: dy.fxu.asia
   type: trojan
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10|🇯🇵 日本5|@ripaojiedian
-  port: 40783
-  server: 45.159.50.24
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: f0d69524-a2cf-4627-c27f-89bbbd8a8c29
-- name: 11|日本3|@ripaojiedian
-  network: tcp
-  password: '!!str 3669023853268705280'
-  port: 443
-  server: fresh-lemur.warthog415.mom
+  ws-opts:
+    headers:
+      Host: dy.fxu.asia
+    path: /?ed=2560
+- client-fingerprint: randomized
+  name: 12|JP_speednode_0215
+  network: ws
+  password: A98XMiF6NA
+  port: 34237
+  server: 150.66.24.104
+  skip-cert-verify: true
+  sni: dy.fxu.asia
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 11|日本5|@ripaojiedian
-  network: tcp
-  port: '40783'
-  server: 45.159.50.24
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f0d69524-a2cf-4627-c27f-89bbbd8a8c29
+  ws-opts:
+    headers:
+      Host: dy.fxu.asia
+    path: /?ed=2560
+- client-fingerprint: randomized
+  name: 12|JP_speednode_0216
+  network: ws
+  password: A98XMiF6NA
+  port: 44004
+  server: 109.107.137.22
+  skip-cert-verify: true
+  sni: dy.fxu.asia
+  type: trojan
+  ws-opts:
+    headers:
+      Host: dy.fxu.asia
+    path: /?ed=2560
+- client-fingerprint: randomized
+  name: 12|JP_speednode_0217
+  network: ws
+  password: A98XMiF6NA
+  port: 34237
+  server: 45.159.48.42
+  skip-cert-verify: true
+  sni: dy.fxu.asia
+  type: trojan
+  ws-opts:
+    headers:
+      Host: dy.fxu.asia
+    path: /?ed=2560
+- client-fingerprint: randomized
+  name: 12|JP_speednode_0218
+  network: ws
+  password: A98XMiF6NA
+  port: 4433
+  server: 103.150.8.172
+  skip-cert-verify: true
+  sni: dy.fxu.asia
+  type: trojan
+  ws-opts:
+    headers:
+      Host: dy.fxu.asia
+    path: /?ed=2560
+- client-fingerprint: randomized
+  name: 12|JP_speednode_0219
+  network: ws
+  password: A98XMiF6NA
+  port: 12212
+  server: 45.159.48.192
+  skip-cert-verify: true
+  sni: dy.fxu.asia
+  type: trojan
+  ws-opts:
+    headers:
+      Host: dy.fxu.asia
+    path: /?ed=2560

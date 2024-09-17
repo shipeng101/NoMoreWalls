@@ -1,7 +1,41 @@
 proxies:
-- name: 12|SG_speednode_0374
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10,11|新加坡|@ripaojiedian
   network: ws
-  password: 182228812d1e0f23
+  port: '2052'
+  server: cfcdn2.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 75781b8f-db32-44b5-936c-0065a3064a98
+  ws-opts:
+    headers:
+      Host: iWcfvdmesg3.wzjwkqya.xyz
+    path: /video/iQZCgaYi
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10,11|新加坡2|@ripaojiedian
+  network: ws
+  port: '443'
+  server: node-sg-singapore-vip01.acegate.io
+  servername: node-sg-singapore-vip01.acegate.io
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 34a4bbeb-fbec-4902-af64-578d4c98389c
+  ws-opts:
+    headers:
+      Host: node-sg-singapore-vip01.acegate.io
+    path: /LUqwr
+- name: 12|SG_speednode_0345
+  network: ws
+  password: 26a663656e575c0b
   port: 3306
   server: 5.44.249.42
   skip-cert-verify: true
@@ -12,3 +46,16 @@ proxies:
     headers:
       Host: TG.WangCai_1
     path: /gateway/connect
+- client-fingerprint: randomized
+  name: 12|SG_speednode_0352
+  network: ws
+  password: A98XMiF6NA
+  port: 443
+  server: 8.222.101.17
+  skip-cert-verify: true
+  sni: dy.fxu.asia
+  type: trojan
+  ws-opts:
+    headers:
+      Host: dy.fxu.asia
+    path: /?ed=2560

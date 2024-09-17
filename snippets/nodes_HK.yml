@@ -1,15 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10|🇭🇰 香港|@ripaojiedian
-  port: 44801
-  server: ambxxic01hk.dorabbb.top
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: ac92dfb6-ce5b-4c2b-9c1c-59b9770901fc
 - client-fingerprint: chrome
   name: 10,11|香港4|@ripaojiedian
   network: tcp
@@ -20,11 +9,48 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 11|香港|@ripaojiedian
+  client-fingerprint: chrome
+  name: 10|🇭🇰 香港5|@ripaojiedian
+  port: 33895
+  server: 38.147.189.234
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 3e9c91df-9b92-4714-844d-239d42f1d573
+- alterId: 0
+  cipher: auto
+  name: 11|香港5|@ripaojiedian
   network: tcp
-  port: '44801'
-  server: ambxxic01hk.dorabbb.top
+  port: '33895'
+  server: 38.147.189.234
   servername: ''
   tls: false
   type: vmess
-  uuid: ac92dfb6-ce5b-4c2b-9c1c-59b9770901fc
+  uuid: 3e9c91df-9b92-4714-844d-239d42f1d573
+- client-fingerprint: randomized
+  name: 12|HK_speednode_0196
+  network: ws
+  password: A98XMiF6NA
+  port: 443
+  server: 34.150.57.3
+  skip-cert-verify: true
+  sni: dy.fxu.asia
+  type: trojan
+  ws-opts:
+    headers:
+      Host: dy.fxu.asia
+    path: /?ed=2560
+- client-fingerprint: randomized
+  name: 12|HK_speednode_0197
+  network: ws
+  password: A98XMiF6NA
+  port: 17899
+  server: 46.3.104.73
+  skip-cert-verify: true
+  sni: dy.fxu.asia
+  type: trojan
+  ws-opts:
+    headers:
+      Host: dy.fxu.asia
+    path: /?ed=2560
