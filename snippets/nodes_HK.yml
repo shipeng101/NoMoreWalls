@@ -3,31 +3,10 @@ proxies:
   name: 10,11|香港4|@ripaojiedian
   network: tcp
   password: lNOcIAxy
-  port: 12009
-  server: 36.151.192.196
+  port: 23731
+  server: 36.151.192.242
   skip-cert-verify: true
   type: trojan
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10|🇭🇰 香港5|@ripaojiedian
-  port: 33895
-  server: 38.147.189.234
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 3e9c91df-9b92-4714-844d-239d42f1d573
-- alterId: 0
-  cipher: auto
-  name: 11|香港5|@ripaojiedian
-  network: tcp
-  port: '33895'
-  server: 38.147.189.234
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3e9c91df-9b92-4714-844d-239d42f1d573
 - client-fingerprint: randomized
   name: 12|HK_speednode_0196
   network: ws
