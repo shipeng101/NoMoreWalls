@@ -45,7 +45,7 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: 75781b8f-db32-44b5-936c-0065a3064a98
+  uuid: cfa71038-632b-4a8f-859d-cce4d91c1082
   ws-opts:
     headers:
       Host: us82pRzxDMb.fzbqfrse.xyz
