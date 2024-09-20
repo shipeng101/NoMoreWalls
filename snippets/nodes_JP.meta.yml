@@ -8,6 +8,57 @@ proxies:
   skip-cert-verify: false
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10,11|日本2|@ripaojiedian
+  network: ws
+  port: '20002'
+  server: yxvmjp02-1.naizi.vip
+  servername: yxvmjp02-1.naizi.vip
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 1404585b-fe61-4f4d-9680-f63d2002b429
+  ws-opts:
+    headers:
+      Host: www.python.org
+    path: /nishidashabi
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10,11|日本3|@ripaojiedian
+  network: ws
+  port: '80'
+  server: cfcdn3.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: cfa71038-632b-4a8f-859d-cce4d91c1082
+  ws-opts:
+    headers:
+      Host: zqWukzdtjp1.wzjwkqya.xyz
+    path: /video/RPKZwKFW
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10,11|日本4|@ripaojiedian
+  network: ws
+  port: '10005'
+  server: jplux01-1.naizi.vip
+  servername: jplux01-1.naizi.vip
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 1404585b-fe61-4f4d-9680-f63d2002b429
+  ws-opts:
+    headers:
+      Host: tv.cctv.com
+    path: /nishidashabi
 - name: 12|JP_speednode_0148
   network: ws
   port: 8882
