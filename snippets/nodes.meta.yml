@@ -1,6 +1,15 @@
 proxies:
+- cipher: rc4-md5
+  name: 0|-https://t.me/MrXbin-34
+  obfs: tls1.2_ticket_auth
+  password: Cskw6d
+  port: 13630
+  protocol: auth_aes128_md5
+  protocol-param: 524959:5u4MZ6
+  server: bb29cs.cdn.node.a.tddns-ounk.com
+  type: ssr
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-28
+  name: 0|-https://t.me/MrXbin-36
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
@@ -11,39 +20,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-30
-  network: ws
-  port: 2086
-  server: 172.64.167.5
-  skip-cert-verify: true
-  type: vmess
-  udp: true
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip2.1457230.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-35
-  network: ws
-  port: 2086
-  server: japan.com
-  skip-cert-verify: true
-  type: vmess
-  udp: true
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip1.1789034.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-36
+  name: 0|-https://t.me/MrXbin-47
   network: ws
   port: 2086
   server: 23.227.38.3
@@ -59,23 +36,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-39
-  network: ws
-  port: 2086
-  server: singapore.com
-  skip-cert-verify: true
-  type: vmess
-  udp: true
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip1.1789034.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-43
+  name: 0|-https://t.me/MrXbin-48
   network: ws
   port: 2086
   server: 172.64.175.213
@@ -91,7 +52,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-48
+  name: 0|-https://t.me/MrXbin-49
   network: ws
   port: 2086
   server: 172.64.166.22
@@ -107,39 +68,23 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-50
+  name: 0|-https://t.me/MrXbin-54
   network: ws
   port: 2086
-  server: icook.tw
+  server: 172.64.167.5
   skip-cert-verify: true
   type: vmess
   udp: true
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts:
     headers:
-      Host: ip1.1789034.xyz
+      Host: ip2.1457230.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-61
-  network: ws
-  port: 2086
-  server: malaysia.com
-  skip-cert-verify: true
-  type: vmess
-  udp: true
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip1.1789034.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-69
+  name: 0|-https://t.me/MrXbin-57
   network: ws
   port: 2086
   server: 172.64.198.249
@@ -155,7 +100,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-70
+  name: 0|-https://t.me/MrXbin-69
   network: ws
   port: 2086
   server: 172.64.166.28
@@ -359,11 +304,10 @@ proxies:
   uuid: 2302fd7b-1b02-4b1b-8391-782f4c99b7b3
 - alterId: 0
   cipher: auto
-  name: 10,11|香港2|@ripaojiedian
+  name: 10|🇭🇰 香港2|@ripaojiedian
   network: ws
-  port: '2052'
+  port: 2052
   server: cfcdn2.sanfencdn9.com
-  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -373,8 +317,14 @@ proxies:
     headers:
       Host: zTrUWkzLhk1.wzjwkqya.xyz
     path: /video/epGXsEeR
-- name: 10,11|香港4|@ripaojiedian
-  network: tcp
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇭🇰 香港3|@ripaojiedian
+  password: a50b9ad6-20df-4a38-a75a-a04793355cf8
+  port: 33107
+  server: cm.guguyun.pw
+  tfo: false
+  type: ss
+- name: 10|🇭🇰 香港4|@ripaojiedian
   password: lNOcIAxy
   port: 18821
   server: 36.151.192.198
@@ -390,6 +340,13 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf
+  name: 10|🇭🇰 香港7|@ripaojiedian
+  password: asd123456
+  port: 8388
+  server: 103.36.91.23
+  tfo: false
+  type: ss
 - name: 10,11|日本|@ripaojiedian
   network: tcp
   password: cf8c51d3-e692-46a6-b351-4c5ef0b5efc3
@@ -400,9 +357,9 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 10,11|日本2|@ripaojiedian
+  name: 10|🇯🇵 日本2|@ripaojiedian
   network: ws
-  port: '20002'
+  port: 20002
   server: yxvmjp02-1.naizi.vip
   servername: yxvmjp02-1.naizi.vip
   skip-cert-verify: false
@@ -416,11 +373,10 @@ proxies:
     path: /nishidashabi
 - alterId: 0
   cipher: auto
-  name: 10,11|日本3|@ripaojiedian
+  name: 10|🇯🇵 日本3|@ripaojiedian
   network: ws
-  port: '80'
+  port: 80
   server: cfcdn3.sanfencdn9.com
-  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -432,9 +388,9 @@ proxies:
     path: /video/RPKZwKFW
 - alterId: 0
   cipher: auto
-  name: 10,11|日本4|@ripaojiedian
+  name: 10|🇯🇵 日本4|@ripaojiedian
   network: ws
-  port: '10005'
+  port: 10005
   server: jplux01-1.naizi.vip
   servername: jplux01-1.naizi.vip
   skip-cert-verify: false
@@ -446,11 +402,18 @@ proxies:
     headers:
       Host: tv.cctv.com
     path: /nishidashabi
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇰🇷 韩国2|@ripaojiedian
+  password: 9d8f1194-3798-49eb-99c0-cb3132b7591f
+  port: 59687
+  server: zf01.yydz.one
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 10,11|新加坡|@ripaojiedian
+  name: 10|🇸🇬 新加坡|@ripaojiedian
   network: ws
-  port: '10002'
+  port: 10002
   server: yxvmsglux01.naizi.vip
   servername: yxvmsglux01.naizi.vip
   skip-cert-verify: false
@@ -478,6 +441,27 @@ proxies:
     headers:
       Host: ip14.freegradely.xyz
     path: github.com/Alvin9999
+- cipher: aes-256-cfb
+  name: 10|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 47.129.228.107
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: 10|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 3.1.202.81
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: 10|🇰🇷 韩国特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.255.148.85
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 11|香港|@ripaojiedian
@@ -488,6 +472,27 @@ proxies:
   tls: false
   type: vmess
   uuid: 2302fd7b-1b02-4b1b-8391-782f4c99b7b3
+- alterId: 0
+  cipher: auto
+  name: 11|香港3|@ripaojiedian
+  network: ws
+  port: '443'
+  server: n1721189676.ryjml.cn
+  servername: n1721189676.ryjml.cn
+  tls: true
+  type: vmess
+  uuid: 8238c168-a9dc-4f63-8086-9109768a20ab
+  ws-opts:
+    headers:
+      Host: n1721189676.ryjml.cn
+    path: /
+- name: 11|香港4|@ripaojiedian
+  network: tcp
+  password: lNOcIAxy
+  port: 36442
+  server: 36.151.192.239
+  skip-cert-verify: true
+  type: trojan
 - alterId: 64
   cipher: auto
   name: 11|香港6|@ripaojiedian
@@ -498,6 +503,72 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11|日本2|@ripaojiedian
+  network: ws
+  port: '80'
+  server: cfcdn3.sanfencdn9.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 01dee9d8-7147-44b4-b3df-b4fe053d18d5
+  ws-opts:
+    headers:
+      Host: sFcCXgBijp2.wzjwkqya.xyz
+    path: /video/VDXcaM7r
+- alterId: 0
+  cipher: auto
+  name: 11|日本4|@ripaojiedian
+  network: ws
+  port: '10002'
+  server: yxvmjp03-1.naizi.vip
+  servername: yxvmjp03-1.naizi.vip
+  tls: true
+  type: vmess
+  uuid: 1404585b-fe61-4f4d-9680-f63d2002b429
+  ws-opts:
+    headers:
+      Host: www.python.org
+    path: /nishidashabi
+- alterId: 0
+  cipher: auto
+  name: 11|日本5|@ripaojiedian
+  network: ws
+  port: '10005'
+  server: jplux02-1.naizi.vip
+  servername: jplux02-1.naizi.vip
+  tls: true
+  type: vmess
+  uuid: 1404585b-fe61-4f4d-9680-f63d2002b429
+  ws-opts:
+    headers:
+      Host: tv.cctv.com
+    path: /nishidashabi
+- alterId: 0
+  cipher: auto
+  name: 11|美国|@ripaojiedian
+  network: ws
+  port: '2086'
+  server: cfcdn1.sanfencdn9.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 01dee9d8-7147-44b4-b3df-b4fe053d18d5
+  ws-opts:
+    headers:
+      Host: us77SmSk86j.fzbqfrse.xyz
+    path: /video/Z7qdcrAGRw
+- alterId: 0
+  cipher: auto
+  name: 11|美国3|@ripaojiedian
+  network: tcp
+  port: '14802'
+  server: 38.76.151.235
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: dccf6c2c-1daa-4000-bc2d-2c716c77bb1c
 - name: 12|AE_speednode_0001
   network: ws
   port: 80

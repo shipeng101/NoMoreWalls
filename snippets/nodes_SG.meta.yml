@@ -2,9 +2,9 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 10,11|新加坡|@ripaojiedian
+  name: 10|🇸🇬 新加坡|@ripaojiedian
   network: ws
-  port: '10002'
+  port: 10002
   server: yxvmsglux01.naizi.vip
   servername: yxvmsglux01.naizi.vip
   skip-cert-verify: false
@@ -16,6 +16,14 @@ proxies:
     headers:
       Host: www.python.org
     path: /nishidashabi
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 10|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 47.129.228.107
+  tfo: false
+  type: ss
 - name: 12|SG_speednode_0269
   network: ws
   port: 443
