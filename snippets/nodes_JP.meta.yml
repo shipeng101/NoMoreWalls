@@ -2,63 +2,33 @@ proxies:
 - client-fingerprint: chrome
   name: 10,11|日本|@ripaojiedian
   network: tcp
-  password: cf8c51d3-e692-46a6-b351-4c5ef0b5efc3
-  port: 13018
-  server: naiu-jp.05vr9nyqg5.download
+  password: 5xYSOAqDIpn4CeSjN3lRgXaAy8267e3czBy9TuSwC3R8FaYEFZalZD0xCDO3pK
+  port: 18331
+  server: caterpie.superpokemon.com
   skip-cert-verify: false
-  sni: cloudflare.node-ssl.cdn-alibaba.com
+  sni: caterpie.superpokemon.com
   type: trojan
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 10,11|日本2|@ripaojiedian
-  network: ws
-  port: '80'
-  server: cfcdn3.sanfencdn9.com
-  servername: ''
+  name: 10|🇯🇵 日本4|@ripaojiedian
+  port: 28931
+  server: 45.159.51.46
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 01dee9d8-7147-44b4-b3df-b4fe053d18d5
-  ws-opts:
-    headers:
-      Host: sFcCXgBijp2.wzjwkqya.xyz
-    path: /video/VDXcaM7r
+  uuid: 220a3d95-cd76-475e-acc3-2c18b78e0dd6
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 10,11|日本4|@ripaojiedian
-  network: ws
-  port: '10002'
-  server: yxvmjp03-1.naizi.vip
-  servername: yxvmjp03-1.naizi.vip
-  skip-cert-verify: false
-  tfo: false
-  tls: true
+  name: 11|日本4|@ripaojiedian
+  network: tcp
+  port: '28931'
+  server: 45.159.51.46
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 1404585b-fe61-4f4d-9680-f63d2002b429
-  ws-opts:
-    headers:
-      Host: www.python.org
-    path: /nishidashabi
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10,11|日本5|@ripaojiedian
-  network: ws
-  port: '10005'
-  server: jplux02-1.naizi.vip
-  servername: jplux02-1.naizi.vip
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 1404585b-fe61-4f4d-9680-f63d2002b429
-  ws-opts:
-    headers:
-      Host: tv.cctv.com
-    path: /nishidashabi
+  uuid: 220a3d95-cd76-475e-acc3-2c18b78e0dd6
 - name: 12|JP_speednode_0148
   network: ws
   port: 8882
