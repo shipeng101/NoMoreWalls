@@ -1,21 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10,11|台湾|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: cfcdn1.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 01dee9d8-7147-44b4-b3df-b4fe053d18d5
-  ws-opts:
-    headers:
-      Host: tw1eskJpKcA.inivtrak.xyz
-    path: /video/WNMicnDh
 - name: 12|TW_speednode_0271
   network: ws
   port: 81
