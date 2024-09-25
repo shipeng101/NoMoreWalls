@@ -1,5 +1,5 @@
 proxies:
-- name: 12|CA_speednode_0020
+- name: 12|CA_speednode_0021
   network: ws
   password: 95b
   port: 443
