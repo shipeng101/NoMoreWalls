@@ -1,15 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10|🇰🇷 韩国|@ripaojiedian
-  port: 59449
-  server: 45.141.136.224
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: decd4069-dd5f-414d-8c2c-cf0f9da6fa72
 - client-fingerprint: chrome
   name: 10,11|韩国2|@ripaojiedian
   network: tcp
@@ -19,16 +8,6 @@ proxies:
   skip-cert-verify: false
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 11|韩国|@ripaojiedian
-  network: tcp
-  port: '59449'
-  server: 45.141.136.224
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: decd4069-dd5f-414d-8c2c-cf0f9da6fa72
 - client-fingerprint: chrome
   name: 12|KR_speednode_0255
   network: ws
