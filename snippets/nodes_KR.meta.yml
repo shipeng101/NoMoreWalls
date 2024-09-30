@@ -1,19 +1,5 @@
 proxies:
 - client-fingerprint: chrome
-  name: 10|🇰🇷 韩国|@ripaojiedian
-  password: '!!str 3672449442956713984'
-  port: 443
-  server: awaited-newt.mite885.beauty
-  skip-cert-verify: false
-  sni: awaited-newt.mite885.beauty
-  type: trojan
-- name: 11|韩国|@ripaojiedian
-  network: tcp
-  password: '!!str 3672449442956713984'
-  port: 443
-  server: awaited-newt.mite885.beauty
-  type: trojan
-- client-fingerprint: chrome
   name: 12|KR_speednode_0176
   network: ws
   port: 11481
