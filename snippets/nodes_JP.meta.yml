@@ -1,1 +1,55 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  name: 10,11|日本3|@ripaojiedian
+  network: tcp
+  password: c471ef32-798d-40a0-a57c-acf3475a204e
+  port: 13011
+  server: naiu-jp.05vr9nyqg5.download
+  skip-cert-verify: false
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
+- client-fingerprint: chrome
+  name: 12|JP_speednode_0173
+  network: ws
+  port: 12212
+  server: 45.159.48.192
+  servername: a.ssll.gay
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2048
+- client-fingerprint: chrome
+  name: 12|JP_speednode_0174
+  network: ws
+  port: 34237
+  server: 140.238.62.219
+  servername: a.ssll.gay
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2048
+- client-fingerprint: chrome
+  name: 12|JP_speednode_0175
+  network: ws
+  port: 80
+  server: 152.70.103.218
+  servername: a.ssll.gay
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2048
