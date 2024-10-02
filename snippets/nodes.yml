@@ -7,10 +7,10 @@ proxies:
     host: (TG @WangCai2)b5a99e1:21612
     mode: tls
   port: 2377
-  server: 60.249.35.37
+  server: 60.249.35.3
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-2
+  name: 0|-https://t.me/MrXbin-18
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -20,57 +20,7 @@ proxies:
   server: 60.249.35.2
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-5
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)df1fab2:16569
-    mode: tls
-  port: 2377
-  server: 23.247.137.165
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-6
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)b5a99e1:21612
-    mode: tls
-  port: 2377
-  server: 60.249.35.39
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-26
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)df1fab2:16569
-    mode: tls
-  port: 2377
-  server: 54.64.148.82
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-27
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)df1fab2:16569
-    mode: tls
-  port: 2377
-  server: 95.174.71.29
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-39
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)b5a99e1:21612
-    mode: tls
-  port: 2377
-  server: 60.249.28.137
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-43
+  name: 0|-https://t.me/MrXbin-42
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -80,17 +30,27 @@ proxies:
   server: 60.249.28.136
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-44
+  name: 0|-https://t.me/MrXbin-45
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
     host: (TG @WangCai2)b5a99e1:21612
     mode: tls
   port: 2377
-  server: 60.249.28.138
+  server: 60.249.35.39
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-45
+  name: 0|-https://t.me/MrXbin-46
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)df1fab2:16569
+    mode: tls
+  port: 2377
+  server: 54.64.148.82
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-47
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -107,17 +67,27 @@ proxies:
     host: (TG @WangCai2)b5a99e1:21612
     mode: tls
   port: 2377
-  server: 60.249.28.59
+  server: 60.249.35.37
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 0|-https://t.me/MrXbin-49
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: (TG @WangCai2)df1fab2:16569
+    host: (TG @WangCai2)b5a99e1:21612
     mode: tls
   port: 2377
-  server: 95.174.71.28
+  server: 60.249.28.138
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-50
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)b5a99e1:21612
+    mode: tls
+  port: 2377
+  server: 60.249.35.59
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 0|-https://t.me/MrXbin-51
@@ -127,37 +97,37 @@ proxies:
     host: (TG @WangCai2)b5a99e1:21612
     mode: tls
   port: 2377
-  server: 60.249.35.3
+  server: 211.22.161.134
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-53
+  name: 0|-https://t.me/MrXbin-54
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
     host: (TG @WangCai2)df1fab2:16569
     mode: tls
   port: 2377
-  server: 43.207.207.206
+  server: 23.247.137.165
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-55
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)df1fab2:16569
+    mode: tls
+  port: 2377
+  server: 95.174.71.29
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 0|-https://t.me/MrXbin-56
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: (TG @WangCai2)b5a99e1:21612
+    host: (TG @WangCai2)df1fab2:16569
     mode: tls
   port: 2377
-  server: 211.22.161.135
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-57
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)b5a99e1:21612
-    mode: tls
-  port: 2377
-  server: 60.249.35.38
+  server: 95.174.71.28
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 0|-https://t.me/MrXbin-58
@@ -167,7 +137,7 @@ proxies:
     host: (TG @WangCai2)b5a99e1:21612
     mode: tls
   port: 2377
-  server: 211.22.161.134
+  server: 60.249.28.137
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 0|-https://t.me/MrXbin-59
@@ -177,138 +147,72 @@ proxies:
     host: (TG @WangCai2)b5a99e1:21612
     mode: tls
   port: 2377
-  server: 60.249.35.59
+  server: 211.22.161.135
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-60
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)b5a99e1:21612
+    mode: tls
+  port: 2377
+  server: 60.249.28.59
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-62
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)b5a99e1:21612
+    mode: tls
+  port: 2377
+  server: 60.249.35.38
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-63
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)df1fab2:16569
+    mode: tls
+  port: 2377
+  server: 43.207.207.206
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-72
+  obfs: tls1.2_ticket_auth
+  password: fou8MBGij
+  port: 8081
+  protocol: origin
+  server: us-am3.eqnode.net
+  type: ssr
 - alterId: 0
   cipher: auto
-  name: 3|d*********g.com_0
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-88
   network: ws
-  port: 2086
-  server: 104.19.32.46
-  servername: ip006.3196772.xyz
-  tls: false
+  port: 443
+  server: 57.129.28.69
+  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  skip-cert-verify: true
+  tls: true
   type: vmess
   udp: true
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: ip006.3196772.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 3|d*********g.com_1
-  network: ws
-  port: 2086
-  server: 23.227.38.6
-  servername: ip006.3196772.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-  ws-opts:
-    headers:
-      Host: ip006.3196772.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 3|d*********g.com_2
-  network: ws
-  port: 2086
-  server: 104.19.51.232
-  servername: ip006.3196772.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-  ws-opts:
-    headers:
-      Host: ip006.3196772.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 3|d*********g.com_3
-  network: ws
-  port: 2086
-  server: 104.19.38.62
-  servername: ip006.3196772.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-  ws-opts:
-    headers:
-      Host: ip006.3196772.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: '4|d*********g.com_0 #1'
-  network: ws
-  port: 2086
-  server: 104.19.46.233
-  servername: ip005.3196772.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-  ws-opts:
-    headers:
-      Host: ip005.3196772.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: '4|d*********g.com_1 #1'
-  network: ws
-  port: 2086
-  server: 23.227.38.6
-  servername: ip005.3196772.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-  ws-opts:
-    headers:
-      Host: ip005.3196772.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: '4|d*********g.com_2 #1'
-  network: ws
-  port: 2086
-  server: 104.19.51.232
-  servername: ip005.3196772.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-  ws-opts:
-    headers:
-      Host: ip005.3196772.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: '4|d*********g.com_3 #1'
-  network: ws
-  port: 2086
-  server: 104.19.38.62
-  servername: ip005.3196772.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-  ws-opts:
-    headers:
-      Host: ip005.3196772.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 10|🇭🇰 香港负载均衡1
-  port: 57739
-  server: 103.30.78.105
+      Host: baradiha.com
+    path: /linkvws
+- name: 10,11|香港|@ripaojiedian
+  network: tcp
+  password: c471ef32-798d-40a0-a57c-acf3475a204e
+  port: 13007
+  server: naiu-hk.05vr9nyqg5.download
   skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: f1a52841-0c10-4119-8617-7c3ff2a4a937
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
 - name: 10,11|香港2|@ripaojiedian
   network: tcp
   password: c471ef32-798d-40a0-a57c-acf3475a204e
@@ -317,18 +221,6 @@ proxies:
   skip-cert-verify: false
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
-- name: 10|🇭🇰 香港3|@ripaojiedian
-  network: ws
-  password: a3ca0380-8a17-403a-a5b3-a9f6e59be193
-  port: 443
-  server: claw-ali-hkg-1ge.china-next-generation-any-path-smart-route-global.2h.ma
-  skip-cert-verify: false
-  sni: claw-ali-hkg-1ge.china-next-generation-any-path-smart-route-global.2h.ma
-  type: trojan
-  ws-opts:
-    headers:
-      Host: claw-ali-hkg-1ge.china-next-generation-any-path-smart-route-global.2h.ma
-    path: /a3ca0380-8a17-403a-a5b3-a9f6e59be193
 - alterId: 64
   cipher: auto
   name: 10|🇭🇰 香港4|@ripaojiedian
@@ -341,17 +233,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 10|🇭🇰 香港5|@ripaojiedian
-  port: 44826
-  server: ambxxid02hk.dorabbb.top
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 0b411754-172d-406c-95fb-7ee650a5b9ad
-- alterId: 0
-  cipher: auto
-  name: 10,11|台湾2|@ripaojiedian
+  name: 10,11|台湾4|@ripaojiedian
   network: ws
   port: '2052'
   server: cfcdn1.sanfencdn9.com
@@ -363,8 +245,16 @@ proxies:
   uuid: 423caa0c-0542-4326-92e1-18769b6608e7
   ws-opts:
     headers:
-      Host: tw1eskJpKcA.inivtrak.xyz
-    path: /video/WNMicnDh
+      Host: tw1yYfBXuZe.inivtrak.xyz
+    path: /video/bkvyiKgP
+- name: 10,11|台湾2|@ripaojiedian
+  network: tcp
+  password: c471ef32-798d-40a0-a57c-acf3475a204e
+  port: 13035
+  server: naiu-other.05vr9nyqg5.download
+  skip-cert-verify: false
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
 - name: 10,11|日本3|@ripaojiedian
   network: tcp
   password: c471ef32-798d-40a0-a57c-acf3475a204e
@@ -373,13 +263,6 @@ proxies:
   skip-cert-verify: false
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
-- name: 10|🇸🇬 新加坡2|@ripaojiedian
-  password: '3672449442956713984'
-  port: 443
-  server: devoted-liger.mite885.beauty
-  skip-cert-verify: false
-  sni: devoted-liger.mite885.beauty
-  type: trojan
 - name: 10|🇸🇬 新加坡|@ripaojiedian
   password: '3672449442956713984'
   port: 443
@@ -387,7 +270,8 @@ proxies:
   skip-cert-verify: false
   sni: maximum-oyster.mite885.beauty
   type: trojan
-- name: 10|🇸🇬 新加坡3|@ripaojiedian
+- name: 10,11|新加坡2|@ripaojiedian
+  network: tcp
   password: '3672449442956713984'
   port: 443
   server: tolerant-alien.mite885.beauty
@@ -396,17 +280,23 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸 美国3|@ripaojiedian
-  port: 14802
-  server: 38.76.151.235
+  name: 10,11|美国|@ripaojiedian
+  network: ws
+  port: '46010'
+  server: 223.244.26.216
+  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: dccf6c2c-1daa-4000-bc2d-2c716c77bb1c
+  uuid: 58ffeca7-7e75-417f-bbac-7b1041ce616d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
 - alterId: 0
   cipher: auto
-  name: 10,11|美国2|@ripaojiedian
+  name: 10,11|美国3|@ripaojiedian
   network: ws
   port: '2052'
   server: cfcdn1.sanfencdn9.com
@@ -415,49 +305,19 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: af0bfcce-8730-4133-bdaa-f6b1da70fc1c
+  uuid: 423caa0c-0542-4326-92e1-18769b6608e7
   ws-opts:
     headers:
-      Host: us2htbepeox.inivtrak.xyz
-    path: /video/yGbumWFW/
-- alterId: 64
-  cipher: auto
-  name: 10|🇺🇸 美国5|@ripaojiedian
-  port: 58831
-  server: 120.232.153.27
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 10|🇻🇳 越南|@ripaojiedian
+      Host: us2FchmwQky.inivtrak.xyz
+    path: /video/BgpiHrui/
+- name: 10,11|越南2|@ripaojiedian
+  network: tcp
   password: '3672449442956713984'
   port: 443
   server: stable-koi.gelding865.autos
   skip-cert-verify: false
   sni: stable-koi.gelding865.autos
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 11|香港负载均衡1
-  network: tcp
-  port: '57739'
-  server: 103.30.78.105
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f1a52841-0c10-4119-8617-7c3ff2a4a937
-- name: 11|香港3|@ripaojiedian
-  network: ws
-  password: a3ca0380-8a17-403a-a5b3-a9f6e59be193
-  port: 443
-  server: claw-ali-hkg-1ge.china-next-generation-any-path-smart-route-global.2h.ma
-  sni: claw-ali-hkg-1ge.china-next-generation-any-path-smart-route-global.2h.ma
-  type: trojan
-  ws-opts:
-    headers:
-      Host: claw-ali-hkg-1ge.china-next-generation-any-path-smart-route-global.2h.ma
-    path: '%2Fa3ca0380-8a17-403a-a5b3-a9f6e59be193'
 - alterId: 64
   cipher: auto
   name: 11|香港4|@ripaojiedian
@@ -468,22 +328,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11|香港5|@ripaojiedian
-  network: tcp
-  port: '44826'
-  server: ambxxid02hk.dorabbb.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0b411754-172d-406c-95fb-7ee650a5b9ad
-- name: 11|新加坡2|@ripaojiedian
-  network: tcp
-  password: '3672449442956713984'
-  port: 443
-  server: devoted-liger.mite885.beauty
-  type: trojan
 - name: 11|新加坡|@ripaojiedian
   network: tcp
   password: '3672449442956713984'
@@ -495,32 +339,6 @@ proxies:
   password: '3672449442956713984'
   port: 443
   server: tolerant-alien.mite885.beauty
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 11|美国3|@ripaojiedian
-  network: tcp
-  port: '14802'
-  server: 38.76.151.235
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: dccf6c2c-1daa-4000-bc2d-2c716c77bb1c
-- alterId: 64
-  cipher: auto
-  name: 11|美国5|@ripaojiedian
-  network: tcp
-  port: '58831'
-  server: 120.232.153.27
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 11|越南|@ripaojiedian
-  network: tcp
-  password: '3672449442956713984'
-  port: 443
-  server: stable-koi.gelding865.autos
   type: trojan
 - name: 12|HK_speednode_0163
   network: ws
@@ -576,7 +394,7 @@ proxies:
     path: /trojan-6qo.pages.dev/?ed=2560?ed=2560
 - alterId: 0
   cipher: auto
-  name: '13|d*********g.com_2 #2'
+  name: 13|d*********g.com_2
   network: tcp
   port: '443'
   server: 42.236.73.72
@@ -586,7 +404,7 @@ proxies:
   uuid: 044f0177-0675-4dcf-89d4-804b6788e518
 - alpn:
   - http%2F1.1
-  name: '13|d*********g.com_3 #2'
+  name: 13|d*********g.com_3
   network: tcp
   password: fuck
   port: 443

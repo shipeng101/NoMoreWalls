@@ -2,7 +2,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 10,11|台湾2|@ripaojiedian
+  name: 10,11|台湾4|@ripaojiedian
   network: ws
   port: '2052'
   server: cfcdn1.sanfencdn9.com
@@ -14,5 +14,14 @@ proxies:
   uuid: 423caa0c-0542-4326-92e1-18769b6608e7
   ws-opts:
     headers:
-      Host: tw1eskJpKcA.inivtrak.xyz
-    path: /video/WNMicnDh
+      Host: tw1yYfBXuZe.inivtrak.xyz
+    path: /video/bkvyiKgP
+- client-fingerprint: chrome
+  name: 10,11|台湾2|@ripaojiedian
+  network: tcp
+  password: c471ef32-798d-40a0-a57c-acf3475a204e
+  port: 13035
+  server: naiu-other.05vr9nyqg5.download
+  skip-cert-verify: false
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
