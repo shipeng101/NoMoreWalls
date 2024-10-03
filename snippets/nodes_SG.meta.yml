@@ -1,33 +1,21 @@
 proxies:
-- client-fingerprint: chrome
-  name: 10|🇸🇬 新加坡|@ripaojiedian
-  password: '!!str 3672449442956713984'
-  port: 443
-  server: maximum-oyster.mite885.beauty
-  skip-cert-verify: false
-  sni: maximum-oyster.mite885.beauty
-  type: trojan
-- client-fingerprint: chrome
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
   name: 10,11|新加坡2|@ripaojiedian
-  network: tcp
-  password: '!!str 3672449442956713984'
-  port: 443
-  server: tolerant-alien.mite885.beauty
+  network: ws
+  port: '59501'
+  server: cm.laoliu.live
+  servername: ''
   skip-cert-verify: false
-  sni: tolerant-alien.mite885.beauty
-  type: trojan
-- name: 11|新加坡|@ripaojiedian
-  network: tcp
-  password: '!!str 3672449442956713984'
-  port: 443
-  server: maximum-oyster.mite885.beauty
-  type: trojan
-- name: 11|新加坡3|@ripaojiedian
-  network: tcp
-  password: '!!str 3672449442956713984'
-  port: 443
-  server: tolerant-alien.mite885.beauty
-  type: trojan
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e7d89b98-eef9-40b3-e533-a92e981134bb
+  ws-opts:
+    headers:
+      Host: sg22.laoliu.store
+    path: /downloads_sg22
 - name: 12|SG_speednode_0260
   network: ws
   port: 443
