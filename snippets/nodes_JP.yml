@@ -2,20 +2,23 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 10,11|日本4|@ripaojiedian
-  network: ws
-  port: '443'
-  server: mncsdmeujptest.wzjwkqya.xyz
-  servername: mncsdmeujptest.wzjwkqya.xyz
+  name: 10|🇯🇵 日本|@ripaojiedian
+  port: 43652
+  server: 45.159.51.46
   skip-cert-verify: false
   tfo: false
-  tls: true
+  tls: false
   type: vmess
-  uuid: 423caa0c-0542-4326-92e1-18769b6608e7
-  ws-opts:
-    headers:
-      Host: mncsdmeujptest.wzjwkqya.xyz
-    path: /video/EFkRECxp
+  uuid: cea93c7c-7f4c-43b2-a31b-e1ee8e5b19bf
+- client-fingerprint: chrome
+  name: 10,11|日本2|@ripaojiedian
+  network: tcp
+  password: 0b0387b8-5258-386b-8744-dcacb2320d94
+  port: 443
+  server: 18.183.42.116
+  skip-cert-verify: true
+  sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM
+  type: trojan
 - client-fingerprint: chrome
   name: 10,11|日本3|@ripaojiedian
   network: tcp
@@ -39,15 +42,25 @@ proxies:
   client-fingerprint: chrome
   name: 10,11|日本6|@ripaojiedian
   network: ws
-  port: '59501'
-  server: cm.laoliu.live
-  servername: ''
+  port: '443'
+  server: mncsdmeujptest.wzjwkqya.xyz
+  servername: mncsdmeujptest.wzjwkqya.xyz
   skip-cert-verify: false
   tfo: false
-  tls: false
+  tls: true
   type: vmess
-  uuid: 10933bdb-ed0e-410c-a019-91c1f33eff25
+  uuid: d2bf8b15-99cf-464a-b0de-ea0c3fc20c44
   ws-opts:
     headers:
-      Host: jp12.laoliu.store
-    path: /downloads_jp12
+      Host: mncsdmeujptest.wzjwkqya.xyz
+    path: /video/EFkRECxp
+- alterId: 0
+  cipher: auto
+  name: 11|日本|@ripaojiedian
+  network: tcp
+  port: '43652'
+  server: 45.159.51.46
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cea93c7c-7f4c-43b2-a31b-e1ee8e5b19bf

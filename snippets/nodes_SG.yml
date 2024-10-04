@@ -1,18 +1,1 @@
-proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10,11|新加坡2|@ripaojiedian
-  network: ws
-  port: '59501'
-  server: cm.laoliu.live
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e7d89b98-eef9-40b3-e533-a92e981134bb
-  ws-opts:
-    headers:
-      Host: sg22.laoliu.store
-    path: /downloads_sg22
+proxies: []

@@ -17,6 +17,15 @@ proxies:
       Host: ''
     path: /zh-cn
 - client-fingerprint: chrome
+  name: 10,11|美国2|@ripaojiedian
+  network: tcp
+  password: 0b0387b8-5258-386b-8744-dcacb2320d94
+  port: 2000
+  server: 183.232.159.2
+  skip-cert-verify: true
+  sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM
+  type: trojan
+- client-fingerprint: chrome
   name: 12|US_speednode_0261
   network: ws
   port: 80

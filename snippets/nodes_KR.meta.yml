@@ -9,6 +9,15 @@ proxies:
   sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM
   type: trojan
 - client-fingerprint: chrome
+  name: 10,11|韩国2|@ripaojiedian
+  network: tcp
+  password: 0b0387b8-5258-386b-8744-dcacb2320d94
+  port: 443
+  server: 43.203.146.211
+  skip-cert-verify: true
+  sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM
+  type: trojan
+- client-fingerprint: chrome
   name: 12|KR_speednode_0176
   network: ws
   port: 11481
