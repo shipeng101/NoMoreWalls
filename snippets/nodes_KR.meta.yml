@@ -17,6 +17,27 @@ proxies:
   skip-cert-verify: true
   sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM
   type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇰🇷 韩国3|@ripaojiedian
+  port: 40546
+  server: 45.94.68.193
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 181cd551-ebfd-43fa-b3b6-01dd949f4013
+- alterId: 0
+  cipher: auto
+  name: 11|韩国3|@ripaojiedian
+  network: tcp
+  port: '40546'
+  server: 45.94.68.193
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 181cd551-ebfd-43fa-b3b6-01dd949f4013
 - client-fingerprint: chrome
   name: 12|KR_speednode_0176
   network: ws

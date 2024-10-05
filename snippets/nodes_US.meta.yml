@@ -2,7 +2,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 10,11|美国|@ripaojiedian
+  name: 10,11|美国2|@ripaojiedian
   network: ws
   port: '46010'
   server: 223.244.26.216
@@ -11,20 +11,11 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: 58ffeca7-7e75-417f-bbac-7b1041ce616d
+  uuid: c9bda0e7-4ffa-464f-84a0-41253180d04c
   ws-opts:
     headers:
       Host: ''
     path: /zh-cn
-- client-fingerprint: chrome
-  name: 10,11|美国2|@ripaojiedian
-  network: tcp
-  password: 0b0387b8-5258-386b-8744-dcacb2320d94
-  port: 2000
-  server: 183.232.159.2
-  skip-cert-verify: true
-  sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM
-  type: trojan
 - client-fingerprint: chrome
   name: 12|US_speednode_0261
   network: ws
