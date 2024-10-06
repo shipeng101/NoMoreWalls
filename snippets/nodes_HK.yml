@@ -19,23 +19,6 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 10,11|香港2|@ripaojiedian
-  network: ws
-  port: '48886'
-  server: 134.122.135.158
-  servername: www.26741191.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.26741191.xyz
-    path: /path/351212081517
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
   name: 10|🇭🇰 香港4|@ripaojiedian
   port: 35601
   server: 120.232.153.40
@@ -44,6 +27,17 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇭🇰 香港5|@ripaojiedian
+  port: 57377
+  server: 38.147.188.194
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: ee05e267-1e79-472c-95e6-28a07c91f5ac
 - alterId: 64
   cipher: auto
   name: 11|香港4|@ripaojiedian
@@ -54,6 +48,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11|香港5|@ripaojiedian
+  network: tcp
+  port: '57377'
+  server: 38.147.188.194
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ee05e267-1e79-472c-95e6-28a07c91f5ac
 - name: 12|HK_speednode_0163
   network: ws
   password: 95b

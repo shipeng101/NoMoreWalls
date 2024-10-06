@@ -1,32 +1,18 @@
 proxies:
-- client-fingerprint: chrome
-  name: 10|🇸🇬 新加坡|@ripaojiedian
-  password: '!!str 3672449442956713984'
-  port: 443
-  server: champion-dog.lab300.lat
-  skip-cert-verify: false
-  sni: champion-dog.lab300.lat
-  type: trojan
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
   name: 10,11|新加坡2|@ripaojiedian
   network: ws
-  port: '80'
-  server: 3L6E2.c6tu5uwk9.buzz
-  servername: ''
+  port: '2052'
+  server: 172.104.189.84
+  servername: 172.104.189.84
   skip-cert-verify: false
   tfo: false
-  tls: false
+  tls: true
   type: vmess
-  uuid: 219eb7ea-8f9a-4af8-857b-4b4b564224ef
+  uuid: af0bfcce-8730-4133-bdaa-f6b1da70fc1c
   ws-opts:
     headers:
-      Host: sg02.knt6y4bjx.buzz
-    path: /
-- name: 11|新加坡|@ripaojiedian
-  network: tcp
-  password: '!!str 3672449442956713984'
-  port: 443
-  server: champion-dog.lab300.lat
-  type: trojan
+      Host: 172.104.189.84
+    path: /video/QqzfRGNq

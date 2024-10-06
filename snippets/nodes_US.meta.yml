@@ -1,4 +1,12 @@
 proxies:
+- client-fingerprint: chrome
+  name: 10|🇺🇸 美国|@ripaojiedian
+  password: '!!str 3672449442956713984'
+  port: 443
+  server: sure-mutt.sunbeam921.monster
+  skip-cert-verify: false
+  sni: sure-mutt.sunbeam921.monster
+  type: trojan
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -16,6 +24,13 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
+- name: 11|美国|@ripaojiedian
+  network: tcp
+  password: '!!str 3672449442956713984'
+  port: 443
+  server: sure-mutt.sunbeam921.monster
+  skip-cert-verify: true
+  type: trojan
 - client-fingerprint: chrome
   name: 12|US_speednode_0261
   network: ws
