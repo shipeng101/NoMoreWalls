@@ -8,24 +8,3 @@ proxies:
   skip-cert-verify: false
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10|🇰🇷 韩国2|@ripaojiedian
-  port: 54553
-  server: 45.141.136.217
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e6e837d3-52f6-4ae2-9a69-34754ec2552e
-- alterId: 0
-  cipher: auto
-  name: 11|韩国2|@ripaojiedian
-  network: tcp
-  port: '54553'
-  server: 45.141.136.217
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e6e837d3-52f6-4ae2-9a69-34754ec2552e

@@ -1,21 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10,11|日本|@ripaojiedian
-  network: ws
-  port: '443'
-  server: 172.233.92.155
-  servername: 172.233.92.155
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: af0bfcce-8730-4133-bdaa-f6b1da70fc1c
-  ws-opts:
-    headers:
-      Host: 172.233.92.155
-    path: /fdmCQbor
 - client-fingerprint: chrome
   name: 10,11|日本5|@ripaojiedian
   network: tcp
