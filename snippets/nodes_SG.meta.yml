@@ -16,23 +16,6 @@ proxies:
     headers:
       Host: 139.162.33.70
     path: /BqVwBioP
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10,11|新加坡3|@ripaojiedian
-  network: ws
-  port: '443'
-  server: sgcft01.xqc.best
-  servername: d285gakij18iij.cloudfront.net
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 607fa241-271b-4eba-b543-e918976a50d8
-  ws-opts:
-    headers:
-      Host: d285gakij18iij.cloudfront.net
-    path: /stream
 - client-fingerprint: chrome
   name: 10,11|新加坡5|@ripaojiedian
   network: tcp
