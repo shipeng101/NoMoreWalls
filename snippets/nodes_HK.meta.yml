@@ -16,6 +16,15 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
+- client-fingerprint: chrome
+  name: 10,11|香港3|@ripaojiedian
+  network: tcp
+  password: 1a8050cd-50d8-4b7d-a73e-193222f39822
+  port: 27102
+  server: aafrtpfxr.hkl02i9zjfegelp.5xfsur8v62.gosdk.xyz
+  skip-cert-verify: false
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -30,11 +39,11 @@ proxies:
 - client-fingerprint: chrome
   name: 10,11|香港5|@ripaojiedian
   network: tcp
-  password: a0f840fc321029a477a82fa07b0b945e
-  port: 35837
+  password: 49582ed9be8a6e7d7ef0c80f7848a0b0
+  port: 54066
   server: 120.226.32.72
   skip-cert-verify: false
-  sni: testhk1000.wujie99.com
+  sni: akile8901.wujie66.com
   type: trojan
 - client-fingerprint: chrome
   name: 10,11|香港6|@ripaojiedian
@@ -44,15 +53,6 @@ proxies:
   server: naiu-hk.05vr9nyqg5.download
   skip-cert-verify: true
   sni: naiu-hk.05vr9nyqg5.download
-  type: trojan
-- client-fingerprint: chrome
-  name: 10,11|香港9|@ripaojiedian
-  network: tcp
-  password: 49582ed9be8a6e7d7ef0c80f7848a0b0
-  port: 54066
-  server: 120.226.32.72
-  skip-cert-verify: false
-  sni: akile8901.wujie66.com
   type: trojan
 - alterId: 64
   cipher: auto
