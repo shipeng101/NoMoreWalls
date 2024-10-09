@@ -1,10 +1,1 @@
-proxies:
-- client-fingerprint: chrome
-  name: 10,11|日本2|@ripaojiedian
-  network: tcp
-  password: 1a8050cd-50d8-4b7d-a73e-193222f39822
-  port: 22271
-  server: aafrtpfxr.jpl03i9zjfegelp.5xfsur8v62.gosdk.xyz
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
+proxies: []

@@ -16,15 +16,17 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
-- client-fingerprint: chrome
-  name: 10,11|香港3|@ripaojiedian
-  network: tcp
-  password: 1a8050cd-50d8-4b7d-a73e-193222f39822
-  port: 27102
-  server: aafrtpfxr.hkl02i9zjfegelp.5xfsur8v62.gosdk.xyz
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇭🇰 香港2|@ripaojiedian
+  port: 44806
+  server: ambxxic01hk.dorabbb.top
   skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 21c7fe70-62f4-492a-8ff5-882edee63b15
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -54,6 +56,27 @@ proxies:
   skip-cert-verify: true
   sni: naiu-hk.05vr9nyqg5.download
   type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇭🇰 香港8|@ripaojiedian
+  port: 46026
+  server: 149.104.15.120
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: fb1b6ae3-140a-41d8-9644-0550e08cdfd0
+- alterId: 0
+  cipher: auto
+  name: 11|香港2|@ripaojiedian
+  network: tcp
+  port: '44806'
+  server: ambxxic01hk.dorabbb.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 21c7fe70-62f4-492a-8ff5-882edee63b15
 - alterId: 64
   cipher: auto
   name: 11|香港4|@ripaojiedian
@@ -64,3 +87,13 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11|香港8|@ripaojiedian
+  network: tcp
+  port: '46026'
+  server: 149.104.15.120
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: fb1b6ae3-140a-41d8-9644-0550e08cdfd0

@@ -1,14 +1,5 @@
 proxies:
-- client-fingerprint: chrome
-  name: 10,11|日本2|@ripaojiedian
-  network: tcp
-  password: 1a8050cd-50d8-4b7d-a73e-193222f39822
-  port: 22271
-  server: aafrtpfxr.jpl03i9zjfegelp.5xfsur8v62.gosdk.xyz
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-- name: 12|JP_speednode_0052
+- name: 12|JP_speednode_0031
   network: ws
   port: 587
   server: 8.209.220.155
@@ -22,7 +13,7 @@ proxies:
     headers:
       Host: freenodes.repe.gay
     path: /?ed=2048
-- name: 12|JP_speednode_0053
+- name: 12|JP_speednode_0032
   network: ws
   port: 10002
   server: 13.208.164.28
@@ -36,35 +27,7 @@ proxies:
     headers:
       Host: freenodes.repe.gay
     path: /?ed=2048
-- name: 12|JP_speednode_0054
-  network: ws
-  port: 50996
-  server: 52.193.22.156
-  servername: freenodes.repe.gay
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ca8692b7-8f6f-4346-a916-c1e9798ab91b
-  ws-opts:
-    headers:
-      Host: freenodes.repe.gay
-    path: /?ed=2048
-- name: 12|JP_speednode_0055
-  network: ws
-  port: 1777
-  server: 206.190.233.219
-  servername: freenodes.repe.gay
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ca8692b7-8f6f-4346-a916-c1e9798ab91b
-  ws-opts:
-    headers:
-      Host: freenodes.repe.gay
-    path: /?ed=2048
-- name: 12|JP_speednode_0056
+- name: 12|JP_speednode_0033
   network: ws
   port: 54709
   server: 212.50.254.116
@@ -78,7 +41,21 @@ proxies:
     headers:
       Host: freenodes.repe.gay
     path: /?ed=2048
-- name: 12|JP_speednode_0057
+- name: 12|JP_speednode_0034
+  network: ws
+  port: 50996
+  server: 52.193.22.156
+  servername: freenodes.repe.gay
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ca8692b7-8f6f-4346-a916-c1e9798ab91b
+  ws-opts:
+    headers:
+      Host: freenodes.repe.gay
+    path: /?ed=2048
+- name: 12|JP_speednode_0035
   network: ws
   port: 8083
   server: 34.97.183.32
@@ -92,35 +69,7 @@ proxies:
     headers:
       Host: freenodes.repe.gay
     path: /?ed=2048
-- name: 12|JP_speednode_0058
-  network: ws
-  port: 12117
-  server: 180.3.190.67
-  servername: freenodes.repe.gay
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ca8692b7-8f6f-4346-a916-c1e9798ab91b
-  ws-opts:
-    headers:
-      Host: freenodes.repe.gay
-    path: /?ed=2048
-- name: 12|JP_speednode_0059
-  network: ws
-  port: 443
-  server: 43.153.175.137
-  servername: freenodes.repe.gay
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ca8692b7-8f6f-4346-a916-c1e9798ab91b
-  ws-opts:
-    headers:
-      Host: freenodes.repe.gay
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048
-- name: 12|JP_speednode_0060
+- name: 12|JP_speednode_0036
   network: ws
   port: 20443
   server: 43.133.169.125
@@ -134,7 +83,7 @@ proxies:
     headers:
       Host: freenodes.repe.gay
     path: /?ed=2048
-- name: 12|JP_speednode_0061
+- name: 12|JP_speednode_0037
   network: ws
   port: 443
   server: 43.153.175.137
@@ -148,7 +97,7 @@ proxies:
     headers:
       Host: freenodes.repe.gay
     path: /?ed=2048
-- name: 12|JP_speednode_0062
+- name: 12|JP_speednode_0038
   network: ws
   port: 12203
   server: 150.246.245.126
@@ -162,10 +111,24 @@ proxies:
     headers:
       Host: freenodes.repe.gay
     path: /?ed=2048
-- name: 12|JP_speednode_0063
+- name: 12|JP_speednode_0039
   network: ws
-  port: 30501
-  server: 180.1.76.147
+  port: 443
+  server: 43.153.175.137
+  servername: freenodes.repe.gay
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ca8692b7-8f6f-4346-a916-c1e9798ab91b
+  ws-opts:
+    headers:
+      Host: freenodes.repe.gay
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2048
+- name: 12|JP_speednode_0040
+  network: ws
+  port: 12117
+  server: 180.3.190.67
   servername: freenodes.repe.gay
   skip-cert-verify: false
   tls: true
@@ -176,63 +139,7 @@ proxies:
     headers:
       Host: freenodes.repe.gay
     path: /?ed=2048
-- name: 12|JP_speednode_0064
-  network: ws
-  port: 587
-  server: 141.147.185.127
-  servername: freenodes.repe.gay
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ca8692b7-8f6f-4346-a916-c1e9798ab91b
-  ws-opts:
-    headers:
-      Host: freenodes.repe.gay
-    path: /?ed=2048
-- name: 12|JP_speednode_0065
-  network: ws
-  port: 2083
-  server: 103.116.7.103
-  servername: freenodes.repe.gay
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ca8692b7-8f6f-4346-a916-c1e9798ab91b
-  ws-opts:
-    headers:
-      Host: freenodes.repe.gay
-    path: /?ed=2048
-- name: 12|JP_speednode_0066
-  network: ws
-  port: 10000
-  server: 168.138.201.26
-  servername: freenodes.repe.gay
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ca8692b7-8f6f-4346-a916-c1e9798ab91b
-  ws-opts:
-    headers:
-      Host: freenodes.repe.gay
-    path: /?ed=2048
-- name: 12|JP_speednode_0067
-  network: ws
-  port: 2096
-  server: 103.116.7.220
-  servername: freenodes.repe.gay
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ca8692b7-8f6f-4346-a916-c1e9798ab91b
-  ws-opts:
-    headers:
-      Host: freenodes.repe.gay
-    path: /?ed=2048
-- name: 12|JP_speednode_0068
+- name: 12|JP_speednode_0041
   network: ws
   port: 56656
   server: 147.78.246.201
@@ -246,10 +153,10 @@ proxies:
     headers:
       Host: freenodes.repe.gay
     path: /Telegram🇨🇳 @WangCai2 /?ed=2048
-- name: 12|JP_speednode_0069
+- name: 12|JP_speednode_0042
   network: ws
-  port: 443
-  server: 103.116.7.248
+  port: 30501
+  server: 180.1.76.147
   servername: freenodes.repe.gay
   skip-cert-verify: false
   tls: true
@@ -260,10 +167,10 @@ proxies:
     headers:
       Host: freenodes.repe.gay
     path: /?ed=2048
-- name: 12|JP_speednode_0070
+- name: 12|JP_speednode_0043
   network: ws
-  port: 2096
-  server: 103.116.7.152
+  port: 587
+  server: 141.147.185.127
   servername: freenodes.repe.gay
   skip-cert-verify: false
   tls: true
@@ -274,21 +181,7 @@ proxies:
     headers:
       Host: freenodes.repe.gay
     path: /?ed=2048
-- name: 12|JP_speednode_0071
-  network: ws
-  port: 2087
-  server: 103.116.7.100
-  servername: freenodes.repe.gay
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ca8692b7-8f6f-4346-a916-c1e9798ab91b
-  ws-opts:
-    headers:
-      Host: freenodes.repe.gay
-    path: /?ed=2048
-- name: 12|JP_speednode_0072
+- name: 12|JP_speednode_0044
   network: ws
   port: 443
   server: 103.116.7.235
@@ -302,10 +195,10 @@ proxies:
     headers:
       Host: freenodes.repe.gay
     path: /?ed=2048
-- name: 12|JP_speednode_0073
+- name: 12|JP_speednode_0045
   network: ws
-  port: 56656
-  server: 147.78.246.201
+  port: 443
+  server: 103.116.7.248
   servername: freenodes.repe.gay
   skip-cert-verify: false
   tls: true
@@ -316,7 +209,63 @@ proxies:
     headers:
       Host: freenodes.repe.gay
     path: /?ed=2048
-- name: 12|JP_speednode_0074
+- name: 12|JP_speednode_0046
+  network: ws
+  port: 2096
+  server: 103.116.7.152
+  servername: freenodes.repe.gay
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ca8692b7-8f6f-4346-a916-c1e9798ab91b
+  ws-opts:
+    headers:
+      Host: freenodes.repe.gay
+    path: /?ed=2048
+- name: 12|JP_speednode_0047
+  network: ws
+  port: 2096
+  server: 103.116.7.220
+  servername: freenodes.repe.gay
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ca8692b7-8f6f-4346-a916-c1e9798ab91b
+  ws-opts:
+    headers:
+      Host: freenodes.repe.gay
+    path: /?ed=2048
+- name: 12|JP_speednode_0048
+  network: ws
+  port: 2087
+  server: 103.116.7.100
+  servername: freenodes.repe.gay
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ca8692b7-8f6f-4346-a916-c1e9798ab91b
+  ws-opts:
+    headers:
+      Host: freenodes.repe.gay
+    path: /?ed=2048
+- name: 12|JP_speednode_0049
+  network: ws
+  port: 2083
+  server: 103.116.7.103
+  servername: freenodes.repe.gay
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ca8692b7-8f6f-4346-a916-c1e9798ab91b
+  ws-opts:
+    headers:
+      Host: freenodes.repe.gay
+    path: /?ed=2048
+- name: 12|JP_speednode_0050
   network: ws
   port: 2083
   server: 103.116.7.67
@@ -330,10 +279,10 @@ proxies:
     headers:
       Host: freenodes.repe.gay
     path: /?ed=2048
-- name: 12|JP_speednode_0075
+- name: 12|JP_speednode_0051
   network: ws
-  port: 587
-  server: 168.138.51.162
+  port: 56656
+  server: 147.78.246.201
   servername: freenodes.repe.gay
   skip-cert-verify: false
   tls: true
@@ -344,21 +293,7 @@ proxies:
     headers:
       Host: freenodes.repe.gay
     path: /?ed=2048
-- name: 12|JP_speednode_0076
-  network: ws
-  port: 1443
-  server: 140.83.82.88
-  servername: freenodes.repe.gay
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ca8692b7-8f6f-4346-a916-c1e9798ab91b
-  ws-opts:
-    headers:
-      Host: freenodes.repe.gay
-    path: /?ed=2048
-- name: 12|JP_speednode_0077
+- name: 12|JP_speednode_0052
   network: ws
   port: 9872
   server: 140.83.83.65
@@ -372,7 +307,7 @@ proxies:
     headers:
       Host: freenodes.repe.gay
     path: /?ed=2048
-- name: 12|JP_speednode_0078
+- name: 12|JP_speednode_0053
   network: ws
   port: 54443
   server: 141.147.155.5
@@ -386,7 +321,7 @@ proxies:
     headers:
       Host: freenodes.repe.gay
     path: /?ed=2048
-- name: 12|JP_speednode_0079
+- name: 12|JP_speednode_0054
   network: ws
   port: 21443
   server: 38.54.89.108
@@ -400,11 +335,38 @@ proxies:
     headers:
       Host: freenodes.repe.gay
     path: /?ed=2048
-- client-fingerprint: chrome
-  name: 12|JP_speednode_0081
+- name: 12|JP_speednode_0055
   network: ws
-  port: 37308
-  server: 147.79.20.147
+  port: 587
+  server: 168.138.51.162
+  servername: freenodes.repe.gay
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ca8692b7-8f6f-4346-a916-c1e9798ab91b
+  ws-opts:
+    headers:
+      Host: freenodes.repe.gay
+    path: /?ed=2048
+- name: 12|JP_speednode_0056
+  network: ws
+  port: 1443
+  server: 140.83.82.88
+  servername: freenodes.repe.gay
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ca8692b7-8f6f-4346-a916-c1e9798ab91b
+  ws-opts:
+    headers:
+      Host: freenodes.repe.gay
+    path: /?ed=2048
+- name: 12|JP_speednode_0057
+  network: ws
+  port: 10000
+  server: 168.138.201.26
   servername: freenodes.repe.gay
   skip-cert-verify: false
   tls: true

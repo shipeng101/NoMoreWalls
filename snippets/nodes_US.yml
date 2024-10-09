@@ -5,8 +5,8 @@ proxies:
   name: 10,11|美国|@ripaojiedian
   network: ws
   port: '443'
-  server: 172.234.88.187
-  servername: 172.234.88.187
+  server: 45.79.103.11
+  servername: 45.79.103.11
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -14,5 +14,5 @@ proxies:
   uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
   ws-opts:
     headers:
-      Host: 172.234.88.187
-    path: /KrAJKJQo
+      Host: 45.79.103.11
+    path: /GDeFfWLn

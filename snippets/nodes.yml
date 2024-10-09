@@ -9,38 +9,29 @@ proxies:
   port: 2377
   server: 18.176.215.63
   type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-5
+  obfs: tls1.2_ticket_auth
+  password: fou8MBGij
+  port: 8081
+  protocol: origin
+  server: us-am3.eqnode.net
+  type: ssr
 - alterId: 0
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-31
+  name: 0,10,11|韩国|@ripaojiedian
   network: ws
-  port: 30003
+  port: '30003'
   server: shouer2112.12123.org
-  servername: shouer2112.12123.org
-  skip-cert-verify: true
+  servername: www.baidu.com
+  skip-cert-verify: false
+  tfo: false
   tls: true
   type: vmess
   udp: true
-  uuid: 9c2daf3a-cb17-4fb2-8703-90dca44b709e
-  ws-opts:
-    headers:
-      Host: www.baidu.com
-    path: /12123.org
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-35
-  network: ws
-  port: 30003
-  server: xjpx6.12123.org
-  servername: xjpx6.12123.org
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 5197c6dd-e796-4031-985e-7b354aff0956
+  uuid: 4ae987a9-f9e6-49f0-95ad-e8f375678d62
   ws-opts:
     headers:
       Host: www.baidu.com
@@ -61,14 +52,16 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
-- name: 10,11|香港3|@ripaojiedian
-  network: tcp
-  password: 1a8050cd-50d8-4b7d-a73e-193222f39822
-  port: 27102
-  server: aafrtpfxr.hkl02i9zjfegelp.5xfsur8v62.gosdk.xyz
+- alterId: 0
+  cipher: auto
+  name: 10|🇭🇰 香港2|@ripaojiedian
+  port: 44806
+  server: ambxxic01hk.dorabbb.top
   skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 21c7fe70-62f4-492a-8ff5-882edee63b15
 - alterId: 64
   cipher: auto
   name: 10|🇭🇰 香港4|@ripaojiedian
@@ -95,29 +88,23 @@ proxies:
   skip-cert-verify: true
   sni: naiu-hk.05vr9nyqg5.download
   type: trojan
-- name: 10,11|台湾|@ripaojiedian
-  network: tcp
-  password: c471ef32-798d-40a0-a57c-acf3475a204e
-  port: 13035
-  server: naiu-other.05vr9nyqg5.download
-  skip-cert-verify: false
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-- name: 10,11|日本2|@ripaojiedian
-  network: tcp
-  password: 1a8050cd-50d8-4b7d-a73e-193222f39822
-  port: 22271
-  server: aafrtpfxr.jpl03i9zjfegelp.5xfsur8v62.gosdk.xyz
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: 10,11|新加坡|@ripaojiedian
+  name: 10|🇭🇰 香港8|@ripaojiedian
+  port: 46026
+  server: 149.104.15.120
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: fb1b6ae3-140a-41d8-9644-0550e08cdfd0
+- alterId: 0
+  cipher: auto
+  name: 10,11|台湾|@ripaojiedian
   network: ws
   port: '443'
-  server: 139.162.33.70
-  servername: 139.162.33.70
+  server: 173.230.149.106
+  servername: 173.230.149.106
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -125,39 +112,47 @@ proxies:
   uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
   ws-opts:
     headers:
-      Host: 139.162.33.70
-    path: /BqVwBioP
+      Host: 173.230.149.106
+    path: /xJxdoaCD
 - alterId: 0
   cipher: auto
-  name: 10,11|新加坡3|@ripaojiedian
+  name: 10,11|新加坡|@ripaojiedian
   network: ws
-  port: '443'
-  server: sgcft01.xqc.best
-  servername: d285gakij18iij.cloudfront.net
+  port: '30003'
+  server: xjpx6.12123.org
+  servername: www.baidu.com
   skip-cert-verify: false
   tfo: false
   tls: true
   type: vmess
-  uuid: 607fa241-271b-4eba-b543-e918976a50d8
+  uuid: 0e8a4ec6-66c1-45c0-a51a-cd51a35f2a11
   ws-opts:
     headers:
-      Host: d285gakij18iij.cloudfront.net
-    path: /stream
-- name: 10,11|新加坡5|@ripaojiedian
-  network: tcp
-  password: 1a8050cd-50d8-4b7d-a73e-193222f39822
-  port: 42881
-  server: aafrtpfxr.sgl02i9zjfegelp.5xfsur8v62.gosdk.xyz
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
+      Host: www.baidu.com
+    path: /12123.org
+- alterId: 0
+  cipher: auto
+  name: 10,11|新加坡2|@ripaojiedian
+  network: ws
+  port: '443'
+  server: 172.105.115.147
+  servername: 172.105.115.147
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
+  ws-opts:
+    headers:
+      Host: 172.105.115.147
+    path: /msCBKVaF
 - alterId: 0
   cipher: auto
   name: 10,11|美国|@ripaojiedian
   network: ws
   port: '443'
-  server: 172.234.88.187
-  servername: 172.234.88.187
+  server: 45.79.103.11
+  servername: 45.79.103.11
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -165,8 +160,8 @@ proxies:
   uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
   ws-opts:
     headers:
-      Host: 172.234.88.187
-    path: /KrAJKJQo
+      Host: 45.79.103.11
+    path: /GDeFfWLn
 - alterId: 64
   cipher: auto
   name: 10|🇩🇪 德国|@ripaojiedian
@@ -177,6 +172,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
+- alterId: 0
+  cipher: auto
+  name: 11|香港2|@ripaojiedian
+  network: tcp
+  port: '44806'
+  server: ambxxic01hk.dorabbb.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 21c7fe70-62f4-492a-8ff5-882edee63b15
 - alterId: 64
   cipher: auto
   name: 11|香港4|@ripaojiedian
@@ -187,6 +192,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11|香港8|@ripaojiedian
+  network: tcp
+  port: '46026'
+  server: 149.104.15.120
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: fb1b6ae3-140a-41d8-9644-0550e08cdfd0
 - alterId: 64
   cipher: auto
   name: 11|德国|@ripaojiedian
