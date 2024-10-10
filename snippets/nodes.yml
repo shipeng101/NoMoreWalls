@@ -1,6 +1,6 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-2
+  name: 0|-https://t.me/MrXbin-5
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
@@ -9,34 +9,91 @@ proxies:
   type: ssr
 - alterId: 0
   cipher: auto
-  name: 10|🇭🇰 香港|@ripaojiedian
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-31
   network: ws
-  port: 46001
-  server: 223.244.26.216
-  skip-cert-verify: false
-  tfo: false
-  tls: false
+  port: 443
+  server: 57.129.24.125
+  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: c9bda0e7-4ffa-464f-84a0-41253180d04c
+  udp: true
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
-    path: /zh-cn
+    headers:
+      Host: aveiror.com
+    path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 10|🇭🇰 香港2|@ripaojiedian
-  port: 44806
-  server: ambxxic01hk.dorabbb.top
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-36
+  network: ws
+  port: 443
+  server: 38.91.100.228
+  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: sareikela.com
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-37
+  network: ws
+  port: 443
+  server: 91.107.164.204
+  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 57727d7d-8873-4000-b3f4-33a93fcfdd51
+  ws-opts:
+    headers:
+      Host: mehrjavan.ir
+    path: /m28jcoZZUhkqg6pk11
+- name: 0,12|KR_speednode_0089
+  password: 1dfba761-c1e0-422e-98b6-062da56afb53
+  port: 443
+  server: jkrf1.969799.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 10|🇭🇰 香港|@ripaojiedian
+  port: 38359
+  server: 38.147.188.228
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 21c7fe70-62f4-492a-8ff5-882edee63b15
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇭🇰 香港3|@ripaojiedian
-  password: 005c0d27-a407-4be9-9740-818da49a50be
-  port: 29527
-  server: hzhz1.sssyun.xyz
+  uuid: cf3ee494-eefc-4d9c-8303-1dd7069c406f
+- alterId: 64
+  cipher: auto
+  name: 10,11|香港2|@ripaojiedian
+  network: ws
+  port: '443'
+  server: 118.107.245.23
+  servername: www.85515806.xyz
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.85515806.xyz
+    path: /path/351212081517
 - alterId: 64
   cipher: auto
   name: 10|🇭🇰 香港4|@ripaojiedian
@@ -47,6 +104,22 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 10,11|香港3|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: cfcdn2.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
+  ws-opts:
+    headers:
+      Host: JLzEaUkxhk1.xqyhvpee.xyz
+    path: /video/ceZeGNoE
 - name: 10,11|香港5|@ripaojiedian
   network: tcp
   password: 49582ed9be8a6e7d7ef0c80f7848a0b0
@@ -55,37 +128,73 @@ proxies:
   skip-cert-verify: false
   sni: akile8901.wujie66.com
   type: trojan
-- name: 10|🇭🇰 香港6|@ripaojiedian
-  password: d6d86a97-2bef-4f89-9527-ce2003377677
-  port: 13007
-  server: naiu-hk.05vr9nyqg5.download
-  skip-cert-verify: false
-  sni: naiu-hk.05vr9nyqg5.download
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇭🇰 香港7|@ripaojiedian
-  password: 005c0d27-a407-4be9-9740-818da49a50be
-  port: 40010
-  server: hzhz2.sssyun.xyz
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 10|🇭🇰 香港8|@ripaojiedian
-  port: 46026
-  server: 149.104.15.120
+  name: 10|🇭🇰 香港6|@ripaojiedian
+  port: 12960
+  server: z3.fragranceninja.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: a32313ad-5e39-4f9a-9cad-512041790050
+- name: 10,11|香港7|@ripaojiedian
+  network: tcp
+  password: 325ba822-760d-4a51-9711-f72ba8d16933
+  port: 10465
+  server: aafrtpfxr.hkl03i9zjfegelp.5xfsur8v62.gosdk.xyz
+  skip-cert-verify: false
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+- name: 10,11|日本|@ripaojiedian
+  network: tcp
+  password: 325ba822-760d-4a51-9711-f72ba8d16933
+  port: 27001
+  server: aafrtpfxr.jpl01i9zjfegelp.5xfsur8v62.gosdk.xyz
+  skip-cert-verify: false
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 10|🇰🇷 韩国|@ripaojiedian
+  port: 51262
+  server: 45.141.136.221
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: fb1b6ae3-140a-41d8-9644-0550e08cdfd0
+  uuid: a6495bea-1970-431d-80cb-3c3911bb2c39
 - alterId: 0
   cipher: auto
-  name: 10|🇹🇼 台湾|@ripaojiedian
+  name: 10,11|新加坡|@ripaojiedian
   network: ws
-  port: 443
-  server: 173.230.149.106
-  servername: 173.230.149.106
+  port: '443'
+  server: 192.53.114.166
+  servername: 192.53.114.166
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: fa3c2911-613a-480e-9b2d-aa3762c3a311
+  ws-opts:
+    headers:
+      Host: 192.53.114.166
+    path: /QusAEjFA
+- name: 10,11|新加坡2|@ripaojiedian
+  network: tcp
+  password: 325ba822-760d-4a51-9711-f72ba8d16933
+  port: 42881
+  server: aafrtpfxr.sgl02i9zjfegelp.5xfsur8v62.gosdk.xyz
+  skip-cert-verify: false
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 10,11|新加坡3|@ripaojiedian
+  network: ws
+  port: '443'
+  server: 192.53.114.167
+  servername: 192.53.114.167
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -93,61 +202,22 @@ proxies:
   uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
   ws-opts:
     headers:
-      Host: 173.230.149.106
-    path: /xJxdoaCD
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇹🇼 台湾2|@ripaojiedian
-  password: 005c0d27-a407-4be9-9740-818da49a50be
-  port: 32207
-  server: hzhz1.sssyun.xyz
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇯🇵 日本|@ripaojiedian
-  password: 005c0d27-a407-4be9-9740-818da49a50be
-  port: 39202
-  server: hzhz1.sssyun.xyz
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 10|🇰🇷 韩国|@ripaojiedian
-  network: ws
-  port: 30003
-  server: shouer2112.12123.org
-  servername: www.baidu.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 4ae987a9-f9e6-49f0-95ad-e8f375678d62
-  ws-opts:
-    headers:
-      Host: www.baidu.com
-    path: /12123.org
-- alterId: 0
-  cipher: auto
-  name: 10|🇸🇬 新加坡|@ripaojiedian
-  network: ws
-  port: 30003
-  server: xjpx6.12123.org
-  servername: www.baidu.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 0e8a4ec6-66c1-45c0-a51a-cd51a35f2a11
-  ws-opts:
-    headers:
-      Host: www.baidu.com
-    path: /12123.org
-- alterId: 0
-  cipher: auto
-  name: 10|🇸🇬 新加坡2|@ripaojiedian
-  network: ws
+      Host: 192.53.114.167
+    path: /BqVwBioP
+- name: 10|🇸🇬 新加坡4|@ripaojiedian
+  password: '3672449442956713984'
   port: 443
-  server: 172.105.115.147
-  servername: 172.105.115.147
+  server: present-blowfish.sunbeam921.monster
+  skip-cert-verify: false
+  sni: present-blowfish.sunbeam921.monster
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 10,11|美国|@ripaojiedian
+  network: ws
+  port: '443'
+  server: 50.116.1.158
+  servername: 50.116.1.158
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -155,59 +225,18 @@ proxies:
   uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
   ws-opts:
     headers:
-      Host: 172.105.115.147
-    path: /msCBKVaF
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇸🇬 新加坡3|@ripaojiedian
-  password: 005c0d27-a407-4be9-9740-818da49a50be
-  port: 40013
-  server: hzhz2.sssyun.xyz
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇸🇬 新加坡4|@ripaojiedian
-  password: 0f189a26-78f6-4bd2-9ea7-7a6bbdc443fe
-  port: 58118
-  server: zf.egfu.cn
-  tfo: false
-  type: ss
-- alterId: 0
+      Host: 50.116.1.158
+    path: /LtteaUsf
+- alterId: 64
   cipher: auto
-  name: 10|🇺🇸 美国|@ripaojiedian
-  network: ws
-  port: 443
-  server: 45.79.103.11
-  servername: 45.79.103.11
+  name: 10|🇺🇸 美国2|@ripaojiedian
+  port: 43526
+  server: 120.232.153.40
   skip-cert-verify: false
   tfo: false
-  tls: true
+  tls: false
   type: vmess
-  uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
-  ws-opts:
-    headers:
-      Host: 45.79.103.11
-    path: /GDeFfWLn
-- cipher: aes-256-cfb
-  name: 10|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.202.68.249
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: 10|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.201.48.132
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: 10|🇰🇷 韩国特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.231.27.52
-  tfo: false
-  type: ss
+  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
 - alterId: 64
   cipher: auto
   name: 10|🇩🇪 德国|@ripaojiedian
@@ -230,20 +259,6 @@ proxies:
   uuid: cf3ee494-eefc-4d9c-8303-1dd7069c406f
 - alterId: 64
   cipher: auto
-  name: 11|香港2|@ripaojiedian
-  network: ws
-  port: '443'
-  server: 118.107.245.23
-  servername: www.85515806.xyz
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.85515806.xyz
-    path: /path/351212081517
-- alterId: 64
-  cipher: auto
   name: 11|香港4|@ripaojiedian
   network: tcp
   port: '35601'
@@ -254,20 +269,6 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11|香港3|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: cfcdn2.sanfencdn9.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
-  ws-opts:
-    headers:
-      Host: JLzEaUkxhk1.xqyhvpee.xyz
-    path: /video/ceZeGNoE
-- alterId: 0
-  cipher: auto
   name: 11|香港6|@ripaojiedian
   network: tcp
   port: '12960'
@@ -276,32 +277,6 @@ proxies:
   tls: true
   type: vmess
   uuid: a32313ad-5e39-4f9a-9cad-512041790050
-- name: 11|香港7|@ripaojiedian
-  network: tcp
-  password: 325ba822-760d-4a51-9711-f72ba8d16933
-  port: 10465
-  server: aafrtpfxr.hkl03i9zjfegelp.5xfsur8v62.gosdk.xyz
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-- alterId: 0
-  cipher: auto
-  grpc-opts:
-    grpc-service-name: /
-  name: 11|台湾|@ripaojiedian
-  network: grpc
-  port: '36337'
-  server: 5.9.78.177
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: a0e56c1c-76e1-d1b2-a3e9-c28200b626be
-- name: 11|日本|@ripaojiedian
-  network: tcp
-  password: 325ba822-760d-4a51-9711-f72ba8d16933
-  port: 27001
-  server: aafrtpfxr.jpl01i9zjfegelp.5xfsur8v62.gosdk.xyz
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 11|韩国|@ripaojiedian
@@ -312,61 +287,12 @@ proxies:
   tls: false
   type: vmess
   uuid: a6495bea-1970-431d-80cb-3c3911bb2c39
-- alterId: 0
-  cipher: auto
-  name: 11|新加坡|@ripaojiedian
-  network: ws
-  port: '443'
-  server: 192.53.114.166
-  servername: 192.53.114.166
-  tls: true
-  type: vmess
-  uuid: fa3c2911-613a-480e-9b2d-aa3762c3a311
-  ws-opts:
-    headers:
-      Host: 192.53.114.166
-    path: /QusAEjFA
-- name: 11|新加坡2|@ripaojiedian
-  network: tcp
-  password: 325ba822-760d-4a51-9711-f72ba8d16933
-  port: 42881
-  server: aafrtpfxr.sgl02i9zjfegelp.5xfsur8v62.gosdk.xyz
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 11|新加坡3|@ripaojiedian
-  network: ws
-  port: '443'
-  server: 192.53.114.167
-  servername: 192.53.114.167
-  tls: true
-  type: vmess
-  uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
-  ws-opts:
-    headers:
-      Host: 192.53.114.167
-    path: /BqVwBioP
 - name: 11|新加坡4|@ripaojiedian
   network: tcp
   password: '3672449442956713984'
   port: 443
   server: present-blowfish.sunbeam921.monster
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 11|美国|@ripaojiedian
-  network: ws
-  port: '443'
-  server: 50.116.1.158
-  servername: 50.116.1.158
-  tls: true
-  type: vmess
-  uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
-  ws-opts:
-    headers:
-      Host: 50.116.1.158
-    path: /LtteaUsf
 - alterId: 64
   cipher: auto
   name: 11|美国2|@ripaojiedian
@@ -387,6 +313,104 @@ proxies:
   tls: false
   type: vmess
   uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
+- name: 12|CN_speednode_0021
+  password: af46f520-a6a1-4207-b3c4-062493fb71d1
+  port: 12011
+  server: cn1.cdn.xfltd-cdn.top
+  skip-cert-verify: true
+  sni: cdn.alibaba.com
+  type: trojan
+  udp: true
+- name: 12|CN_speednode_0031
+  password: c5971db7-a8ee-4c44-9408-4c8950d19e0b
+  port: 12025
+  server: cn2.cdn.xfltd-cdn.top
+  skip-cert-verify: true
+  sni: cdn.alibaba.com
+  type: trojan
+  udp: true
+- name: 12|KR_speednode_0076
+  network: ws
+  password: CMLiu
+  port: 443
+  server: 59.3.3.161
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /?ed=2048
+- name: 12|KR_speednode_0079
+  network: ws
+  password: CMLiu
+  port: 443
+  server: 59.3.3.161
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /?ed=2048
+- alterId: -1
+  name: 12|KR_speednode_0086
+  network: ws
+  password: CMLiu
+  port: 443
+  server: 59.3.3.161
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /
+- name: 12|KR_speednode_0087
+  network: ws
+  password: CMLiu
+  port: 443
+  server: 59.3.3.161
+  skip-cert-verify: true
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /
+- name: 12|KR_speednode_0090
+  password: 1dfba761-c1e0-422e-98b6-062da56afb53
+  port: 443
+  server: jkrf1.969799.xyz
+  skip-cert-verify: true
+  sni: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  type: trojan
+  udp: true
+- name: 12|RU_speednode_0123
+  network: ws
+  password: bpb-trojan
+  port: 2096
+  server: 45.142.120.4
+  skip-cert-verify: true
+  sni: 403B3611-99bC-43b7-88D7-26ed5d0825A9-3.PageS.DEV
+  type: trojan
+  udp: false
+  ws-opts:
+    headers:
+      Host: 403b3611-99bc-43b7-88d7-26ed5d0825a9-3.pages.dev
+    path: /troUbg9Q3QgD0TJRfy?ed=2560
+- name: 12|US_speednode_0190
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: 199.181.197.143
+  skip-cert-verify: true
+  sni: 403B3611-99bc-43b7-88D7-26eD5d0825A9-3.PaGeS.deV
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 403B3611-99bc-43b7-88D7-26eD5d0825A9-3.PaGeS.deV
+    path: /trAun92tJzhYilmLtq?ed=2560
 - alterId: 0
   cipher: auto
   name: 13|d*********g.com_2

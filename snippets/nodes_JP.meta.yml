@@ -1,39 +1,10 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 10|🇯🇵 日本|@ripaojiedian
-  password: 005c0d27-a407-4be9-9740-818da49a50be
-  port: 39202
-  server: hzhz1.sssyun.xyz
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 10|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.201.48.132
-  tfo: false
-  type: ss
-- name: 11|日本|@ripaojiedian
+- client-fingerprint: chrome
+  name: 10,11|日本|@ripaojiedian
   network: tcp
   password: 325ba822-760d-4a51-9711-f72ba8d16933
   port: 27001
   server: aafrtpfxr.jpl01i9zjfegelp.5xfsur8v62.gosdk.xyz
+  skip-cert-verify: false
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 12|JP_speednode_0027
-  network: tcp
-  port: 60001
-  reality-opts:
-    public-key: TTPcfOT851FXonrhOiySGnu7yNcbRB_8PlH496i8wFY
-    short-id: ec81680f
-  server: jp2.helloco.xyz
-  servername: python.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a2438565-aef3-4377-8442-be1b53d088b2
