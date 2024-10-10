@@ -1,5 +1,7 @@
+ssr://sjgysy.cdn.node.a.tddns-ounk.com:13488:auth_aes128_md5:rc4-md5:tls1.2_ticket_authQ3NrdzZkremarks=MHwtaHR0cHM6Ly90Lm1lL01yWGJpbi00&protoparam=NTI0OTU5OjV1NE1aNg==
 ssr://us-am3.eqnode.net:8081:origin:aes-256-cfb:tls1.2_ticket_authZm91OE1CR2lqremarks=MHwtaHR0cHM6Ly90Lm1lL01yWGJpbi01
-trojan://1dfba761-c1e0-422e-98b6-062da56afb53@jkrf1.969799.xyz:443?allowInsecure=1#0%2C12%7CKR_speednode_0087
+vmess://eyJ2IjogIjIiLCAicHMiOiAiMHwtaHR0cHM6Ly90Lm1lL01yWGJpbi02MCIsICJhZGQiOiAic2hzei4xMjEyMy5vcmciLCAicG9ydCI6IDMwMDAwLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogInRscyIsICJpZCI6ICI2YTQyNzcwOS01N2ZmLTRiN2UtODkxYy1kYjU4MTM4YzQ5NDUiLCAic25pIjogInNoc3ouMTIxMjMub3JnIiwgImhvc3QiOiAid3d3LmJhaWR1LmNvbSIsICJwYXRoIjogIi8xMjEyMy5vcmcifQ==
+vmess://eyJ2IjogIjIiLCAicHMiOiAiMHwtaHR0cHM6Ly90Lm1lL01yWGJpbi0zNiIsICJhZGQiOiAiNTcuMTI5LjI4LjY5IiwgInBvcnQiOiA0NDMsICJhaWQiOiAwLCAic2N5IjogImF1dG8iLCAibmV0IjogIndzIiwgInR5cGUiOiAibm9uZSIsICJ0bHMiOiAidGxzIiwgImlkIjogIjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsICJzbmkiOiAid3JtZWxtd3hsZi5na3RldmxycXpud3Fxb3p5LmZhYnBmczY2Z2l6bW5vamhjdnF4d2wua3l0cmNmenFsYTg3Z3ZndnM2Yzdram5ydWJ1aC5jYyIsICJob3N0IjogImJhcmFkaWhhLmNvbSIsICJwYXRoIjogIi9saW5rdndzIn0=
 vmess://eyJ2IjogIjIiLCAicHMiOiAiMTB88J+HrfCfh7Ag6aaZ5rivfEByaXBhb2ppZWRpYW4iLCAiYWRkIjogIjM4LjE0Ny4xODguMjI4IiwgInBvcnQiOiAzODM1OSwgImFpZCI6IDAsICJzY3kiOiAiYXV0byIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAibm9uZSIsICJ0bHMiOiAiIiwgImlkIjogImNmM2VlNDk0LWVlZmMtNGQ5Yy04MzAzLTFkZDcwNjljNDA2ZiJ9
 vmess://eyJ2IjogIjIiLCAicHMiOiAiMTAsMTF86aaZ5rivMnxAcmlwYW9qaWVkaWFuIiwgImFkZCI6ICIxMTguMTA3LjI0NS4yMyIsICJwb3J0IjogIjQ0MyIsICJhaWQiOiA2NCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogInRscyIsICJpZCI6ICI0MTgwNDhhZi1hMjkzLTRiOTktOWIwYy05OGNhMzU4MGRkMjQiLCAic25pIjogInd3dy44NTUxNTgwNi54eXoiLCAiaG9zdCI6ICJ3d3cuODU1MTU4MDYueHl6IiwgInBhdGgiOiAiL3BhdGgvMzUxMjEyMDgxNTE3In0=
 vmess://eyJ2IjogIjIiLCAicHMiOiAiMTB88J+HrfCfh7Ag6aaZ5rivNHxAcmlwYW9qaWVkaWFuIiwgImFkZCI6ICIxMjAuMjMyLjE1My40MCIsICJwb3J0IjogMzU2MDEsICJhaWQiOiA2NCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICIiLCAiaWQiOiAiNDE4MDQ4YWYtYTI5My00Yjk5LTliMGMtOThjYTM1ODBkZDI0In0=
@@ -80,6 +82,7 @@ trojan://CMLiu@59.3.3.161:443?allowInsecure=1&sni=aliorg.filegear-sg.me&type=ws&
 vless://e8899a8e-729a-43bc-aebf-95e12c6c6db6@183.98.53.177:10911?allowInsecure=0&sni=global2.ccdd.site&type=ws&host=global2.ccdd.site&path=/?ed=2560security=tls#12%7CKR_speednode_0100
 vless://a13df940-020c-465f-bc89-ee5279b5cd6a@211.228.180.147:12273?allowInsecure=1&sni=lg.ylks.us.kg&type=ws&host=lg.ylks.us.kg&path=/?ed=2560security=tls#12%7CKR_speednode_0083
 trojan://CMLiu@59.3.3.161:443?allowInsecure=1&sni=aliorg.filegear-sg.me&type=ws&path=/#12%7CKR_speednode_0085
+trojan://1dfba761-c1e0-422e-98b6-062da56afb53@jkrf1.969799.xyz:443?allowInsecure=1#12%7CKR_speednode_0087
 trojan://1dfba761-c1e0-422e-98b6-062da56afb53@jkrf1.969799.xyz:443?allowInsecure=1&sni=wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc#12%7CKR_speednode_0088
 vless://e8899a8e-729a-43bc-aebf-95e12c6c6db6@59.29.116.20:11965?allowInsecure=0&sni=global2.ccdd.site&type=ws&host=global2.ccdd.site&path=/?ed=2560security=tls#12%7CKR_speednode_0103
 vless://a13df940-020c-465f-bc89-ee5279b5cd6a@61.81.181.169:14985?allowInsecure=1&sni=cg.ylks.xyz&type=ws&host=cg.ylks.xyz&path=/freecodeshttps://vless.fxxk.dedyn.io/sub?host=lg.ylks01.eu.orgsecurity=tls#12%7CKR_speednode_0090
@@ -294,4 +297,4 @@ vless://48198295-b7ba-4b5c-8d85-085d55a6c869@160.123.255.134:443?allowInsecure=1
 vmess://eyJ2IjogIjIiLCAicHMiOiAiMTN8ZCoqKioqKioqKmcuY29tXzIiLCAiYWRkIjogIjQyLjIzNi43My43MiIsICJwb3J0IjogIjQ0MyIsICJhaWQiOiAwLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogInRscyIsICJpZCI6ICIwNDRmMDE3Ny0wNjc1LTRkY2YtODlkNC04MDRiNjc4OGU1MTgiLCAic25pIjogInd3dy56aXRpYW4uY24ifQ==
 vless://11916472-4e2c-49c6-b75d-71196b3a7ecf@42.236.73.72:443?sni=www.zitian.cn&alpn=http%252F1.1&fp=chrome&security=tls#13%7Cd%2A%2A%2A%2A%2A%2A%2A%2A%2Ag.com_6
 trojan://fuck@42.236.73.72:443?sni=www.zitian.cn&alpn=http%252F1.1#13%7Cd%2A%2A%2A%2A%2A%2A%2A%2A%2Ag.com_3
-https://fyO6is.mcsslk.xyz/8502a7c0be1667716799fdfd877b463b
+https://gSJFu0.mcsslk.xyz/151902ea23788c36c4defae477a08a9c
