@@ -2,9 +2,9 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 10,11|韩国|@ripaojiedian
+  name: 10|🇰🇷 韩国|@ripaojiedian
   network: ws
-  port: '30003'
+  port: 30003
   server: shouer2112.12123.org
   servername: www.baidu.com
   skip-cert-verify: false
@@ -16,3 +16,21 @@ proxies:
     headers:
       Host: www.baidu.com
     path: /12123.org
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 10|🇰🇷 韩国特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.231.27.52
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11|韩国|@ripaojiedian
+  network: tcp
+  port: '51262'
+  server: 45.141.136.221
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a6495bea-1970-431d-80cb-3c3911bb2c39
