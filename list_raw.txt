@@ -1,4 +1,4 @@
-ssr://us-am3.eqnode.net:8081:origin:aes-256-cfb:tls1.2_ticket_authZm91OE1CR2lqremarks=MHwtaHR0cHM6Ly90Lm1lL01yWGJpbi0z
+ssr://us-am3.eqnode.net:8081:origin:aes-256-cfb:tls1.2_ticket_authZm91OE1CR2lqremarks=MHwtaHR0cHM6Ly90Lm1lL01yWGJpbi01
 trojan://1dfba761-c1e0-422e-98b6-062da56afb53@jkrf1.969799.xyz:443?allowInsecure=1#0%2C12%7CKR_speednode_0087
 vmess://eyJ2IjogIjIiLCAicHMiOiAiMTB88J+HrfCfh7Ag6aaZ5rivfEByaXBhb2ppZWRpYW4iLCAiYWRkIjogIjM4LjE0Ny4xODguMjI4IiwgInBvcnQiOiAzODM1OSwgImFpZCI6IDAsICJzY3kiOiAiYXV0byIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAibm9uZSIsICJ0bHMiOiAiIiwgImlkIjogImNmM2VlNDk0LWVlZmMtNGQ5Yy04MzAzLTFkZDcwNjljNDA2ZiJ9
 vmess://eyJ2IjogIjIiLCAicHMiOiAiMTAsMTF86aaZ5rivMnxAcmlwYW9qaWVkaWFuIiwgImFkZCI6ICIxMTguMTA3LjI0NS4yMyIsICJwb3J0IjogIjQ0MyIsICJhaWQiOiA2NCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogInRscyIsICJpZCI6ICI0MTgwNDhhZi1hMjkzLTRiOTktOWIwYy05OGNhMzU4MGRkMjQiLCAic25pIjogInd3dy44NTUxNTgwNi54eXoiLCAiaG9zdCI6ICJ3d3cuODU1MTU4MDYueHl6IiwgInBhdGgiOiAiL3BhdGgvMzUxMjEyMDgxNTE3In0=
@@ -294,4 +294,4 @@ vless://48198295-b7ba-4b5c-8d85-085d55a6c869@160.123.255.134:443?allowInsecure=1
 vmess://eyJ2IjogIjIiLCAicHMiOiAiMTN8ZCoqKioqKioqKmcuY29tXzIiLCAiYWRkIjogIjQyLjIzNi43My43MiIsICJwb3J0IjogIjQ0MyIsICJhaWQiOiAwLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogInRscyIsICJpZCI6ICIwNDRmMDE3Ny0wNjc1LTRkY2YtODlkNC04MDRiNjc4OGU1MTgiLCAic25pIjogInd3dy56aXRpYW4uY24ifQ==
 vless://11916472-4e2c-49c6-b75d-71196b3a7ecf@42.236.73.72:443?sni=www.zitian.cn&alpn=http%252F1.1&fp=chrome&security=tls#13%7Cd%2A%2A%2A%2A%2A%2A%2A%2A%2Ag.com_6
 trojan://fuck@42.236.73.72:443?sni=www.zitian.cn&alpn=http%252F1.1#13%7Cd%2A%2A%2A%2A%2A%2A%2A%2A%2Ag.com_3
-https://YO38iD.mcsslk.xyz/370b5261beeabad7ba28c8a6627f508f
+https://fyO6is.mcsslk.xyz/8502a7c0be1667716799fdfd877b463b
