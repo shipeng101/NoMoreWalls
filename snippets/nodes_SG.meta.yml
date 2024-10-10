@@ -56,7 +56,7 @@ proxies:
   port: 443
   server: present-blowfish.sunbeam921.monster
   type: trojan
-- name: 12|SG_speednode_0164
+- name: 12|SG_speednode_0158
   network: ws
   port: 443
   server: 206.238.236.129
@@ -70,7 +70,7 @@ proxies:
     headers:
       Host: cg.ylks.xyz
     path: /bluehttps://vless.fxxk.dedyn.io/sub?host=dg.ylks.xyz
-- name: 12|SG_speednode_0165
+- name: 12|SG_speednode_0159
   network: ws
   port: 443
   server: 206.238.236.116
@@ -84,7 +84,7 @@ proxies:
     headers:
       Host: dg.ylks.xyz
     path: /blue
-- name: 12|SG_speednode_0166
+- name: 12|SG_speednode_0160
   network: ws
   port: 443
   server: 206.238.236.120
@@ -98,7 +98,7 @@ proxies:
     headers:
       Host: dg.ylks.xyz
     path: /freecodes
-- name: 12|SG_speednode_0167
+- name: 12|SG_speednode_0161
   network: ws
   port: 443
   server: 206.238.236.120
@@ -112,7 +112,7 @@ proxies:
     headers:
       Host: dg.ylks.xyz
     path: /blue
-- name: 12|SG_speednode_0168
+- name: 12|SG_speednode_0162
   network: ws
   port: 443
   server: 206.238.236.184
@@ -126,7 +126,7 @@ proxies:
     headers:
       Host: dg.ylks.xyz
     path: /blue
-- name: 12|SG_speednode_0169
+- name: 12|SG_speednode_0163
   network: ws
   port: 443
   server: 206.238.237.99
@@ -140,7 +140,7 @@ proxies:
     headers:
       Host: cg.ylks.xyz
     path: /bluehttps://vless.fxxk.dedyn.io/sub?host=dg.ylks.xyz
-- name: 12|SG_speednode_0170
+- name: 12|SG_speednode_0164
   network: ws
   port: 443
   server: 206.238.236.83
@@ -154,7 +154,7 @@ proxies:
     headers:
       Host: cg.ylks.xyz
     path: /blue
-- name: 12|SG_speednode_0171
+- name: 12|SG_speednode_0165
   network: ws
   port: 443
   server: 206.238.237.98
@@ -168,7 +168,7 @@ proxies:
     headers:
       Host: dg.ylks.xyz
     path: /freecodes
-- name: 12|SG_speednode_0172
+- name: 12|SG_speednode_0166
   network: ws
   port: 443
   server: 206.238.237.192
@@ -182,7 +182,7 @@ proxies:
     headers:
       Host: cg.ylks.xyz
     path: /bluehttps://vless.fxxk.dedyn.io/sub?host=lg.ylks01.eu.org
-- name: 12|SG_speednode_0173
+- name: 12|SG_speednode_0167
   network: ws
   port: 443
   server: 206.238.236.143
@@ -196,7 +196,7 @@ proxies:
     headers:
       Host: cg.ylks.xyz
     path: /blue
-- name: 12|SG_speednode_0174
+- name: 12|SG_speednode_0168
   network: ws
   port: 443
   server: 206.238.237.98
@@ -210,7 +210,7 @@ proxies:
     headers:
       Host: dg.ylks.xyz
     path: /blue
-- name: 12|SG_speednode_0175
+- name: 12|SG_speednode_0169
   network: ws
   port: 443
   server: 206.238.236.184
@@ -224,7 +224,7 @@ proxies:
     headers:
       Host: ag.ylks.xyz
     path: /blue
-- name: 12|SG_speednode_0176
+- name: 12|SG_speednode_0170
   network: ws
   port: 443
   server: 206.238.236.184
@@ -238,7 +238,7 @@ proxies:
     headers:
       Host: ag.ylks.xyz
     path: /freecodeshttps://vless.fxxk.dedyn.io/sub?host=lg.kpcloud.eu.org
-- name: 12|SG_speednode_0177
+- name: 12|SG_speednode_0171
   network: ws
   port: 443
   server: 206.238.237.88
@@ -252,7 +252,7 @@ proxies:
     headers:
       Host: dg.ylks.xyz
     path: /?proxyip=proxyip.sg.fxxk.dedyn.io
-- name: 12|SG_speednode_0178
+- name: 12|SG_speednode_0172
   network: ws
   port: 443
   server: 206.238.236.130
@@ -266,7 +266,7 @@ proxies:
     headers:
       Host: ag.ylks.xyz
     path: /bluehttps://vless.fxxk.dedyn.io/sub?host=lg.kpcloud.eu.org
-- name: 12|SG_speednode_0179
+- name: 12|SG_speednode_0173
   network: ws
   port: 443
   server: 206.238.236.184
@@ -280,7 +280,7 @@ proxies:
     headers:
       Host: ag.ylks.xyz
     path: /freecodes
-- name: 12|SG_speednode_0180
+- name: 12|SG_speednode_0174
   network: ws
   port: 443
   server: 206.238.236.184
