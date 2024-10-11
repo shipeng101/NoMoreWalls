@@ -24,6 +24,15 @@ proxies:
     headers:
       Host: kr01.1761d77fead15f193490a0f11b83f3a4.buzz
     path: /
+- client-fingerprint: chrome
+  name: 11,12|KR_speednode_0087
+  network: tcp
+  password: 1dfba761-c1e0-422e-98b6-062da56afb53
+  port: 443
+  server: jkrf1.969799.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - name: 12|KR_speednode_0074
   network: ws
   password: CMLiu
