@@ -133,4 +133,4 @@ vless://e8899a8e-729a-43bc-aebf-95e12c6c6db6@45.59.184.16:38908?allowInsecure=0&
 vmess://eyJ2IjogIjIiLCAicHMiOiAiMTN8ZCoqKioqKioqKmcuY29tXzIiLCAiYWRkIjogIjQyLjIzNi43My43MiIsICJwb3J0IjogIjQ0MyIsICJhaWQiOiAwLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogInRscyIsICJpZCI6ICIwNDRmMDE3Ny0wNjc1LTRkY2YtODlkNC04MDRiNjc4OGU1MTgiLCAic25pIjogInd3dy56aXRpYW4uY24ifQ==
 vless://11916472-4e2c-49c6-b75d-71196b3a7ecf@42.236.73.72:443?sni=www.zitian.cn&alpn=http%252F1.1&fp=chrome&security=tls#13%7Cd%2A%2A%2A%2A%2A%2A%2A%2A%2Ag.com_6
 trojan://fuck@42.236.73.72:443?sni=www.zitian.cn&alpn=http%252F1.1#13%7Cd%2A%2A%2A%2A%2A%2A%2A%2A%2Ag.com_3
-https://vAKeG5.mcsslk.xyz/77412f601525eaac4b1b2b8b86f70ddc
+https://OHuAtK.mcsslk.xyz/515186e5a9dfa1e1e6ec0a4b96a8d250
