@@ -1,19 +1,11 @@
 proxies:
-- client-fingerprint: chrome
-  name: 10|🇰🇷 韩国|@ripaojiedian
-  password: 1dfba761-c1e0-422e-98b6-062da56afb53
-  port: 443
-  server: jkrf1.969799.xyz
-  skip-cert-verify: false
-  sni: jkrf1.969799.xyz
-  type: trojan
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 10,11|韩国3|@ripaojiedian
+  name: 10,11|韩国|@ripaojiedian
   network: ws
   port: '80'
-  server: cU9jf.c6tu5uwk9.buzz
+  server: strw4.c6tu5uwk9.buzz
   servername: ''
   skip-cert-verify: false
   tfo: false
@@ -22,11 +14,5 @@ proxies:
   uuid: 219eb7ea-8f9a-4af8-857b-4b4b564224ef
   ws-opts:
     headers:
-      Host: kr01.1761d77fead15f193490a0f11b83f3a4.buzz
+      Host: kr03.1761d77fead15f193490a0f11b83f3a4.buzz
     path: /
-- name: 11|韩国|@ripaojiedian
-  network: tcp
-  password: 1dfba761-c1e0-422e-98b6-062da56afb53
-  port: 443
-  server: jkrf1.969799.xyz
-  type: trojan
