@@ -1,6 +1,7 @@
 proxies:
 - client-fingerprint: chrome
-  name: 10|🇸🇪 瑞典|@ripaojiedian
+  name: 10,11|瑞典|@ripaojiedian
+  network: tcp
   password: telegram-id-privatevpns
   port: 22222
   server: 13.49.130.179
