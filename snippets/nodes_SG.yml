@@ -2,13 +2,49 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 10,11|新加坡2|@ripaojiedian
+  name: 10|🇸🇬 新加坡|@ripaojiedian
+  network: ws
+  port: 443
+  server: 192.53.172.172
+  servername: 192.53.172.172
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
+  ws-opts:
+    headers:
+      Host: 192.53.172.172
+    path: /nrMnVTFq
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇸🇬 新加坡2|@ripaojiedian
+  network: ws
+  port: 80
+  server: 47.84.66.79
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 9caa711c-2490-4041-812d-edbcb994fd18
+  ws-opts:
+    path: /9caa711c
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 10|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.250.103.70
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11|新加坡2|@ripaojiedian
   network: ws
   port: '443'
   server: sgcft01.xqc.best
   servername: d6dxw1fj76oix.cloudfront.net
-  skip-cert-verify: false
-  tfo: false
   tls: true
   type: vmess
   uuid: 86bf5667-081c-46a6-8030-6b50787723d6
@@ -16,14 +52,6 @@ proxies:
     headers:
       Host: d6dxw1fj76oix.cloudfront.net
     path: /stream
-- client-fingerprint: chrome
-  name: 10|🇸🇬 新加坡4|@ripaojiedian
-  password: '!!str 3672449442956713984'
-  port: 443
-  server: present-blowfish.sunbeam921.monster
-  skip-cert-verify: false
-  sni: present-blowfish.sunbeam921.monster
-  type: trojan
 - name: 11|新加坡4|@ripaojiedian
   network: tcp
   password: '!!str 3672449442956713984'
