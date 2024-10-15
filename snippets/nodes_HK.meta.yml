@@ -2,25 +2,14 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 10|🇭🇰 香港3|@ripaojiedian
-  port: 51272
-  server: 38.147.188.98
+  name: 10|🇭🇰 香港|@ripaojiedian
+  port: 50021
+  server: 50021.baidu-cdn.top
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: cd7c66cf-aad9-4646-b979-7555aa124b93
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10|🇭🇰 香港4|@ripaojiedian
-  port: 35601
-  server: 120.232.153.40
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 4df8aa8f-1fd6-414d-8d2b-66b6a01ba2a8
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -45,24 +34,14 @@ proxies:
   uuid: a32313ad-5e39-4f9a-9cad-512041790050
 - alterId: 0
   cipher: auto
-  name: 11|香港3|@ripaojiedian
+  name: 11|香港|@ripaojiedian
   network: tcp
-  port: '51272'
-  server: 38.147.188.98
+  port: '50021'
+  server: 50021.baidu-cdn.top
   servername: ''
   tls: false
   type: vmess
-  uuid: cd7c66cf-aad9-4646-b979-7555aa124b93
-- alterId: 64
-  cipher: auto
-  name: 11|香港4|@ripaojiedian
-  network: tcp
-  port: '35601'
-  server: 120.232.153.40
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 4df8aa8f-1fd6-414d-8d2b-66b6a01ba2a8
 - alterId: 0
   cipher: auto
   name: 11|香港5|@ripaojiedian
@@ -83,6 +62,14 @@ proxies:
   tls: true
   type: vmess
   uuid: a32313ad-5e39-4f9a-9cad-512041790050
+- alterId: -1
+  name: 12|HK_speednode_0061
+  password: 981db44e-9f07-49eb-9ba0-6ab4939919a2
+  port: 443
+  server: hknode07.oportal.cc
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - name: 12|HK_speednode_0062
   network: ws
   port: 443
