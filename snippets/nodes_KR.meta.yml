@@ -1,17 +1,5 @@
 proxies:
-- name: 12|KR_speednode_0124
-  network: ws
-  password: auto
-  port: 13980
-  server: 61.77.217.116
-  skip-cert-verify: true
-  sni: tg.cmliussss.us.kg
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tg.cmliussss.us.kg
-    path: /
-- name: 12|KR_speednode_0126
+- name: 12|KR_speednode_0027
   network: ws
   password: auto
   port: 18078
@@ -23,7 +11,19 @@ proxies:
     headers:
       Host: tg.cmliussss.us.kg
     path: /
-- name: 12|KR_speednode_0127
+- name: 12|KR_speednode_0029
+  network: ws
+  password: auto
+  port: 13980
+  server: 61.77.217.116
+  skip-cert-verify: true
+  sni: tg.cmliussss.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tg.cmliussss.us.kg
+    path: /
+- name: 12|KR_speednode_0030
   network: ws
   port: 443
   server: 152.67.212.141
