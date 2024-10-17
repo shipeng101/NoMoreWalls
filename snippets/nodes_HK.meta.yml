@@ -2,6 +2,28 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
+  name: 10|🇭🇰 香港3|@ripaojiedian
+  port: 50023
+  server: 50023.baidu-cdn.top
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 0900abc9-29a4-4f70-98de-336b5d4b79d6
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇭🇰 香港4|@ripaojiedian
+  port: 30251
+  server: hkt2.bika.hk
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 9e88a10b-655c-5120-89d0-408634169561
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
   name: 10|🇭🇰 香港5|@ripaojiedian
   port: 2902
   server: 143.92.42.65
@@ -12,15 +34,24 @@ proxies:
   uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 10|🇭🇰 香港6|@ripaojiedian
-  port: 12960
-  server: z3.fragranceninja.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
+  name: 11|香港3|@ripaojiedian
+  network: tcp
+  port: '50023'
+  server: 50023.baidu-cdn.top
+  servername: ''
+  tls: false
   type: vmess
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
+  uuid: 0900abc9-29a4-4f70-98de-336b5d4b79d6
+- alterId: 0
+  cipher: auto
+  name: 11|香港4|@ripaojiedian
+  network: tcp
+  port: '30251'
+  server: hkt2.bika.hk
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9e88a10b-655c-5120-89d0-408634169561
 - alterId: 0
   cipher: auto
   name: 11|香港5|@ripaojiedian
@@ -31,13 +62,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
-- alterId: 0
-  cipher: auto
-  name: 11|香港6|@ripaojiedian
-  network: tcp
-  port: '12960'
-  server: z3.fragranceninja.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050

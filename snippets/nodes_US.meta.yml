@@ -1,4 +1,21 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10,11|美国|@ripaojiedian
+  network: ws
+  port: '2086'
+  server: cfcdn1.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
+  ws-opts:
+    headers:
+      Host: us5aVnNnWmn.wawhnyjm.xyz
+    path: /video/MmoigmCm
 - name: 12|US_speednode_0056
   network: ws
   port: 80

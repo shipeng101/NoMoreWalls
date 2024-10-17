@@ -1,1 +1,52 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  name: 10,11|日本2|@ripaojiedian
+  network: tcp
+  password: 5OZS3AXSpw9DOEc6x83D3uIYCZBDCFFSjqz24NyaxeelCKn3TyA8p0Y7RgaRal
+  port: 18333
+  server: 154.31.115.26
+  skip-cert-verify: false
+  sni: caterpie.superpokemon.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇯🇵 日本3|@ripaojiedian
+  port: 50032
+  server: 50032.baidu-cdn.top
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 0900abc9-29a4-4f70-98de-336b5d4b79d6
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇯🇵 日本5|@ripaojiedian
+  port: 35976
+  server: 5.104.82.173
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: dccaf5fa-5482-49cb-8519-5434af52ccbc
+- alterId: 0
+  cipher: auto
+  name: 11|日本3|@ripaojiedian
+  network: tcp
+  port: '50032'
+  server: 50032.baidu-cdn.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0900abc9-29a4-4f70-98de-336b5d4b79d6
+- alterId: 0
+  cipher: none
+  name: 11|日本5|@ripaojiedian
+  network: tcp
+  port: '35976'
+  server: 5.104.82.173
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: dccaf5fa-5482-49cb-8519-5434af52ccbc
