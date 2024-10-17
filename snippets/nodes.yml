@@ -1,21 +1,6 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 0|-https://t.me/MrXbin-5
-  password: g5MeD6Ft3CWlJId
-  port: 5004
-  server: 69.50.93.113
-  type: ss
-- cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-16
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13622
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: hfa1.cdn.node.a.tddns-ounk.com
-  type: ssr
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-18
+  name: 0|-https://t.me/MrXbin-11
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
@@ -24,29 +9,76 @@ proxies:
   type: ssr
 - alterId: 0
   cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-42
+  name: 5|d*********g.com_0
   network: ws
-  port: 443
-  server: speedtest.net
-  servername: mehrjavan.ir
-  skip-cert-verify: true
+  port: 8443
+  server: 104.21.238.200
+  servername: http1.9290254.xyz
   tls: true
   type: vmess
   udp: true
-  uuid: 57727d7d-8873-4000-b3f4-33a93fcfdd51
+  uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: mehrjavan.ir
-    path: /m28jcoZZUhkqg6pk11
-- name: 0|-https://t.me/MrXbin-45
-  password: 981db44e-9f07-49eb-9ba0-6ab4939919a2
-  port: 443
-  server: hknode07.oportal.cc
-  skip-cert-verify: true
-  type: trojan
+      Host: http1.9290254.xyz
+    path: github.com/Alvin9999
+    v2ray-http-upgrade: true
+    v2ray-http-upgrade-fast-open: true
+- alterId: 0
+  cipher: auto
+  name: 5|d*********g.com_1
+  network: ws
+  port: 8443
+  server: 104.21.238.201
+  servername: http1.9290254.xyz
+  tls: true
+  type: vmess
   udp: true
+  uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: http1.9290254.xyz
+    path: github.com/Alvin9999
+    v2ray-http-upgrade: true
+    v2ray-http-upgrade-fast-open: true
+- alterId: 0
+  cipher: auto
+  name: 5|d*********g.com_2
+  network: ws
+  port: 8443
+  server: 104.21.238.202
+  servername: http1.9290254.xyz
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: http1.9290254.xyz
+    path: github.com/Alvin9999
+    v2ray-http-upgrade: true
+    v2ray-http-upgrade-fast-open: true
+- alterId: 0
+  cipher: auto
+  name: 5|d*********g.com_3
+  network: ws
+  port: 8443
+  server: 104.21.238.203
+  servername: http1.9290254.xyz
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: http1.9290254.xyz
+    path: github.com/Alvin9999
+    v2ray-http-upgrade: true
+    v2ray-http-upgrade-fast-open: true
 - alterId: 0
   cipher: auto
   name: 10|🇭🇰 香港3|@ripaojiedian
@@ -466,7 +498,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|d*********g.com_2
+  name: '13|d*********g.com_2 #1'
   network: tcp
   port: '443'
   server: 42.236.73.72
@@ -476,7 +508,7 @@ proxies:
   uuid: 044f0177-0675-4dcf-89d4-804b6788e518
 - alpn:
   - http%2F1.1
-  name: 13|d*********g.com_3
+  name: '13|d*********g.com_3 #1'
   network: tcp
   password: fuck
   port: 443
