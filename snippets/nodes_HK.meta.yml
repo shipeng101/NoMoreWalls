@@ -10,6 +10,17 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
+  name: 10|🇭🇰 香港2|@ripaojiedian
+  port: 50021
+  server: 50021.baidu-cdn.top
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 9f5e9155-2356-40be-8549-ee2f3e45fe36
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
   name: 10|🇭🇰 香港4|@ripaojiedian
   port: 30251
   server: hkt2.bika.hk
@@ -35,6 +46,16 @@ proxies:
   port: 443
   server: giving-marmoset.opossum872.cfd
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 11|香港2|@ripaojiedian
+  network: tcp
+  port: '50021'
+  server: 50021.baidu-cdn.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9f5e9155-2356-40be-8549-ee2f3e45fe36
 - alterId: 0
   cipher: auto
   name: 11|香港4|@ripaojiedian

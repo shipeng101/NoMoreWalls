@@ -1,16 +1,30 @@
 proxies:
 - client-fingerprint: chrome
-  name: 10|🇸🇬 新加坡2|@ripaojiedian
+  name: 10|🇸🇬 新加坡3|@ripaojiedian
   password: '!!str 3690911436885991424'
   port: 443
-  server: winning-doe.sheepdog670.boats
+  server: engaged-dove.opossum872.cfd
   skip-cert-verify: false
-  sni: winning-doe.sheepdog670.boats
+  sni: engaged-dove.opossum872.cfd
   type: trojan
-- name: 11|新加坡2|@ripaojiedian
+- client-fingerprint: chrome
+  name: 10|🇸🇬 新加坡4|@ripaojiedian
+  password: '!!str 3648425794742788096'
+  port: 443
+  server: glad-boxer.opossum872.cfd
+  skip-cert-verify: false
+  sni: glad-boxer.opossum872.cfd
+  type: trojan
+- name: 11|新加坡3|@ripaojiedian
   network: tcp
   password: '!!str 3690911436885991424'
   port: 443
-  server: winning-doe.sheepdog670.boats
+  server: engaged-dove.opossum872.cfd
   skip-cert-verify: true
+  type: trojan
+- name: 11|新加坡4|@ripaojiedian
+  network: tcp
+  password: '!!str 3648425794742788096'
+  port: 443
+  server: glad-boxer.opossum872.cfd
   type: trojan
