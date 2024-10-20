@@ -11,23 +11,39 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-42
+  name: 0|-https://t.me/MrXbin-33
   network: ws
-  port: 2082
-  server: 172.64.166.20
+  port: 80
+  server: plex.com
   skip-cert-verify: true
   type: vmess
   udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  uuid: a888b89a-08ac-40e6-8ad7-cfce9569f967
   ws-opts:
     headers:
-      Host: ip16.6929198.xyz
-    path: /github.com/Alvin9999
+      Host: gerMAnyISvP.iR
+    path: /racevpn
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-34
+  network: ws
+  port: 80
+  server: 151.101.130.133
+  skip-cert-verify: true
+  type: vmess
+  udp: true
+  uuid: a888b89a-08ac-40e6-8ad7-cfce9569f967
+  ws-opts:
+    headers:
+      Host: gerMAnyISvP.iR
+    path: /racevpn
 - alterId: 1
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-43
+  name: 0|-https://t.me/MrXbin-40
   network: ws
   port: 443
   server: 23.157.88.6
@@ -44,34 +60,16 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-44
+  name: 0|-https://t.me/MrXbin-41
   network: ws
-  port: 80
-  server: plex.com
-  skip-cert-verify: true
+  port: 2095
+  server: icook.tw
   type: vmess
-  udp: true
-  uuid: a888b89a-08ac-40e6-8ad7-cfce9569f967
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: gerMAnyISvP.iR
-    path: /racevpn
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-45
-  network: ws
-  port: 80
-  server: 151.101.130.133
-  skip-cert-verify: true
-  type: vmess
-  udp: true
-  uuid: a888b89a-08ac-40e6-8ad7-cfce9569f967
-  ws-opts:
-    headers:
-      Host: gerMAnyISvP.iR
-    path: /racevpn
+      Host: ip11.6016725.xyz
+    path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: '3,4,5|d*********g.com_0 #2'
