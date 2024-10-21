@@ -11,13 +11,13 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   name: 10|🇭🇰 香港2|@ripaojiedian
-  port: 35011
-  server: tanz-hk.01byx31qzn.download
+  port: 44801
+  server: ambxxic01hk.dorabbb.top
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 548ff3c1-d8c8-3110-a65a-fb55573380c7
+  uuid: 525bf680-dda1-451f-8758-d5ce847e5dc9
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -40,6 +40,17 @@ proxies:
   tls: false
   type: vmess
   uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇭🇰 香港7|@ripaojiedian
+  port: 45020
+  server: 183.236.51.23
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: 11|香港|@ripaojiedian
   network: tcp
   password: '!!str 3690911436885991424'
@@ -50,12 +61,12 @@ proxies:
   cipher: auto
   name: 11|香港2|@ripaojiedian
   network: tcp
-  port: '35011'
-  server: tanz-hk.01byx31qzn.download
+  port: '44801'
+  server: ambxxic01hk.dorabbb.top
   servername: ''
   tls: false
   type: vmess
-  uuid: 548ff3c1-d8c8-3110-a65a-fb55573380c7
+  uuid: 525bf680-dda1-451f-8758-d5ce847e5dc9
 - alterId: 0
   cipher: auto
   name: 11|香港4|@ripaojiedian
@@ -76,3 +87,13 @@ proxies:
   tls: false
   type: vmess
   uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
+- alterId: 64
+  cipher: auto
+  name: 11|香港7|@ripaojiedian
+  network: tcp
+  port: '45020'
+  server: 183.236.51.23
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
