@@ -1,4 +1,25 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇯🇵 日本2|@ripaojiedian
+  port: 56916
+  server: 45.159.50.165
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: edcc6b8f-bcf5-4d2a-9026-c58967fb2b5d
+- alterId: 0
+  cipher: auto
+  name: 11|日本2|@ripaojiedian
+  network: tcp
+  port: '56916'
+  server: 45.159.50.165
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: edcc6b8f-bcf5-4d2a-9026-c58967fb2b5d
 - name: 12|JP_speednode_0045
   network: ws
   port: 2053
