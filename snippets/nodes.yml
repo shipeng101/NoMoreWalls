@@ -1,47 +1,53 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-3
+  password: amazonskr05
+  port: 443
+  server: 52.43.127.109
+  type: ss
 - cipher: aes-128-gcm
-  name: 0|-https://t.me/MrXbin-5
+  name: 0|-https://t.me/MrXbin-6
   password: shadowsocks
   port: 443
   server: 37.19.198.244
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-7
-  password: amazonskr05
-  port: 443
-  server: 47.128.240.40
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-16
-  obfs: tls1.2_ticket_auth
-  password: fou8MBGij
-  port: 8081
-  protocol: origin
-  server: us-am3.eqnode.net
-  type: ssr
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-32
+  network: ws
+  port: 2095
+  server: 172.64.167.29
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip11.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-33
+  network: ws
+  port: 2095
+  server: 172.64.167.22
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip11.6016725.xyz
+    path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
   h2-opts: {}
   http-opts: {}
   name: 0|-https://t.me/MrXbin-42
   network: ws
-  port: 2095
-  server: 172.64.167.35
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip11.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-44
-  network: ws
   port: 2082
-  server: 172.64.175.213
+  server: 172.64.166.2
   servername: ip18.6929198.xyz
   type: vmess
   udp: true
@@ -50,105 +56,43 @@ proxies:
     headers:
       Host: ip18.6929198.xyz
     path: /github.com/Alvin9999
+- alterId: 1
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-45
+  network: ws
+  port: 443
+  server: 38.75.137.121
+  servername: 38.75.137.121
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 38.75.137.121
+    path: /linkvws
 - alterId: 0
   cipher: auto
   h2-opts: {}
   http-opts: {}
   name: 0|-https://t.me/MrXbin-46
   network: ws
-  port: 2082
-  server: 172.64.167.10
-  servername: ip18.6929198.xyz
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-47
-  network: ws
-  port: 2082
-  server: 172.64.167.29
-  servername: ip18.6929198.xyz
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-48
-  network: ws
-  port: 2082
-  server: 172.64.167.19
-  servername: ip18.6929198.xyz
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-50
-  network: ws
-  port: 2082
-  server: 172.64.167.5
-  servername: ip18.6929198.xyz
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-52
-  network: ws
   port: 2095
-  server: 172.64.166.28
+  server: 172.64.166.9
   type: vmess
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
       Host: ip11.6016725.xyz
     path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-55
-  network: ws
-  port: 2082
-  server: 172.64.166.33
-  skip-cert-verify: true
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip16.6929198.xyz
-    path: /github.com/Alvin9999
 - alterId: 1
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-57
+  name: 0|-https://t.me/MrXbin-48
   network: ws
   port: 443
   server: 23.157.88.6
@@ -517,67 +461,78 @@ proxies:
   tls: false
   type: vmess
   uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
-- alterId: -1
-  name: 12|CN_speednode_0021
-  password: d6d86a97-2bef-4f89-9527-ce2003377677
-  port: 13008
-  server: naiu-hk.05vr9nyqg5.download
+- name: 12|CN_speednode_0019
+  password: 0c752bf8-4421-36bd-b97c-cd0d40726dcd
+  port: 22741
+  server: gy.58n.net
   skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
+  sni: dufu.hongkongnode.top
   type: trojan
   udp: true
-- alterId: -1
-  name: 12|TR_speednode_0100
-  password: '3648425794742788096'
-  port: 443
-  server: 202.78.174.87
+- name: 12|CN_speednode_0021
+  password: 0c752bf8-4421-36bd-b97c-cd0d40726dcd
+  port: 36821
+  server: gy.58n.net
   skip-cert-verify: true
-  sni: artistic-cat.sheepdog670.boats
-  type: trojan
-  udp: false
-- alterId: -1
-  name: 12|TR_speednode_0098
-  password: '3648425794742788096'
-  port: 443
-  server: artistic-cat.sheepdog670.boats
-  skip-cert-verify: false
+  sni: z262.hongkongnode.top
   type: trojan
   udp: true
-- alterId: -1
-  name: 12|US_speednode_0370
-  password: wkmY1R4EcP
-  port: 443
-  server: 216.128.147.13
+- name: 12|CN_speednode_0025
+  password: 0c752bf8-4421-36bd-b97c-cd0d40726dcd
+  port: 20279
+  server: gy.58n.net
   skip-cert-verify: true
-  sni: z-v2-003274.kailib.com
-  type: trojan
-  udp: false
-- name: 12|US_speednode_0166
-  network: ws
-  password: auto
-  port: 443
-  server: 104.21.90.210
-  skip-cert-verify: true
-  sni: 159d770e-fd74-4069-a73b-fe6ececa7951.f82aee4c-752c-4b0c-9793-380d4d76435c.ddnsgeek.com
+  sni: z279.hongkongnode.top
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: 159d770e-fd74-4069-a73b-fe6ececa7951.f82aee4c-752c-4b0c-9793-380d4d76435c.ddnsgeek.com
-    path: /abbas.ab841vpn.workers.dev/?ed=2560.Telegram-@ViP_FRAGMENT_V2RAY.Telegram-@ViP_FRAGMENT_V2RAY.Telegram-@ViP_FRAGMENT_V2RAY.Telegram-@ViP_FRAGMENT_V2RAY.Telegram-@ViP_FRAGMENT_V2RAY.Telegram-@ViP_FRAGMENT_V2RAY.Telegram-@ViP_FRAGMENT_V2RAY.Telegram-@ViP_FRAGMENT_V2RAY.Telegram-@ViP_FRAGMENT_V2RAY
-- name: 12|US_speednode_0262
-  network: ws
-  password: auto
-  port: 443
-  server: 104.21.90.210
+- name: 12|CN_speednode_0033
+  password: 0c752bf8-4421-36bd-b97c-cd0d40726dcd
+  port: 25238
+  server: gy.58n.net
   skip-cert-verify: true
-  sni: 159d770e-fd74-4069-a73b-fe6ececa7951.f82aee4c-752c-4b0c-9793-380d4d76435c.ddnsgeek.com
+  sni: z267.hongkongnode.top
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: 159d770e-fd74-4069-a73b-fe6ececa7951.f82aee4c-752c-4b0c-9793-380d4d76435c.ddnsgeek.com
-    path: /abbas.ab841vpn.workers.dev/?ed=2560.Telegram-
+- name: 12|JP_speednode_0065
+  password: 64e0ee38-2874-3f3f-b7d2-34f5a03cbaab
+  port: 443
+  server: 54.238.135.78
+  skip-cert-verify: true
+  sni: steamcdn-a.akamaihd.net
+  type: trojan
+  udp: true
+- name: 12|JP_speednode_0066
+  password: 64e0ee38-2874-3f3f-b7d2-34f5a03cbaab
+  port: 443
+  server: 35.75.8.137
+  skip-cert-verify: true
+  sni: origin-a.akamaihd.net
+  type: trojan
+  udp: true
+- name: 12|US_speednode_0133
+  password: 64e0ee38-2874-3f3f-b7d2-34f5a03cbaab
+  port: 5528
+  server: 103.136.185.27
+  skip-cert-verify: true
+  sni: steampipe-kr.akamaized.net
+  type: trojan
+  udp: true
+- name: 12|US_speednode_0149
+  password: 64e0ee38-2874-3f3f-b7d2-34f5a03cbaab
+  port: 3511
+  server: 103.136.185.28
+  skip-cert-verify: true
+  sni: steampipe-partner.akamaized.net
+  type: trojan
+  udp: true
+- name: 12|US_speednode_0228
+  password: 64e0ee38-2874-3f3f-b7d2-34f5a03cbaab
+  port: 443
+  server: 54.186.255.249
+  skip-cert-verify: true
+  sni: akamai.cdn.steampipe.steamcontent.com
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: '13|d*********g.com_2 #3'
