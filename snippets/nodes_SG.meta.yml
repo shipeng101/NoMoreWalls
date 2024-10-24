@@ -1,4 +1,18 @@
 proxies:
+- client-fingerprint: chrome
+  name: 10|🇸🇬 新加坡3|@ripaojiedian
+  password: '!!str 3690911436885991424'
+  port: 443
+  server: easy-mako.opossum872.cfd
+  skip-cert-verify: false
+  sni: easy-mako.opossum872.cfd
+  type: trojan
+- name: 11|新加坡3|@ripaojiedian
+  network: tcp
+  password: '!!str 3690911436885991424'
+  port: 443
+  server: easy-mako.opossum872.cfd
+  type: trojan
 - name: 12|SG_speednode_0112
   network: ws
   port: 443
