@@ -1,17 +1,18 @@
 proxies:
 - client-fingerprint: chrome
-  name: 10|🇸🇬 新加坡3|@ripaojiedian
+  name: 10|🇸🇬 新加坡2|@ripaojiedian
   password: '!!str 3690911436885991424'
   port: 443
-  server: easy-mako.opossum872.cfd
+  server: open-spider.yeti261.hair
   skip-cert-verify: false
-  sni: easy-mako.opossum872.cfd
+  sni: open-spider.yeti261.hair
   type: trojan
-- name: 11|新加坡3|@ripaojiedian
+- name: 11|新加坡2|@ripaojiedian
   network: tcp
   password: '!!str 3690911436885991424'
   port: 443
-  server: easy-mako.opossum872.cfd
+  server: open-spider.yeti261.hair
+  skip-cert-verify: true
   type: trojan
 - name: 12|SG_speednode_0058
   network: ws
