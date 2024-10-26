@@ -2,7 +2,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 10|🇰🇷 韩国|@ripaojiedian
+  name: 10|🇰🇷 韩国2|@ripaojiedian
   port: 20937
   server: 45.94.68.200
   skip-cert-verify: false
@@ -12,7 +12,7 @@ proxies:
   uuid: c0e6d2ab-9fc2-4a0f-8011-844e5b45ec0c
 - alterId: 0
   cipher: auto
-  name: 11|韩国|@ripaojiedian
+  name: 11|韩国2|@ripaojiedian
   network: tcp
   port: '20937'
   server: 45.94.68.200
