@@ -7,17 +7,28 @@ proxies:
   skip-cert-verify: false
   sni: careful-platypus.opossum872.cfd
   type: trojan
-- alterId: 0
+- alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 10|🇺🇸 美国3|@ripaojiedian
-  port: 9023
-  server: select-us.0000000000.download
+  name: 10|🇺🇸 美国2|@ripaojiedian
+  port: 58831
+  server: 183.236.48.163
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: ac59a7cd-11af-3e35-a098-b785688ec627
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇺🇸 美国3|@ripaojiedian
+  port: 39041
+  server: 183.238.202.173
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: 11|美国|@ripaojiedian
   network: tcp
   password: '!!str 3690911436885991424'
@@ -25,16 +36,26 @@ proxies:
   server: careful-platypus.opossum872.cfd
   skip-cert-verify: true
   type: trojan
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 11|美国3|@ripaojiedian
+  name: 11|美国2|@ripaojiedian
   network: tcp
-  port: '9023'
-  server: select-us.0000000000.download
+  port: '58831'
+  server: 183.236.48.163
   servername: ''
   tls: false
   type: vmess
-  uuid: ac59a7cd-11af-3e35-a098-b785688ec627
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 11|美国3|@ripaojiedian
+  network: tcp
+  port: '39041'
+  server: 183.238.202.173
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: 12|US_speednode_0273
   network: ws
   password: auto

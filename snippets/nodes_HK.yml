@@ -3,13 +3,13 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   name: 10|🇭🇰 香港|@ripaojiedian
-  port: 44826
-  server: ambxxid02hk.dorabbb.top
+  port: 47434
+  server: 103.224.80.124
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 21ebc5e2-e41a-47bc-92f8-bd06aef95579
+  uuid: 254da2b9-0470-4e64-8288-c1dd69df797c
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -25,12 +25,12 @@ proxies:
   cipher: auto
   name: 11|香港|@ripaojiedian
   network: tcp
-  port: '44826'
-  server: ambxxid02hk.dorabbb.top
+  port: '47434'
+  server: 103.224.80.124
   servername: ''
   tls: false
   type: vmess
-  uuid: 21ebc5e2-e41a-47bc-92f8-bd06aef95579
+  uuid: 254da2b9-0470-4e64-8288-c1dd69df797c
 - alterId: 0
   cipher: auto
   name: 11|香港5|@ripaojiedian
