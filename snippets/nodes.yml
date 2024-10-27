@@ -1,29 +1,32 @@
 proxies:
 - cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-1
+  name: 0|-https://t.me/MrXbin-2
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 107.155.57.51
   type: ss
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-2
-  password: amazonskr05
-  port: 443
-  server: 47.128.240.40
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-8
+  name: 0|-https://t.me/MrXbin-9
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
   protocol: origin
   server: us-am3.eqnode.net
   type: ssr
+- cipher: rc4-md5
+  name: 0|-https://t.me/MrXbin-13
+  obfs: tls1.2_ticket_auth
+  password: Cskw6d
+  port: 13501
+  protocol: auth_aes128_md5
+  protocol-param: 524959:5u4MZ6
+  server: tata12.cdn.node.a.tddns-ounk.com
+  type: ssr
 - alterId: 0
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-36
+  name: 0|-https://t.me/MrXbin-33
   network: ws
   port: 2082
   server: 172.64.166.22
@@ -34,22 +37,6 @@ proxies:
   ws-opts:
     headers:
       Host: ip16.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-37
-  network: ws
-  port: 2095
-  server: 172.64.175.88
-  skip-cert-verify: true
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip9.6016725.xyz
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
