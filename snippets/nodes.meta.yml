@@ -1,54 +1,78 @@
 proxies:
-- cipher: aes-128-gcm
-  name: 0|-https://t.me/MrXbin-1
-  password: shadowsocks
-  port: 443
-  server: 212.102.53.195
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-2
-  password: lTJ1q8DFg
-  port: 20088
-  server: 67.220.72.41
-  type: ss
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-3
+  name: 0|-https://t.me/MrXbin-1
   password: amazonskr05
   port: 443
-  server: 47.128.240.40
+  server: 52.43.127.109
   type: ss
 - cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-4
+  name: 0|-https://t.me/MrXbin-2
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 107.155.57.51
   type: ss
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-6
+  name: 0|-https://t.me/MrXbin-8
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
   protocol: origin
   server: us-am3.eqnode.net
   type: ssr
-- cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-8
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13171
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: z5is.cdn.node.a.tddns-ounk.com
-  type: ssr
+- alterId: 64
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-35
+  network: ws
+  port: 38007
+  server: 38.174.190.80
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    path: /path/102206282005
 - alterId: 0
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-50
+  name: 0|-https://t.me/MrXbin-36
+  network: ws
+  port: 2095
+  server: 172.64.175.88
+  skip-cert-verify: true
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip9.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-45
   network: ws
   port: 2082
-  server: 172.64.167.8
+  server: 172.64.167.29
+  servername: ip18.6929198.xyz
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-46
+  network: ws
+  port: 2082
+  server: 172.64.166.22
   skip-cert-verify: true
   type: vmess
   udp: true
@@ -61,37 +85,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-51
-  network: ws
-  port: 2095
-  server: 172.64.167.8
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip11.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-57
-  network: ws
-  port: 2095
-  server: 172.64.167.10
-  servername: ip10.6016725.xyz
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip10.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-58
+  name: 0|-https://t.me/MrXbin-47
   network: ws
   port: 443
   server: speedtest.net
@@ -105,22 +99,23 @@ proxies:
     headers:
       Host: mehrjavan.ir
     path: /m28jcoZZUhkqg6pk11
-- alterId: 0
+- alterId: 1
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-59
+  name: 0|-https://t.me/MrXbin-48
   network: ws
-  port: 2082
-  server: 172.64.166.22
+  port: 443
+  server: 23.157.88.6
   skip-cert-verify: true
+  tls: true
   type: vmess
   udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: ip16.6929198.xyz
-    path: /github.com/Alvin9999
+      Host: 23.157.88.6
+    path: /linkvws
 - alterId: 0
   cipher: auto
   name: '3,4,5|d*********g.com_0 #2'
@@ -195,6 +190,32 @@ proxies:
     v2ray-http-upgrade-fast-open: true
 - alterId: 0
   cipher: auto
+  name: 10,11|香港|@ripaojiedian
+  network: ws
+  port: '12959'
+  server: z3.fragranceninja.com
+  servername: z3.fragranceninja.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: a32313ad-5e39-4f9a-9cad-512041790050
+  ws-opts:
+    headers:
+      Host: z3.fragranceninja.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 10|🇭🇰 香港3|@ripaojiedian
+  port: 45219
+  server: 103.224.80.27
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: ac134134-87e5-42b5-8805-565395a30acc
+- alterId: 0
+  cipher: auto
   name: 10|🇭🇰 香港5|@ripaojiedian
   port: 2902
   server: 143.92.42.65
@@ -203,6 +224,38 @@ proxies:
   tls: false
   type: vmess
   uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
+- cipher: rc4-md5
+  name: 10|🇭🇰 香港R|@ripaojiedian
+  obfs: plain
+  obfs-param: 8195986416.6602b8463464108506.microsoft.com
+  password: ENZ52K
+  port: 40206
+  protocol: auth_aes128_md5
+  protocol-param: 86416:SlZFuy
+  server: 7438974b54cf5c57.cdn.jiashule.com
+  type: ssr
+- cipher: rc4-md5
+  name: 10|🇹🇼 台湾|@ripaojiedian
+  password: Paofu
+  plugin: obfs
+  plugin-opts:
+    host: 7c0ad96494.microsoft.com
+    mode: http
+  port: 1170
+  server: 163.177.58.179
+  tfo: false
+  type: ss
+- cipher: rc4-md5
+  name: 10|🇹🇼 台湾2|@ripaojiedian
+  password: Paofu
+  plugin: obfs
+  plugin-opts:
+    host: 7c0ad96494.microsoft.com
+    mode: http
+  port: 1171
+  server: 163.177.58.179
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵 日本|@ripaojiedian
@@ -213,6 +266,35 @@ proxies:
   tls: false
   type: vmess
   uuid: ba2e86ee-65fc-4b4e-97c7-165b5b64023b
+- name: 10,11|日本2|@ripaojiedian
+  network: tcp
+  password: 5b4becce-5739-483f-97ec-68b81a855d68
+  port: 13013
+  server: naiu-jp.05vr9nyqg5.download
+  skip-cert-verify: false
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 10|🇰🇷 韩国|@ripaojiedian
+  port: 54997
+  server: 45.94.68.140
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 287dca94-9652-47c1-88e2-92b455b49591
+- cipher: rc4-md5
+  name: 10|🇸🇬 新加坡|@ripaojiedian
+  password: Paofu
+  plugin: obfs
+  plugin-opts:
+    host: 7c0ad96494.microsoft.com
+    mode: http
+  port: 1190
+  server: 163.177.58.179
+  tfo: false
+  type: ss
 - name: 10,11|新加坡2|@ripaojiedian
   network: tcp
   password: 5b4becce-5739-483f-97ec-68b81a855d68
@@ -220,13 +302,6 @@ proxies:
   server: naiu-sg.05vr9nyqg5.download
   skip-cert-verify: false
   sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-- name: 10|🇺🇸 美国|@ripaojiedian
-  password: '3690911436885991424'
-  port: 443
-  server: careful-platypus.opossum872.cfd
-  skip-cert-verify: false
-  sni: careful-platypus.opossum872.cfd
   type: trojan
 - alterId: 64
   cipher: auto
@@ -260,6 +335,16 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
+  name: 11|香港3|@ripaojiedian
+  network: tcp
+  port: '45219'
+  server: 103.224.80.27
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ac134134-87e5-42b5-8805-565395a30acc
+- alterId: 0
+  cipher: auto
   name: 11|香港5|@ripaojiedian
   network: tcp
   port: '2902'
@@ -268,6 +353,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
+- cipher: rc4-md5
+  name: 11|6aaZ5rivUnxAcmlwYW9qaWVkaWFu
+  obfs: plain
+  obfs-param: ODE5NTk4NjQxNi42NjAyYjg0NjM0NjQxMDg1MDYubWljcm9zb2Z0LmNvbQ
+  password: ENZ52K
+  port: '40206'
+  protocol: auth_aes128_md5
+  protocol-param: ODY0MTY6U2xaRnV5
+  server: 7438974b54cf5c57.cdn.jiashule.com
+  type: ssr
 - alterId: 0
   cipher: auto
   name: 11|日本|@ripaojiedian
@@ -278,13 +373,16 @@ proxies:
   tls: false
   type: vmess
   uuid: ba2e86ee-65fc-4b4e-97c7-165b5b64023b
-- name: 11|美国|@ripaojiedian
+- alterId: 0
+  cipher: auto
+  name: 11|韩国|@ripaojiedian
   network: tcp
-  password: '3690911436885991424'
-  port: 443
-  server: careful-platypus.opossum872.cfd
-  skip-cert-verify: true
-  type: trojan
+  port: '54997'
+  server: 45.94.68.140
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 287dca94-9652-47c1-88e2-92b455b49591
 - alterId: 64
   cipher: auto
   name: 11|美国3|@ripaojiedian
