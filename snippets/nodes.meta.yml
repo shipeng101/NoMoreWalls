@@ -1,21 +1,75 @@
 proxies:
-- cipher: rc4-md5
+- cipher: chacha20-ietf-poly1305
   name: 0|-https://t.me/MrXbin-1
+  password: 5Au7NhFmcBqMnika4KVk7h4ZdV3wD4hFtJ8PJ3AlHzLeU1chEBaz19a643q7hBPV
+  port: 19175
+  server: ams1.fromblancwithlove.com
+  type: ss
+- cipher: aes-256-gcm
+  name: 0|-https://t.me/MrXbin-2
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 38.110.1.107
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-3
+  password: 81aBd6IJIgFwT1lqcojSzK
+  port: 20143
+  server: 52.164.203.76
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-4
+  password: 76dze09gQEvqS_jOuo
+  port: 3913
+  server: 144.202.112.106
+  type: ss
+- cipher: aes-128-gcm
+  name: 0|-https://t.me/MrXbin-5
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.168
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-6
+  password: cvII85TrW6n0OGyfpHVS1u
+  port: 8080
+  server: 45.87.175.157
+  type: ss
+- cipher: rc4-md5
+  name: 0|-https://t.me/MrXbin-7
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 107.155.57.51
   type: ss
+- cipher: aes-256-gcm
+  name: 0|-https://t.me/MrXbin-8
+  password: g5MeD6Ft3CWlJId
+  port: 5004
+  server: 142.202.48.105
+  type: ss
+- cipher: aes-256-gcm
+  name: 0|-https://t.me/MrXbin-9
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 38.121.43.204
+  type: ss
+- cipher: aes-256-gcm
+  name: 0|-https://t.me/MrXbin-10
+  password: Y6R9pAtvxxzmGC
+  port: 5000
+  server: 38.110.1.107
+  type: ss
 - cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-3
+  name: 0|-https://t.me/MrXbin-18
   obfs: tls1.2_ticket_auth
   password: Cskw6d
-  port: 13498
+  port: 13227
   protocol: auth_aes128_md5
   protocol-param: 524959:5u4MZ6
   server: xrbsy1.cdn.node.a.tddns-ounk.com
   type: ssr
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-4
+  name: 0|-https://t.me/MrXbin-22
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
@@ -23,39 +77,36 @@ proxies:
   server: us-am3.eqnode.net
   type: ssr
 - cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-7
+  name: 0|-https://t.me/MrXbin-27
   obfs: tls1.2_ticket_auth
   password: Cskw6d
-  port: 13497
+  port: 13229
   protocol: auth_aes128_md5
   protocol-param: 524959:5u4MZ6
   server: xrbsy1.cdn.node.a.tddns-ounk.com
   type: ssr
-- alterId: 0
+- alterId: 1
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-32
-  network: ws
-  port: 2082
-  server: 172.64.167.8
-  skip-cert-verify: true
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip16.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-34
+  name: 0|-https://t.me/MrXbin-28
   network: ws
   port: 443
-  server: 38.91.106.227
-  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  server: 149.7.16.194
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
+- alterId: 1
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-29
+  network: ws
+  port: 443
+  server: 23.158.56.81
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -63,91 +114,13 @@ proxies:
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: megaan.homes
+      Host: 23.158.56.81
     path: /linkvws
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-35
-  network: ws
-  port: 2082
-  server: 172.64.194.76
-  servername: ip18.6929198.xyz
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-38
-  network: ws
-  port: 2082
-  server: 172.64.166.9
-  servername: ip18.6929198.xyz
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-40
-  network: ws
-  port: 2082
-  server: icook.tw
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip16.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-42
-  network: ws
-  port: 2082
-  server: 172.64.166.12
-  servername: ip18.6929198.xyz
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-43
-  network: ws
-  port: 2082
-  server: 23.227.38.3
-  servername: ip18.6929198.xyz
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
 - alterId: 1
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-44
+  name: 0|-https://t.me/MrXbin-32
   network: ws
   port: 443
   server: 23.157.88.6
@@ -160,7 +133,91 @@ proxies:
     headers:
       Host: 23.157.88.6
     path: /linkvws
-- name: 0|-https://t.me/MrXbin-49
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-34
+  network: ws
+  port: 2082
+  server: 172.64.166.22
+  skip-cert-verify: true
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip16.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 1
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-44
+  network: ws
+  port: 443
+  server: 23.158.56.39
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 23.158.56.39
+    path: /linkvws
+- alterId: 1
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-45
+  network: ws
+  port: 443
+  server: 38.99.82.187
+  servername: 38.99.82.187
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 38.99.82.187
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-46
+  network: ws
+  port: 2095
+  server: 172.64.167.5
+  skip-cert-verify: true
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip12.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 1
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-54
+  network: ws
+  port: 443
+  server: 23.158.56.145
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 23.158.56.145
+    path: /linkvws
+- name: 0|-https://t.me/MrXbin-59
   password: wkmY1R4EcP
   port: 443
   server: 216.128.147.13
@@ -401,80 +458,33 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 12|DE_speednode_0006
+- name: 12|CR_speednode_0008
   network: ws
-  port: 8443
-  server: 5.104.75.123
-  servername: sB-1U6.PAgeS.deV
-  skip-cert-verify: true
-  tls: true
+  port: 80
+  server: 190.93.247.155
+  skip-cert-verify: false
   type: vless
   udp: true
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
+  uuid: a194cf71-ac0f-429f-9ade-c859441e05e0
   ws-opts:
     headers:
-      Host: sB-1U6.PAgeS.deV
-    path: /bdbeqy5r01xte4fl/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|DE_speednode_0007
+      Host: Hu2.v2vless.site.
+    path: /vless
+- name: 12|FR_speednode_0014
   network: ws
   port: 443
-  server: 130.162.250.180
-  servername: SB-1u6.PAgeS.Dev
-  skip-cert-verify: true
+  server: 141.145.217.226
+  servername: la.ylks01.eu.org
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
   ws-opts:
     headers:
-      Host: SB-1u6.PAgeS.Dev
-    path: /kgin6lazd2ckpj8j/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|DE_speednode_0008
-  network: ws
-  port: 8443
-  server: 130.61.107.238
-  servername: bpb005.pAges.DEv
-  tls: true
-  type: vless
-  uuid: cc3a15eb-0a63-486c-8e12-c7be717ebcd4
-  ws-opts:
-    headers:
-      Host: bpb005.pAges.DEv
-    path: /oablcsmcwpmbcwbk/mtuyljy3ljiznc40oq
-- name: 12|GB_speednode_0009
-  network: ws
-  port: 443
-  server: 94.247.142.241
-  servername: fq521.6789.cloudns.be
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 775213ac-3976-439a-8977-3277c0e4735d
-  ws-opts:
-    headers:
-      Host: fq521.6789.cloudns.be
-    path: /twitterfreecodessecurityfp=chrome
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: edge
-  name: 12|GB_speednode_0017
-  network: ws
-  port: 443
-  server: 94.247.142.241
-  servername: fq521.6789.cloudns.be
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 775213ac-3976-439a-8977-3277c0e4735d
-  ws-opts:
-    headers:
-      Host: fq521.6789.cloudns.be
-    path: /twitterfreecodessecurity=tls
-- name: 12|GB_speednode_0015
+      Host: la.ylks01.eu.org
+    path: /blue
+- name: 12|GB_speednode_0023
   network: ws
   port: 443
   server: 94.247.142.241
@@ -488,7 +498,7 @@ proxies:
     headers:
       Host: fq521.6789.cloudns.be
     path: /Twitterfreecodes
-- name: 12|GB_speednode_0016
+- name: 12|GB_speednode_0022
   network: ws
   port: 443
   server: 94.247.142.241
@@ -515,8 +525,51 @@ proxies:
   ws-opts:
     headers:
       Host: fq521.6789.cloudns.be
-    path: /
-- name: 12|JO_speednode_0019
+    path: /twitterfreecodessecurityfp=chrome
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: edge
+  name: 12|GB_speednode_0024
+  network: ws
+  port: 443
+  server: 94.247.142.241
+  servername: fq521.6789.cloudns.be
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 775213ac-3976-439a-8977-3277c0e4735d
+  ws-opts:
+    headers:
+      Host: fq521.6789.cloudns.be
+    path: /twitterfreecodessecurity=tls
+- name: 12|HK_speednode_0027
+  network: tcp
+  port: 33032
+  server: 156.254.115.158
+  skip-cert-verify: false
+  type: vless
+  udp: true
+  uuid: 72d37e1d-d577-4db3-dc92-3ec65b6d172b
+- http-opts:
+    headers:
+      Host:
+      - neshan.org
+    method: GET
+    path:
+    - /
+  name: 12|IR_speednode_0029
+  network: http
+  port: 443
+  server: 185.113.10.235
+  servername: neshan.org
+  skip-cert-verify: false
+  type: vless
+  udp: true
+  uuid: f1a495fd-8236-45b7-ae71-4c855ad15367
+- name: 12|JO_speednode_0030
   network: ws
   port: 2096
   server: 62.72.166.67
@@ -528,7 +581,7 @@ proxies:
     headers:
       Host: fq521.6789.cloudns.be
     path: /Twitter苏小柠
-- name: 12|JP_speednode_0021
+- name: 12|JP_speednode_0033
   network: ws
   port: 2083
   server: 103.116.7.67
@@ -542,7 +595,19 @@ proxies:
     headers:
       Host: nicorobin.eula.cloudns.org
     path: /telegram@linkvws?ed=2048
-- name: 12|JP_speednode_0023
+- name: 12|JP_speednode_0032
+  network: ws
+  port: 2096
+  server: 103.116.7.220
+  servername: nicorobin.eula.cloudns.org
+  tls: true
+  type: vless
+  uuid: 0d89a36e-36bc-41d2-8bd3-bbd639991f29
+  ws-opts:
+    headers:
+      Host: nicorobin.eula.cloudns.org
+    path: /?ed=2048
+- name: 12|JP_speednode_0035
   network: ws
   port: 2096
   server: 103.116.7.152
@@ -556,122 +621,7 @@ proxies:
     headers:
       Host: nicorobin.eula.cloudns.org
     path: /?ed=2048
-- name: 12|JP_speednode_0024
-  network: ws
-  port: 8443
-  server: 154.92.9.1
-  servername: sB-1U6.PAGes.DeV
-  tls: true
-  type: vless
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: sB-1U6.PAGes.DeV
-    path: /6fzdo6vhq9d4ddj7/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|JP_speednode_0025
-  network: ws
-  port: 443
-  server: 154.92.9.2
-  servername: BPb005.pAgeS.Dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: cc3a15eb-0a63-486c-8e12-c7be717ebcd4
-  ws-opts:
-    headers:
-      Host: BPb005.pAgeS.Dev
-    path: /81eqvt6gwdd8gwo8/mtuyljy3ljiznc40oq
-- name: 12|JP_speednode_0026
-  network: ws
-  port: 8443
-  server: 154.92.9.2
-  servername: sB-1U6.PAGes.DeV
-  tls: true
-  type: vless
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: sB-1U6.PAGes.DeV
-    path: /6fzdo6vhq9d4ddj7/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|JP_speednode_0027
-  network: ws
-  port: 2096
-  server: 103.116.7.220
-  servername: nicorobin.eula.cloudns.org
-  tls: true
-  type: vless
-  uuid: 0d89a36e-36bc-41d2-8bd3-bbd639991f29
-  ws-opts:
-    headers:
-      Host: nicorobin.eula.cloudns.org
-    path: /?ed=2048
-- name: 12|JP_speednode_0028
-  network: ws
-  port: 2087
-  server: 154.92.9.1
-  servername: Sb-1u6.paGEs.dEv
-  tls: true
-  type: vless
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: Sb-1u6.paGEs.dEv
-    path: /pc0cypuups4meoks/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|JP_speednode_0029
-  network: ws
-  port: 443
-  server: 154.92.9.1
-  servername: sb-1u6.pageS.Dev
-  tls: true
-  type: vless
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: sb-1u6.pageS.Dev
-    path: /o56edk55jth9andd/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|RU_speednode_0033
-  network: ws
-  port: 443
-  server: 188.42.145.140
-  servername: g1.youyuan.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f3fcb0be-c785-4791-bd88-335dd20f0c1e
-  ws-opts:
-    headers:
-      Host: g1.youyuan.us.kg
-    path: /
-- name: 12|RU_speednode_0031
-  network: ws
-  port: 443
-  server: 188.42.145.140
-  servername: g1.youyuan.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f3fcb0be-c785-4791-bd88-335dd20f0c1e
-  ws-opts:
-    headers:
-      Host: g1.youyuan.us.kg
-    path: /?proxyip=proxyip.multacom.fxxk.dedyn.iofp=chromefp=chromefp=chrome
-- name: 12|RU_speednode_0034
-  network: ws
-  packet-encoding: ''
-  port: 443
-  server: 188.42.145.140
-  servername: g1.youyuan.us.kg
-  tls: true
-  type: vless
-  uuid: f3fcb0be-c785-4791-bd88-335dd20f0c1e
-  ws-opts:
-    headers:
-      Host: g1.youyuan.us.kg
-    path: /?proxyip=proxyip.multacom.fxxk.dedyn.iofp=chromefp=chrome
-- name: 12|RU_speednode_0035
+- name: 12|RU_speednode_0041
   network: ws
   port: 443
   server: 188.42.145.159
@@ -685,7 +635,7 @@ proxies:
     headers:
       Host: VIrgiNiavPn-nL.pagEs.dEv
     path: /security=tls
-- name: 12|SC_speednode_0038
+- name: 12|SC_speednode_0044
   network: ws
   port: 443
   server: 154.83.2.200
@@ -699,7 +649,7 @@ proxies:
     headers:
       Host: am-tunnel-6fs.pages.dev
     path: /
-- name: 12|SC_speednode_0042
+- name: 12|SC_speednode_0047
   network: ws
   port: 2096
   server: 154.83.2.54
@@ -713,215 +663,10 @@ proxies:
     headers:
       Host: am-tunnel-6fs.pages.dev
     path: /
-- name: 12|US_speednode_0043
-  network: ws
-  port: 8880
-  server: 104.19.209.229
-  type: vless
-  udp: true
-  uuid: f0d584bc-342f-4443-ba24-79e4d0e504b1
-  ws-opts:
-    headers:
-      Host: late-tooth.granzinhannah.workers.dev
-    path: /?ed=2560
-- name: 12|US_speednode_0044
-  network: ws
-  port: 80
-  server: 199.232.37.15
-  skip-cert-verify: false
-  type: vless
-  udp: true
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  ws-opts:
-    headers:
-      Host: sara193.ir
-    path: /BCXzvAcvSB7JzMWj?ed=2560
-- name: 12|US_speednode_0045
-  network: ws
-  port: 2083
-  server: 192.0.54.6
-  servername: SB-1U6.PAgeS.dEv
-  tls: true
-  type: vless
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: SB-1U6.PAgeS.dEv
-    path: /urenftuu3z1kqryb/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0198
-  network: ws
-  port: 2053
-  server: 45.194.53.13
-  servername: SB-1U6.PAgEs.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: SB-1U6.PAgEs.dev
-    path: /fltcxoo6grqvat6v/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0109
-  network: ws
-  port: 443
-  server: 199.34.228.185
-  servername: bpB005.paGeS.DEv
-  tls: true
-  type: vless
-  uuid: cc3a15eb-0a63-486c-8e12-c7be717ebcd4
-  ws-opts:
-    headers:
-      Host: bpB005.paGeS.DEv
-    path: /1bd7yey9071nu9bu/mtuyljy3ljiznc40oq==?ed=2560
-- name: 12|US_speednode_0158
-  network: ws
-  port: 8443
-  server: 66.235.200.146
-  servername: bPb005.paGes.DEV
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: cc3a15eb-0a63-486c-8e12-c7be717ebcd4
-  ws-opts:
-    headers:
-      Host: bPb005.paGes.DEV
-    path: /fxhhv799mihz1xxp/mtuyljy3ljiznc40oq==?ed=2560
-- name: 12|US_speednode_0151
-  network: ws
-  port: 2053
-  server: 199.34.228.70
-  servername: SB-1U6.PAgEs.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: SB-1U6.PAgEs.dev
-    path: /fltcxoo6grqvat6v/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0132
-  network: ws
-  port: 443
-  server: 199.34.228.171
-  servername: bpB005.paGeS.DEv
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: cc3a15eb-0a63-486c-8e12-c7be717ebcd4
-  ws-opts:
-    headers:
-      Host: bpB005.paGeS.DEv
-    path: /1bd7yey9071nu9bu/mtuyljy3ljiznc40oq==?ed=2560
-- name: 12|US_speednode_0051
-  network: ws
-  port: 443
-  server: 192.0.54.6
-  servername: sb-1u6.pageS.Dev
-  tls: true
-  type: vless
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: sb-1u6.pageS.Dev
-    path: /o56edk55jth9andd/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0104
-  network: ws
-  port: 2083
-  server: 199.34.228.162
-  servername: SB-1U6.PAgeS.dEv
-  tls: true
-  type: vless
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: SB-1U6.PAgeS.dEv
-    path: /urenftuu3z1kqryb/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0110
-  network: ws
-  port: 2053
-  server: 199.34.228.162
-  servername: SB-1U6.PAgEs.dev
-  tls: true
-  type: vless
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: SB-1U6.PAgEs.dev
-    path: /fltcxoo6grqvat6v/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0154
-  network: ws
-  port: 443
-  server: 209.208.227.218
-  servername: sb-1u6.pageS.Dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: sb-1u6.pageS.Dev
-    path: /o56edk55jth9andd/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0160
-  network: ws
-  port: 8443
-  server: 199.34.228.164
-  servername: bPb005.paGes.DEV
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: cc3a15eb-0a63-486c-8e12-c7be717ebcd4
-  ws-opts:
-    headers:
-      Host: bPb005.paGes.DEV
-    path: /fxhhv799mihz1xxp/mtuyljy3ljiznc40oq==?ed=2560
-- name: 12|US_speednode_0114
-  network: ws
-  port: 443
-  server: 199.34.228.67
-  servername: sb-1u6.pageS.Dev
-  tls: true
-  type: vless
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: sb-1u6.pageS.Dev
-    path: /o56edk55jth9andd/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0111
-  network: ws
-  port: 8443
-  server: 209.94.90.200
-  servername: sB-1U6.PAgeS.deV
-  tls: true
-  type: vless
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: sB-1U6.PAgeS.deV
-    path: /bdbeqy5r01xte4fl/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0150
-  network: ws
-  port: 8443
-  server: 199.34.228.71
-  servername: bPb005.paGes.DEV
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: cc3a15eb-0a63-486c-8e12-c7be717ebcd4
-  ws-opts:
-    headers:
-      Host: bPb005.paGes.DEV
-    path: /fxhhv799mihz1xxp/mtuyljy3ljiznc40oq==?ed=2560
 - alpn:
   - h2
   - http/1.1
-  name: 12|US_speednode_0059
+  name: 12|US_speednode_0048
   network: ws
   port: 443
   server: 199.232.5.101
@@ -935,1033 +680,30 @@ proxies:
     headers:
       Host: mefa.ir
     path: /H?ed=2560
-- name: 12|US_speednode_0203
+- name: 12|US_speednode_0054
   network: ws
-  port: 2087
-  server: 205.233.181.184
-  servername: Sb-1u6.paGEs.dEv
-  skip-cert-verify: true
-  tls: true
+  port: 80
+  server: 199.232.37.15
+  skip-cert-verify: false
   type: vless
   udp: true
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   ws-opts:
     headers:
-      Host: Sb-1u6.paGEs.dEv
-    path: /pc0cypuups4meoks/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0168
+      Host: sara193.ir
+    path: /BCXzvAcvSB7JzMWj?ed=2560
+- name: 12|US_speednode_0050
   network: ws
-  port: 8443
-  server: 208.86.168.74
-  servername: sB-1U6.PAgeS.deV
-  skip-cert-verify: true
-  tls: true
+  port: 8880
+  server: 104.19.209.229
   type: vless
   udp: true
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
+  uuid: f0d584bc-342f-4443-ba24-79e4d0e504b1
   ws-opts:
     headers:
-      Host: sB-1U6.PAgeS.deV
-    path: /bdbeqy5r01xte4fl/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0178
-  network: ws
-  port: 8443
-  server: 199.34.228.161
-  servername: bPb005.paGes.DEV
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: cc3a15eb-0a63-486c-8e12-c7be717ebcd4
-  ws-opts:
-    headers:
-      Host: bPb005.paGes.DEV
-    path: /fxhhv799mihz1xxp/mtuyljy3ljiznc40oq==?ed=2560
-- name: 12|US_speednode_0063
-  network: ws
-  port: 8443
-  server: 199.34.228.181
-  servername: bPb005.paGes.DEV
-  tls: true
-  type: vless
-  uuid: cc3a15eb-0a63-486c-8e12-c7be717ebcd4
-  ws-opts:
-    headers:
-      Host: bPb005.paGes.DEV
-    path: /fxhhv799mihz1xxp/mtuyljy3ljiznc40oq==?ed=2560
-- name: 12|US_speednode_0146
-  network: ws
-  port: 2053
-  server: 205.233.181.199
-  servername: SB-1U6.PAgEs.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: SB-1U6.PAgEs.dev
-    path: /fltcxoo6grqvat6v/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0202
-  network: ws
-  port: 2083
-  server: 199.34.228.65
-  servername: SB-1U6.PAgeS.dEv
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: SB-1U6.PAgeS.dEv
-    path: /urenftuu3z1kqryb/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0133
-  network: ws
-  port: 443
-  server: 199.34.228.173
-  servername: bpB005.paGeS.DEv
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: cc3a15eb-0a63-486c-8e12-c7be717ebcd4
-  ws-opts:
-    headers:
-      Host: bpB005.paGeS.DEv
-    path: /1bd7yey9071nu9bu/mtuyljy3ljiznc40oq==?ed=2560
-- name: 12|US_speednode_0184
-  network: ws
-  port: 2087
-  server: 192.0.54.6
-  servername: Sb-1u6.paGEs.dEv
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: Sb-1u6.paGEs.dEv
-    path: /pc0cypuups4meoks/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0144
-  network: ws
-  port: 443
-  server: 199.34.228.182
-  servername: bpB005.paGeS.DEv
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: cc3a15eb-0a63-486c-8e12-c7be717ebcd4
-  ws-opts:
-    headers:
-      Host: bpB005.paGeS.DEv
-    path: /1bd7yey9071nu9bu/mtuyljy3ljiznc40oq==?ed=2560
-- name: 12|US_speednode_0149
-  network: ws
-  port: 443
-  server: 199.34.228.161
-  servername: sb-1u6.pageS.Dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: sb-1u6.pageS.Dev
-    path: /o56edk55jth9andd/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0070
-  network: ws
-  port: 8443
-  server: 199.34.228.170
-  servername: bPb005.paGes.DEV
-  tls: true
-  type: vless
-  uuid: cc3a15eb-0a63-486c-8e12-c7be717ebcd4
-  ws-opts:
-    headers:
-      Host: bPb005.paGes.DEV
-    path: /fxhhv799mihz1xxp/mtuyljy3ljiznc40oq==?ed=2560
-- name: 12|US_speednode_0147
-  network: ws
-  port: 2096
-  server: 192.0.54.6
-  servername: Sb-1U6.paGES.deV
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: Sb-1U6.paGES.deV
-    path: /s6rb9yyj3qaak606/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0177
-  network: ws
-  port: 2053
-  server: 45.194.53.81
-  servername: SB-1U6.PAgEs.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: SB-1U6.PAgEs.dev
-    path: /fltcxoo6grqvat6v/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0175
-  network: ws
-  port: 2083
-  server: 209.208.227.218
-  servername: SB-1U6.PAgeS.dEv
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: SB-1U6.PAgeS.dEv
-    path: /urenftuu3z1kqryb/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0074
-  network: ws
-  port: 443
-  server: 199.34.228.167
-  servername: bpB005.paGeS.DEv
-  tls: true
-  type: vless
-  uuid: cc3a15eb-0a63-486c-8e12-c7be717ebcd4
-  ws-opts:
-    headers:
-      Host: bpB005.paGeS.DEv
-    path: /1bd7yey9071nu9bu/mtuyljy3ljiznc40oq==?ed=2560
-- name: 12|US_speednode_0075
-  network: ws
-  port: 443
-  server: 199.34.228.162
-  servername: sB-1u6.PagEs.dEv
-  tls: true
-  type: vless
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: sB-1u6.PagEs.dEv
-    path: /hnzodogqct9yjjex/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0136
-  network: ws
-  port: 443
-  server: 199.34.228.170
-  servername: bpB005.paGeS.DEv
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: cc3a15eb-0a63-486c-8e12-c7be717ebcd4
-  ws-opts:
-    headers:
-      Host: bpB005.paGeS.DEv
-    path: /1bd7yey9071nu9bu/mtuyljy3ljiznc40oq==?ed=2560
-- name: 12|US_speednode_0140
-  network: ws
-  port: 8443
-  server: 199.34.228.135
-  servername: bPb005.paGes.DEV
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: cc3a15eb-0a63-486c-8e12-c7be717ebcd4
-  ws-opts:
-    headers:
-      Host: bPb005.paGes.DEV
-    path: /fxhhv799mihz1xxp/mtuyljy3ljiznc40oq==?ed=2560
-- name: 12|US_speednode_0078
-  network: ws
-  port: 8443
-  server: 199.34.228.167
-  servername: bPb005.paGes.DEV
-  tls: true
-  type: vless
-  uuid: cc3a15eb-0a63-486c-8e12-c7be717ebcd4
-  ws-opts:
-    headers:
-      Host: bPb005.paGes.DEV
-    path: /fxhhv799mihz1xxp/mtuyljy3ljiznc40oq==?ed=2560
-- name: 12|US_speednode_0139
-  network: ws
-  port: 2096
-  server: 199.34.228.182
-  servername: Sb-1U6.paGES.deV
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: Sb-1U6.paGES.deV
-    path: /s6rb9yyj3qaak606/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0169
-  network: ws
-  port: 2083
-  server: 199.34.228.67
-  servername: SB-1U6.PAgeS.dEv
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: SB-1U6.PAgeS.dEv
-    path: /urenftuu3z1kqryb/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0164
-  network: ws
-  port: 2083
-  server: 199.34.228.182
-  servername: SB-1U6.PAgeS.dEv
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: SB-1U6.PAgeS.dEv
-    path: /urenftuu3z1kqryb/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0082
-  network: ws
-  port: 443
-  server: 199.34.228.135
-  servername: bpB005.paGeS.DEv
-  tls: true
-  type: vless
-  uuid: cc3a15eb-0a63-486c-8e12-c7be717ebcd4
-  ws-opts:
-    headers:
-      Host: bpB005.paGeS.DEv
-    path: /1bd7yey9071nu9bu/mtuyljy3ljiznc40oq==?ed=2560
-- name: 12|US_speednode_0195
-  network: ws
-  port: 2083
-  server: 199.34.228.177
-  servername: SB-1U6.PAgeS.dEv
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: SB-1U6.PAgeS.dEv
-    path: /urenftuu3z1kqryb/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0161
-  network: ws
-  port: 2053
-  server: 199.34.228.161
-  servername: SB-1U6.PAgEs.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: SB-1U6.PAgEs.dev
-    path: /fltcxoo6grqvat6v/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0165
-  network: ws
-  port: 2087
-  server: 205.233.181.205
-  servername: Sb-1u6.paGEs.dEv
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: Sb-1u6.paGEs.dEv
-    path: /pc0cypuups4meoks/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0086
-  network: ws
-  port: 8443
-  server: 199.34.228.177
-  servername: bPb005.paGes.DEV
-  tls: true
-  type: vless
-  uuid: cc3a15eb-0a63-486c-8e12-c7be717ebcd4
-  ws-opts:
-    headers:
-      Host: bPb005.paGes.DEV
-    path: /fxhhv799mihz1xxp/mtuyljy3ljiznc40oq==?ed=2560
-- name: 12|US_speednode_0087
-  network: ws
-  port: 2083
-  server: 209.208.227.150
-  servername: SB-1U6.PAgeS.dEv
-  tls: true
-  type: vless
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: SB-1U6.PAgeS.dEv
-    path: /urenftuu3z1kqryb/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0088
-  network: ws
-  port: 443
-  server: 45.194.53.81
-  servername: bpB005.paGeS.DEv
-  tls: true
-  type: vless
-  uuid: cc3a15eb-0a63-486c-8e12-c7be717ebcd4
-  ws-opts:
-    headers:
-      Host: bpB005.paGeS.DEv
-    path: /1bd7yey9071nu9bu/mtuyljy3ljiznc40oq==?ed=2560
-- name: 12|US_speednode_0089
-  network: ws
-  port: 443
-  server: 199.34.228.191
-  servername: bpB005.paGeS.DEv
-  tls: true
-  type: vless
-  uuid: cc3a15eb-0a63-486c-8e12-c7be717ebcd4
-  ws-opts:
-    headers:
-      Host: bpB005.paGeS.DEv
-    path: /1bd7yey9071nu9bu/mtuyljy3ljiznc40oq==?ed=2560
-- name: 12|US_speednode_0141
-  network: ws
-  port: 443
-  server: 199.34.228.168
-  servername: bpB005.paGeS.DEv
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: cc3a15eb-0a63-486c-8e12-c7be717ebcd4
-  ws-opts:
-    headers:
-      Host: bpB005.paGeS.DEv
-    path: /1bd7yey9071nu9bu/mtuyljy3ljiznc40oq==?ed=2560
-- name: 12|US_speednode_0193
-  network: ws
-  port: 2087
-  server: 199.34.228.184
-  servername: Sb-1u6.paGEs.dEv
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: Sb-1u6.paGEs.dEv
-    path: /pc0cypuups4meoks/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0163
-  network: ws
-  port: 2087
-  server: 209.94.90.200
-  servername: Sb-1u6.paGEs.dEv
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: Sb-1u6.paGEs.dEv
-    path: /pc0cypuups4meoks/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0167
-  network: ws
-  port: 2096
-  server: 45.194.53.81
-  servername: Sb-1U6.paGES.deV
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: Sb-1U6.paGES.deV
-    path: /s6rb9yyj3qaak606/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0094
-  network: ws
-  port: 443
-  server: 199.34.228.181
-  servername: bpB005.paGeS.DEv
-  tls: true
-  type: vless
-  uuid: cc3a15eb-0a63-486c-8e12-c7be717ebcd4
-  ws-opts:
-    headers:
-      Host: bpB005.paGeS.DEv
-    path: /1bd7yey9071nu9bu/mtuyljy3ljiznc40oq==?ed=2560
-- name: 12|US_speednode_0143
-  network: ws
-  port: 443
-  server: 209.208.227.150
-  servername: sB-1u6.PagEs.dEv
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: sB-1u6.PagEs.dEv
-    path: /hnzodogqct9yjjex/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0200
-  network: ws
-  port: 2087
-  server: 199.34.228.182
-  servername: Sb-1u6.paGEs.dEv
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: Sb-1u6.paGEs.dEv
-    path: /pc0cypuups4meoks/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0179
-  network: ws
-  port: 2083
-  server: 208.86.168.74
-  servername: SB-1U6.PAgeS.dEv
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: SB-1U6.PAgeS.dEv
-    path: /urenftuu3z1kqryb/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0098
-  network: ws
-  port: 8443
-  server: 199.34.228.147
-  servername: bPb005.paGes.DEV
-  tls: true
-  type: vless
-  uuid: cc3a15eb-0a63-486c-8e12-c7be717ebcd4
-  ws-opts:
-    headers:
-      Host: bPb005.paGes.DEV
-    path: /fxhhv799mihz1xxp/mtuyljy3ljiznc40oq==?ed=2560
-- name: 12|US_speednode_0201
-  network: ws
-  port: 2053
-  server: 199.34.228.182
-  servername: SB-1U6.PAgEs.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: SB-1U6.PAgEs.dev
-    path: /fltcxoo6grqvat6v/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0145
-  network: ws
-  port: 2053
-  server: 209.208.227.61
-  servername: SB-1U6.PAgEs.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: SB-1U6.PAgEs.dev
-    path: /fltcxoo6grqvat6v/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0155
-  network: ws
-  port: 2087
-  server: 199.34.228.71
-  servername: Sb-1u6.paGEs.dEv
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: Sb-1u6.paGEs.dEv
-    path: /pc0cypuups4meoks/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0106
-  network: ws
-  port: 2096
-  server: 199.34.228.186
-  servername: Sb-1U6.paGES.deV
-  tls: true
-  type: vless
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: Sb-1U6.paGES.deV
-    path: /s6rb9yyj3qaak606/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0107
-  network: ws
-  port: 2053
-  server: 199.34.228.186
-  servername: SB-1U6.PAgEs.dev
-  tls: true
-  type: vless
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: SB-1U6.PAgEs.dev
-    path: /fltcxoo6grqvat6v/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0108
-  network: ws
-  port: 443
-  server: 104.21.78.221
-  servername: kir-too-kos-o-koon-maman-arzeshi-begoo-jooooooon.pages.dev
-  tls: true
-  type: vless
-  uuid: 79bf326d-93de-494f-a7a1-f9aaa764f86a
-  ws-opts:
-    headers:
-      Host: kir-too-kos-o-koon-maman-arzeshi-begoo-jooooooon.pages.dev
-    path: /
-- name: 12|US_speednode_0116
-  network: ws
-  port: 443
-  server: 199.34.228.71
-  servername: BPb005.pAgeS.Dev
-  tls: true
-  type: vless
-  uuid: cc3a15eb-0a63-486c-8e12-c7be717ebcd4
-  ws-opts:
-    headers:
-      Host: BPb005.pAgeS.Dev
-    path: /81eqvt6gwdd8gwo8/mtuyljy3ljiznc40oq
-- name: 12|US_speednode_0206
-  network: ws
-  port: 443
-  server: 199.34.228.162
-  servername: BPb005.pAgeS.Dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: cc3a15eb-0a63-486c-8e12-c7be717ebcd4
-  ws-opts:
-    headers:
-      Host: BPb005.pAgeS.Dev
-    path: /81eqvt6gwdd8gwo8/mtuyljy3ljiznc40oq
-- name: 12|US_speednode_0210
-  network: ws
-  port: 443
-  server: 199.34.228.184
-  servername: BPb005.pAgeS.Dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: cc3a15eb-0a63-486c-8e12-c7be717ebcd4
-  ws-opts:
-    headers:
-      Host: BPb005.pAgeS.Dev
-    path: /81eqvt6gwdd8gwo8/mtuyljy3ljiznc40oq
-- name: 12|US_speednode_0183
-  network: ws
-  port: 443
-  server: 107.174.39.112
-  servername: bpB005.paGeS.DEv
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: cc3a15eb-0a63-486c-8e12-c7be717ebcd4
-  ws-opts:
-    headers:
-      Host: bpB005.paGeS.DEv
-    path: /1bd7yey9071nu9bu/mtuyljy3ljiznc40oq==?ed=2560
-- name: 12|US_speednode_0209
-  network: ws
-  port: 443
-  server: 199.34.228.70
-  servername: BPb005.pAgeS.Dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: cc3a15eb-0a63-486c-8e12-c7be717ebcd4
-  ws-opts:
-    headers:
-      Host: BPb005.pAgeS.Dev
-    path: /81eqvt6gwdd8gwo8/mtuyljy3ljiznc40oq
-- name: 12|US_speednode_0127
-  network: ws
-  port: 2053
-  server: 199.34.228.47
-  servername: SB-1U6.PAgEs.dev
-  tls: true
-  type: vless
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: SB-1U6.PAgEs.dev
-    path: /fltcxoo6grqvat6v/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0213
-  network: ws
-  port: 443
-  server: 199.34.228.65
-  servername: BPb005.pAgeS.Dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: cc3a15eb-0a63-486c-8e12-c7be717ebcd4
-  ws-opts:
-    headers:
-      Host: BPb005.pAgeS.Dev
-    path: /81eqvt6gwdd8gwo8/mtuyljy3ljiznc40oq
-- name: 12|US_speednode_0130
-  network: ws
-  port: 443
-  server: 199.34.228.177
-  servername: BPb005.pAgeS.Dev
-  tls: true
-  type: vless
-  uuid: cc3a15eb-0a63-486c-8e12-c7be717ebcd4
-  ws-opts:
-    headers:
-      Host: BPb005.pAgeS.Dev
-    path: /81eqvt6gwdd8gwo8/mtuyljy3ljiznc40oq
-- name: 12|US_speednode_0197
-  network: ws
-  port: 443
-  server: 45.154.3.92
-  servername: bpB005.paGeS.DEv
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: cc3a15eb-0a63-486c-8e12-c7be717ebcd4
-  ws-opts:
-    headers:
-      Host: bpB005.paGeS.DEv
-    path: /1bd7yey9071nu9bu/mtuyljy3ljiznc40oq==?ed=2560
-- name: 12|US_speednode_0134
-  network: ws
-  port: 443
-  server: 199.34.228.147
-  servername: bpB005.paGeS.DEv
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: cc3a15eb-0a63-486c-8e12-c7be717ebcd4
-  ws-opts:
-    headers:
-      Host: bpB005.paGeS.DEv
-    path: /1bd7yey9071nu9bu/mtuyljy3ljiznc40oq==?ed=2560
-- name: 12|US_speednode_0135
-  network: ws
-  port: 2083
-  server: 199.34.228.161
-  servername: SB-1U6.PAgeS.dEv
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: SB-1U6.PAgeS.dEv
-    path: /urenftuu3z1kqryb/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0199
-  network: ws
-  port: 443
-  server: 199.34.228.65
-  servername: bpB005.paGeS.DEv
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: cc3a15eb-0a63-486c-8e12-c7be717ebcd4
-  ws-opts:
-    headers:
-      Host: bpB005.paGeS.DEv
-    path: /1bd7yey9071nu9bu/mtuyljy3ljiznc40oq==?ed=2560
-- name: 12|US_speednode_0138
-  network: ws
-  port: 2083
-  server: 208.86.168.45
-  servername: SB-1U6.PAgeS.dEv
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: SB-1U6.PAgeS.dEv
-    path: /urenftuu3z1kqryb/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0148
-  network: ws
-  port: 2096
-  server: 199.34.228.177
-  servername: Sb-1U6.paGES.deV
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: Sb-1U6.paGES.deV
-    path: /s6rb9yyj3qaak606/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0152
-  network: ws
-  port: 8443
-  server: 199.34.228.182
-  servername: bPb005.paGes.DEV
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: cc3a15eb-0a63-486c-8e12-c7be717ebcd4
-  ws-opts:
-    headers:
-      Host: bPb005.paGes.DEV
-    path: /fxhhv799mihz1xxp/mtuyljy3ljiznc40oq==?ed=2560
-- name: 12|US_speednode_0153
-  network: ws
-  port: 2083
-  server: 208.86.168.178
-  servername: SB-1U6.PAgeS.dEv
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: SB-1U6.PAgeS.dEv
-    path: /urenftuu3z1kqryb/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0156
-  network: ws
-  port: 2087
-  server: 208.86.168.74
-  servername: Sb-1u6.paGEs.dEv
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: Sb-1u6.paGEs.dEv
-    path: /pc0cypuups4meoks/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0157
-  network: ws
-  port: 8443
-  server: 208.86.168.210
-  servername: sB-1U6.PAgeS.deV
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: sB-1U6.PAgeS.deV
-    path: /bdbeqy5r01xte4fl/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0159
-  network: ws
-  port: 8443
-  server: 45.194.53.13
-  servername: sB-1U6.PAgeS.deV
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: sB-1U6.PAgeS.deV
-    path: /bdbeqy5r01xte4fl/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0162
-  network: ws
-  port: 2083
-  server: 199.34.228.164
-  servername: SB-1U6.PAgeS.dEv
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: SB-1U6.PAgeS.dEv
-    path: /urenftuu3z1kqryb/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0166
-  network: ws
-  port: 8443
-  server: 199.34.228.169
-  servername: bPb005.paGes.DEV
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: cc3a15eb-0a63-486c-8e12-c7be717ebcd4
-  ws-opts:
-    headers:
-      Host: bPb005.paGes.DEV
-    path: /fxhhv799mihz1xxp/mtuyljy3ljiznc40oq==?ed=2560
-- name: 12|US_speednode_0170
-  network: ws
-  port: 2053
-  server: 199.34.228.174
-  servername: SB-1U6.PAgEs.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: SB-1U6.PAgEs.dev
-    path: /fltcxoo6grqvat6v/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0171
-  network: ws
-  port: 2083
-  server: 45.194.53.81
-  servername: SB-1U6.PAgeS.dEv
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: SB-1U6.PAgeS.dEv
-    path: /urenftuu3z1kqryb/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0172
-  network: ws
-  port: 2053
-  server: 199.34.228.67
-  servername: SB-1U6.PAgEs.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: SB-1U6.PAgEs.dev
-    path: /fltcxoo6grqvat6v/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0173
-  network: ws
-  port: 2096
-  server: 209.94.90.200
-  servername: Sb-1U6.paGES.deV
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: Sb-1U6.paGES.deV
-    path: /s6rb9yyj3qaak606/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0174
-  network: ws
-  port: 8443
-  server: 209.208.227.218
-  servername: sB-1U6.PAgeS.deV
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: sB-1U6.PAgeS.deV
-    path: /bdbeqy5r01xte4fl/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0176
-  network: ws
-  port: 2087
-  server: 199.34.228.70
-  servername: Sb-1u6.paGEs.dEv
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: Sb-1u6.paGEs.dEv
-    path: /pc0cypuups4meoks/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0180
-  network: ws
-  port: 8443
-  server: 199.34.228.178
-  servername: bPb005.paGes.DEV
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: cc3a15eb-0a63-486c-8e12-c7be717ebcd4
-  ws-opts:
-    headers:
-      Host: bPb005.paGes.DEV
-    path: /fxhhv799mihz1xxp/mtuyljy3ljiznc40oq==?ed=2560
-- name: 12|US_speednode_0190
-  network: ws
-  port: 2087
-  server: 208.86.168.45
-  servername: Sb-1u6.paGEs.dEv
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: Sb-1u6.paGEs.dEv
-    path: /pc0cypuups4meoks/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0196
-  network: ws
-  port: 443
-  server: 66.235.200.146
-  servername: bpB005.paGeS.DEv
-  tls: true
-  type: vless
-  uuid: cc3a15eb-0a63-486c-8e12-c7be717ebcd4
-  ws-opts:
-    headers:
-      Host: bpB005.paGeS.DEv
-    path: /1bd7yey9071nu9bu/mtuyljy3ljiznc40oq==?ed=2560
-- name: 12|US_speednode_0204
-  network: ws
-  port: 8443
-  server: 199.34.228.47
-  servername: sB-1U6.PAgeS.deV
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  ws-opts:
-    headers:
-      Host: sB-1U6.PAgeS.deV
-    path: /bdbeqy5r01xte4fl/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0211
+      Host: late-tooth.granzinhannah.workers.dev
+    path: /?ed=2560
+- name: 12|US_speednode_0051
   network: ws
   port: 443
   server: 172.66.47.66
@@ -1973,30 +715,99 @@ proxies:
     headers:
       Host: pardazeshvpn-tg86.pages.dev
     path: /telegram:@pardazeshvpn-telegram:@pardazeshvpn-telegram:@pardazeshvpn-telegram:@pardazeshvpn-telegram:@pardazeshvpn-telegram:@pardazeshvpn-telegram:@pardazeshvpn-telegram:@pardazeshvpn-telegram:@pardazeshvpn-telegram:@pardazeshvpn-telegram:@pardazeshvpn?ed=2048
-- name: 12|US_speednode_0214
+- name: 12|US_speednode_0052
   network: ws
-  port: 2053
-  server: 205.233.181.174
-  servername: SB-1U6.PAgEs.dev
-  tls: true
+  port: 80
+  server: 167.82.30.71
+  skip-cert-verify: false
   type: vless
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
+  udp: true
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   ws-opts:
     headers:
-      Host: SB-1U6.PAgEs.dev
-    path: /fltcxoo6grqvat6v/mtu4ljewms4ymdmumti3?ed=2560
-- name: 12|US_speednode_0215
+      Host: samane.ir
+    path: /4u7lAS4nPLtz0xPz?ed=2560
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: 12|US_speednode_0056
   network: ws
-  port: 2096
-  server: 205.233.181.174
-  servername: Sb-1U6.paGES.deV
+  port: 443
+  server: 172.67.73.237
+  servername: yelaor39jfaan.thelastronin.cloudns.org
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
+  udp: true
+  uuid: 263f4c03-183a-4062-98c7-d42d4b2de9d7
   ws-opts:
     headers:
-      Host: Sb-1U6.paGES.deV
-    path: /s6rb9yyj3qaak606/mtu4ljewms4ymdmumti3?ed=2560
+      Host: yelan.thelastronin.cloudns.org
+    path: /VLESS/jp-full.privateip.net
+- name: 12|US_speednode_0058
+  network: ws
+  port: 80
+  server: www.speedtest.net
+  skip-cert-verify: false
+  type: vless
+  udp: true
+  uuid: 7d2dfb7a-2ecc-4448-bcbe-245a2092fe85
+  ws-opts:
+    headers:
+      Host: www.speedtest.net.nl1.70.18.432.20.20.20.20.ir.xn--g28h.dns-dynamic.net.
+    path: /Telegram-Xv2ry2?ed
+- alpn:
+  - h2
+  - http/1.1
+  name: 12|US_speednode_0063
+  network: ws
+  port: 443
+  server: www.speedtest.net
+  servername: CCOnfIGPlUS.SPDTest.ggFf.NET
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: cconfigplus.spdtest.ggff.net
+    path: /W5V92vB3BQrJH2yY?ed=2560
+- alpn:
+  - h2
+  - http/1.1
+  name: 12|US_speednode_0064
+  network: ws
+  port: 443
+  server: 104.17.234.128
+  servername: join.bede.VPNCUSTOMIZE.www.speedtest.net.Abrha.co.za
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1ad95b6a-8dca-4773-8947-eedf49fdc4c1
+  ws-opts:
+    headers:
+      Host: join.bede.vpncustomize.www.speedtest.net.Abrha.co.za
+    path: /Telegram,VPNCUSTOMIZE?ed=8080
+- name: 12|US_speednode_0068
+  network: ws
+  password: auto
+  port: 443
+  server: 159.246.55.132
+  skip-cert-verify: true
+  sni: vip.123789.pp.ua
+  type: trojan
+  ws-opts:
+    headers:
+      Host: vip.123789.pp.ua
+    path: /
+- name: 12|VN_speednode_0073
+  password: 94d219c9-1afc-4d42-b090-8b3794764380
+  port: 443
+  server: 36.50.134.29
+  skip-cert-verify: true
+  type: trojan
 - alterId: 0
   cipher: auto
   name: '13|d*********g.com_2 #3'
