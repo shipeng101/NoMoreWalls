@@ -1,5 +1,5 @@
 proxies:
-- name: 12|US_speednode_0068
+- name: 12|US_speednode_0043
   network: ws
   password: auto
   port: 443

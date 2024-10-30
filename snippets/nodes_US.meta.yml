@@ -1,9 +1,32 @@
 proxies:
+- name: 12|US_speednode_0031
+  network: ws
+  port: 8880
+  server: 104.19.209.229
+  type: vless
+  udp: true
+  uuid: f0d584bc-342f-4443-ba24-79e4d0e504b1
+  ws-opts:
+    headers:
+      Host: late-tooth.granzinhannah.workers.dev
+    path: /?ed=2560
+- name: 12|US_speednode_0036
+  network: ws
+  port: 80
+  server: 199.232.37.15
+  skip-cert-verify: false
+  type: vless
+  udp: true
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: sara193.ir
+    path: /BCXzvAcvSB7JzMWj?ed=2560
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 12|US_speednode_0048
+  name: 12|US_speednode_0035
   network: ws
   port: 443
   server: 199.232.5.101
@@ -17,87 +40,11 @@ proxies:
     headers:
       Host: mefa.ir
     path: /H?ed=2560
-- name: 12|US_speednode_0054
-  network: ws
-  port: 80
-  server: 199.232.37.15
-  skip-cert-verify: false
-  type: vless
-  udp: true
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  ws-opts:
-    headers:
-      Host: sara193.ir
-    path: /BCXzvAcvSB7JzMWj?ed=2560
-- name: 12|US_speednode_0050
-  network: ws
-  port: 8880
-  server: 104.19.209.229
-  type: vless
-  udp: true
-  uuid: f0d584bc-342f-4443-ba24-79e4d0e504b1
-  ws-opts:
-    headers:
-      Host: late-tooth.granzinhannah.workers.dev
-    path: /?ed=2560
-- name: 12|US_speednode_0051
-  network: ws
-  port: 443
-  server: 172.66.47.66
-  servername: pardazeshvpn-tg86.pages.dev
-  tls: true
-  type: vless
-  uuid: bb27a0c6-aa5e-4105-a943-b87239507057
-  ws-opts:
-    headers:
-      Host: pardazeshvpn-tg86.pages.dev
-    path: /telegram:@pardazeshvpn-telegram:@pardazeshvpn-telegram:@pardazeshvpn-telegram:@pardazeshvpn-telegram:@pardazeshvpn-telegram:@pardazeshvpn-telegram:@pardazeshvpn-telegram:@pardazeshvpn-telegram:@pardazeshvpn-telegram:@pardazeshvpn-telegram:@pardazeshvpn?ed=2048
-- name: 12|US_speednode_0052
-  network: ws
-  port: 80
-  server: 167.82.30.71
-  skip-cert-verify: false
-  type: vless
-  udp: true
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  ws-opts:
-    headers:
-      Host: samane.ir
-    path: /4u7lAS4nPLtz0xPz?ed=2560
-- alpn:
-  - http/1.1
-  client-fingerprint: random
-  name: 12|US_speednode_0056
-  network: ws
-  port: 443
-  server: 172.67.73.237
-  servername: yelaor39jfaan.thelastronin.cloudns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 263f4c03-183a-4062-98c7-d42d4b2de9d7
-  ws-opts:
-    headers:
-      Host: yelan.thelastronin.cloudns.org
-    path: /VLESS/jp-full.privateip.net
-- name: 12|US_speednode_0058
-  network: ws
-  port: 80
-  server: www.speedtest.net
-  skip-cert-verify: false
-  type: vless
-  udp: true
-  uuid: 7d2dfb7a-2ecc-4448-bcbe-245a2092fe85
-  ws-opts:
-    headers:
-      Host: www.speedtest.net.nl1.70.18.432.20.20.20.20.ir.xn--g28h.dns-dynamic.net.
-    path: /Telegram-Xv2ry2?ed
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 12|US_speednode_0063
+  name: 12|US_speednode_0037
   network: ws
   port: 443
   server: www.speedtest.net
@@ -111,25 +58,19 @@ proxies:
     headers:
       Host: cconfigplus.spdtest.ggff.net
     path: /W5V92vB3BQrJH2yY?ed=2560
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 12|US_speednode_0064
+- name: 12|US_speednode_0042
   network: ws
-  port: 443
-  server: 104.17.234.128
-  servername: join.bede.VPNCUSTOMIZE.www.speedtest.net.Abrha.co.za
+  port: 80
+  server: 167.82.30.71
   skip-cert-verify: false
-  tls: true
   type: vless
   udp: true
-  uuid: 1ad95b6a-8dca-4773-8947-eedf49fdc4c1
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   ws-opts:
     headers:
-      Host: join.bede.vpncustomize.www.speedtest.net.Abrha.co.za
-    path: /Telegram,VPNCUSTOMIZE?ed=8080
-- name: 12|US_speednode_0068
+      Host: samane.ir
+    path: /4u7lAS4nPLtz0xPz?ed=2560
+- name: 12|US_speednode_0043
   network: ws
   password: auto
   port: 443
@@ -140,4 +81,34 @@ proxies:
   ws-opts:
     headers:
       Host: vip.123789.pp.ua
+    path: /
+- client-fingerprint: chrome
+  name: 12|US_speednode_0048
+  network: ws
+  port: 443
+  server: hajlab.ucdavis.edu
+  servername: hajlab.ucdavis.edu
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e8aad0e-5ba2-4005-b5fb-03521dc00345
+  ws-opts:
+    headers:
+      Host: wWw.SpEeDtEsT.NeT.ZuLa.aIr.IkCoSaLeS.iR.D662599.v03.TzZLiMitTNeW.NeT
+    path: /
+- client-fingerprint: chrome
+  name: 12|US_speednode_0049
+  network: ws
+  port: 443
+  server: hajlab.ucdavis.edu
+  servername: hajlab.ucdavis.edu
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e8aad0e-5ba2-4005-b5fb-03521dc00345
+  ws-opts:
+    headers:
+      Host: wWw.SpEeDtEsT.NeT.ZuLa.aIr.IkCoSaLeS.iR.D662599.v10.TzZLiMitTNeW.NeT
     path: /
