@@ -58,6 +58,14 @@ proxies:
     headers:
       Host: cconfigplus.spdtest.ggff.net
     path: /W5V92vB3BQrJH2yY?ed=2560
+- name: 12|US_speednode_0040
+  password: wkmY1R4EcP
+  port: 443
+  server: 216.128.147.13
+  skip-cert-verify: true
+  sni: z-v2-003274.kailib.com
+  type: trojan
+  udp: false
 - name: 12|US_speednode_0042
   network: ws
   port: 80
