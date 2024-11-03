@@ -12,20 +12,20 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   name: 10|🇰🇷 韩国2|@ripaojiedian
-  port: 26465
-  server: 45.94.68.186
+  port: 22330
+  server: 45.141.136.221
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: ca233c52-9c01-412b-961f-cb71a07d298d
+  uuid: 2f64c9d5-e349-4579-9d01-b8eab4340230
 - alterId: 0
   cipher: auto
   name: 11|韩国2|@ripaojiedian
   network: tcp
-  port: '26465'
-  server: 45.94.68.186
+  port: '22330'
+  server: 45.141.136.221
   servername: ''
   tls: false
   type: vmess
-  uuid: ca233c52-9c01-412b-961f-cb71a07d298d
+  uuid: 2f64c9d5-e349-4579-9d01-b8eab4340230
