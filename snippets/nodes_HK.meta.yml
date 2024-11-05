@@ -2,18 +2,7 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 10|🇭🇰 香港2|@ripaojiedian
-  port: 34565
-  server: 120.232.153.71
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10|🇭🇰 香港3|@ripaojiedian
+  name: 10|🇭🇰 香港|@ripaojiedian
   port: 48009
   server: 183.236.51.23
   skip-cert-verify: false
@@ -24,8 +13,8 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 10|🇭🇰 香港4|@ripaojiedian
-  port: 50037
+  name: 10|🇭🇰 香港2|@ripaojiedian
+  port: 56601
   server: 183.236.51.23
   skip-cert-verify: false
   tfo: false
@@ -43,41 +32,18 @@ proxies:
   tls: false
   type: vmess
   uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10|🇭🇰 香港7|@ripaojiedian
-  port: 44826
-  server: ambxxid02hk.dorabbb.top
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 263aba2e-52ac-494a-b25f-32b8d230e61d
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10|🇭🇰 香港8|@ripaojiedian
-  port: 38848
-  server: 38.147.188.250
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 69e0e169-0702-4454-9d88-259d08e57926
-- alterId: 64
-  cipher: auto
-  name: 11|香港2|@ripaojiedian
+- client-fingerprint: chrome
+  name: 10,11|香港7|@ripaojiedian
   network: tcp
-  port: '34565'
-  server: 120.232.153.71
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  password: de45945e-65ea-4d13-b29d-1835a4281023
+  port: 35002
+  server: ak2.firewoodzz.com
+  skip-cert-verify: false
+  sni: updates.sub-nthu.com
+  type: trojan
 - alterId: 64
   cipher: auto
-  name: 11|香港3|@ripaojiedian
+  name: 11|香港|@ripaojiedian
   network: tcp
   port: '48009'
   server: 183.236.51.23
@@ -87,9 +53,9 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 11|香港4|@ripaojiedian
+  name: 11|香港2|@ripaojiedian
   network: tcp
-  port: '50037'
+  port: '56601'
   server: 183.236.51.23
   servername: ''
   tls: false
@@ -105,26 +71,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
-- alterId: 0
-  cipher: auto
-  name: 11|香港7|@ripaojiedian
-  network: tcp
-  port: '44826'
-  server: ambxxid02hk.dorabbb.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 263aba2e-52ac-494a-b25f-32b8d230e61d
-- alterId: 0
-  cipher: auto
-  name: 11|香港8|@ripaojiedian
-  network: tcp
-  port: '38848'
-  server: 38.147.188.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 69e0e169-0702-4454-9d88-259d08e57926
 - client-fingerprint: random
   name: 12|HK_speednode_0032
   network: ws

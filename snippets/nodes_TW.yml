@@ -1,1 +1,10 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  name: 10,11|台湾2|@ripaojiedian
+  network: tcp
+  password: de45945e-65ea-4d13-b29d-1835a4281023
+  port: 35005
+  server: ak2.firewoodzz.com
+  skip-cert-verify: false
+  sni: updates.sub-nthu.com
+  type: trojan
