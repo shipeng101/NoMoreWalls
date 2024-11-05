@@ -1,8 +1,1 @@
-proxies:
-- name: 12|KR_speednode_0034
-  password: xjN4xcuPGg
-  port: 45101
-  server: a.522226.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
+proxies: []
