@@ -20,7 +20,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 12|US_speednode_0145
+- name: 12|US_speednode_0059
   network: ws
   password: bpb-trojan
   port: 443
@@ -32,7 +32,7 @@ proxies:
     headers:
       Host: mindrOOm-5cz.pAgEs.dEV
     path: /trC8BM8bTsAF0AnLYL
-- name: 12|US_speednode_0153
+- name: 12|US_speednode_0062
   network: ws
   password: bpb-trojan
   port: 443
@@ -44,7 +44,7 @@ proxies:
     headers:
       Host: mindrOOm-5cz.pAgEs.dEV
     path: /trC8BM8bTsAF0AnLYL
-- name: 12|US_speednode_0211
+- name: 12|US_speednode_0072
   network: ws
   password: auto
   port: 27061
@@ -56,7 +56,7 @@ proxies:
     headers:
       Host: trojanfree-76s.pages.dev
     path: /%2F
-- name: 12|US_speednode_0221
+- name: 12|US_speednode_0076
   network: ws
   password: bpb-trojan
   port: 443
