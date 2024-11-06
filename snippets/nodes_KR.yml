@@ -1,1 +1,22 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇰🇷 韩国2|@ripaojiedian
+  port: 47369
+  server: 45.94.68.135
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 99fd4269-a32b-4b6b-99e3-81dee59271b1
+- alterId: 0
+  cipher: auto
+  name: 11|韩国2|@ripaojiedian
+  network: tcp
+  port: '47369'
+  server: 45.94.68.135
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 99fd4269-a32b-4b6b-99e3-81dee59271b1

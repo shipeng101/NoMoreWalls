@@ -24,6 +24,17 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
+  name: 10|🇭🇰 香港3|@ripaojiedian
+  port: 17806
+  server: 38.147.189.182
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 9f3d1af9-855a-4ba1-861a-4588240500a7
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
   name: 10|🇭🇰 香港5|@ripaojiedian
   port: 2902
   server: 143.92.42.65
@@ -32,15 +43,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
-- client-fingerprint: chrome
-  name: 10,11|香港7|@ripaojiedian
-  network: tcp
-  password: de45945e-65ea-4d13-b29d-1835a4281023
-  port: 35002
-  server: ak2.firewoodzz.com
-  skip-cert-verify: false
-  sni: updates.sub-nthu.com
-  type: trojan
 - alterId: 64
   cipher: auto
   name: 11|香港|@ripaojiedian
@@ -61,6 +63,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11|香港3|@ripaojiedian
+  network: tcp
+  port: '17806'
+  server: 38.147.189.182
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9f3d1af9-855a-4ba1-861a-4588240500a7
 - alterId: 0
   cipher: auto
   name: 11|香港5|@ripaojiedian
