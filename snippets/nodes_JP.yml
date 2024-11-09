@@ -1,32 +1,25 @@
 proxies:
-- client-fingerprint: chrome
-  name: 10|🇯🇵 日本2|@ripaojiedian
-  password: '!!str 3669023833404481536'
-  port: 443
-  server: fleet-gopher.iguana938.mom
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇯🇵 日本|@ripaojiedian
+  port: 15836
+  server: 45.159.50.76
   skip-cert-verify: false
-  sni: fleet-gopher.iguana938.mom
-  type: trojan
-- client-fingerprint: chrome
-  name: 10|🇯🇵 日本4|@ripaojiedian
-  password: '!!str 3669023833404481536'
-  port: 443
-  server: amazing-salmon.iguana938.mom
-  skip-cert-verify: false
-  sni: amazing-salmon.iguana938.mom
-  type: trojan
-- name: 11|日本2|@ripaojiedian
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e1218e34-80a3-4a65-8524-88ca51e79191
+- alterId: 0
+  cipher: auto
+  name: 11|日本|@ripaojiedian
   network: tcp
-  password: '!!str 3669023833404481536'
-  port: 443
-  server: fleet-gopher.iguana938.mom
-  type: trojan
-- name: 11|日本4|@ripaojiedian
-  network: tcp
-  password: '!!str 3669023833404481536'
-  port: 443
-  server: amazing-salmon.iguana938.mom
-  type: trojan
+  port: '15836'
+  server: 45.159.50.76
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e1218e34-80a3-4a65-8524-88ca51e79191
 - name: 12|JP_speednode_0004
   password: 8e4248f7-aae5-3a38-b99d-88bf1cd37e0d
   port: 443
