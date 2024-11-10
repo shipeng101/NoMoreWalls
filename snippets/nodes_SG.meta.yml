@@ -23,7 +23,6 @@ proxies:
   password: '!!str 3690911436885991424'
   port: 443
   server: flexible-griffon.iguana938.mom
-  skip-cert-verify: true
   type: trojan
 - alterId: 64
   cipher: auto
