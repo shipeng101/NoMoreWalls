@@ -1,5 +1,14 @@
 proxies:
-- name: 12|JP_speednode_0025
+- client-fingerprint: chrome
+  name: 10,11|日本3|@ripaojiedian
+  network: tcp
+  password: d90e5504-a42b-44c1-8289-3543471bf55a
+  port: 8443
+  server: n3.jp4589871.top
+  skip-cert-verify: false
+  sni: n3.jp4589871.top
+  type: trojan
+- name: 12|JP_speednode_0023
   network: ws
   port: 443
   server: zmaoz.faculty.ucdavis.edu

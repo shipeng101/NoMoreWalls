@@ -1,1 +1,10 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  name: 10,11|日本3|@ripaojiedian
+  network: tcp
+  password: d90e5504-a42b-44c1-8289-3543471bf55a
+  port: 8443
+  server: n3.jp4589871.top
+  skip-cert-verify: false
+  sni: n3.jp4589871.top
+  type: trojan
