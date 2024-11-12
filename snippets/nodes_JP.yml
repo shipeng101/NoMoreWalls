@@ -16,3 +16,10 @@ proxies:
   skip-cert-verify: false
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
+- name: 11,12|JP_speednode_0021
+  network: tcp
+  password: an70aOaIjcCF43gOlSB6eKER53Z38DYDx8l9RCSCpYTwXS3pueyAqyFZx2zDNA
+  port: 443
+  server: plowman.meijireform.com
+  skip-cert-verify: false
+  type: trojan
