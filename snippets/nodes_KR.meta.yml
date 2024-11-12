@@ -1,4 +1,25 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇰🇷 韩国2|@ripaojiedian
+  port: 50111
+  server: 45.94.68.252
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 2b0c2a29-a5f6-4382-b187-a5a424b50e4b
+- alterId: 0
+  cipher: auto
+  name: 11|韩国2|@ripaojiedian
+  network: tcp
+  port: '50111'
+  server: 45.94.68.252
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2b0c2a29-a5f6-4382-b187-a5a424b50e4b
 - name: 12|KR_speednode_0024
   network: ws
   port: 33890

@@ -1,12 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  name: 10|🇸🇬 新加坡|@ripaojiedian
-  password: '!!str 3690911436885991424'
-  port: 443
-  server: master-boxer.pig299.lat
-  skip-cert-verify: false
-  sni: master-boxer.pig299.lat
-  type: trojan
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -26,13 +18,6 @@ proxies:
   server: n2.sps465ad81.top
   skip-cert-verify: false
   sni: n2.sps465ad81.top
-  type: trojan
-- name: 11|新加坡|@ripaojiedian
-  network: tcp
-  password: '!!str 3690911436885991424'
-  port: 443
-  server: master-boxer.pig299.lat
-  skip-cert-verify: true
   type: trojan
 - alterId: 64
   cipher: auto

@@ -1,12 +1,26 @@
 proxies:
 - client-fingerprint: chrome
-  name: 10,11|日本3|@ripaojiedian
-  network: tcp
-  password: d90e5504-a42b-44c1-8289-3543471bf55a
-  port: 8443
-  server: n3.jp4589871.top
+  name: 10|🇯🇵 日本3|@ripaojiedian
+  password: an70aOaIjcCF43gOlSB6eKER53Z38DYDx8l9RCSCpYTwXS3pueyAqyFZx2zDNA
+  port: 443
+  server: plowman.meijireform.com
   skip-cert-verify: false
-  sni: n3.jp4589871.top
+  sni: plowman.meijireform.com
+  type: trojan
+- client-fingerprint: chrome
+  name: 10,11|日本4|@ripaojiedian
+  network: tcp
+  password: f181b265-5fd4-456e-ad2d-c9b0446e0d51
+  port: 27001
+  server: aafrtpfxr.jpl01i9zjfegelp.5xfsur8v62.gosdk.xyz
+  skip-cert-verify: false
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+- name: 11|日本3|@ripaojiedian
+  network: tcp
+  password: an70aOaIjcCF43gOlSB6eKER53Z38DYDx8l9RCSCpYTwXS3pueyAqyFZx2zDNA
+  port: 443
+  server: plowman.meijireform.com
   type: trojan
 - name: 12|JP_speednode_0023
   network: ws
