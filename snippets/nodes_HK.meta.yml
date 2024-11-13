@@ -84,7 +84,7 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - client-fingerprint: chrome
-  name: 12|HK_speednode_0018
+  name: 12|HK_speednode_0015
   network: ws
   port: 23555
   server: 219.77.65.212
@@ -99,7 +99,7 @@ proxies:
       Host: juzi8186.5112233.xyz
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 12|HK_speednode_0019
+  name: 12|HK_speednode_0016
   network: ws
   port: 23555
   server: 219.77.65.212
