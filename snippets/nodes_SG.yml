@@ -10,15 +10,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- client-fingerprint: chrome
-  name: 10,11|新加坡4|@ripaojiedian
-  network: tcp
-  password: d90e5504-a42b-44c1-8289-3543471bf55a
-  port: 8009
-  server: n2.sps465ad81.top
-  skip-cert-verify: false
-  sni: n2.sps465ad81.top
-  type: trojan
 - alterId: 64
   cipher: auto
   name: 11|新加坡2|@ripaojiedian
