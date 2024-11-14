@@ -102,6 +102,14 @@ proxies:
     headers:
       Host: v2ra1.ecrgpk.workers.dev
     path: /@VPNHTTPInjectorfree
+- name: 12|US_speednode_0081
+  password: 2bec0faf-7a2e-36ea-a603-19303a5ec6d3
+  port: 443
+  server: 54.187.91.40
+  skip-cert-verify: true
+  sni: fastly.cdn.steampipe.steamcontent.com
+  type: trojan
+  udp: true
 - alpn:
   - h3
   - h2
