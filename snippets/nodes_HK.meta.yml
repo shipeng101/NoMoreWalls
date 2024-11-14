@@ -24,6 +24,17 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
+  name: 10|🇭🇰 香港6|@ripaojiedian
+  port: 58002
+  server: 120.232.153.27
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
   name: 10|🇭🇰 香港X|@ripaojiedian
   port: 51704
   server: 183.236.51.23
@@ -54,6 +65,16 @@ proxies:
   uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
 - alterId: 64
   cipher: auto
+  name: 11|香港6|@ripaojiedian
+  network: tcp
+  port: '58002'
+  server: 120.232.153.27
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
   name: 11|香港X|@ripaojiedian
   network: tcp
   port: '51704'
@@ -63,22 +84,7 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - client-fingerprint: chrome
-  name: 12|HK_speednode_0015
-  network: ws
-  port: 23555
-  server: 219.77.65.212
-  servername: juzi8186.5112233.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
-  ws-opts:
-    headers:
-      Host: juzi8186.5112233.xyz
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 12|HK_speednode_0016
+  name: 12|HK_speednode_0031
   network: ws
   port: 23555
   server: 219.77.65.212
@@ -92,3 +98,17 @@ proxies:
     headers:
       Host: juzi8186.5112233.xyz
     path: /?ed=2560fp=random
+- client-fingerprint: chrome
+  name: 12|HK_speednode_0032
+  network: ws
+  port: 23555
+  server: 219.77.65.212
+  servername: juzi8186.5112233.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzi8186.5112233.xyz
+    path: /?ed=2560

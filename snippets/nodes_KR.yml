@@ -3,20 +3,20 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   name: 10|🇰🇷 韩国2|@ripaojiedian
-  port: 50111
-  server: 45.94.68.252
+  port: 35448
+  server: 45.94.68.144
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 2b0c2a29-a5f6-4382-b187-a5a424b50e4b
+  uuid: 37a9e3d4-08b2-4a54-92ad-e9dce926657d
 - alterId: 0
   cipher: auto
   name: 11|韩国2|@ripaojiedian
   network: tcp
-  port: '50111'
-  server: 45.94.68.252
+  port: '35448'
+  server: 45.94.68.144
   servername: ''
   tls: false
   type: vmess
-  uuid: 2b0c2a29-a5f6-4382-b187-a5a424b50e4b
+  uuid: 37a9e3d4-08b2-4a54-92ad-e9dce926657d

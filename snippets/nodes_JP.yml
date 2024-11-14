@@ -7,6 +7,23 @@ proxies:
   skip-cert-verify: false
   sni: demise.meijireform.com
   type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10,11|日本4|@ripaojiedian
+  network: ws
+  port: '33202'
+  server: yd2.ainivp.com
+  servername: yd2.ainivp.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 9204afcd-023e-781f-1abc-c12efccd1344
+  ws-opts:
+    headers:
+      Host: yd2.ainivp.com
+    path: /ray
 - name: 11|日本3|@ripaojiedian
   network: tcp
   password: 3FxORlYgZBNwDqxCj43X6el8I3EapZSpeD9S5zCF0A2cy8OSCYADn7au3KaRyT

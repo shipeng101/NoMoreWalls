@@ -3,20 +3,49 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   name: 10|🇰🇷 韩国2|@ripaojiedian
-  port: 50111
-  server: 45.94.68.252
+  port: 35448
+  server: 45.94.68.144
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 2b0c2a29-a5f6-4382-b187-a5a424b50e4b
+  uuid: 37a9e3d4-08b2-4a54-92ad-e9dce926657d
 - alterId: 0
   cipher: auto
   name: 11|韩国2|@ripaojiedian
   network: tcp
-  port: '50111'
-  server: 45.94.68.252
+  port: '35448'
+  server: 45.94.68.144
   servername: ''
   tls: false
   type: vmess
-  uuid: 2b0c2a29-a5f6-4382-b187-a5a424b50e4b
+  uuid: 37a9e3d4-08b2-4a54-92ad-e9dce926657d
+- client-fingerprint: chrome
+  name: 12|KR_speednode_0042
+  network: ws
+  port: 28006
+  server: 220.124.232.109
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 12|KR_speednode_0043
+  network: ws
+  port: 14985
+  server: 61.81.181.169
+  servername: lp.kpcloud.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      Host: lp.kpcloud.eu.org
+    path: /?ed=2560
