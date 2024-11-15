@@ -1,85 +1,35 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-12
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 45.87.175.192
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-4
-  password: qwerREWQ@@
-  port: 54345
-  server: 221.139.79.57
-  type: ss
 - cipher: aes-256-gcm
-  name: 0|-https://t.me/MrXbin-5
+  name: 0|-https://t.me/MrXbin-1
   password: PCnnH6SQSnfoS27
   port: 8091
   server: 169.197.141.84
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-21
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  port: 8080
-  server: 45.87.175.178
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 0|-https://t.me/MrXbin-8
-  password: zDNVedRFPQexG9v
-  port: 6379
-  server: 23.157.40.113
-  type: ss
-- cipher: aes-256-gcm
-  name: 0|-https://t.me/MrXbin-9
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 38.75.136.117
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-19
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 45.87.175.188
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 0|-https://t.me/MrXbin-11
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 38.75.136.117
+  name: 0|-https://t.me/MrXbin-3
+  password: 5cp9Z3iWnJZ2
+  port: 443
+  server: 205.134.180.150
   type: ss
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-37
+  name: 0|-https://t.me/MrXbin-5
+  password: qwerREWQ@@
+  port: 54345
+  server: 221.139.79.57
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-23
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
   protocol: origin
   server: us-am3.eqnode.net
   type: ssr
-- cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-39
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13497
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: xrbsy1.cdn.node.a.tddns-ounk.com
-  type: ssr
-- cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-40
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13020
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: xrbsy1.cdn.node.a.tddns-ounk.com
-  type: ssr
 - alterId: 0
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-46
+  name: 0|-https://t.me/MrXbin-43
   network: ws
   port: 18050
   server: 119.195.219.150
@@ -96,7 +46,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-47
+  name: 0|-https://t.me/MrXbin-44
   network: ws
   port: 17443
   server: 211.248.216.119
@@ -113,44 +63,44 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-48
-  network: ws
-  port: 443
-  server: 80.158.63.104
-  servername: 2022585a-86a7-4231-b3a0-eeda14f77f4d.8f18237c-8e5f-4ffb-a434-1b2948c87be3.ddnsfree.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: 2022585a-86a7-4231-b3a0-eeda14f77f4d.8f18237c-8e5f-4ffb-a434-1b2948c87be3.ddnsfree.com
-    path: /obdii.cfd:443/linkws
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-49
-  network: ws
-  port: 443
-  server: 129.151.204.91
-  servername: 2022585a-86a7-4231-b3a0-eeda14f77f4d.8f18237c-8e5f-4ffb-a434-1b2948c87be3.ddnsfree.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: 2022585a-86a7-4231-b3a0-eeda14f77f4d.8f18237c-8e5f-4ffb-a434-1b2948c87be3.ddnsfree.com
-    path: /obdii.cfd:443/linkws
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-51
+  name: 0|-https://t.me/MrXbin-45
   network: ws
   port: 443
   server: 216.221.214.50
+  servername: 2022585a-86a7-4231-b3a0-eeda14f77f4d.8f18237c-8e5f-4ffb-a434-1b2948c87be3.ddnsfree.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: 2022585a-86a7-4231-b3a0-eeda14f77f4d.8f18237c-8e5f-4ffb-a434-1b2948c87be3.ddnsfree.com
+    path: /obdii.cfd:443/linkws
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-46
+  network: ws
+  port: 443
+  server: 212.183.88.77
+  servername: 2022585a-86a7-4231-b3a0-eeda14f77f4d.8f18237c-8e5f-4ffb-a434-1b2948c87be3.ddnsfree.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: 2022585a-86a7-4231-b3a0-eeda14f77f4d.8f18237c-8e5f-4ffb-a434-1b2948c87be3.ddnsfree.com
+    path: /obdii.cfd:443/linkws
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-47
+  network: ws
+  port: 443
+  server: 192.0.54.172
   servername: 2022585a-86a7-4231-b3a0-eeda14f77f4d.8f18237c-8e5f-4ffb-a434-1b2948c87be3.ddnsfree.com
   skip-cert-verify: true
   tls: true
@@ -393,28 +343,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 12|DE_speednode_0010
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 3.127.197.237
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- name: 12|FR_speednode_0014
-  password: telegram-id-directvpn
-  port: 22222
-  server: 13.36.216.142
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- name: 12|SE_speednode_0044
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 16.171.73.217
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- name: 12|US_speednode_0060
+- name: 12|US_speednode_0133
   network: ws
   password: bpb-trojan
   port: 443
@@ -426,7 +355,7 @@ proxies:
     headers:
       Host: mindrOOm-5cz.pAgEs.dEV
     path: /trC8BM8bTsAF0AnLYL
-- name: 12|US_speednode_0061
+- name: 12|US_speednode_0134
   network: ws
   password: bpb-trojan
   port: 443
