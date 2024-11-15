@@ -10,14 +10,6 @@ proxies:
   tls: false
   type: vmess
   uuid: a0dfa194-ce47-409f-b551-ff520181bfab
-- client-fingerprint: chrome
-  name: 10|🇯🇵 日本3|@ripaojiedian
-  password: AlXRB8wqec3pCYZgSNADxROFSEa0Saz3Z6O7u3FjIlDT4eDYxp89aCy35KC2yn
-  port: 443
-  server: nagoya.meijireform.com
-  skip-cert-verify: false
-  sni: nagoya.meijireform.com
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 11|日本2|@ripaojiedian
@@ -28,9 +20,3 @@ proxies:
   tls: false
   type: vmess
   uuid: a0dfa194-ce47-409f-b551-ff520181bfab
-- name: 11|日本3|@ripaojiedian
-  network: tcp
-  password: AlXRB8wqec3pCYZgSNADxROFSEa0Saz3Z6O7u3FjIlDT4eDYxp89aCy35KC2yn
-  port: 443
-  server: nagoya.meijireform.com
-  type: trojan
