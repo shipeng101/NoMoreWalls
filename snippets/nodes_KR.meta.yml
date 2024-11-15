@@ -10,6 +10,14 @@ proxies:
   tls: false
   type: vmess
   uuid: 37a9e3d4-08b2-4a54-92ad-e9dce926657d
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 10|🇰🇷 韩国特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 43.201.72.28
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 11|韩国2|@ripaojiedian
