@@ -31,6 +31,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11|香港5|@ripaojiedian
+  network: tcp
+  port: '53385'
+  server: e00618c75712.uxzbpycs.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
 - alterId: 64
   cipher: auto
   name: 11|香港6|@ripaojiedian
@@ -41,3 +51,11 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 11|香港7|@ripaojiedian
+  network: tcp
+  password: 26e159d2-ec3a-4005-97c7-eb480bab096d
+  port: 27101
+  server: aafrtpfxr.hkl01i9zjfegelp.5xfsur8v62.gosdk.xyz
+  skip-cert-verify: true
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
