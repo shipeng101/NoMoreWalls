@@ -1,77 +1,61 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-1
+  name: 0|-https://t.me/MrXbin-7
   password: cvII85TrW6n0OGyfpHVS1u
   port: 8080
   server: 45.87.175.188
   type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-2
-  password: qwerREWQ@@
-  port: 54345
-  server: 221.139.79.57
-  type: ss
-- cipher: aes-256-gcm
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: 0|-https://t.me/MrXbin-3
+  password: cvII85TrW6n0OGyfpHVS1u
+  port: 8080
+  server: 45.87.175.178
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 0|-https://t.me/MrXbin-5
   password: g5MeD6Ft3CWlJId
   port: 5004
   server: 142.202.48.105
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-4
-  password: 1RWwXhwfAB5gAEozU4G2Pg
+  name: 0|-https://t.me/MrXbin-8
+  password: 4a2rfixophdjffa8KVA4Aa
   port: 8080
-  server: 45.87.175.178
+  server: beesyar.org
   type: ss
-  udp: true
-- cipher: aes-128-cfb
-  name: 0|-https://t.me/MrXbin-16
-  obfs: plain
-  password: shadowsocks
-  port: 443
-  protocol: origin
-  server: 109.201.152.181
-  type: ssr
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-18
+  name: 0|-https://t.me/MrXbin-17
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
   protocol: origin
   server: us-am3.eqnode.net
   type: ssr
+- cipher: aes-128-cfb
+  name: 0|-https://t.me/MrXbin-18
+  obfs: plain
+  password: shadowsocks
+  port: 443
+  protocol: origin
+  server: 109.201.152.181
+  type: ssr
 - alterId: 0
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-19
+  name: 0|-https://t.me/MrXbin-25
   network: ws
-  port: 2082
-  server: 172.64.175.88
-  servername: ip18.6929198.xyz
+  port: 443
+  server: 45.149.12.84
+  tls: true
   type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
   ws-opts:
     headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-23
-  network: ws
-  port: 2095
-  server: 172.64.166.22
-  servername: ip20.6016725.xyz
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip20.6016725.xyz
-    path: /github.com/Alvin9999
+      Host: obdii.cfd
+    path: /linkws#@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1/?ed=2560
 - alterId: 0
   cipher: auto
   name: '3,4,5|d*********g.com_0 #2'
