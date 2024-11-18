@@ -1,13 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  name: '10,11|美国|@ripaojiedian #1'
-  network: tcp
-  password: nq8205AjYDCpSxFOleRyRZ43DwSY6BCyaXxcN78KSz3F9auClgOZEITAe3p3aD
-  port: 443
-  server: 154.17.17.150
-  skip-cert-verify: false
-  sni: disciples.missionsec.io
-  type: trojan
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
