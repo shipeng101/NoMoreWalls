@@ -20,31 +20,19 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 12|US_speednode_0032
+- name: 12|US_speednode_0063
   network: ws
-  password: bpb-trojan
-  port: 443
-  server: visa.cn
-  skip-cert-verify: false
-  sni: bpb.macser.us.kg
+  password: auto
+  port: 27061
+  server: 103.170.72.120
+  skip-cert-verify: true
+  sni: trojanfree-76s.pages.dev
   type: trojan
   ws-opts:
     headers:
-      Host: bpb.macser.us.kg
-    path: /tr?ed=2560
-- name: 12|US_speednode_0033
-  network: ws
-  password: bpb-trojan
-  port: 443
-  server: visa.cn
-  skip-cert-verify: false
-  sni: zamim340.ggff.net
-  type: trojan
-  ws-opts:
-    headers:
-      Host: zamim340.ggff.net
-    path: /tr?ed=2560
-- name: 12|US_speednode_0034
+      Host: trojanfree-76s.pages.dev
+    path: /
+- name: 12|US_speednode_0072
   network: ws
   password: bpb-trojan
   port: 443
@@ -56,35 +44,11 @@ proxies:
     headers:
       Host: bpb.macser.us.kg
     path: /tr?ed=2560
-- name: 12|US_speednode_0035
+- name: 12|US_speednode_0083
   network: ws
   password: bpb-trojan
   port: 443
-  server: japan.com
-  skip-cert-verify: false
-  sni: bpb.macser.us.kg
-  type: trojan
-  ws-opts:
-    headers:
-      Host: bpb.macser.us.kg
-    path: /tr?ed=2560
-- name: 12|US_speednode_0036
-  network: ws
-  password: bpb-trojan
-  port: 443
-  server: japan.com
-  skip-cert-verify: false
-  sni: zamim340.ggff.net
-  type: trojan
-  ws-opts:
-    headers:
-      Host: zamim340.ggff.net
-    path: /tr?ed=2560
-- name: 12|US_speednode_0099
-  network: ws
-  password: bpb-trojan
-  port: 443
-  server: 104.18.37.111
+  server: 172.64.150.145
   skip-cert-verify: true
   sni: mindrOOm-5cz.pAgEs.dEV
   type: trojan
@@ -92,11 +56,11 @@ proxies:
     headers:
       Host: mindrOOm-5cz.pAgEs.dEV
     path: /trC8BM8bTsAF0AnLYL
-- name: 12|US_speednode_0100
+- name: 12|US_speednode_0084
   network: ws
   password: bpb-trojan
   port: 443
-  server: 172.64.150.145
+  server: 104.18.37.111
   skip-cert-verify: true
   sni: mindrOOm-5cz.pAgEs.dEV
   type: trojan
