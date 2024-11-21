@@ -1,9 +1,9 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-1
-  password: qwerREWQ@@
-  port: 54345
-  server: 221.139.79.57
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-2
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: 45.87.175.166
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 0|-https://t.me/MrXbin-3
@@ -11,8 +11,32 @@ proxies:
   port: 12224
   server: 194.87.82.28
   type: ss
-- cipher: aes-256-cfb
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-4
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: 45.87.175.154
+  type: ss
+- cipher: chacha20-ietf-poly1305
   name: 0|-https://t.me/MrXbin-5
+  password: 3MgIhqwp4pjM8SKwixNkYZ
+  port: 33068
+  server: 193.124.22.253
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-6
+  password: qwerREWQ@@
+  port: 54345
+  server: 221.139.79.57
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-7
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: 45.87.175.164
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-17
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
@@ -20,7 +44,7 @@ proxies:
   server: us-am3.eqnode.net
   type: ssr
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-20
+  name: 0|-https://t.me/MrXbin-18
   obfs: plain
   password: f8f7aCzcPKbsF8p3
   port: 989
