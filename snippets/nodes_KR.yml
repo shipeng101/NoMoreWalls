@@ -7,24 +7,3 @@ proxies:
   server: 36.151.192.198
   skip-cert-verify: true
   type: trojan
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10|🇰🇷 韩国2|@ripaojiedian
-  port: 34103
-  server: 45.94.68.179
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: f083427f-9d8b-4863-b4a5-fc15255547d2
-- alterId: 0
-  cipher: auto
-  name: 11|韩国2|@ripaojiedian
-  network: tcp
-  port: '34103'
-  server: 45.94.68.179
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f083427f-9d8b-4863-b4a5-fc15255547d2

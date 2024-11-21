@@ -30,13 +30,13 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   name: 10|🇭🇰 香港4|@ripaojiedian
-  port: 39949
-  server: 185.207.155.123
+  port: 35926
+  server: 103.224.80.56
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 0899b23d-fbd2-42b8-8e48-b057cf45e24e
+  uuid: d3c1e9d2-4267-4fe6-a189-de4d641c6af9
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -62,12 +62,12 @@ proxies:
   cipher: auto
   name: 11|香港4|@ripaojiedian
   network: tcp
-  port: '39949'
-  server: 185.207.155.123
+  port: '35926'
+  server: 103.224.80.56
   servername: ''
   tls: false
   type: vmess
-  uuid: 0899b23d-fbd2-42b8-8e48-b057cf45e24e
+  uuid: d3c1e9d2-4267-4fe6-a189-de4d641c6af9
 - alterId: 64
   cipher: auto
   name: 11|香港6|@ripaojiedian
