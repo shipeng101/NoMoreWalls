@@ -1,55 +1,63 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-2
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 45.87.175.166
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-3
-  password: 2fwufOmJ9ELfN4umzcHBfV
-  port: 12224
-  server: 194.87.82.28
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-4
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 45.87.175.154
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-5
+  name: 0|-https://t.me/MrXbin-1
   password: 3MgIhqwp4pjM8SKwixNkYZ
   port: 33068
   server: 193.124.22.253
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-5
+  password: cvII85TrW6n0OGyfpHVS1u
+  port: 8080
+  server: 45.87.175.178
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-6
+  name: 0|-https://t.me/MrXbin-3
   password: qwerREWQ@@
   port: 54345
   server: 221.139.79.57
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-7
+  name: 0|-https://t.me/MrXbin-8
   password: 4a2rfixophdjffa8KVA4Aa
   port: 8080
   server: 45.87.175.164
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-6
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: 45.87.175.154
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-7
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: 45.87.175.166
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-9
+  password: 2fwufOmJ9ELfN4umzcHBfV
+  port: 12224
+  server: 194.87.82.28
+  type: ss
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-17
+  name: 0|-https://t.me/MrXbin-24
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
   protocol: origin
   server: us-am3.eqnode.net
   type: ssr
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-18
-  obfs: plain
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  protocol: origin
-  server: 138.186.142.4
+- cipher: rc4-md5
+  name: 0|-https://t.me/MrXbin-26
+  obfs: tls1.2_ticket_auth
+  password: Cskw6d
+  port: 13301
+  protocol: auth_aes128_md5
+  protocol-param: 524959:5u4MZ6
+  server: mjk6.cdn.node.a.tddns-ounk.com
   type: ssr
 - alterId: 0
   cipher: auto
@@ -147,16 +155,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 10|🇭🇰 香港4|@ripaojiedian
-  port: 35926
-  server: 103.224.80.56
+  name: 10|🇭🇰 香港5|@ripaojiedian
+  port: 58831
+  server: 183.236.48.163
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: d3c1e9d2-4267-4fe6-a189-de4d641c6af9
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 10|🇭🇰 香港6|@ripaojiedian
@@ -167,14 +175,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 10,11|台湾|@ripaojiedian
-  network: tcp
-  password: 32ec77ea-c54c-405a-add3-dea6b579c853
-  port: 18147
-  server: svip.88de.hongxingdl.vip
-  skip-cert-verify: false
-  sni: mm2.redapricotcloud.com
-  type: trojan
 - name: 10,11|日本|@ripaojiedian
   network: tcp
   password: QwwHvrnN
@@ -182,22 +182,26 @@ proxies:
   server: 36.151.192.239
   skip-cert-verify: true
   type: trojan
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 10,11|日本2|@ripaojiedian
-  network: ws
-  port: '25758'
-  server: twriyfjhhhh1.hfhfb.homes
-  servername: ''
+  name: 10|🇯🇵 日本2|@ripaojiedian
+  port: 59952
+  server: 183.236.48.158
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 2744bc46-8b19-40a5-9733-5bc819fa9553
-  ws-opts:
-    headers:
-      Host: app.dingtalk.com
-    path: /?ed
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 10|🇯🇵 日本3|@ripaojiedian
+  port: 11304
+  server: 45.159.50.143
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: d1625892-8e9f-41fa-8ad8-6cc464fd52a6
 - name: 10,11|韩国|@ripaojiedian
   network: tcp
   password: QwwHvrnN
@@ -205,19 +209,11 @@ proxies:
   server: 36.151.192.198
   skip-cert-verify: true
   type: trojan
-- name: 10,11|新加坡|@ripaojiedian
-  network: tcp
-  password: 535b4471-205d-435e-8d1f-f1aa0d78910a
-  port: 8009
-  server: n9.sps465ad81.top
-  skip-cert-verify: false
-  sni: n9.sps465ad81.top
-  type: trojan
-- name: 10,11|新加坡2|@ripaojiedian
+- name: 10,11|韩国2|@ripaojiedian
   network: tcp
   password: ad6e2bae-d580-4117-aa37-a8c111100740
-  port: 13028
-  server: naiu-sg.05vr9nyqg5.download
+  port: 13036
+  server: naiu-other.05vr9nyqg5.download
   skip-cert-verify: false
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
@@ -231,6 +227,14 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 10,11|美国2|@ripaojiedian
+  network: tcp
+  password: ad6e2bae-d580-4117-aa37-a8c111100740
+  port: 13021
+  server: naiu-us.05vr9nyqg5.download
+  skip-cert-verify: false
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
 - alterId: 64
   cipher: auto
   name: 11|香港3|@ripaojiedian
@@ -241,16 +245,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 11|香港4|@ripaojiedian
+  name: 11|香港5|@ripaojiedian
   network: tcp
-  port: '35926'
-  server: 103.224.80.56
+  port: '58831'
+  server: 183.236.48.163
   servername: ''
   tls: false
   type: vmess
-  uuid: d3c1e9d2-4267-4fe6-a189-de4d641c6af9
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 11|香港6|@ripaojiedian
@@ -261,6 +265,26 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 11|日本2|@ripaojiedian
+  network: tcp
+  port: '59952'
+  server: 183.236.48.158
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11|日本3|@ripaojiedian
+  network: tcp
+  port: '11304'
+  server: 45.159.50.143
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d1625892-8e9f-41fa-8ad8-6cc464fd52a6
 - alterId: 64
   cipher: auto
   name: 11|美国|@ripaojiedian
