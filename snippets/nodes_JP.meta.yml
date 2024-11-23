@@ -18,17 +18,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10|🇯🇵 日本3|@ripaojiedian
-  port: 11304
-  server: 45.159.50.143
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: d1625892-8e9f-41fa-8ad8-6cc464fd52a6
 - alterId: 64
   cipher: auto
   name: 11|日本2|@ripaojiedian
@@ -39,16 +28,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11|日本3|@ripaojiedian
-  network: tcp
-  port: '11304'
-  server: 45.159.50.143
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d1625892-8e9f-41fa-8ad8-6cc464fd52a6
 - name: 12|JP_speednode_0039
   network: ws
   port: 587
