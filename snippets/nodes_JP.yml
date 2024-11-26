@@ -3,19 +3,19 @@ proxies:
   name: 10,11|日本|@ripaojiedian
   network: tcp
   password: QwwHvrnN
-  port: 17806
-  server: 36.151.192.239
+  port: 44673
+  server: 36.151.192.203
   skip-cert-verify: true
   type: trojan
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 10|🇯🇵 日本2|@ripaojiedian
   obfs: plain
-  obfs-param: e0a3163814.6602b8463464108506.microsoft.com
+  obfs-param: 255e7112598.6602b8463464108506.microsoft.com
   password: ENZ52K
-  port: 40201
+  port: 40202
   protocol: auth_aes128_md5
-  protocol-param: 63814:v10ko160fk
+  protocol-param: 112598:vcy7qi
   server: 95b1cd85a0968ff2.cdn.jiashule.com
   type: ssr
 - client-fingerprint: chrome
