@@ -1,43 +1,43 @@
 proxies:
+- cipher: aes-256-gcm
+  name: 0|-https://t.me/MrXbin-1
+  password: g5MeD6Ft3CWlJId
+  port: 5004
+  server: 142.202.48.105
+  type: ss
+- cipher: aes-256-gcm
+  name: 0|-https://t.me/MrXbin-2
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 38.110.1.46
+  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-4
-  password: cvII85TrW6n0OGyfpHVS1u
+  name: 0|-https://t.me/MrXbin-3
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: 45.87.175.157
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-5
+  password: 1RWwXhwfAB5gAEozU4G2Pg
   port: 8080
   server: 45.87.175.178
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-7
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 45.87.175.181
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-8
+  name: 0|-https://t.me/MrXbin-6
   password: 4a2rfixophdjffa8KVA4Aa
   port: 8080
   server: 45.87.175.154
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-6
-  password: vntxqHhPINXu5Ag6876fXO
-  port: 1080
-  server: 51.195.220.179
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-9
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: beesyar.org
-  type: ss
-- cipher: aes-256-gcm
-  name: 0|-https://t.me/MrXbin-10
-  password: zDNVedRFPQexG9v
-  port: 6379
-  server: 38.110.1.46
+  name: 0|-https://t.me/MrXbin-7
+  password: 2fwufOmJ9ELfN4umzcHBfV
+  port: 12224
+  server: 194.87.82.28
   type: ss
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-21
+  name: 0|-https://t.me/MrXbin-18
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
@@ -48,15 +48,17 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-26
+  name: 0|-https://t.me/MrXbin-24
   network: ws
   port: 2095
-  server: singapore.com
+  server: 172.64.166.22
+  servername: ip20.6016725.xyz
   type: vmess
+  udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: ip11.6016725.xyz
+      Host: ip20.6016725.xyz
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
