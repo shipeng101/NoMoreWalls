@@ -1,4 +1,10 @@
 proxies:
+- cipher: aes-256-gcm
+  name: 0|-https://t.me/MrXbin-1
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 38.110.1.46
+  type: ss
 - cipher: rc4-md5
   name: 0|-https://t.me/MrXbin-2
   password: 14fFPrbezE3HDZzsMOr6
@@ -15,7 +21,7 @@ proxies:
   type: ssr
 - alterId: 0
   cipher: auto
-  name: '3,4,5|d*********g.com_0 #2'
+  name: 5|d*********g.com_0
   network: ws
   port: 8443
   server: 104.21.238.200
@@ -33,7 +39,7 @@ proxies:
     v2ray-http-upgrade-fast-open: true
 - alterId: 0
   cipher: auto
-  name: '3,4,5|d*********g.com_1 #2'
+  name: 5|d*********g.com_1
   network: ws
   port: 8443
   server: 104.21.238.201
@@ -51,7 +57,7 @@ proxies:
     v2ray-http-upgrade-fast-open: true
 - alterId: 0
   cipher: auto
-  name: '3,4,5|d*********g.com_2 #2'
+  name: 5|d*********g.com_2
   network: ws
   port: 8443
   server: 104.21.238.202
@@ -69,7 +75,7 @@ proxies:
     v2ray-http-upgrade-fast-open: true
 - alterId: 0
   cipher: auto
-  name: '3,4,5|d*********g.com_3 #2'
+  name: 5|d*********g.com_3
   network: ws
   port: 8443
   server: 104.21.238.203
@@ -888,7 +894,7 @@ proxies:
     path: /@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=2480
 - alterId: 0
   cipher: auto
-  name: '13|d*********g.com_2 #3'
+  name: '13|d*********g.com_2 #1'
   network: tcp
   port: '443'
   server: 42.236.73.72
@@ -911,7 +917,7 @@ proxies:
       Host: www.zitian.cn
 - alpn:
   - http%2F1.1
-  name: '13|d*********g.com_3 #3'
+  name: '13|d*********g.com_3 #1'
   network: tcp
   password: fuck
   port: 443
