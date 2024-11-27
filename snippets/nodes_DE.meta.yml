@@ -1,9 +1,13 @@
 proxies:
-- name: 12|DE_speednode_0018
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  name: 12|DE_speednode_0016
   network: tcp
-  port: 13239
-  server: 91.107.248.14
-  skip-cert-verify: false
-  tls: false
+  port: 8443
+  server: 89.187.169.71
+  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  skip-cert-verify: true
+  tls: true
   type: vless
-  uuid: bf61aa2e-5b05-478e-8e1e-453d27c52107
+  uuid: 6ff213b8-ccc7-4b5a-b4aa-37f7b792a1f1
