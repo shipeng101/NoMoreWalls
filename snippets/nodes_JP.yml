@@ -18,6 +18,14 @@ proxies:
   protocol-param: 102946:2LUBMA
   server: 95b1cd85a0968ff2.cdn.jiashule.com
   type: ssr
+- name: 12|JP_speednode_0020
+  password: 24273330-85c9-3a6e-a0fd-58a6076a3a85
+  port: 443
+  server: 18.179.44.127
+  skip-cert-verify: true
+  sni: fastly.cdn.steampipe.steamcontent.com
+  type: trojan
+  udp: true
 - name: 12|JP_speednode_0021
   password: 24273330-85c9-3a6e-a0fd-58a6076a3a85
   port: 443
