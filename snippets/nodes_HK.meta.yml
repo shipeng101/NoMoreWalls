@@ -39,24 +39,15 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 10|🇭🇰 香港8|@ripaojiedian
+  name: 10|🇭🇰 香港6|@ripaojiedian
   obfs: plain
-  obfs-param: 8195986416.6602b8463464108506.microsoft.com
+  obfs-param: 255e7112598.6602b8463464108506.microsoft.com
   password: ENZ52K
-  port: 40239
+  port: 40238
   protocol: auth_aes128_md5
-  protocol-param: 86416:SlZFuy
+  protocol-param: 112598:vcy7qi
   server: 28b09af269781f9b.cdn.jiashule.com
   type: ssr
-- client-fingerprint: chrome
-  name: 10,11|香港9|@ripaojiedian
-  network: tcp
-  password: 728A9437-AF3A-42C1-C1C8-0C87337E119C
-  port: 14404
-  server: bepgzbgp01.114837322.xyz
-  skip-cert-verify: true
-  sni: mpvideo.qpic.cn
-  type: trojan
 - alterId: 64
   cipher: auto
   name: 11|香港3|@ripaojiedian
