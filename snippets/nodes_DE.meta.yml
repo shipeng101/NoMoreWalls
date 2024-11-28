@@ -1,15 +1,1 @@
-proxies:
-- client-fingerprint: edge
-  name: 12|DE_speednode_0081
-  network: tcp
-  packet-encoding: xudp
-  port: 18443
-  reality-opts:
-    public-key: bRUCz8KaceEKnBFT5V7czJj1t0OAu_nbKnMyVfyeK1I
-    short-id: e6658462
-  server: frankfurt.faforex.eu.org
-  servername: www.tesla.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 3607a21d-b6ea-4762-8526-7093e2119c2b
+proxies: []
