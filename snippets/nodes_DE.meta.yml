@@ -1,13 +1,15 @@
 proxies:
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  name: 12|DE_speednode_0016
+- client-fingerprint: edge
+  name: 12|DE_speednode_0081
   network: tcp
-  port: 8443
-  server: 89.187.169.71
-  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-  skip-cert-verify: true
+  packet-encoding: xudp
+  port: 18443
+  reality-opts:
+    public-key: bRUCz8KaceEKnBFT5V7czJj1t0OAu_nbKnMyVfyeK1I
+    short-id: e6658462
+  server: frankfurt.faforex.eu.org
+  servername: www.tesla.com
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 6ff213b8-ccc7-4b5a-b4aa-37f7b792a1f1
+  uuid: 3607a21d-b6ea-4762-8526-7093e2119c2b
