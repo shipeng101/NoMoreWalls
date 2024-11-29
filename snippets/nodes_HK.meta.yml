@@ -68,3 +68,35 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alpn:
+  - http%2F1.1
+  client-fingerprint: random
+  name: 12|HK_speednode_0023
+  network: ws
+  port: 443
+  server: 8.218.120.79
+  servername: paged.sosorg.nyc.mn
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 8caec8c9-869a-4121-9309-4251d4e23200
+  ws-opts:
+    headers:
+      Host: paged.sosorg.nyc.mn
+    path: /?ed=2560
+- alpn:
+  - http%2F1.1
+  client-fingerprint: random
+  name: 12|HK_speednode_0024
+  network: ws
+  port: 20443
+  server: 23.26.217.56
+  servername: paged.sosorg.nyc.mn
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 8caec8c9-869a-4121-9309-4251d4e23200
+  ws-opts:
+    headers:
+      Host: paged.sosorg.nyc.mn
+    path: /?ed=2560
