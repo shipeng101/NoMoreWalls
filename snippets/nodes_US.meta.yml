@@ -1,21 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10,11|美国|@ripaojiedian
-  network: ws
-  port: '2095'
-  server: 162.159.45.246
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: c3.6016725.xyz
-    path: github.com/Alvin9999
 - client-fingerprint: chrome
   name: 10,11|美国2|@ripaojiedian
   network: tcp
@@ -25,23 +8,6 @@ proxies:
   skip-cert-verify: false
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10,11|美国3|@ripaojiedian
-  network: ws
-  port: '2086'
-  server: 162.159.45.219
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde
-  ws-opts:
-    headers:
-      Host: p1.613055.xyz
-    path: github.com/Alvin9999
 - client-fingerprint: firefox
   name: 12|US_speednode_0034
   network: ws

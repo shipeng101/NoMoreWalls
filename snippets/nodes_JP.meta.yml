@@ -3,31 +3,21 @@ proxies:
   name: 10,11|日本|@ripaojiedian
   network: tcp
   password: QwwHvrnN
-  port: 44673
-  server: 36.151.192.203
+  port: 27381
+  server: 36.151.192.242
   skip-cert-verify: true
   type: trojan
-- alterId: 0
-  cipher: auto
+- cipher: rc4-md5
   client-fingerprint: chrome
-  name: 10|🇯🇵 日本3|@ripaojiedian
-  port: 47118
-  server: 45.159.51.28
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: ea034172-f33d-4f2b-a4a7-c700ca773f7a
-- alterId: 0
-  cipher: auto
-  name: 11|日本3|@ripaojiedian
-  network: tcp
-  port: '47118'
-  server: 45.159.51.28
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ea034172-f33d-4f2b-a4a7-c700ca773f7a
+  name: 10|🇯🇵 日本2|@ripaojiedian
+  obfs: plain
+  obfs-param: 255e7112598.6602b8463464108506.microsoft.com
+  password: ENZ52K
+  port: 40201
+  protocol: auth_aes128_md5
+  protocol-param: 112598:vcy7qi
+  server: 95b1cd85a0968ff2.cdn.jiashule.com
+  type: ssr
 - name: 12|JP_speednode_0025
   network: ws
   port: 443
