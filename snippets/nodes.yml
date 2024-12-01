@@ -7,27 +7,19 @@ proxies:
     host: (TG @WangCai2)b5a99e1:21612
     mode: tls
   port: 2377
-  server: 60.249.35.38
+  server: 60.249.28.136
   type: ss
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-256-gcm
   name: 0|-https://t.me/MrXbin-2
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)b5a99e1:21612
-    mode: tls
-  port: 2377
-  server: 211.22.161.135
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 23.157.40.5
   type: ss
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-256-gcm
   name: 0|-https://t.me/MrXbin-3
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)b5a99e1:21612
-    mode: tls
-  port: 2377
-  server: 60.249.28.138
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 23.157.40.5
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 0|-https://t.me/MrXbin-4
@@ -37,7 +29,7 @@ proxies:
     host: (TG @WangCai2)b5a99e1:21612
     mode: tls
   port: 2377
-  server: 60.249.28.60
+  server: 211.22.161.135
   type: ss
 - cipher: aes-256-gcm
   name: 0|-https://t.me/MrXbin-5
@@ -45,18 +37,14 @@ proxies:
   port: 32233
   server: 185.22.152.125
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-8
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)b5a99e1:21612
-    mode: tls
-  port: 2377
-  server: 60.249.28.59
+- cipher: aes-256-gcm
+  name: 0|-https://t.me/MrXbin-6
+  password: KixLvKzwjekG00rm
+  port: 8000
+  server: 38.68.134.202
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-9
+  name: 0|-https://t.me/MrXbin-8
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -73,7 +61,7 @@ proxies:
     host: (TG @WangCai2)b5a99e1:21612
     mode: tls
   port: 2377
-  server: 60.249.28.137
+  server: 60.249.35.38
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 0|-https://t.me/MrXbin-11
@@ -83,7 +71,7 @@ proxies:
     host: (TG @WangCai2)b5a99e1:21612
     mode: tls
   port: 2377
-  server: 211.22.161.134
+  server: 60.249.28.59
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 0|-https://t.me/MrXbin-12
@@ -93,7 +81,7 @@ proxies:
     host: (TG @WangCai2)b5a99e1:21612
     mode: tls
   port: 2377
-  server: 60.249.35.39
+  server: 60.249.28.138
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 0|-https://t.me/MrXbin-13
@@ -103,17 +91,111 @@ proxies:
     host: (TG @WangCai2)b5a99e1:21612
     mode: tls
   port: 2377
+  server: 60.249.28.60
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-14
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)b5a99e1:21612
+    mode: tls
+  port: 2377
   server: 60.249.35.3
   type: ss
-- cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-14
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-15
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)b5a99e1:21612
+    mode: tls
+  port: 2377
+  server: 60.249.35.2
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-16
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)b5a99e1:21612
+    mode: tls
+  port: 2377
+  server: 60.249.28.137
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-17
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)b5a99e1:21612
+    mode: tls
+  port: 2377
+  server: 211.22.161.134
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-18
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)b5a99e1:21612
+    mode: tls
+  port: 2377
+  server: 60.249.35.39
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-30
   obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13637
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: bb29cs.cdn.node.a.tddns-ounk.com
+  password: fou8MBGij
+  port: 8081
+  protocol: origin
+  server: us-am3.eqnode.net
   type: ssr
+- alterId: 1
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-41
+  network: ws
+  port: 443
+  server: 172.105.172.209
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 172.105.172.209
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-54
+  network: ws
+  port: 2082
+  server: 190.93.245.174
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-58
+  network: ws
+  port: 2082
+  server: 190.93.245.103
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: 5|d*********g.com_0
