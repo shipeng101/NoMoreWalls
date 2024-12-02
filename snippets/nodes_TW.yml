@@ -3,20 +3,20 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   name: 10|🇹🇼 台湾|@ripaojiedian
-  port: 20016
-  server: i.needss.top
+  port: 45077
+  server: xdd.dashuai.cyou
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: b23172e2-eb36-4222-85ac-3d2f61651013
+  uuid: d574a472-d628-46cc-bcb7-ab85a6fe02bb
 - alterId: 0
   cipher: auto
   name: 11|台湾|@ripaojiedian
   network: tcp
-  port: '20016'
-  server: i.needss.top
+  port: '45077'
+  server: xdd.dashuai.cyou
   servername: ''
   tls: false
   type: vmess
-  uuid: b23172e2-eb36-4222-85ac-3d2f61651013
+  uuid: d574a472-d628-46cc-bcb7-ab85a6fe02bb
