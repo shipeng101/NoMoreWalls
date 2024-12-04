@@ -1,9 +1,8 @@
 proxies:
-- client-fingerprint: chrome
-  name: 10,11|日本|@ripaojiedian
+- name: 11|日本|@ripaojiedian
   network: tcp
   password: QwwHvrnN
-  port: 27381
+  port: 6985
   server: 36.151.192.242
   skip-cert-verify: true
   type: trojan
