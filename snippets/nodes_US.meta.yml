@@ -1,11 +1,24 @@
 proxies:
-- name: 11|美国|@ripaojiedian
+- client-fingerprint: chrome
+  name: 10,11|美国|@ripaojiedian
   network: tcp
   password: 1ba48a0e-af2e-45fb-9e15-2b2d4134657c
   port: 443
   server: usla.mjt000.com
+  skip-cert-verify: false
   sni: usla.mjt000.com
   type: trojan
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇺🇸 美国2|@ripaojiedian
+  port: 58831
+  server: 120.232.153.27
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 11|美国2|@ripaojiedian

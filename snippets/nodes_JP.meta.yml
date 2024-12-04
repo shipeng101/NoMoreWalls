@@ -1,5 +1,6 @@
 proxies:
-- name: 11|日本|@ripaojiedian
+- client-fingerprint: chrome
+  name: 10,11|日本|@ripaojiedian
   network: tcp
   password: QwwHvrnN
   port: 6985
