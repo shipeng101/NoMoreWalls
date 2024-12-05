@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: 10,11,12|CN_speednode_0004
+  name: 10,11|日本|@ripaojiedian
   network: tcp
   password: QwwHvrnN
   port: 6985
