@@ -11,21 +11,21 @@ proxies:
   name: 10,11|香港2|@ripaojiedian
   network: tcp
   password: QwwHvrnN
-  port: 25241
-  server: 36.151.192.196
+  port: 18682
+  server: 36.151.192.242
   skip-cert-verify: true
   type: trojan
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
   name: 10|🇭🇰 香港3|@ripaojiedian
-  port: 40972
-  server: 120.232.153.63
+  port: 32193
+  server: 120.198.71.214
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -52,12 +52,12 @@ proxies:
   cipher: auto
   name: 11|香港3|@ripaojiedian
   network: tcp
-  port: '40972'
-  server: 120.232.153.63
+  port: '32193'
+  server: 120.198.71.214
   servername: ''
   tls: false
   type: vmess
-  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 11|香港5|@ripaojiedian
