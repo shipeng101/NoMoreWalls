@@ -3,7 +3,7 @@ proxies:
   - h3
   - h2
   - http%2F1.1
-  name: 12|SG_speednode_0036
+  name: 12|SG_speednode_0044
   network: tcp
   port: 443
   server: 152.42.238.145
