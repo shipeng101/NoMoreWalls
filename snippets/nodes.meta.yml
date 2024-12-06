@@ -3,115 +3,103 @@ proxies:
   name: 0|-https://t.me/MrXbin-1
   password: amazonskr05
   port: 443
-  server: 34.219.118.99
+  server: 18.236.89.178
   type: ss
-- cipher: aes-128-gcm
-  name: 0|-https://t.me/MrXbin-2
-  password: shadowsocks
-  port: 443
-  server: 212.102.53.193
-  type: ss
-- cipher: aes-128-cfb
+- cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-3
-  password: shadowsocks
+  password: amazonskr05
   port: 443
-  server: 184.170.241.194
+  server: 52.195.205.31
   type: ss
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-4
   password: amazonskr05
   port: 443
-  server: 3.1.203.16
+  server: 52.193.184.18
   type: ss
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-5
-  password: amazonskr05
-  port: 443
-  server: 47.128.246.130
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-6
   password: amazonskr05
   port: 443
   server: 34.222.145.191
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-8
+  name: 0|-https://t.me/MrXbin-7
   password: amazonskr05
   port: 443
-  server: 13.212.36.13
+  server: 34.215.84.62
   type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-9
-  password: amazonskr05
+- cipher: aes-128-gcm
+  name: 0|-https://t.me/MrXbin-8
+  password: shadowsocks
   port: 443
-  server: 54.200.220.184
+  server: 212.102.53.193
+  type: ss
+- cipher: aes-128-cfb
+  name: 0|-https://t.me/MrXbin-9
+  password: shadowsocks
+  port: 443
+  server: 184.170.241.194
   type: ss
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-10
+  password: amazonskr05
+  port: 443
+  server: 47.128.225.94
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-11
   password: amazonskr05
   port: 443
   server: 18.141.184.102
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-11
+  name: 0|-https://t.me/MrXbin-12
   password: amazonskr05
   port: 443
-  server: 54.203.119.192
+  server: 13.212.36.13
   type: ss
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-13
   password: amazonskr05
   port: 443
-  server: 47.128.225.94
+  server: 47.128.246.130
   type: ss
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-14
   password: amazonskr05
   port: 443
-  server: 54.185.18.43
+  server: 54.200.220.184
   type: ss
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-15
   password: amazonskr05
   port: 443
-  server: 52.193.184.18
+  server: 52.193.200.75
   type: ss
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-16
   password: amazonskr05
   port: 443
-  server: 52.193.200.75
+  server: 54.203.119.192
   type: ss
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-17
   password: amazonskr05
   port: 443
-  server: 3.1.195.116
+  server: 54.169.5.182
   type: ss
+  udp: true
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-18
   password: amazonskr05
   port: 443
-  server: 44.244.25.243
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 0|-https://t.me/MrXbin-19
-  password: dongtaiwang.com
-  port: 32233
-  server: 185.22.152.125
+  server: 54.199.12.31
   type: ss
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-20
-  password: amazonskr05
-  port: 443
-  server: 18.236.89.178
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-22
+  name: 0|-https://t.me/MrXbin-30
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
@@ -122,21 +110,22 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-43
+  name: 0|-https://t.me/MrXbin-51
   network: ws
-  port: 2082
-  server: 190.93.245.174
+  port: 443
+  server: irvideo.cfd
+  tls: true
   type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
   ws-opts:
     headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
+      Host: irvideo.cfd
+    path: /linkws
 - alterId: 0
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-54
+  name: 0|-https://t.me/MrXbin-89
   network: ws
   port: 2095
   server: 172.64.166.33
@@ -148,21 +137,13 @@ proxies:
     headers:
       Host: ip12.6016725.xyz
     path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-112
-  network: ws
-  port: 443
-  server: irvideo.cfd
-  tls: true
-  type: vmess
-  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
-  ws-opts:
-    headers:
-      Host: irvideo.cfd
-    path: /linkws
+- name: 0|-https://t.me/MrXbin-105
+  password: 061a01f1-704b-4712-8e12-6d3fc95a127d
+  port: 21101
+  server: 140.238.25.132
+  skip-cert-verify: true
+  sni: sale.alibaba.com
+  type: trojan
 - name: 0,12|TW_speednode_0037
   password: 3e769264-67e5-44cc-98bc-4d0a6ba1febb
   port: 24235
