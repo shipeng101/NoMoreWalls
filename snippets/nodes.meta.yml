@@ -3,73 +3,77 @@ proxies:
   name: 0|-https://t.me/MrXbin-1
   password: amazonskr05
   port: 443
-  server: 52.193.184.18
+  server: 44.244.25.243
   type: ss
-- cipher: aes-256-cfb
+  udp: true
+- cipher: aes-256-gcm
   name: 0|-https://t.me/MrXbin-2
-  password: amazonskr05
-  port: 443
-  server: 47.128.246.130
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  server: 38.75.136.21
   type: ss
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-3
   password: amazonskr05
   port: 443
-  server: 54.169.5.182
+  server: 18.236.89.178
   type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-4
-  password: amazonskr05
-  port: 443
-  server: 3.1.195.116
-  type: ss
-- cipher: aes-256-cfb
+- cipher: aes-256-gcm
   name: 0|-https://t.me/MrXbin-5
-  password: amazonskr05
-  port: 443
-  server: 34.219.118.99
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 38.75.136.21
   type: ss
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-6
   password: amazonskr05
   port: 443
-  server: 54.199.12.31
+  server: 3.1.195.116
   type: ss
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-7
   password: amazonskr05
   port: 443
+  server: 47.128.246.130
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-9
+  password: amazonskr05
+  port: 443
+  server: 18.141.184.102
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-11
+  password: amazonskr05
+  port: 443
   server: 13.212.36.13
   type: ss
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-8
+  name: 0|-https://t.me/MrXbin-12
+  password: amazonskr05
+  port: 443
+  server: 54.199.12.31
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-13
   password: amazonskr05
   port: 443
   server: 47.128.225.94
   type: ss
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-16
+  name: 0|-https://t.me/MrXbin-26
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
   protocol: origin
   server: us-am3.eqnode.net
   type: ssr
-- cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-23
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13636
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: bb29cs.cdn.node.a.tddns-ounk.com
-  type: ssr
 - alterId: 0
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-37
+  name: 0|-https://t.me/MrXbin-59
   network: ws
   port: 443
   server: irvideo.cfd
@@ -84,7 +88,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-67
+  name: 0|-https://t.me/MrXbin-89
   network: ws
   port: 2095
   server: 172.64.166.8
