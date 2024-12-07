@@ -1,5 +1,5 @@
 proxies:
-- name: 12|DE_speednode_0015
+- name: 12|DE_speednode_0009
   network: tcp
   port: 14628
   server: 157.230.20.98
@@ -7,10 +7,8 @@ proxies:
   tls: false
   type: vless
   uuid: 8456babd-3b6e-4127-af39-e4cb8edda48f
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  name: 12|DE_speednode_0017
+- client-fingerprint: chrome
+  name: 12|DE_speednode_0010
   network: tcp
   port: 8443
   server: 89.187.169.71
