@@ -1,33 +1,10 @@
 proxies:
 - client-fingerprint: chrome
-  name: 10,11|日本|@ripaojiedian
+  name: 10,11|日本2|@ripaojiedian
   network: tcp
-  password: QwwHvrnN
-  port: 12176
-  server: 36.151.192.239
-  skip-cert-verify: true
-  type: trojan
-- client-fingerprint: chrome
-  name: 10|🇯🇵 日本2|@ripaojiedian
-  network: ws
-  password: ouo
-  port: 16800
-  server: 152.70.101.24
+  password: 50cce31a-d637-4058-b2cd-9362de722d64
+  port: 22269
+  server: aafrtpfxr.jpl04i9zjfegelp.5xfsur8v62.gosdk.xyz
   skip-cert-verify: false
-  sni: tr.koiok.us.kg
+  sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
-  ws-opts:
-    headers:
-      Host: tr.koiok.us.kg
-    path: /?ed=2560
-- name: 11|日本2|@ripaojiedian
-  network: ws
-  password: ouo
-  port: 16800
-  server: 152.70.101.24
-  sni: tr.koiok.us.kg
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tr.koiok.us.kg
-    path: '%2F%3Fed%3D2560'
