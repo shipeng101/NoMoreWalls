@@ -1,4 +1,12 @@
 proxies:
+- client-fingerprint: chrome
+  name: 10,11|日本|@ripaojiedian
+  network: tcp
+  password: QwwHvrnN
+  port: 31071
+  server: 36.151.192.198
+  skip-cert-verify: true
+  type: trojan
 - name: 12|JP_speednode_0009
   network: ws
   port: 443
