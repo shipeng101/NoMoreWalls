@@ -8,3 +8,10 @@ proxies:
   skip-cert-verify: false
   sni: usla.mjt000.com
   type: trojan
+- name: 12|US_speednode_0078
+  password: ypDt8RkT7J
+  port: 43118
+  server: 89.187.181.172
+  skip-cert-verify: true
+  sni: egcmi.phooeyunfold.com
+  type: trojan
