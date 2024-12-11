@@ -12,19 +12,13 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   name: 10|🇺🇸 美国2|@ripaojiedian
-  network: ws
-  port: 10001
-  server: us.569520.xyz
-  servername: us.569520.xyz
+  port: 46051
+  server: us1.tiljkc.top
   skip-cert-verify: false
   tfo: false
-  tls: true
+  tls: false
   type: vmess
-  uuid: cc6fc498-1c98-4ecd-b3a4-37d782c56d24
-  ws-opts:
-    headers:
-      Host: us.569520.xyz
-    path: /cctv13/4k.m3u8
+  uuid: 0d849bb5-8663-3958-ae0a-9918d4a95b5e
 - alterId: 0
   cipher: auto
   name: 11|美国2|@ripaojiedian

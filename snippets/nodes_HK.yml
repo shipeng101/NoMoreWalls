@@ -15,14 +15,17 @@ proxies:
   server: 36.151.192.203
   skip-cert-verify: true
   type: trojan
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: 10|🇭🇰 香港3|@ripaojiedian
-  password: 0e91a29a-989d-4934-a1fb-7b653319397f
-  port: 61008
-  server: 120.240.88.37
+  port: 39041
+  server: hk1.tiljkc.top
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: 0d849bb5-8663-3958-ae0a-9918d4a95b5e
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -58,17 +61,6 @@ proxies:
     headers:
       Host: tr.koiok.us.kg
     path: /?ed=2560
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10|🇭🇰 香港9|@ripaojiedian
-  port: 41490
-  server: 183.236.48.143
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 11|香港3|@ripaojiedian
