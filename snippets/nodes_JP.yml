@@ -7,3 +7,13 @@ proxies:
   server: 36.151.192.198
   skip-cert-verify: true
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 11|日本4|@ripaojiedian
+  network: tcp
+  port: '38951'
+  server: jp1.tiljkc.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0d849bb5-8663-3958-ae0a-9918d4a95b5e
