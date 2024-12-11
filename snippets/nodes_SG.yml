@@ -1,10 +1,1 @@
-proxies:
-- client-fingerprint: chrome
-  name: 10,11|新加坡|@ripaojiedian
-  network: tcp
-  password: 7cd29891-fe78-4f8f-8844-abb31b9d9a75
-  port: 55357
-  server: 0862.4a11.a51c.hongxingdl.vip
-  skip-cert-verify: false
-  sni: mmbiz1.redapricotcloud.com
-  type: trojan
+proxies: []

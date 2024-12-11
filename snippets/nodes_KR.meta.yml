@@ -1,21 +1,4 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10,11|韩国|@ripaojiedian
-  network: ws
-  port: '30000'
-  server: 107.167.30.126
-  servername: www.83645422.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 57f93e92-ebb9-4f16-9bdc-8225d2010995
-  ws-opts:
-    headers:
-      Host: www.83645422.xyz
-    path: /path/240811062813
 - alpn:
   - http/1.1
   client-fingerprint: chrome
