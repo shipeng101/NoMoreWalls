@@ -8,17 +8,3 @@ proxies:
   skip-cert-verify: false
   sni: usla.mjt000.com
   type: trojan
-- name: 12|US_speednode_0039
-  password: f0eb8c92ce8946aaba856569cff1a16b
-  port: 443
-  server: 142.202.48.220
-  skip-cert-verify: true
-  sni: sherasheba.com
-  type: trojan
-- name: 12|US_speednode_0041
-  password: f0eb8c92ce8946aaba856569cff1a16b
-  port: 443
-  server: sherasheba.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
