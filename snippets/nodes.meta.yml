@@ -6,80 +6,107 @@ proxies:
   server: 169.150.210.233
   type: ss
   udp: true
-- cipher: rc4-md5
+- cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-2
+  password: amazonskr05
+  port: 443
+  server: 54.203.0.206
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-3
+  password: amazonskr05
+  port: 443
+  server: 34.215.84.62
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-4
+  password: QWDDvVE9npNurQfA
+  port: 9026
+  server: 217.30.10.18
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-5
+  password: S7KwUu7yBy58S3Ga
+  port: 9042
+  server: 217.30.10.18
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 0|-https://t.me/MrXbin-6
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 107.155.57.11
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-4
-  password: amazonskr05
-  port: 443
-  server: 54.200.220.184
-  type: ss
-- cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-6
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 23.251.121.242
-  type: ss
-  udp: true
-- cipher: rc4-md5
+- cipher: aes-128-gcm
   name: 0|-https://t.me/MrXbin-7
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.193
+  type: ss
+- cipher: rc4-md5
+  name: 0|-https://t.me/MrXbin-8
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 194.5.215.59
   type: ss
   udp: true
-- cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-8
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 193.108.119.230
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-9
-  password: amazonskr05
-  port: 443
-  server: 54.169.221.38
-  type: ss
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-10
-  password: amazonskr05
-  port: 443
-  server: 35.91.173.159
+  password: wfLC2y7rzZyCmuyt
+  port: 9093
+  server: 217.30.10.18
   type: ss
-- name: 0|-https://t.me/MrXbin-108
-  password: aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856
-  port: 49089
-  server: eb0aa4fcce49b0399bc0f109cd6a0296.v1.cac.node-is.green
-  skip-cert-verify: true
-  sni: jp12.bilibili.com
-  type: trojan
   udp: true
-- name: 0|-https://t.me/MrXbin-111
-  password: aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856
-  port: 48539
-  server: 1906e95f0a4e34cca3d5618e3498505d.v1.cac.node-is.green
-  skip-cert-verify: true
-  sni: hk12.bilibili.com
-  type: trojan
-- name: 0|-https://t.me/MrXbin-115
-  password: aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856
-  port: 41790
-  server: ddbfb45e8b47580a5b2c2b5e43fa9213.v1.cac.node-is.green
-  skip-cert-verify: true
-  sni: us1.bilibili.com
-  type: trojan
-- name: 0,12|HK_speednode_0011
-  password: aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856
-  port: 44991
-  server: 0bce075b5465c22ad8c82382a5df74ad.v1.cac.node-is.green
-  skip-cert-verify: true
-  sni: us1.bilibili.com
-  type: trojan
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-11
+  password: M3t2ZEQcMGRWBjRa
+  port: 9011
+  server: 217.30.10.18
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-12
+  password: BwcAUZk8hUFAkDGN
+  port: 9031
+  server: 217.30.10.18
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-13
+  password: U6qnYRhfyDmn8sgn
+  port: 9041
+  server: 217.30.10.18
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 0|-https://t.me/MrXbin-14
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 23.251.121.242
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-15
+  password: rpgbNnU9rDDU4aWZ
+  port: 9094
+  server: 217.30.10.18
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-16
+  password: JdmRK9gMEqFgs8nP
+  port: 9003
+  server: 217.30.10.18
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-17
+  password: rNBfNuuANFCAk7KB
+  port: 9056
+  server: 217.30.10.18
+  type: ss
   udp: true
 - name: 10|tg频道:@ripaojiedian
   port: 4000
@@ -279,6 +306,14 @@ proxies:
   skip-cert-verify: true
   sni: hk12.bilibili.com
   type: trojan
+- name: 12|HK_speednode_0011
+  password: aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856
+  port: 44991
+  server: 0bce075b5465c22ad8c82382a5df74ad.v1.cac.node-is.green
+  skip-cert-verify: true
+  sni: us1.bilibili.com
+  type: trojan
+  udp: true
 - alpn:
   - h2
   - http/1.1
