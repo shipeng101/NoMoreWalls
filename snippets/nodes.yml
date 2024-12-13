@@ -1,36 +1,35 @@
 proxies:
-- cipher: aes-256-cfb
+- cipher: rc4-md5
   name: 0|-https://t.me/MrXbin-1
-  password: c3NtHJ5ujV2tGDfj
-  port: 9084
-  server: 217.30.10.18
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 193.108.119.230
   type: ss
-  udp: true
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-2
-  password: U6qnYRhfyDmn8sgn
-  port: 9041
+  password: TPqX8edgbAURcAMb
+  port: 9079
   server: 217.30.10.18
   type: ss
   udp: true
-- cipher: aes-128-cfb
-  name: 0|-https://t.me/MrXbin-3
-  password: shadowsocks
-  port: 443
-  server: 184.170.241.194
-  type: ss
 - cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-3
+  password: amazonskr05
+  port: 443
+  server: 54.203.0.206
+  type: ss
+- cipher: rc4-md5
   name: 0|-https://t.me/MrXbin-4
-  password: BwcAUZk8hUFAkDGN
-  port: 9031
-  server: 217.30.10.18
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 23.251.121.242
   type: ss
   udp: true
 - cipher: rc4-md5
   name: 0|-https://t.me/MrXbin-5
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
-  server: 107.155.57.11
+  server: 169.150.210.233
   type: ss
   udp: true
 - cipher: aes-256-cfb
@@ -43,102 +42,51 @@ proxies:
   name: 0|-https://t.me/MrXbin-7
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
-  server: 169.150.210.233
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-8
-  password: S7KwUu7yBy58S3Ga
-  port: 9042
-  server: 217.30.10.18
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-9
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 193.108.119.230
-  type: ss
-- cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-10
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 23.251.121.242
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-11
-  password: amazonskr05
-  port: 443
-  server: 18.237.72.225
-  type: ss
-- cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-12
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
   server: 194.5.215.59
   type: ss
   udp: true
-- cipher: aes-256-cfb
+- cipher: rc4-md5
+  name: 0|-https://t.me/MrXbin-8
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 68.183.227.236
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 0|-https://t.me/MrXbin-12
+  obfs: tls1.2_ticket_auth
+  password: Cskw6d
+  port: 13301
+  protocol: auth_aes128_md5
+  protocol-param: 524959:5u4MZ6
+  server: mjk6.cdn.node.a.tddns-ounk.com
+  type: ssr
+- cipher: rc4-md5
   name: 0|-https://t.me/MrXbin-13
-  password: amazonskr05
-  port: 443
-  server: 54.203.0.206
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-15
-  password: JdmRK9gMEqFgs8nP
-  port: 9003
-  server: 217.30.10.18
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-16
-  password: BNmAXXxAHYpTRdzu
-  port: 9020
-  server: 217.30.10.18
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-17
-  password: f63gg8EruDnUrmz4
-  port: 9010
-  server: 217.30.10.18
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-27
   obfs: tls1.2_ticket_auth
   password: Cskw6d
-  port: 13223
+  port: 13305
   protocol: auth_aes128_md5
   protocol-param: 524959:5u4MZ6
-  server: xrbsy1.cdn.node.a.tddns-ounk.com
+  server: mjk6.cdn.node.a.tddns-ounk.com
   type: ssr
-- cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-33
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13221
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: xrbsy1.cdn.node.a.tddns-ounk.com
-  type: ssr
-- alterId: 0
+- alterId: 1
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-53
+  name: 0|-https://t.me/MrXbin-28
   network: ws
   port: 443
-  server: irvideo.cfd
+  server: 23.158.56.39
+  skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  udp: true
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: irvideo.cfd
-    path: /linkws
+      Host: 23.158.56.39
+    path: /linkvws
 - name: 10,11|香港|@ripaojiedian
   network: tcp
   password: DNUMdmnJ
