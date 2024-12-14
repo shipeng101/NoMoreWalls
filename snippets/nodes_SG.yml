@@ -2,6 +2,23 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
+  name: 10,11|新加坡|@ripaojiedian
+  network: ws
+  port: '40000'
+  server: ml01.333210.xyz
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 13364789-a8b2-4bcd-8df7-a794fb6f87e5
+  ws-opts:
+    headers:
+      Host: down.dingtalk.com
+    path: /bby
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
   http-opts:
     headers:
       Host:
@@ -9,7 +26,7 @@ proxies:
     method: GET
     path:
     - /sg
-  name: 10,11|新加坡4|@ripaojiedian
+  name: 10,11|新加坡2|@ripaojiedian
   network: http
   port: '21005'
   server: sg1.tiljkc.top
@@ -18,4 +35,4 @@ proxies:
   tfo: false
   tls: true
   type: vmess
-  uuid: edd1ca31-bdf4-377e-bc3a-76635a33c9cd
+  uuid: 8995f5b8-6ad5-3c29-836f-ec8baa292ba0
