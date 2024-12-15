@@ -1,63 +1,29 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-2
-  password: amazonskr05
-  port: 443
-  server: 13.213.67.37
-  type: ss
-- cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-3
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 79.110.53.169
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-4
+  name: 0|-https://t.me/MrXbin-1
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 51.15.15.82
   type: ss
 - cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-5
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 194.5.215.59
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-6
+  name: 0|-https://t.me/MrXbin-3
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 193.108.119.230
   type: ss
-- cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-7
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13171
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: z5is.cdn.node.a.tddns-ounk.com
-  type: ssr
-- cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-9
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13494
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: xrbsy1.cdn.node.a.tddns-ounk.com
-  type: ssr
-- cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-10
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13497
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: xrbsy1.cdn.node.a.tddns-ounk.com
-  type: ssr
+- cipher: chacha20-ietf
+  name: 0|-https://t.me/MrXbin-4
+  password: asd123456
+  port: 8388
+  server: 137.175.97.159
+  type: ss
+- name: 0|-https://t.me/MrXbin-48
+  password: aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856
+  port: 41288
+  server: 218.190.230.207
+  skip-cert-verify: true
+  sni: hk12.bilibili.com
+  type: trojan
 - name: 10|tg频道:@ripaojiedian
   port: 4000
   server: hk9.ftq.ink
