@@ -15,24 +15,28 @@ proxies:
   server: 36.151.192.203
   skip-cert-verify: true
   type: trojan
+- client-fingerprint: chrome
+  name: 10|🇭🇰 香港5|@ripaojiedian
+  network: ws
+  password: ouo
+  port: 18443
+  server: 18.162.246.4
+  skip-cert-verify: false
+  sni: tr.koiok.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tr.koiok.us.kg
+    path: /?ed=2560
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  http-opts:
-    headers:
-      Host:
-      - urydh.ljricbrd.top
-    method: GET
-    path:
-    - /ljyed
-  name: 10,11|香港6|@ripaojiedian
-  network: http
-  port: '41001'
+  name: 10|🇭🇰 香港6|@ripaojiedian
+  port: 39041
   server: hk1.tiljkc.top
-  servername: urydh.ljricbrd.top
-  skip-cert-verify: true
+  skip-cert-verify: false
   tfo: false
-  tls: true
+  tls: false
   type: vmess
   uuid: 8995f5b8-6ad5-3c29-836f-ec8baa292ba0
 - alterId: 64
@@ -46,6 +50,27 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 11|香港5|@ripaojiedian
+  network: ws
+  password: ouo
+  port: 18443
+  server: 18.162.246.4
+  sni: tr.koiok.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tr.koiok.us.kg
+    path: '%2F%3Fed%3D2560'
+- alterId: 0
+  cipher: auto
+  name: 11|香港6|@ripaojiedian
+  network: tcp
+  port: '39041'
+  server: hk1.tiljkc.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8995f5b8-6ad5-3c29-836f-ec8baa292ba0
 - alterId: 64
   cipher: auto
   name: 11|香港7|@ripaojiedian
