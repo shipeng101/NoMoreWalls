@@ -9,7 +9,7 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: 92dae006-a1bd-3eea-837e-64c8d09ab291
+  uuid: d1063964-2b13-372c-9b45-28f356e844aa
 - alterId: 0
   cipher: auto
   name: 11|新加坡|@ripaojiedian
@@ -19,4 +19,4 @@ proxies:
   servername: ''
   tls: false
   type: vmess
-  uuid: 92dae006-a1bd-3eea-837e-64c8d09ab291
+  uuid: d1063964-2b13-372c-9b45-28f356e844aa
