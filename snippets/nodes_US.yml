@@ -8,27 +8,3 @@ proxies:
   skip-cert-verify: false
   sni: usla.mjt000.com
   type: trojan
-- client-fingerprint: chrome
-  name: 10|🇺🇸 美国2|@ripaojiedian
-  network: ws
-  password: ouo
-  port: 14491
-  server: 65.75.193.154
-  skip-cert-verify: false
-  sni: tr.koiok.us.kg
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tr.koiok.us.kg
-    path: /?ed=2560
-- name: 11|美国2|@ripaojiedian
-  network: ws
-  password: ouo
-  port: 14491
-  server: 65.75.193.154
-  sni: tr.koiok.us.kg
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tr.koiok.us.kg
-    path: '%2F%3Fed%3D2560'
