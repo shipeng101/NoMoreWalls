@@ -2,21 +2,21 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 10|🇸🇬 新加坡|@ripaojiedian
-  port: 29015
-  server: ccc-v3-15.rabbitpro-in-1.com
+  name: 10|🇸🇬 新加坡2|@ripaojiedian
+  port: 34843
+  server: sg1.tiljkc.top
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 4aaca0a5-7d55-3358-81ec-25b5e371ed90
+  uuid: 869760fe-7f4f-320c-b223-697f8e870088
 - alterId: 0
   cipher: auto
-  name: 11|新加坡|@ripaojiedian
+  name: 11|新加坡2|@ripaojiedian
   network: tcp
-  port: '29015'
-  server: ccc-v3-15.rabbitpro-in-1.com
+  port: '34843'
+  server: sg1.tiljkc.top
   servername: ''
   tls: false
   type: vmess
-  uuid: 4aaca0a5-7d55-3358-81ec-25b5e371ed90
+  uuid: 869760fe-7f4f-320c-b223-697f8e870088

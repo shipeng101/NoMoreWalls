@@ -11,21 +11,10 @@ proxies:
   name: 10,11|香港2|@ripaojiedian
   network: tcp
   password: QwwHvrnN
-  port: 25241
-  server: 36.151.192.203
+  port: 36442
+  server: 223.113.54.145
   skip-cert-verify: true
   type: trojan
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10|🇭🇰 香港3|@ripaojiedian
-  port: 39042
-  server: hk1.tiljkc.top
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 2e4e8fd5-5ffa-336c-83a8-d4f1fcf64d46
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -40,9 +29,29 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 10|🇭🇰 香港5|@ripaojiedian
-  port: 29011
-  server: ccc-v3-11.rabbitpro-in-1.com
+  http-opts:
+    headers:
+      Host:
+      - api.teborder.com
+    method: GET
+    path:
+    - /game
+  name: 10,11|香港5|@ripaojiedian
+  network: http
+  port: '41002'
+  server: hk1.tiljkc.top
+  servername: api.teborder.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 869760fe-7f4f-320c-b223-697f8e870088
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇭🇰 香港6|@ripaojiedian
+  port: 29014
+  server: ccc-v3-14.rabbitpro-in-1.com
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -59,16 +68,17 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 11|香港3|@ripaojiedian
-  network: tcp
-  port: '39042'
-  server: hk1.tiljkc.top
-  servername: ''
+  client-fingerprint: chrome
+  name: 10|🇭🇰 香港8|@ripaojiedian
+  port: 41020
+  server: 183.236.51.23
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: 2e4e8fd5-5ffa-336c-83a8-d4f1fcf64d46
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 11|香港4|@ripaojiedian
@@ -81,10 +91,10 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11|香港5|@ripaojiedian
+  name: 11|香港6|@ripaojiedian
   network: tcp
-  port: '29011'
-  server: ccc-v3-11.rabbitpro-in-1.com
+  port: '29014'
+  server: ccc-v3-14.rabbitpro-in-1.com
   servername: ''
   tls: false
   type: vmess
@@ -94,6 +104,16 @@ proxies:
   name: 11|香港7|@ripaojiedian
   network: tcp
   port: '46602'
+  server: 183.236.51.23
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 11|香港8|@ripaojiedian
+  network: tcp
+  port: '41020'
   server: 183.236.51.23
   servername: ''
   tls: false
