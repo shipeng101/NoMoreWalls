@@ -1,5 +1,5 @@
 proxies:
-- name: 12|RU_speednode_0027
+- name: 12|RU_speednode_0020
   network: ws
   password: tg-fq521free
   port: 443

@@ -8,11 +8,23 @@ proxies:
   skip-cert-verify: false
   sni: usla.mjt000.com
   type: trojan
-- name: 12|US_speednode_0034
+- name: 12|US_speednode_0031
   network: ws
   password: tg-fq521free
   port: 443
   server: 198.62.62.67
+  skip-cert-verify: true
+  sni: torjan.xn--xhq44j.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: torjan.xn--xhq44j.eu.org
+    path: /
+- name: 12|US_speednode_0040
+  network: ws
+  password: tg-fq521free
+  port: 443
+  server: 216.24.57.30
   skip-cert-verify: true
   sni: torjan.xn--xhq44j.eu.org
   type: trojan
