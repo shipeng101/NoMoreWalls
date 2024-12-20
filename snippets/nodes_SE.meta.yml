@@ -1,1 +1,17 @@
-proxies: []
+proxies:
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-
+  name: 12|SE_speednode_0019
+  network: grpc
+  port: 2053
+  server: 185.146.173.185
+  servername: Ehhdheh.vshsbsbb-jzjsjb-vdhsh-mahdi-irancel.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 97be46fc-0356-4594-858b-d36fc90bf413

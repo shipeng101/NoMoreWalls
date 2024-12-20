@@ -8,7 +8,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
 - client-fingerprint: chrome
-  name: 10,11|香港2|@ripaojiedian
+  name: 10,11,12|CN_speednode_0004
   network: tcp
   password: QwwHvrnN
   port: 36442
