@@ -1,1 +1,22 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇰🇷 韩国|@ripaojiedian
+  port: 20021
+  server: i.needss.top
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: aa44bc1f-3085-4e33-96e4-fcfc5a18a688
+- alterId: 0
+  cipher: auto
+  name: 11|韩国|@ripaojiedian
+  network: tcp
+  port: '20021'
+  server: i.needss.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aa44bc1f-3085-4e33-96e4-fcfc5a18a688

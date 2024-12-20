@@ -26,37 +26,17 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
+- alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  http-opts:
-    headers:
-      Host:
-      - api.teborder.com
-    method: GET
-    path:
-    - /game
-  name: 10,11|香港5|@ripaojiedian
-  network: http
-  port: '41002'
-  server: hk1.tiljkc.top
-  servername: api.teborder.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 869760fe-7f4f-320c-b223-697f8e870088
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10|🇭🇰 香港6|@ripaojiedian
-  port: 29014
-  server: ccc-v3-14.rabbitpro-in-1.com
+  name: 10|🇭🇰 香港5|@ripaojiedian
+  port: 51704
+  server: 183.236.51.23
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 4aaca0a5-7d55-3358-81ec-25b5e371ed90
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -68,17 +48,17 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
+- alterId: 0
   cipher: auto
   client-fingerprint: chrome
   name: 10|🇭🇰 香港8|@ripaojiedian
-  port: 41020
-  server: 183.236.51.23
+  port: 39041
+  server: hk1.tiljkc.top
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: c1ae98ab-35aa-36bf-b317-857006d2fdfb
 - alterId: 64
   cipher: auto
   name: 11|香港4|@ripaojiedian
@@ -89,16 +69,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 11|香港6|@ripaojiedian
+  name: 11|香港5|@ripaojiedian
   network: tcp
-  port: '29014'
-  server: ccc-v3-14.rabbitpro-in-1.com
+  port: '51704'
+  server: 183.236.51.23
   servername: ''
   tls: false
   type: vmess
-  uuid: 4aaca0a5-7d55-3358-81ec-25b5e371ed90
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 11|香港7|@ripaojiedian
@@ -109,13 +89,13 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
+- alterId: 0
   cipher: auto
   name: 11|香港8|@ripaojiedian
   network: tcp
-  port: '41020'
-  server: 183.236.51.23
+  port: '39041'
+  server: hk1.tiljkc.top
   servername: ''
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: c1ae98ab-35aa-36bf-b317-857006d2fdfb
