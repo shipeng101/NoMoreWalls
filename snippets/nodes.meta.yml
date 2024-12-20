@@ -1,27 +1,14 @@
 proxies:
-- cipher: aes-256-cfb
+- cipher: aes-128-gcm
   name: 0|-https://t.me/MrXbin-1
-  password: rNBfNuuANFCAk7KB
-  port: 9056
-  server: 217.30.10.18
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-2
-  password: amazonskr05
+  password: shadowsocks
   port: 443
-  server: 54.218.229.170
+  server: 149.34.244.82
   type: ss
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-3
-  password: amazonskr05
-  port: 443
-  server: 35.94.51.2
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-4
-  password: S7KwUu7yBy58S3Ga
-  port: 9042
+  password: M3t2ZEQcMGRWBjRa
+  port: 9011
   server: 217.30.10.18
   type: ss
   udp: true
@@ -29,154 +16,78 @@ proxies:
   name: 0|-https://t.me/MrXbin-5
   password: amazonskr05
   port: 443
-  server: 54.201.174.149
+  server: 54.70.176.73
   type: ss
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-6
-  password: amazonskr05
-  port: 443
-  server: 34.222.136.128
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-7
-  password: ueLXVkvh4hckhErQ
-  port: 9060
-  server: 217.30.10.18
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-8
-  password: JdmRK9gMEqFgs8nP
-  port: 9003
-  server: 217.30.10.18
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-9
-  password: Lp27rqyJq72bZsqX
-  port: 9045
-  server: 217.30.10.18
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-10
-  password: amazonskr05
-  port: 443
-  server: 43.203.243.93
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-11
   password: FG5ddLsMPbV5CutE
   port: 9050
   server: 217.30.10.18
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-12
-  password: amazonskr05
-  port: 443
-  server: 3.36.65.244
+  name: 0|-https://t.me/MrXbin-7
+  password: EXN3S3eQpjE7EJu8
+  port: 9027
+  server: 217.30.10.18
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-13
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 45.87.175.181
-  type: ss
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-14
-  password: amazonskr05
-  port: 443
-  server: 43.200.1.13
-  type: ss
-- cipher: aes-128-gcm
-  name: 0|-https://t.me/MrXbin-15
-  password: shadowsocks
-  port: 443
-  server: 149.34.244.82
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-16
+  name: 0|-https://t.me/MrXbin-9
   password: amazonskr05
   port: 443
   server: 34.222.132.123
   type: ss
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-18
+  name: 0|-https://t.me/MrXbin-10
+  password: amazonskr05
+  port: 443
+  server: 3.36.65.244
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-11
+  password: U6qnYRhfyDmn8sgn
+  port: 9041
+  server: 217.30.10.18
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-12
+  password: rpgbNnU9rDDU4aWZ
+  port: 9094
+  server: 217.30.10.18
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-14
   password: amazonskr05
   port: 443
   server: 54.200.220.184
   type: ss
-- cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-20
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13449
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: sjgysy.cdn.node.a.tddns-ounk.com
-  type: ssr
 - cipher: aes-128-cfb
-  name: 0|-https://t.me/MrXbin-21
-  obfs: http_post
-  password: +asd6a5s5df+
-  port: 443
-  protocol: auth_aes128_md5
-  server: nsus3.irundns.net
-  type: ssr
-- cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-22
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13622
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: hfa1.cdn.node.a.tddns-ounk.com
-  type: ssr
-- cipher: aes-128-cfb
-  name: 0|-https://t.me/MrXbin-23
+  name: 0|-https://t.me/MrXbin-17
   obfs: http_post
   password: $$Turb0VPN$$
   port: 443
   protocol: auth_aes128_md5
   server: ssca.irundns.net
   type: ssr
-- cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-24
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13642
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: sjgysy.cdn.node.a.tddns-ounk.com
-  type: ssr
-- cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-25
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13351
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: r97q.cdn.node.a.tddns-ounk.com
-  type: ssr
-- cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-26
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13305
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: mjk6.cdn.node.a.tddns-ounk.com
-  type: ssr
-- cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-33
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13302
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: mjk6.cdn.node.a.tddns-ounk.com
-  type: ssr
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-35
+  network: ws
+  port: 443
+  server: irvideo.cfd
+  tls: true
+  type: vmess
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  ws-opts:
+    headers:
+      Host: irvideo.cfd
+    path: /linkws
 - name: 10|tg频道:@ripaojiedian
   port: 4000
   server: hk9.ftq.ink
