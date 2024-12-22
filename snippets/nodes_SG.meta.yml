@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: 10,11,12|CN_speednode_0003
+  name: 10,11|新加坡|@ripaojiedian
   network: tcp
   password: 9ad5228f-3e01-4353-b717-935272e5f2d6
   port: 13029
