@@ -15,6 +15,22 @@ proxies:
   server: 223.113.54.145
   skip-cert-verify: true
   type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇭🇰 香港3|@ripaojiedian
+  network: ws
+  port: 51201
+  server: b.naiun.node-is.green
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 2d570475-a7a6-4242-b733-d5300305b615
+  ws-opts:
+    headers:
+      Host: live.bilibili.com
+    path: /
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -40,23 +56,6 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 10,11|香港6|@ripaojiedian
-  network: ws
-  port: '30000'
-  server: 170.178.186.12
-  servername: www.59477189.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.59477189.xyz
-    path: /path/240811062813
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
   name: 10|🇭🇰 香港7|@ripaojiedian
   port: 46602
   server: 183.236.51.23
@@ -65,17 +64,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10|🇭🇰 香港8|@ripaojiedian
-  port: 39041
-  server: hk1.tiljkc.top
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 24a13b6a-be32-3c9b-9d71-c3613da5390e
 - alterId: 64
   cipher: auto
   name: 11|香港4|@ripaojiedian
@@ -96,6 +84,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 11|香港6|@ripaojiedian
+  network: ws
+  port: '30000'
+  server: 170.178.186.12
+  servername: www.59477189.xyz
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.59477189.xyz
+    path: /path/240811062813
 - alterId: 64
   cipher: auto
   name: 11|香港7|@ripaojiedian
