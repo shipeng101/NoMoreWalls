@@ -40,6 +40,13 @@ proxies:
     headers:
       Host: 07fd36f0-yuv2ray3131331456346534643.cocefob714.workers.dev
     path: /DdAtLiofda1FCcda?ed=2560
+- name: 12|US_speednode_0015
+  password: UO2beikcWh
+  port: 33261
+  server: 38.59.245.38
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - name: 12|US_speednode_0016
   network: ws
   port: 80
