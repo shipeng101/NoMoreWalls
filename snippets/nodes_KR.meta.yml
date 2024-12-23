@@ -20,3 +20,18 @@ proxies:
   tls: false
   type: vmess
   uuid: b3e95701-dbd0-4a2f-a701-6ec815fb5ad2
+- alpn:
+  - http/1.1
+  name: 12|KR_speednode_0029
+  network: ws
+  port: 10936
+  server: 121.174.111.147
+  servername: kb.lii2010.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898
+  ws-opts:
+    headers:
+      Host: kb.lii2010.us.kg
+    path: /?ed=2560

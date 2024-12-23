@@ -1,8 +1,75 @@
 proxies:
-- name: 12|FR_speednode_0009
+- name: 12|FR_speednode_0014
   password: e8105dfd24414268b6c7652c63731097
+  port: 443
+  server: 108.61.177.251
+  skip-cert-verify: true
+  sni: yournextcareerstep.online
+  type: trojan
+- name: 12|FR_speednode_0016
+  password: 984e400bf5d541b7b0815913fe0c432a
   port: 443
   server: yournextcareerstep.online
   skip-cert-verify: true
   type: trojan
   udp: true
+- alpn:
+  - http/1.1
+  name: 12|FR_speednode_0017
+  network: ws
+  port: 8443
+  server: 129.151.225.228
+  servername: kb.lii2010.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898
+  ws-opts:
+    headers:
+      Host: kb.lii2010.us.kg
+    path: /?ed=2560
+- alpn:
+  - http/1.1
+  name: 12|FR_speednode_0018
+  network: ws
+  port: 443
+  server: 129.151.254.48
+  servername: kb.lii2010.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898
+  ws-opts:
+    headers:
+      Host: kb.lii2010.us.kg
+    path: /?ed=2560
+- alpn:
+  - http/1.1
+  name: 12|FR_speednode_0019
+  network: ws
+  port: 2053
+  server: 129.151.225.228
+  servername: kb.lii2010.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898
+  ws-opts:
+    headers:
+      Host: kb.lii2010.us.kg
+    path: /?ed=2560
+- alpn:
+  - http/1.1
+  name: 12|FR_speednode_0020
+  network: ws
+  port: 443
+  server: 141.145.217.226
+  servername: kb.lii2010.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898
+  ws-opts:
+    headers:
+      Host: kb.lii2010.us.kg
+    path: /?ed=2560

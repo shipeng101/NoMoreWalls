@@ -10,17 +10,29 @@ proxies:
   type: trojan
 - alpn:
   - http/1.1
-  client-fingerprint: chrome
-  name: 12|DE_speednode_0007
+  name: 12|DE_speednode_0012
   network: ws
   port: 443
-  server: 45.63.117.50
-  servername: cpanel3.sassanidempire.com
+  server: 130.61.23.77
+  servername: kb.lii2010.us.kg
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: fcf99985-147b-4c71-c3f2-f448e5a379f1
+  uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898
   ws-opts:
     headers:
-      Host: cpanel3.sassanidempire.com
+      Host: kb.lii2010.us.kg
+    path: /?ed=2560
+- name: 12|DE_speednode_0013
+  network: ws
+  port: 443
+  server: 193.122.58.158
+  servername: de.bolagskontaktstockholm.se
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 1aae9657-c653-495d-e8ad-8ca52916cea8
+  ws-opts:
+    headers:
+      Host: de.bolagskontaktstockholm.se
     path: /ws
