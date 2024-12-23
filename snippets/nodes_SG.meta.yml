@@ -1,34 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  name: 10,11|新加坡|@ripaojiedian
-  network: tcp
-  password: 9ad5228f-3e01-4353-b717-935272e5f2d6
-  port: 13029
-  server: naiu-sg.05vr9nyqg5.download
-  skip-cert-verify: false
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10|🇸🇬 新加坡2|@ripaojiedian
-  port: 50792
-  server: pudvkjvvgdol.xn--fiqs8sjz2bull.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 99266723-0802-4ef4-9d6c-4dc84c2ffa08
-- alterId: 0
-  cipher: auto
-  name: 11|新加坡2|@ripaojiedian
-  network: tcp
-  port: '50792'
-  server: pudvkjvvgdol.xn--fiqs8sjz2bull.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 99266723-0802-4ef4-9d6c-4dc84c2ffa08
 - name: 12|SG_speednode_0011
   network: ws
   port: 443

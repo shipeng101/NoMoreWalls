@@ -1,1 +1,22 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇹🇼 台湾|@ripaojiedian
+  port: 62506
+  server: fiwejniavzoj.xn--fiqs8sjz2bull.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: ea695d03-e64c-4be0-a8ea-6346e286ef60
+- alterId: 0
+  cipher: auto
+  name: 11|台湾|@ripaojiedian
+  network: tcp
+  port: '62506'
+  server: fiwejniavzoj.xn--fiqs8sjz2bull.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ea695d03-e64c-4be0-a8ea-6346e286ef60

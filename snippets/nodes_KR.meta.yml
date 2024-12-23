@@ -1,10 +1,22 @@
 proxies:
-- client-fingerprint: chrome
-  name: 10,11|韩国|@ripaojiedian
-  network: tcp
-  password: 47a91992-6b70-4bb8-8c5f-f9600e0ba2da
-  port: 40801
-  server: r1.xinyo.me
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇰🇷 韩国|@ripaojiedian
+  port: 35384
+  server: 45.94.68.206
   skip-cert-verify: false
-  sni: node.xinyo.vip
-  type: trojan
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: b3e95701-dbd0-4a2f-a701-6ec815fb5ad2
+- alterId: 0
+  cipher: auto
+  name: 11|韩国|@ripaojiedian
+  network: tcp
+  port: '35384'
+  server: 45.94.68.206
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b3e95701-dbd0-4a2f-a701-6ec815fb5ad2
