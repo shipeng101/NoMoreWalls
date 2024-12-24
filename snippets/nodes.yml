@@ -1,17 +1,16 @@
 proxies:
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-1
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 51.15.15.82
+  password: amazonskr05
+  port: 443
+  server: 3.38.212.48
   type: ss
-- cipher: aes-256-cfb
+- cipher: aes-128-cfb
   name: 0|-https://t.me/MrXbin-2
-  password: EXN3S3eQpjE7EJu8
-  port: 9027
-  server: 217.30.10.18
+  password: shadowsocks
+  port: 443
+  server: 184.170.241.194
   type: ss
-  udp: true
 - cipher: rc4-md5
   name: 0|-https://t.me/MrXbin-3
   password: 14fFPrbezE3HDZzsMOr6
@@ -21,144 +20,162 @@ proxies:
   udp: true
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-4
-  password: S7KwUu7yBy58S3Ga
-  port: 9042
-  server: 217.30.10.18
+  password: amazonskr05
+  port: 443
+  server: 43.200.1.13
   type: ss
-  udp: true
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-5
+  password: amazonskr05
+  port: 443
+  server: 34.222.132.123
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-6
   password: amazonskr05
   port: 443
   server: 54.218.229.170
   type: ss
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-6
-  password: fG2artUmHfNT2cX7
-  port: 9018
-  server: 217.30.10.18
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-7
-  password: ZET59LF6DvCC8KVt
-  port: 9005
-  server: 217.30.10.18
+  password: amazonskr05
+  port: 443
+  server: 43.203.243.93
   type: ss
-  udp: true
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-8
-  password: QWDDvVE9npNurQfA
-  port: 9026
-  server: 217.30.10.18
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-9
   password: amazonskr05
   port: 443
-  server: 54.201.174.149
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-10
-  password: amazonskr05
-  port: 443
-  server: 3.35.206.24
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-12
-  password: amazonskr05
-  port: 443
-  server: 3.34.255.220
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-14
-  password: f8npKgNzdkss2ytn
-  port: 9088
-  server: 217.30.10.18
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-15
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  port: 8080
-  server: 45.87.175.171
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-16
-  password: amazonskr05
-  port: 443
-  server: 3.38.212.48
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-17
-  password: amazonskr05
-  port: 443
-  server: 52.79.248.193
+  server: 34.222.136.128
   type: ss
 - cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-18
+  name: 0|-https://t.me/MrXbin-9
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 194.5.215.59
   type: ss
   udp: true
+- cipher: chacha20-ietf
+  name: 0|-https://t.me/MrXbin-10
+  password: asd123456
+  port: 8388
+  server: 103.36.91.32
+  type: ss
 - cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-19
+  name: 0|-https://t.me/MrXbin-11
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 107.155.57.11
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-12
+  password: amazonskr05
+  port: 443
+  server: 18.179.197.216
+  type: ss
+- cipher: rc4-md5
+  name: 0|-https://t.me/MrXbin-13
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 169.150.210.233
   type: ss
   udp: true
-- cipher: aes-128-gcm
-  name: 0|-https://t.me/MrXbin-20
-  password: shadowsocks
-  port: 443
-  server: 212.102.53.193
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-14
+  password: cvII85TrW6n0OGyfpHVS1u
+  port: 8080
+  server: 45.87.175.166
   type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-16
+  password: amazonskr05
+  port: 443
+  server: 52.32.68.164
+  type: ss
+- cipher: rc4-md5
+  name: 0|-https://t.me/MrXbin-17
+  obfs: tls1.2_ticket_auth
+  password: Cskw6d
+  port: 13317
+  protocol: auth_aes128_md5
+  protocol-param: 524959:5u4MZ6
+  server: lld9k6.cdn.node.a.tddns-ounk.com
+  type: ssr
+- cipher: aes-128-cfb
+  name: 0|-https://t.me/MrXbin-20
+  obfs: http_post
+  password: +asd6a5s5df+
+  port: 443
+  protocol: auth_aes128_md5
+  server: nsus3.irundns.net
+  type: ssr
 - cipher: aes-128-cfb
   name: 0|-https://t.me/MrXbin-21
-  password: shadowsocks
-  port: 443
-  server: 184.170.241.194
-  type: ss
-- cipher: aes-128-cfb
-  name: 0|-https://t.me/MrXbin-24
   obfs: http_post
   password: $$Turb0VPN$$
   port: 443
   protocol: auth_aes128_md5
   server: ssca.irundns.net
   type: ssr
+- cipher: rc4-md5
+  name: 0|-https://t.me/MrXbin-24
+  obfs: tls1.2_ticket_auth
+  password: Cskw6d
+  port: 13497
+  protocol: auth_aes128_md5
+  protocol-param: 524959:5u4MZ6
+  server: xrbsy1.cdn.node.a.tddns-ounk.com
+  type: ssr
+- cipher: rc4-md5
+  name: 0|-https://t.me/MrXbin-25
+  obfs: tls1.2_ticket_auth
+  password: Cskw6d
+  port: 13020
+  protocol: auth_aes128_md5
+  protocol-param: 524959:5u4MZ6
+  server: xrbsy1.cdn.node.a.tddns-ounk.com
+  type: ssr
+- cipher: rc4-md5
+  name: 0|-https://t.me/MrXbin-28
+  obfs: tls1.2_ticket_auth
+  password: Cskw6d
+  port: 13229
+  protocol: auth_aes128_md5
+  protocol-param: 524959:5u4MZ6
+  server: xrbsy1.cdn.node.a.tddns-ounk.com
+  type: ssr
+- cipher: rc4-md5
+  name: 0|-https://t.me/MrXbin-36
+  obfs: tls1.2_ticket_auth
+  password: Cskw6d
+  port: 13318
+  protocol: auth_aes128_md5
+  protocol-param: 524959:5u4MZ6
+  server: lld9k6.cdn.node.a.tddns-ounk.com
+  type: ssr
 - alterId: 0
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-36
+  name: 0|-https://t.me/MrXbin-45
   network: ws
-  port: 443
-  server: irvideo.cfd
-  tls: true
+  port: 8049
+  server: us.aik.mom
   type: vmess
-  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  udp: true
+  uuid: 15486dcc-f6e5-411b-acac-d1409375585a
   ws-opts:
     headers:
-      Host: irvideo.cfd
-    path: /linkws
-- name: 0|-https://t.me/MrXbin-49
+      Host: tms.dingtalk.com
+    path: /wada12222
+- name: 0|-https://t.me/MrXbin-55
   password: 71409d3e488548e8bb076d229778f008
   port: 443
   server: 38.99.82.225
   skip-cert-verify: true
   sni: jobsfortheworldtoday.com
   type: trojan
-- name: 0|-https://t.me/MrXbin-50
-  password: 71409d3e488548e8bb076d229778f008
-  port: 443
-  server: jobsfortheworldtoday.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - name: 10,11,12|CN_speednode_0001
   network: tcp
   password: QwwHvrnN
