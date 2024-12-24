@@ -1,1 +1,15 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  name: 10|🇯🇵 日本2|@ripaojiedian
+  password: 60005b16-5e62-4de2-8c27-4df72635e21d
+  port: 52150
+  server: xxfa85toflprzb7rt7-jp.xxfnode.com
+  skip-cert-verify: false
+  sni: xxfa85toflprzb7rt7-jp.xxfnode.com
+  type: trojan
+- name: 11|日本2|@ripaojiedian
+  network: tcp
+  password: 60005b16-5e62-4de2-8c27-4df72635e21d
+  port: 52150
+  server: xxfa85toflprzb7rt7-jp.xxfnode.com
+  type: trojan
