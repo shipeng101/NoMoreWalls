@@ -1,16 +1,8 @@
 proxies:
-- alpn:
-  - http/1.1
-  name: 12|GB_speednode_0023
-  network: ws
+- name: 12|GB_speednode_0011
+  password: 4732adfa16c6450bbef87264e41332db
   port: 443
-  server: 217.163.76.230
-  servername: kb.lii2010.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898
-  ws-opts:
-    headers:
-      Host: kb.lii2010.us.kg
-    path: /?ed=2560
+  server: 172.99.190.180
+  skip-cert-verify: true
+  sni: bangladeshipatri.com
+  type: trojan
