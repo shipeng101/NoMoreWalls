@@ -1,15 +1,22 @@
 proxies:
-- client-fingerprint: chrome
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
   name: 10|🇯🇵 日本2|@ripaojiedian
-  password: 60005b16-5e62-4de2-8c27-4df72635e21d
-  port: 52150
-  server: xxfa85toflprzb7rt7-jp.xxfnode.com
+  port: 38953
+  server: jpp1.pfdsddla.com
   skip-cert-verify: false
-  sni: xxfa85toflprzb7rt7-jp.xxfnode.com
-  type: trojan
-- name: 11|日本2|@ripaojiedian
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 84d83b7e-d390-3aee-901b-257a3a2fe79d
+- alterId: 0
+  cipher: auto
+  name: 11|日本2|@ripaojiedian
   network: tcp
-  password: 60005b16-5e62-4de2-8c27-4df72635e21d
-  port: 52150
-  server: xxfa85toflprzb7rt7-jp.xxfnode.com
-  type: trojan
+  port: '38953'
+  server: jpp1.pfdsddla.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 84d83b7e-d390-3aee-901b-257a3a2fe79d
