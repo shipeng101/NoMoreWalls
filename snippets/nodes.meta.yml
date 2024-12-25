@@ -1,111 +1,101 @@
 proxies:
-- cipher: aes-128-gcm
-  name: 0|-https://t.me/MrXbin-1
-  password: shadowsocks
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-2
+  password: amazonskr05
   port: 443
-  server: 212.102.53.193
+  server: 34.222.136.128
   type: ss
-- cipher: rc4-md5
+- cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-3
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 107.155.57.11
+  password: amazonskr05
+  port: 443
+  server: 43.200.1.13
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-4
+  password: fG2artUmHfNT2cX7
+  port: 9018
+  server: 217.30.10.18
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-6
+  password: ZTqcA3pg0tY0qKKP240BQT
+  port: 48963
+  server: 51.13.115.105
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-7
+  password: 49JPbl6SMH1hDoskOR6irG
+  port: 55939
+  server: 13.79.98.64
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-8
+  password: amazonskr05
+  port: 443
+  server: 18.179.197.216
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-9
+  password: cvII85TrW6n0OGyfpHVS1u
+  port: 8080
+  server: 45.87.175.164
+  type: ss
 - cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-5
+  name: 0|-https://t.me/MrXbin-10
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 194.5.215.59
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-6
-  password: amazonskr05
-  port: 443
-  server: 43.203.243.93
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-23
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  port: 8080
-  server: 45.87.175.199
-  type: ss
-- cipher: chacha20-ietf
-  name: 0|-https://t.me/MrXbin-8
-  password: asd123456
-  port: 8388
-  server: 103.36.91.32
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-10
+  name: 0|-https://t.me/MrXbin-11
   password: amazonskr05
   port: 443
   server: 13.114.67.166
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-15
+  password: 1RWwXhwfAB5gAEozU4G2Pg
+  port: 8080
+  server: 45.87.175.199
+  type: ss
 - cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-11
+  name: 0|-https://t.me/MrXbin-13
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 169.150.210.233
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-12
+  name: 0|-https://t.me/MrXbin-14
   password: amazonskr05
   port: 443
   server: 3.38.212.48
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-13
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: beesyar.org
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-22
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 45.87.175.164
-  type: ss
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-15
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 51.15.15.82
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 0|-https://t.me/MrXbin-16
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 45.87.175.181
+  password: cp8pRSUAyLhTfVWH
+  port: 9064
+  server: 217.30.10.18
   type: ss
-- cipher: aes-256-cfb
+  udp: true
+- cipher: rc4-md5
   name: 0|-https://t.me/MrXbin-17
-  password: amazonskr05
-  port: 443
-  server: 43.200.1.13
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-19
-  password: cvII85TrW6n0OGyfpHVS1u
+  password: 14fFPrbezE3HDZzsMOr6
   port: 8080
-  server: 45.87.175.166
+  server: 107.155.57.11
   type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-20
-  password: amazonskr05
+  udp: true
+- cipher: aes-128-gcm
+  name: 0|-https://t.me/MrXbin-18
+  password: shadowsocks
   port: 443
-  server: 34.222.136.128
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-21
-  password: amazonskr05
-  port: 443
-  server: 52.68.44.53
+  server: 212.102.53.193
   type: ss
 - cipher: aes-128-cfb
-  name: 0|-https://t.me/MrXbin-32
+  name: 0|-https://t.me/MrXbin-22
   obfs: http_post
   password: +asd6a5s5df+
   port: 443
@@ -113,47 +103,57 @@ proxies:
   server: nsus3.irundns.net
   type: ssr
 - cipher: aes-128-cfb
-  name: 0|-https://t.me/MrXbin-34
+  name: 0|-https://t.me/MrXbin-24
   obfs: http_post
   password: $$Turb0VPN$$
   port: 443
   protocol: auth_aes128_md5
   server: ssca.irundns.net
   type: ssr
-- name: 0|-https://t.me/MrXbin-60
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-38
+  port: 38585
+  server: 46.38.146.68
+  type: vmess
+  uuid: e3cc1286-8401-4b1f-b110-dac3a2b15050
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-42
+  port: 32718
+  server: 185.29.223.164
+  type: vmess
+  uuid: c398fa1f-fac5-4d76-9452-f0aee44cbc66
+- name: 0,12|US_speednode_0033
   password: ypDt8RkT7J
   port: 43118
   server: 89.187.181.172
   skip-cert-verify: true
   sni: egcmi.phooeyunfold.com
   type: trojan
-- name: 0|-https://t.me/MrXbin-61
+- name: 0|-https://t.me/MrXbin-51
   password: 71409d3e488548e8bb076d229778f008
   port: 443
   server: jobsfortheworldtoday.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 0|-https://t.me/MrXbin-62
-  password: 71409d3e488548e8bb076d229778f008
-  port: 443
-  server: 38.99.82.225
-  skip-cert-verify: true
-  sni: jobsfortheworldtoday.com
-  type: trojan
-- name: 10,12|HK_speednode_0012
+- name: 10,12|HK_speednode_0013
   port: 4000
   server: ftq.ink
   tls: true
   type: http
-- name: 10,11,12|CN_speednode_0001
+- name: 10,11|香港|@ripaojiedian
   network: tcp
-  password: QwwHvrnN
+  password: DNUMdmnJ
   port: 42395
   server: 36.151.192.239
   skip-cert-verify: true
   type: trojan
-  udp: true
 - name: 10,11|香港2|@ripaojiedian
   network: tcp
   password: QwwHvrnN
@@ -377,20 +377,7 @@ proxies:
     headers:
       Host: maikeaxiang.me
     path: '%2F%3Fed%3D2560'
-- name: 12|DE_speednode_0006
-  network: ws
-  port: 443
-  server: 193.122.58.158
-  servername: de.bolagskontaktstockholm.se
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 1aae9657-c653-495d-e8ad-8ca52916cea8
-  ws-opts:
-    headers:
-      Host: de.bolagskontaktstockholm.se
-    path: /ws
-- name: 12|DE_speednode_0007
+- name: 12|DE_speednode_0008
   network: ws
   port: 443
   server: 212.224.93.93
@@ -403,65 +390,106 @@ proxies:
     headers:
       Host: blog.codegethub.org
     path: /ws@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel
-- name: 12|FI_speednode_0008
-  network: ws
-  port: 45493
-  server: 37.27.220.2
-  servername: torob.com
+- name: 12|FI_speednode_0009
+  network: tcp
+  port: 38142
+  server: 212.237.218.123
   skip-cert-verify: false
   tls: false
   type: vless
-  uuid: 4bc75123-5ca4-45c7-9206-6151490879d7
-  ws-opts:
-    headers:
-      Host: torob.com
-    path: /roshd
-- name: 12|GB_speednode_0011
-  password: 4732adfa16c6450bbef87264e41332db
-  port: 443
-  server: 172.99.190.180
-  skip-cert-verify: true
-  sni: bangladeshipatri.com
-  type: trojan
-- name: 12|HK_speednode_0013
+  uuid: 26721978-890e-4946-bafa-cb03c9ff7f4a
+- name: 12|HK_speednode_0012
   port: 4000
   server: hk9.ftq.ink
   tls: true
   type: http
-- name: 12|SG_speednode_0021
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: connectwithemployers.online
+- name: 12|US_speednode_0034
+  password: ypDt8RkT7J
+  port: 43118
+  server: 89.187.181.172
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: 12|US_speednode_0035
+  network: ws
+  port: 2087
+  server: 199.34.228.48
+  servername: vv.cscfwoker.fun
   skip-cert-verify: false
-  type: trojan
-- name: 12|SG_speednode_0022
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  tls: true
+  type: vless
+  uuid: c9577b4c-d52d-4eea-b2ab-6f855fa18ae5
+  ws-opts:
+    headers:
+      Host: vv.cscfwoker.fun
+    path: /?ed=2560
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: 12|US_speednode_0036
+  network: ws
+  port: 8443
+  server: 108.165.152.38
+  servername: vv.cscfwoker.fun
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: c9577b4c-d52d-4eea-b2ab-6f855fa18ae5
+  ws-opts:
+    headers:
+      Host: vv.cscfwoker.fun
+    path: /?ed=2560
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: 12|US_speednode_0037
+  network: ws
+  port: 2053
+  server: 108.165.152.241
+  servername: vv.cscfwoker.fun
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: c9577b4c-d52d-4eea-b2ab-6f855fa18ae5
+  ws-opts:
+    headers:
+      Host: vv.cscfwoker.fun
+    path: /?ed=2560
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: 12|US_speednode_0038
+  network: ws
+  port: 2096
+  server: 167.68.4.10
+  servername: vv.cscfwoker.fun
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: c9577b4c-d52d-4eea-b2ab-6f855fa18ae5
+  ws-opts:
+    headers:
+      Host: vv.cscfwoker.fun
+    path: /?ed=2560
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: 12|US_speednode_0039
+  network: ws
   port: 443
-  server: 139.59.119.143
-  skip-cert-verify: true
-  sni: connectwithemployers.online
-  type: trojan
-- name: 12|VN_speednode_0024
-  password: 25a0ffa0-725c-4d6f-b0d5-c74579753075
-  port: 443
-  server: Cmc3.5gsieuvip.vn
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 12|VN_speednode_0025
-  password: 25a0ffa0-725c-4d6f-b0d5-c74579753075
-  port: 443
-  server: cmc3.5gsieuvip.vn
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 12|VN_speednode_0026
-  password: 25a0ffa0-725c-4d6f-b0d5-c74579753075
-  port: 443
-  server: 103.173.66.155
-  skip-cert-verify: true
-  type: trojan
-  udp: true
+  server: 216.24.57.207
+  servername: vv.cscfwoker.fun
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: c9577b4c-d52d-4eea-b2ab-6f855fa18ae5
+  ws-opts:
+    headers:
+      Host: vv.cscfwoker.fun
+    path: /?ed=2560
 - alterId: 0
   cipher: auto
   name: 13|d*********g.com_2
