@@ -1,1 +1,8 @@
-proxies: []
+proxies:
+- name: 12|GB_speednode_0011
+  password: 4732adfa16c6450bbef87264e41332db
+  port: 443
+  server: 172.99.190.180
+  skip-cert-verify: true
+  sni: bangladeshipatri.com
+  type: trojan
