@@ -1,12 +1,6 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-1
-  password: amazonskr05
-  port: 443
-  server: 52.79.248.193
-  type: ss
 - cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-2
+  name: 0|-https://t.me/MrXbin-1
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 169.150.210.233
@@ -16,20 +10,21 @@ proxies:
   name: 0|-https://t.me/MrXbin-3
   password: amazonskr05
   port: 443
-  server: 43.200.1.13
+  server: 52.32.68.164
   type: ss
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-4
   password: amazonskr05
   port: 443
-  server: 43.203.122.162
+  server: 3.38.212.48
   type: ss
-- cipher: aes-256-cfb
+- cipher: rc4-md5
   name: 0|-https://t.me/MrXbin-5
-  password: amazonskr05
-  port: 443
-  server: 3.35.206.24
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 194.5.215.59
   type: ss
+  udp: true
 - cipher: rc4-md5
   name: 0|-https://t.me/MrXbin-6
   password: 14fFPrbezE3HDZzsMOr6
@@ -37,58 +32,63 @@ proxies:
   server: 79.110.53.169
   type: ss
   udp: true
-- cipher: aes-256-cfb
+- cipher: chacha20-ietf-poly1305
   name: 0|-https://t.me/MrXbin-7
-  password: amazonskr05
-  port: 443
-  server: 52.79.52.119
+  password: 49JPbl6SMH1hDoskOR6irG
+  port: 55939
+  server: 13.79.98.64
   type: ss
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-8
   password: amazonskr05
   port: 443
-  server: 52.68.44.53
+  server: 3.35.206.24
   type: ss
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-9
-  password: BwcAUZk8hUFAkDGN
-  port: 9031
-  server: 217.30.10.18
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-10
-  password: amazonskr05
-  port: 443
-  server: 18.179.197.216
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-11
   password: amazonskr05
   port: 443
   server: 13.114.67.166
   type: ss
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-12
+  name: 0|-https://t.me/MrXbin-10
   password: amazonskr05
   port: 443
-  server: 43.203.243.93
+  server: 52.79.52.119
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-11
+  password: amazonskr05
+  port: 443
+  server: 34.222.136.128
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-14
+  name: 0|-https://t.me/MrXbin-13
   password: cvII85TrW6n0OGyfpHVS1u
+  port: 8080
+  server: 45.87.175.178
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-14
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 51.15.15.82
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-16
+  password: 4a2rfixophdjffa8KVA4Aa
   port: 8080
   server: 45.87.175.181
   type: ss
-- cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-15
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 107.155.57.11
+- cipher: chacha20-ietf
+  name: 0|-https://t.me/MrXbin-17
+  password: asd123456
+  port: 8388
+  server: 103.36.91.32
   type: ss
-  udp: true
 - cipher: aes-128-cfb
-  name: 0|-https://t.me/MrXbin-21
+  name: 0|-https://t.me/MrXbin-23
   obfs: http_post
   password: $$Turb0VPN$$
   port: 443
@@ -96,41 +96,74 @@ proxies:
   server: ssca.irundns.net
   type: ssr
 - cipher: aes-128-cfb
-  name: 0|-https://t.me/MrXbin-22
+  name: 0|-https://t.me/MrXbin-24
   obfs: http_post
   password: +asd6a5s5df+
   port: 443
   protocol: auth_aes128_md5
   server: nsus3.irundns.net
   type: ssr
-- cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-26
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13303
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: mjk6.cdn.node.a.tddns-ounk.com
-  type: ssr
-- cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-33
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13305
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: mjk6.cdn.node.a.tddns-ounk.com
-  type: ssr
 - alterId: 0
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-40
-  port: 32718
-  server: 185.29.223.164
+  name: 0|-https://t.me/MrXbin-37
+  network: ws
+  port: 443
+  server: sg25.jnstore.biz.id
+  servername: sg25.jnstore.biz.id
+  skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: c398fa1f-fac5-4d76-9452-f0aee44cbc66
-- name: 10,12|HK_speednode_0013
+  uuid: 1d1c1d94-6987-4658-a4dc-8821a30fe7e0
+  ws-opts:
+    headers:
+      Host: sg25.jnstore.biz.id
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 0|-https://t.me/MrXbin-38
+  network: http
+  port: 34728
+  server: 149.104.15.104
+  type: vmess
+  uuid: c94a21b5-43f6-477d-82a6-cdae1de397c3
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-46
+  network: ws
+  port: 29025
+  server: 194.87.69.52
+  servername: 194.87.69.52
+  skip-cert-verify: true
+  type: vmess
+  udp: true
+  uuid: b0c478e9-972f-4af6-aadb-f4f6e457e35f
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-50
+  network: ws
+  port: 443
+  server: irvideo.cfd
+  tls: true
+  type: vmess
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  ws-opts:
+    headers:
+      Host: irvideo.cfd
+    path: /linkws
+- name: 10,12|HK_speednode_0014
   port: 4000
   server: ftq.ink
   tls: true
@@ -367,7 +400,31 @@ proxies:
   tls: false
   type: vmess
   uuid: 426d4ed6-fde6-3751-9a5b-ec4220c52abb
-- name: 12|DE_speednode_0008
+- name: 12|CN_speednode_0004
+  password: QwwHvrnN
+  port: 42395
+  server: 36.151.192.239
+  skip-cert-verify: true
+  type: trojan
+- name: 12|CN_speednode_0007
+  password: 38571ca6-6692-4559-b901-0bc5826b7661
+  port: 60194
+  server: ru0195.alibabaokz.com
+  skip-cert-verify: true
+  sni: ru0195.alibabaokz.com
+  type: trojan
+- alpn:
+  - h2
+  name: 12|DE_speednode_0008
+  network: tcp
+  port: 8443
+  server: 89.187.169.71
+  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6ff213b8-ccc7-4b5a-b4aa-37f7b792a1f1
+- name: 12|DE_speednode_0010
   network: ws
   port: 443
   server: 212.224.93.93
@@ -380,113 +437,65 @@ proxies:
     headers:
       Host: blog.codegethub.org
     path: /ws@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel
-- name: 12|FI_speednode_0009
+- alpn:
+  - h2
+  - http/1.1
+  name: 12|FR_speednode_0011
   network: tcp
-  port: 38142
-  server: 212.237.218.123
+  port: 443
+  server: en.linceedab.com
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vless
-  uuid: 26721978-890e-4946-bafa-cb03c9ff7f4a
-- name: 12|HK_speednode_0012
+  uuid: 24f7f8e5-dbe5-4cde-e018-2b74a00b6d69
+- alpn:
+  - h2
+  - http/1.1
+  name: 12|FR_speednode_0012
+  network: tcp
+  port: 443
+  server: 57.128.178.253
+  servername: en.linceedab.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 24f7f8e5-dbe5-4cde-e018-2b74a00b6d69
+- name: 12|HK_speednode_0015
   port: 4000
   server: hk9.ftq.ink
   tls: true
   type: http
-- name: 12|US_speednode_0033
-  password: ypDt8RkT7J
-  port: 43118
-  server: 89.187.181.172
-  skip-cert-verify: true
-  sni: egcmi.phooeyunfold.com
-  type: trojan
-- name: 12|US_speednode_0034
-  password: ypDt8RkT7J
-  port: 43118
-  server: 89.187.181.172
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: random
-  name: 12|US_speednode_0035
-  network: ws
-  port: 2087
-  server: 199.34.228.48
-  servername: vv.cscfwoker.fun
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: c9577b4c-d52d-4eea-b2ab-6f855fa18ae5
-  ws-opts:
-    headers:
-      Host: vv.cscfwoker.fun
-    path: /?ed=2560
-- alpn:
-  - http/1.1
-  client-fingerprint: random
-  name: 12|US_speednode_0036
-  network: ws
-  port: 8443
-  server: 108.165.152.38
-  servername: vv.cscfwoker.fun
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: c9577b4c-d52d-4eea-b2ab-6f855fa18ae5
-  ws-opts:
-    headers:
-      Host: vv.cscfwoker.fun
-    path: /?ed=2560
-- alpn:
-  - http/1.1
-  client-fingerprint: random
-  name: 12|US_speednode_0037
-  network: ws
-  port: 2053
-  server: 108.165.152.241
-  servername: vv.cscfwoker.fun
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: c9577b4c-d52d-4eea-b2ab-6f855fa18ae5
-  ws-opts:
-    headers:
-      Host: vv.cscfwoker.fun
-    path: /?ed=2560
-- alpn:
-  - http/1.1
-  client-fingerprint: random
-  name: 12|US_speednode_0038
-  network: ws
-  port: 2096
-  server: 167.68.4.10
-  servername: vv.cscfwoker.fun
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: c9577b4c-d52d-4eea-b2ab-6f855fa18ae5
-  ws-opts:
-    headers:
-      Host: vv.cscfwoker.fun
-    path: /?ed=2560
-- alpn:
-  - http/1.1
-  client-fingerprint: random
-  name: 12|US_speednode_0039
-  network: ws
+- name: 12|MD_speednode_0017
+  network: tcp
   port: 443
-  server: 216.24.57.207
-  servername: vv.cscfwoker.fun
+  server: 185.235.243.133
+  servername: tr-s.xor-vpn.ru
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: c9577b4c-d52d-4eea-b2ab-6f855fa18ae5
+  uuid: 64a1796c-95f8-40e4-9a56-825823212648
+- name: 12|UA_speednode_0038
+  network: tcp
+  port: 443
+  server: 5.188.6.73
+  servername: 005188006073.sec1org.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 7582e721-8c32-4fb1-8669-b3fae590f3eb
+- name: 12|US_speednode_0039
+  network: ws
+  port: 8880
+  server: 216.24.57.130
+  servername: mohsenfitshr.wibibin259.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 1b6ae0f5-01dc-4b96-bca9-31c672dcf0aa
   ws-opts:
     headers:
-      Host: vv.cscfwoker.fun
-    path: /?ed=2560
+      Host: mohsenfitshr.wibibin259.workers.dev
+    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
 - alterId: 0
   cipher: auto
   name: 13|d*********g.com_2
