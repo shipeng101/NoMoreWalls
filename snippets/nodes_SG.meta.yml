@@ -16,3 +16,17 @@ proxies:
     headers:
       Host: amd.al
     path: /?ed=2048
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 12|SG_speednode_0038
+  network: tcp
+  port: 443
+  server: 165.22.50.149
+  servername: zoom.us
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 57252ea4-602b-4210-9a6c-f1588ea07f04
