@@ -9,7 +9,16 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: 426d4ed6-fde6-3751-9a5b-ec4220c52abb
+  uuid: 4f357993-53e3-33d8-8ed7-0c58f87f7fa3
+- client-fingerprint: chrome
+  name: 10,11|日本4|@ripaojiedian
+  network: tcp
+  password: 2add6241-8fe8-3922-8347-da25e8ced601
+  port: 50001
+  server: 120.233.26.140
+  skip-cert-verify: false
+  sni: jpcn2.doubledou.icu
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 11|日本2|@ripaojiedian
@@ -19,4 +28,4 @@ proxies:
   servername: ''
   tls: false
   type: vmess
-  uuid: 426d4ed6-fde6-3751-9a5b-ec4220c52abb
+  uuid: 4f357993-53e3-33d8-8ed7-0c58f87f7fa3
