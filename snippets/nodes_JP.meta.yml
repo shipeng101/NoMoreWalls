@@ -11,6 +11,15 @@ proxies:
   type: vmess
   uuid: 2c610eac-882d-3944-a7c4-674c033f0073
 - client-fingerprint: chrome
+  name: 10,11,12|JP_speednode_0037
+  network: tcp
+  password: 13e7f6f8-4ec2-4060-a1b2-e78eba835ab2
+  port: 12187
+  server: xj.cokecloud.top
+  skip-cert-verify: false
+  sni: xj.cokecloud.top
+  type: trojan
+- client-fingerprint: chrome
   name: 10,11|日本4|@ripaojiedian
   network: tcp
   password: 2add6241-8fe8-3922-8347-da25e8ced601
