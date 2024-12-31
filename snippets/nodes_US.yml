@@ -11,23 +11,3 @@ proxies:
   server: console.02.aliyun.aq.kunlunaqs.com
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  http-opts:
-    headers:
-      Host:
-      - api.teborder.com
-    method: GET
-    path:
-    - /qfubCCSCeI
-  name: 10,11|美国2|@ripaojiedian
-  network: http
-  port: '42122'
-  server: shcm.pfdsddla.com
-  servername: api.teborder.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 2c610eac-882d-3944-a7c4-674c033f0073
