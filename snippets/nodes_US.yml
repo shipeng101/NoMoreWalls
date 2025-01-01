@@ -1,13 +1,1 @@
-proxies:
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 10|🇺🇸 美国|@ripaojiedian
-  password: 3938bfae997974860251
-  plugin: obfs
-  plugin-opts:
-    host: 215996dd9f1c3db1e54b.microsoft.com
-    mode: http
-  port: 45938
-  server: console.02.aliyun.aq.kunlunaqs.com
-  tfo: false
-  type: ss
+proxies: []
