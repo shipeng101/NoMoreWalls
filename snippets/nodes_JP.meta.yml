@@ -1,10 +1,1 @@
-proxies:
-- client-fingerprint: chrome
-  name: 10,11|日本|@ripaojiedian
-  network: tcp
-  password: '!!str 3723507166611775488'
-  port: 443
-  server: fleet-weevil.boa152.lol
-  skip-cert-verify: false
-  sni: fleet-weevil.boa152.lol
-  type: trojan
+proxies: []

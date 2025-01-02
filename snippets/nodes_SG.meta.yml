@@ -16,6 +16,15 @@ proxies:
     headers:
       Host: amd.al
     path: /?ed=2048
+- client-fingerprint: chrome
+  name: 10,11|新加坡2|@ripaojiedian
+  network: tcp
+  password: '!!str 3723507166611775488'
+  port: 443
+  server: whole-foxhound.boa152.lol
+  skip-cert-verify: false
+  sni: whole-foxhound.boa152.lol
+  type: trojan
 - name: 12|SG_speednode_0084
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
