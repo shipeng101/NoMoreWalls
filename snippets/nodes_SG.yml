@@ -1,27 +1,26 @@
 proxies:
+- name: 10,11|新加坡2|@ripaojiedian
+  network: tcp
+  password: '!!str 3723507166611775488'
+  port: 443
+  server: major-reindeer.boa152.lol
+  skip-cert-verify: false
+  sni: major-reindeer.boa152.lol
+  tfo: false
+  type: trojan
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 10,11|新加坡|@ripaojiedian
+  name: 10,11|新加坡3|@ripaojiedian
   network: ws
-  port: '80'
-  server: www.aetv.com
+  port: '16618'
+  server: yes.mojcn.com
   servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: beb7d098-48ba-4be8-a47a-758bf3c470b8
+  uuid: 5586eb05-1e5c-4b27-a276-86311547b95e
   ws-opts:
     headers:
-      Host: amd.al
-    path: /?ed=2048
-- client-fingerprint: chrome
-  name: 10,11|新加坡2|@ripaojiedian
-  network: tcp
-  password: '!!str 3723507166611775488'
-  port: 443
-  server: whole-foxhound.boa152.lol
-  skip-cert-verify: false
-  sni: whole-foxhound.boa152.lol
-  type: trojan
+      Host: ffd09e29d76243d0d6b0b7e5cb077bb0.mobgslb.tbcache.com
+    path: /
