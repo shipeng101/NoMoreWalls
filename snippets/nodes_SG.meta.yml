@@ -1,26 +1,10 @@
 proxies:
-- name: 10,11|新加坡2|@ripaojiedian
+- client-fingerprint: chrome
+  name: 10,11|新加坡2|@ripaojiedian
   network: tcp
   password: '!!str 3723507166611775488'
   port: 443
   server: major-reindeer.boa152.lol
   skip-cert-verify: false
   sni: major-reindeer.boa152.lol
-  tfo: false
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 10,11|新加坡3|@ripaojiedian
-  network: ws
-  port: '16618'
-  server: yes.mojcn.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 5586eb05-1e5c-4b27-a276-86311547b95e
-  ws-opts:
-    headers:
-      Host: ffd09e29d76243d0d6b0b7e5cb077bb0.mobgslb.tbcache.com
-    path: /

@@ -1,25 +1,10 @@
 proxies:
-- name: 10|🇯🇵 日本|@ripaojiedian
-  network: ws
-  password: ouo
+- client-fingerprint: chrome
+  name: 10,11|日本3|@ripaojiedian
+  network: tcp
+  password: '!!str 3723507166611775488'
   port: 443
-  server: 18.183.158.211
+  server: smiling-marmoset.boa152.lol
   skip-cert-verify: false
-  sni: tr.koxok.us.kg
-  tfo: false
+  sni: smiling-marmoset.boa152.lol
   type: trojan
-  ws-opts:
-    headers:
-      Host: tr.koxok.us.kg
-    path: /?ed=2560
-- name: 11|日本|@ripaojiedian
-  network: ws
-  password: ouo
-  port: 443
-  server: 18.183.158.211
-  sni: tr.koxok.us.kg
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tr.koxok.us.kg
-    path: '%2F%3Fed%3D2560'
