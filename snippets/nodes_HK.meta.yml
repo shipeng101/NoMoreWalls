@@ -52,17 +52,6 @@ proxies:
   server: console.02.aliyun.aq.kunlunaqs.com
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10|🇭🇰 香港8|@ripaojiedian
-  port: 54675
-  server: 103.149.183.178
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 3a907956-f668-4e6b-ea03-0949f0c9c0a5
 - client-fingerprint: chrome
   name: 10,11|香港9|@ripaojiedian
   network: tcp
@@ -102,16 +91,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11|香港8|@ripaojiedian
-  network: tcp
-  port: '54675'
-  server: 103.149.183.178
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3a907956-f668-4e6b-ea03-0949f0c9c0a5
 - name: 12|HK_speednode_0046
   port: 4000
   server: hk9.ftq.ink
