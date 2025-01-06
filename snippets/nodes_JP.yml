@@ -25,6 +25,13 @@ proxies:
     headers:
       Host: jp1.runjustfast.com
     path: /21a64xdea04c
+- name: 12|JP_speednode_0044
+  password: 243eab52-9ac1-405c-887c-eb112c0985b8
+  port: 443
+  server: 74.226.136.204
+  skip-cert-verify: true
+  sni: us01.trojanyyds.xyz
+  type: trojan
 - name: 12|JP_speednode_0045
   password: 243eab52-9ac1-405c-887c-eb112c0985b8
   port: 443
