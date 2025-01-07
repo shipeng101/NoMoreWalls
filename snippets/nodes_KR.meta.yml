@@ -1,10 +1,24 @@
 proxies:
-- client-fingerprint: chrome
-  name: 10,11|韩国2|@ripaojiedian
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 10|🇰🇷 韩国|@ripaojiedian
+  password: qwerREWQ@@
+  port: 58368
+  server: p199.panda003.net
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 10|🇰🇷 韩国特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.114.140.185
+  tfo: false
+  type: ss
+- name: 11|韩国2|@ripaojiedian
   network: tcp
   password: '!!str 3723507166611775488'
   port: 443
   server: super-goblin.treefrog761.one
-  skip-cert-verify: false
   sni: super-goblin.treefrog761.one
   type: trojan
