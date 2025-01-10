@@ -10,6 +10,22 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇺🇸 美国3|@ripaojiedian
+  network: ws
+  port: 4431
+  server: jp4.sdwan.day
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: fade2b35-7872-442e-a54e-6ccf9b970476
+  ws-opts:
+    headers:
+      Host: jp4.sdwan.day
+    path: /stream
 - alterId: 64
   cipher: auto
   name: 11|美国|@ripaojiedian
@@ -20,6 +36,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11|美国3|@ripaojiedian
+  network: ws
+  port: '4431'
+  server: jp4.sdwan.day
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: fade2b35-7872-442e-a54e-6ccf9b970476
+  ws-opts:
+    headers:
+      Host: ''
+    path: /stream
 - alpn:
   - h2
   - http/1.1

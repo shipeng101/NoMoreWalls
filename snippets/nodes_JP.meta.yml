@@ -1,4 +1,40 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇯🇵 日本3|@ripaojiedian
+  network: ws
+  port: 443
+  server: tky1.sdwan.day
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: fade2b35-7872-442e-a54e-6ccf9b970476
+  ws-opts:
+    headers:
+      Host: tky1.sdwan.day
+    path: /name
+- alterId: 0
+  cipher: auto
+  name: 11|日本3|@ripaojiedian
+  network: ws
+  port: '443'
+  server: tky1.sdwan.day
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: fade2b35-7872-442e-a54e-6ccf9b970476
+  ws-opts:
+    headers:
+      Host: ''
+    path: /name
+- name: 12|JP_speednode_0053
+  password: c4843eba-b070-403f-b43f-ef1ef7db571e
+  port: 443
+  server: jp.lydurlclub.top
+  skip-cert-verify: true
+  type: trojan
 - name: 12|JP_speednode_0054
   network: ws
   port: 443
@@ -12,6 +48,12 @@ proxies:
     headers:
       Host: ssvv.esslh.filegear-sg.me
     path: /?ed=2560
+- name: 12|JP_speednode_0055
+  password: c4843eba-b070-403f-b43f-ef1ef7db571e
+  port: 443
+  server: usa.lydurlclub.top
+  skip-cert-verify: true
+  type: trojan
 - alpn:
   - h2
   - http/1.1
