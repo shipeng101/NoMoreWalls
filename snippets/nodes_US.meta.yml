@@ -1,55 +1,18 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
+- client-fingerprint: chrome
   name: 10|🇺🇸 美国|@ripaojiedian
-  port: 52112
-  server: 183.236.51.23
+  password: 243eab52-9ac1-405c-887c-eb112c0985b8
+  port: 443
+  server: sg02.trojanyyds.xyz
   skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10|🇺🇸 美国3|@ripaojiedian
-  network: ws
-  port: 4431
-  server: jp4.sdwan.day
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: fade2b35-7872-442e-a54e-6ccf9b970476
-  ws-opts:
-    headers:
-      Host: jp4.sdwan.day
-    path: /stream
-- alterId: 64
-  cipher: auto
-  name: 11|美国|@ripaojiedian
+  sni: sg02.trojanyyds.xyz
+  type: trojan
+- name: 11|美国|@ripaojiedian
   network: tcp
-  port: '52112'
-  server: 183.236.51.23
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11|美国3|@ripaojiedian
-  network: ws
-  port: '4431'
-  server: jp4.sdwan.day
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: fade2b35-7872-442e-a54e-6ccf9b970476
-  ws-opts:
-    headers:
-      Host: ''
-    path: /stream
+  password: 243eab52-9ac1-405c-887c-eb112c0985b8
+  port: 443
+  server: sg02.trojanyyds.xyz
+  type: trojan
 - name: 12|US_speednode_0016
   network: ws
   port: 80
