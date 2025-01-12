@@ -1,4 +1,28 @@
 proxies:
+- client-fingerprint: chrome
+  name: 10|🇯🇵 日本|@ripaojiedian
+  password: e279c494-c426-443a-a034-a04516409242
+  port: 13012
+  server: naiu-jp.05vr9nyqg5.download
+  skip-cert-verify: false
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
+- client-fingerprint: chrome
+  name: 10|🇯🇵 日本2|@ripaojiedian
+  password: 2ff730d5-567f-4800-8c76-5d9b07079eed
+  port: 57468
+  server: lm.kaiqsz.com
+  skip-cert-verify: false
+  sni: yg01.redapricotcloud.com
+  type: trojan
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 10|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 3.35.17.138
+  tfo: false
+  type: ss
 - name: 12|JP_speednode_0008
   network: ws
   password: SSorg
