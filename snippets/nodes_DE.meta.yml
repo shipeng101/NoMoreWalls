@@ -1,22 +1,47 @@
 proxies:
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  http-opts:
+- name: 12|DE_speednode_0013
+  password: '!!str 3723507166611775488'
+  port: 443
+  server: ample-cockatoo.boa152.lol
+  skip-cert-verify: false
+  sni: ample-cockatoo.boa152.lol
+  type: trojan
+- name: 12|DE_speednode_0014
+  password: '!!str 3723507166611775488'
+  port: 443
+  server: 80.240.112.167
+  skip-cert-verify: false
+  sni: ample-cockatoo.boa152.lol
+  type: trojan
+- http-opts:
     headers:
       Host:
-      - m-net.speedtestcustom.com
+      - speedtest.net
     method: GET
     path:
     - /
-  name: 12|DE_speednode_0006
+  name: 12|DE_speednode_0017
   network: http
-  port: 45908
-  server: 209.38.213.114
-  servername: tunnel-pro.yoooka.lol
+  port: 80
+  server: 2na9noed62ec.dopraxrocks.com
+  servername: speedtest.net
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vless
-  uuid: b2705a86-7b78-4f59-9205-3a16062b8018
+  uuid: 01b12c3c-4d96-45c3-88ef-f1360804d7b0
+- http-opts:
+    headers:
+      Host:
+      - Speedtest.net
+    method: GET
+    path:
+    - /
+  name: 12|DE_speednode_0018
+  network: http
+  port: 1010
+  server: 159.69.35.198
+  servername: Speedtest.net
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: d2ab7136-f995-40b8-8b59-4f2ef0c5d590

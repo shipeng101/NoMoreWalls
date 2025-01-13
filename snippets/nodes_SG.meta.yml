@@ -8,15 +8,3 @@ proxies:
   skip-cert-verify: false
   sni: major-reindeer.boa152.lol
   type: trojan
-- name: 12|SG_speednode_0015
-  network: ws
-  password: SSorg
-  port: 443
-  server: 206.238.236.134
-  skip-cert-verify: false
-  sni: sstjj.esslh.filegear-sg.me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: sstjj.esslh.filegear-sg.me
-    path: /
