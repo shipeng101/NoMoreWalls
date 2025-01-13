@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: 10,11,12|CN_speednode_0003
+  name: 10,11|香港|@ripaojiedian
   network: tcp
   password: vzhXXZVw
   port: 36442
@@ -57,7 +57,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 12|HK_speednode_0022
+- name: 12|HK_speednode_0014
   port: 4000
   server: hk9.ftq.ink
   tls: true
