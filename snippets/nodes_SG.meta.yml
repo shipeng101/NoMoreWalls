@@ -8,6 +8,14 @@ proxies:
   skip-cert-verify: false
   sni: major-reindeer.boa152.lol
   type: trojan
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 10|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 52.195.182.124
+  tfo: false
+  type: ss
 - name: 12|SG_speednode_0015
   network: ws
   password: SSorg

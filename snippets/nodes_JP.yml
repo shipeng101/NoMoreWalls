@@ -9,14 +9,31 @@ proxies:
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
 - client-fingerprint: chrome
-  name: 10,11|日本2|@ripaojiedian
-  network: tcp
+  name: 10|🇯🇵 日本2|@ripaojiedian
   password: 2ff730d5-567f-4800-8c76-5d9b07079eed
   port: 57468
   server: lm.kaiqsz.com
   skip-cert-verify: false
   sni: yg01.redapricotcloud.com
   type: trojan
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 10|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 3.35.17.138
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11|日本2|@ripaojiedian
+  network: tcp
+  port: '40866'
+  server: 45.159.50.143
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 68227ff4-28f8-4564-9eef-8d3d3dacaf57
 - name: 12|JP_speednode_0008
   network: ws
   password: SSorg
