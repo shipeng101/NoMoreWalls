@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: 10,11|新加坡3|@ripaojiedian
+  name: 10,11|新加坡2|@ripaojiedian
   network: tcp
   password: '!!str 3723507166611775488'
   port: 443
