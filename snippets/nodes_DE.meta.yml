@@ -1,40 +1,4 @@
 proxies:
-- name: 12|DE_speednode_0006
-  password: Oe5CMj3tiO
-  port: 1935
-  server: 3.127.116.35
-  skip-cert-verify: false
-  sni: x2ger-amazon.devefun.net
-  type: trojan
-- name: 12|DE_speednode_0007
-  network: ws
-  port: 8443
-  server: xpnteam-chanell-join.jaricopen.sbs
-  servername: Upload.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: d4317213-4c8b-4af6-b8ee-fb6ceba4a3b3
-  ws-opts:
-    headers:
-      Host: Upload.ir
-    path: /@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam?ed=2048
-- http-opts:
-    headers:
-      Host:
-      - Speedtest.net
-    method: GET
-    path:
-    - /
-  name: 12|DE_speednode_0008
-  network: http
-  port: 1010
-  server: 159.69.35.198
-  servername: Speedtest.net
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: d2ab7136-f995-40b8-8b59-4f2ef0c5d590
 - http-opts:
     headers:
       Host:
@@ -42,7 +6,7 @@ proxies:
     method: GET
     path:
     - /
-  name: 12|DE_speednode_0009
+  name: 12|DE_speednode_0005
   network: http
   port: 80
   server: 2na9noed62ec.dopraxrocks.com
@@ -51,3 +15,34 @@ proxies:
   tls: false
   type: vless
   uuid: 01b12c3c-4d96-45c3-88ef-f1360804d7b0
+- name: 12|DE_speednode_0006
+  network: ws
+  port: 2053
+  server: tify-binex-join.espikernajafi.ir
+  servername: chess.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: a6394e36-aa83-4613-f5af-9cb14d9488d5
+  ws-opts:
+    headers:
+      Host: chess.com
+    path: /telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY?ed=2560
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 12|DE_speednode_0007
+  network: ws
+  port: 443
+  server: 188.245.241.172
+  servername: hozori.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 743a9ecc-095b-47bf-8d08-8a51acac0eb2
+  ws-opts:
+    headers:
+      Host: hozori.ir
+    path: /fasffasfsA
