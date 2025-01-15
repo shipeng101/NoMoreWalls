@@ -3,16 +3,16 @@ proxies:
   name: 10,11|香港|@ripaojiedian
   network: tcp
   password: phXKwfrd
-  port: 34188
-  server: 36.150.215.196
+  port: 42293
+  server: 36.150.215.220
   skip-cert-verify: true
   type: trojan
 - client-fingerprint: chrome
-  name: 10,11,12|CN_speednode_0002
+  name: 10,11|香港2|@ripaojiedian
   network: tcp
   password: phXKwfrd
-  port: 36442
-  server: 223.113.54.145
+  port: 21673
+  server: 223.111.144.12
   skip-cert-verify: true
   type: trojan
 - alterId: 64
@@ -26,15 +26,29 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- client-fingerprint: chrome
-  name: 10,11|香港8|@ripaojiedian
-  network: tcp
-  password: 315f744a-c705-3e58-96d9-35f0a8d3310c
-  port: 24603
-  server: gy.58n.net
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇭🇰 香港7|@ripaojiedian
+  port: 45050
+  server: haa.dashuai.cyou
   skip-cert-verify: false
-  sni: z259.hongkongnode.top
-  type: trojan
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: ebb96eed-2827-43ac-b539-4e4d7b0ab99b
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 10|🇭🇰 香港8|@ripaojiedian
+  password: 7243745919d6de49a5db
+  plugin: obfs
+  plugin-opts:
+    host: 215996dd9f1c3db1e54b.microsoft.com
+    mode: http
+  port: 45578
+  server: console.02.aliyun.aq.kunlunaqs.com
+  tfo: false
+  type: ss
 - alterId: 64
   cipher: auto
   name: 11|香港4|@ripaojiedian
@@ -45,6 +59,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11|香港7|@ripaojiedian
+  network: tcp
+  port: '45050'
+  server: haa.dashuai.cyou
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ebb96eed-2827-43ac-b539-4e4d7b0ab99b
 - alpn:
   - h3
   client-fingerprint: random
