@@ -6,7 +6,7 @@ proxies:
     method: GET
     path:
     - /
-  name: 12|DE_speednode_0011
+  name: 12|DE_speednode_0012
   network: http
   port: 1010
   server: 159.69.35.198
@@ -22,7 +22,7 @@ proxies:
     method: GET
     path:
     - /
-  name: 12|DE_speednode_0012
+  name: 12|DE_speednode_0013
   network: http
   port: 80
   server: 2na9noed62ec.dopraxrocks.com
@@ -36,34 +36,34 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 12|DE_speednode_0013
+  name: 12|DE_speednode_0014
   network: ws
   port: 443
-  server: 188.245.241.172
-  servername: hozori.ir
+  server: 159.69.103.177
+  servername: dd4.trackid.ir
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 743a9ecc-095b-47bf-8d08-8a51acac0eb2
+  uuid: bf2434c2-2200-4c3e-a5dc-6f9aadd4fcd4
   ws-opts:
     headers:
-      Host: hozori.ir
-    path: /fasffasfsA
+      Host: dd4.trackid.ir
+    path: /
 - alpn:
   - h3
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 12|DE_speednode_0014
+  name: 12|DE_speednode_0015
   network: ws
   port: 443
-  server: hozori.ir
-  servername: hozori.ir
+  server: 159.69.103.177
+  servername: ad4.transitkala.com
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 743a9ecc-095b-47bf-8d08-8a51acac0eb2
+  uuid: c8aa52f3-dea3-4a84-b8d8-87938c1dd177
   ws-opts:
     headers:
-      Host: hozori.ir
-    path: /fasffasfsA
+      Host: ad4.transitkala.com
+    path: /

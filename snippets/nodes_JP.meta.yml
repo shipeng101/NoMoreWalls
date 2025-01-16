@@ -17,67 +17,52 @@ proxies:
   skip-cert-verify: true
   type: trojan
 - client-fingerprint: chrome
-  name: 10,11,12|CN_speednode_0005
+  name: 10,11,12|CN_speednode_0003
   network: tcp
   password: 0bc68743-cff8-4730-9818-9d8192ee335c
   port: 47479
   server: 120.232.217.96
   skip-cert-verify: true
   type: trojan
-  udp: true
-- alpn:
-  - http/1.1
-  name: 12|JP_speednode_0028
-  network: ws
-  port: 2083
-  server: 103.116.7.67
-  servername: amedo.esslh.filegear-sg.me
+- name: 12|JP_speednode_0026
+  password: 243eab52-9ac1-405c-887c-eb112c0985b8
+  port: 443
+  server: 74.226.136.204
+  skip-cert-verify: true
+  sni: tw01.trojanyyds.xyz
+  type: trojan
+- name: 12|JP_speednode_0027
+  password: 243eab52-9ac1-405c-887c-eb112c0985b8
+  port: 443
+  server: 74.226.136.204
   skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 70186b61-319d-42f2-9807-7df9594aa385
-  ws-opts:
-    headers:
-      Host: amedo.esslh.filegear-sg.me
-    path: /?ed=2560
-- alpn:
-  - http/1.1
-  name: 12|JP_speednode_0029
-  network: ws
-  port: 2083
-  server: 103.116.7.133
-  servername: amedo.esslh.filegear-sg.me
+  sni: hk03.trojanyyds.xyz
+  type: trojan
+- name: 12|JP_speednode_0028
+  password: 243eab52-9ac1-405c-887c-eb112c0985b8
+  port: 443
+  server: 74.226.136.204
   skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 70186b61-319d-42f2-9807-7df9594aa385
-  ws-opts:
-    headers:
-      Host: amedo.esslh.filegear-sg.me
-    path: /?ed=2560
+  sni: sg01.trojanyyds.xyz
+  type: trojan
 - name: 12|JP_speednode_0030
-  network: ws
+  password: 243eab52-9ac1-405c-887c-eb112c0985b8
   port: 443
-  server: 103.116.7.248
-  servername: amedo.esslh.filegear-sg.me
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 70186b61-319d-42f2-9807-7df9594aa385
-  ws-opts:
-    headers:
-      Host: amedo.esslh.filegear-sg.me
-    path: /?ed=2560
+  server: 74.226.136.204
+  skip-cert-verify: true
+  sni: sg02.trojanyyds.xyz
+  type: trojan
 - name: 12|JP_speednode_0031
-  network: ws
+  password: 243eab52-9ac1-405c-887c-eb112c0985b8
   port: 443
-  server: 103.116.7.248
-  servername: amedo.esslh.filegear-sg.me
+  server: 74.226.136.204
+  skip-cert-verify: true
+  sni: in01.trojanyyds.xyz
+  type: trojan
+- name: 12|JP_speednode_0032
+  password: 243eab52-9ac1-405c-887c-eb112c0985b8
+  port: 443
+  server: us01.trojanyyds.xyz
   skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 70186b61-319d-42f2-9807-7df9594aa385
-  ws-opts:
-    headers:
-      Host: amedo.esslh.filegear-sg.me
-    path: /
+  sni: us01.trojanyyds.xyz
+  type: trojan
