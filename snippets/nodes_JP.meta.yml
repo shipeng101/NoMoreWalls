@@ -24,6 +24,19 @@ proxies:
   server: 120.232.217.96
   skip-cert-verify: true
   type: trojan
+- name: 12|JP_speednode_0024
+  password: 243eab52-9ac1-405c-887c-eb112c0985b8
+  port: 443
+  server: sg02.trojanyyds.xyz
+  skip-cert-verify: false
+  type: trojan
+- name: 12|JP_speednode_0025
+  password: 243eab52-9ac1-405c-887c-eb112c0985b8
+  port: 443
+  server: tw01.trojanyyds.xyz
+  skip-cert-verify: false
+  sni: tw01.trojanyyds.xyz
+  type: trojan
 - name: 12|JP_speednode_0026
   password: 243eab52-9ac1-405c-887c-eb112c0985b8
   port: 443
@@ -45,6 +58,13 @@ proxies:
   skip-cert-verify: false
   sni: sg01.trojanyyds.xyz
   type: trojan
+- name: 12|JP_speednode_0029
+  password: 243eab52-9ac1-405c-887c-eb112c0985b8
+  port: 443
+  server: 74.226.136.204
+  skip-cert-verify: false
+  sni: us01.trojanyyds.xyz
+  type: trojan
 - name: 12|JP_speednode_0030
   password: 243eab52-9ac1-405c-887c-eb112c0985b8
   port: 443
@@ -65,4 +85,11 @@ proxies:
   server: us01.trojanyyds.xyz
   skip-cert-verify: false
   sni: us01.trojanyyds.xyz
+  type: trojan
+- name: 12|JP_speednode_0033
+  password: 243eab52-9ac1-405c-887c-eb112c0985b8
+  port: 443
+  server: in01.trojanyyds.xyz
+  skip-cert-verify: false
+  sni: in01.trojanyyds.xyz
   type: trojan
