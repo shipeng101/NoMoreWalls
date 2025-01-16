@@ -9,11 +9,19 @@ proxies:
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
 - client-fingerprint: chrome
-  name: 10,11|日本4|@ripaojiedian
+  name: 10,11|日本3|@ripaojiedian
   network: tcp
-  password: 78c245b7-b61c-4970-b4c2-d92a173ff16a
-  port: 33345
-  server: gs.huamao888.top
+  password: 0bc68743-cff8-4730-9818-9d8192ee335c
+  port: 21015
+  server: 120.232.217.96
   skip-cert-verify: true
-  sni: gs.huamao888.top
   type: trojan
+- client-fingerprint: chrome
+  name: 10,11,12|CN_speednode_0005
+  network: tcp
+  password: 0bc68743-cff8-4730-9818-9d8192ee335c
+  port: 47479
+  server: 120.232.217.96
+  skip-cert-verify: true
+  type: trojan
+  udp: true

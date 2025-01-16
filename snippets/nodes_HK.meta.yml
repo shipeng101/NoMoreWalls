@@ -1,20 +1,31 @@
 proxies:
 - client-fingerprint: chrome
-  name: 10,11|香港|@ripaojiedian
+  name: 10,11,12|CN_speednode_0002
   network: tcp
   password: phXKwfrd
-  port: 42293
-  server: 36.150.215.220
+  port: 36442
+  server: 223.113.54.145
   skip-cert-verify: true
   type: trojan
 - client-fingerprint: chrome
   name: 10,11|香港2|@ripaojiedian
   network: tcp
   password: phXKwfrd
-  port: 21673
-  server: 223.111.144.12
+  port: 42395
+  server: 36.150.215.219
   skip-cert-verify: true
   type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇭🇰 香港3|@ripaojiedian
+  port: 45051
+  server: xdd.dashuai.cyou
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 00f81c36-f346-4ca6-9074-eef73fff794e
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -29,26 +40,30 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 10|🇭🇰 香港7|@ripaojiedian
-  port: 45050
-  server: haa.dashuai.cyou
+  name: 10,11|香港5|@ripaojiedian
+  network: ws
+  port: '443'
+  server: hk-bmg.cowvpn.org
+  servername: hk-bmgcf.cowvpn.org
   skip-cert-verify: false
   tfo: false
+  tls: true
+  type: vmess
+  uuid: 11a805f2-41a7-4cd8-8406-0470c3cde0d3
+  ws-opts:
+    headers:
+      Host: hk-bmgcf.cowvpn.org
+    path: /cctv13/vmess_hk-bmgcf
+- alterId: 0
+  cipher: auto
+  name: 11|香港3|@ripaojiedian
+  network: tcp
+  port: '45051'
+  server: xdd.dashuai.cyou
+  servername: ''
   tls: false
   type: vmess
-  uuid: ebb96eed-2827-43ac-b539-4e4d7b0ab99b
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 10|🇭🇰 香港8|@ripaojiedian
-  password: 7243745919d6de49a5db
-  plugin: obfs
-  plugin-opts:
-    host: 215996dd9f1c3db1e54b.microsoft.com
-    mode: http
-  port: 45578
-  server: console.02.aliyun.aq.kunlunaqs.com
-  tfo: false
-  type: ss
+  uuid: 00f81c36-f346-4ca6-9074-eef73fff794e
 - alterId: 64
   cipher: auto
   name: 11|香港4|@ripaojiedian
@@ -59,16 +74,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11|香港7|@ripaojiedian
-  network: tcp
-  port: '45050'
-  server: haa.dashuai.cyou
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ebb96eed-2827-43ac-b539-4e4d7b0ab99b
 - alpn:
   - http/1.1
   name: 12|HK_speednode_0020

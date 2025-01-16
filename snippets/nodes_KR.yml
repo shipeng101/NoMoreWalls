@@ -1,1 +1,22 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇰🇷 韩国3|@ripaojiedian
+  port: 21483
+  server: 45.94.68.206
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: fd112b4b-b998-4f50-a4cf-7b798e666eee
+- alterId: 0
+  cipher: auto
+  name: 11|韩国3|@ripaojiedian
+  network: tcp
+  port: '21483'
+  server: 45.94.68.206
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: fd112b4b-b998-4f50-a4cf-7b798e666eee
