@@ -1,148 +1,172 @@
 proxies:
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-1
-  password: amazonskr05
-  port: 443
-  server: 34.222.155.226
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-2
-  password: amazonskr05
-  port: 443
-  server: 34.219.111.92
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-3
   password: qwerREWQ@@
-  port: 38370
-  server: 221.150.109.19
+  port: 61891
+  server: 27.255.82.135
   type: ss
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-4
   password: qwerREWQ@@
-  port: 15041
-  server: p239.panda004.net
+  port: 58989
+  server: 168.126.234.232
   type: ss
-- cipher: aes-256-gcm
+- cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-5
-  password: XpG6mphc
-  port: 11122
-  server: 217.144.106.226
+  password: qwerREWQ@@
+  port: 51633
+  server: 211.178.105.134
   type: ss
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-6
   password: qwerREWQ@@
-  port: 38370
-  server: p236.panda004.net
+  port: 4563
+  server: 121.170.203.148
   type: ss
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-7
   password: qwerREWQ@@
-  port: 61238
-  server: p231.panda004.net
+  port: 27973
+  server: 221.168.44.72
   type: ss
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-8
+  password: qwerREWQ@@
+  port: 28290
+  server: 125.141.31.74
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-9
   password: amazonskr05
   port: 443
-  server: 35.88.157.197
+  server: 3.38.105.152
   type: ss
-- cipher: aes-128-gcm
-  name: 0|-https://t.me/MrXbin-9
-  password: 9d29e58723af34cad8da
-  plugin: obfs
-  plugin-opts:
-    host: 215996dd9f1c3db1e54b.microsoft.com
-    mode: http
-  port: 45909
-  server: console.02.aliyun.aq.kunlunaqs.com
-  type: ss
+  udp: true
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-10
-  password: amazonskr05
-  port: 443
-  server: 52.41.3.89
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-11
-  password: amazonskr05
-  port: 443
-  server: 34.222.159.211
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-13
-  password: qwerREWQ@@
-  port: 64186
-  server: 125.141.31.72
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-14
-  password: amazonskr05
-  port: 443
-  server: 35.161.80.111
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-15
-  password: amazonskr05
-  port: 443
-  server: 3.35.222.83
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-16
   password: amazonskr05
   port: 443
   server: 13.125.6.123
   type: ss
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-17
+  name: 0|-https://t.me/MrXbin-12
+  password: amazonskr05
+  port: 443
+  server: 35.161.80.111
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-13
+  password: amazonskr05
+  port: 443
+  server: 54.180.9.243
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-14
+  password: amazonskr05
+  port: 443
+  server: 54.199.222.156
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-15
+  password: qwerREWQ@@
+  port: 31066
+  server: 218.237.185.230
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-16
   password: qwerREWQ@@
   port: 30778
   server: 125.141.26.12
   type: ss
-- cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-19
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13634
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: bb29cs.cdn.node.a.tddns-ounk.com
-  type: ssr
-- cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-21
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13628
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: bb29cs.cdn.node.a.tddns-ounk.com
-  type: ssr
-- cipher: rc4-md5
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-17
+  password: qwerREWQ@@
+  port: 61238
+  server: p231.panda004.net
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-18
+  password: amazonskr05
+  port: 443
+  server: 54.218.237.217
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-20
+  password: qwerREWQ@@
+  port: 40915
+  server: 168.126.234.233
+  type: ss
+- cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-22
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13303
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: mjk6.cdn.node.a.tddns-ounk.com
-  type: ssr
+  password: qwerREWQ@@
+  port: 30956
+  server: 210.217.18.69
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-23
+  password: qwerREWQ@@
+  port: 17725
+  server: 125.141.31.100
+  type: ss
 - cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-25
+  name: 0|-https://t.me/MrXbin-27
   obfs: tls1.2_ticket_auth
   password: Cskw6d
-  port: 13637
+  port: 13545
   protocol: auth_aes128_md5
   protocol-param: 524959:5u4MZ6
-  server: bb29cs.cdn.node.a.tddns-ounk.com
+  server: tata12.cdn.node.a.tddns-ounk.com
   type: ssr
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 0|-https://t.me/MrXbin-32
+  network: http
+  port: 16785
+  server: 103.30.76.250
+  type: vmess
+  uuid: 086ce045-924d-4538-82ef-debb4ae9ccb5
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-34
+  network: ws
+  port: 17926
+  server: 195.58.49.50
+  skip-cert-verify: true
+  type: vmess
+  udp: true
+  uuid: 1ddb0b4d-9010-4e09-809f-86231c204e3f
+  ws-opts: {}
+- alterId: 64
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-39
+  network: ws
+  port: 38005
+  server: 198.2.195.7
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.27306103.xyz
+    path: /path/1736415675034
 - name: 10|tg频道:@ripaojiedian
   port: 4002
   server: krecs.ftq.ink
   tls: true
   type: http
-- name: 10,11,12|CN_speednode_0002
+- name: 10,11,12|CN_speednode_0005
   network: tcp
   password: phXKwfrd
   port: 36442
@@ -195,14 +219,14 @@ proxies:
   skip-cert-verify: false
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
-- name: 10,11,12|CN_speednode_0006
+- name: 10,11|日本3|@ripaojiedian
   network: tcp
   password: 0bc68743-cff8-4730-9818-9d8192ee335c
   port: 21015
   server: 120.232.217.96
   skip-cert-verify: true
   type: trojan
-- name: 10,11,12|CN_speednode_0004
+- name: 10,11,12|CN_speednode_0003
   network: tcp
   password: 0bc68743-cff8-4730-9818-9d8192ee335c
   port: 47479
@@ -308,7 +332,32 @@ proxies:
   tls: false
   type: vmess
   uuid: c206e022-34c6-4fe3-a232-b9c07ba3165d
-- name: 12|CN_speednode_0005
+- name: 12|AU_speednode_0001
+  network: ws
+  port: 8080
+  server: 45.32.245.199
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 9e1457b1-113b-442d-d4dc-6b1f05d374e9
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  name: 12|CH_speednode_0002
+  network: ws
+  port: 443
+  server: 138.124.53.161
+  servername: dd4.trackid.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: bf2434c2-2200-4c3e-a5dc-6f9aadd4fcd4
+  ws-opts:
+    headers:
+      Host: dd4.trackid.ir
+    path: /
+- name: 12|CN_speednode_0006
   password: 0bc68743-cff8-4730-9818-9d8192ee335c
   port: 16233
   server: 120.232.217.96
@@ -322,64 +371,124 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 12|CN_speednode_0009
+- name: 12|CN_speednode_0012
   password: 0bc68743-cff8-4730-9818-9d8192ee335c
   port: 39431
   server: 120.232.217.96
   skip-cert-verify: true
   type: trojan
   udp: true
-- http-opts:
-    headers:
-      Host:
-      - speedtest.net
-    method: GET
-    path:
-    - /
-  name: 12|DE_speednode_0012
-  network: http
-  port: 80
-  server: 2na9noed62ec.dopraxrocks.com
-  servername: speedtest.net
+- name: 12|CN_speednode_0013
+  password: lovemm.23
+  port: 22889
+  server: 42.192.52.227
+  type: socks5
+  username: zeaslity
+- alpn:
+  - h2
+  - http/1.1
+  name: 12|CR_speednode_0014
+  network: ws
+  port: 443
+  server: 190.93.245.137
+  servername: WWW.pegAh-Esfahan.De.
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vless
-  uuid: 01b12c3c-4d96-45c3-88ef-f1360804d7b0
-- http-opts:
+  uuid: bcaa20f4-589b-4c9a-9c6f-810f31ad6b30
+  ws-opts:
     headers:
-      Host:
-      - Speedtest.net
-    method: GET
-    path:
-    - /
-  name: 12|DE_speednode_0013
-  network: http
-  port: 1010
-  server: 159.69.35.198
-  servername: Speedtest.net
+      Host: WWW.pegAh-Esfahan.De.
+    path: /
+- alpn:
+  - h2
+  - http/1.1
+  name: 12|CR_speednode_0015
+  network: ws
+  port: 443
+  server: ns4.esfahansiman.com
+  servername: WWW.moghavEmat.bLOg.
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vless
-  uuid: d2ab7136-f995-40b8-8b59-4f2ef0c5d590
+  uuid: bcaa20f4-589b-4c9a-9c6f-810f31ad6b30
+  ws-opts:
+    headers:
+      Host: WWW.moghavEmat.bLOg.
+    path: /
+- alpn:
+  - h2
+  - http/1.1
+  name: 12|CR_speednode_0016
+  network: ws
+  port: 443
+  server: 190.93.245.137
+  servername: WWW.EsfahAnsimaN.infO.
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: bcaa20f4-589b-4c9a-9c6f-810f31ad6b30
+  ws-opts:
+    headers:
+      Host: WWW.EsfahAnsimaN.infO.
+    path: /
+- alpn:
+  - h2
+  - http/1.1
+  name: 12|CR_speednode_0017
+  network: ws
+  port: 443
+  server: ns4.esfahansiman.com
+  servername: WWW.pegAh-Esfahan.De.
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: bcaa20f4-589b-4c9a-9c6f-810f31ad6b30
+  ws-opts:
+    headers:
+      Host: WWW.pegAh-Esfahan.De.
+    path: /
 - alpn:
   - h3
   - h2
   - http/1.1
-  client-fingerprint: ios
-  name: 12|EE_speednode_0014
-  network: ws
-  port: 443
-  server: 45.80.108.253
-  servername: mmdserver.us.kg
+  http-opts:
+    headers:
+      Host:
+      - tunnel-pro.yoooka.lol
+    method: GET
+    path:
+    - /
+  name: 12|DE_speednode_0018
+  network: http
+  port: 45908
+  server: 46.101.71.41
+  servername: tunnel-pro.yoooka.lol
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 41abecd9-8096-4142-a75c-4e1d36d990bd
-  ws-opts:
+  uuid: b2705a86-7b78-4f59-9205-3a16062b8018
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  http-opts:
     headers:
-      Host: mmdserver.us.kg
-    path: /?ed=2048
-- name: 12|ES_speednode_0015
+      Host:
+      - m-net.speedtestcustom.com
+    method: GET
+    path:
+    - /
+  name: 12|DE_speednode_0019
+  network: http
+  port: 45908
+  server: tunnel-pro.yoooka.lol
+  servername: tunnel-pro.yoooka.lol
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: b2705a86-7b78-4f59-9205-3a16062b8018
+- name: 12|ES_speednode_0020
   network: ws
   port: 8080
   server: 94.250.246.200
@@ -392,47 +501,126 @@ proxies:
     headers:
       Host: a.mifeng.us.kg
     path: /?ed=2560
-- name: 12|FR_speednode_0019
+- name: 12|FR_speednode_0021
   network: ws
-  port: 80
-  server: 151.101.120.121
-  servername: JOIN.vmessorg.4.4.4.4.wWw.CloudFlare.cOm.wWw.SpeedTeSt.cOm.Home.iRan.0.0.0.0.Hide.my.IP.xXx.333.22.1.CDN.Free.vmessorg.DDNS1-IP.nEt
+  password: Aimer
+  port: 8443
+  server: 88.218.78.95
   skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 3d9e845a-b2e4-487c-a75e-ba9229966dbf
+  sni: ameqo.esslh.filegear-sg.me
+  type: trojan
   ws-opts:
     headers:
-      Host: JOIN.vmessorg.4.4.4.4.wWw.CloudFlare.cOm.wWw.SpeedTeSt.cOm.Home.iRan.0.0.0.0.Hide.my.IP.xXx.333.22.1.CDN.Free.vmessorg.DDNS1-IP.nEt
-    path: /@vmessorg----@vmessorg-----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg?ed=2480
-- name: 12|IN_speednode_0020
+      Host: ameqo.esslh.filegear-sg.me
+    path: /
+- name: 12|GB_speednode_0022
+  network: ws
+  port: 2053
+  server: 143.47.243.144
+  servername: dse.bgm2024.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: dse.bgm2024.us.kg
+    path: /?ed=2560
+- name: 12|HK_speednode_0024
+  port: 4000
+  server: hk9.ftq.ink
+  tls: true
+  type: http
+- name: 12|HK_speednode_0025
+  port: 4000
+  server: ftq.ink
+  tls: true
+  type: http
+- name: 12|IN_speednode_0026
   password: '3648425794742788096'
   port: 443
   server: 5.8.35.208
   skip-cert-verify: false
   sni: loving-boa.treefrog761.one
   type: trojan
-- http-opts:
-    headers:
-      Host:
-      - Fast.com
-    method: GET
-    path:
-    - /
-  name: 12|IR_speednode_0021
-  network: http
-  port: 28505
-  server: 185.155.72.100
-  servername: Fast.com
+- alpn:
+  - h2
+  - http/1.1
+  name: 12|JP_speednode_0028
+  network: ws
+  port: 443
+  server: live.989bull.com
+  servername: live.989bull.com
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vless
-  uuid: f1e481af-4fd4-40ce-aedc-9a5529c10e8a
-- name: 12|NL_speednode_0030
+  uuid: 5f5a590a-1424-4297-902b-466d10535d49
+  ws-opts:
+    headers:
+      Host: Golestan_VPN.com
+    path: /CHANNEL---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN?ed=8080
+- alpn:
+  - h2
+  - http/1.1
+  name: 12|JP_speednode_0029
+  network: ws
+  port: 443
+  server: zmaoz.faculty.ucdavis.edu
+  servername: zmaoz.faculty.ucdavis.edu.
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: b51ca1a1-b1fb-4d60-84c7-aebbf3a66ea1
+  ws-opts:
+    headers:
+      Host: fonmelo.com
+    path: /olem/ws?ed=4096
+- alpn:
+  - h2
+  - http/1.1
+  name: 12|JP_speednode_0030
+  network: ws
+  port: 443
+  server: cloud.xmsvx.com
+  servername: mio.splashthat.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: bcaa20f4-589b-4c9a-9c6f-810f31ad6b30
+  ws-opts:
+    headers:
+      Host: jetservices55.ir
+    path: /CANALTELEGRAM--@jet_config--CANALTELEGRAM--@jet_config
+- name: 12|NL_speednode_0037
   network: ws
   password: Aimer
   port: 8443
   server: 185.204.109.190
+  skip-cert-verify: false
+  sni: ameqo.esslh.filegear-sg.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ameqo.esslh.filegear-sg.me
+    path: /
+- name: 12|NL_speednode_0038
+  network: ws
+  port: 443
+  server: 158.101.209.76
+  servername: dse.bgm2024.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: dse.bgm2024.us.kg
+    path: /?ed=2560
+- name: 12|RO_speednode_0040
+  network: ws
+  password: Aimer
+  port: 443
+  server: 45.136.199.132
   skip-cert-verify: false
   sni: ameqo.esslh.filegear-sg.me
   type: trojan
@@ -445,7 +633,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: ios
-  name: 12|RU_speednode_0031
+  name: 12|RU_speednode_0041
   network: ws
   port: 443
   server: 46.254.92.33
@@ -458,7 +646,7 @@ proxies:
     headers:
       Host: mmdserver.us.kg
     path: /?ed=2048
-- name: 12|SE_speednode_0032
+- name: 12|SE_speednode_0043
   network: ws
   port: 2501
   server: 95.164.51.24
@@ -471,20 +659,38 @@ proxies:
     headers:
       Host: a.mifeng.us.kg
     path: /?ed=2560
-- name: 12|US_speednode_0033
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: ios
+  name: 12|SI_speednode_0044
   network: ws
-  port: 80
-  server: 167.82.1.103
-  servername: edge.validbv3528.ir
+  port: 443
+  server: 92.60.74.100
+  servername: mmdserver.us.kg
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vless
-  uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47
+  uuid: 41abecd9-8096-4142-a75c-4e1d36d990bd
   ws-opts:
     headers:
-      Host: edge.validbv3528.ir
-    path: /
-- name: 12|US_speednode_0034
+      Host: mmdserver.us.kg
+    path: /?ed=2048
+- name: 12|TR_speednode_0045
+  network: ws
+  port: 2501
+  server: 95.164.116.22
+  servername: a.mifeng.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.mifeng.us.kg
+    path: /?ed=2560
+- name: 12|US_speednode_0046
   network: ws
   port: 80
   server: 167.82.1.102
@@ -497,7 +703,7 @@ proxies:
     headers:
       Host: teleirani.ir
     path: /?ed=2048
-- name: 12|US_speednode_0035
+- name: 12|US_speednode_0047
   network: ws
   port: 80
   server: 167.82.1.103
@@ -510,46 +716,7 @@ proxies:
     headers:
       Host: edge.validbv3528.ir
     path: /?ed=2560
-- name: 12|US_speednode_0037
-  network: ws
-  port: 80
-  server: 198.41.199.226
-  servername: a.mifeng.us.kg
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /telegram-_-_-_-_-__-free_shekan-_-_-_-/?ed=2048
-- name: 12|US_speednode_0038
-  network: ws
-  port: 80
-  server: 198.41.198.40
-  servername: a.mifeng.us.kg
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /telegram-_-_-_-_-__-free_shekan-_-_-_-/?ed=2048
-- name: 12|US_speednode_0040
-  network: ws
-  port: 80
-  server: 141.101.122.107
-  servername: a.mifeng.us.kg
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /telegram-_-_-_-_-__-free_shekan-_-_-_-/?ed=2048
-- name: 12|US_speednode_0041
+- name: 12|US_speednode_0048
   network: ws
   port: 80
   server: 167.82.0.47
@@ -562,46 +729,7 @@ proxies:
     headers:
       Host: teleirani.ir
     path: /vless-ws/@V2ray_Alpha/?ed=2560
-- name: 12|US_speednode_0042
-  network: ws
-  port: 80
-  server: 167.82.0.0
-  servername: edge.validbv3528.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47
-  ws-opts:
-    headers:
-      Host: edge.validbv3528.ir
-    path: /Telegram@V2ray_Alpha/?ed=2560
-- name: 12|US_speednode_0044
-  network: ws
-  port: 80
-  server: 198.41.205.44
-  servername: a.mifeng.us.kg
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /telegram-_-_-_-_-__-free_shekan-_-_-_-/?ed=2048
-- name: 12|US_speednode_0045
-  network: ws
-  port: 80
-  server: 198.41.209.27
-  servername: a.mifeng.us.kg
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /telegram-_-_-_-_-__-free_shekan-_-_-_-/?ed=2048
-- name: 12|US_speednode_0046
+- name: 12|US_speednode_0049
   network: ws
   port: 80
   server: 167.82.0.147
@@ -614,7 +742,7 @@ proxies:
     headers:
       Host: edge.validbv3528.ir
     path: /
-- name: 12|US_speednode_0047
+- name: 12|US_speednode_0050
   network: ws
   port: 80
   server: 167.82.100.124
@@ -627,7 +755,7 @@ proxies:
     headers:
       Host: edge.validbv3528.ir
     path: /vless-ws/@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayja1/?ed=2560
-- name: 12|US_speednode_0048
+- name: 12|US_speednode_0051
   network: ws
   port: 80
   server: 167.82.101.100
@@ -640,20 +768,46 @@ proxies:
     headers:
       Host: edge.validbv3528.ir
     path: /vless-ws/@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayja1/?ed=2560
-- name: 12|US_speednode_0049
+- name: 12|US_speednode_0052
   network: ws
   port: 80
-  server: 167.82.101.10
-  servername: edge.validbv3528.ir
+  server: 198.41.199.226
+  servername: a.mifeng.us.kg
   skip-cert-verify: false
   tls: false
   type: vless
-  uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
-      Host: edge.validbv3528.ir
-    path: /vless-ws/@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayja1/?ed=2560
-- name: 12|US_speednode_0050
+      Host: a.mifeng.us.kg
+    path: /telegram-_-_-_-_-__-free_shekan-_-_-_-/?ed=2048
+- name: 12|US_speednode_0053
+  network: ws
+  port: 80
+  server: 198.41.198.40
+  servername: a.mifeng.us.kg
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.mifeng.us.kg
+    path: /telegram-_-_-_-_-__-free_shekan-_-_-_-/?ed=2048
+- name: 12|US_speednode_0054
+  network: ws
+  port: 80
+  server: 198.41.205.44
+  servername: a.mifeng.us.kg
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.mifeng.us.kg
+    path: /telegram-_-_-_-_-__-free_shekan-_-_-_-/?ed=2048
+- name: 12|US_speednode_0055
   network: ws
   port: 80
   server: 167.82.99.4
@@ -666,83 +820,10 @@ proxies:
     headers:
       Host: edge.validbv3528.ir
     path: /vless-ws/@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayja1/?ed=2560
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: ios
-  name: 12|US_speednode_0051
-  network: ws
-  port: 443
-  server: 192.0.54.235
-  servername: mmdserver.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 41abecd9-8096-4142-a75c-4e1d36d990bd
-  ws-opts:
-    headers:
-      Host: mmdserver.us.kg
-    path: /?ed=2048
-- name: 12|US_speednode_0052
-  network: ws
-  port: 80
-  server: 167.82.99.180
-  servername: edge.validbv3528.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47
-  ws-opts:
-    headers:
-      Host: edge.validbv3528.ir
-    path: /vless-ws/@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayja1/?ed=2560
-- name: 12|US_speednode_0053
-  network: ws
-  port: 80
-  server: 167.82.101.76
-  servername: edge.validbv3528.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47
-  ws-opts:
-    headers:
-      Host: edge.validbv3528.ir
-    path: /vless-ws/Telegram@V2ray_Alpha/?ed=2560
-- name: 12|US_speednode_0054
-  network: ws
-  port: 80
-  server: 167.82.101.76
-  servername: edge.validbv3528.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47
-  ws-opts:
-    headers:
-      Host: edge.validbv3528.ir
-    path: /vless-ws/@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayja1/?ed=2560
-- http-opts:
-    headers:
-      Host:
-      - speedtest.net
-    method: GET
-    path:
-    - /
-  name: 12|US_speednode_0055
-  network: http
-  port: 2053
-  server: iri.ginuerzht.ir
-  servername: speedtest.net
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 50b2eb48-6e11-43cb-d6cf-f4aa900d37dd
 - name: 12|US_speednode_0056
   network: ws
   port: 80
-  server: 167.82.102.107
+  server: 167.82.101.10
   servername: edge.validbv3528.ir
   skip-cert-verify: false
   tls: false
@@ -755,7 +836,7 @@ proxies:
 - name: 12|US_speednode_0057
   network: ws
   port: 80
-  server: 167.82.102.100
+  server: 167.82.99.180
   servername: edge.validbv3528.ir
   skip-cert-verify: false
   tls: false
@@ -765,56 +846,72 @@ proxies:
     headers:
       Host: edge.validbv3528.ir
     path: /vless-ws/@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayja1/?ed=2560
-- name: 12|US_speednode_0062
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 108.165.152.80
-  skip-cert-verify: false
-  sni: ameqo.esslh.filegear-sg.me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ameqo.esslh.filegear-sg.me
-    path: /
-- name: 12|US_speednode_0063
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 108.165.152.104
-  skip-cert-verify: false
-  sni: ameqo.esslh.filegear-sg.me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ameqo.esslh.filegear-sg.me
-    path: /
-- name: 12|US_speednode_0064
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 209.94.90.87
-  skip-cert-verify: false
-  sni: ameqo.esslh.filegear-sg.me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ameqo.esslh.filegear-sg.me
-    path: /
-- name: 12|US_speednode_0065
+- name: 12|US_speednode_0058
   network: ws
   port: 80
-  server: 151.101.3.8
-  servername: 49.org
+  server: 198.41.209.27
+  servername: a.mifeng.us.kg
   skip-cert-verify: false
   tls: false
   type: vless
-  uuid: 2764c298-d936-44e4-ac0a-4b596ac189d2
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
-      Host: 49.org
-    path: /telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee?ed=2095
-- name: 12|US_speednode_0066
+      Host: a.mifeng.us.kg
+    path: /telegram-_-_-_-_-__-free_shekan-_-_-_-/?ed=2048
+- name: 12|US_speednode_0059
+  network: ws
+  port: 80
+  server: 167.82.101.76
+  servername: edge.validbv3528.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47
+  ws-opts:
+    headers:
+      Host: edge.validbv3528.ir
+    path: /vless-ws/Telegram@V2ray_Alpha/?ed=2560
+- name: 12|US_speednode_0060
+  network: ws
+  port: 80
+  server: 167.82.101.76
+  servername: edge.validbv3528.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47
+  ws-opts:
+    headers:
+      Host: edge.validbv3528.ir
+    path: /vless-ws/@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayja1/?ed=2560
+- name: 12|US_speednode_0061
+  network: ws
+  port: 80
+  server: 167.82.102.107
+  servername: edge.validbv3528.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47
+  ws-opts:
+    headers:
+      Host: edge.validbv3528.ir
+    path: /vless-ws/@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayja1/?ed=2560
+- name: 12|US_speednode_0063
+  network: ws
+  port: 80
+  server: 141.101.122.107
+  servername: a.mifeng.us.kg
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.mifeng.us.kg
+    path: /telegram-_-_-_-_-__-free_shekan-_-_-_-/?ed=2048
+- name: 12|US_speednode_0064
   network: ws
   port: 80
   server: 141.101.121.87
@@ -827,7 +924,19 @@ proxies:
     headers:
       Host: a.mifeng.us.kg
     path: /telegram-_-_-_-_-__-free_shekan-_-_-_-/?ed=2048
-- name: 12|US_speednode_0067
+- name: 12|US_speednode_0065
+  network: ws
+  password: Aimer
+  port: 2087
+  server: 209.94.90.87
+  skip-cert-verify: false
+  sni: ameqo.esslh.filegear-sg.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ameqo.esslh.filegear-sg.me
+    path: /
+- name: 12|US_speednode_0066
   network: ws
   port: 443
   server: 141.101.123.208
@@ -840,33 +949,72 @@ proxies:
     headers:
       Host: usa.warpo.me
     path: /bing
-- name: 12|US_speednode_0068
-  network: ws
-  port: 443
-  server: 151.101.194.133
-  servername: mio.splashthat.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 32dbe23a-852e-44a8-9dc2-80188643f550
-  ws-opts:
-    headers:
-      Host: moeinzp.com
-    path: /telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn?ed=2048
 - name: 12|US_speednode_0069
   network: ws
   port: 443
-  server: fishlab.ucdavis.edu
-  servername: fishlab.ucdavis.edu
+  server: 69.84.182.165
+  servername: dse.bgm2024.us.kg
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 3d9e845a-b2e4-487c-a75e-ba9229966dbf
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      Host: JOIN.vmessorg.4.4.4.4.wWw.CloudFlare.cOm.wWw.SpeedTeSt.cOm.Home.iRan.0.0.0.0.Hide.my.IP.xXx.333.22.1.CDN.Free.vmessorg.DDNS1-IP.nEt
-    path: /@vmessorg----@vmessorg-----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg?ed=2480
-- name: 12|ZA_speednode_0070
+      Host: dse.bgm2024.us.kg
+    path: /?ed=2560
+- name: 12|US_speednode_0070
+  network: ws
+  port: 443
+  server: 172.82.16.99
+  servername: dse.bgm2024.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: dse.bgm2024.us.kg
+    path: /?ed=2560
+- name: 12|US_speednode_0071
+  network: ws
+  port: 443
+  server: 198.62.62.198
+  servername: dse.bgm2024.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: dse.bgm2024.us.kg
+    path: /?ed=2560
+- name: 12|US_speednode_0072
+  network: ws
+  port: 443
+  server: 69.84.182.106
+  servername: dse.bgm2024.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: dse.bgm2024.us.kg
+    path: /?ed=2560
+- name: 12|US_speednode_0073
+  network: ws
+  port: 443
+  server: 135.84.76.131
+  servername: dse.bgm2024.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: dse.bgm2024.us.kg
+    path: /?ed=2560
+- name: 12|ZA_speednode_0075
   network: ws
   port: 443
   server: 160.123.255.159

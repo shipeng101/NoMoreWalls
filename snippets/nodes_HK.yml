@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: 10,11,12|CN_speednode_0002
+  name: 10,11,12|CN_speednode_0005
   network: tcp
   password: phXKwfrd
   port: 36442

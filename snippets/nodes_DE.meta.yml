@@ -16,35 +16,45 @@ proxies:
     headers:
       Host: ''
     path: /
-- http-opts:
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  http-opts:
     headers:
       Host:
-      - speedtest.net
+      - tunnel-pro.yoooka.lol
     method: GET
     path:
     - /
-  name: 12|DE_speednode_0012
+  name: 12|DE_speednode_0018
   network: http
-  port: 80
-  server: 2na9noed62ec.dopraxrocks.com
-  servername: speedtest.net
+  port: 45908
+  server: 46.101.71.41
+  servername: tunnel-pro.yoooka.lol
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vless
-  uuid: 01b12c3c-4d96-45c3-88ef-f1360804d7b0
-- http-opts:
+  uuid: b2705a86-7b78-4f59-9205-3a16062b8018
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  http-opts:
     headers:
       Host:
-      - Speedtest.net
+      - m-net.speedtestcustom.com
     method: GET
     path:
     - /
-  name: 12|DE_speednode_0013
+  name: 12|DE_speednode_0019
   network: http
-  port: 1010
-  server: 159.69.35.198
-  servername: Speedtest.net
+  port: 45908
+  server: tunnel-pro.yoooka.lol
+  servername: tunnel-pro.yoooka.lol
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vless
-  uuid: d2ab7136-f995-40b8-8b59-4f2ef0c5d590
+  uuid: b2705a86-7b78-4f59-9205-3a16062b8018
