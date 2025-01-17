@@ -1,18 +1,1 @@
-proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10,11|新加坡3|@ripaojiedian
-  network: ws
-  port: '443'
-  server: sg2.cowvpn.org
-  servername: sg2cf.cowvpn.org
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 11a805f2-41a7-4cd8-8406-0470c3cde0d3
-  ws-opts:
-    headers:
-      Host: sg2cf.cowvpn.org
-    path: /cctv13/vmess_sg2cf
+proxies: []
