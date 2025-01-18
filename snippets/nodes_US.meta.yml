@@ -1,23 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10|🇺🇸 美国|@ripaojiedian
-  port: 30895
-  server: 156.251.189.225
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 5f011b57-a456-45ae-aa2c-f976780e56c3
-- client-fingerprint: chrome
-  name: 10,11,12|CN_speednode_0008
-  network: tcp
-  password: 0bc68743-cff8-4730-9818-9d8192ee335c
-  port: 21142
-  server: 120.232.217.96
-  skip-cert-verify: true
-  type: trojan
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -35,16 +16,6 @@ proxies:
     headers:
       Host: zxjp-c.tkong.cc
     path: /
-- alterId: 0
-  cipher: auto
-  name: 11|美国|@ripaojiedian
-  network: tcp
-  port: '30895'
-  server: 156.251.189.225
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5f011b57-a456-45ae-aa2c-f976780e56c3
 - name: 12|US_speednode_0046
   network: ws
   port: 80
