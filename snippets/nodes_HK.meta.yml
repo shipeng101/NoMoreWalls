@@ -1,12 +1,13 @@
 proxies:
 - client-fingerprint: chrome
-  name: 10,11|香港|@ripaojiedian
+  name: 10,11,12|CN_speednode_0019
   network: tcp
   password: phXKwfrd
   port: 36442
   server: 223.113.54.145
   skip-cert-verify: true
   type: trojan
+  udp: true
 - client-fingerprint: chrome
   name: 10,11|香港2|@ripaojiedian
   network: tcp
