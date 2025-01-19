@@ -1,228 +1,206 @@
 proxies:
-- cipher: aes-256-gcm
+- cipher: chacha20-ietf-poly1305
   name: 0|-https://t.me/MrXbin-1
-  password: XpG6mphc
-  port: 11122
-  server: 217.144.106.226
+  password: YjJiYzBj
+  port: 8388
+  server: 45.140.146.223
   type: ss
-- cipher: aes-256-cfb
+  udp: true
+- cipher: chacha20-ietf
   name: 0|-https://t.me/MrXbin-2
-  password: amazonskr05
-  port: 443
-  server: 13.125.6.123
+  password: asd123456
+  port: 8388
+  server: 107.148.6.121
   type: ss
+  udp: true
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-3
   password: amazonskr05
   port: 443
-  server: 54.218.237.217
+  server: 54.179.76.173
   type: ss
   udp: true
-- cipher: aes-256-cfb
+- cipher: chacha20-ietf-poly1305
   name: 0|-https://t.me/MrXbin-4
+  password: M7x1mGNOwhPiRB9jSxZJNy
+  port: 6870
+  server: 51.13.182.236
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-5
+  password: qwerREWQ@@
+  port: 5412
+  server: 27.255.82.23
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-10
+  password: 1RWwXhwfAB5gAEozU4G2Pg
+  port: 8080
+  server: 45.87.175.171
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-11
+  password: qwerREWQ@@
+  port: 61891
+  server: 27.255.82.135
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-12
+  password: qwerREWQ@@
+  port: 28902
+  server: 218.38.103.150
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 0|-https://t.me/MrXbin-15
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 68.183.227.45
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-16
   password: qwerREWQ@@
   port: 27973
   server: p196.panda001.net
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-6
+  name: 0|-https://t.me/MrXbin-17
+  password: amazonskr05
+  port: 443
+  server: 54.218.237.217
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-18
+  password: qwerREWQ@@
+  port: 58989
+  server: 168.126.234.232
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-20
+  password: qwerREWQ@@
+  port: 4563
+  server: 121.170.203.148
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-21
+  password: qwerREWQ@@
+  port: 34847
+  server: 218.50.149.114
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|-https://t.me/MrXbin-22
+  password: VpKABcOpNNA0l5G2AVOmw8
+  port: 62685
+  server: 213.109.147.242
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-23
   password: qwerREWQ@@
   port: 43104
   server: 125.141.31.103
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-7
-  password: YjJiYzBj
-  port: 8388
-  server: 45.140.146.223
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-11
-  password: qwerREWQ@@
-  port: 58989
-  server: 168.126.234.232
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-14
-  password: qwerREWQ@@
-  port: 37041
-  server: 121.170.203.147
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-15
-  password: qwerREWQ@@
-  port: 34847
-  server: 218.50.149.114
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-17
-  password: qwerREWQ@@
-  port: 40915
-  server: 168.126.234.233
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-19
-  password: qwerREWQ@@
-  port: 28902
-  server: 218.38.103.150
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-21
-  password: qwerREWQ@@
-  port: 43104
-  server: p221.panda001.net
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-22
+  name: 0|-https://t.me/MrXbin-24
   password: J0lgxy4mb52CIJ8UUcEgts
   port: 3089
   server: 51.13.182.231
   type: ss
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-24
-  password: qwerREWQ@@
-  port: 5412
-  server: 27.255.82.23
-  type: ss
-- cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-25
-  password: qwerREWQ@@
-  port: 31066
-  server: 218.237.185.230
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-26
-  password: qwerREWQ@@
-  port: 27973
-  server: 221.168.44.72
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-27
-  password: qwerREWQ@@
-  port: 30778
-  server: 125.141.26.12
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-28
   password: qwerREWQ@@
   port: 59686
   server: p232.panda004.net
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-29
+  name: 0|-https://t.me/MrXbin-26
   password: amazonskr05
   port: 443
   server: 34.222.155.226
   type: ss
 - cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-28
+  password: qwerREWQ@@
+  port: 30778
+  server: 125.141.26.12
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-29
+  password: qwerREWQ@@
+  port: 51633
+  server: 211.178.105.134
+  type: ss
+- cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-30
   password: qwerREWQ@@
-  port: 61238
-  server: p231.panda004.net
+  port: 37041
+  server: 121.170.203.147
   type: ss
+  udp: true
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-31
-  password: qwerREWQ@@
-  port: 4563
-  server: 121.170.203.148
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-32
-  password: qwerREWQ@@
-  port: 28290
-  server: 125.141.31.74
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-34
   password: amazonskr05
   port: 443
-  server: 54.95.11.184
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-36
-  password: M7x1mGNOwhPiRB9jSxZJNy
-  port: 6870
-  server: 51.13.182.236
+  server: 13.125.6.123
   type: ss
 - alterId: 0
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-55
-  port: 54735
-  server: 38.147.160.151
-  type: vmess
-  udp: true
-  uuid: 0785c6af-4aac-49a0-9533-95d41d990384
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-63
+  name: 0|-https://t.me/MrXbin-51
   network: ws
-  port: 80
-  server: s4.db-link01.top
+  port: 17926
+  server: 212.192.12.70
   type: vmess
   udp: true
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-157-232-164.s4.db-link01.top
-    path: /dabai.in172.64.44.14
-- alterId: 64
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-64
-  network: ws
-  port: 38007
-  server: 142.4.108.141
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.66827194.xyz
-    path: /path/1723457615032
-- name: 0,12|IN_speednode_0034
-  password: '3648425794742788096'
+  uuid: dae301f8-eeda-473f-aa6c-306b5061c48d
+  ws-opts: {}
+- name: 0|-https://t.me/MrXbin-65
+  password: 243eab52-9ac1-405c-887c-eb112c0985b8
   port: 443
-  server: 5.8.35.208
-  skip-cert-verify: false
-  sni: loving-boa.treefrog761.one
+  server: sg02.trojanyyds.xyz
   type: trojan
-  udp: true
-- name: 0,12|SG_speednode_0066
-  password: c9d1e9e4-2812-4a50-a113-a6c914e9c832
-  port: 258
-  server: t38.emoyes.top
+- name: 0|-https://t.me/MrXbin-66
+  password: 243eab52-9ac1-405c-887c-eb112c0985b8
+  port: 443
+  server: 74.226.136.204
   skip-cert-verify: true
-  sni: www.python.org
+  sni: us01.trojanyyds.xyz
   type: trojan
-  udp: true
-- name: 0,12|SG_speednode_0057
-  password: c9d1e9e4-2812-4a50-a113-a6c914e9c832
-  port: 657
-  server: t39.emoyes.top
+- name: 0|-https://t.me/MrXbin-67
+  password: 243eab52-9ac1-405c-887c-eb112c0985b8
+  port: 443
+  server: us01.trojanyyds.xyz
   skip-cert-verify: true
-  sni: www.python.org
   type: trojan
   udp: true
-- name: 0,12|CA_speednode_0001
+- name: 0|-https://t.me/MrXbin-68
+  password: 243eab52-9ac1-405c-887c-eb112c0985b8
+  port: 443
+  server: tw02.trojanyyds.xyz
+  sni: tw02.trojanyyds.xyz
+  type: trojan
+  udp: true
+- name: 0|-https://t.me/MrXbin-69
+  password: 243eab52-9ac1-405c-887c-eb112c0985b8
+  port: 443
+  server: tw01.trojanyyds.xyz
+  sni: tw01.trojanyyds.xyz
+  type: trojan
+- name: 0|-https://t.me/MrXbin-70
+  password: 243eab52-9ac1-405c-887c-eb112c0985b8
+  port: 443
+  server: in01.trojanyyds.xyz
+  sni: in01.trojanyyds.xyz
+  type: trojan
+- name: 0,12|US_speednode_0101
   password: c9d1e9e4-2812-4a50-a113-a6c914e9c832
-  port: 661
-  server: t34.emoyes.top
+  port: 257
+  server: t36.emoyes.top
   skip-cert-verify: true
   sni: www.python.org
   type: trojan
@@ -247,6 +225,14 @@ proxies:
   server: 36.150.215.219
   skip-cert-verify: true
   type: trojan
+- name: 10,11|香港3|@ripaojiedian
+  network: tcp
+  password: e279c494-c426-443a-a034-a04516409242
+  port: 13004
+  server: naiu-hk.05vr9nyqg5.download
+  skip-cert-verify: false
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
 - alterId: 64
   cipher: auto
   name: 10|🇭🇰 香港4|@ripaojiedian
@@ -259,49 +245,37 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 10|🇭🇰 香港5|@ripaojiedian
-  port: 16785
-  server: 103.30.76.250
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 086ce045-924d-4538-82ef-debb4ae9ccb5
-- alterId: 0
-  cipher: auto
   name: 10|🇹🇼 台湾|@ripaojiedian
-  port: 62506
+  port: 19490
   server: fiwejniavzoj.xn--fiqs8sjz2bull.com
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 5158e623-3763-41d0-96cf-08a9ab2b734c
+  uuid: 2c735365-79bf-4ecf-ba0d-86202fa24cca
+- name: 10,11|新加坡3|@ripaojiedian
+  network: tcp
+  password: e279c494-c426-443a-a034-a04516409242
+  port: 13027
+  server: naiu-sg.05vr9nyqg5.download
+  skip-cert-verify: false
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 10|🇯🇵 日本|@ripaojiedian
-  port: 63494
-  server: ywtwepcnwlou.xn--fiqs8sjz2bull.com
+  name: 10,11|英国|@ripaojiedian
+  network: ws
+  port: '23985'
+  server: 5.39.254.196
+  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 5158e623-3763-41d0-96cf-08a9ab2b734c
-- alterId: 2
-  cipher: auto
-  name: 10,11|美国3|@ripaojiedian
-  network: ws
-  port: '22643'
-  server: tk.hzlt.tkddns.xyz
-  servername: zxjp-c.tkong.cc
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  uuid: 398ce84e-4849-4e5f-9b1a-a56fbe233b81
   ws-opts:
     headers:
-      Host: zxjp-c.tkong.cc
+      Host: ''
     path: /
 - alterId: 64
   cipher: auto
@@ -315,34 +289,22 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11|香港5|@ripaojiedian
-  network: tcp
-  port: '16785'
-  server: 103.30.76.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 086ce045-924d-4538-82ef-debb4ae9ccb5
-- alterId: 0
-  cipher: auto
   name: 11|台湾|@ripaojiedian
   network: tcp
-  port: '62506'
+  port: '19490'
   server: fiwejniavzoj.xn--fiqs8sjz2bull.com
   servername: ''
   tls: false
   type: vmess
-  uuid: 5158e623-3763-41d0-96cf-08a9ab2b734c
-- alterId: 0
-  cipher: auto
-  name: 11|日本|@ripaojiedian
-  network: tcp
-  port: '63494'
-  server: ywtwepcnwlou.xn--fiqs8sjz2bull.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5158e623-3763-41d0-96cf-08a9ab2b734c
+  uuid: 2c735365-79bf-4ecf-ba0d-86202fa24cca
+- name: 12|CA_speednode_0001
+  password: c9d1e9e4-2812-4a50-a113-a6c914e9c832
+  port: 661
+  server: t34.emoyes.top
+  skip-cert-verify: true
+  sni: www.python.org
+  type: trojan
+  udp: true
 - name: 12|DE_speednode_0027
   network: ws
   port: 443
@@ -416,6 +378,14 @@ proxies:
     headers:
       Host: mmdserver.us.kg
     path: /?ed=2048
+- name: 12|IN_speednode_0034
+  password: '3648425794742788096'
+  port: 443
+  server: 5.8.35.208
+  skip-cert-verify: false
+  sni: loving-boa.treefrog761.one
+  type: trojan
+  udp: true
 - name: 12|JP_speednode_0036
   network: ws
   port: 443
@@ -613,6 +583,14 @@ proxies:
     headers:
       Host: ameqo.esslh.filegear-sg.me
     path: /
+- name: 12|SG_speednode_0057
+  password: c9d1e9e4-2812-4a50-a113-a6c914e9c832
+  port: 657
+  server: t39.emoyes.top
+  skip-cert-verify: true
+  sni: www.python.org
+  type: trojan
+  udp: true
 - name: 12|SG_speednode_0058
   network: ws
   port: 443
@@ -725,6 +703,14 @@ proxies:
     headers:
       Host: mmdserver.us.kg
     path: /?ed=2048
+- name: 12|SG_speednode_0066
+  password: c9d1e9e4-2812-4a50-a113-a6c914e9c832
+  port: 258
+  server: t38.emoyes.top
+  skip-cert-verify: true
+  sni: www.python.org
+  type: trojan
+  udp: true
 - name: 12|SI_speednode_0067
   network: ws
   port: 443
@@ -841,14 +827,6 @@ proxies:
   password: c9d1e9e4-2812-4a50-a113-a6c914e9c832
   port: 657
   server: t37.emoyes.top
-  skip-cert-verify: true
-  sni: www.python.org
-  type: trojan
-  udp: true
-- name: 12|US_speednode_0101
-  password: c9d1e9e4-2812-4a50-a113-a6c914e9c832
-  port: 257
-  server: t36.emoyes.top
   skip-cert-verify: true
   sni: www.python.org
   type: trojan

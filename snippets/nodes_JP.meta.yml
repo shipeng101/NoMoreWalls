@@ -1,25 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10|🇯🇵 日本|@ripaojiedian
-  port: 63494
-  server: ywtwepcnwlou.xn--fiqs8sjz2bull.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 5158e623-3763-41d0-96cf-08a9ab2b734c
-- alterId: 0
-  cipher: auto
-  name: 11|日本|@ripaojiedian
-  network: tcp
-  port: '63494'
-  server: ywtwepcnwlou.xn--fiqs8sjz2bull.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5158e623-3763-41d0-96cf-08a9ab2b734c
 - name: 12|JP_speednode_0036
   network: ws
   port: 443

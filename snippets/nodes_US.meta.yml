@@ -1,21 +1,4 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10,11|美国3|@ripaojiedian
-  network: ws
-  port: '22643'
-  server: tk.hzlt.tkddns.xyz
-  servername: zxjp-c.tkong.cc
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-c.tkong.cc
-    path: /
 - name: 12|US_speednode_0070
   network: ws
   port: 80
@@ -84,14 +67,6 @@ proxies:
   password: c9d1e9e4-2812-4a50-a113-a6c914e9c832
   port: 657
   server: t37.emoyes.top
-  skip-cert-verify: true
-  sni: www.python.org
-  type: trojan
-  udp: true
-- name: 12|US_speednode_0101
-  password: c9d1e9e4-2812-4a50-a113-a6c914e9c832
-  port: 257
-  server: t36.emoyes.top
   skip-cert-verify: true
   sni: www.python.org
   type: trojan
