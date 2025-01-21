@@ -10,16 +10,3 @@ proxies:
   protocol-param: 92902:pFWGOQ
   server: 2.hublink.pro
   type: ssr
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 12|JP_speednode_0045
-  port: 14228
-  reality-opts:
-    public-key: rwpbqas_HY8knlW0fFSIeUrjgBXHBzSNboflsLD8elA
-  server: 138.2.37.59
-  servername: icloud.cdn-apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ede893a4-243f-4e9c-b2fc-31cd53e8c007
