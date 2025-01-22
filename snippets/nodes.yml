@@ -1,86 +1,36 @@
 proxies:
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-1
-  password: qwerREWQ@@
-  port: 28902
-  server: 218.38.103.150
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-3
   password: amazonskr05
   port: 443
-  server: 54.187.174.202
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-4
-  password: amazonskr05
-  port: 443
-  server: 13.230.174.203
+  server: 54.179.54.70
   type: ss
   udp: true
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-5
   password: amazonskr05
   port: 443
-  server: 54.190.19.18
+  server: 13.230.174.203
   type: ss
   udp: true
-- cipher: aes-256-cfb
+- cipher: rc4-md5
   name: 0|-https://t.me/MrXbin-6
-  password: qwerREWQ@@
-  port: 28290
-  server: p220.panda001.net
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-7
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 107.155.57.11
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-8
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 193.29.139.189
-  type: ss
-  udp: true
-- cipher: chacha20-ietf
-  name: 0|-https://t.me/MrXbin-10
-  password: asd123456
-  port: 8388
-  server: 202.162.109.169
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-11
-  password: amazonskr05
-  port: 443
-  server: 3.34.189.113
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-12
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 146.70.61.18
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-14
-  password: qwerREWQ@@
-  port: 34847
-  server: 218.50.149.114
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-15
+  name: 0|-https://t.me/MrXbin-7
   password: qwerREWQ@@
   port: 27973
-  server: p196.panda001.net
+  server: 221.168.44.72
+  type: ss
+- cipher: rc4-md5
+  name: 0|-https://t.me/MrXbin-8
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 107.155.57.11
   type: ss
   udp: true
 - name: 10,11|香港|@ripaojiedian
@@ -269,44 +219,12 @@ proxies:
   tls: false
   type: vmess
   uuid: 2b7ce1d2-0372-4104-aa06-f7d999f26e1d
-- name: 12|IN_speednode_0106
-  password: '3648425794742788096'
-  port: 443
-  server: 5.8.35.208
+- name: 12|FR_speednode_0019
+  password: telegram-id-directvpn
+  port: 22222
+  server: 13.37.125.197
   skip-cert-verify: false
-  sni: loving-boa.treefrog761.one
-  type: trojan
-  udp: true
-- name: 12|JP_speednode_0109
-  password: 243eab52-9ac1-405c-887c-eb112c0985b8
-  port: 443
-  server: 74.226.136.204
-  skip-cert-verify: false
-  sni: tw02.trojanyyds.xyz
-  type: trojan
-  udp: true
-- name: 12|JP_speednode_0110
-  password: 243eab52-9ac1-405c-887c-eb112c0985b8
-  port: 443
-  server: sg02.trojanyyds.xyz
-  skip-cert-verify: false
-  sni: sg02.trojanyyds.xyz
-  type: trojan
-  udp: true
-- name: 12|JP_speednode_0111
-  password: 243eab52-9ac1-405c-887c-eb112c0985b8
-  port: 443
-  server: 74.226.136.204
-  skip-cert-verify: false
-  sni: hk03.trojanyyds.xyz
-  type: trojan
-  udp: true
-- name: 12|JP_speednode_0112
-  password: 243eab52-9ac1-405c-887c-eb112c0985b8
-  port: 443
-  server: 74.226.136.204
-  skip-cert-verify: true
-  sni: sg02.trojanyyds.xyz
+  sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
 - alterId: 0
