@@ -20,16 +20,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 48264b45-64b8-4e9f-8a88-cef41f20c736
-- name: 12|DE_speednode_0028
+- name: 12|DE_speednode_0021
   password: mSIusSz2Ku3YUWxB85cQa
-  port: 18880
+  port: 18882
   server: c.2513142.xyz
   skip-cert-verify: false
   type: hysteria2
   udp: true
-- name: 12|DE_speednode_0030
+- name: 12|DE_speednode_0023
   password: mSIusSz2Ku3YUWxB85cQa
-  port: 18882
+  port: 18880
   server: c.2513142.xyz
   skip-cert-verify: false
   type: hysteria2
@@ -41,7 +41,7 @@ proxies:
     method: GET
     path:
     - /
-  name: 12|DE_speednode_0032
+  name: 12|DE_speednode_0025
   network: http
   port: 80
   server: 2na9noed62ec.dopraxrocks.com
@@ -51,3 +51,14 @@ proxies:
   type: vless
   udp: true
   uuid: a52dd329-acad-413b-aa8f-713686ad690c
+- alpn:
+  - h2
+  name: 12|DE_speednode_0027
+  port: 8443
+  server: 195.181.175.176
+  servername: de1.fromblancwithlove.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 157448af-8ecf-4075-a9e9-b23a6a94899b

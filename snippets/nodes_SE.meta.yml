@@ -1,1 +1,12 @@
-proxies: []
+proxies:
+- alpn:
+  - h2
+  name: 12|SE_speednode_0056
+  port: 8443
+  server: 79.127.249.104
+  servername: se1.fromblancwithlove.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 157448af-8ecf-4075-a9e9-b23a6a94899b
