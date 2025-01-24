@@ -1,4 +1,13 @@
 proxies:
+- client-fingerprint: chrome
+  name: 10,12|SG_speednode_0058
+  password: '!!str 3760559353321758720'
+  port: 443
+  server: dear-sunbeam.treefrog761.one
+  skip-cert-verify: true
+  sni: dear-sunbeam.treefrog761.one
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 10|🇸🇬 狮城特殊|@ripaojiedian
