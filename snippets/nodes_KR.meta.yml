@@ -7,19 +7,10 @@ proxies:
   skip-cert-verify: true
   sni: crisp-collie.treefrog761.one
   type: trojan
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 10|🇰🇷 韩国特殊|@ripaojiedian
-  password: amazonskr05
+- name: 11|韩国|@ripaojiedian
+  network: tcp
+  password: '!!str 3760559353321758720'
   port: 443
-  server: 47.128.252.179
-  tfo: false
-  type: ss
-- name: 12|KR_speednode_0044
-  password: 5fb2bc8c-e2d2-41bf-8478-aa16723c23f4
-  port: 30000
-  server: kr1.helloco.xyz
-  skip-cert-verify: false
-  sni: kr1.helloco.xyz
-  type: hysteria2
-  udp: true
+  server: crisp-collie.treefrog761.one
+  skip-cert-verify: true
+  type: trojan

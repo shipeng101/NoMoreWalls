@@ -20,45 +20,44 @@ proxies:
   tls: false
   type: vmess
   uuid: 48264b45-64b8-4e9f-8a88-cef41f20c736
-- name: 12|DE_speednode_0021
-  password: mSIusSz2Ku3YUWxB85cQa
-  port: 18882
-  server: c.2513142.xyz
+- alpn:
+  - h2
+  name: 12|DE_speednode_0020
+  port: 8443
+  server: 195.181.175.176
+  servername: de1.fromblancwithlove.com
   skip-cert-verify: false
-  type: hysteria2
+  tls: true
+  type: vless
   udp: true
-- name: 12|DE_speednode_0023
+  uuid: 157448af-8ecf-4075-a9e9-b23a6a94899b
+- name: 12|DE_speednode_0022
   password: mSIusSz2Ku3YUWxB85cQa
   port: 18880
   server: c.2513142.xyz
   skip-cert-verify: false
   type: hysteria2
   udp: true
-- http-opts:
-    headers:
-      Host:
-      - speedtest.net
-    method: GET
-    path:
-    - /
-  name: 12|DE_speednode_0025
-  network: http
-  port: 80
-  server: 2na9noed62ec.dopraxrocks.com
-  servername: speedtest.net
+- name: 12|DE_speednode_0024
+  password: mSIusSz2Ku3YUWxB85cQa
+  port: 18884
+  server: c.2513142.xyz
   skip-cert-verify: false
-  tls: false
-  type: vless
+  type: hysteria2
   udp: true
-  uuid: a52dd329-acad-413b-aa8f-713686ad690c
 - alpn:
-  - h2
-  name: 12|DE_speednode_0027
-  port: 8443
-  server: 195.181.175.176
-  servername: de1.fromblancwithlove.com
-  skip-cert-verify: true
+  - http/1.1
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 12|DE_speednode_0025
+  port: 443
+  reality-opts:
+    public-key: SDUAmbkyV3wQEEXwV9wpwTqS2qi7gOekiZNpS1jfcXc
+    short-id: d59cd3
+  server: 156.67.30.77
+  servername: spotify.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 157448af-8ecf-4075-a9e9-b23a6a94899b
+  uuid: 1051bfbb-90db-4261-b5e4-8b91f62b436f
