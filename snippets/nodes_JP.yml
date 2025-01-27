@@ -3,7 +3,7 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   name: 10|🇯🇵 日本|@ripaojiedian
-  port: 19690
+  port: 52380
   server: ywtwepcnwlou.xn--fiqs8sjz2bull.com
   skip-cert-verify: false
   tfo: false
@@ -27,7 +27,7 @@ proxies:
   cipher: auto
   name: 11|日本|@ripaojiedian
   network: tcp
-  port: '19690'
+  port: '52380'
   server: ywtwepcnwlou.xn--fiqs8sjz2bull.com
   servername: ''
   tls: false
