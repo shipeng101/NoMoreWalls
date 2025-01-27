@@ -31,20 +31,6 @@ proxies:
   type: vless
   udp: true
   uuid: 157448af-8ecf-4075-a9e9-b23a6a94899b
-- name: 12|DE_speednode_0022
-  password: mSIusSz2Ku3YUWxB85cQa
-  port: 18880
-  server: c.2513142.xyz
-  skip-cert-verify: false
-  type: hysteria2
-  udp: true
-- name: 12|DE_speednode_0024
-  password: mSIusSz2Ku3YUWxB85cQa
-  port: 18884
-  server: c.2513142.xyz
-  skip-cert-verify: false
-  type: hysteria2
-  udp: true
 - alpn:
   - http/1.1
   client-fingerprint: chrome
