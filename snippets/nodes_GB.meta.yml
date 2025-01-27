@@ -1,12 +1,1 @@
-proxies:
-- alpn:
-  - h2
-  name: 12|GB_speednode_0030
-  port: 8443
-  server: 95.173.205.70
-  servername: osl-no-01.fromblancwithlove.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 157448af-8ecf-4075-a9e9-b23a6a94899b
+proxies: []
