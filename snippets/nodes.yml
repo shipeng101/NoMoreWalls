@@ -1,73 +1,49 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-1
-  password: amazonskr05
-  port: 443
-  server: 35.88.145.179
-  type: ss
-- cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-2
   password: amazonskr05
   port: 443
-  server: 43.203.239.233
+  server: 54.244.34.53
   type: ss
 - cipher: aes-256-cfb
   name: 0|-https://t.me/MrXbin-3
-  password: qwerREWQ@@
-  port: 51199
-  server: 221.139.79.20
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-4
   password: amazonskr05
   port: 443
-  server: 3.38.251.26
+  server: 43.203.201.77
   type: ss
-- cipher: aes-128-cfb
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-7
+  password: qwerREWQ@@
+  port: 31066
+  server: 218.237.185.230
+  type: ss
+- cipher: rc4-md5
   name: 0|-https://t.me/MrXbin-14
+  obfs: tls1.2_ticket_auth
+  password: Cskw6d
+  port: 13622
+  protocol: auth_aes128_md5
+  protocol-param: 524959:5u4MZ6
+  server: hfa1.cdn.node.a.tddns-ounk.com
+  type: ssr
+- cipher: aes-128-cfb
+  name: 0|-https://t.me/MrXbin-16
   obfs: http_post
   password: +asd6a5s5df+
   port: 443
   protocol: auth_aes128_md5
   server: nsus3.irundns.net
   type: ssr
-- alterId: 0
+- alterId: 64
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-24
-  network: ws
-  port: 443
-  server: 15.235.83.227
-  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  name: 0|-https://t.me/MrXbin-36
+  port: 49020
+  server: 193.29.107.234
   skip-cert-verify: true
-  tls: true
   type: vmess
-  udp: true
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: mankadmu.com
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-31
-  network: ws
-  port: 443
-  server: 57.129.28.69
-  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: baradiha.com
-    path: /linkvws
+  uuid: 2e967dd5-8d24-4099-a901-412dcb4024fd
 - alterId: 64
   cipher: auto
   name: 10|🇭🇰 香港5|@ripaojiedian
