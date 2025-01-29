@@ -8,3 +8,20 @@ proxies:
   skip-cert-verify: false
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10,11|美国4|@ripaojiedian
+  network: ws
+  port: '8080'
+  server: vip2.pmy666.xyz
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: b8b24778-ab3c-4d1a-9ab1-59f301d61c9f
+  ws-opts:
+    headers:
+      Host: domg.pmy666.xyz
+    path: /?ed=2048
