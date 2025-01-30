@@ -1,1 +1,22 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇸🇬 新加坡|@ripaojiedian 2
+  port: 53896
+  server: pudvkjvvgdol.xn--fiqs8sjz2bull.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 2865a8a3-b9fe-4056-8378-5a03f2d4595e
+- alterId: 0
+  cipher: auto
+  name: '11|新加坡|@ripaojiedian #1'
+  network: tcp
+  port: '53896'
+  server: pudvkjvvgdol.xn--fiqs8sjz2bull.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2865a8a3-b9fe-4056-8378-5a03f2d4595e
