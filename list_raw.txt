@@ -41,5 +41,5 @@ trojan://20a84ebf-9341-4f5f-8245-3975e2fdeee5@219.135.231.205:21019?allowInsecur
 vmess://eyJ2IjogIjIiLCAicHMiOiAiMTN8ZCoqKioqKioqKmcuY29tXzIiLCAiYWRkIjogIjQyLjIzNi43My43MiIsICJwb3J0IjogIjQ0MyIsICJhaWQiOiAwLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogInRscyIsICJpZCI6ICIwNDRmMDE3Ny0wNjc1LTRkY2YtODlkNC04MDRiNjc4OGU1MTgiLCAic25pIjogInd3dy56aXRpYW4uY24ifQ==
 vless://11916472-4e2c-49c6-b75d-71196b3a7ecf@42.236.73.72:443?sni=www.zitian.cn&alpn=http%252F1.1&fp=chrome&security=tls#13%7Cd%2A%2A%2A%2A%2A%2A%2A%2A%2Ag.com_6
 trojan://fuck@42.236.73.72:443?sni=www.zitian.cn&alpn=http%252F1.1#13%7Cd%2A%2A%2A%2A%2A%2A%2A%2A%2Ag.com_3
-https://KNItkC.absslk.xyz/9e68fc4f4129344ddfc13dac4daeb06e
-https://HnXU5r.mcsslk.xyz/da10b4c3940410a82a999498c430a6b2
+https://xOMuFb.absslk.xyz/d594e580751678edcbf318a86c28e5cb
+https://WNBnCe.mcsslk.xyz/4a53495b25d59a6d32884b118b3089d1
