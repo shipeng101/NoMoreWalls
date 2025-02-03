@@ -1,13 +1,11 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 0|🇭🇰1 |  4.4MB/s
-  port: 45051
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇭🇰1 |  2.8MB/s
+  password: d0f47361-bc0f-4a12-86ce-f53158eecf3c
+  port: 34338
+  server: gy.666666222.shop
+  type: ss
   udp: true
-  uuid: 94e76aaf-a5cb-4d08-9872-cb389bcd4a57
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
