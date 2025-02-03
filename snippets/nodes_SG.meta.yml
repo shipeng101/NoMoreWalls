@@ -1,9 +1,21 @@
 proxies:
-- name: 0|🇸🇬1 |  4.8MB/s
-  password: 5198bb80-b38d-387b-bdd9-5287b4ff4d09
-  port: 30712
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x83.flybar.work
-  type: trojan
-  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 0|🇸🇬1 |  5.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 52.74.90.75
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 0|🇸🇬2 |  5.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.254.191.196
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|🇸🇬3 |  1.9MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.141.177.51
+  type: ss

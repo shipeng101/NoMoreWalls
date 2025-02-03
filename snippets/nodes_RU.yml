@@ -1,8 +1,8 @@
 proxies:
-- name: 0|🇷🇺1 |  4.2MB/s
-  password: '!!str 3770966768580042752'
-  port: 443
-  server: boss-tetra.treefrog761.one
-  skip-cert-verify: true
-  sni: boss-tetra.treefrog761.one
-  type: trojan
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 0|🇷🇺2 |  5.4MB/s
+  password: f6804bc0-5a88-466f-a21e-b8978795cc38
+  port: 49217
+  server: south.sf0jm.xyz
+  type: ss
