@@ -1,10 +1,44 @@
 proxies:
-- name: 0|🇯🇵1 |  4.8MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: jpgmo101-cdn-route.couldflare-cdn.com
+- alterId: 99999
+  cipher: auto
+  name: 0|🇯🇵1 |  6.1MB/s
+  port: 28785
+  server: lstqj-g03.jp06-7c5a-vm0.entry.fr0307a.art
+  servername: lstqj-g03.jp06-7c5a-vm0.entry.fr0307a.art
   skip-cert-verify: false
-  sni: jpgmo101-cdn-route.couldflare-cdn.com
   tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
+  type: vmess
+  udp: true
+  uuid: 8e555d33-4ce4-395e-93cd-670297aeeb0f
+- name: 0|🇯🇵2 |  4.9MB/s
+  password: 2a2b4931-07c8-3ba2-b3fe-b7def4ab2f1a
+  port: 20300
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z300.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 0|🇯🇵3 |  1.5MB/s
+  password: 2a2b4931-07c8-3ba2-b3fe-b7def4ab2f1a
+  port: 20141
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z141.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 0|🇯🇵4 |  5.9MB/s
+  password: 2a2b4931-07c8-3ba2-b3fe-b7def4ab2f1a
+  port: 54178
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x115.flybar.work
+  type: trojan
+  udp: true
+- name: 0|🇯🇵5 |  6.0MB/s
+  password: 2a2b4931-07c8-3ba2-b3fe-b7def4ab2f1a
+  port: 20139
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z139.hongkongnode.top
+  type: trojan
+  udp: true
