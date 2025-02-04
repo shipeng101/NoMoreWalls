@@ -1,19 +1,9 @@
 proxies:
-- name: 0|🇹🇼1 |  8.9MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: tw4-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: tw4-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: 0|🇹🇼2 |  10.9MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: twmoon1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: 0|🇹🇼1 |  1.7MB/s
+  password: 333d4654-cab4-3726-9c6c-06a9c27ae680
+  port: 33323
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z261.hongkongnode.top
+  type: trojan
+  udp: true
