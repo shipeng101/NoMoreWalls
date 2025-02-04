@@ -1,7 +1,10 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 0|🇫🇷1 |  6.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 57.180.41.158
-  type: ss
+- client-fingerprint: chrome
+  country: 🇫🇷FR
+  name: 0|🇫🇷1 |  4.3MB/s
+  password: a0605527-28e4-449c-80ee-5642cc16a8af
+  port: 8080
+  server: 51.158.148.53
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true

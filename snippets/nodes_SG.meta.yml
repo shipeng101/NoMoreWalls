@@ -1,7 +1,64 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬1 |  5.5MB/s
-  password: 62dd26b4-c00f-417b-be92-843337ac2435
-  port: 36171
-  server: free.2weradf.xyz
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 0|🇸🇬1 |  16.3MB/s
+  password: amazonskr05
+  port: 443
+  server: 52.74.90.75
   type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 0|🇸🇬2 |  11.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.212.249.95
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 0|🇸🇬3 |  9.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.229.90.203
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇸🇬 新加坡2|@ripaojiedian
+  port: 50012
+  server: 50012.baidu-cdn.top
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: cdb49a9b-6e23-4d90-b2a8-5c158b437cf2
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇸🇬 新加坡3|@ripaojiedian
+  port: 50792
+  server: pudvkjvvgdol.xn--fiqs8sjz2bull.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: a51ed25d-d878-472b-8a5c-4f2f53ddc2ac
+- alterId: 0
+  cipher: auto
+  name: 11|新加坡2|@ripaojiedian
+  network: tcp
+  port: '50012'
+  server: 50012.baidu-cdn.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cdb49a9b-6e23-4d90-b2a8-5c158b437cf2
+- alterId: 0
+  cipher: auto
+  name: 11|新加坡3|@ripaojiedian
+  network: tcp
+  port: '50792'
+  server: pudvkjvvgdol.xn--fiqs8sjz2bull.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a51ed25d-d878-472b-8a5c-4f2f53ddc2ac

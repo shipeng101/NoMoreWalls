@@ -1,72 +1,123 @@
 proxies:
-- name: 0|🇺🇸1 |  4.4MB/s
-  password: b546e50d-fd65-307c-9d0a-8316af976a90
-  port: 43337
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z102.hongkongnode.top
-  type: trojan
-  udp: true
-- name: 0|🇺🇸2 |  1.0MB/s
-  password: b546e50d-fd65-307c-9d0a-8316af976a90
-  port: 20279
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z279.hongkongnode.top
-  type: trojan
-  udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 0|🇺🇸3 |  2.6MB/s
+  name: 0|🇺🇸2 |  4.8MB/s
   password: amazonskr05
   port: 443
-  server: 52.37.136.134
+  server: 35.161.208.118
   type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|🇺🇸4 |  4.8MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.190.43.178
-  type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸5 |  2.1MB/s
-  password: 62dd26b4-c00f-417b-be92-843337ac2435
-  port: 36411
-  server: free.2weradf.xyz
+  name: 0|🇺🇸4 |  1.5MB/s
+  password: 4c4ce70a-f750-4594-a94c-8bc983b041e5
+  port: 34401
+  server: southvip1.pkyun.xyz
+  type: ss
+  udp: true
+- name: 0|🇺🇸8 |  6.8MB/s
+  password: xjtZ2S5FgQ
+  port: 443
+  server: 137.220.42.248
+  skip-cert-verify: true
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸9 |  1.9MB/s
+  password: 4c4ce70a-f750-4594-a94c-8bc983b041e5
+  port: 58812
+  server: southvip1.pkyun.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 0|🇺🇸11 |  5.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.185.251.195
+  type: ss
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 0|🇺🇸17 |  5.5MB/s
+  network: ws
+  port: 37001
+  server: 192.74.231.199
+  servername: www.57277774.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.57277774.xyz
+    path: /path/1737106641750
+- cipher: aes-256-cfb
+  name: 0|🇺🇸18 |  5.2MB/s
+  obfs: plain
+  password: amazonskr05
+  port: 443
+  protocol: origin
+  server: 34.213.243.232
+  type: ssr
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 0|🇺🇸19 |  2.8MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.245.146.74
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 0|🇺🇸6 |  1.9MB/s
+  name: 0|🇺🇸21 |  9.3MB/s
   password: amazonskr05
   port: 443
   server: 52.195.220.24
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸7 |  4.8MB/s
-  password: 62dd26b4-c00f-417b-be92-843337ac2435
-  port: 36641
-  server: free.2weradf.xyz
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 0|🇺🇸22 |  4.5MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.71.17.51
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸8 |  1.6MB/s
-  password: 62dd26b4-c00f-417b-be92-843337ac2435
-  port: 36671
-  server: free.2weradf.xyz
+  name: 0|🇺🇸23 |  1.6MB/s
+  password: 4c4ce70a-f750-4594-a94c-8bc983b041e5
+  port: 58816
+  server: southvip1.pkyun.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|🇺🇸24 |  6.5MB/s
+  obfs: plain
+  password: amazonskr05
+  port: 443
+  protocol: origin
+  server: 34.217.180.245
+  type: ssr
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 0|🇺🇸25 |  4.3MB/s
+  password: amazonskr05
+  port: 443
+  server: 52.37.136.134
   type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: /
-  name: 10,11|美国3|@ripaojiedian
-  network: grpc
-  port: '443'
-  server: t03-cf.phpman.top
-  servername: t03-cf.phpman.top
+  name: 10|🇺🇸 美国|@ripaojiedian
+  port: 23763
+  server: bzryjncvbwng.xn--fiqs8sjz2bull.com
   skip-cert-verify: false
   tfo: false
-  tls: true
+  tls: false
   type: vmess
-  uuid: 537d21ad-49af-41ad-8089-db557b63a40e
+  uuid: a51ed25d-d878-472b-8a5c-4f2f53ddc2ac
+- alterId: 0
+  cipher: auto
+  name: 11|美国|@ripaojiedian
+  network: tcp
+  port: '23763'
+  server: bzryjncvbwng.xn--fiqs8sjz2bull.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a51ed25d-d878-472b-8a5c-4f2f53ddc2ac
