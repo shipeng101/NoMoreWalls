@@ -1,17 +1,14 @@
 proxies:
-- auth: 7ee32f14-b07b-4a5c-8417-af90530f06e4
-  client-fingerprint: chrome
-  name: 0|🇷🇺1 |  4.3MB/s
-  password: 7ee32f14-b07b-4a5c-8417-af90530f06e4
-  port: 32548
-  server: 94.159.107.80
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 0|🇷🇺2 |  5.4MB/s
+  name: 0|🇷🇺1 |  4.5MB/s
   password: f6804bc0-5a88-466f-a21e-b8978795cc38
   port: 49217
   server: south.sf0jm.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇷🇺2 |  2.3MB/s
+  password: 62dd26b4-c00f-417b-be92-843337ac2435
+  port: 36571
+  server: free.2weradf.xyz
   type: ss

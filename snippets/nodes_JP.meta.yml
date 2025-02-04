@@ -1,19 +1,28 @@
 proxies:
-- name: 0|🇯🇵1 |  6.1MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 0|🇯🇵1 |  5.9MB/s
+  password: amazonskr05
   port: 443
-  server: jpgmo102-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: jpgmo102-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: 0|🇯🇵2 |  6.4MB/s
-  password: 883cb14d-f1a4-3850-b24b-3a77bf5e34ef
-  port: 20298
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z298.hongkongnode.top
-  tfo: true
-  type: trojan
-  udp: true
+  server: 43.207.138.233
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|🇯🇵2 |  6.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 43.207.76.121
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 0|🇯🇵3 |  10.9MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.168.25.210
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 0|🇯🇵4 |  3.8MB/s
+  password: amazonskr05
+  port: 443
+  server: 43.207.112.160
+  type: ss
