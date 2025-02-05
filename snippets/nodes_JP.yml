@@ -1,26 +1,18 @@
 proxies:
-- name: 0|🇯🇵1 |  6.1MB/s
-  password: 372c3834-4166-3ab4-bfbb-ebab353b6e99
-  port: 20059
+- name: 0|🇯🇵1 |  2.0MB/s
+  password: f0b00f01-c9b3-352b-84e6-00bb2a719662
+  port: 41767
   server: gy.58n.net
   skip-cert-verify: true
-  sni: x59.flybar.work
+  sni: x114.flybar.work
   type: trojan
   udp: true
-- name: 0|🇯🇵2 |  2.7MB/s
-  password: 372c3834-4166-3ab4-bfbb-ebab353b6e99
-  port: 20142
+- name: 0|🇯🇵3 |  5.7MB/s
+  password: f0b00f01-c9b3-352b-84e6-00bb2a719662
+  port: 20141
   server: gy.58n.net
   skip-cert-verify: true
-  sni: z142.hongkongnode.top
-  type: trojan
-  udp: true
-- name: 0|🇯🇵3 |  3.2MB/s
-  password: 372c3834-4166-3ab4-bfbb-ebab353b6e99
-  port: 54178
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x115.flybar.work
+  sni: z141.hongkongnode.top
   type: trojan
   udp: true
 - alterId: 0
