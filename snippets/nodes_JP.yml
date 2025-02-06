@@ -1,4 +1,11 @@
 proxies:
+- name: 0|🇯🇵1 |  2.6MB/s
+  password: '!!str 3774827088566296576'
+  port: 443
+  server: settled-corgi.insect388.motorcycles
+  skip-cert-verify: true
+  sni: settled-corgi.insect388.motorcycles
+  type: trojan
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
