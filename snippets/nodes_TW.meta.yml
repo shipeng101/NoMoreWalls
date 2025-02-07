@@ -1,10 +1,8 @@
 proxies:
-- name: 0|🇹🇼1 |  4.3MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: tw1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: tw1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 0|🇹🇼1 |  5.1MB/s
+  password: 8d204ccb-ca6f-43f3-bdeb-310d9eee3701
+  port: 12031
+  server: mdss-tw.04z3susick.download
+  type: ss

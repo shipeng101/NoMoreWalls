@@ -1,32 +1,126 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 0|🇺🇸1 |  2.1MB/s
+  name: 0|🇯🇵1 |  1.6MB/s
   password: amazonskr05
   port: 443
-  server: 52.40.94.174
+  server: 54.168.25.210
   type: ss
-- name: 0|🇮🇹1 |  5.1MB/s
-  password: '3774827088566296576'
-  port: 443
-  server: destined-cub.treefrog761.one
-  skip-cert-verify: true
-  sni: destined-cub.treefrog761.one
-  type: trojan
+- cipher: aes-128-gcm
+  name: 0|🇹🇼1 |  5.1MB/s
+  password: 8d204ccb-ca6f-43f3-bdeb-310d9eee3701
+  port: 12031
+  server: mdss-tw.04z3susick.download
+  type: ss
 - cipher: aes-256-cfb
-  name: 0|🇺🇸2 |  2.6MB/s
+  name: 0|🇯🇵2 |  10.2MB/s
   password: amazonskr05
   port: 443
-  server: 35.94.55.129
+  server: 54.248.22.251
   type: ss
-- cipher: rc4-md5
-  name: 0|🇺🇸3 |  5.0MB/s
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 169.150.210.233
+- name: 0|🇸🇬1 |  4.6MB/s
+  password: c12015ed-e211-3e2a-8a1e-f39fd09976b8
+  port: 20129
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x129.flybar.work
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 0|🇺🇸1 |  6.1MB/s
+  network: ws
+  port: 23617
+  server: 17.mamamajd.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 73223b2c-271e-32a1-8f5d-e0aaccd01258
+  ws-opts:
+    headers:
+      Host: 17.mamamajd.site
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇭🇰1 |  3.5MB/s
+  password: 423d2ed9-7a0c-4ea0-accb-c5e292a5e6df
+  port: 36145
+  server: free.2weradf.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇬🇧1 |  2.6MB/s
+  password: 423d2ed9-7a0c-4ea0-accb-c5e292a5e6df
+  port: 36143
+  server: free.2weradf.xyz
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|🇺🇸2 |  1.4MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.190.43.178
+  type: ss
+- cipher: aes-128-gcm
+  name: 0|🌀1- |  3.3MB/s
+  password: 1b569039-513f-489c-8ce9-02ce2b9b0fb6
+  port: 49219
+  server: south.sf0jm.xyz
+  type: ss
+- cipher: aes-128-gcm
+  name: 0|🇺🇸3 |  4.6MB/s
+  password: 1b569039-513f-489c-8ce9-02ce2b9b0fb6
+  port: 49201
+  server: south.sf0jm.xyz
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|🇯🇵3 |  5.4MB/s
+  password: amazonskr05
+  port: 443
+  server: 43.203.206.63
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|🇺🇸4 |  5.9MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.236.161.128
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|🇸🇬2 |  2.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 52.74.90.75
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|🇯🇵4 |  2.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.113.0.222
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|🇸🇬3 |  2.5MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.229.128.74
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|🇯🇵5 |  2.3MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.183.142.200
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|🇯🇵6 |  2.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.178.45.63
+  type: ss
+- cipher: aes-128-gcm
+  name: 0|🇷🇺1 |  5.3MB/s
+  password: 1b569039-513f-489c-8ce9-02ce2b9b0fb6
+  port: 49215
+  server: south.sf0jm.xyz
   type: ss
 - alterId: 2
   cipher: auto
-  name: 0|🇺🇸4 |  3.5MB/s
+  name: 0|🇺🇸5 |  5.5MB/s
   network: ws
   port: 23615
   server: 15.mamamajd.site
@@ -34,30 +128,18 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 77095210-518f-3893-99a2-9339f3bc35d2
+  uuid: 73223b2c-271e-32a1-8f5d-e0aaccd01258
   ws-opts:
     headers:
       Host: 15.mamamajd.site
     path: /
 - cipher: aes-256-cfb
-  name: 0|🇺🇸5 |  1.4MB/s
-  password: amazonskr05
-  port: 443
-  server: 35.89.15.28
+  ip-version: dual
+  name: 0|🌀2- |  1.5MB/s
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 37.143.129.230
   type: ss
-- cipher: aes-128-gcm
-  name: 0|🇺🇸6 |  3.1MB/s
-  password: e2c62a73-3132-48a6-a020-25c3ae0d8af2
-  port: 23733
-  server: cu1.guguyun.xyz
-  type: ss
-- name: 0|🇯🇵2 |  2.5MB/s
-  password: 27445ac4-5777-3b55-9dc3-34fab30d2ba6
-  port: 41767
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x114.flybar.work
-  type: trojan
   udp: true
 - name: 10,11|香港|@ripaojiedian
   network: tcp

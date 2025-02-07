@@ -1,1 +1,8 @@
-proxies: []
+proxies:
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 0|🇷🇺1 |  5.3MB/s
+  password: 1b569039-513f-489c-8ce9-02ce2b9b0fb6
+  port: 49215
+  server: south.sf0jm.xyz
+  type: ss
