@@ -1,9 +1,1 @@
-proxies:
-- cipher: aes-256-cfb
-  ip-version: dual
-  name: 0|🇷🇺1 |  5.2MB/s
-  password: f63gg8EruDnUrmz4
-  port: 9010
-  server: 217.30.10.18
-  type: ss
-  udp: true
+proxies: []
