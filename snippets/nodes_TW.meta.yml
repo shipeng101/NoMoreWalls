@@ -1,8 +1,20 @@
 proxies:
-- cipher: aes-128-gcm
+- name: 0|🇹🇼1 |  6.2MB/s
+  password: myszy28811
+  port: 28811
+  server: pipi.myddns.me
+  type: socks5
+  udp: true
+  username: myszy
+- cipher: rc4-md5
   client-fingerprint: chrome
-  name: 0|🇹🇼1 |  5.1MB/s
-  password: 8d204ccb-ca6f-43f3-bdeb-310d9eee3701
-  port: 12031
-  server: mdss-tw.04z3susick.download
+  name: 10|🇹🇼 台湾|@ripaojiedian
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 3036
+  server: 59.42.247.243
+  tfo: false
   type: ss
