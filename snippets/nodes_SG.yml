@@ -1,1 +1,13 @@
-proxies: []
+proxies:
+- alterId: '0'
+  cipher: auto
+  name: 0|🇸🇬1 |  8.6MB/s
+  network: ws
+  port: 80
+  server: awssg1.072659.xyz
+  type: vmess
+  uuid: f435af7b-d36e-4e8d-9c0f-3017bb71e2c9
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /?ed=2048
