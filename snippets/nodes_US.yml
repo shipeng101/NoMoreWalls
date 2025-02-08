@@ -1,54 +1,16 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸1 |  2.0MB/s
-  password: 5c17ced8-1f07-44f2-8298-9321b49ee32c
-  port: 36371
-  server: free.2weradf.xyz
-  type: ss
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 0|🇺🇸2 |  6.0MB/s
-  port: 45063
-  server: xdd.dashuai.cyou
+  name: 0|🇺🇸2 |  5.2MB/s
+  network: ws
+  port: 23617
+  server: 17.mamamajd.site
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 6d8715e2-f736-48ed-b0c7-7ef1f85bda65
-- cipher: aes-256-cfb
-  name: 0|🇺🇸3 |  1.4MB/s
-  password: amazonskr05
-  port: 443
-  server: 35.163.107.154
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸4 |  5.2MB/s
-  password: 77da5244-1a08-42ee-9685-7ba08a5e5b4f
-  port: 13489
-  server: chiyu.myfczy169.top
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸5 |  5.6MB/s
-  port: 45071
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6d8715e2-f736-48ed-b0c7-7ef1f85bda65
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 10|🇺🇸 美国|@ripaojiedian
-  password: UHVGWR1W2LX9NZT5
-  port: 17001
-  server: qh62onjn.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 10|🇺🇸 美国2|@ripaojiedian
-  password: 866J4U7A62Y3BA7D
-  port: 17003
-  server: 8tv68qhq.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
+  uuid: 9b0d5da3-b43d-3cd0-b96d-84004851268d
+  ws-opts:
+    headers:
+      Host: 17.mamamajd.site
+    path: /
