@@ -1,29 +1,10 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵1 |  4.5MB/s
-  password: b73cfaeb-387d-480c-95e0-20f1c3fac2c3
-  port: 18861
-  server: tw-01.baiducdn.icu
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵2 |  6.2MB/s
-  password: b73cfaeb-387d-480c-95e0-20f1c3fac2c3
-  port: 18863
-  server: tw-03.baiducdn.icu
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|🇯🇵3 |  6.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 52.68.247.21
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵4 |  1.8MB/s
-  password: b73cfaeb-387d-480c-95e0-20f1c3fac2c3
-  port: 18862
-  server: tw-02.baiducdn.icu
-  type: ss
+- name: 0|🇯🇵1 |  1.4MB/s
+  password: 7d78b611-d26a-3828-ac5a-5f5ed29efeda
+  port: 20300
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z300.hongkongnode.top
+  tfo: true
+  type: trojan
   udp: true

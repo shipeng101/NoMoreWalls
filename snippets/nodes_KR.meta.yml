@@ -1,25 +1,7 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷1 |  5.5MB/s
-  password: 81cfd60a-ba0a-40b0-a496-e962a0186060
-  port: 36313
-  server: free.2weradf.xyz
-  type: ss
-- auth: 202d95a3-2204-4a9d-b96f-6bee7c395360
-  down: 1000
-  name: 0|🇰🇷2 |  1.7MB/s
-  password: 202d95a3-2204-4a9d-b96f-6bee7c395360
-  port: 30001
-  server: oracle-arm-seoul1.lanmaoyun.icu
-  skip-cert-verify: true
-  sni: korea.nodes.lanmaoyun.icu
-  type: hysteria2
-  udp: true
-  up: 100
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|🇰🇷3 |  4.9MB/s
+  name: 0|🇰🇷1 |  5.0MB/s
   password: amazonskr05
   port: 443
-  server: 52.79.216.192
+  server: 13.125.126.52
   type: ss

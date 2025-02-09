@@ -1,11 +1,4 @@
 proxies:
-- cipher: aes-128-gcm
-  name: 0|🇹🇼2 |  2.9MB/s
-  password: b73cfaeb-387d-480c-95e0-20f1c3fac2c3
-  port: 15652
-  server: sg-02.baiducdn.icu
-  type: ss
-  udp: true
 - client-fingerprint: chrome
   name: 10,11|台湾|@ripaojiedian
   network: tcp
