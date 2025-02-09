@@ -1,1 +1,53 @@
-proxies: []
+proxies:
+- name: 0,12|US_speednode_0044
+  network: ws
+  port: 80
+  server: NUFiLTER.fastly80-3.hosting-ip.com
+  servername: 6.fidsxss222x.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: ff2b2fca-a979-4f23-8740-17975f11110a
+  ws-opts:
+    headers:
+      Host: 6.fidsxss222x.ir
+    path: /telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=8080
+- name: 12|DE_speednode_0005
+  port: 443
+  server: 2na9noed62ec.dopraxrocks.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: a6e8515c-4e54-435a-9a47-2365beb40164
+- http-opts:
+    headers:
+      Host:
+      - sso.farhang.gov.ir
+    method: GET
+    path:
+    - /download
+  name: 12|DE_speednode_0006
+  network: http
+  port: 8080
+  server: 188.245.251.47
+  servername: sso.farhang.gov.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 1c86a177-d7ff-4a5f-8255-cfeb4e051305
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 12|DE_speednode_0007
+  port: 23055
+  server: vpn.pnm1.com
+  servername: vpn.pnm1.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 90cadcb1-5955-4ddc-c846-a40f06cbed39
