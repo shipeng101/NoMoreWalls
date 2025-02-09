@@ -1,10 +1,1 @@
-proxies:
-- name: 0|🇯🇵1 |  1.4MB/s
-  password: 7d78b611-d26a-3828-ac5a-5f5ed29efeda
-  port: 20300
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z300.hongkongnode.top
-  tfo: true
-  type: trojan
-  udp: true
+proxies: []
