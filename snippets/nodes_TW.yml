@@ -1,28 +1,17 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  name: 0|🇹🇼1 |  5.8MB/s
-  network: ws
-  port: 23619
-  server: 19.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a3ca9a84-8b24-3216-b801-e903c94625f0
-  ws-opts:
-    headers:
-      Host: 19.mamamajd.site
-    path: /
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 10|🇹🇼 台湾|@ripaojiedian
-  password: RenzheCloudSS
-  plugin: obfs
-  plugin-opts:
-    host: 78fe8292462.microsoft.com
-    mode: http
-  port: 3036
-  server: 59.42.247.243
-  tfo: false
+- cipher: aes-128-gcm
+  name: 0|🇹🇼2 |  2.9MB/s
+  password: b73cfaeb-387d-480c-95e0-20f1c3fac2c3
+  port: 15652
+  server: sg-02.baiducdn.icu
   type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 10,11|台湾|@ripaojiedian
+  network: tcp
+  password: 415b770f-20de-4be4-a3c1-8376da50a1b7
+  port: 18147
+  server: wb.kaiqsz.com
+  skip-cert-verify: false
+  sni: mm2.redapricotcloud.com
+  type: trojan
