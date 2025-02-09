@@ -1,1 +1,9 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 0|🇭🇰1 |  13.1MB/s
+  port: 19901
+  server: xg.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: e0601a99-7dc4-4d53-af05-887d278b21b0
