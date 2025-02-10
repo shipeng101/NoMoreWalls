@@ -1,199 +1,28 @@
 proxies:
 - cipher: chacha20-ietf
-  name: 0|🇮🇷1 |  6.0MB/s
+  name: 0|🇮🇷1 |  5.8MB/s
   obfs: http_simple
   obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
   password: passwd
-  port: 8203
+  port: 8204
   protocol: origin
   protocol-param: ''
   server: cn06.closeai.one
   type: ssr
   udp: true
-- alpn:
-  - h3
-  auth: 3e62210d-f3a1-4a0c-840c-5cbb1fd9c664
-  name: 0|🇺🇸1 |  1.3MB/s
-  password: 3e62210d-f3a1-4a0c-840c-5cbb1fd9c664
-  port: 65128
-  server: 107.149.242.75
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
 - cipher: chacha20-ietf
-  name: 0|🌀1- |  5.9MB/s
+  name: 0|🌀1- |  5.8MB/s
   obfs: http_simple
   obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
   password: passwd
-  port: 8117
+  port: 8114
   protocol: origin
   protocol-param: ''
-  server: cn04.closeai.one
+  server: cn03.closeai.one
   type: ssr
   udp: true
 - cipher: chacha20-ietf
-  name: 0|🇺🇸2 |  5.1MB/s
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8505
-  protocol: origin
-  protocol-param: ''
-  server: cn15.closeai.one
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf
-  name: 0|🇨🇦1 |  4.6MB/s
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8126
-  protocol: origin
-  protocol-param: ''
-  server: cn05.closeai.one
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf
-  name: 0|🇹🇼1 |  5.6MB/s
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8301
-  protocol: origin
-  protocol-param: ''
-  server: cn10.closeai.one
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf
-  name: 0|🇷🇺1 |  17.0MB/s
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8613
-  protocol: origin
-  protocol-param: ''
-  server: cn17.closeai.one
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf
-  name: 0|🌀2- |  6.2MB/s
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8231
-  protocol: origin
-  protocol-param: ''
-  server: cn06.closeai.one
-  type: ssr
-  udp: true
-- cipher: aes-128-gcm
-  name: 0|🌏1 |  3.5MB/s
-  password: 6419ff34-6c3e-4cbf-b58b-b6bb34e1ccff
-  port: 12009
-  server: mdss-hk.04z3susick.download
-  type: ss
-  udp: true
-- cipher: chacha20-ietf
-  name: 0|🇬🇧1 |  5.1MB/s
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8601
-  protocol: origin
-  protocol-param: ''
-  server: cn17.closeai.one
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf
-  name: 0|🇷🇺2 |  5.5MB/s
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8202
-  protocol: origin
-  protocol-param: ''
-  server: cn06.closeai.one
-  type: ssr
-  udp: true
-- name: 0|🌀3- |  5.8MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: jp104-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: jp104-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- cipher: aes-256-cfb
-  name: 0|🇺🇦1 |  24.8MB/s
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 176.103.53.105
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|🇰🇷1 |  2.3MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.180.158.248
-  type: ss
-- cipher: chacha20-ietf
-  name: 0|🇺🇸3 |  5.4MB/s
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8110
-  protocol: origin
-  protocol-param: ''
-  server: cn02.closeai.one
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf
-  name: 0|🇺🇸4 |  3.3MB/s
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8508
-  protocol: origin
-  protocol-param: ''
-  server: cn16.closeai.one
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf
-  name: 0|🌀4- |  3.5MB/s
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8407
-  protocol: origin
-  protocol-param: ''
-  server: cn12.closeai.one
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf
-  name: 0|🇺🇸5 |  3.5MB/s
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8109
-  protocol: origin
-  protocol-param: ''
-  server: cn02.closeai.one
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf
-  name: 0|🇮🇷2 |  6.1MB/s
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8208
-  protocol: origin
-  protocol-param: ''
-  server: cn07.closeai.one
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf
-  name: 0|🇺🇸6 |  6.2MB/s
+  name: 0|🇺🇸1 |  6.0MB/s
   obfs: http_simple
   obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
   password: passwd
@@ -201,6 +30,147 @@ proxies:
   protocol: origin
   protocol-param: ''
   server: cn05.closeai.one
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 0|🇺🇸2 |  1.5MB/s
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8504
+  protocol: origin
+  protocol-param: ''
+  server: cn15.closeai.one
+  type: ssr
+  udp: true
+- cipher: aes-128-gcm
+  name: 0|🌏1 |  1.5MB/s
+  password: 6419ff34-6c3e-4cbf-b58b-b6bb34e1ccff
+  port: 12008
+  server: mdss-hk.04z3susick.download
+  type: ss
+  udp: true
+- cipher: chacha20-ietf
+  name: 0|🌀2- |  6.1MB/s
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8101
+  protocol: origin
+  protocol-param: ''
+  server: cn01.closeai.one
+  type: ssr
+  udp: true
+- name: 0|🇺🇸3 |  1.7MB/s
+  password: 93f7b539-f89e-3087-8c39-54c4021690ce
+  port: 24603
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z259.hongkongnode.top
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf
+  name: 0|🇺🇸4 |  5.5MB/s
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8124
+  protocol: origin
+  protocol-param: ''
+  server: cn05.closeai.one
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 0|🇮🇷2 |  2.3MB/s
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8515
+  protocol: origin
+  protocol-param: ''
+  server: cn16.closeai.one
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 0|🌀3- |  1.0MB/s
+  password: asd123456
+  port: 8388
+  server: 194.41.59.80
+  type: ss
+- cipher: chacha20-ietf
+  name: 0|🇮🇷3 |  6.1MB/s
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8215
+  protocol: origin
+  protocol-param: ''
+  server: cn09.closeai.one
+  type: ssr
+  udp: true
+- auth: 7ee32f14-b07b-4a5c-8417-af90530f06e4
+  name: 0|🇷🇺1 |  5.2MB/s
+  password: 7ee32f14-b07b-4a5c-8417-af90530f06e4
+  port: 32548
+  server: 94.159.107.80
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
+- cipher: chacha20-ietf
+  name: 0|🇮🇷4 |  5.9MB/s
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8205
+  protocol: origin
+  protocol-param: ''
+  server: cn06.closeai.one
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 0|🇹🇼1 |  1.7MB/s
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8801
+  protocol: origin
+  protocol-param: ''
+  server: cn00.closeai.one
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇷🇺2 |  7.9MB/s
+  password: 8886d2da-6252-468c-8e6a-6d76d0a4d5dc
+  port: 30003
+  server: gdgs.tarioblink.me
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|🇸🇬1 |  5.4MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.250.12.185
+  type: ss
+- cipher: chacha20-ietf
+  name: 0|🌀4- |  5.2MB/s
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8113
+  protocol: origin
+  protocol-param: ''
+  server: cn03.closeai.one
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 0|🇺🇸5 |  5.3MB/s
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8505
+  protocol: origin
+  protocol-param: ''
+  server: cn15.closeai.one
   type: ssr
   udp: true
 - name: 10|tg频道:@ripaojiedian
@@ -238,7 +208,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 234dcf63-5809-44fd-9c53-86f51f2e76a7
-- name: 10,11|香港4|@ripaojiedian
+- name: 10,11,12|HK_speednode_0119
   network: tcp
   password: 43e5eeacbad3032bfe4c25a2f011b6b7
   port: 443
@@ -246,6 +216,7 @@ proxies:
   skip-cert-verify: true
   sni: hezijiasuqi.com
   type: trojan
+  udp: true
 - name: 10,11|台湾|@ripaojiedian
   network: tcp
   password: 415b770f-20de-4be4-a3c1-8376da50a1b7
@@ -297,7 +268,7 @@ proxies:
   skip-cert-verify: false
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
-- name: 10,11,12|CN_speednode_0093
+- name: 10,11|韩国|@ripaojiedian
   network: tcp
   password: dc15d997-8b26-4294-870e-c90a5784dca4
   port: 13036
@@ -305,7 +276,6 @@ proxies:
   skip-cert-verify: false
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
-  udp: true
 - name: 10,11|韩国2|@ripaojiedian
   network: tcp
   password: 415b770f-20de-4be4-a3c1-8376da50a1b7
@@ -314,7 +284,7 @@ proxies:
   skip-cert-verify: false
   sni: mmbiz10.redapricotcloud.com
   type: trojan
-- name: 10,11|新加坡|@ripaojiedian
+- name: 10,11,12|CN_speednode_0092
   network: tcp
   password: dc15d997-8b26-4294-870e-c90a5784dca4
   port: 13028
@@ -322,6 +292,7 @@ proxies:
   skip-cert-verify: false
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
+  udp: true
 - name: 10,11|新加坡3|@ripaojiedian
   network: tcp
   password: 415b770f-20de-4be4-a3c1-8376da50a1b7
@@ -396,12 +367,14 @@ proxies:
   tls: false
   type: vmess
   uuid: 234dcf63-5809-44fd-9c53-86f51f2e76a7
-- name: 11|日本|@ripaojiedian
+- name: 11,12|JP_speednode_0127
   network: tcp
   password: '3669023846591373312'
   port: 443
   server: equipped-parakeet.pigeon031.one
+  skip-cert-verify: false
   type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 11|日本3|@ripaojiedian
@@ -422,29 +395,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 6f5637c1-2a46-4d3b-8257-7dc3a70ff1dd
-- client-fingerprint: random
-  name: 12|CR_speednode_0096
-  network: ws
-  port: 443
-  server: 190.93.244.187
-  servername: edgetunnel-3pc.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8b5e0dc6-abde-4323-ac8a-9f26824b3c5f
-  ws-opts:
-    headers:
-      Host: edgetunnel-3pc.pages.dev
-    path: /?ed=2560
-- name: 12|DE_speednode_0097
-  port: 443
-  server: 2na9noed62ec.dopraxrocks.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: a6e8515c-4e54-435a-9a47-2365beb40164
 - http-opts:
     headers:
       Host:
@@ -452,7 +402,7 @@ proxies:
     method: GET
     path:
     - /download
-  name: 12|DE_speednode_0098
+  name: 12|DE_speednode_0109
   network: http
   port: 8080
   server: 188.245.251.47
@@ -465,7 +415,19 @@ proxies:
 - alpn:
   - h2
   - http/1.1
-  name: 12|DE_speednode_0099
+  name: 12|DE_speednode_0111
+  port: 23055
+  server: 146.103.41.166
+  servername: vpn.pnm1.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 90cadcb1-5955-4ddc-c846-a40f06cbed39
+- alpn:
+  - h2
+  - http/1.1
+  name: 12|DE_speednode_0112
   port: 23055
   server: vpn.pnm1.com
   servername: vpn.pnm1.com
@@ -474,20 +436,50 @@ proxies:
   type: vless
   udp: true
   uuid: 90cadcb1-5955-4ddc-c846-a40f06cbed39
-- flow: xtls-rprx-vision
-  name: 12|DE_speednode_0100
-  port: 1633
-  reality-opts:
-    public-key: ANlgAsYC8HmKfJnc5SFvru822urkxG1PzW1Zw4Vbm0Q
-    short-id: 9bc0a55a5379c0ed
-  server: 185.161.251.211
-  servername: stackoverflow.com
+- name: 12|ES_speednode_0113
+  network: ws
+  port: 8080
+  server: 94.250.246.200
+  servername: a.mifeng.us.kg
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: b6e0fefb-5686-4f7b-9e3c-e212ef4b3ef7
-- name: 12|JP_speednode_0102
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.mifeng.us.kg
+    path: /?ed=2560
+- name: 12|GB_speednode_0115
+  password: 2cba4104747d49d18319e5ade1b93ab5
+  port: 443
+  server: 161.35.34.48
+  skip-cert-verify: true
+  sni: yourjobnavigator.online
+  type: trojan
+  udp: true
+- name: 12|GB_speednode_0116
+  password: 2cba4104747d49d18319e5ade1b93ab5
+  port: 443
+  server: yourjobnavigator.online
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: 12|HK_speednode_0117
+  password: 3f76cb88-d4f7-432c-9639-13ef6a0e8abe
+  port: 48663
+  server: 9865cdfcd7fe92e4a76800429f9950c2.v1.cac.node-is.green
+  skip-cert-verify: true
+  sni: hk12.bilibili.com
+  type: trojan
+  udp: true
+- name: 12|HK_speednode_0118
+  port: 4000
+  server: ftq.ink
+  tls: true
+  type: http
+  udp: true
+- name: 12|JP_speednode_0121
   password: 6557bf4a-852b-4a69-ad35-d53293386a13
   port: 443
   server: jp.mjt000.com
@@ -495,39 +487,7 @@ proxies:
   sni: jp.mjt000.com
   type: trojan
   udp: true
-- name: 12|JP_speednode_0103
-  password: 6557bf4a-852b-4a69-ad35-d53293386a13
-  port: 443
-  server: waphk.mjt000.com
-  skip-cert-verify: false
-  sni: waphk.mjt000.com
-  type: trojan
-  udp: true
-- name: 12|JP_speednode_0104
-  password: 6557bf4a-852b-4a69-ad35-d53293386a13
-  port: 443
-  server: vn.mjt000.com
-  skip-cert-verify: false
-  sni: vn.mjt000.com
-  type: trojan
-  udp: true
-- name: 12|JP_speednode_0105
-  password: 6557bf4a-852b-4a69-ad35-d53293386a13
-  port: 443
-  server: sg.mjt000.com
-  skip-cert-verify: true
-  sni: sg.mjt000.com
-  type: trojan
-  udp: true
-- name: 12|JP_speednode_0106
-  password: 6557bf4a-852b-4a69-ad35-d53293386a13
-  port: 443
-  server: usla.mjt000.com
-  skip-cert-verify: false
-  sni: usla.mjt000.com
-  type: trojan
-  udp: true
-- name: 12|JP_speednode_0107
+- name: 12|JP_speednode_0122
   password: 6557bf4a-852b-4a69-ad35-d53293386a13
   port: 443
   server: au.mjt000.com
@@ -535,23 +495,15 @@ proxies:
   sni: au.mjt000.com
   type: trojan
   udp: true
-- name: 12|JP_speednode_0108
+- name: 12|JP_speednode_0123
   password: 6557bf4a-852b-4a69-ad35-d53293386a13
   port: 443
-  server: it.mjt000.com
+  server: vn.mjt000.com
   skip-cert-verify: false
-  sni: it.mjt000.com
+  sni: vn.mjt000.com
   type: trojan
   udp: true
-- name: 12|JP_speednode_0109
-  password: 6557bf4a-852b-4a69-ad35-d53293386a13
-  port: 443
-  server: uk.mjt000.com
-  skip-cert-verify: false
-  sni: uk.mjt000.com
-  type: trojan
-  udp: true
-- name: 12|JP_speednode_0110
+- name: 12|JP_speednode_0124
   password: 6557bf4a-852b-4a69-ad35-d53293386a13
   port: 443
   server: ar.mjt000.com
@@ -559,15 +511,23 @@ proxies:
   sni: ar.mjt000.com
   type: trojan
   udp: true
-- name: 12|JP_speednode_0111
+- name: 12|JP_speednode_0125
   password: 6557bf4a-852b-4a69-ad35-d53293386a13
   port: 443
-  server: il.mjt000.com
+  server: it.mjt000.com
   skip-cert-verify: false
-  sni: il.mjt000.com
+  sni: it.mjt000.com
   type: trojan
   udp: true
-- name: 12|JP_speednode_0112
+- name: 12|JP_speednode_0126
+  password: 6557bf4a-852b-4a69-ad35-d53293386a13
+  port: 443
+  server: uk.mjt000.com
+  skip-cert-verify: false
+  sni: uk.mjt000.com
+  type: trojan
+  udp: true
+- name: 12|JP_speednode_0128
   password: 6557bf4a-852b-4a69-ad35-d53293386a13
   port: 443
   server: tr.mjt000.com
@@ -575,15 +535,7 @@ proxies:
   sni: tr.mjt000.com
   type: trojan
   udp: true
-- name: 12|JP_speednode_0113
-  password: 6557bf4a-852b-4a69-ad35-d53293386a13
-  port: 443
-  server: kz.mjt000.com
-  skip-cert-verify: false
-  sni: kz.mjt000.com
-  type: trojan
-  udp: true
-- name: 12|JP_speednode_0114
+- name: 12|JP_speednode_0129
   password: 6557bf4a-852b-4a69-ad35-d53293386a13
   port: 443
   server: ni.mjt000.com
@@ -598,7 +550,7 @@ proxies:
     method: GET
     path:
     - /
-  name: 12|NL_speednode_0115
+  name: 12|NL_speednode_0132
   network: http
   port: 22671
   server: 95.179.159.217
@@ -608,108 +560,11 @@ proxies:
   type: vless
   udp: true
   uuid: ebc5660f-bb9b-415c-94ab-d3630189ceb9
-- name: 12|SC_speednode_0117
-  port: 25585
-  reality-opts:
-    public-key: PeBC_tJjIk236cDe3NUZQfbWQZBgy4c-8aJWNQuL4mE
-    short-id: 2ca90ee3
-  server: 156.226.174.90
-  servername: yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ad80be46-fe43-4a1c-b54d-00e64fe37b73
-- name: 12|US_speednode_0119
-  network: ws
-  port: 80
-  server: 104.20.129.2
-  servername: pormang.webhost99.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
-  ws-opts:
-    headers:
-      Host: pormang.webhost99.workers.dev
-    path: /?ed=2560
-- name: 12|US_speednode_0120
-  network: ws
-  port: 80
-  server: 104.20.129.2
-  servername: pormang.webhost99.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
-  ws-opts:
-    headers:
-      Host: pormang.webhost99.workers.dev
-    path: /Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray?ed=2560
-- name: 12|US_speednode_0121
-  network: ws
-  port: 80
-  server: www.speedtest.net
-  servername: redw.pooriam.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /Telegram@MTMVPN/?ed=2560
-- name: 12|US_speednode_0122
-  network: ws
-  port: 80
-  server: 104.17.148.22
-  servername: redw.pooriam.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /LwW5jwrnymnOdqki?ed=2560
 - client-fingerprint: random
-  name: 12|US_speednode_0123
+  name: 12|US_speednode_0155
   network: ws
   port: 443
-  server: 103.21.244.187
-  servername: edgetunnel-3pc.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8b5e0dc6-abde-4323-ac8a-9f26824b3c5f
-  ws-opts:
-    headers:
-      Host: edgetunnel-3pc.pages.dev
-    path: /?ed=2560
-- name: 12|US_speednode_0124
-  network: ws
-  port: 443
-  server: wear.net
-  servername: wear.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 046fd332-80a6-43b0-91b0-7238a1dfc36c
-  ws-opts:
-    headers:
-      Host: aw035.ir
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 12|US_speednode_0125
-  network: ws
-  port: 443
-  server: 104.24.14.161
+  server: 104.16.163.16
   servername: edgetunnel-3pc.pages.dev
   skip-cert-verify: true
   tls: true
@@ -721,39 +576,10 @@ proxies:
       Host: edgetunnel-3pc.pages.dev
     path: /?ed=2560
 - client-fingerprint: random
-  name: 12|US_speednode_0126
+  name: 12|US_speednode_0157
   network: ws
   port: 443
-  server: 172.64.81.101
-  servername: edgetunnel-3pc.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8b5e0dc6-abde-4323-ac8a-9f26824b3c5f
-  ws-opts:
-    headers:
-      Host: edgetunnel-3pc.pages.dev
-    path: /?ed=2560
-- name: 12|US_speednode_0127
-  network: ws
-  port: 80
-  server: 104.20.129.2
-  servername: pormang.webhost99.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
-  ws-opts:
-    headers:
-      Host: pormang.webhost99.workers.dev
-    path: /
-- client-fingerprint: random
-  name: 12|US_speednode_0129
-  network: ws
-  port: 443
-  server: 104.16.145.200
+  server: 104.16.96.120
   servername: edgetunnel-3pc.pages.dev
   skip-cert-verify: true
   tls: true
@@ -765,10 +591,10 @@ proxies:
       Host: edgetunnel-3pc.pages.dev
     path: /?ed=2560
 - client-fingerprint: random
-  name: 12|US_speednode_0130
+  name: 12|US_speednode_0158
   network: ws
   port: 443
-  server: 188.114.97.158
+  server: 104.24.51.228
   servername: edgetunnel-3pc.pages.dev
   skip-cert-verify: true
   tls: true
@@ -779,38 +605,11 @@ proxies:
     headers:
       Host: edgetunnel-3pc.pages.dev
     path: /?ed=2560
-- name: 12|US_speednode_0131
-  network: ws
-  port: 80
-  server: 151.101.3.8
-  servername: 49.org
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: abfc215c-b2dc-4d7b-bab4-e0e17812a8d6
-  ws-opts:
-    headers:
-      Host: 49.org
-    path: /telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee?ed=2095
-- flow: xtls-rprx-vision
-  name: 12|US_speednode_0132
-  port: 40021
-  reality-opts:
-    public-key: CuFCD-MhNUXArRCGaTHi7BiZvDXfy9sgKSeL3sPMbHY
-    short-id: 891814a4
-  server: 108.181.18.171
-  servername: apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 193f3ec7-d850-481b-b17d-1094edc3e03b
 - client-fingerprint: random
-  name: 12|US_speednode_0133
+  name: 12|US_speednode_0160
   network: ws
   port: 443
-  server: 172.64.137.65
+  server: 103.21.244.10
   servername: edgetunnel-3pc.pages.dev
   skip-cert-verify: true
   tls: true
@@ -821,25 +620,11 @@ proxies:
     headers:
       Host: edgetunnel-3pc.pages.dev
     path: /?ed=2560
-- name: 12|US_speednode_0134
-  network: ws
-  port: 80
-  server: speedtest.net
-  servername: foffmelo.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 576d1c42-4b4a-4bba-c786-f1c43700d05d
-  ws-opts:
-    headers:
-      Host: foffmelo.com
-    path: /olem/ws?ed=1024
 - client-fingerprint: random
-  name: 12|US_speednode_0135
+  name: 12|US_speednode_0161
   network: ws
   port: 443
-  server: 104.16.47.19
+  server: 104.24.3.206
   servername: edgetunnel-3pc.pages.dev
   skip-cert-verify: true
   tls: true
@@ -850,6 +635,37 @@ proxies:
     headers:
       Host: edgetunnel-3pc.pages.dev
     path: /?ed=2560
+- alpn:
+  - h2
+  - http/1.1
+  name: 12|US_speednode_0164
+  port: 443
+  server: 147135010072.sec21org.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c4fa89d4-fcb9-48ba-adbc-665181cc817f
+- alpn:
+  - h2
+  - http/1.1
+  name: 12|US_speednode_0165
+  port: 443
+  server: 147135011033.sec21org.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0a44145f-59dc-4e5b-a233-677b97f5114c
+- name: 12|US_speednode_0166
+  port: 443
+  server: 15.204.184.159
+  servername: 147135011033.sec21org.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0a44145f-59dc-4e5b-a233-677b97f5114c
 - alterId: 0
   cipher: auto
   name: 13|d*********g.com_2
