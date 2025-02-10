@@ -1,25 +1,16 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 0|🇰🇷1 |  5.2MB/s
+  password: qwerREWQ@@
+  port: 28902
+  server: 218.38.103.150
+  type: ss
 - client-fingerprint: chrome
-  name: 10|🇰🇷 韩国|@ripaojiedian
+  name: 10,11|韩国|@ripaojiedian
+  network: tcp
   password: dc15d997-8b26-4294-870e-c90a5784dca4
   port: 13036
   server: naiu-other.05vr9nyqg5.download
   skip-cert-verify: false
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
-- client-fingerprint: chrome
-  name: 10|🇰🇷 韩国2|@ripaojiedian
-  password: 415b770f-20de-4be4-a3c1-8376da50a1b7
-  port: 39593
-  server: lm.kaiqsz.com
-  skip-cert-verify: false
-  sni: mmbiz10.redapricotcloud.com
-  type: trojan
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 10|🇰🇷 韩国特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.77.248.74
-  tfo: false
-  type: ss

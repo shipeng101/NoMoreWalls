@@ -1,10 +1,11 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰1 |  5.5MB/s
-  password: b9ab8d30-8e97-4ac2-94f6-ab6ece8fe4f0
-  port: 36145
-  server: free.2weradf.xyz
-  type: ss
+- name: 0|🇭🇰1 |  1.9MB/s
+  password: myszy28811
+  port: 28811
+  server: pipi.myddns.me
+  type: socks5
+  udp: true
+  username: myszy
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -39,13 +40,44 @@ proxies:
   type: vmess
   uuid: 234dcf63-5809-44fd-9c53-86f51f2e76a7
 - client-fingerprint: chrome
-  name: 10|🇭🇰 香港4|@ripaojiedian
+  name: 10,11|香港4|@ripaojiedian
+  network: tcp
   password: 43e5eeacbad3032bfe4c25a2f011b6b7
   port: 443
   server: 104.251.227.182
   skip-cert-verify: true
   sni: hezijiasuqi.com
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 11|香港|@ripaojiedian
+  network: tcp
+  port: '18423'
+  server: 38.147.188.94
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d74f7655-eb59-4b48-9f8f-98a9c64a9e10
+- alterId: 0
+  cipher: auto
+  name: 11|香港2|@ripaojiedian
+  network: tcp
+  port: '12875'
+  server: 38.147.189.12
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1a3f584c-0960-48ef-a161-942c91e8ab64
+- alterId: 0
+  cipher: auto
+  name: 11|香港3|@ripaojiedian
+  network: tcp
+  port: '31488'
+  server: fiwejniavzoj.xn--fiqs8sjz2bull.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 234dcf63-5809-44fd-9c53-86f51f2e76a7
 - name: 12|HK_speednode_0010
   port: 4000
   server: ftq.ink
