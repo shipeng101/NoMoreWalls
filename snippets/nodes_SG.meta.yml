@@ -1,28 +1,48 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬1 |  5.5MB/s
-  password: 731dafbc-652d-42c3-b075-56913aab1289
-  port: 36171
-  server: free.2weradf.xyz
-  type: ss
 - cipher: aes-256-cfb
-  name: 0|🇸🇬2 |  1.0MB/s
+  name: 0|🇸🇬1 |  1.9MB/s
   password: amazonskr05
   port: 443
-  server: 13.213.40.92
+  server: 13.229.181.179
   type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10|🇸🇬 新加坡5|@ripaojiedian
-  port: 49549
-  server: pudvkjvvgdol.xn--fiqs8sjz2bull.com
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬2 |  2.4MB/s
+  password: b9ab8d30-8e97-4ac2-94f6-ab6ece8fe4f0
+  port: 36175
+  server: free.2weradf.xyz
+  type: ss
+- client-fingerprint: chrome
+  name: 10|🇸🇬 新加坡|@ripaojiedian
+  password: dc15d997-8b26-4294-870e-c90a5784dca4
+  port: 13028
+  server: naiu-sg.05vr9nyqg5.download
   skip-cert-verify: false
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 10|🇸🇬 新加坡2|@ripaojiedian
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 103.106.229.219
   tfo: false
-  tls: false
-  type: vmess
-  uuid: 234dcf63-5809-44fd-9c53-86f51f2e76a7
+  type: ss
+- client-fingerprint: chrome
+  name: 10|🇸🇬 新加坡3|@ripaojiedian
+  password: 415b770f-20de-4be4-a3c1-8376da50a1b7
+  port: 55357
+  server: wb.kaiqsz.com
+  skip-cert-verify: false
+  sni: mmbiz1.redapricotcloud.com
+  type: trojan
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 10|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 52.77.230.72
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 11|新加坡5|@ripaojiedian
