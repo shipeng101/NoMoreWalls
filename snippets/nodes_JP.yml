@@ -1,4 +1,10 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 0|🇯🇵2 |  1.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.183.142.200
+  type: ss
 - client-fingerprint: chrome
   name: 10|🇯🇵 日本|@ripaojiedian
   password: '!!str 3669023846591373312'
