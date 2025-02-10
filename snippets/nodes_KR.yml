@@ -1,6 +1,12 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 0|🇰🇷1 |  2.3MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.180.158.248
+  type: ss
 - client-fingerprint: chrome
-  name: 10,11|韩国|@ripaojiedian
+  name: 10,11,12|CN_speednode_0093
   network: tcp
   password: dc15d997-8b26-4294-870e-c90a5784dca4
   port: 13036
@@ -8,6 +14,7 @@ proxies:
   skip-cert-verify: false
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
+  udp: true
 - client-fingerprint: chrome
   name: 10,11|韩国2|@ripaojiedian
   network: tcp

@@ -1,5 +1,5 @@
 proxies:
-- name: 12|DE_speednode_0005
+- name: 12|DE_speednode_0097
   port: 443
   server: 2na9noed62ec.dopraxrocks.com
   skip-cert-verify: false
@@ -14,7 +14,7 @@ proxies:
     method: GET
     path:
     - /download
-  name: 12|DE_speednode_0006
+  name: 12|DE_speednode_0098
   network: http
   port: 8080
   server: 188.245.251.47
@@ -28,7 +28,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 12|DE_speednode_0007
+  name: 12|DE_speednode_0099
   port: 23055
   server: vpn.pnm1.com
   servername: vpn.pnm1.com
@@ -37,3 +37,17 @@ proxies:
   type: vless
   udp: true
   uuid: 90cadcb1-5955-4ddc-c846-a40f06cbed39
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 12|DE_speednode_0100
+  port: 1633
+  reality-opts:
+    public-key: ANlgAsYC8HmKfJnc5SFvru822urkxG1PzW1Zw4Vbm0Q
+    short-id: 9bc0a55a5379c0ed
+  server: 185.161.251.211
+  servername: stackoverflow.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b6e0fefb-5686-4f7b-9e3c-e212ef4b3ef7
