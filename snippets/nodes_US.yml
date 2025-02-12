@@ -1,21 +1,48 @@
 proxies:
-- client-fingerprint: chrome
-  name: 0|🇺🇸4 |  2.0MB/s
-  password: 069a7054-7269-554b-bfab-a7f2651f92e5
-  port: 7301
-  server: dozo01.flztjc.top
-  skip-cert-verify: true
-  sni: us-1-570.flztjc.net
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸2 |  3.4MB/s
+  port: 20017
+  server: i.needss.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
+  uuid: bdf275fa-b790-4281-bb5d-49b7f17d084a
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|🇺🇸5 |  6.0MB/s
+  name: 0|🇺🇸3 |  3.1MB/s
   password: amazonskr05
   port: 443
-  server: 52.195.215.236
+  server: 52.11.187.58
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸5 |  1.4MB/s
+  port: 20014
+  server: qd.needss.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: bdf275fa-b790-4281-bb5d-49b7f17d084a
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 0|🇺🇸6 |  3.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.38.190.194
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸7 |  5.2MB/s
+  port: 45112
+  server: qd.needss.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: bdf275fa-b790-4281-bb5d-49b7f17d084a
 - client-fingerprint: chrome
   name: 10|🇺🇸 美国|@ripaojiedian
   password: '!!str 65086441068973800'

@@ -1,47 +1,80 @@
 proxies:
-- client-fingerprint: chrome
-  name: 0|🇺🇸1 |  4.1MB/s
-  password: 0078c890-e340-4d76-b3d0-752b9c458faa
-  port: 22337
-  ports: 22000-27000
-  server: gb1.xiaoliyu.cyou
-  sni: gb1.xiaoliyu.cyou
-  type: hysteria2
-- auth: 99715951-122e-44dd-87fa-6b1621ca386a
+- auth: 5bf003f0-be90-40fe-acb4-6045e7eff135
   client-fingerprint: chrome
-  name: 0|🇺🇸2 |  2.7MB/s
-  password: 99715951-122e-44dd-87fa-6b1621ca386a
-  port: 25778
-  server: us1.xiaoliyu.cyou
+  name: 0|🇺🇸1 |  1.5MB/s
+  password: 5bf003f0-be90-40fe-acb4-6045e7eff135
+  port: 26511
+  server: br1.xiaoliyu.cyou
   skip-cert-verify: true
-  sni: us1.xiaoliyu.cyou
+  sni: br1.xiaoliyu.cyou
   type: hysteria2
-- auth: a4c1b618-024a-42d4-b78a-1c25c337a484
-  client-fingerprint: chrome
-  name: 0|🇺🇸3 |  2.0MB/s
-  password: a4c1b618-024a-42d4-b78a-1c25c337a484
-  port: 22027
-  server: us2.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: us2.xiaoliyu.cyou
-  type: hysteria2
-- client-fingerprint: chrome
-  name: 0|🇺🇸4 |  2.0MB/s
-  password: 069a7054-7269-554b-bfab-a7f2651f92e5
-  port: 7301
-  server: dozo01.flztjc.top
-  skip-cert-verify: true
-  sni: us-1-570.flztjc.net
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸2 |  3.4MB/s
+  port: 20017
+  server: i.needss.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
+  uuid: bdf275fa-b790-4281-bb5d-49b7f17d084a
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|🇺🇸5 |  6.0MB/s
+  name: 0|🇺🇸3 |  3.1MB/s
   password: amazonskr05
   port: 443
-  server: 52.195.215.236
+  server: 52.11.187.58
+  type: ss
+- auth: a4c1b618-024a-42d4-b78a-1c25c337a484
+  client-fingerprint: chrome
+  name: 0|🇺🇸4 |  3.2MB/s
+  password: a4c1b618-024a-42d4-b78a-1c25c337a484
+  port: 26389
+  server: gb1.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: gb1.xiaoliyu.cyou
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸5 |  1.4MB/s
+  port: 20014
+  server: qd.needss.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: bdf275fa-b790-4281-bb5d-49b7f17d084a
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 0|🇺🇸6 |  3.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.38.190.194
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸7 |  5.2MB/s
+  port: 45112
+  server: qd.needss.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: bdf275fa-b790-4281-bb5d-49b7f17d084a
+- name: 0,12|US_speednode_0117
+  network: ws
+  port: 80
+  server: 66.235.200.58
+  servername: pormang.webhost99.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+  ws-opts:
+    headers:
+      Host: pormang.webhost99.workers.dev
+    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
 - client-fingerprint: chrome
   name: 10|🇺🇸 美国|@ripaojiedian
   password: '!!str 65086441068973800'
@@ -165,20 +198,6 @@ proxies:
   network: ws
   port: 80
   server: 66.235.200.191
-  servername: pormang.webhost99.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
-  ws-opts:
-    headers:
-      Host: pormang.webhost99.workers.dev
-    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- name: 12|US_speednode_0117
-  network: ws
-  port: 80
-  server: 66.235.200.58
   servername: pormang.webhost99.workers.dev
   skip-cert-verify: false
   tls: false

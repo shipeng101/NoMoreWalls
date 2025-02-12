@@ -1,10 +1,11 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0|🇰🇷1 |  1.5MB/s
+  name: 0|🇰🇷1 |  3.3MB/s
   port: 20021
   server: i.needss.top
+  skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 6e209c50-8f12-4777-b2cf-f4669f52955f
+  uuid: bdf275fa-b790-4281-bb5d-49b7f17d084a
