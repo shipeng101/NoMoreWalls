@@ -1,81 +1,40 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸2 |  3.4MB/s
-  port: 20017
-  server: i.needss.top
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bdf275fa-b790-4281-bb5d-49b7f17d084a
 - cipher: aes-256-cfb
-  name: 0|🇯🇵1 |  5.9MB/s
+  name: 0|🇺🇸1 |  1.3MB/s
   password: amazonskr05
   port: 443
-  server: 3.112.28.118
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|🇫🇷1 |  5.9MB/s
-  password: amazonskr05
-  port: 443
-  server: 57.180.246.231
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|🇯🇵2 |  3.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.179.112.66
+  server: 35.87.108.47
   type: ss
   udp: true
+- cipher: aes-256-cfb
+  name: 0|🇰🇷1 |  8.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.180.248.97
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|🇨🇦1 |  4.3MB/s
+  password: amazonskr05
+  port: 443
+  server: 47.129.101.151
+  type: ss
 - cipher: aes-128-gcm
-  name: 0|🇸🇬1 |  6.3MB/s
+  name: 0|🇸🇬1 |  6.0MB/s
   password: a198b290-7f12-40d4-8b0f-3f388148809e
   port: 43681
   server: 8239.03.ddns-dm.cc
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 0|🇺🇸3 |  3.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 52.11.187.58
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|🇨🇦1 |  1.9MB/s
-  password: amazonskr05
-  port: 443
-  server: 47.129.201.205
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 0|🇰🇷1 |  3.3MB/s
-  port: 20021
-  server: i.needss.top
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- name: 0|🇯🇵1 |  1.1MB/s
+  password: 2670c8dd-1488-379f-ab66-6947f748fb4b
+  port: 20142
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z142.hongkongnode.top
+  type: trojan
   udp: true
-  uuid: bdf275fa-b790-4281-bb5d-49b7f17d084a
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸5 |  1.4MB/s
-  port: 20014
-  server: qd.needss.top
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bdf275fa-b790-4281-bb5d-49b7f17d084a
-- cipher: aes-256-cfb
-  name: 0|🇺🇸6 |  3.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.38.190.194
-  type: ss
-  udp: true
-- name: 0|🇸🇬2 |  4.3MB/s
-  password: a4ed7a0c-d92c-3742-b788-f70385a8e384
+- name: 0|🇸🇬2 |  2.6MB/s
+  password: 2670c8dd-1488-379f-ab66-6947f748fb4b
   port: 20129
   server: gy.58n.net
   skip-cert-verify: true
@@ -83,21 +42,38 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: 0|🇯🇵4 |  6.1MB/s
+  name: 0|🇸🇬3 |  1.0MB/s
   password: amazonskr05
   port: 443
-  server: 52.68.141.225
+  server: 18.139.221.191
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸7 |  5.2MB/s
-  port: 45112
-  server: qd.needss.top
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- cipher: aes-256-cfb
+  name: 0|🇨🇦2 |  2.9MB/s
+  password: amazonskr05
+  port: 443
+  server: 47.128.14.130
+  type: ss
+- cipher: aes-128-gcm
+  name: 0|🇸🇬4 |  6.1MB/s
+  password: a198b290-7f12-40d4-8b0f-3f388148809e
+  port: 26597
+  server: 3278.03.ddns-dm.cc
+  type: ss
   udp: true
-  uuid: bdf275fa-b790-4281-bb5d-49b7f17d084a
+- cipher: aes-256-cfb
+  name: 0|🇺🇸5 |  7.8MB/s
+  password: amazonskr05
+  port: 443
+  server: 34.220.100.94
+  type: ss
+  udp: true
+- name: 0|🇺🇸8 |  1.9MB/s
+  password: d0cfea6c-2052-4add-aef5-501a4714d2f8
+  port: 32031
+  server: lbso.bnnodeservice.com
+  skip-cert-verify: false
+  sni: cert.bitbyte.one
+  type: trojan
 - cipher: aes-256-cfb
   name: 10|tg频道:@ripaojiedian
   password: amazonskr05
@@ -242,14 +218,12 @@ proxies:
   port: 443
   server: summary-sawfish.shiner427.skin
   type: trojan
-- name: 11,12|US_speednode_0129
+- name: 11|美国|@ripaojiedian
   network: tcp
   password: '65086441068973800'
   port: 443
   server: live-serval.shiner427.skin
-  skip-cert-verify: false
   type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 11|美国2|@ripaojiedian
@@ -260,66 +234,38 @@ proxies:
   tls: false
   type: vmess
   uuid: db5afae4-ac23-41a6-8378-f307a9a47436
-- name: 11,12|US_speednode_0123
+- name: 11|美国3|@ripaojiedian
   network: tcp
   password: '65086441068973800'
   port: 443
   server: humorous-lioness.shiner427.skin
-  skip-cert-verify: false
   type: trojan
-  udp: true
-- name: 11,12|US_speednode_0126
+- name: 11|美国4|@ripaojiedian
   network: tcp
   password: '65086441068973800'
   port: 443
   server: grateful-lark.shiner427.skin
-  skip-cert-verify: false
   type: trojan
-  udp: true
-- name: 11|德国|@ripaojiedian
+- name: 11,12|DE_speednode_0030
   network: tcp
   password: '65086441068973800'
   port: 443
   server: mature-flamingo.shiner427.skin
+  skip-cert-verify: false
   type: trojan
-- name: 11,12|IE_speednode_0038
+  udp: true
+- name: 11|爱尔兰|@ripaojiedian
   network: tcp
   password: '65086441068973800'
   port: 443
   server: tops-lobster.shiner427.skin
-  skip-cert-verify: false
   type: trojan
-  udp: true
-- name: 11,12|GB_speednode_0036
+- name: 11,12|GB_speednode_0041
   network: tcp
   password: '65086441068973800'
   port: 443
   server: grown-mackerel.shiner427.skin
   skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: 12|CN_speednode_0030
-  password: 78c245b7-b61c-4970-b4c2-d92a173ff16a
-  port: 33345
-  server: gs.huamao888.top
-  skip-cert-verify: true
-  sni: gs.huamao888.top
-  type: trojan
-  udp: true
-- name: 12|US_speednode_0105
-  password: 915476b6-7b20-4b57-be47-d9d0fd6a6ffb
-  port: 46463
-  server: cea291b7d55c322ec47dbd8c56359e7a.us.in.node-is.green
-  skip-cert-verify: true
-  sni: hk12.bilibili.com
-  type: trojan
-  udp: true
-- name: 12|US_speednode_0107
-  password: 915476b6-7b20-4b57-be47-d9d0fd6a6ffb
-  port: 42911
-  server: b81d0ebd97b5d2f9526651812be75f7e.us.in.node-is.green
-  skip-cert-verify: true
-  sni: hk12.bilibili.com
   type: trojan
   udp: true
 - alterId: 0
