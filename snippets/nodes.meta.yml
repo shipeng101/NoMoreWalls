@@ -1,34 +1,94 @@
 proxies:
+- auth: 5d23f8ab-f2cd-47c9-8e25-179397358fc8
+  down: 1000
+  name: 0|🇰🇷1 |  6.1MB/s
+  password: 5d23f8ab-f2cd-47c9-8e25-179397358fc8
+  port: 30001
+  server: oracle-arm-seoul1.lanmaoyun.icu
+  skip-cert-verify: true
+  sni: korea.nodes.lanmaoyun.icu
+  type: hysteria2
+  udp: true
+  up: 100
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸1 |  2.2MB/s
+  port: 45112
+  server: qd.needss.top
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6e209c50-8f12-4777-b2cf-f4669f52955f
+- name: 0|🌏1 |  3.6MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: hkre1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: hkre1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - cipher: aes-256-cfb
-  name: 0|🇸🇬1 |  12.2MB/s
+  name: 0|🇸🇬1 |  2.5MB/s
   password: amazonskr05
   port: 443
-  server: 18.141.9.206
+  server: 54.255.247.242
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|🇺🇸2 |  5.9MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.143.130.71
   type: ss
   udp: true
-- name: 0,12|CN_speednode_0011
-  password: 069a7054-7269-554b-bfab-a7f2651f92e5
-  port: 6304
-  server: dozo01.flztjc.top
-  skip-cert-verify: true
-  sni: jp-4-557.flztjc.net
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 0|🇮🇷1 |  6.4MB/s
+  port: 45077
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
   udp: true
-- name: 0,12|CN_speednode_0010
+  uuid: a84109e4-fc28-46f6-b129-51eb335ebbe7
+- alterId: 0
+  cipher: auto
+  name: 0|🇷🇺1 |  1.1MB/s
+  port: 31001
+  server: qd.needss.top
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6e209c50-8f12-4777-b2cf-f4669f52955f
+- cipher: chacha20-ietf-poly1305
+  name: 0|🌀1- |  1.2MB/s
+  password: ccf99c8c-9793-4f8e-bb41-f98431647376
+  port: 19946
+  server: chiyu.myfczy169.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇮🇹1 |  3.4MB/s
+  password: ccf99c8c-9793-4f8e-bb41-f98431647376
+  port: 36774
+  server: chiyu.myfczy169.top
+  type: ss
+  udp: true
+- name: 0,12|CN_speednode_0012
   password: 069a7054-7269-554b-bfab-a7f2651f92e5
-  port: 5306
+  port: 5303
   server: dozo01.flztjc.top
   skip-cert-verify: true
-  sni: tw-06-592.flztjc.net
+  sni: tw-03-505.flztjc.net
   type: trojan
   udp: true
 - alterId: 2
   cipher: auto
-  name: 0|🌀1- |  4.9MB/s
+  name: 0|🌀2- |  1.7MB/s
   network: ws
   port: 23611
   server: 11.mamamajd.site
   skip-cert-verify: true
+  tfo: true
   tls: false
   type: vmess
   udp: true
@@ -37,135 +97,140 @@ proxies:
     headers:
       Host: 11.mamamajd.site
     path: /
-- cipher: rc4-md5
-  name: 0|🇷🇺1 |  26.1MB/s
-  obfs: plain
-  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
-  password: ENZ52K
-  port: 40210
-  protocol: auth_aes128_md5
-  protocol-param: 92902:pFWGOQ
-  server: 2.hublink.pro
-  type: ssr
+- alterId: 0
+  cipher: auto
+  name: 0|🇵🇱1 |  5.5MB/s
+  port: 54774
+  server: qd.needss.top
+  tls: false
+  type: vmess
   udp: true
-- name: 0|🇹🇼2 |  3.6MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: tw4-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: tw4-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- cipher: aes-256-cfb
-  name: 0|🇸🇬2 |  1.8MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.139.221.191
-  type: ss
-- name: 0,12|CN_speednode_0009
-  password: 069a7054-7269-554b-bfab-a7f2651f92e5
-  port: 9301
-  server: dozo01.flztjc.top
+  uuid: 6e209c50-8f12-4777-b2cf-f4669f52955f
+- name: 0|🇺🇸3 |  3.5MB/s
+  network: ws
+  port: 80
+  server: 141.101.123.208
+  servername: cc.ailicf.us.kg
+  tls: false
+  type: vless
+  udp: true
+  uuid: b5cdabf0-e048-4fa2-90da-9379b1a4926e
+  ws-opts:
+    headers:
+      Host: cc.ailicf.us.kg
+    path: /b5cdabf0-e04
+- auth: 5d23f8ab-f2cd-47c9-8e25-179397358fc8
+  down: 1000
+  name: 0|🇺🇸4 |  6.0MB/s
+  password: 5d23f8ab-f2cd-47c9-8e25-179397358fc8
+  port: 30001
+  server: oracle-amd-osaka1.lanmaoyun.icu
   skip-cert-verify: true
-  sni: sgp-1-546.flztjc.net
-  type: trojan
+  sni: osaka.nodes.lanmaoyun.icu
+  type: hysteria2
   udp: true
+  up: 100
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸5 |  1.7MB/s
+  password: f175d66f-7cf5-47aa-83be-a8e969cdbe2d
+  port: 40000
+  server: rk1.boost1.top
+  type: ss
 - alterId: 64
   cipher: auto
   country: 🇨🇳CN
   h2-opts: {}
   http-opts: {}
-  name: 0|🇺🇸1 |  1.9MB/s
+  name: 0|🇺🇸6 |  3.5MB/s
   network: tcp
   port: 45402
   server: 120.232.153.123
   skip-cert-verify: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 2
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇭🇰1 |  2.2MB/s
+  password: d626953d-cde0-4f52-9554-a12b116f853c
+  port: 36141
+  server: free.2weradf.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|🌏2 |  2.6MB/s
+  password: f0712421-e0f2-4284-b69a-17000f989421
+  port: 21061
+  server: chiyu.myfczy169.top
+  type: ss
+  udp: true
+- alterId: 0
   cipher: auto
-  name: 0|🇺🇸2 |  3.2MB/s
-  network: ws
-  port: 23618
-  server: 18.mamamajd.site
-  skip-cert-verify: true
+  name: 0|🇸🇬2 |  2.1MB/s
+  port: 20014
+  server: i.needss.top
   tls: false
   type: vmess
   udp: true
-  uuid: d983af2f-0b3d-3e11-8651-47c7dfef6e88
-  ws-opts:
-    headers:
-      Host: 18.mamamajd.site
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸3 |  5.5MB/s
-  password: 2ccefcbc-9ee9-4d30-b9a2-1ab8d1d94ad8
-  port: 36721
-  server: free.2weradf.xyz
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|🇯🇵1 |  5.7MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.112.28.118
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|🇫🇷1 |  5.8MB/s
-  password: amazonskr05
-  port: 443
-  server: 57.180.31.56
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼4 |  5.5MB/s
-  password: 2ccefcbc-9ee9-4d30-b9a2-1ab8d1d94ad8
-  port: 36241
-  server: free.2weradf.xyz
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|🇺🇸4 |  4.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.200.229.22
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|🇭🇰1 |  3.6MB/s
-  password: hGkQ6915tD
-  port: 16088
-  server: 120.232.81.50
-  type: ss
-- alterId: 64
+  uuid: 6e209c50-8f12-4777-b2cf-f4669f52955f
+- alterId: 0
   cipher: auto
-  name: 0|🇺🇸5 |  1.9MB/s
-  port: 44614
-  server: 120.198.71.219
-  skip-cert-verify: true
+  name: 0|🇺🇸7 |  4.8MB/s
+  port: 45063
+  server: xdd.dashuai.cyou
   tls: false
   type: vmess
   udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸6 |  5.7MB/s
-  password: f175d66f-7cf5-47aa-83be-a8e969cdbe2d
-  port: 40000
-  server: rk1.boost1.top
-  type: ss
+  uuid: a84109e4-fc28-46f6-b129-51eb335ebbe7
 - cipher: aes-256-cfb
-  name: 0|🇰🇷1 |  4.6MB/s
+  name: 0|🇺🇸8 |  12.0MB/s
   password: amazonskr05
   port: 443
-  server: 52.78.5.163
+  server: 52.195.185.150
   type: ss
   udp: true
-- name: 0|🇬🇧1 |  4.9MB/s
-  password: dc15d997-8b26-4294-870e-c90a5784dca4
-  port: 13036
-  server: naiu-other.05vr9nyqg5.download
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇷🇺2 |  1.1MB/s
+  password: d626953d-cde0-4f52-9554-a12b116f853c
+  port: 36571
+  server: free.2weradf.xyz
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|🇺🇸9 |  5.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.245.222.80
+  type: ss
+  udp: true
+- name: 0|🌀3- |  4.8MB/s
+  network: tcp
+  port: 443
+  server: 2na9noed62ec.dopraxrocks.com
   skip-cert-verify: false
-  sni: cloudflare.node-ssl.cdn-alibaba.com
+  tls: false
+  type: vless
+  udp: true
+  uuid: a6e8515c-4e54-435a-9a47-2365beb40164
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇯🇵1 |  5.2MB/s
+  password: d626953d-cde0-4f52-9554-a12b116f853c
+  port: 36113
+  server: free.2weradf.xyz
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸10 |  6.1MB/s
+  port: 45073
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a84109e4-fc28-46f6-b129-51eb335ebbe7
+- name: 0|🇺🇸11 |  5.9MB/s
+  password: 069a7054-7269-554b-bfab-a7f2651f92e5
+  port: 7302
+  server: dozo01.flztjc.top
+  skip-cert-verify: true
+  sni: us-2-571.flztjc.net
   type: trojan
+  udp: true
 - cipher: aes-256-cfb
   name: 10|tg频道:@ripaojiedian
   password: amazonskr05
@@ -365,12 +430,28 @@ proxies:
   sni: jp-6-559.flztjc.net
   type: trojan
   udp: true
-- name: 12|CN_speednode_0012
+- name: 12|CN_speednode_0009
   password: 069a7054-7269-554b-bfab-a7f2651f92e5
-  port: 5303
+  port: 9301
   server: dozo01.flztjc.top
   skip-cert-verify: true
-  sni: tw-03-505.flztjc.net
+  sni: sgp-1-546.flztjc.net
+  type: trojan
+  udp: true
+- name: 12|CN_speednode_0010
+  password: 069a7054-7269-554b-bfab-a7f2651f92e5
+  port: 5306
+  server: dozo01.flztjc.top
+  skip-cert-verify: true
+  sni: tw-06-592.flztjc.net
+  type: trojan
+  udp: true
+- name: 12|CN_speednode_0011
+  password: 069a7054-7269-554b-bfab-a7f2651f92e5
+  port: 6304
+  server: dozo01.flztjc.top
+  skip-cert-verify: true
+  sni: jp-4-557.flztjc.net
   type: trojan
   udp: true
 - http-opts:
