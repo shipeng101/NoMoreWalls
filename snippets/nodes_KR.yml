@@ -1,14 +1,1 @@
-proxies:
-- cipher: aes-256-cfb
-  name: 0|🇰🇷1 |  4.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 52.79.249.199
-  type: ss
-- name: 0|🇰🇷2 |  1.5MB/s
-  password: '!!str 3778399750324494336'
-  port: 443
-  server: moral-buffalo.treefrog761.one
-  skip-cert-verify: true
-  sni: moral-buffalo.treefrog761.one
-  type: trojan
+proxies: []
