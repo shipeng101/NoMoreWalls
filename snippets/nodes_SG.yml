@@ -1,4 +1,18 @@
 proxies:
+- client-fingerprint: chrome
+  name: 0,10|🇸🇬 新加坡3|@ripaojiedian
+  password: '!!str 65086441068973800'
+  port: 443
+  server: robust-redfish.shiner427.skin
+  skip-cert-verify: false
+  sni: robust-redfish.shiner427.skin
+  type: trojan
+- cipher: aes-256-cfb
+  name: 0|🇸🇬2 |  7.4MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.212.175.124
+  type: ss
 - alterId: 0
   cipher: none
   client-fingerprint: chrome
@@ -16,14 +30,6 @@ proxies:
     headers:
       Host: neo.nicme.me
     path: /BONRyKGhDE
-- client-fingerprint: chrome
-  name: 10|🇸🇬 新加坡3|@ripaojiedian
-  password: '!!str 65086441068973800'
-  port: 443
-  server: robust-redfish.shiner427.skin
-  skip-cert-verify: false
-  sni: robust-redfish.shiner427.skin
-  type: trojan
 - name: 11|新加坡3|@ripaojiedian
   network: tcp
   password: '!!str 65086441068973800'
