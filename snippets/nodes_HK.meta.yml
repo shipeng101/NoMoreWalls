@@ -1,15 +1,16 @@
 proxies:
-- alterId: 0
-  cipher: auto
+- cipher: rc4-md5
   client-fingerprint: chrome
   name: 10|🇭🇰 香港|@ripaojiedian
-  port: 49691
-  server: 193.42.25.242
-  skip-cert-verify: false
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 3601
+  server: 59.42.247.247
   tfo: false
-  tls: false
-  type: vmess
-  uuid: c7e04382-01be-40ab-b174-4dbff44b5cf4
+  type: ss
 - client-fingerprint: chrome
   name: 10,11|香港4|@ripaojiedian
   network: tcp
@@ -19,13 +20,3 @@ proxies:
   skip-cert-verify: true
   sni: hezijiasuqi.com
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 11|香港|@ripaojiedian
-  network: tcp
-  port: '49691'
-  server: 193.42.25.242
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c7e04382-01be-40ab-b174-4dbff44b5cf4
