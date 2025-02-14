@@ -1,10 +1,12 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸6 |  5.8MB/s
-  password: 002b91ce-a62c-455e-8f2d-9c3dc28e098a
-  port: 36721
-  server: free.2weradf.xyz
-  type: ss
+- name: 0|🇺🇸5 |  5.9MB/s
+  password: fb9f6870-8df2-327b-aaa9-5808cc4167de
+  port: 20296
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z296.hongkongnode.top
+  type: trojan
+  udp: true
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome

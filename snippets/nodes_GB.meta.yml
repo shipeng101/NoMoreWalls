@@ -1,15 +1,9 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧1 |  5.0MB/s
-  password: 002b91ce-a62c-455e-8f2d-9c3dc28e098a
-  port: 36511
-  server: free.2weradf.xyz
-  type: ss
-- auth: 5bf003f0-be90-40fe-acb4-6045e7eff135
+- auth: 82c01da0-59b7-48f2-8a24-58e7e5e1d8e3
   client-fingerprint: chrome
-  name: 0|🇬🇧2 |  3.0MB/s
-  password: 5bf003f0-be90-40fe-acb4-6045e7eff135
-  port: 24510
+  name: 0|🇬🇧1 |  4.5MB/s
+  password: 82c01da0-59b7-48f2-8a24-58e7e5e1d8e3
+  port: 24287
   server: fr3.xiaoliyu.cyou
   skip-cert-verify: true
   sni: fr3.xiaoliyu.cyou
