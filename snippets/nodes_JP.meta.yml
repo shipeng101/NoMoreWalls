@@ -1,26 +1,12 @@
 proxies:
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|🇯🇵1 |  5.9MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.231.248.146
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|🇯🇵2 |  3.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.179.112.66
-  type: ss
-  udp: true
-- name: 0|🇯🇵3 |  5.6MB/s
-  password: '!!str 3778399737045327872'
-  port: 443
-  server: logical-longhorn.adder289.quest
+- name: 0|🇯🇵1 |  5.9MB/s
+  password: 5e7ca274-f3ae-3e52-af4c-ea958c041c86
+  port: 20071
+  server: gy.58n.net
   skip-cert-verify: true
-  sni: logical-longhorn.adder289.quest
+  sni: x71.flybar.work
   type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome

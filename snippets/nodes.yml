@@ -1,56 +1,26 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 0|🇯🇵1 |  5.9MB/s
+  name: 0|🇺🇸1 |  5.6MB/s
   password: amazonskr05
   port: 443
-  server: 13.231.248.146
+  server: 35.86.174.240
   type: ss
-- cipher: aes-256-cfb
-  name: 0|🇯🇵2 |  3.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.179.112.66
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|🇸🇬1 |  3.8MB/s
-  password: amazonskr05
-  port: 443
-  server: 52.221.234.117
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|🌀1- |  4.4MB/s
-  password: 9c98ec59-231c-4091-ba05-a0c881021335
-  port: 30301
-  server: p1.bxy-edge.xyz
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|🇰🇷1 |  1.3MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.35.135.232
-  type: ss
-- name: 0|🇨🇦1 |  2.1MB/s
-  password: 173966d1-e790-3635-922d-a7085e12295b
-  port: 21970
+- name: 0|🇯🇵1 |  5.9MB/s
+  password: 5e7ca274-f3ae-3e52-af4c-ea958c041c86
+  port: 20071
   server: gy.58n.net
   skip-cert-verify: true
-  sni: x41.flybar.work
+  sni: x71.flybar.work
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇦1 |  4.2MB/s
-  password: ZTFkZ
-  port: 8388
-  server: uk1.ssocks.wiki
-  type: ss
-- name: 0|🇯🇵3 |  5.6MB/s
-  password: '3778399737045327872'
-  port: 443
-  server: logical-longhorn.adder289.quest
+- name: 0|🇺🇸4 |  4.6MB/s
+  password: 5e7ca274-f3ae-3e52-af4c-ea958c041c86
+  port: 20306
+  server: gy.58n.net
   skip-cert-verify: true
-  sni: logical-longhorn.adder289.quest
+  sni: z306.hongkongnode.top
   type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 10|🇭🇰 香港|@ripaojiedian

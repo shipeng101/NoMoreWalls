@@ -1,1 +1,16 @@
-proxies: []
+proxies:
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 0|🇺🇸1 |  5.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 35.86.174.240
+  type: ss
+- name: 0|🇺🇸4 |  4.6MB/s
+  password: 5e7ca274-f3ae-3e52-af4c-ea958c041c86
+  port: 20306
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z306.hongkongnode.top
+  type: trojan
+  udp: true
