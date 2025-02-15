@@ -1,1 +1,9 @@
-proxies: []
+proxies:
+- name: 0|🇨🇦1 |  2.1MB/s
+  password: 173966d1-e790-3635-922d-a7085e12295b
+  port: 21970
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x41.flybar.work
+  type: trojan
+  udp: true

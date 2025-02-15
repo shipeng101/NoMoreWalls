@@ -1,10 +1,9 @@
 proxies:
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|🇰🇷1 |  1.7MB/s
+  name: 0|🇰🇷1 |  1.3MB/s
   password: amazonskr05
   port: 443
-  server: 13.125.199.67
+  server: 3.35.135.232
   type: ss
 - client-fingerprint: chrome
   name: 10|🇰🇷 韩国|@ripaojiedian
@@ -13,6 +12,15 @@ proxies:
   server: coherent-drum.adder289.quest
   skip-cert-verify: false
   sni: coherent-drum.adder289.quest
+  type: trojan
+- client-fingerprint: chrome
+  name: 10,11|韩国2|@ripaojiedian
+  network: tcp
+  password: '!!str 3778399737045327872'
+  port: 443
+  server: patient-trout.adder289.quest
+  skip-cert-verify: false
+  sni: patient-trout.adder289.quest
   type: trojan
 - name: 11|韩国|@ripaojiedian
   network: tcp
