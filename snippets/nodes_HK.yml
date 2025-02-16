@@ -1,4 +1,20 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 0|🇭🇰1 |  1.6MB/s
+  port: 30251
+  server: 34.92.208.172
+  tls: false
+  type: vmess
+  uuid: 9e88a10b-655c-5120-89d0-408634169561
+- client-fingerprint: chrome
+  name: 10|🇭🇰 香港2|@ripaojiedian
+  password: 5359e8f0df6e49e98268292567cf3a9f
+  port: 3387
+  server: iepl2.lgjf.top
+  skip-cert-verify: true
+  sni: iepl2.lgjf.top
+  type: trojan
 - client-fingerprint: chrome
   name: 10,11|香港4|@ripaojiedian
   network: tcp
