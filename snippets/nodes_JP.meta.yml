@@ -1,18 +1,1 @@
-proxies:
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|🇯🇵1 |  1.4MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.179.112.66
-  type: ss
-  udp: true
-- name: 0|🇯🇵2 |  3.1MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: jpgmo101-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: jpgmo101-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
+proxies: []
