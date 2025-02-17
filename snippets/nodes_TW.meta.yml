@@ -1,19 +1,19 @@
 proxies:
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 0|🇹🇼1 |  1.6MB/s
-  password: RenzheCloudSS
-  plugin: obfs
-  plugin-opts:
-    host: 78fe8292462.microsoft.com
-    mode: http
-  port: 3026
-  server: pr3.jymzffbquawl.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼2 |  5.4MB/s
-  password: 1f2f4e26-d67f-47ee-9a56-0dde959a46ac
-  port: 36243
-  server: free.2weradf.xyz
-  type: ss
+- name: 0|🇹🇼1 |  1.5MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: twmoon1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: 0|🇹🇼2 |  4.3MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: tw1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: tw1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
