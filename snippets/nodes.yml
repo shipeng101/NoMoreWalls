@@ -1,115 +1,75 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 0|🇯🇵1 |  5.7MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.112.216.127
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸3 |  4.9MB/s
+  password: 1f2f4e26-d67f-47ee-9a56-0dde959a46ac
+  port: 36271
+  server: free.2weradf.xyz
   type: ss
-- alterId: 2
-  cipher: auto
-  name: 0|🇺🇸1 |  6.0MB/s
-  network: ws
-  port: 23617
-  server: 17.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 13e25715-b372-35fa-89a0-497f187f5376
-  ws-opts:
-    headers:
-      Host: 17.mamamajd.site
-    path: /
-- name: 0|🇯🇵2 |  6.0MB/s
-  password: '3782591447421952000'
-  port: 443
-  server: ethical-dragon.adder289.quest
-  skip-cert-verify: true
-  sni: ethical-dragon.adder289.quest
-  type: trojan
-- cipher: aes-128-gcm
-  name: 0|🇮🇹1 |  4.4MB/s
-  password: shadowsocks
-  port: 443
-  server: uk-dc1.yangon.club
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇰🇷1 |  5.1MB/s
+  password: 1f2f4e26-d67f-47ee-9a56-0dde959a46ac
+  port: 36311
+  server: free.2weradf.xyz
   type: ss
-- name: 0|🇩🇪1 |  1.1MB/s
-  password: '3782591447421952000'
-  port: 443
-  server: united-mayfly.adder289.quest
-  skip-cert-verify: true
-  sni: united-mayfly.adder289.quest
-  type: trojan
-- cipher: aes-256-cfb
-  name: 0|🇯🇵3 |  2.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 43.202.60.105
-  type: ss
-- name: 0|🇬🇧1 |  1.1MB/s
-  password: 94846017-0602-390a-a1a4-4408ba3c5852
-  port: 11215
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z268.hongkongnode.top
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 0|🇹🇼1 |  1.1MB/s
-  password: MZHAEZRD0Z90U3UD
-  port: 21001
-  server: 183.61.177.234
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇷🇺1 |  1.2MB/s
+  password: 1f2f4e26-d67f-47ee-9a56-0dde959a46ac
+  port: 36571
+  server: free.2weradf.xyz
   type: ss
 - cipher: aes-256-cfb
-  name: 0|🇸🇬1 |  10.2MB/s
+  name: 0|🇺🇸4 |  4.7MB/s
   password: amazonskr05
   port: 443
-  server: 13.229.111.3
+  server: 34.216.193.190
   type: ss
   udp: true
-- alterId: 2
-  cipher: auto
-  name: 0|🌀1- |  2.5MB/s
-  network: ws
-  port: 23614
-  server: 14.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+- cipher: rc4-md5
+  name: 0|🇹🇼1 |  1.6MB/s
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 3026
+  server: pr3.jymzffbquawl.com
+  type: ss
   udp: true
-  uuid: 13e25715-b372-35fa-89a0-497f187f5376
-  ws-opts:
-    headers:
-      Host: 14.mamamajd.site
-    path: /
+- cipher: chacha20-ietf
+  name: 0|🌏1 |  1.6MB/s
+  password: asd123456
+  port: 8388
+  server: 103.149.183.61
+  type: ss
+- cipher: rc4-md5
+  name: 0|🇮🇷2 |  2.2MB/s
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 4606
+  server: bs3.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸6 |  5.3MB/s
+  password: 1f2f4e26-d67f-47ee-9a56-0dde959a46ac
+  port: 36721
+  server: free.2weradf.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇹🇼2 |  5.4MB/s
+  password: 1f2f4e26-d67f-47ee-9a56-0dde959a46ac
+  port: 36243
+  server: free.2weradf.xyz
+  type: ss
 - cipher: aes-256-cfb
-  name: 0|🇯🇵4 |  2.9MB/s
+  name: 0|🇺🇸7 |  5.4MB/s
   password: amazonskr05
   port: 443
-  server: 18.182.6.88
+  server: 52.41.168.231
   type: ss
-- name: 0|🇸🇬2 |  3.2MB/s
-  password: 94846017-0602-390a-a1a4-4408ba3c5852
-  port: 20299
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x299.flybar.work
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|🇯🇵5 |  4.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 52.197.129.53
-  type: ss
-- name: 0|🇯🇵6 |  3.5MB/s
-  password: 94846017-0602-390a-a1a4-4408ba3c5852
-  port: 41767
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x114.flybar.work
-  type: trojan
-  udp: true
 - name: 10,11|香港4|@ripaojiedian
   network: tcp
   password: 43e5eeacbad3032bfe4c25a2f011b6b7
