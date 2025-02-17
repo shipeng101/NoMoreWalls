@@ -1,22 +1,51 @@
 proxies:
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 0|🇯🇵1 |  4.3MB/s
+  name: 0|🇯🇵1 |  5.8MB/s
   password: amazonskr05
   port: 443
-  server: 43.206.216.94
+  server: 3.112.216.127
   type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|🇯🇵2 |  2.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.179.112.66
-  type: ss
+- name: 0|🇯🇵2 |  1.5MB/s
+  password: 6699cef8-acbd-3137-b643-5c73c5b6978b
+  port: 41767
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x114.flybar.work
+  type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵4 |  5.5MB/s
-  password: c608bba8-da0d-412d-8f45-1f4b88c94864
+  name: 0|🇯🇵3 |  2.6MB/s
+  password: e587488b-439d-4f11-bc4d-f8edc0efbfff
   port: 36113
   server: free.2weradf.xyz
   type: ss
+- name: 0|🇯🇵4 |  1.4MB/s
+  password: 6699cef8-acbd-3137-b643-5c73c5b6978b
+  port: 20142
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z142.hongkongnode.top
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇯🇵 日本|@ripaojiedian
+  port: 20855
+  server: 45.159.51.116
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: bb59ce12-afda-4a2e-bb62-6f5b60acbe77
+- alterId: 0
+  cipher: auto
+  name: 11|日本|@ripaojiedian
+  network: tcp
+  port: '20855'
+  server: 45.159.51.116
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: bb59ce12-afda-4a2e-bb62-6f5b60acbe77

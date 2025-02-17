@@ -1,20 +1,10 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 0|🇭🇰1 |  5.7MB/s
-  port: 30251
-  server: 34.92.208.172
-  tls: false
-  type: vmess
-  uuid: 9e88a10b-655c-5120-89d0-408634169561
-- client-fingerprint: chrome
-  name: 10|🇭🇰 香港2|@ripaojiedian
-  password: 5359e8f0df6e49e98268292567cf3a9f
-  port: 3387
-  server: iepl2.lgjf.top
-  skip-cert-verify: true
-  sni: iepl2.lgjf.top
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇭🇰2 |  5.4MB/s
+  password: e587488b-439d-4f11-bc4d-f8edc0efbfff
+  port: 36145
+  server: free.2weradf.xyz
+  type: ss
 - client-fingerprint: chrome
   name: 10,11|香港4|@ripaojiedian
   network: tcp
@@ -23,11 +13,4 @@ proxies:
   server: 104.251.227.182
   skip-cert-verify: true
   sni: hezijiasuqi.com
-  type: trojan
-- name: 11|香港2|@ripaojiedian
-  network: tcp
-  password: 5359e8f0df6e49e98268292567cf3a9f
-  port: 3387
-  server: iepl2.lgjf.top
-  skip-cert-verify: true
   type: trojan
