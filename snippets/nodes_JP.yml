@@ -1,4 +1,20 @@
 proxies:
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 0|🇯🇵1 |  5.8MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.182.6.88
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 0|🇯🇵2 |  5.2MB/s
+  network: tcp
+  port: 31253
+  server: 581023.horace.im
+  type: vmess
+  uuid: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
 - client-fingerprint: chrome
   name: 10|🇯🇵 日本|@ripaojiedian
   password: '!!str 3782591447421952000'
