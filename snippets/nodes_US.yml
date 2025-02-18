@@ -1,30 +1,39 @@
 proxies:
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 0|🇺🇸2 |  7.6MB/s
+  name: 0|🇺🇸3 |  2.8MB/s
   password: amazonskr05
   port: 443
-  server: 35.160.134.223
+  server: 44.243.45.146
   type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|🇺🇸3 |  6.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 44.243.110.63
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|🇺🇸8 |  5.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.244.78.72
-  type: ss
-- name: 0|🇺🇸10 |  1.4MB/s
+- name: 0|🇺🇸5 |  1.8MB/s
   password: 2cb2b2de-0d4e-33d0-8bfc-277785bc6fd9
-  port: 22741
+  port: 28678
   server: gy.58n.net
   skip-cert-verify: true
-  sni: dufu.hongkongnode.top
+  sni: z143.hongkongnode.top
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 0|🇺🇸7 |  5.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 35.89.131.134
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 0|🇺🇸8 |  1.9MB/s
+  password: amazonskr05
+  port: 443
+  server: 52.195.215.236
+  type: ss
+  udp: true
+- name: 0|🇺🇸13 |  1.1MB/s
+  password: 2cb2b2de-0d4e-33d0-8bfc-277785bc6fd9
+  port: 20296
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z296.hongkongnode.top
   type: trojan
   udp: true

@@ -1,97 +1,106 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 0|🇺🇸2 |  7.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 35.160.134.223
+- cipher: chacha20-ietf
+  name: 0|🌏1 |  1.0MB/s
+  password: asd123456
+  port: 8388
+  server: 103.36.91.32
   type: ss
-- alterId: 2
-  cipher: auto
-  name: 0|🌀1- |  2.6MB/s
-  network: ws
-  port: 23612
-  server: 12.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2f5ec89d-a5bd-3195-aaf4-300f5c18374f
-  ws-opts:
-    headers:
-      Host: 12.mamamajd.site
-    path: /
-- cipher: aes-256-cfb
-  name: 0|🇺🇸3 |  6.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 44.243.110.63
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|🇯🇵1 |  1.8MB/s
-  password: amazonskr05
-  port: 443
-  server: 43.202.60.105
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|🇯🇵2 |  4.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.181.176.166
-  type: ss
-- name: 0|🇯🇵4 |  8.7MB/s
+- name: 0|🇯🇵1 |  4.8MB/s
   password: '3782591447421952000'
   port: 443
-  server: sunny-macaque.treefrog761.one
+  server: inspired-dinosaur.adder289.quest
   skip-cert-verify: true
-  sni: sunny-macaque.treefrog761.one
+  sni: inspired-dinosaur.adder289.quest
   type: trojan
-- cipher: aes-256-cfb
-  name: 0|🇯🇵5 |  6.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 43.206.216.94
-  type: ss
-- name: 0|🇯🇵6 |  2.3MB/s
+- name: 0|🇸🇬1 |  6.3MB/s
   password: 2cb2b2de-0d4e-33d0-8bfc-277785bc6fd9
-  port: 20059
+  port: 17806
   server: gy.58n.net
   skip-cert-verify: true
-  sni: x59.flybar.work
+  sni: x65.flybar.work
   type: trojan
   udp: true
-- cipher: aes-128-gcm
-  name: 0|🌀3- |  1.7MB/s
-  password: 64ddb7e7-618b-4413-bd14-8b28372cc2a3
-  port: 50008
-  server: a1.1tsm-sab2qkybzqc4ujzufu5yqppaomvbqfmrjunx7dmbde1ktmr.cv
-  type: ss
-- alterId: 2
-  cipher: auto
-  name: 0|🌀4- |  6.1MB/s
-  network: ws
-  port: 23611
-  server: 11.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2f5ec89d-a5bd-3195-aaf4-300f5c18374f
-  ws-opts:
-    headers:
-      Host: 11.mamamajd.site
-    path: /
 - cipher: aes-256-cfb
-  name: 0|🇺🇸8 |  5.6MB/s
+  name: 0|🇺🇸3 |  2.8MB/s
   password: amazonskr05
   port: 443
-  server: 54.244.78.72
+  server: 44.243.45.146
   type: ss
-- name: 0|🇺🇸10 |  1.4MB/s
+- cipher: rc4-md5
+  name: 0|🇮🇷1 |  1.3MB/s
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 4602
+  server: pr3.jymzffbquawl.com
+  type: ss
+  udp: true
+- name: 0|🇺🇸5 |  1.8MB/s
   password: 2cb2b2de-0d4e-33d0-8bfc-277785bc6fd9
-  port: 22741
+  port: 28678
   server: gy.58n.net
   skip-cert-verify: true
-  sni: dufu.hongkongnode.top
+  sni: z143.hongkongnode.top
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇷🇺1 |  5.1MB/s
+  password: 4619d5a0-258a-48f4-98bf-88843d5d7a83
+  port: 30003
+  server: gdgs.tarioblink.me
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|🇺🇸7 |  5.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 35.89.131.134
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|🇺🇸8 |  1.9MB/s
+  password: amazonskr05
+  port: 443
+  server: 52.195.215.236
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  ip-version: dual
+  name: 0|🇳🇱1 |  2.7MB/s
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  port: 8080
+  server: 45.158.171.146
+  type: ss
+  udp: true
+- name: 0|🇯🇵2 |  9.3MB/s
+  password: '3782591447421952000'
+  port: 443
+  server: coherent-drum.adder289.quest
+  skip-cert-verify: true
+  sni: coherent-drum.adder289.quest
+  type: trojan
+- name: 0|🇯🇵3 |  2.3MB/s
+  password: 2cb2b2de-0d4e-33d0-8bfc-277785bc6fd9
+  port: 41767
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x114.flybar.work
+  type: trojan
+  udp: true
+- name: 0|🇯🇵4 |  1.9MB/s
+  password: 2cb2b2de-0d4e-33d0-8bfc-277785bc6fd9
+  port: 20139
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z139.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 0|🇺🇸13 |  1.1MB/s
+  password: 2cb2b2de-0d4e-33d0-8bfc-277785bc6fd9
+  port: 20296
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z296.hongkongnode.top
   type: trojan
   udp: true
 - name: 10,11|香港4|@ripaojiedian
