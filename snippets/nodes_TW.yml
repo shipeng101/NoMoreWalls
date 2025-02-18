@@ -1,1 +1,22 @@
-proxies: []
+proxies:
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 0|🇹🇼1 |  3.5MB/s
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 3026
+  server: pr3.jymzffbquawl.com
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 10,11|台湾|@ripaojiedian
+  network: tcp
+  password: 65f14831-5c67-483f-9e85-f3aa73f21187
+  port: 13035
+  server: naiu-other.05vr9nyqg5.download
+  skip-cert-verify: true
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
