@@ -1,33 +1,29 @@
 proxies:
-- name: 12|DE_speednode_0019
-  network: ws
-  port: 2086
-  server: 185.135.9.138
-  servername: b4f0b859-super-smoke-7916.bouncy-vulture1054.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 31348b17-4ab2-40c0-b79e-c81032331d30
-  ws-opts:
-    headers:
-      Host: b4f0b859-super-smoke-7916.bouncy-vulture1054.workers.dev
-    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-- client-fingerprint: chrome
-  name: 12|DE_speednode_0020
-  port: 2088
-  reality-opts:
-    public-key: LnJ4SXxNsRigl5MVmGlQ5_I0G1fT3DYEYiL7KUEihxo
-    short-id: c7d80f2b01a1d1fe
-  server: howlearn.reactjsworld.com
-  servername: www.deepseek.com
-  skip-cert-verify: false
+- auth: 334c4713-73ea-4e71-b827-21a22d31736b
+  client-fingerprint: chrome
+  name: 0|🇩🇪1 |  1.7MB/s
+  password: 334c4713-73ea-4e71-b827-21a22d31736b
+  port: 24237
+  server: de2.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: de2.xiaoliyu.cyou
+  type: hysteria2
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 12|DE_speednode_0003
+  port: 443
+  server: 193.43.104.152
+  servername: fra5.vpntype.dev
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: ef5f8625-a997-4e9c-a79c-7b95f565d675
+  uuid: 5d5adc8c-a34b-4c7f-bb67-429621e838d9
 - client-fingerprint: chrome
-  name: 12|DE_speednode_0021
+  name: 12|DE_speednode_0004
   port: 21313
   reality-opts:
     public-key: AlUKGYa7aLWaZ2AGBHmt9pcqT8uNYMmByNrIN_bwfwI
@@ -39,17 +35,3 @@ proxies:
   type: vless
   udp: true
   uuid: 59275d0a-c803-4d85-ce13-ba14edc710e8
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 12|DE_speednode_0022
-  port: 443
-  server: 193.43.104.152
-  servername: fra5.vpntype.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5d5adc8c-a34b-4c7f-bb67-429621e838d9
