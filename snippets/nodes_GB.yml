@@ -1,1 +1,9 @@
-proxies: []
+proxies:
+- name: 0|🇬🇧1 |  1.6MB/s
+  password: 6f859133-249c-313f-a2fa-7d99c54ed0af
+  port: 25238
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z267.hongkongnode.top
+  type: trojan
+  udp: true
