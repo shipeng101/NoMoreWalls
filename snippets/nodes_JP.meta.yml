@@ -1,39 +1,25 @@
 proxies:
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|🇯🇵1 |  1.9MB/s
-  password: amazonskr05
-  port: 443
-  server: 43.206.216.94
+  name: 0|🇯🇵1 |  1.7MB/s
+  password: hGkQ6915tD
+  port: 15084
+  server: 120.232.81.50
   type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|🇯🇵2 |  6.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.179.112.66
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|🇯🇵3 |  3.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.182.6.88
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|🇯🇵4 |  1.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.114.96.104
-  type: ss
-- client-fingerprint: chrome
-  name: 10,11|日本4|@ripaojiedian
-  network: tcp
-  password: 1e63e585ab2fef3adcc9ea75a62abc23
-  port: 443
-  server: 49.212.170.40
+- name: 0|🇯🇵2 |  6.0MB/s
+  password: e4fb32ec-0ae6-3ae7-a484-1a0318538d2d
+  port: 20298
+  server: gy.58n.net
   skip-cert-verify: true
-  sni: hezijiasuqi.com
+  sni: z298.hongkongnode.top
+  tfo: true
   type: trojan
+  udp: true
+- name: 0|🇯🇵3 |  2.3MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: jpgmo101-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: jpgmo101-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
