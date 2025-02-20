@@ -1,18 +1,1 @@
-proxies:
-- client-fingerprint: chrome
-  country: 🇫🇷FR
-  name: 0|🇫🇷1 |  4.7MB/s
-  password: dongtaiwang.com
-  port: 13861
-  server: 195.154.33.70
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
-- name: 0|🇫🇷2 |  4.9MB/s
-  password: myszy28811
-  port: 28811
-  server: pipi.myddns.me
-  type: socks5
-  udp: true
-  username: myszy
+proxies: []
