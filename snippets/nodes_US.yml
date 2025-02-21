@@ -1,33 +1,49 @@
 proxies:
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 0|🇺🇸4 |  7.2MB/s
+  name: 0|🇺🇸4 |  1.0MB/s
   password: amazonskr05
   port: 443
-  server: 34.220.174.155
+  server: 34.220.99.193
   type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|🇺🇸5 |  4.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.237.113.248
-  type: ss
-- cipher: aes-256-cfb
-  delay: 969
-  name: 0|🇺🇸7 |  2.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 34.219.121.181
-  type: ss
+- name: 0|🇺🇸5 |  9.7MB/s
+  password: 1c3ff916-ea29-32b8-b475-672d42a5d72d
+  port: 20278
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z278.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 0|🇺🇸6 |  6.3MB/s
+  password: 1c3ff916-ea29-32b8-b475-672d42a5d72d
+  port: 24603
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z259.hongkongnode.top
+  type: trojan
   udp: true
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|🇺🇸10 |  1.6MB/s
+  name: 0|🇺🇸11 |  3.8MB/s
   password: amazonskr05
   port: 443
-  server: 34.220.211.62
+  server: 52.194.186.197
   type: ss
+- cipher: aes-256-cfb
+  name: 0|🇺🇸12 |  5.4MB/s
+  obfs: plain
+  password: amazonskr05
+  port: 443
+  protocol: origin
+  server: 52.41.168.231
+  type: ssr
+- name: 0|🇺🇸13 |  3.8MB/s
+  password: 1c3ff916-ea29-32b8-b475-672d42a5d72d
+  port: 16895
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x40.flybar.work
+  type: trojan
+  udp: true
 - client-fingerprint: chrome
   name: 10,11|美国|@ripaojiedian
   network: tcp

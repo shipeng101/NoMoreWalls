@@ -1,19 +1,30 @@
 proxies:
-- name: 0|🇯🇵1 |  5.1MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
+- cipher: aes-256-cfb
+  name: 0|🇯🇵1 |  11.2MB/s
+  password: amazonskr05
   port: 443
-  server: jpgmo101-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: jpgmo101-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: 0|🇯🇵2 |  6.4MB/s
-  password: 463ba31b-f5c4-33ee-ab5d-b63c19efd49d
-  port: 20300
-  server: gy.58n.net
+  server: 3.112.216.127
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 0|🇯🇵2 |  11.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.114.96.104
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 0|🇯🇵3 |  2.9MB/s
+  password: amazonskr05
+  port: 443
+  server: 43.206.216.94
+  type: ss
+- auth: 830a6085-9aeb-449b-bfd2-1924eb972941
+  client-fingerprint: chrome
+  name: 0|🇯🇵4 |  1.1MB/s
+  password: 830a6085-9aeb-449b-bfd2-1924eb972941
+  port: 5001
+  server: jp-linode.aikunapp.com
   skip-cert-verify: true
-  sni: z300.hongkongnode.top
-  tfo: true
-  type: trojan
-  udp: true
+  sni: d1--cn-gotcha204-4.bilivideo.com
+  type: hysteria2
