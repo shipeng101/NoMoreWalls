@@ -1,23 +1,8 @@
 proxies:
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 0|🇯🇵1 |  5.8MB/s
+  name: 0|🇯🇵1 |  1.8MB/s
   password: amazonskr05
   port: 443
-  server: 18.182.6.88
-  type: ss
-- name: 0|🇯🇵2 |  3.2MB/s
-  password: 6f859133-249c-313f-a2fa-7d99c54ed0af
-  port: 54178
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x115.flybar.work
-  tfo: true
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵3 |  1.5MB/s
-  password: 13fc0e3c-9262-4c03-894c-36e4bb08b7f0
-  port: 36113
-  server: free.2weradf.xyz
+  server: 52.197.129.53
   type: ss
