@@ -1,57 +1,71 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 0|🇺🇸2 |  7.5MB/s
+  ip-version: dual
+  name: 0|🇺🇸6 |  2.5MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.244.0.4
+  type: ss
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 0|🇺🇸8 |  11.7MB/s
+  network: ws
+  port: 23613
+  server: 13.mamamajd.site
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4542854a-1622-3383-aad1-8dcebebfc580
+  ws-opts:
+    headers:
+      Host: 13.mamamajd.site
+    path: /
+- cipher: aes-256-cfb
+  name: 0|🇺🇸12 |  2.3MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.236.132.239
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|🇺🇸13 |  7.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.245.222.80
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|🇯🇵2 |  5.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 43.206.216.94
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: 0|🇺🇸15 |  5.7MB/s
+  network: ws
+  port: 23617
+  server: 17.mamamajd.site
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4542854a-1622-3383-aad1-8dcebebfc580
+  ws-opts:
+    headers:
+      Host: 17.mamamajd.site
+    path: /
+- cipher: aes-256-cfb
+  name: 0|🇺🇸16 |  5.7MB/s
   obfs: plain
   password: amazonskr05
   port: 443
   protocol: origin
   server: 35.87.206.35
   type: ssr
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼1 |  5.1MB/s
-  password: 6a2cf907-d55e-44af-bfcc-c8e7675e5c5b
-  port: 36241
-  server: free.2weradf.xyz
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰1 |  13.3MB/s
-  password: 6a2cf907-d55e-44af-bfcc-c8e7675e5c5b
-  port: 36145
-  server: free.2weradf.xyz
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇦🇺2 |  1.3MB/s
-  password: 6a2cf907-d55e-44af-bfcc-c8e7675e5c5b
-  port: 36245
-  server: free.2weradf.xyz
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|🇺🇸8 |  3.9MB/s
-  obfs: plain
-  password: amazonskr05
-  port: 443
-  protocol: origin
-  server: 52.41.168.231
-  type: ssr
-- cipher: aes-256-cfb
-  name: 0|🇯🇵1 |  4.8MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.179.112.66
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧2 |  1.9MB/s
-  password: 6a2cf907-d55e-44af-bfcc-c8e7675e5c5b
-  port: 36143
-  server: free.2weradf.xyz
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷1 |  2.4MB/s
-  password: 6a2cf907-d55e-44af-bfcc-c8e7675e5c5b
-  port: 36313
-  server: free.2weradf.xyz
-  type: ss
 - name: 10,11|香港|@ripaojiedian
   network: tcp
   password: 1e63e585ab2fef3adcc9ea75a62abc23
