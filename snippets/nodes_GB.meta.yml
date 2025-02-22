@@ -1,1 +1,15 @@
-proxies: []
+proxies:
+- name: 0,12|US_speednode_0164
+  network: ws
+  port: 80
+  server: 151.101.2.216
+  servername: www.bmaustriabm.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 402684ce-7106-4147-8728-5b3d91bbc0cc
+  ws-opts:
+    headers:
+      Host: www.bmaustriabm.com
+    path: /?ed=2048
