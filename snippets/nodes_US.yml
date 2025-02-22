@@ -1,49 +1,20 @@
 proxies:
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|🇺🇸4 |  1.0MB/s
+  name: 0|🇺🇸2 |  7.5MB/s
+  obfs: plain
   password: amazonskr05
   port: 443
-  server: 34.220.99.193
-  type: ss
-- name: 0|🇺🇸5 |  9.7MB/s
-  password: 1c3ff916-ea29-32b8-b475-672d42a5d72d
-  port: 20278
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z278.hongkongnode.top
-  type: trojan
-  udp: true
-- name: 0|🇺🇸6 |  6.3MB/s
-  password: 1c3ff916-ea29-32b8-b475-672d42a5d72d
-  port: 24603
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z259.hongkongnode.top
-  type: trojan
-  udp: true
+  protocol: origin
+  server: 35.87.206.35
+  type: ssr
 - cipher: aes-256-cfb
-  name: 0|🇺🇸11 |  3.8MB/s
-  password: amazonskr05
-  port: 443
-  server: 52.194.186.197
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|🇺🇸12 |  5.4MB/s
+  name: 0|🇺🇸8 |  3.9MB/s
   obfs: plain
   password: amazonskr05
   port: 443
   protocol: origin
   server: 52.41.168.231
   type: ssr
-- name: 0|🇺🇸13 |  3.8MB/s
-  password: 1c3ff916-ea29-32b8-b475-672d42a5d72d
-  port: 16895
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x40.flybar.work
-  type: trojan
-  udp: true
 - client-fingerprint: chrome
   name: 10,11|美国|@ripaojiedian
   network: tcp
@@ -56,6 +27,17 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
+  name: 10|🇺🇸 美国2|@ripaojiedian
+  port: 13447
+  server: 23.236.68.213
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 2e41fa05-75d0-4d8c-9e23-41e2e7a8fa9f
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
   name: 10|🇺🇸 美国3|@ripaojiedian
   port: 31909
   server: 23.224.152.62
@@ -64,6 +46,16 @@ proxies:
   tls: false
   type: vmess
   uuid: a5e99fc4-5b87-4312-aa8a-52cad1971b92
+- alterId: 0
+  cipher: auto
+  name: 11|美国2|@ripaojiedian
+  network: tcp
+  port: '13447'
+  server: 23.236.68.213
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2e41fa05-75d0-4d8c-9e23-41e2e7a8fa9f
 - alterId: 0
   cipher: auto
   name: 11|美国3|@ripaojiedian
