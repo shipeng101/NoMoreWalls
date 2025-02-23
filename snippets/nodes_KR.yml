@@ -1,8 +1,1 @@
-proxies:
-- name: 0|🇰🇷1 |  3.1MB/s
-  password: '!!str 3782591447421952000'
-  port: 443
-  server: amusing-jaybird.treefrog761.one
-  skip-cert-verify: true
-  sni: amusing-jaybird.treefrog761.one
-  type: trojan
+proxies: []
