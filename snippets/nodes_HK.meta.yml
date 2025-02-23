@@ -1,12 +1,5 @@
 proxies:
 - client-fingerprint: chrome
-  name: 0,10|tg频道:@ripaojiedian
-  port: 4000
-  server: ftq.ink
-  sni: ftq.ink
-  tls: true
-  type: http
-- client-fingerprint: chrome
   name: 10,11|香港|@ripaojiedian
   network: tcp
   password: 1e63e585ab2fef3adcc9ea75a62abc23
@@ -73,19 +66,19 @@ proxies:
     headers:
       Host: agedu.aimercc.filegear-sg.me
     path: /?ed=2560
-- name: 12|HK_speednode_0018
+- name: 12|HK_speednode_0020
   network: ws
   port: 443
-  server: 162.247.5.91
-  servername: sga.costs.asia
+  server: 8.218.105.88
+  servername: vn.cazlelmhpn.group
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 8ca6df70-73af-4139-9f7e-685e71618c71
+  uuid: e987e2aa-7cfe-4d19-8364-66552cc53d16
   ws-opts:
     headers:
-      Host: sga.costs.asia
+      Host: vn.cazlelmhpn.group
     path: /bing
 - name: 12|HK_speednode_0021
   network: ws
