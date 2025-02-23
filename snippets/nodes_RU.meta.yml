@@ -1,5 +1,28 @@
 proxies:
-- name: 12|RU_speednode_0109
+- auth: dongtaiwang.com
+  client-fingerprint: chrome
+  name: 0|🇷🇺1 |  1.4MB/s
+  password: dongtaiwang.com
+  port: 51224
+  server: 46.17.41.189
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- name: 12|RU_speednode_0071
+  network: ws
+  port: 80
+  server: 185.174.138.194
+  servername: pormang.webhost99.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+  ws-opts:
+    headers:
+      Host: pormang.webhost99.workers.dev
+    path: /
+- name: 12|RU_speednode_0072
   network: ws
   port: 80
   server: 185.174.138.194
@@ -13,21 +36,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- name: 12|RU_speednode_0110
-  network: ws
-  port: 80
-  server: 185.174.138.194
-  servername: pormang.webhost99.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
-  ws-opts:
-    headers:
-      Host: pormang.webhost99.workers.dev
-    path: /
-- name: 12|RU_speednode_0111
+- name: 12|RU_speednode_0073
   network: ws
   port: 8080
   server: 185.174.138.197
@@ -41,16 +50,3 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg.
     path: /
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 12|RU_speednode_0112
-  port: 443
-  server: tel5.vpntype.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5fcd19f2-0ecc-4449-bfab-f6b20d979d8f
