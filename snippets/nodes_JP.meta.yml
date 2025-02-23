@@ -1,11 +1,4 @@
 proxies:
-- name: 0|🇯🇵1 |  5.7MB/s
-  password: '!!str 3787016351714123776'
-  port: 443
-  server: usable-toad.treefrog761.one
-  skip-cert-verify: true
-  sni: usable-toad.treefrog761.one
-  type: trojan
 - client-fingerprint: chrome
   name: 10,11|日本4|@ripaojiedian
   network: tcp
