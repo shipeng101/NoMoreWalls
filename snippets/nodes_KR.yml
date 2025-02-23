@@ -1,1 +1,8 @@
-proxies: []
+proxies:
+- name: 12|KR_speednode_0084
+  password: '!!str 3782591447421952000'
+  port: 443
+  server: equipped-mouse.treefrog761.one
+  skip-cert-verify: true
+  type: trojan
+  udp: true

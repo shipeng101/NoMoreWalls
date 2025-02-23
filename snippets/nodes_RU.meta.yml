@@ -1,20 +1,19 @@
 proxies:
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  client-fingerprint: chrome
-  down: 55 Mbps
-  name: 0|🇷🇺1 |  1.3MB/s
-  obfs: dongtaiwang.com
-  port: 63717
-  ports: 40000-50000
-  server: 185.22.155.71
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
-  up: 11 Mbps
-- name: 12|RU_speednode_0082
+- name: 12|RU_speednode_0134
+  network: ws
+  port: 80
+  server: 185.174.138.194
+  servername: pormang.webhost99.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+  ws-opts:
+    headers:
+      Host: pormang.webhost99.workers.dev
+    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
+- name: 12|RU_speednode_0135
   network: ws
   port: 80
   server: 185.174.138.194
@@ -28,7 +27,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /
-- name: 12|RU_speednode_0083
+- name: 12|RU_speednode_0136
   network: ws
   port: 8080
   server: 185.174.138.197
@@ -42,3 +41,16 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg.
     path: /
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 12|RU_speednode_0137
+  port: 443
+  server: tel5.vpntype.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5fcd19f2-0ecc-4449-bfab-f6b20d979d8f
