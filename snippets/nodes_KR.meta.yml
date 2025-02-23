@@ -1,12 +1,5 @@
 proxies:
-- name: 12|KR_speednode_0084
-  password: '!!str 3782591447421952000'
-  port: 443
-  server: equipped-mouse.treefrog761.one
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 12|KR_speednode_0085
+- name: 12|KR_speednode_0065
   network: ws
   port: 18048
   server: 118.46.215.195
@@ -20,21 +13,7 @@ proxies:
     headers:
       Host: agedu.aimercc.filegear-sg.me
     path: /?ed=2560
-- name: 12|KR_speednode_0086
-  network: ws
-  port: 12523
-  server: 115.23.163.214
-  servername: agedy.ambercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 94d04e32-bc77-4eea-b57c-29ef4b7ef4b0
-  ws-opts:
-    headers:
-      Host: agedy.ambercc.filegear-sg.me
-    path: /?ed=2560
-- name: 12|KR_speednode_0087
+- name: 12|KR_speednode_0066
   network: ws
   port: 50000
   server: 221.167.108.29
@@ -48,35 +27,7 @@ proxies:
     headers:
       Host: agedu.aimercc.filegear-sg.me
     path: /?ed=2560
-- name: 12|KR_speednode_0088
-  network: ws
-  port: 15831
-  server: 175.198.236.155
-  servername: agedy.ambercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 94d04e32-bc77-4eea-b57c-29ef4b7ef4b0
-  ws-opts:
-    headers:
-      Host: agedy.ambercc.filegear-sg.me
-    path: /?ed=2560
-- name: 12|KR_speednode_0089
-  network: ws
-  port: 31443
-  server: 59.19.56.223
-  servername: agedu.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 94d04e32-bc77-4eea-b57c-29ef4b7ef4b0
-  ws-opts:
-    headers:
-      Host: agedu.aimercc.filegear-sg.me
-    path: /?ed=2560
-- name: 12|KR_speednode_0090
+- name: 12|KR_speednode_0067
   network: ws
   port: 12395
   server: 121.140.238.170
@@ -90,7 +41,7 @@ proxies:
     headers:
       Host: agedu.aimercc.filegear-sg.me
     path: /?ed=2560
-- name: 12|KR_speednode_0091
+- name: 12|KR_speednode_0068
   network: ws
   port: 21082
   server: 222.120.196.136
@@ -104,7 +55,7 @@ proxies:
     headers:
       Host: agedu.aimercc.filegear-sg.me
     path: /?ed=2560
-- name: 12|KR_speednode_0092
+- name: 12|KR_speednode_0069
   network: ws
   port: 10071
   server: 220.122.114.61
@@ -118,35 +69,7 @@ proxies:
     headers:
       Host: agedu.aimercc.filegear-sg.me
     path: /?ed=2560
-- name: 12|KR_speednode_0093
-  network: ws
-  port: 18004
-  server: 121.153.45.186
-  servername: agedy.ambercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 94d04e32-bc77-4eea-b57c-29ef4b7ef4b0
-  ws-opts:
-    headers:
-      Host: agedy.ambercc.filegear-sg.me
-    path: /?ed=2560
-- name: 12|KR_speednode_0094
-  network: ws
-  port: 11210
-  server: 121.180.100.129
-  servername: agedy.ambercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 94d04e32-bc77-4eea-b57c-29ef4b7ef4b0
-  ws-opts:
-    headers:
-      Host: agedy.ambercc.filegear-sg.me
-    path: /?ed=2560
-- name: 12|KR_speednode_0095
+- name: 12|KR_speednode_0070
   network: ws
   port: 12462
   server: 220.117.126.46
@@ -160,7 +83,49 @@ proxies:
     headers:
       Host: agedu.aimercc.filegear-sg.me
     path: /?ed=2560
-- name: 12|KR_speednode_0096
+- name: 12|KR_speednode_0071
+  network: ws
+  port: 31443
+  server: 59.19.56.223
+  servername: agedu.aimercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 94d04e32-bc77-4eea-b57c-29ef4b7ef4b0
+  ws-opts:
+    headers:
+      Host: agedu.aimercc.filegear-sg.me
+    path: /?ed=2560
+- name: 12|KR_speednode_0072
+  network: ws
+  port: 11210
+  server: 121.180.100.129
+  servername: agedy.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 94d04e32-bc77-4eea-b57c-29ef4b7ef4b0
+  ws-opts:
+    headers:
+      Host: agedy.ambercc.filegear-sg.me
+    path: /?ed=2560
+- name: 12|KR_speednode_0073
+  network: ws
+  port: 18004
+  server: 121.153.45.186
+  servername: agedy.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 94d04e32-bc77-4eea-b57c-29ef4b7ef4b0
+  ws-opts:
+    headers:
+      Host: agedy.ambercc.filegear-sg.me
+    path: /?ed=2560
+- name: 12|KR_speednode_0074
   network: ws
   port: 35559
   server: 121.191.9.243
@@ -174,3 +139,24 @@ proxies:
     headers:
       Host: agedy.ambercc.filegear-sg.me
     path: /?ed=2560
+- name: 12|KR_speednode_0075
+  network: ws
+  port: 12523
+  server: 115.23.163.214
+  servername: agedy.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 94d04e32-bc77-4eea-b57c-29ef4b7ef4b0
+  ws-opts:
+    headers:
+      Host: agedy.ambercc.filegear-sg.me
+    path: /?ed=2560
+- name: 12|KR_speednode_0076
+  password: '!!str 3782591447421952000'
+  port: 443
+  server: equipped-mouse.treefrog761.one
+  skip-cert-verify: true
+  type: trojan
+  udp: true

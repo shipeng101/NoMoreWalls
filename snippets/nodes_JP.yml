@@ -1,14 +1,14 @@
 proxies:
-- name: 0|🇯🇵1 |  2.2MB/s
+- name: 0|🇯🇵1 |  1.0MB/s
   password: 5ffcb530-1f7b-3f23-b368-8690903c358f
-  port: 54178
+  port: 20071
   server: gy.58n.net
   skip-cert-verify: true
-  sni: x115.flybar.work
+  sni: x71.flybar.work
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 10,11,12|CN_speednode_0011
+  name: 10,11,12|CN_speednode_0005
   network: tcp
   password: fc66e1cb-1fa3-412a-81f5-900e59e3837c
   port: 28713

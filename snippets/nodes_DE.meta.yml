@@ -1,5 +1,5 @@
 proxies:
-- name: 12|DE_speednode_0028
+- name: 12|DE_speednode_0015
   password: '!!str 3782591447421952000'
   port: 443
   server: composed-mustang.treefrog761.one
@@ -7,36 +7,9 @@ proxies:
   sni: composed-mustang.treefrog761.one
   type: trojan
   udp: true
-- name: 12|DE_speednode_0029
-  network: ws
-  port: 2086
-  server: 185.135.9.138
-  servername: b4f0b859-super-smoke-7916.bouncy-vulture1054.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 31348b17-4ab2-40c0-b79e-c81032331d30
-  ws-opts:
-    headers:
-      Host: b4f0b859-super-smoke-7916.bouncy-vulture1054.workers.dev
-    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-- client-fingerprint: chrome
-  name: 12|DE_speednode_0030
-  port: 443
-  reality-opts:
-    public-key: DNdTBHyztOVJOBJQX91YXEhNkWbSAntqUoTFBHc6Clw
-    short-id: 6ba85179e30d4fc2
-  server: 8.209.75.3
-  servername: api.company-target.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5c183802-747d-4d2f-a6f1-aff2d5d78401
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 12|DE_speednode_0031
+  name: 12|DE_speednode_0016
   port: 443
   reality-opts:
     public-key: 83nOCehIOZZFqH0TjezNRMlu_pu069x5ep9BhopvyWM
@@ -47,24 +20,3 @@ proxies:
   type: vless
   udp: true
   uuid: 33c1bd18-ca92-f544-8c7e-105bc9d8cb93
-- client-fingerprint: chrome
-  http-opts:
-    headers:
-      Host:
-      - www.speedtest.net
-    method: GET
-    path:
-    - /telegram@ph_onex-VpIi-21-pHOneX.www.speedtest.net.zula.ir.1.FoNexWallbeSTphOnex.cOM
-  name: 12|DE_speednode_0032
-  network: http
-  port: 28028
-  reality-opts:
-    public-key: xXwGwJOlSUEvc17KLNCPDF1WtjxiMTUxQb8aaZIuCnI
-    short-id: 0a896646c2
-  server: 5.75.192.237
-  servername: www.speedtest.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 763e0cfe-978c-41b3-b44e-06e3c1d13dd8

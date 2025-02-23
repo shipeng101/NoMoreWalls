@@ -1,5 +1,5 @@
 proxies:
-- name: 12|RU_speednode_0134
+- name: 12|RU_speednode_0109
   network: ws
   port: 80
   server: 185.174.138.194
@@ -13,7 +13,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- name: 12|RU_speednode_0135
+- name: 12|RU_speednode_0110
   network: ws
   port: 80
   server: 185.174.138.194
@@ -27,7 +27,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /
-- name: 12|RU_speednode_0136
+- name: 12|RU_speednode_0111
   network: ws
   port: 8080
   server: 185.174.138.197
@@ -46,7 +46,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 12|RU_speednode_0137
+  name: 12|RU_speednode_0112
   port: 443
   server: tel5.vpntype.dev
   skip-cert-verify: false
