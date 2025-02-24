@@ -1,120 +1,74 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  delay: 559
-  name: 0|🇬🇧3 |  6.1MB/s
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52612
-  server: hk02.x.quickcht3.club
-  type: ss
 - cipher: aes-256-cfb
-  country: 🇸🇬SG
-  delay: 534
-  name: 0|🇸🇬1 |  5.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.169.215.32
+  name: 0|🇺🇸5 |  14.4MB/s
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 154.223.20.79
   type: ss
-- cipher: aes-256-cfb
-  country: 🇸🇬SG
-  delay: 411
-  name: 0|🇸🇬2 |  3.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.229.82.37
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 0|🇬🇧2 |  1.3MB/s
-  port: 14100
-  server: dxv4.pai50288.uk
-  skip-cert-verify: true
-  tls: false
-  type: vmess
   udp: true
-  uuid: f6866b0b-f946-4a03-8df0-c7e0016b55ad
-- name: 0|🇸🇬3 |  6.1MB/s
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇳🇱1 |  5.4MB/s
+  password: cvII85TrW6n0OGyfpHVS1u
+  port: 8080
+  server: 45.87.175.178
+  type: ss
+- name: 0|🇺🇸9 |  3.8MB/s
   password: fd85b7f4-3cba-392a-bb81-4b4d5789007a
-  port: 30712
+  port: 22741
   server: gy.58n.net
   skip-cert-verify: true
-  sni: x83.flybar.work
+  sni: dufu.hongkongnode.top
   type: trojan
   udp: true
-- name: 0|🇰🇷1 |  2.2MB/s
+- cipher: aes-256-cfb
+  name: 0|🇺🇸10 |  2.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.237.113.248
+  type: ss
+- name: 0|🇸🇬2 |  2.9MB/s
   password: fd85b7f4-3cba-392a-bb81-4b4d5789007a
-  port: 45168
+  port: 20129
   server: gy.58n.net
   skip-cert-verify: true
-  sni: z263.hongkongnode.top
+  sni: x129.flybar.work
   type: trojan
   udp: true
-- alterId: 2
-  cipher: auto
-  name: 0|🌀2- |  6.5MB/s
-  network: ws
-  port: 23613
-  server: 13.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c3e16f0a-4a8c-31e0-8f1c-39115ad029f0
-  ws-opts:
-    headers:
-      Host: 13.mamamajd.site
-    path: /
 - cipher: aes-256-cfb
-  name: 0|🇸🇬4 |  6.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.229.111.3
-  type: ss
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 0|🌀3- |  6.0MB/s
-  network: ws
-  port: 23611
-  server: 11.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c3e16f0a-4a8c-31e0-8f1c-39115ad029f0
-  ws-opts:
-    headers:
-      Host: 11.mamamajd.site
-    path: /
-- cipher: aes-256-cfb
-  country: 🇸🇬SG
-  delay: 492
-  name: 0|🇸🇬5 |  6.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.254.169.121
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰2 |  6.6MB/s
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52613
-  server: hk03.x.quickcht3.club
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇸🇬SG
-  delay: 388
-  name: 0|🇸🇬6 |  10.6MB/s
+  name: 0|🇸🇬3 |  5.9MB/s
   password: amazonskr05
   port: 443
   server: 13.229.55.109
   type: ss
 - cipher: aes-256-cfb
-  delay: 267
-  name: 0|🇸🇬7 |  6.1MB/s
+  name: 0|🇸🇬4 |  5.9MB/s
   password: amazonskr05
   port: 443
-  server: 52.77.249.55
+  server: 13.229.111.3
   type: ss
   udp: true
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  delay: 492
+  name: 0|🇸🇬5 |  5.9MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.254.169.121
+  type: ss
+- cipher: aes-256-cfb
+  delay: 382
+  name: 0|🇺🇸13 |  1.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.143.165.183
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|🇯🇵1 |  3.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 43.206.216.94
+  type: ss
 - name: 10,11|香港|@ripaojiedian
   network: tcp
   password: 1e63e585ab2fef3adcc9ea75a62abc23
@@ -133,93 +87,22 @@ proxies:
   tls: false
   type: vmess
   uuid: 9bffecef-77db-4021-a02b-cc9915bcbb23
-- cipher: aes-128-gcm
-  name: 10|🇭🇰 香港8|@ripaojiedian
-  password: 777bc05be0dd624959fb
-  plugin: obfs
-  plugin-opts:
-    host: 215996dd9f1c3db1e54b.microsoft.com
-    mode: http
-  port: 45905
-  server: console.03.aliyun.aq.kunlunaqs.com
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf
-  name: 10|🇭🇰 香港9|@ripaojiedian
-  obfs: plain
-  obfs-param: c499e93390.wns.windows.com
-  password: mtbv8n
-  port: 578
-  protocol: auth_aes128_md5
-  protocol-param: 93390:TDWk1JwybHq
-  server: bgphk5.vip.primeconectin.pro
-  type: ssr
-- cipher: aes-128-gcm
-  name: 10|🇹🇼 台湾|@ripaojiedian
-  password: 3e26a8cfb09fda219b36
-  plugin: obfs
-  plugin-opts:
-    host: 215996dd9f1c3db1e54b.microsoft.com
-    mode: http
-  port: 45573
-  server: console.03.aliyun.aq.kunlunaqs.com
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf
-  name: 10|🇹🇼 台湾5|@ripaojiedian
-  obfs: plain
-  obfs-param: c499e93390.wns.windows.com
-  password: mtbv8n
-  port: 1206
-  protocol: auth_aes128_md5
-  protocol-param: 93390:TDWk1JwybHq
-  server: aiatw6.primeconectin.pro
-  type: ssr
-- name: 10,11|日本4|@ripaojiedian
-  network: tcp
-  password: fc66e1cb-1fa3-412a-81f5-900e59e3837c
-  port: 28713
-  server: wb.kaiqsz.com
-  skip-cert-verify: true
-  sni: mmbiz1.redapricotcloud.com
-  type: trojan
-- cipher: chacha20-ietf
-  name: 10|🇯🇵 日本5|@ripaojiedian
-  obfs: plain
-  obfs-param: c499e93390.wns.windows.com
-  password: mtbv8n
-  port: 1454
-  protocol: auth_aes128_md5
-  protocol-param: 93390:TDWk1JwybHq
-  server: relayjp4.vip.primeconectin.pro
-  type: ssr
-- cipher: aes-128-gcm
-  name: 10|🇸🇬 新加坡|@ripaojiedian
-  password: f4cd0a554e9d0558c581
-  plugin: obfs
-  plugin-opts:
-    host: 215996dd9f1c3db1e54b.microsoft.com
-    mode: http
-  port: 45917
-  server: console.03.aliyun.aq.kunlunaqs.com
-  tfo: false
-  type: ss
-- name: 10,11|美国|@ripaojiedian
-  network: tcp
-  password: '3747000103274291200'
-  port: 443
-  server: polished-ox.treefrog761.one
+- alterId: 0
+  cipher: auto
+  name: 10,11|韩国|@ripaojiedian
+  network: ws
+  port: '22223'
+  server: free-kr.faforex.eu.org
+  servername: ''
   skip-cert-verify: false
-  sni: polished-ox.treefrog761.one
-  type: trojan
-- name: 10,11|美国2|@ripaojiedian
-  network: tcp
-  password: '3747000103274291200'
-  port: 443
-  server: fluent-bat.treefrog761.one
-  skip-cert-verify: false
-  sni: fluent-bat.treefrog761.one
-  type: trojan
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 34b92487-a7b5-400a-b42f-40f53377aaab
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 11|香港3|@ripaojiedian
@@ -230,36 +113,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 9bffecef-77db-4021-a02b-cc9915bcbb23
-- cipher: chacha20-ietf
-  name: 11|6aaZ5rivOXxAcmlwYW9qaWVkaWFu
-  obfs: plain
-  obfs-param: YzQ5OWU5MzM5MC53bnMud2luZG93cy5jb20
-  password: mtbv8n
-  port: '578'
-  protocol: auth_aes128_md5
-  protocol-param: OTMzOTA6VERXazFKd3liSHE
-  server: bgphk5.vip.primeconectin.pro
-  type: ssr
-- cipher: chacha20-ietf
-  name: 11|5Y-w5rm-NXxAcmlwYW9qaWVkaWFu
-  obfs: plain
-  obfs-param: YzQ5OWU5MzM5MC53bnMud2luZG93cy5jb20
-  password: mtbv8n
-  port: '1206'
-  protocol: auth_aes128_md5
-  protocol-param: OTMzOTA6VERXazFKd3liSHE
-  server: aiatw6.primeconectin.pro
-  type: ssr
-- cipher: chacha20-ietf
-  name: 11|5pel5pysNXxAcmlwYW9qaWVkaWFu
-  obfs: plain
-  obfs-param: YzQ5OWU5MzM5MC53bnMud2luZG93cy5jb20
-  password: mtbv8n
-  port: '1454'
-  protocol: auth_aes128_md5
-  protocol-param: OTMzOTA6VERXazFKd3liSHE
-  server: relayjp4.vip.primeconectin.pro
-  type: ssr
 - name: 12|SC_speednode_0078
   network: ws
   password: Aimer

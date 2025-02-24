@@ -1,72 +1,34 @@
 proxies:
-- cipher: aes-256-cfb
-  country: 🇸🇬SG
-  delay: 534
-  name: 0|🇸🇬1 |  5.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.169.215.32
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇸🇬SG
-  delay: 411
-  name: 0|🇸🇬2 |  3.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.229.82.37
-  type: ss
-- name: 0|🇸🇬3 |  6.1MB/s
+- name: 0|🇸🇬2 |  2.9MB/s
   password: fd85b7f4-3cba-392a-bb81-4b4d5789007a
-  port: 30712
+  port: 20129
   server: gy.58n.net
   skip-cert-verify: true
-  sni: x83.flybar.work
+  sni: x129.flybar.work
   type: trojan
   udp: true
 - cipher: aes-256-cfb
+  name: 0|🇸🇬3 |  5.9MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.229.55.109
+  type: ss
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 0|🇸🇬4 |  6.1MB/s
+  name: 0|🇸🇬4 |  5.9MB/s
   password: amazonskr05
   port: 443
   server: 13.229.111.3
   type: ss
   udp: true
 - cipher: aes-256-cfb
+  client-fingerprint: chrome
   country: 🇸🇬SG
   delay: 492
-  name: 0|🇸🇬5 |  6.5MB/s
+  name: 0|🇸🇬5 |  5.9MB/s
   password: amazonskr05
   port: 443
   server: 54.254.169.121
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  country: 🇸🇬SG
-  delay: 388
-  name: 0|🇸🇬6 |  10.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.229.55.109
-  type: ss
-- cipher: aes-256-cfb
-  delay: 267
-  name: 0|🇸🇬7 |  6.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 52.77.249.55
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 10|🇸🇬 新加坡|@ripaojiedian
-  password: f4cd0a554e9d0558c581
-  plugin: obfs
-  plugin-opts:
-    host: 215996dd9f1c3db1e54b.microsoft.com
-    mode: http
-  port: 45917
-  server: console.03.aliyun.aq.kunlunaqs.com
-  tfo: false
   type: ss
 - name: 12|SG_speednode_0080
   network: ws
