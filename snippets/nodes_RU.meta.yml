@@ -1,23 +1,43 @@
 proxies:
-- client-fingerprint: chrome
-  name: 0|🇷🇺1 |  1.5MB/s
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 0|🇷🇺1 |  5.3MB/s
+  network: tcp
+  port: 31101
+  server: 910281.chasel.sbs
+  type: vmess
+  uuid: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
+- auth: dongtaiwang.com
+  client-fingerprint: chrome
+  name: 0|🇷🇺2 |  2.1MB/s
+  password: dongtaiwang.com
+  port: 51224
+  server: 46.17.41.189
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- name: 0|🇷🇺3 |  3.1MB/s
+  password: myszy28811
+  port: 28811
+  server: pipi.myddns.me
+  type: socks5
+  udp: true
+  username: myszy
+- name: 12|RU_speednode_0058
   network: ws
   port: 80
-  server: 151.101.2.216
+  server: 185.174.138.194
+  servername: pormang.webhost99.workers.dev
   skip-cert-verify: false
   tls: false
   type: vless
-  uuid: 46b06e2c-e5e0-4ad2-ad3e-9f316d7d3065
+  udp: true
+  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
   ws-opts:
     headers:
-      Host: MaHxRaYT.aI.
-    path: /?ed=2048
-- cipher: aes-256-cfb
-  name: 0|🇷🇺2 |  1.8MB/s
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.231.233.173
-  type: ss
+      Host: pormang.webhost99.workers.dev
+    path: /
 - name: 12|RU_speednode_0059
   network: ws
   port: 8080

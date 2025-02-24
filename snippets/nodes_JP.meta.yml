@@ -1,22 +1,12 @@
 proxies:
-- auth: 830a6085-9aeb-449b-bfd2-1924eb972941
-  client-fingerprint: chrome
-  name: 0|🇯🇵1 |  1.6MB/s
-  password: 830a6085-9aeb-449b-bfd2-1924eb972941
-  port: 5001
-  server: krseoul.aikunapp.com
+- name: 0|🇯🇵1 |  6.0MB/s
+  password: b8924924-218c-3337-ab61-cfafe22739a3
+  port: 20071
+  server: gy.58n.net
   skip-cert-verify: true
-  sni: d1--cn-gotcha204-4.bilivideo.com
-  type: hysteria2
-- name: 0|🇯🇵2 |  5.6MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: jpgmo102-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: jpgmo102-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
+  sni: x71.flybar.work
+  type: trojan
+  udp: true
 - name: 12|JP_speednode_0028
   network: ws
   port: 443

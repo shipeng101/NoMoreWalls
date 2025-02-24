@@ -29,6 +29,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 9bffecef-77db-4021-a02b-cc9915bcbb23
+- name: 12|HK_speednode_0017
+  network: ws
+  port: 443
+  server: 162.247.5.91
+  servername: sga.costs.asia
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8ca6df70-73af-4139-9f7e-685e71618c71
+  ws-opts:
+    headers:
+      Host: sga.costs.asia
+    path: /bing
 - name: 12|HK_speednode_0018
   network: ws
   port: 443
