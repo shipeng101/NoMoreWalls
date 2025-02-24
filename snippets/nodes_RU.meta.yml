@@ -1,18 +1,23 @@
 proxies:
-- name: 12|RU_speednode_0058
+- client-fingerprint: chrome
+  name: 0|🇷🇺1 |  1.5MB/s
   network: ws
   port: 80
-  server: 185.174.138.194
-  servername: pormang.webhost99.workers.dev
+  server: 151.101.2.216
   skip-cert-verify: false
   tls: false
   type: vless
-  udp: true
-  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+  uuid: 46b06e2c-e5e0-4ad2-ad3e-9f316d7d3065
   ws-opts:
     headers:
-      Host: pormang.webhost99.workers.dev
-    path: /
+      Host: MaHxRaYT.aI.
+    path: /?ed=2048
+- cipher: aes-256-cfb
+  name: 0|🇷🇺2 |  1.8MB/s
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.231.233.173
+  type: ss
 - name: 12|RU_speednode_0059
   network: ws
   port: 8080

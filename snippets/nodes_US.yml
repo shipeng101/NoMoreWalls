@@ -1,17 +1,19 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸6 |  2.7MB/s
+  password: PPXb8J2ciDybokWl7kxKab
+  port: 51587
+  server: 45.144.54.156
+  type: ss
 - cipher: aes-256-cfb
-  country: 🇺🇸US
-  delay: 699
-  name: 0|🇺🇸6 |  2.1MB/s
+  name: 0|🇺🇸9 |  5.2MB/s
   password: amazonskr05
   port: 443
-  server: 54.190.1.125
+  server: 18.143.165.183
   type: ss
 - cipher: chacha20-ietf-poly1305
-  country: 🏁ZZ
-  delay: 1134
-  name: 0|🇺🇸8 |  5.0MB/s
-  password: 1b998e5e-9f5f-47dd-872d-044ca389ace3
+  name: 0|🇺🇸10 |  2.4MB/s
+  password: 8fcf64c4-2ac5-4f2f-8298-5052d8cff826
   port: 8388
   server: shadow-de01.gproxy.gratis
   type: ss
