@@ -1,1 +1,8 @@
-proxies: []
+proxies:
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 0|🇰🇷1 |  5.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.125.218.26
+  type: ss
