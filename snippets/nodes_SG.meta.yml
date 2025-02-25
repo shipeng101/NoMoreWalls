@@ -1,5 +1,5 @@
 proxies:
-- name: 12|SG_speednode_0064
+- name: 12|SG_speednode_0060
   network: ws
   port: 443
   server: 8.219.202.145

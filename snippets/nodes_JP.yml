@@ -1,12 +1,4 @@
 proxies:
-- name: 0|🇯🇵1 |  2.4MB/s
-  password: c4e04a71-f597-37e5-b07a-0fcd048a2f84
-  port: 20076
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x76.flybar.work
-  type: trojan
-  udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 10|🇯🇵 日本4|@ripaojiedian

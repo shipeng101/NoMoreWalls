@@ -1,74 +1,107 @@
 proxies:
-- cipher: aes-128-gcm
-  name: 0|🇮🇹1 |  5.1MB/s
-  password: shadowsocks
+- cipher: aes-256-gcm
+  name: 0|🇷🇺1 |  5.5MB/s
+  password: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
+  port: 21121
+  server: 581610.eveline.lol
+  type: ss
+- name: 0|🌀2- |  6.0MB/s
+  password: a124e41a-0fb8-4543-a0ab-a127c7b515a9
+  port: 20230
+  server: sg008.421421.xyz
+  skip-cert-verify: false
+  sni: 421421.xyz
+  type: trojan
+- cipher: aes-256-gcm
+  name: 0|🌏1 |  1.0MB/s
+  password: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
+  port: 21245
+  server: 581610.eveline.lol
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: 0|🇺🇸4 |  6.2MB/s
+  network: ws
+  port: 23617
+  server: 17.mamamajd.site
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c8eecd08-d056-351f-9701-edec6e693f64
+  ws-opts:
+    headers:
+      Host: 17.mamamajd.site
+    path: /
+- cipher: aes-256-cfb
+  name: 0|🇺🇸6 |  2.2MB/s
+  password: amazonskr05
   port: 443
-  server: 212.102.53.197
+  server: 34.212.0.149
   type: ss
-- name: 0|🇯🇵1 |  2.4MB/s
+- cipher: aes-256-gcm
+  name: 0|🇺🇸8 |  6.4MB/s
+  password: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
+  port: 21159
+  server: 581023.horace.im
+  type: ss
+- name: 0|🇬🇧1 |  5.2MB/s
   password: c4e04a71-f597-37e5-b07a-0fcd048a2f84
-  port: 20076
-  server: gy.58n.net
+  port: 20309
+  server: gyl.58n.net
   skip-cert-verify: true
-  sni: x76.flybar.work
+  sni: z309.hongkongnode.top
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇳🇱1 |  2.4MB/s
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  port: 8080
-  server: 45.158.171.151
+- cipher: aes-256-gcm
+  name: 0|🇺🇸10 |  6.1MB/s
+  password: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
+  port: 21113
+  server: 581023.horace.im
   type: ss
-- name: 0|🇨🇦1 |  5.8MB/s
-  password: c4e04a71-f597-37e5-b07a-0fcd048a2f84
-  port: 20295
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z295.hongkongnode.top
-  type: trojan
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 0|🌀2- |  5.2MB/s
-  network: ws
-  port: 23614
-  server: 14.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c8eecd08-d056-351f-9701-edec6e693f64
-  ws-opts:
-    headers:
-      Host: 14.mamamajd.site
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 0|🌀3- |  3.1MB/s
-  network: ws
-  port: 23612
-  server: 12.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c8eecd08-d056-351f-9701-edec6e693f64
-  ws-opts:
-    headers:
-      Host: 12.mamamajd.site
-    path: /
 - cipher: chacha20-ietf
-  name: 0|🌏1 |  1.3MB/s
+  name: 0|🌀4- |  1.1MB/s
   password: asd123456
   port: 8388
-  server: 103.36.91.32
+  server: 154.197.26.120
   type: ss
-- name: 0|🇺🇸6 |  3.8MB/s
+- cipher: aes-256-cfb
+  name: 0|🇺🇸13 |  5.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 52.33.5.226
+  type: ss
+- name: 0|🇹🇼1 |  4.0MB/s
   password: c4e04a71-f597-37e5-b07a-0fcd048a2f84
-  port: 20294
+  port: 36821
   server: gy.58n.net
   skip-cert-verify: true
-  sni: z294.hongkongnode.top
+  sni: z262.hongkongnode.top
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 0|🇺🇸15 |  5.8MB/s
+  network: ws
+  port: 23613
+  server: 13.mamamajd.site
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c8eecd08-d056-351f-9701-edec6e693f64
+  ws-opts:
+    headers:
+      Host: 13.mamamajd.site
+    path: /
+- name: 0|🌀5- |  4.9MB/s
+  password: c4e04a71-f597-37e5-b07a-0fcd048a2f84
+  port: 20288
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z288.hongkongnode.top
   type: trojan
   udp: true
 - name: 10,11|香港|@ripaojiedian

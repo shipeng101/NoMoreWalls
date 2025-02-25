@@ -16,7 +16,7 @@ proxies:
   skip-cert-verify: false
   sni: xx.tc.hk.go.107421.xyz
   type: trojan
-- name: 12|HK_speednode_0017
+- name: 12|HK_speednode_0015
   network: ws
   port: 443
   server: 162.247.5.91
@@ -30,7 +30,7 @@ proxies:
     headers:
       Host: sga.costs.asia
     path: /bing
-- name: 12|HK_speednode_0018
+- name: 12|HK_speednode_0016
   network: ws
   port: 443
   server: 8.218.105.88
