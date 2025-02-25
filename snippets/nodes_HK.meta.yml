@@ -16,31 +16,3 @@ proxies:
   skip-cert-verify: false
   sni: xx.tc.hk.go.107421.xyz
   type: trojan
-- name: 12|HK_speednode_0015
-  network: ws
-  port: 443
-  server: 162.247.5.91
-  servername: sga.costs.asia
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8ca6df70-73af-4139-9f7e-685e71618c71
-  ws-opts:
-    headers:
-      Host: sga.costs.asia
-    path: /bing
-- name: 12|HK_speednode_0016
-  network: ws
-  port: 443
-  server: 8.218.105.88
-  servername: vn.cazlelmhpn.group
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e987e2aa-7cfe-4d19-8364-66552cc53d16
-  ws-opts:
-    headers:
-      Host: vn.cazlelmhpn.group
-    path: /bing
