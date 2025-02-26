@@ -1,13 +1,4 @@
 proxies:
-- name: 0|🇭🇰1 |  2.9MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: hkre1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: hkre1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - client-fingerprint: chrome
   name: 10,11|香港|@ripaojiedian
   network: tcp
@@ -25,3 +16,15 @@ proxies:
   skip-cert-verify: false
   sni: xx.tc.hk.go.107421.xyz
   type: trojan
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 10|🇭🇰 香港9|@ripaojiedian
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 20c0d292462.microsoft.com
+    mode: http
+  port: 3603
+  server: pr1.jymzffbquawl.com
+  tfo: false
+  type: ss
