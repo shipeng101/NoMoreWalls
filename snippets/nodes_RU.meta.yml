@@ -1,13 +1,27 @@
 proxies:
-- auth: dongtaiwang.com
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
   client-fingerprint: chrome
-  name: 0|🇷🇺1 |  3.9MB/s
-  password: dongtaiwang.com
-  port: 51224
-  server: 46.17.41.189
+  down: 55 Mbps
+  name: 0|🇷🇺1 |  2.1MB/s
+  obfs: dongtaiwang.com
+  port: 63717
+  ports: 40000-50000
+  server: 185.22.155.71
   skip-cert-verify: true
   sni: www.bing.com
-  type: hysteria2
+  type: hysteria
+  up: 11 Mbps
+- cipher: aes-256-cfb
+  ip-version: dual
+  name: 0|🇷🇺2 |  9.1MB/s
+  password: cp8pRSUAyLhTfVWH
+  port: 9064
+  server: 217.30.10.18
+  type: ss
+  udp: true
 - name: 12|RU_speednode_0046
   network: ws
   port: 80
