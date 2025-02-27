@@ -1,12 +1,17 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 0|🇬🇧1 |  1.1MB/s
-  network: tcp
-  port: 14100
-  server: dxv4.pai50288.uk
-  type: vmess
-  uuid: f6866b0b-f946-4a03-8df0-c7e0016b55ad
+- auth: e370ebe8-4c08-4675-8380-3ce6aaf4f95d
+  client-fingerprint: chrome
+  down: 100
+  name: 0|🇬🇧1 |  1.7MB/s
+  obfs: salamander
+  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
+  password: e370ebe8-4c08-4675-8380-3ce6aaf4f95d
+  port: 31651
+  server: 185.121.134.12
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
 - name: 12|GB_speednode_0009
   network: ws
   port: 443

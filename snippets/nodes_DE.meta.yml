@@ -1,11 +1,1 @@
-proxies:
-- auth: 8b3db529-47d5-41ae-b00d-008517110fce
-  client-fingerprint: chrome
-  name: 0|🇩🇪1 |  1.6MB/s
-  password: 8b3db529-47d5-41ae-b00d-008517110fce
-  port: 35801
-  server: xjp.sytcloud.top
-  skip-cert-verify: true
-  sni: xjp.sytcloud.top
-  type: hysteria2
-  udp: true
+proxies: []

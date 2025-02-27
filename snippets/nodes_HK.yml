@@ -1,4 +1,12 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 0|🇭🇰1 |  4.2MB/s
+  port: 19901
+  server: xg.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: 5fff5cf2-c992-456a-b1c9-a3de4ce09ccc
 - client-fingerprint: chrome
   name: 10,11|香港|@ripaojiedian
   network: tcp
@@ -16,15 +24,24 @@ proxies:
   skip-cert-verify: false
   sni: xx.tc.hk.go.107421.xyz
   type: trojan
-- cipher: rc4-md5
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: 10|🇭🇰 香港9|@ripaojiedian
-  password: RenzheCloudSS
-  plugin: obfs
-  plugin-opts:
-    host: 20c0d292462.microsoft.com
-    mode: http
-  port: 3603
-  server: pr1.jymzffbquawl.com
+  port: 33311
+  server: bg.guangsu888.cc
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: fa59f800-269d-4e2d-b29c-b4b9a570bbe0
+- alterId: 0
+  cipher: auto
+  name: 11|香港9|@ripaojiedian
+  network: tcp
+  port: '33311'
+  server: bg.guangsu888.cc
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: fa59f800-269d-4e2d-b29c-b4b9a570bbe0

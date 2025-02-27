@@ -1,159 +1,128 @@
 proxies:
-- name: 0|🇯🇵1 |  5.0MB/s
-  password: 7d9c7804-1f7d-43f7-b19a-fa7c2fff4569
-  port: 20230
-  server: jp007.421421.xyz
-  skip-cert-verify: false
-  sni: 421421.xyz
-  type: trojan
-- cipher: aes-256-cfb
-  name: 0|🇰🇷1 |  5.8MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.125.186.115
-  type: ss
-- name: 0|🇸🇬1 |  5.9MB/s
-  password: 825654a8-5332-31d0-8096-72469a2a0690
-  port: 20130
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x130.flybar.work
-  type: trojan
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 0|🌀1- |  2.8MB/s
-  network: ws
-  port: 23614
-  server: 14.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 62794aaa-7ee2-33a6-aa5b-560c694c2f9a
-  ws-opts:
-    headers:
-      Host: 14.mamamajd.site
-    path: /
-- name: 0|🇯🇵2 |  6.1MB/s
-  password: 825654a8-5332-31d0-8096-72469a2a0690
-  port: 20139
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z139.hongkongnode.top
-  type: trojan
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 0|🇺🇸1 |  1.1MB/s
-  network: ws
-  port: 23616
-  server: 16.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 62794aaa-7ee2-33a6-aa5b-560c694c2f9a
-  ws-opts:
-    headers:
-      Host: 16.mamamajd.site
-    path: /
-- name: 0|🇯🇵3 |  2.6MB/s
-  password: 825654a8-5332-31d0-8096-72469a2a0690
-  port: 54178
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x115.flybar.work
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|🇺🇸3 |  4.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.244.78.72
-  type: ss
-- name: 0|🇰🇷2 |  2.3MB/s
-  password: 825654a8-5332-31d0-8096-72469a2a0690
-  port: 45168
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z263.hongkongnode.top
-  type: trojan
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 0|🇺🇸4 |  1.1MB/s
-  network: ws
-  port: 23615
-  server: 15.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 62794aaa-7ee2-33a6-aa5b-560c694c2f9a
-  ws-opts:
-    headers:
-      Host: 15.mamamajd.site
-    path: /
-- cipher: aes-256-cfb
-  name: 0|🇺🇸5 |  3.8MB/s
-  password: amazonskr05
-  port: 443
-  server: 35.91.187.73
-  type: ss
 - cipher: aes-256-cfb
   ip-version: dual
-  name: 0|🇷🇺2 |  9.1MB/s
-  password: cp8pRSUAyLhTfVWH
-  port: 9064
+  name: 0|🇺🇸1 |  5.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 35.160.134.223
+  type: ss
+  udp: true
+- name: 0|🇺🇸3 |  2.2MB/s
+  password: 5c36d88d-1196-3b10-b982-c376d4574ef0
+  port: 20307
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z307.hongkongnode.top
+  tfo: true
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  ip-version: dual
+  name: 0|🇷🇺2 |  2.6MB/s
+  password: XPtzA9sCug3SPR4c
+  port: 9025
   server: 217.30.10.18
   type: ss
   udp: true
-- alterId: 2
-  cipher: auto
-  name: 0|🇺🇸8 |  1.4MB/s
-  network: ws
-  port: 23613
-  server: 13.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 62794aaa-7ee2-33a6-aa5b-560c694c2f9a
-  ws-opts:
-    headers:
-      Host: 13.mamamajd.site
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🇬🇧1 |  1.1MB/s
-  network: tcp
-  port: 14100
-  server: dxv4.pai50288.uk
-  type: vmess
-  uuid: f6866b0b-f946-4a03-8df0-c7e0016b55ad
-- cipher: aes-256-cfb
-  ip-version: dual
-  name: 0|🌀2- |  2.1MB/s
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 37.143.129.230
-  type: ss
-  udp: true
-- name: 0|🇸🇬2 |  3.5MB/s
-  password: 825654a8-5332-31d0-8096-72469a2a0690
-  port: 20299
+- name: 0|🇺🇸7 |  4.1MB/s
+  password: 5c36d88d-1196-3b10-b982-c376d4574ef0
+  port: 24603
   server: gy.58n.net
   skip-cert-verify: true
-  sni: x299.flybar.work
+  sni: z259.hongkongnode.top
+  tfo: true
   type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: 0|🇺🇸12 |  2.0MB/s
+  name: 0|🇯🇵1 |  5.4MB/s
   password: amazonskr05
   port: 443
-  server: 34.217.75.205
+  server: 3.112.216.127
   type: ss
+- cipher: aes-256-cfb
+  name: 0|🇺🇸8 |  1.6MB/s
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 156.146.40.194
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|🇯🇵2 |  4.8MB/s
+  password: hGkQ6915tD
+  port: 15084
+  server: 120.232.81.50
+  type: ss
+  udp: true
+- name: 0|🇯🇵3 |  5.5MB/s
+  password: 5c36d88d-1196-3b10-b982-c376d4574ef0
+  port: 20140
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z140.hongkongnode.top
+  tfo: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 0|🇭🇰1 |  4.2MB/s
+  port: 19901
+  server: xg.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: 5fff5cf2-c992-456a-b1c9-a3de4ce09ccc
+- cipher: aes-256-cfb
+  name: 0|🇺🇸10 |  5.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.203.99.21
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|🇺🇸11 |  2.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.244.204.173
+  type: ss
+- name: 0|🇺🇸12 |  6.1MB/s
+  password: 5c36d88d-1196-3b10-b982-c376d4574ef0
+  port: 22741
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: dufu.hongkongnode.top
+  tfo: true
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  ip-version: dual
+  name: 0|🇺🇸15 |  5.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 34.220.174.155
+  type: ss
+  udp: true
+- alterId: 2
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|🇺🇸16 |  2.0MB/s
+  network: ws
+  port: 22642
+  server: tk.hzlt.tkddns.xyz
+  servername: tk.hzlt.tkddns.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-b.tkong.cc
+    path: /
+- name: 0|🇺🇸18 |  2.3MB/s
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 15.237.65.103
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
 - name: 10,11|香港|@ripaojiedian
   network: tcp
   password: 1e63e585ab2fef3adcc9ea75a62abc23
@@ -169,81 +138,26 @@ proxies:
   skip-cert-verify: false
   sni: xx.tc.hk.go.107421.xyz
   type: trojan
-- cipher: rc4-md5
-  name: 10|🇭🇰 香港9|@ripaojiedian
-  password: RenzheCloudSS
-  plugin: obfs
-  plugin-opts:
-    host: 20c0d292462.microsoft.com
-    mode: http
-  port: 3603
-  server: pr1.jymzffbquawl.com
-  tfo: false
-  type: ss
-- cipher: rc4-md5
-  name: 10|🇹🇼 台湾|@ripaojiedian
-  password: RenzheCloudSS
-  plugin: obfs
-  plugin-opts:
-    host: 20c0d292462.microsoft.com
-    mode: http
-  port: 3026
-  server: pr3.jymzffbquawl.com
-  tfo: false
-  type: ss
-- cipher: rc4-md5
-  name: 10|🇯🇵 日本4|@ripaojiedian
-  password: RenzheCloudSS
-  plugin: obfs
-  plugin-opts:
-    host: 20c0d292462.microsoft.com
-    mode: http
-  port: 4602
-  server: pr3.jymzffbquawl.com
-  tfo: false
-  type: ss
-- cipher: rc4-md5
-  name: 10|🇸🇬 新加坡5|@ripaojiedian
-  password: RenzheCloudSS
-  plugin: obfs
-  plugin-opts:
-    host: 20c0d292462.microsoft.com
-    mode: http
-  port: 6606
-  server: pr3.jymzffbquawl.com
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸 美国|@ripaojiedian
-  port: 50004
-  server: 50004.baidu-cdn.top
+  name: 10|🇭🇰 香港9|@ripaojiedian
+  port: 33311
+  server: bg.guangsu888.cc
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 4ce50179-f256-4509-bbd2-2a6ec957236e
-- cipher: rc4-md5
-  name: 10|🇺🇸 美国2|@ripaojiedian
-  password: RenzheCloudSS
-  plugin: obfs
-  plugin-opts:
-    host: 20c0d292462.microsoft.com
-    mode: http
-  port: 5609
-  server: pr3.jymzffbquawl.com
-  tfo: false
-  type: ss
+  uuid: fa59f800-269d-4e2d-b29c-b4b9a570bbe0
 - alterId: 0
   cipher: auto
-  name: 11|美国|@ripaojiedian
+  name: 11|香港9|@ripaojiedian
   network: tcp
-  port: '50004'
-  server: 50004.baidu-cdn.top
+  port: '33311'
+  server: bg.guangsu888.cc
   servername: ''
   tls: false
   type: vmess
-  uuid: 4ce50179-f256-4509-bbd2-2a6ec957236e
+  uuid: fa59f800-269d-4e2d-b29c-b4b9a570bbe0
 - alterId: 0
   cipher: auto
   name: 13|d*********g.com_2
