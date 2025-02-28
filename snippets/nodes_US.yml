@@ -1,6 +1,14 @@
 proxies:
+- alterId: '0'
+  cipher: auto
+  name: 0|🇺🇸4 |  1.0MB/s
+  network: tcp
+  port: 35641
+  server: 120.198.71.216
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-128-gcm
-  name: 0|🇺🇸4 |  6.0MB/s
+  name: 0|🇺🇸7 |  3.2MB/s
   password: f4cd0a554e9d0558c581
   plugin: obfs
   plugin-opts:
@@ -9,42 +17,27 @@ proxies:
   port: 45917
   server: console.03.aliyun.aq.kunlunaqs.com
   type: ss
-- name: 0|🇺🇸5 |  5.6MB/s
-  password: e7314ef5-b896-395e-8c26-be16d567dd9a
-  port: 20305
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z305.hongkongnode.top
-  type: trojan
-  udp: true
-- name: 0|🇺🇸6 |  6.0MB/s
-  password: e7314ef5-b896-395e-8c26-be16d567dd9a
+- name: 0|🇺🇸8 |  6.3MB/s
+  password: af2bfe05-e7c6-388b-ad41-e091b214f0e0
   port: 28678
   server: gy.58n.net
   skip-cert-verify: true
   sni: z143.hongkongnode.top
+  tfo: true
   type: trojan
   udp: true
-- name: 0|🇺🇸7 |  1.9MB/s
-  password: e7314ef5-b896-395e-8c26-be16d567dd9a
-  port: 20307
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z307.hongkongnode.top
-  type: trojan
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: randomized
-  name: 0|🇺🇸9 |  4.5MB/s
+- alterId: 2
+  cipher: auto
+  name: 0|🇺🇸9 |  2.3MB/s
   network: ws
-  password: Uy1,SF#]szr%y.<s
-  port: 2083
-  server: 172.66.45.36
-  sni: jOinMaHdIsErVer-6Qj.PAgES.DEv
-  type: trojan
+  port: 23617
+  server: 17.mamamajd.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2d0466cf-016f-3777-97f1-8d2df5d67bba
   ws-opts:
     headers:
-      Host: joinmahdiserver-6qj.pages.dev
-    path: /trLhvs4PDHp1EVcZxf?ed=2560
+      Host: 17.mamamajd.site
+    path: /

@@ -1,17 +1,4 @@
 proxies:
-- auth: 7b62a13c-8d83-4639-9b40-0e2126f3f47c
-  client-fingerprint: chrome
-  down: 100
-  name: 0|🇬🇧1 |  1.2MB/s
-  obfs: salamander
-  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
-  password: 7b62a13c-8d83-4639-9b40-0e2126f3f47c
-  port: 31651
-  server: 185.121.134.12
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
 - name: 12|GB_speednode_0009
   network: ws
   port: 443

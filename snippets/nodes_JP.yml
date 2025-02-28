@@ -1,28 +1,45 @@
 proxies:
-- name: 0|🇯🇵1 |  5.5MB/s
-  password: e7314ef5-b896-395e-8c26-be16d567dd9a
-  port: 20059
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 0|🇯🇵2 |  1.2MB/s
+  port: 15612
+  server: sz-jp-02.grabgo.pro
+  tls: false
+  type: vmess
+  uuid: f837b510-7050-4dec-b182-a777dc358469
+- name: 0|🇯🇵3 |  3.0MB/s
+  password: af2bfe05-e7c6-388b-ad41-e091b214f0e0
+  port: 20142
   server: gy.58n.net
   skip-cert-verify: true
-  sni: x59.flybar.work
+  sni: z142.hongkongnode.top
+  tfo: true
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: 0|🇯🇵2 |  5.9MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.112.1.95
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|🇯🇵3 |  2.4MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.238.247.32
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|🇯🇵4 |  1.3MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.112.216.127
-  type: ss
+- name: 0|🇯🇵4 |  6.2MB/s
+  password: af2bfe05-e7c6-388b-ad41-e091b214f0e0
+  port: 20140
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z140.hongkongnode.top
+  tfo: true
+  type: trojan
+  udp: true
+- alterId: '0'
+  cipher: auto
+  name: 0|🇯🇵5 |  1.2MB/s
+  network: tcp
+  port: 30565
+  server: 120.198.71.214
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 0|🇯🇵6 |  2.1MB/s
+  password: af2bfe05-e7c6-388b-ad41-e091b214f0e0
+  port: 54178
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x115.flybar.work
+  tfo: true
+  type: trojan
+  udp: true
