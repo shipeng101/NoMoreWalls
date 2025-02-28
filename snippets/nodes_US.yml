@@ -1,16 +1,6 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 0|🇺🇸1 |  5.5MB/s
-  port: 15508
-  server: la-detour-08.grabgo.pro
-  tls: false
-  type: vmess
-  uuid: f837b510-7050-4dec-b182-a777dc358469
 - cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 0|🇺🇸4 |  2.3MB/s
+  name: 0|🇺🇸4 |  6.0MB/s
   password: f4cd0a554e9d0558c581
   plugin: obfs
   plugin-opts:
@@ -18,13 +8,43 @@ proxies:
     mode: http
   port: 45917
   server: console.03.aliyun.aq.kunlunaqs.com
-  tfo: false
   type: ss
-- alterId: '0'
-  cipher: auto
-  name: 0|🇺🇸5 |  1.7MB/s
-  network: tcp
-  port: 44014
-  server: 120.198.71.219
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 0|🇺🇸5 |  5.6MB/s
+  password: e7314ef5-b896-395e-8c26-be16d567dd9a
+  port: 20305
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z305.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 0|🇺🇸6 |  6.0MB/s
+  password: e7314ef5-b896-395e-8c26-be16d567dd9a
+  port: 28678
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z143.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 0|🇺🇸7 |  1.9MB/s
+  password: e7314ef5-b896-395e-8c26-be16d567dd9a
+  port: 20307
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z307.hongkongnode.top
+  type: trojan
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: randomized
+  name: 0|🇺🇸9 |  4.5MB/s
+  network: ws
+  password: Uy1,SF#]szr%y.<s
+  port: 2083
+  server: 172.66.45.36
+  sni: jOinMaHdIsErVer-6Qj.PAgES.DEv
+  type: trojan
+  ws-opts:
+    headers:
+      Host: joinmahdiserver-6qj.pages.dev
+    path: /trLhvs4PDHp1EVcZxf?ed=2560

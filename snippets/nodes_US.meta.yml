@@ -1,27 +1,26 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 0|🇺🇸1 |  5.5MB/s
-  port: 15508
-  server: la-detour-08.grabgo.pro
-  tls: false
-  type: vmess
-  uuid: f837b510-7050-4dec-b182-a777dc358469
-- name: 0|🇺🇸2 |  1.1MB/s
+- name: 0|🇺🇸1 |  4.8MB/s
   obfs: salamander
-  obfs-password: cd29099d
-  password: 9bb452b106ffc217
+  obfs-password: 4b817757
+  password: 1f17cdf0578a2860
   port: 443
-  server: 207.148.22.93
+  server: 45.76.0.86
   skip-cert-verify: true
-  sni: vkvd127.mycdn.me
+  sni: 45.76.0.86
   type: hysteria2
   udp: true
-- name: 0,12|US_speednode_0096
+- auth: b546e98f-967a-4e95-aa67-4cdd6c1b9677
+  client-fingerprint: chrome
+  name: 0|🇺🇸2 |  5.0MB/s
+  password: b546e98f-967a-4e95-aa67-4cdd6c1b9677
+  port: 10002
+  server: 50.114.152.111
+  skip-cert-verify: true
+  type: hysteria2
+- name: 0,12|NL_speednode_0038
   network: ws
   port: 80
-  server: 66.235.200.191
+  server: 45.149.12.206
   servername: pormang.webhost99.workers.dev
   skip-cert-verify: false
   tls: false
@@ -33,8 +32,7 @@ proxies:
       Host: pormang.webhost99.workers.dev
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
 - cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 0|🇺🇸4 |  2.3MB/s
+  name: 0|🇺🇸4 |  6.0MB/s
   password: f4cd0a554e9d0558c581
   plugin: obfs
   plugin-opts:
@@ -42,24 +40,62 @@ proxies:
     mode: http
   port: 45917
   server: console.03.aliyun.aq.kunlunaqs.com
-  tfo: false
   type: ss
-- alterId: '0'
-  cipher: auto
-  name: 0|🇺🇸5 |  1.7MB/s
-  network: tcp
-  port: 44014
-  server: 120.198.71.219
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 0|🇺🇸6 |  3.4MB/s
-  password: myszy28811
-  port: 28811
-  server: pipi.myddns.me
-  type: socks5
+- name: 0|🇺🇸5 |  5.6MB/s
+  password: e7314ef5-b896-395e-8c26-be16d567dd9a
+  port: 20305
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z305.hongkongnode.top
+  type: trojan
   udp: true
-  username: myszy
-- name: 0,12|US_speednode_0056
+- name: 0|🇺🇸6 |  6.0MB/s
+  password: e7314ef5-b896-395e-8c26-be16d567dd9a
+  port: 28678
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z143.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 0|🇺🇸7 |  1.9MB/s
+  password: e7314ef5-b896-395e-8c26-be16d567dd9a
+  port: 20307
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z307.hongkongnode.top
+  type: trojan
+  udp: true
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl
+  name: 0|🇺🇸8 |  20.9MB/s
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: gH_h3-mo0stXouQX61J22W14N9-RlRjwo6BQgAcUay4
+    short-id: c5508bd7
+  server: 209.227.230.243
+  servername: wordpress.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 253f59da-b708-4404-cebe-3854aad88880
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: randomized
+  name: 0|🇺🇸9 |  4.5MB/s
+  network: ws
+  password: Uy1,SF#]szr%y.<s
+  port: 2083
+  server: 172.66.45.36
+  sni: jOinMaHdIsErVer-6Qj.PAgES.DEv
+  type: trojan
+  ws-opts:
+    headers:
+      Host: joinmahdiserver-6qj.pages.dev
+    path: /trLhvs4PDHp1EVcZxf?ed=2560
+- name: 12|US_speednode_0056
   network: ws
   port: 80
   server: join.e-l-i-v-2-r-a-y.fastly80-3.hosting-ip.com
@@ -73,20 +109,6 @@ proxies:
     headers:
       Host: Join--E-L-i-V-2-R-A-Y.net
     path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed=2560
-- client-fingerprint: chrome
-  delay: 2559
-  name: 0|🇺🇸8 |  5.0MB/s
-  network: ws
-  port: 80
-  server: join.E-L-i-V-2-R-A-Y.fastly80-3.hosting-ip.com
-  servername: Join--E-L-i-V-2-R-A-Y.net
-  tls: false
-  type: vless
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: Join--E-L-i-V-2-R-A-Y.net
-    path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed
 - name: 12|US_speednode_0064
   network: ws
   port: 80
@@ -287,6 +309,20 @@ proxies:
   network: ws
   port: 80
   server: 66.235.200.30
+  servername: pormang.webhost99.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+  ws-opts:
+    headers:
+      Host: pormang.webhost99.workers.dev
+    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
+- name: 12|US_speednode_0096
+  network: ws
+  port: 80
+  server: 66.235.200.191
   servername: pormang.webhost99.workers.dev
   skip-cert-verify: false
   tls: false

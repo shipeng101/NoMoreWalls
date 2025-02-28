@@ -1,40 +1,38 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 0|🇨🇦1 |  4.4MB/s
-  password: amazonskr05
-  port: 443
-  server: 47.129.58.69
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 0|🇫🇷1 |  1.6MB/s
-  port: 15113
-  server: hkt-detour-13.grabgo.pro
-  tls: false
-  type: vmess
-  uuid: f837b510-7050-4dec-b182-a777dc358469
+- name: 0|🇹🇼1 |  5.9MB/s
+  password: e7314ef5-b896-395e-8c26-be16d567dd9a
+  port: 33323
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z261.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 0|🇯🇵1 |  5.5MB/s
+  password: e7314ef5-b896-395e-8c26-be16d567dd9a
+  port: 20059
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x59.flybar.work
+  type: trojan
+  udp: true
+- name: 0|🇸🇬1 |  6.0MB/s
+  password: e7314ef5-b896-395e-8c26-be16d567dd9a
+  port: 30712
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x83.flybar.work
+  type: trojan
+  udp: true
+- name: 0|🇸🇬2 |  3.0MB/s
+  password: e7314ef5-b896-395e-8c26-be16d567dd9a
+  port: 20299
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x299.flybar.work
+  type: trojan
+  udp: true
 - cipher: aes-128-gcm
-  name: 0|🌀1- |  6.1MB/s
-  password: c3e6387d-ba91-42bb-858c-e1caa337f689
-  port: 12041
-  server: mdss-other.04z3susick.download
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸1 |  5.5MB/s
-  port: 15508
-  server: la-detour-08.grabgo.pro
-  tls: false
-  type: vmess
-  uuid: f837b510-7050-4dec-b182-a777dc358469
-- cipher: aes-128-gcm
-  name: 0|🇹🇼1 |  1.9MB/s
-  password: c3e6387d-ba91-42bb-858c-e1caa337f689
-  port: 12031
-  server: mdss-tw.04z3susick.download
-  type: ss
-- cipher: aes-128-gcm
-  name: 0|🇺🇸4 |  2.3MB/s
+  name: 0|🇺🇸4 |  6.0MB/s
   password: f4cd0a554e9d0558c581
   plugin: obfs
   plugin-opts:
@@ -42,104 +40,86 @@ proxies:
     mode: http
   port: 45917
   server: console.03.aliyun.aq.kunlunaqs.com
-  tfo: false
   type: ss
-- cipher: aes-128-gcm
-  name: 0|🇨🇦2 |  1.1MB/s
-  password: c3e6387d-ba91-42bb-858c-e1caa337f689
-  port: 12035
-  server: mdss-other.04z3susick.download
-  type: ss
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|🇫🇷2 |  1.8MB/s
-  network: ws
-  port: 80
-  server: 151.101.64.155
-  servername: telegram-isvvpn.dev
+- name: 0|🇺🇸5 |  5.6MB/s
+  password: e7314ef5-b896-395e-8c26-be16d567dd9a
+  port: 20305
+  server: gy.58n.net
   skip-cert-verify: true
-  type: vmess
-  uuid: 6e3ac406-a15b-461d-8b05-ca01b284d9a0
-  ws-opts:
-    headers:
-      HOST: telegram-isvvpn.dev
-    path: /racevpn
-- alterId: '0'
-  cipher: auto
-  name: 0|🇺🇸5 |  1.7MB/s
-  network: tcp
-  port: 44014
-  server: 120.198.71.219
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  sni: z305.hongkongnode.top
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|🇯🇵2 |  5.9MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.112.1.95
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|🇯🇵3 |  2.4MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.238.247.32
+  type: ss
+- name: 0|🇺🇸6 |  6.0MB/s
+  password: e7314ef5-b896-395e-8c26-be16d567dd9a
+  port: 28678
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z143.hongkongnode.top
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 0|🌏1 |  6.0MB/s
-  port: 15707
-  server: sz-sg-07.grabgo.pro
+  name: 0|🇫🇷1 |  2.3MB/s
+  port: 15113
+  server: hkt-detour-13.grabgo.pro
   tls: false
   type: vmess
   uuid: f837b510-7050-4dec-b182-a777dc358469
 - cipher: aes-256-cfb
-  name: 0|🇸🇬1 |  6.0MB/s
+  name: 0|🇯🇵4 |  1.3MB/s
   password: amazonskr05
   port: 443
-  server: 52.221.195.154
+  server: 3.112.216.127
   type: ss
-- alterId: 0
-  cipher: auto
-  ip-version: dual
-  name: 0|🇫🇷4 |  2.1MB/s
-  network: ws
-  port: 80
-  server: 151.101.128.155
-  type: vmess
+- name: 0|🇺🇸7 |  1.9MB/s
+  password: e7314ef5-b896-395e-8c26-be16d567dd9a
+  port: 20307
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z307.hongkongnode.top
+  type: trojan
   udp: true
-  uuid: 6e3ac406-a15b-461d-8b05-ca01b284d9a0
-  ws-opts:
-    headers:
-      Host: telegram-isvvpn.dev
-    path: /racevpn
-- alterId: '0'
-  cipher: auto
-  name: 0|🇫🇷5 |  1.2MB/s
-  network: ws
-  port: 80
-  server: AC.fastly80-2.hosting-ip.com
-  type: vmess
-  uuid: 6e3ac406-a15b-461d-8b05-ca01b284d9a0
-  ws-opts:
-    headers:
-      Host: telegram-isvvpn.dev
-    path: /racevpn
 - cipher: aes-128-gcm
-  name: 0|🌀2- |  6.0MB/s
+  name: 0|🌀1- |  6.1MB/s
   password: c3e6387d-ba91-42bb-858c-e1caa337f689
-  port: 12014
-  server: mdss-jp.04z3susick.download
-  type: ss
-- cipher: aes-128-gcm
-  name: 0|🇨🇦3 |  2.8MB/s
-  password: c3e6387d-ba91-42bb-858c-e1caa337f689
-  port: 12036
+  port: 12041
   server: mdss-other.04z3susick.download
   type: ss
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: randomized
+  name: 0|🇺🇸9 |  4.5MB/s
+  network: ws
+  password: Uy1,SF#]szr%y.<s
+  port: 2083
+  server: 172.66.45.36
+  sni: jOinMaHdIsErVer-6Qj.PAgES.DEv
+  type: trojan
+  ws-opts:
+    headers:
+      Host: joinmahdiserver-6qj.pages.dev
+    path: /trLhvs4PDHp1EVcZxf?ed=2560
 - alterId: 0
   cipher: auto
-  name: 0|🇯🇵1 |  6.0MB/s
-  port: 15602
-  server: jp-02.grabgo.pro
+  name: 0|🇹🇼2 |  5.4MB/s
+  port: 15223
+  server: tw-detour-23.grabgo.pro
   tls: false
   type: vmess
   uuid: f837b510-7050-4dec-b182-a777dc358469
-- cipher: aes-128-gcm
-  name: 0|🌀3- |  4.9MB/s
-  password: c3e6387d-ba91-42bb-858c-e1caa337f689
-  port: 12042
-  server: mdss-other.04z3susick.download
-  type: ss
 - name: 10,11|香港|@ripaojiedian
   network: tcp
   password: 1e63e585ab2fef3adcc9ea75a62abc23

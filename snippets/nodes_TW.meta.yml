@@ -1,8 +1,18 @@
 proxies:
-- cipher: aes-128-gcm
+- name: 0|🇹🇼1 |  5.9MB/s
+  password: e7314ef5-b896-395e-8c26-be16d567dd9a
+  port: 33323
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z261.hongkongnode.top
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 0|🇹🇼1 |  1.9MB/s
-  password: c3e6387d-ba91-42bb-858c-e1caa337f689
-  port: 12031
-  server: mdss-tw.04z3susick.download
-  type: ss
+  name: 0|🇹🇼2 |  5.4MB/s
+  port: 15223
+  server: tw-detour-23.grabgo.pro
+  tls: false
+  type: vmess
+  uuid: f837b510-7050-4dec-b182-a777dc358469
