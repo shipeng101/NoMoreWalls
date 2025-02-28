@@ -1,17 +1,9 @@
 proxies:
-- name: 0|🇯🇵1 |  4.0MB/s
-  password: af2bfe05-e7c6-388b-ad41-e091b214f0e0
-  port: 20141
+- name: 0|🇯🇵1 |  5.6MB/s
+  password: 6346f6a7-2d27-3709-9f54-64abb3ea78bf
+  port: 54178
   server: gy.58n.net
   skip-cert-verify: true
-  sni: z141.hongkongnode.top
-  type: trojan
-  udp: true
-- name: 0|🇯🇵2 |  4.0MB/s
-  password: af2bfe05-e7c6-388b-ad41-e091b214f0e0
-  port: 41767
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x114.flybar.work
+  sni: x115.flybar.work
   type: trojan
   udp: true

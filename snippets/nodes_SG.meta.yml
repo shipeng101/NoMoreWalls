@@ -1,8 +1,31 @@
 proxies:
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 0|🇸🇬1 |  2.7MB/s
+  name: 0|🇸🇬1 |  6.1MB/s
   password: amazonskr05
   port: 443
-  server: 18.140.3.253
+  server: 18.139.162.25
   type: ss
+- name: 0|🇸🇬2 |  5.6MB/s
+  password: 6346f6a7-2d27-3709-9f54-64abb3ea78bf
+  port: 20130
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x130.flybar.work
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 0|🇸🇬3 |  6.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.229.127.74
+  type: ss
+- name: 0|🇸🇬4 |  6.3MB/s
+  password: 6346f6a7-2d27-3709-9f54-64abb3ea78bf
+  port: 20299
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x299.flybar.work
+  type: trojan
+  udp: true
