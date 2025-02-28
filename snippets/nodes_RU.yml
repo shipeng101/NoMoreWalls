@@ -1,9 +1,1 @@
-proxies:
-- cipher: aes-256-cfb
-  ip-version: dual
-  name: 0|🇷🇺1 |  24.8MB/s
-  password: QWDDvVE9npNurQfA
-  port: 9026
-  server: 217.30.10.18
-  type: ss
-  udp: true
+proxies: []
