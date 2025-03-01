@@ -1,15 +1,11 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼1 |  1.0MB/s
-  password: 2c2fa377-2e05-45a0-ade3-35e3daa27697
-  port: 36243
-  server: free.2weradf.xyz
+  name: 0|🇹🇼1 |  2.0MB/s
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 84858fa.vpnhat.t.me:73643
+    mode: tls
+  port: 2377
+  server: 84858fa.m3.gladns.com
   type: ss
-- name: 0|🇹🇼3 |  3.6MB/s
-  password: c7fc812c-7c57-3386-8140-07935d060404
-  port: 59021
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x100.flybar.work
-  type: trojan
-  udp: true
