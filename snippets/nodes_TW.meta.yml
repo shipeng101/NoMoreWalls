@@ -1,9 +1,1 @@
-proxies:
-- name: 0|🇹🇼1 |  2.2MB/s
-  password: ea333f6c-3fe0-3a59-b23e-5383fb48fc73
-  port: 36821
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z262.hongkongnode.top
-  type: trojan
-  udp: true
+proxies: []
