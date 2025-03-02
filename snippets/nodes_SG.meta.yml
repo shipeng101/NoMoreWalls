@@ -1,9 +1,10 @@
 proxies:
-- name: 0|🇸🇬1 |  4.3MB/s
-  password: d159df8f-5dd9-3107-8cf6-67904b7b1a2b
-  port: 17806
-  server: gy.58n.net
+- client-fingerprint: chrome
+  name: 10,11|新加坡5|@ripaojiedian
+  network: tcp
+  password: 1e1f22c7-9cbf-4c02-a1eb-b47c7a8a915c
+  port: 48291
+  server: wb.kaiqsz.com
   skip-cert-verify: true
-  sni: x65.flybar.work
+  sni: mmbiz1.redapricotcloud.com
   type: trojan
-  udp: true
