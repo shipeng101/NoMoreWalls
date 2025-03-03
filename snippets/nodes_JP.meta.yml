@@ -1,6 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 0|🇯🇵1 |  5.3MB/s
+  port: 63051
+  server: in06.xxxoooxxxooo.net
+  tls: false
+  type: vmess
+  uuid: 2ecc00a4-25c3-344e-ae6c-8872b9092e25
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: 10|🇯🇵 日本4|@ripaojiedian
   port: 48019
