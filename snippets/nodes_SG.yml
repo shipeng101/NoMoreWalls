@@ -1,10 +1,11 @@
 proxies:
-- name: 0|🇸🇬1 |  2.5MB/s
-  password: a7ca5e8c-f411-3733-a25c-19b1f9bfe5eb
-  port: 20129
+- name: 0|🇸🇬1 |  6.3MB/s
+  password: 4e0c3a4b-bdac-3950-b736-2c90b76ee530
+  port: 20130
   server: gy.58n.net
   skip-cert-verify: true
-  sni: x129.flybar.work
+  sni: x130.flybar.work
+  tfo: true
   type: trojan
   udp: true
 - client-fingerprint: chrome
