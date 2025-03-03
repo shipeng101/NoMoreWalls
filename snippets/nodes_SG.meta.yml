@@ -1,19 +1,7 @@
 proxies:
-- name: 0|🇸🇬1 |  6.3MB/s
-  password: 4e0c3a4b-bdac-3950-b736-2c90b76ee530
-  port: 20130
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x130.flybar.work
-  tfo: true
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 10,11|新加坡5|@ripaojiedian
-  network: tcp
-  password: 1e1f22c7-9cbf-4c02-a1eb-b47c7a8a915c
-  port: 48291
-  server: wb.kaiqsz.com
-  skip-cert-verify: true
-  sni: mmbiz1.redapricotcloud.com
-  type: trojan
+- cipher: aes-256-cfb
+  name: 0|🇸🇬1 |  1.4MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.229.55.109
+  type: ss
