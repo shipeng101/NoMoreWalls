@@ -1,16 +1,13 @@
 proxies:
-- client-fingerprint: chrome
-  name: 0|🇹🇼1 |  5.0MB/s
-  network: ws
-  port: 443
-  server: 34.80.31.96
-  servername: tw.ocn.lol
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 10|🇹🇼 台湾|@ripaojiedian
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: d6cb3d6.dl.microsoft.lt:47299
+    mode: tls
+  port: 2377
+  server: 221.215.48.118
   tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c616d252-6bee-497c-9db9-d38766bf6f1a
-  ws-opts:
-    headers:
-      Host: tw.ocn.lol
-    path: /bing
+  type: ss
