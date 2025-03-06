@@ -1,13 +1,19 @@
 proxies:
-- name: 0|🇯🇵1 |  5.4MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
+- client-fingerprint: chrome
+  name: 0|🇯🇵1 |  4.3MB/s
+  network: ws
   port: 443
-  server: jpgmo101-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: jpgmo101-cdn-route.couldflare-cdn.com
+  server: 154.17.31.198
+  servername: usc.xzncr.asia
+  tfo: false
   tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
+  type: vless
+  udp: true
+  uuid: 704222bd-7eff-4307-ae26-d6a5ab79817a
+  ws-opts:
+    headers:
+      Host: usc.xzncr.asia
+    path: /bing
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 10|🇯🇵 日本3|@ripaojiedian
