@@ -1,9 +1,1 @@
-proxies:
-- name: 0|🇸🇬1 |  6.3MB/s
-  password: e06739e1-5c25-32de-8fb7-95ce8e8f9576
-  port: 20129
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x129.flybar.work
-  type: trojan
-  udp: true
+proxies: []
