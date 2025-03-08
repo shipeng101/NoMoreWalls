@@ -1,28 +1,34 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸2 |  5.5MB/s
+  password: 74c7e732-3ba5-4dca-8e66-7434f85b5129
+  port: 36111
+  server: free.2weradf.xyz
+  type: ss
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|🇺🇸1 |  6.0MB/s
+  country: 🇺🇸US
+  delay: 670
+  name: 0|🇺🇸3 |  4.4MB/s
   password: amazonskr05
   port: 443
-  server: 3.38.97.249
+  server: 35.87.121.216
   type: ss
-  udp: true
-- cipher: aes-256-cfb
-  ip-version: dual
-  name: 0|🇺🇸3 |  3.9MB/s
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 156.146.40.194
-  tls: false
-  type: ss
-- name: 0|🇺🇸6 |  1.7MB/s
+- name: 0|🇺🇸5 |  6.1MB/s
   password: e06739e1-5c25-32de-8fb7-95ce8e8f9576
-  port: 20307
+  port: 24603
   server: gy.58n.net
   skip-cert-verify: true
-  sni: z307.hongkongnode.top
+  sni: z259.hongkongnode.top
   type: trojan
   udp: true
+- cipher: aes-256-cfb
+  country: 🇺🇸US
+  delay: 702
+  name: 0|🇺🇸7 |  2.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.200.183.45
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome

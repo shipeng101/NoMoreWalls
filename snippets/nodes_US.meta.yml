@@ -1,12 +1,4 @@
 proxies:
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|🇺🇸1 |  6.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.38.97.249
-  type: ss
-  udp: true
 - name: 0,12|US_speednode_0056
   network: ws
   port: 80
@@ -21,49 +13,56 @@ proxies:
     headers:
       Host: Join--E-L-i-V-2-R-A-Y.net
     path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed=2560
-- cipher: aes-256-cfb
-  ip-version: dual
-  name: 0|🇺🇸3 |  3.9MB/s
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 156.146.40.194
-  tls: false
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸2 |  5.5MB/s
+  password: 74c7e732-3ba5-4dca-8e66-7434f85b5129
+  port: 36111
+  server: free.2weradf.xyz
   type: ss
-- name: 0,12|SC_speednode_0051
-  network: ws
-  port: 8880
-  server: 154.83.2.228
-  servername: redw.pooriam.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
+- cipher: aes-256-cfb
+  country: 🇺🇸US
+  delay: 670
+  name: 0|🇺🇸3 |  4.4MB/s
+  password: amazonskr05
+  port: 443
+  server: 35.87.121.216
+  type: ss
+- auth: pPgOLFwmkmYYBZi6q6ZjzK6gJTQ
+  client-fingerprint: chrome
+  name: 0|🇺🇸4 |  4.6MB/s
+  password: pPgOLFwmkmYYBZi6q6ZjzK6gJTQ
+  port: 8243
+  server: 64.23.178.208
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
   udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-- client-fingerprint: chrome
-  name: 0|🇺🇸5 |  2.9MB/s
-  network: ws
-  port: 80
-  server: join.E-L-i-V-2-R-A-Y.fastly80-3.hosting-ip.com
-  servername: Join--E-L-i-V-2-R-A-Y.net
-  skip-cert-verify: false
-  type: vless
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: Join--E-L-i-V-2-R-A-Y.net
-    path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed
-- name: 0|🇺🇸6 |  1.7MB/s
+- name: 0|🇺🇸5 |  6.1MB/s
   password: e06739e1-5c25-32de-8fb7-95ce8e8f9576
-  port: 20307
+  port: 24603
   server: gy.58n.net
   skip-cert-verify: true
-  sni: z307.hongkongnode.top
+  sni: z259.hongkongnode.top
   type: trojan
   udp: true
+- auth: eW5oOg9YEcNI3wvLqbSrnTEi0J8
+  client-fingerprint: chrome
+  name: 0|🇺🇸6 |  3.5MB/s
+  password: eW5oOg9YEcNI3wvLqbSrnTEi0J8
+  port: 7286
+  server: 3.67.194.37
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
+  udp: true
+- cipher: aes-256-cfb
+  country: 🇺🇸US
+  delay: 702
+  name: 0|🇺🇸7 |  2.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.200.183.45
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
