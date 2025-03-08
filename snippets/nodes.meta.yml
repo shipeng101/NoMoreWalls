@@ -1,114 +1,74 @@
 proxies:
+- name: 0|🇺🇸1 |  4.5MB/s
+  password: pPgOLFwmkmYYBZi6q6ZjzK6gJTQ
+  port: 8243
+  server: 64.23.178.208
+  skip-cert-verify: true
+  sni: bing.com
+  tfo: false
+  type: hysteria2
+- name: 0|🇺🇸2 |  3.7MB/s
+  obfs: salamander
+  obfs-password: hsdirhrrkskdhebdjdj
+  password: MICPT1LLn6
+  port: 44140
+  server: 161.97.108.42
+  skip-cert-verify: true
+  tfo: false
+  type: hysteria2
 - cipher: aes-256-cfb
-  name: 0|🇺🇸1 |  5.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 35.87.37.159
-  type: ss
-  udp: true
-- name: 0|🇭🇰1 |  5.5MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: hkre1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: hkre1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: 0|🇹🇼1 |  4.9MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: tw1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: tw1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- cipher: aes-256-cfb
-  name: 0|🇺🇸2 |  7.2MB/s
+  name: 0|🇺🇸3 |  4.7MB/s
   password: amazonskr05
   port: 443
   server: 54.201.149.176
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 0|🇺🇸3 |  7.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 35.93.142.194
-  type: ss
-  udp: true
-- name: 0|🇺🇸5 |  5.6MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: jp104-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: jp104-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 0|🇺🇸6 |  4.7MB/s
+  name: 0|🇩🇪1 |  1.1MB/s
   network: ws
-  port: 23616
-  server: 16.mamamajd.site
+  port: 80
+  server: 151.101.130.168
   skip-cert-verify: true
+  tfo: false
   tls: false
   type: vmess
   udp: true
-  uuid: be1607f2-f70b-39e7-9b1e-e0babc77bd7a
+  uuid: 7dc78582-88a8-4b4c-9e3e-50831d672766
   ws-opts:
     headers:
-      Host: 16.mamamajd.site
-    path: /
-- name: 0|🇯🇵1 |  2.0MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: jpgmo101-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: jpgmo101-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: 0|🇺🇸7 |  1.3MB/s
-  password: 239ccdc0-ea1c-3954-8414-e20b4145bd6b
-  port: 20278
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z278.hongkongnode.top
-  type: trojan
-  udp: true
-- name: 0|🇩🇪1 |  5.2MB/s
+      Host: amd.al
+    path: /XESALISTHEBEST?ed=2048
+- name: 0,12|US_speednode_0056
   network: ws
-  port: 443
-  server: cdn.7zz.cn
-  servername: de.oldcloud.online
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b3903a4d-d9e7-4b7d-82a3-292116fbceb8
-  ws-opts:
-    headers:
-      Host: de.oldcloud.online
-    path: /
-- name: 0|🇺🇸8 |  5.7MB/s
-  network: ws
-  port: 8880
-  server: 195.85.59.155
+  port: 80
+  server: join.e-l-i-v-2-r-a-y.fastly80-3.hosting-ip.com
+  servername: Join--E-L-i-V-2-R-A-Y.net
   skip-cert-verify: false
   tls: false
   type: vless
-  uuid: f6bd2c47-99da-4bca-bf70-7186aa9e7e06
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
   ws-opts:
     headers:
-      Host: photographipictureai.ir
-    path: /Telegram
+      Host: Join--E-L-i-V-2-R-A-Y.net
+    path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 0|🇩🇪2 |  5.8MB/s
+  network: ws
+  port: 80
+  server: 151.101.194.168
+  type: vmess
+  uuid: 7dc78582-88a8-4b4c-9e3e-50831d672766
+  ws-opts:
+    headers:
+      Host: amd.al
+    path: /XESALISTHEBEST?ed=2048
 - alterId: 0
   cipher: auto
   ip-version: dual
-  name: 0|🇩🇪2 |  5.3MB/s
+  name: 0|🇺🇸5 |  6.0MB/s
   network: ws
   port: 80
   server: www.aetv.com
@@ -119,42 +79,6 @@ proxies:
     headers:
       Host: amd.al
     path: /XESALISTHEBEST?ed=2048
-- cipher: aes-256-cfb
-  name: 0|🇯🇵2 |  3.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.238.115.236
-  type: ss
-- name: 0|🇺🇸9 |  4.5MB/s
-  network: ws
-  port: 2052
-  server: 156.238.18.165
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
-- name: 0|🇺🇸10 |  2.1MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: usgp2-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: usgp2-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: 0|🇹🇼2 |  1.5MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: twmoon1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - name: 10|tg频道:@ripaojiedian
   port: 4000
   server: ftq.ink
@@ -493,20 +417,6 @@ proxies:
     headers:
       Host: redw.pooriam.ir
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-- name: 12|US_speednode_0056
-  network: ws
-  port: 80
-  server: join.e-l-i-v-2-r-a-y.fastly80-3.hosting-ip.com
-  servername: Join--E-L-i-V-2-R-A-Y.net
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: Join--E-L-i-V-2-R-A-Y.net
-    path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed=2560
 - name: 12|US_speednode_0064
   network: ws
   port: 80
