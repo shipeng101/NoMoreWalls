@@ -1,10 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰1 |  5.6MB/s
-  password: 1beb3c61-f8fd-4ebe-88a6-900a81c90076
-  port: 36141
-  server: free.2weradf.xyz
-  type: ss
 - client-fingerprint: chrome
   name: 10,11|香港|@ripaojiedian
   network: tcp
@@ -13,6 +7,15 @@ proxies:
   server: 104.251.227.182
   skip-cert-verify: true
   sni: hezijiasuqi.com
+  type: trojan
+- client-fingerprint: chrome
+  name: 10,11|香港3|@ripaojiedian
+  network: tcp
+  password: 9d1e4d09-35d2-3ff3-ae7c-91da66a4c60c
+  port: 52225
+  server: sjy.biyu763.xyz
+  skip-cert-verify: false
+  sni: sjy.biyu763.xyz
   type: trojan
 - client-fingerprint: chrome
   name: 10,11|香港4|@ripaojiedian
