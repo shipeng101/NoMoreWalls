@@ -1,23 +1,7 @@
 proxies:
-- name: 0|🇯🇵1 |  5.8MB/s
-  password: 06931654-e99d-3668-856f-eb01b9a3d200
-  port: 20142
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z142.hongkongnode.top
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  country: 🇯🇵JP
-  delay: 452
-  name: 0|🇯🇵2 |  3.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.238.207.221
-  type: ss
 - auth: BB42BFCA-8F51-4091-AB58-E2FB8423F714
   client-fingerprint: chrome
-  name: 0|🇯🇵3 |  2.6MB/s
+  name: 0|🇯🇵2 |  5.6MB/s
   password: BB42BFCA-8F51-4091-AB58-E2FB8423F714
   port: 5694
   server: jp3.dexlos.com
@@ -27,9 +11,39 @@ proxies:
   udp: true
 - auth: BB42BFCA-8F51-4091-AB58-E2FB8423F714
   client-fingerprint: chrome
-  name: 0|🇯🇵4 |  4.7MB/s
+  name: 0|🇯🇵3 |  4.6MB/s
   password: BB42BFCA-8F51-4091-AB58-E2FB8423F714
-  port: 7143
+  port: 9251
+  server: jp5.dexlos.com
+  skip-cert-verify: false
+  sni: jp5.dexlos.com
+  type: hysteria2
+  udp: true
+- auth: BB42BFCA-8F51-4091-AB58-E2FB8423F714
+  client-fingerprint: chrome
+  name: 0|🇯🇵4 |  4.4MB/s
+  password: BB42BFCA-8F51-4091-AB58-E2FB8423F714
+  port: 7623
+  server: jp4.dexlos.com
+  skip-cert-verify: false
+  sni: jp4.dexlos.com
+  type: hysteria2
+  udp: true
+- auth: BB42BFCA-8F51-4091-AB58-E2FB8423F714
+  client-fingerprint: chrome
+  name: 0|🇯🇵5 |  1.6MB/s
+  password: BB42BFCA-8F51-4091-AB58-E2FB8423F714
+  port: 5930
+  server: jp3.dexlos.com
+  skip-cert-verify: false
+  sni: jp3.dexlos.com
+  type: hysteria2
+  udp: true
+- auth: BB42BFCA-8F51-4091-AB58-E2FB8423F714
+  client-fingerprint: chrome
+  name: 0|🇯🇵6 |  5.9MB/s
+  password: BB42BFCA-8F51-4091-AB58-E2FB8423F714
+  port: 7489
   server: jp4.dexlos.com
   skip-cert-verify: false
   sni: jp4.dexlos.com
