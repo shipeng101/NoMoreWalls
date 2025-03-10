@@ -1,28 +1,17 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰1 |  2.4MB/s
-  password: 4995be32-477a-4847-9923-e3ad3d5c07ba
-  port: 36145
-  server: free.2weradf.xyz
-  type: ss
 - client-fingerprint: chrome
-  name: 10,11|香港|@ripaojiedian
-  network: tcp
-  password: 1e63e585ab2fef3adcc9ea75a62abc23
-  port: 443
-  server: 104.251.227.182
-  skip-cert-verify: true
-  sni: hezijiasuqi.com
-  type: trojan
-- client-fingerprint: chrome
-  name: 10,11|香港3|@ripaojiedian
-  network: tcp
-  password: 9d1e4d09-35d2-3ff3-ae7c-91da66a4c60c
-  port: 52225
-  server: sjy.biyu763.xyz
+  name: 10|🇭🇰 香港|@ripaojiedian
+  network: ws
+  password: a38c9e28-9960-4e31-9f18-ed2495a756aa
+  port: 40021
+  server: vt-bana2-cn-11.ghpgwqswodgzv.com
   skip-cert-verify: false
-  sni: sjy.biyu763.xyz
+  sni: vt-bana2-cn-11.ghpgwqswodgzv.com
   type: trojan
+  ws-opts:
+    headers:
+      Host: vt-bana2-cn-11.ghpgwqswodgzv.com
+    path: /dl_media
 - client-fingerprint: chrome
   name: 10,11|香港4|@ripaojiedian
   network: tcp
@@ -32,3 +21,14 @@ proxies:
   skip-cert-verify: true
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
+- name: 11|香港|@ripaojiedian
+  network: ws
+  password: a38c9e28-9960-4e31-9f18-ed2495a756aa
+  port: 40021
+  server: vt-bana2-cn-11.ghpgwqswodgzv.com
+  sni: vt-bana2-cn-11.ghpgwqswodgzv.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: vt-bana2-cn-11.ghpgwqswodgzv.com
+    path: '%2Fdl_media'
