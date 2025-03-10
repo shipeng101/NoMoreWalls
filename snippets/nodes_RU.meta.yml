@@ -1,30 +1,4 @@
 proxies:
-- auth: b79ef901-eae9-4cd3-b2e2-e9464ec0fa25
-  client-fingerprint: chrome
-  down: 100
-  name: 0|🇷🇺1 |  3.5MB/s
-  obfs: salamander
-  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
-  password: b79ef901-eae9-4cd3-b2e2-e9464ec0fa25
-  port: 33007
-  server: 212.192.13.68
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- auth: b53b403b-10d5-4da1-97f5-804be748be6a
-  client-fingerprint: chrome
-  down: 100
-  name: 0|🇷🇺2 |  1.8MB/s
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: b53b403b-10d5-4da1-97f5-804be748be6a
-  port: 33007
-  server: 185.22.152.236
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
