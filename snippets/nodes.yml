@@ -1,51 +1,45 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼1 |  4.6MB/s
-  password: b4dfd6fe-6a5f-4c85-a4ca-083f17da7be1
-  port: 36241
-  server: free.2weradf.xyz
+- cipher: chacha20-ietf
+  name: 0|🌏1 |  6.2MB/s
+  password: asd123456
+  port: 8388
+  server: 103.36.91.32
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸1 |  2.5MB/s
-  password: b4dfd6fe-6a5f-4c85-a4ca-083f17da7be1
-  port: 36641
-  server: free.2weradf.xyz
+- cipher: aes-256-cfb
+  name: 0|🇸🇬1 |  12.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.250.103.231
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇮🇷1 |  4.3MB/s
-  password: b4dfd6fe-6a5f-4c85-a4ca-083f17da7be1
-  port: 36211
-  server: free.2weradf.xyz
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸3 |  11.8MB/s
-  password: b4dfd6fe-6a5f-4c85-a4ca-083f17da7be1
-  port: 36671
-  server: free.2weradf.xyz
-  type: ss
-- alterId: 0
+- alterId: '0'
   cipher: auto
-  disable-sni: true
-  name: 0,10,11|台湾2|@ripaojiedian
-  network: ws
-  port: '12883'
-  server: gtm1.ktmwan.net
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
+  name: 0|🇫🇷1 |  2.2MB/s
+  network: tcp
+  port: 41699
+  server: 183.236.51.38
   type: vmess
-  uuid: 9207a3fc-18cc-4af7-ab1c-1c0000e57e37
-  ws-opts:
-    headers:
-      Host: gtm1.ktmwan.net
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸5 |  5.3MB/s
-  password: b4dfd6fe-6a5f-4c85-a4ca-083f17da7be1
-  port: 36411
-  server: free.2weradf.xyz
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-cfb
+  name: 0|🇰🇷1 |  6.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.209.80.72
   type: ss
+- cipher: aes-256-cfb
+  name: 0|🇰🇷2 |  2.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 52.78.120.105
+  type: ss
+  udp: true
+- alterId: '0'
+  cipher: auto
+  name: 0|🇫🇷2 |  4.3MB/s
+  network: tcp
+  port: 44550
+  server: 120.232.153.40
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: 10|🇭🇰 香港|@ripaojiedian
   network: ws
   password: a38c9e28-9960-4e31-9f18-ed2495a756aa
@@ -66,6 +60,22 @@ proxies:
   skip-cert-verify: true
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 10,11|台湾2|@ripaojiedian
+  network: ws
+  port: '12883'
+  server: gtm1.ktmwan.net
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 9207a3fc-18cc-4af7-ab1c-1c0000e57e37
+  ws-opts:
+    headers:
+      Host: gtm1.ktmwan.net
+    path: /
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸 美国2|@ripaojiedian

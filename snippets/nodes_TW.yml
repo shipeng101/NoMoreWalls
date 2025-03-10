@@ -1,7 +1,18 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼1 |  4.6MB/s
-  password: b4dfd6fe-6a5f-4c85-a4ca-083f17da7be1
-  port: 36241
-  server: free.2weradf.xyz
-  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10,11|台湾2|@ripaojiedian
+  network: ws
+  port: '12883'
+  server: gtm1.ktmwan.net
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 9207a3fc-18cc-4af7-ab1c-1c0000e57e37
+  ws-opts:
+    headers:
+      Host: gtm1.ktmwan.net
+    path: /
