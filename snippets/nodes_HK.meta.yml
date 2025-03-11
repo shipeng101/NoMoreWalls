@@ -13,10 +13,10 @@ proxies:
       Host: vt-bana2-cn-11.ghpgwqswodgzv.com
     path: /dl_media
 - client-fingerprint: chrome
-  name: 10,11|香港4|@ripaojiedian
+  name: 10,11|香港3|@ripaojiedian
   network: tcp
   password: bba1cfff-9e0b-4cb6-9df4-c741c75e59a8
-  port: 13008
+  port: 13007
   server: naiu-hk.05vr9nyqg5.download
   skip-cert-verify: true
   sni: cloudflare.node-ssl.cdn-alibaba.com

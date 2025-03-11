@@ -1,35 +1,15 @@
 proxies:
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|🇸🇬1 |  6.0MB/s
-  password: amazonskr05
+- client-fingerprint: chrome
+  name: 10|🇸🇬 新加坡4|@ripaojiedian
+  password: '!!str 74260714362785500'
   port: 443
-  server: 54.179.211.228
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬2 |  5.6MB/s
-  password: b27d6ba3-552b-4255-9f85-c29a20806191
-  port: 36175
-  server: free.2weradf.xyz
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|🇸🇬3 |  6.3MB/s
-  password: amazonskr05
+  server: driving-rhino.shiner427.skin
+  skip-cert-verify: false
+  sni: driving-rhino.shiner427.skin
+  type: trojan
+- name: 11|新加坡4|@ripaojiedian
+  network: tcp
+  password: '!!str 74260714362785500'
   port: 443
-  server: 54.169.64.98
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|🇸🇬4 |  9.9MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.212.52.106
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬5 |  5.5MB/s
-  password: b27d6ba3-552b-4255-9f85-c29a20806191
-  port: 36171
-  server: free.2weradf.xyz
-  type: ss
+  server: driving-rhino.shiner427.skin
+  type: trojan

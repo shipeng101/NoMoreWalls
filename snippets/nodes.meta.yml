@@ -1,77 +1,31 @@
 proxies:
-- auth: e3v53Tnr1AF09DVG7cVTUHGMvP0
-  name: 0|🇰🇷1 |  5.4MB/s
-  password: e3v53Tnr1AF09DVG7cVTUHGMvP0
-  port: 10610
-  server: 54.180.127.110
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|🇺🇸1 |  5.9MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.215.141.135
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|🇸🇬1 |  6.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.179.211.228
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬2 |  5.6MB/s
-  password: b27d6ba3-552b-4255-9f85-c29a20806191
-  port: 36175
-  server: free.2weradf.xyz
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|🇺🇸2 |  3.9MB/s
-  password: amazonskr05
-  port: 443
-  server: 34.217.73.31
-  type: ss
-- name: 0|🇯🇵1 |  2.3MB/s
-  password: 777c099b-f437-390a-bfb0-185d4e9dcaf9
-  port: 20076
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x76.flybar.work
-  type: trojan
-  udp: true
-- name: 0|🇯🇵2 |  1.2MB/s
-  password: 777c099b-f437-390a-bfb0-185d4e9dcaf9
-  port: 20300
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z300.hongkongnode.top
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸3 |  2.2MB/s
-  password: b27d6ba3-552b-4255-9f85-c29a20806191
-  port: 36721
-  server: free.2weradf.xyz
-  type: ss
-- name: 0|🇺🇸4 |  1.8MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: usgp2-cdn-route.couldflare-cdn.com
+- name: 0,12|US_speednode_0056
+  network: ws
+  port: 80
+  server: join.e-l-i-v-2-r-a-y.fastly80-3.hosting-ip.com
+  servername: Join--E-L-i-V-2-R-A-Y.net
   skip-cert-verify: false
-  sni: usgp2-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- cipher: aes-256-cfb
-  name: 0|🇯🇵3 |  1.8MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.250.26.118
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: Join--E-L-i-V-2-R-A-Y.net
+    path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇯🇵1 |  5.5MB/s
+  password: f0cce2bd-cfaa-46e8-844c-99b1793d5186
+  port: 36113
+  server: free.2weradf.xyz
   type: ss
-- name: 0|🇺🇸5 |  8.5MB/s
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸2 |  5.5MB/s
+  password: f0cce2bd-cfaa-46e8-844c-99b1793d5186
+  port: 36641
+  server: free.2weradf.xyz
+  type: ss
+- name: 0|🇺🇸3 |  4.6MB/s
   network: ws
   port: 80
   server: join.e-l-i-v-2-r-a-y.fastly80-3.hosting-ip.com
@@ -83,92 +37,30 @@ proxies:
     headers:
       Host: Join--E-L-i-V-2-R-A-Y.net
     path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed
-- name: 0|🇯🇵4 |  3.2MB/s
-  password: 777c099b-f437-390a-bfb0-185d4e9dcaf9
-  port: 20142
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z142.hongkongnode.top
-  type: trojan
-  udp: true
-- name: 0|🇺🇸6 |  5.2MB/s
-  password: 777c099b-f437-390a-bfb0-185d4e9dcaf9
-  port: 20296
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z296.hongkongnode.top
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|🇺🇸7 |  4.4MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.201.149.176
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇰🇷1 |  3.5MB/s
+  password: f0cce2bd-cfaa-46e8-844c-99b1793d5186
+  port: 36313
+  server: free.2weradf.xyz
   type: ss
-- cipher: aes-256-cfb
-  name: 0|🇸🇬3 |  6.3MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.169.64.98
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇫🇷1 |  5.5MB/s
+  password: f0cce2bd-cfaa-46e8-844c-99b1793d5186
+  port: 36115
+  server: free.2weradf.xyz
   type: ss
-  udp: true
-- name: 0|🇨🇦1 |  6.0MB/s
-  password: 777c099b-f437-390a-bfb0-185d4e9dcaf9
-  port: 21970
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x41.flybar.work
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 0|🇷🇺1 |  5.8MB/s
+- delay: 1213
+  name: 0|🇺🇸5 |  2.0MB/s
   network: ws
-  port: 23008
-  server: 185.22.152.236
-  tls: false
-  type: vmess
-  uuid: 10efadad-bb9c-4d0f-ad07-1aa9f69216f6
-  ws-opts:
-    headers: {}
-    path: /
-- cipher: aes-256-cfb
-  name: 0|🇸🇬4 |  9.9MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.212.52.106
-  type: ss
-- name: 0,12|SC_speednode_0051
-  network: ws
-  port: 8880
-  server: 154.83.2.228
-  servername: redw.pooriam.ir
-  skip-cert-verify: false
+  port: 2095
+  server: 156.238.18.163
   tls: false
   type: vless
-  udp: true
   uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
   ws-opts:
     headers:
       Host: redw.pooriam.ir
-    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸9 |  3.7MB/s
-  password: b27d6ba3-552b-4255-9f85-c29a20806191
-  port: 36411
-  server: free.2weradf.xyz
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬5 |  5.5MB/s
-  password: b27d6ba3-552b-4255-9f85-c29a20806191
-  port: 36171
-  server: free.2weradf.xyz
-  type: ss
-- name: 10|tg频道:@ripaojiedian
-  port: 4000
-  server: ftq.ink
-  tls: true
-  type: http
+    path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
 - name: 10|🇭🇰 香港|@ripaojiedian
   network: ws
   password: a38c9e28-9960-4e31-9f18-ed2495a756aa
@@ -181,56 +73,36 @@ proxies:
     headers:
       Host: vt-bana2-cn-11.ghpgwqswodgzv.com
     path: /dl_media
-- name: 10,11|香港4|@ripaojiedian
+- name: 10,11|香港3|@ripaojiedian
   network: tcp
   password: bba1cfff-9e0b-4cb6-9df4-c741c75e59a8
-  port: 13008
+  port: 13007
   server: naiu-hk.05vr9nyqg5.download
   skip-cert-verify: true
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 10,11|台湾2|@ripaojiedian
-  network: ws
-  port: '12883'
-  server: gtm1.ktmwan.net
-  servername: ''
+- name: 10|🇯🇵 日本3|@ripaojiedian
+  password: '74260714362785500'
+  port: 443
+  server: unified-javelin.shiner427.skin
   skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 9207a3fc-18cc-4af7-ab1c-1c0000e57e37
-  ws-opts:
-    headers:
-      Host: gtm1.ktmwan.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸 美国2|@ripaojiedian
-  port: 44014
-  server: 120.198.71.219
+  sni: unified-javelin.shiner427.skin
+  type: trojan
+- name: 10,11|日本4|@ripaojiedian
+  network: tcp
+  password: d3b8b2c5-1115-4af0-ae13-00ec86eabcf8
+  port: 10367
+  server: lm.kaiqsz.com
+  skip-cert-verify: true
+  sni: mmbiz1.redapricotcloud.com
+  type: trojan
+- name: 10|🇸🇬 新加坡4|@ripaojiedian
+  password: '74260714362785500'
+  port: 443
+  server: driving-rhino.shiner427.skin
   skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 10,11|俄罗斯|@ripaojiedian
-  network: ws
-  port: '23007'
-  server: 185.22.152.236
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: b806a6d9-b854-403a-94e7-5fc936a6da2a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+  sni: driving-rhino.shiner427.skin
+  type: trojan
 - name: 11|香港|@ripaojiedian
   network: ws
   password: a38c9e28-9960-4e31-9f18-ed2495a756aa
@@ -242,16 +114,18 @@ proxies:
     headers:
       Host: vt-bana2-cn-11.ghpgwqswodgzv.com
     path: '%2Fdl_media'
-- alterId: 0
-  cipher: auto
-  name: 11|美国2|@ripaojiedian
+- name: 11|日本3|@ripaojiedian
   network: tcp
-  port: '44014'
-  server: 120.198.71.219
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  password: '74260714362785500'
+  port: 443
+  server: unified-javelin.shiner427.skin
+  type: trojan
+- name: 11|新加坡4|@ripaojiedian
+  network: tcp
+  password: '74260714362785500'
+  port: 443
+  server: driving-rhino.shiner427.skin
+  type: trojan
 - name: 12|CH_speednode_0002
   network: ws
   port: 443
@@ -462,11 +336,11 @@ proxies:
     headers:
       Host: redw.pooriam.ir
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-- name: 12|US_speednode_0056
+- name: 12|SC_speednode_0051
   network: ws
-  port: 80
-  server: join.e-l-i-v-2-r-a-y.fastly80-3.hosting-ip.com
-  servername: Join--E-L-i-V-2-R-A-Y.net
+  port: 8880
+  server: 154.83.2.228
+  servername: redw.pooriam.ir
   skip-cert-verify: false
   tls: false
   type: vless
@@ -474,8 +348,8 @@ proxies:
   uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
   ws-opts:
     headers:
-      Host: Join--E-L-i-V-2-R-A-Y.net
-    path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed=2560
+      Host: redw.pooriam.ir
+    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
 - name: 12|US_speednode_0064
   network: ws
   port: 80
