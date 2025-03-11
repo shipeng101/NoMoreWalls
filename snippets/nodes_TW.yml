@@ -1,7 +1,1 @@
-proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼2 |  1.7MB/s
-  password: 1fdcf7bf-847a-4325-8eaf-e0a64995d4b6
-  port: 36243
-  server: free.2weradf.xyz
-  type: ss
+proxies: []
