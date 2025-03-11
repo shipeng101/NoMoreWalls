@@ -1,9 +1,7 @@
 proxies:
-- client-fingerprint: chrome
-  name: 0|🇹🇼1 |  6.2MB/s
-  password: fa59f800-269d-4e2d-b29c-b4b9a570bbe0
-  port: 33344
-  server: bg.guangsu888.cc
-  skip-cert-verify: true
-  sni: bg.guangsu888.cc
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇹🇼2 |  1.7MB/s
+  password: 1fdcf7bf-847a-4325-8eaf-e0a64995d4b6
+  port: 36243
+  server: free.2weradf.xyz
+  type: ss
