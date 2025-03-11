@@ -1,13 +1,4 @@
 proxies:
-- name: 0|🇯🇵1 |  6.8MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: jpgmo101-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: jpgmo101-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - client-fingerprint: chrome
   name: 10|🇯🇵 日本3|@ripaojiedian
   password: '!!str 74260714362785500'
