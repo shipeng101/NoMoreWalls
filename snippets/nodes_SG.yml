@@ -1,4 +1,20 @@
 proxies:
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 0|🇸🇬1 |  2.5MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.255.138.185
+  type: ss
+  udp: true
+- name: 0|🇸🇬2 |  4.8MB/s
+  password: 6a1c8963-8a85-383c-a9f5-7ee2035547b4
+  port: 20129
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x129.flybar.work
+  type: trojan
+  udp: true
 - client-fingerprint: chrome
   name: 10|🇸🇬 新加坡4|@ripaojiedian
   password: '!!str 74260714362785500'

@@ -1,7 +1,41 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸2 |  5.5MB/s
-  password: f0cce2bd-cfaa-46e8-844c-99b1793d5186
-  port: 36641
-  server: free.2weradf.xyz
+- name: 0|🇺🇸1 |  5.8MB/s
+  password: 6a1c8963-8a85-383c-a9f5-7ee2035547b4
+  port: 20307
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z307.hongkongnode.top
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 0|🇺🇸2 |  5.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.202.63.169
   type: ss
+  udp: true
+- name: 0|🇺🇸5 |  6.0MB/s
+  password: 6a1c8963-8a85-383c-a9f5-7ee2035547b4
+  port: 22741
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: dufu.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 0|🇺🇸8 |  5.7MB/s
+  password: 6a1c8963-8a85-383c-a9f5-7ee2035547b4
+  port: 20304
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z304.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 0|🇺🇸9 |  6.4MB/s
+  password: 6a1c8963-8a85-383c-a9f5-7ee2035547b4
+  port: 20278
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z278.hongkongnode.top
+  type: trojan
+  udp: true
