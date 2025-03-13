@@ -1,10 +1,31 @@
 proxies:
-- name: 0|🇹🇼1 |  2.5MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: twmoon1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇹🇼1 |  5.4MB/s
+  password: 9b63f012-814f-44ac-90e6-fd225edfa7da
+  port: 36243
+  server: free.2weradf.xyz
+  type: ss
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 10|🇹🇼 台湾3|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202502231733428-Ein9IQ2kBA.download.microsoft.com
+    mode: http
+  port: 8746
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 10|🇹🇼 台湾4|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202502231733428-Ein9IQ2kBA.download.microsoft.com
+    mode: http
+  port: 8745
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
