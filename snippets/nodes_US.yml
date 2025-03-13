@@ -1,17 +1,11 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸1 |  5.2MB/s
-  password: cf6f8b70-546e-496c-8edb-473f473cff78
-  port: 36111
-  server: free.2weradf.xyz
-  type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 10|🇺🇸 美国|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503131222137-DT5JTyaOLB.download.microsoft.com
+    host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
     mode: http
   port: 8771
   server: cn01.efan8867801.xyz
@@ -23,7 +17,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503131222137-DT5JTyaOLB.download.microsoft.com
+    host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
     mode: http
   port: 8773
   server: cn01.efan8867801.xyz
