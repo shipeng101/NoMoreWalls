@@ -1,80 +1,36 @@
 proxies:
-- cipher: rc4-md5
-  name: 0,10|🇹🇼 台湾3|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202502231733428-Ein9IQ2kBA.download.microsoft.com
-    mode: http
-  port: 8746
-  server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
-- cipher: rc4-md5
-  name: 0,10|🇭🇰 香港4|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202502231733428-Ein9IQ2kBA.download.microsoft.com
-    mode: http
-  port: 8752
-  server: cn01.efan8867801.xyz
-  tfo: false
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸1 |  3.6MB/s
+  password: 0a57f91d-773b-47ff-a200-16d83b968085
+  port: 36371
+  server: free.2weradf.xyz
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸1 |  4.5MB/s
-  password: 18ccab14-fa96-487c-962a-fd6a04407aac
-  port: 36721
+  name: 0|🇫🇷1 |  3.6MB/s
+  password: 0a57f91d-773b-47ff-a200-16d83b968085
+  port: 36115
+  server: free.2weradf.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇭🇰1 |  1.4MB/s
+  password: 0a57f91d-773b-47ff-a200-16d83b968085
+  port: 36145
+  server: free.2weradf.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸2 |  2.8MB/s
+  password: 0a57f91d-773b-47ff-a200-16d83b968085
+  port: 36741
   server: free.2weradf.xyz
   type: ss
 - cipher: rc4-md5
-  name: 0,10|🇺🇸 美国|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202502231733428-Ein9IQ2kBA.download.microsoft.com
-    mode: http
-  port: 8771
-  server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰1 |  1.0MB/s
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52612
-  server: 111.29.57.125
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  name: 0,10|🇸🇬 新加坡3|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202502231733428-Ein9IQ2kBA.download.microsoft.com
-    mode: http
-  port: 8724
-  server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  name: 0|🇺🇸3 |  2.6MB/s
-  password: ZZ742AZT1DKLRDIF
-  port: 19005
-  server: 206.245.211.15
-  type: ss
-- cipher: aes-256-gcm
-  name: 0|🇺🇸4 |  2.3MB/s
-  password: OX20LCHDDPE0NIMS
-  port: 17007
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  type: ss
-- cipher: aes-256-cfb
-  name: 10|tg频道:@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 35.77.94.139
-  tfo: false
-  type: ss
+  name: 0|🇺🇦1 |  4.0MB/s
+  obfs: plain
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  protocol: origin
+  server: 193.108.119.230
+  type: ssr
 - name: 10|🇭🇰 香港|@ripaojiedian
   network: ws
   password: a38c9e28-9960-4e31-9f18-ed2495a756aa
@@ -92,9 +48,41 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202502231733428-Ein9IQ2kBA.download.microsoft.com
+    host: 202503131222137-DT5JTyaOLB.download.microsoft.com
     mode: http
-  port: 8712
+  port: 8716
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
+- cipher: rc4-md5
+  name: 10|🇭🇰 香港4|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202503131222137-DT5JTyaOLB.download.microsoft.com
+    mode: http
+  port: 8752
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 10|🇭🇰 香港8|@ripaojiedian
+  port: 34011
+  server: 183.2.194.141
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 59383c9f-700c-4767-9e5a-6c6e87669c3c
+- cipher: rc4-md5
+  name: 10|🇹🇼 台湾3|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202503131222137-DT5JTyaOLB.download.microsoft.com
+    mode: http
+  port: 8746
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
@@ -103,7 +91,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202502231733428-Ein9IQ2kBA.download.microsoft.com
+    host: 202503131222137-DT5JTyaOLB.download.microsoft.com
     mode: http
   port: 8745
   server: cn01.efan8867801.xyz
@@ -114,7 +102,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202502231733428-Ein9IQ2kBA.download.microsoft.com
+    host: 202503131222137-DT5JTyaOLB.download.microsoft.com
     mode: http
   port: 8764
   server: cn01.efan8867801.xyz
@@ -125,7 +113,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202502231733428-Ein9IQ2kBA.download.microsoft.com
+    host: 202503131222137-DT5JTyaOLB.download.microsoft.com
     mode: http
   port: 8761
   server: cn01.efan8867801.xyz
@@ -136,9 +124,31 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202502231733428-Ein9IQ2kBA.download.microsoft.com
+    host: 202503131222137-DT5JTyaOLB.download.microsoft.com
     mode: http
   port: 8722
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
+- cipher: rc4-md5
+  name: 10|🇸🇬 新加坡3|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202503131222137-DT5JTyaOLB.download.microsoft.com
+    mode: http
+  port: 8724
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
+- cipher: rc4-md5
+  name: 10|🇺🇸 美国|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202503131222137-DT5JTyaOLB.download.microsoft.com
+    mode: http
+  port: 8771
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
@@ -147,7 +157,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202502231733428-Ein9IQ2kBA.download.microsoft.com
+    host: 202503131222137-DT5JTyaOLB.download.microsoft.com
     mode: http
   port: 8773
   server: cn01.efan8867801.xyz
@@ -164,6 +174,16 @@ proxies:
     headers:
       Host: vt-bana2-cn-11.ghpgwqswodgzv.com
     path: '%2Fdl_media'
+- alterId: 0
+  cipher: auto
+  name: 11|香港8|@ripaojiedian
+  network: tcp
+  port: '34011'
+  server: 183.2.194.141
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 59383c9f-700c-4767-9e5a-6c6e87669c3c
 - alterId: 0
   cipher: auto
   name: 13|d*********g.com_2

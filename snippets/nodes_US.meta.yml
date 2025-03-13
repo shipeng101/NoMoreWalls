@@ -1,37 +1,38 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸1 |  4.5MB/s
-  password: 18ccab14-fa96-487c-962a-fd6a04407aac
-  port: 36721
+  name: 0|🇺🇸1 |  3.6MB/s
+  password: 0a57f91d-773b-47ff-a200-16d83b968085
+  port: 36371
   server: free.2weradf.xyz
   type: ss
-- name: 0,12|SC_speednode_0051
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸2 |  2.8MB/s
+  password: 0a57f91d-773b-47ff-a200-16d83b968085
+  port: 36741
+  server: free.2weradf.xyz
+  type: ss
+- name: 0|🇺🇸3 |  3.1MB/s
   network: ws
-  port: 8880
-  server: 154.83.2.228
-  servername: redw.pooriam.ir
+  port: 2095
+  server: 156.238.18.163
   skip-cert-verify: false
-  tls: false
   type: vless
-  udp: true
   uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
   ws-opts:
     headers:
       Host: redw.pooriam.ir
-    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-- cipher: aes-256-gcm
+    path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1fp
+- cipher: rc4-md5
   client-fingerprint: chrome
-  name: 0|🇺🇸3 |  2.6MB/s
-  password: ZZ742AZT1DKLRDIF
-  port: 19005
-  server: 206.245.211.15
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 0|🇺🇸4 |  2.3MB/s
-  password: OX20LCHDDPE0NIMS
-  port: 17007
-  server: ti3hyra4.slashdevslashnetslashtun.net
+  name: 10|🇺🇸 美国|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202503131222137-DT5JTyaOLB.download.microsoft.com
+    mode: http
+  port: 8771
+  server: cn01.efan8867801.xyz
+  tfo: false
   type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
@@ -39,7 +40,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202502231733428-Ein9IQ2kBA.download.microsoft.com
+    host: 202503131222137-DT5JTyaOLB.download.microsoft.com
     mode: http
   port: 8773
   server: cn01.efan8867801.xyz
