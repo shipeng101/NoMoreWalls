@@ -1,28 +1,4 @@
 proxies:
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000 Mbps
-  name: 0|🇷🇺1 |  2.9MB/s
-  port: 10803
-  server: 185.22.155.71
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
-  up: 1000 Mbps
-- alterId: 0
-  cipher: auto
-  name: 0|🇷🇺2 |  2.7MB/s
-  network: ws
-  port: 23011
-  server: 185.22.152.236
-  tls: false
-  type: vmess
-  uuid: 0b873d2f-41db-4f30-b1ac-6b315252bd6b
-  ws-opts:
-    headers: {}
-    path: /
 - name: 12|RU_speednode_0046
   network: ws
   port: 80
