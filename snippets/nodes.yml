@@ -1,10 +1,24 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 0|🇮🇷1 |  5.2MB/s
-  password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83
-  port: 21115
-  server: 154.83.90.11
+- cipher: aes-256-cfb
+  name: 0|🇯🇵1 |  4.3MB/s
+  password: amazonskr05
+  port: 443
+  server: 52.198.107.245
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇳🇱1 |  5.4MB/s
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 45.158.171.110
+  type: ss
+- cipher: rc4-md5
+  name: 0|🇺🇦1 |  4.9MB/s
+  obfs: plain
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  protocol: origin
+  server: 193.108.119.230
+  type: ssr
 - name: 10|🇭🇰 香港|@ripaojiedian
   network: ws
   password: a38c9e28-9960-4e31-9f18-ed2495a756aa
