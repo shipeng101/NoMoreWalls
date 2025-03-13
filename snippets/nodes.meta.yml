@@ -1,52 +1,12 @@
 proxies:
-- name: 0|🇯🇵1 |  6.3MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: jpgmo102-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: jpgmo102-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - cipher: rc4-md5
-  name: 0,10|🇭🇰 香港3|@ripaojiedian
+  name: 0,10|🇹🇼 台湾3|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
     host: 202502231733428-Ein9IQ2kBA.download.microsoft.com
     mode: http
-  port: 8712
-  server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
-- name: 0|🇺🇸1 |  12.3MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: jp104-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: jp104-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: 0|🇺🇸2 |  5.6MB/s
-  network: ws
-  port: 2086
-  server: 212.183.88.84
-  skip-cert-verify: false
-  type: vless
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET/?ed=2048
-- cipher: rc4-md5
-  name: 0,10|🇯🇵 日本|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202502231733428-Ein9IQ2kBA.download.microsoft.com
-    mode: http
-  port: 8764
+  port: 8746
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
@@ -61,36 +21,44 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- alterId: 2
-  cipher: auto
-  name: 0|🇺🇸3 |  1.8MB/s
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸1 |  4.5MB/s
+  password: 18ccab14-fa96-487c-962a-fd6a04407aac
+  port: 36721
+  server: free.2weradf.xyz
+  type: ss
+- cipher: rc4-md5
+  name: 0,10|🇺🇸 美国|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202502231733428-Ein9IQ2kBA.download.microsoft.com
+    mode: http
+  port: 8771
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
+- name: 0,12|SC_speednode_0051
   network: ws
-  port: 23613
-  server: 13.mamamajd.site
-  skip-cert-verify: true
+  port: 8880
+  server: 154.83.2.228
+  servername: redw.pooriam.ir
+  skip-cert-verify: false
   tls: false
-  type: vmess
+  type: vless
   udp: true
-  uuid: cf21325c-a1e0-3d7d-8911-b52c2200f960
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
   ws-opts:
     headers:
-      Host: 13.mamamajd.site
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 0|🌀1- |  1.5MB/s
-  network: ws
-  port: 23611
-  server: 11.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+      Host: redw.pooriam.ir
+    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇭🇰1 |  1.0MB/s
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52612
+  server: 111.29.57.125
+  type: ss
   udp: true
-  uuid: cf21325c-a1e0-3d7d-8911-b52c2200f960
-  ws-opts:
-    headers:
-      Host: 11.mamamajd.site
-    path: /
 - cipher: rc4-md5
   name: 0,10|🇸🇬 新加坡3|@ripaojiedian
   password: efanccyun
@@ -102,81 +70,18 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- name: 0|🇺🇸4 |  2.2MB/s
-  network: ws
-  port: 2095
-  server: 156.238.18.163
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
-- cipher: rc4-md5
-  name: 0,10|🇹🇼 台湾3|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202502231733428-Ein9IQ2kBA.download.microsoft.com
-    mode: http
-  port: 8746
-  server: cn01.efan8867801.xyz
-  tfo: false
+- cipher: aes-256-gcm
+  name: 0|🇺🇸3 |  2.6MB/s
+  password: ZZ742AZT1DKLRDIF
+  port: 19005
+  server: 206.245.211.15
   type: ss
-- cipher: rc4-md5
-  name: 0,10|🇺🇸 美国2|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202502231733428-Ein9IQ2kBA.download.microsoft.com
-    mode: http
-  port: 8773
-  server: cn01.efan8867801.xyz
-  tfo: false
+- cipher: aes-256-gcm
+  name: 0|🇺🇸4 |  2.3MB/s
+  password: OX20LCHDDPE0NIMS
+  port: 17007
+  server: ti3hyra4.slashdevslashnetslashtun.net
   type: ss
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000 Mbps
-  name: 0|🇫🇷1 |  6.2MB/s
-  port: 44557
-  server: 195.154.200.178
-  servername: apple.com
-  skip-cert-verify: true
-  type: hysteria
-  up: 1000 Mbps
-- cipher: aes-256-cfb
-  name: 0|🇳🇱1 |  4.4MB/s
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 51.15.27.48
-  type: ss
-- fast-open: true
-  name: 0|🇷🇺1 |  2.5MB/s
-  password: dongtaiwang.com
-  port: 18626
-  server: 46.29.163.171
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
-- name: 0,12|NL_speednode_0029
-  network: ws
-  port: 2052
-  server: 45.149.12.183
-  servername: redw.pooriam.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /TABRIZ.NET@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
 - cipher: aes-256-cfb
   name: 10|tg频道:@ripaojiedian
   password: amazonskr05
@@ -197,6 +102,17 @@ proxies:
       Host: vt-bana2-cn-11.ghpgwqswodgzv.com
     path: /dl_media
 - cipher: rc4-md5
+  name: 10|🇭🇰 香港3|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202502231733428-Ein9IQ2kBA.download.microsoft.com
+    mode: http
+  port: 8712
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
+- cipher: rc4-md5
   name: 10|🇹🇼 台湾4|@ripaojiedian
   password: efanccyun
   plugin: obfs
@@ -204,6 +120,17 @@ proxies:
     host: 202502231733428-Ein9IQ2kBA.download.microsoft.com
     mode: http
   port: 8745
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
+- cipher: rc4-md5
+  name: 10|🇯🇵 日本|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202502231733428-Ein9IQ2kBA.download.microsoft.com
+    mode: http
+  port: 8764
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
@@ -230,13 +157,13 @@ proxies:
   tfo: false
   type: ss
 - cipher: rc4-md5
-  name: 10|🇺🇸 美国|@ripaojiedian
+  name: 10|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
     host: 202502231733428-Ein9IQ2kBA.download.microsoft.com
     mode: http
-  port: 8771
+  port: 8773
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
@@ -293,6 +220,20 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /?ed=2560
+- name: 12|NL_speednode_0029
+  network: ws
+  port: 2052
+  server: 45.149.12.183
+  servername: redw.pooriam.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redw.pooriam.ir
+    path: /TABRIZ.NET@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
 - name: 12|NL_speednode_0034
   network: ws
   port: 80
@@ -437,20 +378,6 @@ proxies:
   network: ws
   port: 8880
   server: 154.83.2.230
-  servername: redw.pooriam.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-- name: 12|SC_speednode_0051
-  network: ws
-  port: 8880
-  server: 154.83.2.228
   servername: redw.pooriam.ir
   skip-cert-verify: false
   tls: false

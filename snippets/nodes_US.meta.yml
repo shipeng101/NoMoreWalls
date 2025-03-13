@@ -1,57 +1,14 @@
 proxies:
-- name: 0|🇺🇸1 |  12.3MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: jp104-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: jp104-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- client-fingerprint: chrome
-  name: 0|🇺🇸2 |  5.6MB/s
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸1 |  4.5MB/s
+  password: 18ccab14-fa96-487c-962a-fd6a04407aac
+  port: 36721
+  server: free.2weradf.xyz
+  type: ss
+- name: 0,12|SC_speednode_0051
   network: ws
-  port: 2086
-  server: 212.183.88.84
-  skip-cert-verify: false
-  type: vless
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET/?ed=2048
-- alterId: 2
-  cipher: auto
-  name: 0|🇺🇸3 |  1.8MB/s
-  network: ws
-  port: 23613
-  server: 13.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cf21325c-a1e0-3d7d-8911-b52c2200f960
-  ws-opts:
-    headers:
-      Host: 13.mamamajd.site
-    path: /
-- client-fingerprint: chrome
-  name: 0|🇺🇸4 |  2.2MB/s
-  network: ws
-  port: 2095
-  server: 156.238.18.163
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
-- name: 0,12|NL_speednode_0029
-  network: ws
-  port: 2052
-  server: 45.149.12.183
+  port: 8880
+  server: 154.83.2.228
   servername: redw.pooriam.ir
   skip-cert-verify: false
   tls: false
@@ -61,16 +18,30 @@ proxies:
   ws-opts:
     headers:
       Host: redw.pooriam.ir
-    path: /TABRIZ.NET@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
+    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 0|🇺🇸3 |  2.6MB/s
+  password: ZZ742AZT1DKLRDIF
+  port: 19005
+  server: 206.245.211.15
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 0|🇺🇸4 |  2.3MB/s
+  password: OX20LCHDDPE0NIMS
+  port: 17007
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 10|🇺🇸 美国|@ripaojiedian
+  name: 10|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
     host: 202502231733428-Ein9IQ2kBA.download.microsoft.com
     mode: http
-  port: 8771
+  port: 8773
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
