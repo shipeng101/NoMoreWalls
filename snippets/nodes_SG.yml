@@ -1,19 +1,24 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬1 |  5.7MB/s
+  password: 21ccc7cd-ad32-45e2-aa4b-5c755dc2644d
+  port: 36175
+  server: free.2weradf.xyz
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 0|🇸🇬1 |  5.6MB/s
+  name: 0|🇸🇬2 |  11.9MB/s
   password: amazonskr05
   port: 443
-  server: 54.254.131.232
+  server: 54.254.93.88
   type: ss
-- name: 0|🇸🇬2 |  1.9MB/s
-  password: bbf0989e-ac34-3ae8-a911-e5c362d8b2a3
-  port: 20130
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x130.flybar.work
-  type: trojan
-  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 0|🇸🇬3 |  9.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.212.196.247
+  type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 10|🇸🇬 新加坡|@ripaojiedian
