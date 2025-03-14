@@ -1,1 +1,9 @@
-proxies: []
+proxies:
+- name: 0|🇬🇧1 |  6.0MB/s
+  password: 4c4d656c-81dd-3d69-87d6-7de7f724d9bb
+  port: 20309
+  server: gyl.58n.net
+  skip-cert-verify: true
+  sni: z309.hongkongnode.top
+  type: trojan
+  udp: true
