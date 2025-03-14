@@ -4,34 +4,14 @@ proxies:
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: 1000 Mbps
-  name: 0|🇷🇺1 |  4.7MB/s
-  port: 10803
-  server: 185.22.155.71
+  name: 0|🇷🇺1 |  1.5MB/s
+  port: 10469
+  server: 46.17.41.174
   skip-cert-verify: true
-  sni: www.bing.com
+  sni: apple.com
   type: hysteria
-  up: 1000 Mbps
-- alterId: 0
-  cipher: auto
-  name: 0|🇷🇺2 |  3.1MB/s
-  network: ws
-  port: 23012
-  server: 212.192.13.68
-  tls: false
-  type: vmess
-  uuid: b8caf6b8-94ff-440c-a320-07e28e57c43a
-  ws-opts:
-    headers: {}
-    path: /
-- fast-open: true
-  name: 0|🇷🇺3 |  5.6MB/s
-  password: dongtaiwang.com
-  port: 18626
-  server: 46.29.163.171
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
   udp: true
+  up: 100 Mbps
 - name: 12|RU_speednode_0046
   network: ws
   port: 80
