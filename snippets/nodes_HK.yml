@@ -1,4 +1,10 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇭🇰1 |  3.0MB/s
+  password: 4d666709-9f3c-4830-a454-829f2881365c
+  port: 36141
+  server: free.2weradf.xyz
+  type: ss
 - client-fingerprint: chrome
   name: 10|🇭🇰 香港|@ripaojiedian
   network: ws
@@ -18,7 +24,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
+    host: 202503140983506-gBQ0aA7o7i.download.microsoft.com
     mode: http
   port: 8716
   server: cn01.efan8867801.xyz
@@ -30,12 +36,32 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
+    host: 202503140983506-gBQ0aA7o7i.download.microsoft.com
     mode: http
   port: 8752
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
+- client-fingerprint: chrome
+  name: 10,11|香港5|@ripaojiedian
+  network: tcp
+  password: ea2QsO
+  port: 22745
+  server: 183.240.116.144
+  skip-cert-verify: true
+  sni: ctldl.windowsupdate.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇭🇰 香港8|@ripaojiedian
+  port: 49876
+  server: xxxlsopyyds.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 2f0a6a99-af56-4119-bd11-04bccd6b74b7
 - name: 11|香港|@ripaojiedian
   network: ws
   password: a38c9e28-9960-4e31-9f18-ed2495a756aa
@@ -49,21 +75,11 @@ proxies:
     path: '%2Fdl_media'
 - alterId: 0
   cipher: auto
-  name: 11|香港5|@ripaojiedian
-  network: kcp
-  port: '32899'
-  server: 47.243.204.174
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b9d9143b-edba-470d-8d25-0d267880fe7e
-- alterId: 0
-  cipher: auto
   name: 11|香港8|@ripaojiedian
-  network: kcp
-  port: '26706'
-  server: 47.239.242.136
+  network: tcp
+  port: '49876'
+  server: xxxlsopyyds.com
   servername: ''
   tls: false
   type: vmess
-  uuid: 3949be3c-f862-4081-afca-9979bd189648
+  uuid: 2f0a6a99-af56-4119-bd11-04bccd6b74b7
