@@ -1,36 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 0|🇭🇰1 |  1.5MB/s
-  port: 19901
-  server: xg.dashuai.cyou
-  tls: false
-  type: vmess
-  uuid: 9ad869e1-4624-48f5-b058-86d3d4c0c958
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 0,10|🇭🇰 香港4|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202503161140460-Ypmr7Skyy1.download.microsoft.com
-    mode: http
-  port: 8752
-  server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 0,10|🇭🇰 香港3|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202503161140460-Ypmr7Skyy1.download.microsoft.com
-    mode: http
-  port: 8716
-  server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
 - client-fingerprint: chrome
   name: 10|🇭🇰 香港|@ripaojiedian
   network: ws
@@ -44,6 +12,30 @@ proxies:
     headers:
       Host: vt-bana2-cn-11.ghpgwqswodgzv.com
     path: /dl_media
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 10|🇭🇰 香港3|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202503161140460-Ypmr7Skyy1.download.microsoft.com
+    mode: http
+  port: 8716
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 10|🇭🇰 香港4|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202503161140460-Ypmr7Skyy1.download.microsoft.com
+    mode: http
+  port: 8752
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
