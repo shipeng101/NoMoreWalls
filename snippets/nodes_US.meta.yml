@@ -1,17 +1,40 @@
 proxies:
+- client-fingerprint: chrome
+  name: 0|🇺🇸1 |  5.0MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: ustx004-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: ustx004-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- delay: 2847
+  name: 0|🇺🇸2 |  1.5MB/s
+  network: ws
+  port: 8880
+  server: 195.85.59.155
+  tls: false
+  type: vless
+  uuid: f6bd2c47-99da-4bca-bf70-7186aa9e7e06
+  ws-opts:
+    headers:
+      Host: photographipictureai.ir
+    path: /Telegram
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|🇺🇸1 |  2.4MB/s
+  name: 0|🇺🇸3 |  2.6MB/s
+  obfs: plain
   password: amazonskr05
   port: 443
-  server: 34.211.230.161
-  type: ss
+  protocol: origin
+  server: 54.184.74.88
+  type: ssr
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: 1000 Mbps
-  name: 0|🇺🇸2 |  1.7MB/s
+  name: 0|🇺🇸4 |  5.9MB/s
   port: 11512
   server: 108.181.24.77
   skip-cert-verify: true
@@ -19,41 +42,6 @@ proxies:
   type: hysteria
   udp: true
   up: 1000 Mbps
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|🇺🇸3 |  1.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.184.74.88
-  type: ss
-- client-fingerprint: chrome
-  name: 0,12|NL_speednode_0029
-  network: ws
-  port: 2052
-  server: 45.149.12.183
-  servername: redw.pooriam.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /TABRIZ.NET@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-- client-fingerprint: chrome
-  name: 0|🇺🇸5 |  4.9MB/s
-  network: ws
-  port: 443
-  server: 31.22.116.18
-  servername: usc.xzncr.asia
-  tls: true
-  type: vless
-  uuid: 704222bd-7eff-4307-ae26-d6a5ab79817a
-  ws-opts:
-    headers:
-      Host: usc.xzncr.asia
-    path: /bing
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 10|🇺🇸 美国|@ripaojiedian
