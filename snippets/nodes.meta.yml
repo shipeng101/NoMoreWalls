@@ -1,171 +1,71 @@
 proxies:
-- auth: 88925c12-4222-4ed3-84bd-6bfac300360f
-  delay: 2498
-  name: 0|🇮🇳1 |  5.3MB/s
-  password: 88925c12-4222-4ed3-84bd-6bfac300360f
-  port: 8443
-  server: yd1.gywanglug.xyz
-  skip-cert-verify: false
-  sni: yd1.gywanglug.xyz
-  type: hysteria2
-- name: 0|🇯🇵1 |  3.2MB/s
+- alterId: 2
+  cipher: auto
+  name: 0|🇮🇳1 |  6.0MB/s
   network: ws
-  port: 443
-  server: 20.210.64.11
-  servername: vsdfee.azurewebsites.net
+  port: 23611
+  server: 11.mamamajd.site
   skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6f995056-7802-4a1d-bff7-61678e626c3f
-  ws-opts:
-    headers:
-      Host: vsdfee.azurewebsites.net
-    path: /
-- cipher: aes-128-gcm
-  name: 0|🇺🇸1 |  4.9MB/s
-  password: 2c8cfc48-c211-4973-bc95-9d532ac42c35
-  port: 12028
-  server: mdss-us.04z3susick.download
-  type: ss
-- auth: 88925c12-4222-4ed3-84bd-6bfac300360f
-  delay: 2458
-  name: 0|🇺🇸2 |  4.9MB/s
-  password: 88925c12-4222-4ed3-84bd-6bfac300360f
-  port: 8443
-  server: mg2.gywanglug.xyz
-  skip-cert-verify: false
-  sni: mg2.gywanglug.xyz
-  type: hysteria2
-- cipher: aes-256-cfb
-  name: 0|🇸🇬1 |  5.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.169.15.9
-  type: ss
-- auth: 88925c12-4222-4ed3-84bd-6bfac300360f
-  delay: 2063
-  name: 0|🇳🇱1 |  4.7MB/s
-  password: 88925c12-4222-4ed3-84bd-6bfac300360f
-  port: 8443
-  server: hl1.gywanglug.xyz
-  skip-cert-verify: false
-  sni: hl1.gywanglug.xyz
-  type: hysteria2
-- cipher: aes-256-cfb
-  name: 0|🇸🇬2 |  2.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 47.128.224.249
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  delay: 1316
-  name: 0|🇩🇪1 |  1.1MB/s
-  password: 7cbfe78195fbf19c
-  port: 11738
-  server: 100.42.182.73
-  type: ss
-- cipher: aes-128-cfb
-  country: 🇦🇿AZ
-  delay: 2152
-  name: 0|🇨🇦1 |  2.5MB/s
-  obfs: http_post
-  password: $$Turb0VPN$$
-  port: 443
-  protocol: auth_aes128_md5
-  server: ssca.irundns.net
-  type: ssr
-- name: 0|🇭🇰1 |  1.7MB/s
-  network: ws
-  port: 443
-  server: 162.247.5.92
-  servername: hk.bkn.asia
-  tls: true
-  type: vless
-  uuid: ce2824eb-9bc1-4369-c574-8a769b203df9
-  ws-opts:
-    headers:
-      Host: hk.bkn.asia
-    path: /bing
-- cipher: rc4-md5
-  delay: 1394
-  name: 0|🇩🇪2 |  2.1MB/s
-  obfs: plain
-  obfs-param: ''
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  protocol: origin
-  protocol-param: ''
-  server: 193.108.119.230
-  type: ssr
-- auth: 88925c12-4222-4ed3-84bd-6bfac300360f
-  delay: 1942
-  name: 0|🇺🇸3 |  1.2MB/s
-  password: 88925c12-4222-4ed3-84bd-6bfac300360f
-  port: 8443
-  server: mg4.gywanglug.xyz
-  skip-cert-verify: false
-  sni: mg4.gywanglug.xyz
-  type: hysteria2
-- name: 0|🇺🇸4 |  2.3MB/s
-  network: ws
-  port: 443
-  server: 31.22.116.18
-  servername: usc.xzncr.asia
-  tls: true
-  type: vless
-  uuid: 704222bd-7eff-4307-ae26-d6a5ab79817a
-  ws-opts:
-    headers:
-      Host: usc.xzncr.asia
-    path: /bing
-- auth: 88925c12-4222-4ed3-84bd-6bfac300360f
-  delay: 2000
-  name: 0|🇨🇦2 |  3.3MB/s
-  password: 88925c12-4222-4ed3-84bd-6bfac300360f
-  port: 8443
-  server: jnd1.gywanglug.xyz
-  skip-cert-verify: false
-  sni: jnd1.gywanglug.xyz
-  type: hysteria2
-- auth: a3661fb3-b0ab-4022-ba5c-7c0ef0e01db8
-  name: 0|🇫🇷1 |  4.6MB/s
-  password: a3661fb3-b0ab-4022-ba5c-7c0ef0e01db8
-  port: 37732
-  server: 207.180.248.7
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|🇰🇷1 |  5.8MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.124.101.203
-  type: ss
-- auth: 88925c12-4222-4ed3-84bd-6bfac300360f
-  delay: 2453
-  name: 0|🇺🇸5 |  5.0MB/s
-  password: 88925c12-4222-4ed3-84bd-6bfac300360f
-  port: 8443
-  server: mg5.gywanglug.xyz
-  skip-cert-verify: false
-  sni: mg5.gywanglug.xyz
-  type: hysteria2
-- name: 0|🇭🇰2 |  2.2MB/s
-  network: ws
-  port: 2095
-  server: 156.238.18.28
-  skip-cert-verify: false
   tls: false
-  type: vless
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  type: vmess
+  udp: true
+  uuid: 1b9719ae-8c39-36c5-af06-9ef62248530d
   ws-opts:
     headers:
-      Host: redw.pooriam.ir
+      Host: 11.mamamajd.site
     path: /
-- name: 0|🇭🇰3 |  1.9MB/s
+- cipher: aes-256-cfb
+  name: 0|🇺🇸1 |  5.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.184.74.88
+  type: ss
+- name: 0|🇰🇷1 |  5.9MB/s
+  password: a68a2cf7-ee43-3e39-9963-542a0fbed5cb
+  port: 45168
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z263.hongkongnode.top
+  type: trojan
+  udp: true
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000 Mbps
+  name: 0|🇺🇸2 |  2.3MB/s
+  port: 11512
+  server: 108.181.24.77
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: 1000 Mbps
+- name: 0|🇭🇰1 |  6.2MB/s
+  password: a68a2cf7-ee43-3e39-9963-542a0fbed5cb
+  port: 22741
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: dufu.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 0|🇹🇼1 |  1.3MB/s
+  password: a68a2cf7-ee43-3e39-9963-542a0fbed5cb
+  port: 21247
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x91.flybar.work
+  type: trojan
+  udp: true
+- name: 0|🇺🇸3 |  1.7MB/s
+  password: a68a2cf7-ee43-3e39-9963-542a0fbed5cb
+  port: 20306
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z306.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 0|🇭🇰2 |  3.8MB/s
   network: ws
   port: 443
   server: 8.210.107.244
@@ -177,22 +77,7 @@ proxies:
     headers:
       Host: hk.bkn.asia
     path: /bing
-- name: 0|🇹🇼1 |  1.1MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: tw1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: tw1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- cipher: aes-128-gcm
-  name: 0|🇹🇼2 |  1.3MB/s
-  password: 2c8cfc48-c211-4973-bc95-9d532ac42c35
-  port: 12033
-  server: mdss-tw.04z3susick.download
-  type: ss
-- name: 0|🇺🇸6 |  3.1MB/s
+- name: 0|🇯🇵1 |  1.4MB/s
   network: ws
   port: 2095
   server: 156.238.18.163
@@ -204,16 +89,18 @@ proxies:
     headers:
       Host: redw.pooriam.ir
     path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
-- cipher: aes-128-gcm
-  name: 0|🇨🇦3 |  4.6MB/s
-  password: 2c8cfc48-c211-4973-bc95-9d532ac42c35
-  port: 12045
-  server: mdss-other.04z3susick.download
-  type: ss
-- name: 0,12|SC_speednode_0049
+- name: 0|🇭🇰3 |  2.5MB/s
+  password: a68a2cf7-ee43-3e39-9963-542a0fbed5cb
+  port: 20279
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z279.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 0,12|SC_speednode_0050
   network: ws
   port: 8880
-  server: 154.83.2.156
+  server: 154.83.2.230
   servername: redw.pooriam.ir
   skip-cert-verify: false
   tls: false
@@ -224,22 +111,110 @@ proxies:
     headers:
       Host: redw.pooriam.ir
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000 Mbps
-  name: 0|🇺🇸7 |  4.4MB/s
-  port: 11512
-  server: 108.181.24.77
+- cipher: aes-256-cfb
+  name: 0|🇸🇬1 |  5.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.254.93.88
+  type: ss
+- name: 0|🇺🇸4 |  6.0MB/s
+  network: ws
+  port: 443
+  server: 31.22.116.196
+  servername: usd.xzncr.asia
+  tls: true
+  type: vless
+  uuid: 034b7109-a45a-46d7-afde-3eec1af72322
+  ws-opts:
+    headers:
+      Host: usd.xzncr.asia
+    path: /bing
+- alterId: 0
+  cipher: auto
+  name: 0|🇷🇺1 |  3.0MB/s
+  network: ws
+  port: 23015
+  server: 185.22.152.236
+  tls: false
+  type: vmess
+  uuid: 45a83fe0-dd8b-46d1-a672-e20547158aa6
+  ws-opts:
+    headers: {}
+    path: /
+- auth: a3661fb3-b0ab-4022-ba5c-7c0ef0e01db8
+  name: 0|🇫🇷1 |  3.4MB/s
+  password: a3661fb3-b0ab-4022-ba5c-7c0ef0e01db8
+  port: 37732
+  server: 207.180.248.7
   skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
+  sni: www.bing.com
+  type: hysteria2
   udp: true
-  up: 1000 Mbps
+- name: 0|🇯🇵3 |  1.5MB/s
+  password: a68a2cf7-ee43-3e39-9963-542a0fbed5cb
+  port: 20298
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z298.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 0|🇸🇬2 |  4.4MB/s
+  password: a68a2cf7-ee43-3e39-9963-542a0fbed5cb
+  port: 20129
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x129.flybar.work
+  type: trojan
+  udp: true
+- name: 0|🇭🇰4 |  2.3MB/s
+  password: a68a2cf7-ee43-3e39-9963-542a0fbed5cb
+  port: 20278
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z278.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 0|🇭🇰5 |  2.3MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: hkre1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: hkre1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- auth: 88925c12-4222-4ed3-84bd-6bfac300360f
+  delay: 2453
+  name: 0|🇺🇸5 |  1.4MB/s
+  password: 88925c12-4222-4ed3-84bd-6bfac300360f
+  port: 8443
+  server: mg5.gywanglug.xyz
+  skip-cert-verify: false
+  sni: mg5.gywanglug.xyz
+  type: hysteria2
+- cipher: aes-256-cfb
+  name: 0|🇨🇦1 |  1.2MB/s
+  obfs: plain
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  protocol: origin
+  server: 79.127.200.162
+  type: ssr
+- name: 0|🇯🇵4 |  2.4MB/s
+  network: ws
+  port: 8880
+  server: 154.83.2.228
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redw.pooriam.ir
+    path: /
 - auth: 88925c12-4222-4ed3-84bd-6bfac300360f
   delay: 2798
-  name: 0|🇺🇸8 |  2.7MB/s
+  name: 0|🇺🇸6 |  2.2MB/s
   password: 88925c12-4222-4ed3-84bd-6bfac300360f
   port: 8443
   server: mg7.gywanglug.xyz
@@ -247,41 +222,28 @@ proxies:
   sni: mg7.gywanglug.xyz
   type: hysteria2
 - cipher: aes-256-cfb
-  delay: 699
-  name: 0|🇰🇷2 |  1.7MB/s
+  name: 0|🇸🇬3 |  5.8MB/s
   password: amazonskr05
   port: 443
-  server: 43.202.49.76
-  type: ss
-- alterId: 0
-  cipher: auto
-  ip-version: dual
-  name: 0|🇫🇷2 |  2.3MB/s
-  network: ws
-  port: 2095
-  server: 185.174.138.209
-  skip-cert-verify: true
-  type: vmess
-  udp: true
-  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
-  ws-opts:
-    headers:
-      Host: yellow-paper-029c.yvonna.workers.dev
-    path: /az05.beyondy.cfd/link?/TM
-- cipher: aes-256-cfb
-  name: 0|🇺🇸9 |  1.7MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.236.137.219
+  server: 47.128.242.43
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 0|🌀1-TH |  2.7MB/s
+  name: 0|🇸🇬4 |  3.7MB/s
   password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44
-  port: 16603
+  port: 19088
   server: yy1.vyunyunnode.top
   type: ss
   udp: true
-- name: 0|🌀2-SE |  2.7MB/s
+- auth: 88925c12-4222-4ed3-84bd-6bfac300360f
+  delay: 2000
+  name: 0|🇨🇦2 |  4.7MB/s
+  password: 88925c12-4222-4ed3-84bd-6bfac300360f
+  port: 8443
+  server: jnd1.gywanglug.xyz
+  skip-cert-verify: false
+  sni: jnd1.gywanglug.xyz
+  type: hysteria2
+- name: 0|🌀1-SE |  1.2MB/s
   network: ws
   port: 2095
   server: 156.238.18.48
@@ -293,57 +255,157 @@ proxies:
     headers:
       Host: redw.pooriam.ir
     path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
-- cipher: aes-256-cfb
-  name: 0|🇯🇵2 |  6.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.230.142.42
-  type: ss
-- name: 0|🇺🇸10 |  1.1MB/s
+- name: 0|🇺🇸7 |  1.5MB/s
+  password: a68a2cf7-ee43-3e39-9963-542a0fbed5cb
+  port: 16895
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x40.flybar.work
+  type: trojan
+  udp: true
+- name: 0|🇭🇰6 |  6.1MB/s
   network: ws
   port: 443
-  server: 31.22.116.16
-  servername: usa.xzncr.asia
+  server: 162.247.5.92
+  servername: hk.bkn.asia
   tls: true
   type: vless
-  uuid: 433f4c30-7b28-4d4e-b573-a6624231700a
+  uuid: ce2824eb-9bc1-4369-c574-8a769b203df9
   ws-opts:
     headers:
-      Host: usa.xzncr.asia
+      Host: hk.bkn.asia
     path: /bing
-- cipher: aes-256-cfb
-  name: 0|🇯🇵3 |  5.4MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.181.194.77
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|🇸🇬3 |  2.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.229.89.243
-  type: ss
-- cipher: chacha20-ietf
-  name: 0|🇭🇰4 |  2.1MB/s
-  password: asd123456
-  port: 8388
-  server: 103.149.182.61
-  type: ss
-- name: 0|🇺🇸11 |  4.2MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: ustx004-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: ustx004-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: 0|🇭🇰7 |  4.0MB/s
+  password: a68a2cf7-ee43-3e39-9963-542a0fbed5cb
+  port: 20294
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z294.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 0|🇯🇵5 |  4.3MB/s
+  password: a68a2cf7-ee43-3e39-9963-542a0fbed5cb
+  port: 20141
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z141.hongkongnode.top
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸8 |  1.3MB/s
+  port: 40102
+  server: 120.232.153.63
+  tls: false
+  type: vmess
+  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: 1000 Mbps
-  name: 0|🇷🇺1 |  2.5MB/s
+  name: 0|🇷🇺2 |  2.0MB/s
+  port: 10803
+  server: 185.22.155.71
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  up: 1000 Mbps
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  delay: 1316
+  name: 0|🇩🇪1 |  2.0MB/s
+  password: 7cbfe78195fbf19c
+  port: 11738
+  server: 100.42.182.73
+  type: ss
+- alpn:
+  - h3,h2,http/1.1
+  name: 0|🌀2-AF |  2.0MB/s
+  network: ws
+  port: 443
+  server: af.9901157.xyz
+  servername: af.9901157.xyz
+  tls: true
+  type: vless
+  uuid: a345476b-3f70-4eaa-acad-dd4a91e657f7
+  ws-opts:
+    headers:
+      Host: af.9901157.xyz
+    path: /
+- name: 0|🇯🇵6 |  6.2MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: jp104-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: jp104-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: 0|🇯🇵7 |  5.3MB/s
+  password: a68a2cf7-ee43-3e39-9963-542a0fbed5cb
+  port: 20059
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x59.flybar.work
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  country: 🇷🇺RU
+  delay: 978
+  name: 0|🇵🇱1 |  5.1MB/s
+  password: UxLQpmeaGbtar5XYaUJ1Bv
+  port: 443
+  server: 77.83.246.74
+  type: ss
+- cipher: aes-128-cfb
+  country: 🇦🇿AZ
+  delay: 2152
+  name: 0|🇨🇦3 |  4.9MB/s
+  obfs: http_post
+  password: $$Turb0VPN$$
+  port: 443
+  protocol: auth_aes128_md5
+  server: ssca.irundns.net
+  type: ssr
+- name: 0|🇸🇬5 |  6.1MB/s
+  password: a68a2cf7-ee43-3e39-9963-542a0fbed5cb
+  port: 20299
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x299.flybar.work
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 0|🇩🇪2 |  1.7MB/s
+  network: ws
+  port: 23616
+  server: 16.mamamajd.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1b9719ae-8c39-36c5-af06-9ef62248530d
+  ws-opts:
+    headers:
+      Host: 16.mamamajd.site
+    path: /
+- auth: 88925c12-4222-4ed3-84bd-6bfac300360f
+  delay: 2064
+  name: 0|🇩🇪3 |  1.5MB/s
+  password: 88925c12-4222-4ed3-84bd-6bfac300360f
+  port: 8443
+  server: dg1.gywanglug.xyz
+  skip-cert-verify: false
+  sni: dg1.gywanglug.xyz
+  type: hysteria2
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000 Mbps
+  name: 0|🇷🇺3 |  1.7MB/s
   port: 10469
   server: 46.17.41.174
   skip-cert-verify: true
@@ -351,48 +413,33 @@ proxies:
   type: hysteria
   udp: true
   up: 100 Mbps
-- fast-open: true
-  name: 0|🇷🇺2 |  3.7MB/s
-  password: dongtaiwang.com
-  port: 37481
-  server: 46.17.41.217
+- name: 0|🇺🇸9 |  1.0MB/s
+  network: ws
+  port: 2095
+  server: 104.18.21.69
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: fuckingxijinping.xijinpingbigsb.workers.dev
+    path: /?ed=2560
+- alterId: 2
+  cipher: auto
+  name: 0|🇸🇬6 |  4.6MB/s
+  network: ws
+  port: 23617
+  server: 17.mamamajd.site
   skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000 Mbps
-  name: 0|🇫🇷3 |  2.9MB/s
-  port: 44557
-  server: 195.154.200.178
-  servername: apple.com
-  skip-cert-verify: true
-  type: hysteria
-  up: 1000 Mbps
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬4 |  3.1MB/s
-  password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44
-  port: 19088
-  server: yy1.vyunyunnode.top
-  type: ss
+  tls: false
+  type: vmess
   udp: true
-- fast-open: true
-  name: 0|🇷🇺3 |  2.7MB/s
-  password: dongtaiwang.com
-  port: 18626
-  server: 46.29.163.171
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼3 |  2.5MB/s
-  password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44
-  port: 19019
-  server: yy1.vyunyunnode.top
-  type: ss
-  udp: true
+  uuid: 1b9719ae-8c39-36c5-af06-9ef62248530d
+  ws-opts:
+    headers:
+      Host: 17.mamamajd.site
+    path: /
 - name: 10|🇭🇰 香港|@ripaojiedian
   network: ws
   password: a38c9e28-9960-4e31-9f18-ed2495a756aa
@@ -708,10 +755,10 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- name: 12|SC_speednode_0050
+- name: 12|SC_speednode_0049
   network: ws
   port: 8880
-  server: 154.83.2.230
+  server: 154.83.2.156
   servername: redw.pooriam.ir
   skip-cert-verify: false
   tls: false

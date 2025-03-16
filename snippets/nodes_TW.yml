@@ -1,18 +1,11 @@
 proxies:
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 0|🇹🇼2 |  1.3MB/s
-  password: 2c8cfc48-c211-4973-bc95-9d532ac42c35
-  port: 12033
-  server: mdss-tw.04z3susick.download
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 0|🇹🇼3 |  2.5MB/s
-  password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44
-  port: 19019
-  server: yy1.vyunyunnode.top
-  type: ss
+- name: 0|🇹🇼1 |  1.3MB/s
+  password: a68a2cf7-ee43-3e39-9963-542a0fbed5cb
+  port: 21247
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x91.flybar.work
+  type: trojan
   udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
