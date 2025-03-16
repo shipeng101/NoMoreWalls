@@ -1,74 +1,32 @@
 proxies:
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇯🇵1 |  6.4MB/s
-  network: tcp
-  port: 63134
-  reality-opts:
-    public-key: sJyLIpS_6XMDEDhIgr0Xq2yAI8LdUaktWyrUKIVMOSw
-  server: 156.246.89.131
-  servername: www.ebay.com
-  tls: true
-  type: vless
-  uuid: f212a7d3-7175-40bb-bba2-fde5668893e6
-- cipher: aes-128-gcm
-  name: 0|🇯🇵2 |  1.2MB/s
-  password: ec588545-292e-4a11-ada2-d62e599af928
-  port: 24523
-  server: wy.76681f9610f175c6.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 0|🇯🇵3 |  12.4MB/s
-  password: ec588545-292e-4a11-ada2-d62e599af928
-  port: 24520
-  server: wy.76681f9610f175c6.com
-  type: ss
-- client-fingerprint: chrome
-  name: 0|🇯🇵4 |  4.2MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: jp104-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: jp104-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- client-fingerprint: chrome
-  name: 0|🇯🇵5 |  2.9MB/s
+  name: 0|🇯🇵1 |  3.2MB/s
   network: ws
-  port: 2052
-  server: 156.238.18.165
-  skip-cert-verify: false
-  tls: false
+  port: 443
+  server: 20.210.64.11
+  servername: vsdfee.azurewebsites.net
+  skip-cert-verify: true
+  tls: true
   type: vless
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  udp: true
+  uuid: 6f995056-7802-4a1d-bff7-61678e626c3f
   ws-opts:
     headers:
-      Host: redw.pooriam.ir
-    path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
-- cipher: aes-128-gcm
-  name: 0|🇯🇵6 |  15.0MB/s
-  password: ec588545-292e-4a11-ada2-d62e599af928
-  port: 24547
-  server: wy.76681f9610f175c6.com
+      Host: vsdfee.azurewebsites.net
+    path: /
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 0|🇯🇵2 |  6.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.230.142.42
   type: ss
-- cipher: aes-128-gcm
-  name: 0|🇯🇵7 |  1.2MB/s
-  password: ec588545-292e-4a11-ada2-d62e599af928
-  port: 24522
-  server: wy.76681f9610f175c6.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 0|🇯🇵8 |  13.6MB/s
-  password: ec588545-292e-4a11-ada2-d62e599af928
-  port: 24548
-  server: wy.76681f9610f175c6.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 0|🇯🇵9 |  15.3MB/s
-  password: ec588545-292e-4a11-ada2-d62e599af928
-  port: 24521
-  server: wy.76681f9610f175c6.com
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 0|🇯🇵3 |  5.4MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.181.194.77
   type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
@@ -76,7 +34,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503140983506-gBQ0aA7o7i.download.microsoft.com
+    host: 202503140983506-1tyf6s8TzW.download.microsoft.com
     mode: http
   port: 8764
   server: cn01.efan8867801.xyz
@@ -88,7 +46,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503140983506-gBQ0aA7o7i.download.microsoft.com
+    host: 202503140983506-1tyf6s8TzW.download.microsoft.com
     mode: http
   port: 8761
   server: cn01.efan8867801.xyz

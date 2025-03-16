@@ -1,7 +1,35 @@
 proxies:
-- cipher: aes-128-gcm
-  name: 0|🇩🇪1 |  2.6MB/s
-  password: ec588545-292e-4a11-ada2-d62e599af928
-  port: 24531
-  server: wy.76681f9610f175c6.com
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  delay: 1316
+  name: 0|🇩🇪1 |  1.1MB/s
+  password: 7cbfe78195fbf19c
+  port: 11738
+  server: 100.42.182.73
   type: ss
+- cipher: rc4-md5
+  delay: 1394
+  name: 0|🇩🇪2 |  2.1MB/s
+  obfs: plain
+  obfs-param: ''
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  protocol: origin
+  protocol-param: ''
+  server: 193.108.119.230
+  type: ssr
+- client-fingerprint: chrome
+  name: 0,12|SC_speednode_0049
+  network: ws
+  port: 8880
+  server: 154.83.2.156
+  servername: redw.pooriam.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redw.pooriam.ir
+    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560

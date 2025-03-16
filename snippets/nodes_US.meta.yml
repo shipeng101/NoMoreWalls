@@ -1,9 +1,56 @@
 proxies:
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 0|🇺🇸1 |  4.9MB/s
+  password: 2c8cfc48-c211-4973-bc95-9d532ac42c35
+  port: 12028
+  server: mdss-us.04z3susick.download
+  type: ss
+- auth: 88925c12-4222-4ed3-84bd-6bfac300360f
+  delay: 2458
+  name: 0|🇺🇸2 |  4.9MB/s
+  password: 88925c12-4222-4ed3-84bd-6bfac300360f
+  port: 8443
+  server: mg2.gywanglug.xyz
+  skip-cert-verify: false
+  sni: mg2.gywanglug.xyz
+  type: hysteria2
+- auth: 88925c12-4222-4ed3-84bd-6bfac300360f
+  delay: 1942
+  name: 0|🇺🇸3 |  1.2MB/s
+  password: 88925c12-4222-4ed3-84bd-6bfac300360f
+  port: 8443
+  server: mg4.gywanglug.xyz
+  skip-cert-verify: false
+  sni: mg4.gywanglug.xyz
+  type: hysteria2
 - client-fingerprint: chrome
-  name: 0|🇺🇸1 |  4.5MB/s
+  name: 0|🇺🇸4 |  2.3MB/s
   network: ws
-  port: 8880
-  server: 154.83.2.228
+  port: 443
+  server: 31.22.116.18
+  servername: usc.xzncr.asia
+  tls: true
+  type: vless
+  uuid: 704222bd-7eff-4307-ae26-d6a5ab79817a
+  ws-opts:
+    headers:
+      Host: usc.xzncr.asia
+    path: /bing
+- auth: 88925c12-4222-4ed3-84bd-6bfac300360f
+  delay: 2453
+  name: 0|🇺🇸5 |  5.0MB/s
+  password: 88925c12-4222-4ed3-84bd-6bfac300360f
+  port: 8443
+  server: mg5.gywanglug.xyz
+  skip-cert-verify: false
+  sni: mg5.gywanglug.xyz
+  type: hysteria2
+- client-fingerprint: chrome
+  name: 0|🇺🇸6 |  3.1MB/s
+  network: ws
+  port: 2095
+  server: 156.238.18.163
   skip-cert-verify: false
   tls: false
   type: vless
@@ -11,15 +58,38 @@ proxies:
   ws-opts:
     headers:
       Host: redw.pooriam.ir
-    path: /
-- cipher: aes-128-gcm
-  name: 0|🇺🇸2 |  13.8MB/s
-  password: ec588545-292e-4a11-ada2-d62e599af928
-  port: 24536
-  server: wy.76681f9610f175c6.com
+    path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000 Mbps
+  name: 0|🇺🇸7 |  4.4MB/s
+  port: 11512
+  server: 108.181.24.77
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: 1000 Mbps
+- auth: 88925c12-4222-4ed3-84bd-6bfac300360f
+  delay: 2798
+  name: 0|🇺🇸8 |  2.7MB/s
+  password: 88925c12-4222-4ed3-84bd-6bfac300360f
+  port: 8443
+  server: mg7.gywanglug.xyz
+  skip-cert-verify: false
+  sni: mg7.gywanglug.xyz
+  type: hysteria2
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 0|🇺🇸9 |  1.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.236.137.219
   type: ss
 - client-fingerprint: chrome
-  name: 0|🇺🇸3 |  3.4MB/s
+  name: 0|🇺🇸10 |  1.1MB/s
   network: ws
   port: 443
   server: 31.22.116.16
@@ -31,56 +101,23 @@ proxies:
     headers:
       Host: usa.xzncr.asia
     path: /bing
-- cipher: aes-128-gcm
-  name: 0|🇺🇸4 |  3.4MB/s
-  password: ec588545-292e-4a11-ada2-d62e599af928
-  port: 24528
-  server: wy.76681f9610f175c6.com
-  type: ss
-- alterId: '0'
-  cipher: auto
-  name: 0|🇺🇸5 |  1.5MB/s
-  network: tcp
-  port: 40102
-  server: 120.232.153.63
-  type: vmess
-  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|🇺🇸6 |  3.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.236.137.219
-  type: ss
-- cipher: aes-128-gcm
-  name: 0|🇺🇸7 |  1.9MB/s
-  password: ec588545-292e-4a11-ada2-d62e599af928
-  port: 24526
-  server: wy.76681f9610f175c6.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 0|🇺🇸8 |  11.6MB/s
-  password: ec588545-292e-4a11-ada2-d62e599af928
-  port: 24529
-  server: wy.76681f9610f175c6.com
-  type: ss
 - client-fingerprint: chrome
-  ip-version: dual
-  name: 0|🇺🇸9 |  7.4MB/s
-  network: tcp
+  name: 0|🇺🇸11 |  4.2MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
-  server: 51.81.18.62
-  servername: 147135011033.sec21org.com
+  server: ustx004-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: ustx004-cdn-route.couldflare-cdn.com
   tls: true
-  type: vless
-  uuid: 0a44145f-59dc-4e5b-a233-677b97f5114c
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 10|🇺🇸 美国|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503140983506-gBQ0aA7o7i.download.microsoft.com
+    host: 202503140983506-1tyf6s8TzW.download.microsoft.com
     mode: http
   port: 8771
   server: cn01.efan8867801.xyz
@@ -92,7 +129,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503140983506-gBQ0aA7o7i.download.microsoft.com
+    host: 202503140983506-1tyf6s8TzW.download.microsoft.com
     mode: http
   port: 8773
   server: cn01.efan8867801.xyz

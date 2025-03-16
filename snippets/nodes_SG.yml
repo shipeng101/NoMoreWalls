@@ -1,82 +1,40 @@
 proxies:
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 0|🇸🇬1 |  4.3MB/s
-  password: amazonskr05
-  port: 443
-  server: 47.128.154.164
-  type: ss
-- cipher: aes-128-gcm
-  name: 0|🇸🇬2 |  1.8MB/s
-  password: ec588545-292e-4a11-ada2-d62e599af928
-  port: 24514
-  server: wy.76681f9610f175c6.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 0|🇸🇬3 |  14.8MB/s
-  password: ec588545-292e-4a11-ada2-d62e599af928
-  port: 24516
-  server: wy.76681f9610f175c6.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 0|🇸🇬4 |  14.5MB/s
-  password: ec588545-292e-4a11-ada2-d62e599af928
-  port: 24514
-  server: onlycloud.76681f9610f175c6.com
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|🇸🇬5 |  2.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.255.141.129
-  type: ss
-- cipher: aes-128-gcm
-  name: 0|🇸🇬6 |  1.7MB/s
-  password: ec588545-292e-4a11-ada2-d62e599af928
-  port: 24515
-  server: wy.76681f9610f175c6.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 0|🇸🇬7 |  2.4MB/s
-  password: ec588545-292e-4a11-ada2-d62e599af928
-  port: 24518
-  server: wy.76681f9610f175c6.com
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|🇸🇬9 |  3.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.255.183.245
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|🇸🇬10 |  7.6MB/s
+  name: 0|🇸🇬1 |  5.5MB/s
   password: amazonskr05
   port: 443
   server: 54.169.15.9
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 0|🇸🇬11 |  3.3MB/s
+  name: 0|🇸🇬2 |  2.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 47.128.224.249
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 0|🇸🇬3 |  2.0MB/s
   password: amazonskr05
   port: 443
   server: 13.229.89.243
   type: ss
-- cipher: aes-128-gcm
-  name: 0|🇸🇬12 |  2.0MB/s
-  password: ec588545-292e-4a11-ada2-d62e599af928
-  port: 24541
-  server: wy.76681f9610f175c6.com
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 0|🇸🇬4 |  3.1MB/s
+  password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44
+  port: 19088
+  server: yy1.vyunyunnode.top
   type: ss
+  udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 10|🇸🇬 新加坡|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503140983506-gBQ0aA7o7i.download.microsoft.com
+    host: 202503140983506-1tyf6s8TzW.download.microsoft.com
     mode: http
   port: 8722
   server: cn01.efan8867801.xyz
@@ -88,7 +46,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503140983506-gBQ0aA7o7i.download.microsoft.com
+    host: 202503140983506-1tyf6s8TzW.download.microsoft.com
     mode: http
   port: 8724
   server: cn01.efan8867801.xyz
