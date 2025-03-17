@@ -1,76 +1,41 @@
 proxies:
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 0|🇭🇰1 |  2.6MB/s
-  password: TKY51QYEBHOTE1B4
-  port: 15015
-  server: qh62onjn.slashdevslashnetslashtun.net
-  type: ss
-- name: 0|🇭🇰2 |  2.5MB/s
-  password: 8c877bb9-fa09-3c9d-90e9-16a0ff5f420b
-  port: 24603
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z259.hongkongnode.top
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 0|🇭🇰3 |  1.8MB/s
-  password: 7380DLD5A7Y244GZ
-  port: 15007
-  server: 8tv68qhq.slashdevslashnetslashtun.net
-  type: ss
-- name: 0|🇭🇰4 |  1.8MB/s
-  password: 8c877bb9-fa09-3c9d-90e9-16a0ff5f420b
-  port: 20294
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z294.hongkongnode.top
-  type: trojan
-  udp: true
-- name: 0|🇭🇰5 |  4.3MB/s
-  password: 8c877bb9-fa09-3c9d-90e9-16a0ff5f420b
-  port: 20279
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z279.hongkongnode.top
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 0|🇭🇰6 |  2.7MB/s
-  password: TZ36B3HM7NKOPUY7
-  port: 15011
-  server: qh62onjn.slashdevslashnetslashtun.net
-  type: ss
-- name: 0|🇭🇰7 |  4.7MB/s
-  password: 8c877bb9-fa09-3c9d-90e9-16a0ff5f420b
-  port: 22741
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: dufu.hongkongnode.top
-  type: trojan
-  udp: true
-- name: 0|🇭🇰8 |  1.4MB/s
-  password: 8c877bb9-fa09-3c9d-90e9-16a0ff5f420b
+- name: 0|🇭🇰1 |  3.5MB/s
+  password: bf511293-a900-3a9c-a255-339085c87c12
   port: 20278
   server: gy.58n.net
   skip-cert-verify: true
   sni: z278.hongkongnode.top
   type: trojan
   udp: true
-- cipher: aes-256-gcm
-  name: 0|🇭🇰10 |  2.5MB/s
-  password: 40H6T3FVQPRRPZZJ
-  port: 15003
-  server: 8tv68qhq.slashdevslashnetslashtun.net
-  type: ss
-- name: 0|🇭🇰11 |  6.1MB/s
+- name: 0|🇭🇰2 |  5.8MB/s
+  password: bf511293-a900-3a9c-a255-339085c87c12
+  port: 20279
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z279.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 0|🇭🇰3 |  6.1MB/s
+  password: bf511293-a900-3a9c-a255-339085c87c12
+  port: 24603
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z259.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 0|🇭🇰4 |  2.8MB/s
   password: 64f4f8e7-cf41-4e53-b123-5e8e9f27defa
   port: 12221
   server: 120.198.71.173
   skip-cert-verify: true
   sni: mmbiz.redapricotcloud.com
   type: trojan
+- cipher: aes-256-gcm
+  name: 0|🇭🇰5 |  1.4MB/s
+  password: 40H6T3FVQPRRPZZJ
+  port: 15003
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  type: ss
 - client-fingerprint: chrome
   name: 10|🇭🇰 香港|@ripaojiedian
   network: ws

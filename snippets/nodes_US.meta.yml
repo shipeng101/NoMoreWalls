@@ -1,170 +1,159 @@
 proxies:
-- client-fingerprint: chrome
-  name: 0|🇺🇸1 |  5.2MB/s
-  password: 6qREZzexS5BDqFaSyzlwlBYXT8CDYOpcDIaeYaAC3X940A73OceAaRR32C3Sx6w9xgyCS
-  port: 443
-  server: phooey.taiwanesefood.link
-  sni: phooey.taiwanesefood.link
-  type: trojan
-- client-fingerprint: chrome
-  name: 0|🇺🇸2 |  1.0MB/s
-  network: ws
-  port: 80
-  server: 104.24.9.204
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: ca68a029-971c-4ea4-8c1d-411cb7adc474
-  ws-opts:
-    headers:
-      Host: patient-sunset-f000-ppal03.cijej53213.workers.dev
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 0,12|NL_speednode_0029
-  network: ws
-  port: 2052
-  server: 45.149.12.183
-  servername: redw.pooriam.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /TABRIZ.NET@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  client-fingerprint: chrome
-  down: 55 Mbps
-  name: 0|🇺🇸4 |  2.4MB/s
-  port: 17549
-  server: 208.87.243.151
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
-  up: 11 Mbps
-- client-fingerprint: chrome
-  name: 0|🇺🇸5 |  1.5MB/s
-  password: SZAaY0CIRDey6OCSpS3Dl3F2nnDTYFqRS8aClceOwAyTwy39XxDz4FYXZO3AxRaEz2SlN
-  port: 443
-  server: dessert.taiwanesefood.link
-  sni: dessert.taiwanesefood.link
-  type: trojan
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|🇺🇸6 |  1.1MB/s
-  obfs: plain
-  password: amazonskr05
-  port: 443
-  protocol: origin
-  server: 35.91.216.191
-  type: ssr
-- client-fingerprint: chrome
-  name: 0|🇺🇸7 |  4.2MB/s
-  network: ws
-  port: 8880
-  server: 185.146.173.112
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: f6bd2c47-99da-4bca-bf70-7186aa9e7e06
-  ws-opts:
-    headers:
-      Host: photographipictureai.ir
-    path: /Telegram
-- client-fingerprint: chrome
-  name: 0|🇺🇸8 |  4.7MB/s
-  network: ws
-  port: 443
-  server: 31.22.116.16
-  servername: usa.xzncr.asia
-  tls: true
-  type: vless
-  uuid: 433f4c30-7b28-4d4e-b573-a6624231700a
-  ws-opts:
-    headers:
-      Host: usa.xzncr.asia
-    path: /bing
-- name: 0|🇺🇸9 |  3.0MB/s
-  password: 8c877bb9-fa09-3c9d-90e9-16a0ff5f420b
-  port: 25238
+- name: 0|🇺🇸1 |  2.5MB/s
+  password: bf511293-a900-3a9c-a255-339085c87c12
+  port: 20308
   server: gy.58n.net
   skip-cert-verify: true
-  sni: z267.hongkongnode.top
+  sni: z308.hongkongnode.top
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇺🇸10 |  1.3MB/s
-  network: tcp
-  port: 33718
-  reality-opts:
-    public-key: g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14
-  server: 31.59.111.49
-  servername: icloud.cdn-apple.com
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e657e5fb-c417-4d3f-d84e-a3a8f010f9fa
-- cipher: aes-256-cfb
+- cipher: aes-128-cfb
   client-fingerprint: chrome
-  name: 0|🇺🇸11 |  2.5MB/s
-  password: amazonskr05
+  name: 0|🇺🇸2 |  5.2MB/s
+  obfs: plain
+  password: shadowsocks
   port: 443
-  server: 54.218.61.43
-  type: ss
-- name: 0|🇺🇸12 |  4.8MB/s
-  password: 8c877bb9-fa09-3c9d-90e9-16a0ff5f420b
+  protocol: origin
+  server: 184.170.241.194
+  type: ssr
+- name: 0|🇺🇸3 |  5.3MB/s
+  password: bf511293-a900-3a9c-a255-339085c87c12
   port: 20305
   server: gy.58n.net
   skip-cert-verify: true
   sni: z305.hongkongnode.top
   type: trojan
   udp: true
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 0|🇺🇸14 |  2.3MB/s
-  password: T0YUT35OFEW8BFL6
-  port: 17003
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  type: ss
-- name: 0|🇺🇸15 |  2.4MB/s
-  password: 8c877bb9-fa09-3c9d-90e9-16a0ff5f420b
-  port: 20295
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z295.hongkongnode.top
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 0|🇺🇸16 |  2.8MB/s
-  password: gyDw5KSa9D4ReNSYxnI8Z6zO8llAA53CFRKpCjpx6YjRDlwF3aeX3Oa2DCA37BeTzygaI
-  port: 443
-  server: product.wireshop.net
-  sni: product.wireshop.net
-  type: trojan
-- client-fingerprint: chrome
-  name: 0|🇺🇸17 |  1.9MB/s
+- name: 0|🇺🇸4 |  1.1MB/s
   network: tcp
   port: 443
-  server: 192.9.236.144
-  servername: 147135004002.sec20org.com
+  server: 15.204.151.74
+  servername: 147135010072.sec21org.com
+  skip-cert-verify: true
   tls: true
   type: vless
-  uuid: 54694a33-a8dc-47dd-bc38-acd3971e0055
-- name: 0|🇺🇸18 |  2.4MB/s
-  password: 8c877bb9-fa09-3c9d-90e9-16a0ff5f420b
-  port: 20306
+  udp: true
+  uuid: c4fa89d4-fcb9-48ba-adbc-665181cc817f
+- name: 0|🇺🇸5 |  1.1MB/s
+  password: bf511293-a900-3a9c-a255-339085c87c12
+  port: 20296
   server: gy.58n.net
   skip-cert-verify: true
-  sni: z306.hongkongnode.top
+  sni: z296.hongkongnode.top
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸6 |  5.5MB/s
+  network: ws
+  port: 443
+  server: glweidf.cfd
+  servername: glweidf.cfd
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
+  ws-opts:
+    headers:
+      Host: glweidf.cfd
+    path: /linkws
+- name: 0|🇺🇸7 |  1.2MB/s
+  password: bf511293-a900-3a9c-a255-339085c87c12
+  port: 20304
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z304.hongkongnode.top
+  type: trojan
+  udp: true
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000 Mbps
+  name: 0|🇺🇸8 |  5.1MB/s
+  port: 17549
+  server: 208.87.243.151
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  up: 1000 Mbps
+- name: 0|🇺🇸9 |  5.0MB/s
+  password: bf511293-a900-3a9c-a255-339085c87c12
+  port: 30767
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z61.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 0|🇺🇸10 |  2.2MB/s
+  password: YCz0uZ484pjDCFyKqRZ3823SqxDXEBSwNnNYlay3yeuDaA0aISDR533eFglaaOTO3lF8A
+  port: 443
+  server: garland.taiwanesefood.link
+  sni: garland.taiwanesefood.link
+  type: trojan
+- name: 0|🇺🇸11 |  5.8MB/s
+  password: bf511293-a900-3a9c-a255-339085c87c12
+  port: 16895
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x40.flybar.work
+  type: trojan
+  udp: true
+- name: 0|🇺🇸12 |  5.6MB/s
+  password: bf511293-a900-3a9c-a255-339085c87c12
+  port: 20302
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z302.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 0|🇺🇸13 |  3.3MB/s
+  password: bf511293-a900-3a9c-a255-339085c87c12
+  port: 11215
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z268.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 0|🇺🇸14 |  5.6MB/s
+  password: bf511293-a900-3a9c-a255-339085c87c12
+  port: 20288
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z288.hongkongnode.top
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 0|🇺🇸15 |  1.4MB/s
+  network: ws
+  port: 2095
+  server: 104.18.21.69
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: fuckingxijinping.xijinpingbigsb.workers.dev
+    path: /?ed=2560
+- name: 0|🇺🇸16 |  3.4MB/s
+  network: ws
+  password: 85950277-f447-48f0-9ead-aaf6d5ff3cad
+  port: 443
+  server: 104.21.34.159
+  skip-cert-verify: false
+  sni: df6xxxx.2031.pp.ua
+  type: trojan
+  ws-opts:
+    headers:
+      Host: df6xxxx.2031.pp.ua
+    path: /I4L1BP2DQVYmx5NYQ76MGGq
+- name: 0|🇺🇸17 |  5.9MB/s
+  password: DzOZFu87ZC2AaX6TYy49AxX8zBCAZYDSjyTyDBeDS3CRjlwaF3cep28SOS33AqeYpEF0I
+  port: 443
+  server: landder.wireshop.net
+  sni: landder.wireshop.net
+  type: trojan
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 10|🇺🇸 美国|@ripaojiedian

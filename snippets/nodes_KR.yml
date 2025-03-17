@@ -1,18 +1,18 @@
 proxies:
-- name: 0|🇰🇷1 |  6.1MB/s
-  password: 8c877bb9-fa09-3c9d-90e9-16a0ff5f420b
+- name: 0|🇰🇷1 |  5.6MB/s
+  password: bf511293-a900-3a9c-a255-339085c87c12
   port: 45168
   server: gy.58n.net
   skip-cert-verify: true
   sni: z263.hongkongnode.top
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: 0|🇰🇷2 |  2.7MB/s
-  password: amazonskr05
+- name: 0|🇰🇷2 |  2.7MB/s
+  password: SECCzF5l3xeFN6z76DyuKZ83wTS4gBClpOARp83glBnqXjaI78nZp2eReSXxCY9SlDDFa
   port: 443
-  server: 3.36.51.187
-  type: ss
+  server: spirit.koreanbbq.link
+  sni: spirit.koreanbbq.link
+  type: trojan
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 10|🇰🇷 韩国特殊|@ripaojiedian

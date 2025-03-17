@@ -1,52 +1,31 @@
 proxies:
-- client-fingerprint: chrome
-  name: 0|🇹🇼1 |  6.1MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: tw1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: tw1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: 0|🇹🇼2 |  4.8MB/s
-  password: 7pE3OSjFe9xFey8YyCgaIaz3Zu2CORpananc34DRlgSyO83XTyNjC4xAIue30YKFCCDlx
-  port: 443
-  server: sohtsa.taiwanesefood.link
-  sni: sohtsa.taiwanesefood.link
-  type: trojan
-- name: 0|🇹🇼3 |  2.9MB/s
-  password: 8c877bb9-fa09-3c9d-90e9-16a0ff5f420b
-  port: 36821
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z262.hongkongnode.top
-  type: trojan
-  udp: true
-- name: 0|🇹🇼4 |  1.0MB/s
-  password: 8c877bb9-fa09-3c9d-90e9-16a0ff5f420b
+- name: 0|🇹🇼1 |  6.3MB/s
+  password: bf511293-a900-3a9c-a255-339085c87c12
   port: 33323
   server: gy.58n.net
   skip-cert-verify: true
   sni: z261.hongkongnode.top
   type: trojan
   udp: true
-- cipher: aes-128-gcm
-  name: 0|🇹🇼5 |  2.0MB/s
-  password: 3946ff88-2d5c-4cb4-b06b-3375d90a6a6b
-  port: 12032
-  server: mdss-tw.04z3susick.download
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 0|🇹🇼6 |  3.5MB/s
-  password: 3946ff88-2d5c-4cb4-b06b-3375d90a6a6b
-  port: 12033
-  server: mdss-tw.04z3susick.download
-  type: ss
-- cipher: aes-128-gcm
-  name: 0|🇹🇼7 |  3.4MB/s
-  password: 3946ff88-2d5c-4cb4-b06b-3375d90a6a6b
-  port: 12034
-  server: mdss-tw.04z3susick.download
-  type: ss
+- name: 0|🇹🇼2 |  6.2MB/s
+  password: bf511293-a900-3a9c-a255-339085c87c12
+  port: 36821
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z262.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 0|🇹🇼3 |  2.9MB/s
+  password: 7pE3OSjFe9xFey8YyCgaIaz3Zu2CORpananc34DRlgSyO83XTyNjC4xAIue30YKFCCDlx
+  port: 443
+  server: sohtsa.taiwanesefood.link
+  sni: sohtsa.taiwanesefood.link
+  type: trojan
+- name: 0|🇹🇼4 |  5.8MB/s
+  password: bf511293-a900-3a9c-a255-339085c87c12
+  port: 21247
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x91.flybar.work
+  type: trojan
+  udp: true
