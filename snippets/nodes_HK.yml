@@ -1,17 +1,6 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 0|🇭🇰1 |  4.8MB/s
-  network: ws
-  port: 22016
-  server: 45.144.174.90
-  tls: false
-  type: vmess
-  uuid: 41657114-7fdd-4dfb-b905-f92227e757f5
-  ws-opts:
-    headers: {}
-    path: /
-- name: 0|🇭🇰3 |  1.7MB/s
+- client-fingerprint: chrome
+  name: 0|🇭🇰1 |  6.1MB/s
   password: 64f4f8e7-cf41-4e53-b123-5e8e9f27defa
   port: 12221
   server: 120.198.71.173
