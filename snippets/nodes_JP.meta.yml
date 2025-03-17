@@ -1,82 +1,20 @@
 proxies:
-- name: 0|🇯🇵1 |  3.1MB/s
-  password: Au8FD7eTewSu46Y3xa90ZB3YxeYg3COORSapYaRl4DEDIl3A9Z8yCDj8gnyACSxSKx3Z6
-  port: 28335
-  server: derrick.meijireform.com
-  sni: derrick.meijireform.com
-  type: trojan
-- name: 0|🇯🇵2 |  4.4MB/s
-  password: bf511293-a900-3a9c-a255-339085c87c12
-  port: 20139
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z139.hongkongnode.top
-  type: trojan
-  udp: true
-- name: 0|🇯🇵3 |  6.0MB/s
+- client-fingerprint: chrome
+  name: 0|🇯🇵1 |  6.0MB/s
   password: FeCOjFDq3aXx8BD39R2O4zxSxNDY3R4zl3x6K2SZaZY3ElTRaO5EeR08yNnSI0Zew9lyC
   port: 443
   server: mailbox.meijireform.com
   sni: mailbox.meijireform.com
   type: trojan
-- cipher: aes-256-cfb
-  name: 0|🇯🇵4 |  6.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.182.5.123
-  type: ss
-- name: 0|🇯🇵5 |  6.2MB/s
-  password: bf511293-a900-3a9c-a255-339085c87c12
-  port: 20142
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z142.hongkongnode.top
-  type: trojan
-  udp: true
-- name: 0|🇯🇵6 |  5.1MB/s
+- client-fingerprint: chrome
+  name: 0|🇯🇵2 |  6.1MB/s
   password: p0axgx3pXT6yjp4SwSRaaYeCDxCFOFaAlRYDNaRjF8OycXn3ZE3ABaYgnDIx3Eeq9C0ce
   port: 443
   server: huzzah.meijireform.com
   sni: huzzah.meijireform.com
   type: trojan
-- name: 0|🇯🇵7 |  1.1MB/s
-  password: bf511293-a900-3a9c-a255-339085c87c12
-  port: 41767
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x114.flybar.work
-  type: trojan
-  udp: true
-- name: 0|🇯🇵8 |  5.8MB/s
-  password: bf511293-a900-3a9c-a255-339085c87c12
-  port: 20298
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z298.hongkongnode.top
-  type: trojan
-  udp: true
-- name: 0|🇯🇵10 |  2.1MB/s
-  password: bf511293-a900-3a9c-a255-339085c87c12
-  port: 20076
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x76.flybar.work
-  type: trojan
-  udp: true
-- name: 0|🇯🇵11 |  5.9MB/s
-  password: Aa3xCDR7DZa4YxNSKxCye3OR8xCzepYlY47COSwaFplTYjRDDl6nDAE9AZS0wZF2cRy5X
-  port: 18331
-  server: compost.meijireform.com
-  sni: compost.meijireform.com
-  type: trojan
-- cipher: aes-256-cfb
-  name: 0|🇯🇵12 |  6.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 43.207.150.238
-  type: ss
 - client-fingerprint: chrome
-  name: 0|🇯🇵13 |  2.4MB/s
+  name: 0|🇯🇵3 |  6.2MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
   server: jp104-cdn-route.couldflare-cdn.com
@@ -85,79 +23,20 @@ proxies:
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: 0|🇯🇵14 |  6.1MB/s
-  password: bf511293-a900-3a9c-a255-339085c87c12
-  port: 54178
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x115.flybar.work
-  type: trojan
-  udp: true
 - client-fingerprint: chrome
-  name: 0|🇯🇵15 |  6.1MB/s
+  name: 0|🇯🇵4 |  5.7MB/s
   password: 9wSlq29Ta3DD633lCcXzFe3qAa3AyC8eO7T7RaFayZRYF3z43ExZuYaEjS0XppgAOg4BC
   port: 28334
   server: boohoo.meijireform.com
   sni: boohoo.meijireform.com
   type: trojan
-- cipher: aes-256-cfb
-  name: 0|🇯🇵16 |  4.8MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.179.8.12
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|🇯🇵17 |  1.7MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.95.26.81
-  type: ss
 - client-fingerprint: chrome
-  name: 0|🇯🇵18 |  4.0MB/s
-  password: 32aFSDKwjFRcASN6DyAF9eqZ07D3OauYTYgxXBI50Tgy8Oxp8N3KAFDaOn3ZDYE334SEC
+  name: 0|🇯🇵5 |  1.2MB/s
+  password: Au8FD7eTewSu46Y3xa90ZB3YxeYg3COORSapYaRl4DEDIl3A9Z8yCDj8gnyACSxSKx3Z6
   port: 28335
-  server: kuam.meijireform.com
-  sni: kuam.meijireform.com
+  server: derrick.meijireform.com
+  sni: derrick.meijireform.com
   type: trojan
-- cipher: aes-256-cfb
-  name: 0|🇯🇵19 |  3.4MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.230.168.61
-  type: ss
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 0|🇯🇵20 |  2.9MB/s
-  network: ws
-  port: 443
-  server: vsdfee.azurewebsites.net
-  servername: vsdfee.azurewebsites.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6f995056-7802-4a1d-bff7-61678e626c3f
-  ws-opts:
-    path: /
-- cipher: aes-256-cfb
-  name: 0|🇯🇵21 |  5.3MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.230.142.42
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|🇯🇵22 |  6.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 52.68.10.224
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|🇯🇵23 |  6.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.199.239.230
-  type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 10|🇯🇵 日本|@ripaojiedian
