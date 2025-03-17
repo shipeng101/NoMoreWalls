@@ -1,1 +1,14 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 0|🇷🇺2 |  1.8MB/s
+  network: ws
+  port: 22008
+  server: 46.17.43.122
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a0e07e81-4bb3-4e43-9bd9-85f79a702519
+  ws-opts:
+    path: /

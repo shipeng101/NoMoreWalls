@@ -1,80 +1,86 @@
 proxies:
+- name: 0|🇸🇬2 |  2.9MB/s
+  password: DEzpFlNpZCTT7RyZzuAYSnDxA33SyClFpyY3RYaS3O2q8gEXA8lO90xDaAw2YjpBC7cx0
+  port: 18331
+  server: orlang.protocolbuffer.com
+  sni: orlang.protocolbuffer.com
+  type: trojan
+- name: 0|🇸🇬3 |  2.4MB/s
+  password: 8c877bb9-fa09-3c9d-90e9-16a0ff5f420b
+  port: 20129
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x129.flybar.work
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
-  name: 0|🇸🇬1 |  3.0MB/s
+  name: 0|🇸🇬4 |  2.0MB/s
   password: amazonskr05
   port: 443
-  server: 13.229.89.243
+  server: 13.215.250.172
   type: ss
+- name: 0|🇸🇬5 |  1.1MB/s
+  password: 8c877bb9-fa09-3c9d-90e9-16a0ff5f420b
+  port: 30712
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x83.flybar.work
+  type: trojan
+  udp: true
+- name: 0|🇸🇬6 |  6.0MB/s
+  password: 3gSFTSaSFB29S37DD3D6ne6q93nOCZz4FxYYpRacjp0ITRyRSc24AZypZCll88DXuaCDl
+  port: 28332
+  server: morlin.protocolbuffer.com
+  sni: morlin.protocolbuffer.com
+  type: trojan
+- name: 0|🇸🇬7 |  1.8MB/s
+  password: 8c877bb9-fa09-3c9d-90e9-16a0ff5f420b
+  port: 20130
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x130.flybar.work
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 0,10|🇸🇬 新加坡3|@ripaojiedian
-  network: ws
-  port: 46019
-  server: fadawtawd.zhangwei.li
+  name: 0,10|🇸🇬 新加坡2|@ripaojiedian
+  port: 11003
+  server: bgp1.bgp1.miaomiaowu114514.org
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
-  ws-opts:
-    headers:
-      Host: fadawtawd.zhangwei.li
-    path: /zh-cn
-- cipher: aes-256-cfb
-  name: 0|🇸🇬5 |  1.8MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.255.141.129
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|🇸🇬6 |  5.9MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.254.93.88
-  type: ss
+  uuid: 035374e8-60ff-34b3-9e7a-cca4cce31013
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 0|🇸🇬7 |  6.1MB/s
+  name: 0|🇸🇬9 |  1.5MB/s
   password: amazonskr05
   port: 443
-  server: 47.128.242.43
+  server: 47.129.37.231
   type: ss
-- cipher: rc4-md5
+- client-fingerprint: chrome
+  name: 0|🇸🇬10 |  5.2MB/s
+  password: ZYYSlSORYq6KXDCpCS3XC4zRnK73BDzIp0FaNynya9Dg5AEAeOgDaaFFO3e8w5NZ3Bexw
+  port: 443
+  server: handgun.protocolbuffer.com
+  sni: handgun.protocolbuffer.com
+  type: trojan
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 10|🇸🇬 新加坡|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202503161140460-Ypmr7Skyy1.download.microsoft.com
-    mode: http
-  port: 8722
-  server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 10|🇸🇬 新加坡2|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202503161140460-Ypmr7Skyy1.download.microsoft.com
-    mode: http
-  port: 8724
-  server: cn01.efan8867801.xyz
+  name: 10|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 3.0.54.96
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  name: 11|新加坡3|@ripaojiedian
-  network: ws
-  port: '46019'
-  server: fadawtawd.zhangwei.li
+  name: 11|新加坡2|@ripaojiedian
+  network: tcp
+  port: '11003'
+  server: bgp1.bgp1.miaomiaowu114514.org
   servername: ''
   tls: false
   type: vmess
-  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn
+  uuid: 035374e8-60ff-34b3-9e7a-cca4cce31013
