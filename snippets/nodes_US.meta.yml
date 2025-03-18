@@ -1,8 +1,45 @@
 proxies:
-- name: 0|🇺🇸1 |  4.9MB/s
+- delay: 800
+  name: 0|🇺🇸1 |  1.5MB/s
+  password: 2OnySp6YC3SZcF32XACEjlD5aDOqx9SeR6yRFDwEXAu3Fc8w3Z3Y4AqZ0OSzlN8NCeYIA
+  port: 28333
+  server: bathtub.homeofbrave.net
+  sni: bathtub.homeofbrave.net
+  type: trojan
+- client-fingerprint: chrome
+  name: 0|🇺🇸2 |  2.2MB/s
+  password: Z63nDySe3DCDI3DEx3EKx9zB03qA6D6x8SqYOSIBBaylC8OyluD3aaSaI4S8aj3leaY8lx2YqCgl0Y3
+  port: 28331
+  server: curtain.homeofbrave.net
+  sni: curtain.homeofbrave.net
+  type: trojan
+- delay: 965
+  name: 0|🇺🇸3 |  1.9MB/s
+  password: CAlpl3ZOpDFaS9E6Se0plFxu2x3I4eACOcqZSaY3ReS6CjZSCTNKDgEF73TDZ2aB9D3nD
+  port: 443
+  server: soldier.homeofbrave.net
+  sni: soldier.homeofbrave.net
+  type: trojan
+- alterId: 2
+  cipher: auto
+  name: 0|🇺🇸4 |  2.1MB/s
+  network: ws
+  port: 23615
+  server: 15.mamamajd.site
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 73a827eb-271f-378e-8d39-da04a598b6af
+  ws-opts:
+    headers:
+      Host: 15.mamamajd.site
+    path: /
+- name: 0|🇺🇸5 |  2.5MB/s
   network: ws
   port: 443
-  server: 135.84.76.110
+  server: 63.141.128.140
   servername: nb1.bgm2024.us.kg
   skip-cert-verify: true
   tls: true
@@ -13,45 +50,60 @@ proxies:
     headers:
       Host: nb1.bgm2024.us.kg
     path: /?ed=2560
-- name: 0|🇺🇸2 |  2.0MB/s
+- name: 0|🇺🇸6 |  3.1MB/s
+  password: DRcZI69gOAAZF8AeeAle2FSpRXFCSppOBu3RSqT0Z74O6NuOy3CcwCyDSa3aYxxwypDEY
+  port: 28339
+  server: walrus.missionsec.io
+  sni: walrus.missionsec.io
+  type: trojan
+- alterId: '0'
+  cipher: auto
+  name: 0|🇺🇸7 |  1.1MB/s
   network: tcp
-  port: 443
-  server: 15.204.151.74
-  servername: 147135010072.sec21org.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c4fa89d4-fcb9-48ba-adbc-665181cc817f
-- name: 0|🇺🇸3 |  2.8MB/s
+  port: 31998
+  server: 120.234.102.229
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- client-fingerprint: chrome
+  name: 0|🇺🇸8 |  1.9MB/s
   network: ws
-  port: 5008
-  server: 45.154.98.211
-  servername: nb1.bgm2024.us.kg
-  skip-cert-verify: true
-  tls: true
+  port: 2095
+  server: 104.18.21.69
+  skip-cert-verify: false
+  tls: false
   type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
-      Host: nb1.bgm2024.us.kg
+      Host: fuckingxijinping.xijinpingbigsb.workers.dev
     path: /?ed=2560
-- name: 0|🇺🇸4 |  2.4MB/s
-  network: ws
-  port: 443
-  server: 63.141.128.96
-  servername: nb1.bgm2024.us.kg
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000 Mbps
+  name: 0|🇺🇸9 |  2.3MB/s
+  port: 11512
+  server: 108.181.24.77
   skip-cert-verify: true
-  tls: true
-  type: vless
+  sni: apple.com
+  type: hysteria
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: nb1.bgm2024.us.kg
-    path: /?ed=2560
-- name: 0|🇺🇸5 |  5.3MB/s
+  up: 1000 Mbps
+- name: 0|🇺🇸10 |  4.3MB/s
+  password: lBSSFOalI3yXZDOAwADg9a8zTCexE6pjxeX4D3a0FgSSYRqlCyCOYcz83w3aYR3cTZDF8
+  port: 443
+  server: length.wireshop.net
+  sni: length.wireshop.net
+  type: trojan
+- client-fingerprint: chrome
+  name: 0|🇺🇸11 |  1.7MB/s
+  password: 6COpljDaSNl2wy8BaFCK3FncI4yOYAZYxRZAxe3uCaDqS3R8ezD0T9g357pESX
+  port: 443
+  server: privacy.taiwanesefood.link
+  sni: privacy.taiwanesefood.link
+  type: trojan
+- name: 0|🇺🇸12 |  1.9MB/s
   network: ws
   port: 443
   server: 185.16.110.107
@@ -65,35 +117,7 @@ proxies:
     headers:
       Host: nb1.bgm2024.us.kg
     path: /?ed=2560
-- name: 0|🇺🇸6 |  2.4MB/s
-  network: ws
-  port: 443
-  server: 192.200.160.99
-  servername: nb1.bgm2024.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: nb1.bgm2024.us.kg
-    path: /?ed=2560
-- name: 0|🇺🇸7 |  1.8MB/s
-  network: ws
-  port: 443
-  server: 185.133.35.217
-  servername: nb1.bgm2024.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: nb1.bgm2024.us.kg
-    path: /?ed=2560
-- name: 0|🇺🇸8 |  1.5MB/s
+- name: 0|🇺🇸13 |  1.2MB/s
   network: ws
   port: 443
   server: 45.67.215.117
@@ -107,10 +131,50 @@ proxies:
     headers:
       Host: nb1.bgm2024.us.kg
     path: /?ed=2560
-- name: 0|🇺🇸9 |  2.7MB/s
+- delay: 1154
+  name: 0|🇺🇸14 |  1.3MB/s
+  password: jnaO0CFYpYExOygqlESRplzewIaKSFpBaqXy3YX4xBC8KK9ja94Y4S8aS7zjq96XSxO7CDu5BCYFCZg
+  port: 443
+  server: lnitak.starspace.link
+  sni: lnitak.starspace.link
+  type: trojan
+- alterId: 0
+  client-fingerprint: chrome
+  name: 0|🇺🇸15 |  2.2MB/s
+  password: 6d0a7f2f-c26c-466a-8f90-d6630ba97928
+  port: 443
+  server: 64.23.162.126
+  skip-cert-verify: true
+  sni: 829D7BDE-64B9-E759-C661-78BC73E582A0.1c2871ba-6025-61e2-e87f-a5c9e0ac8c1d.9d8f269f96b25232-759cbb36d6548597.kaufen
+  type: trojan
+  udp: true
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  client-fingerprint: chrome
+  down: 55 Mbps
+  name: 0|🇺🇸16 |  2.8MB/s
+  port: 17549
+  server: 208.87.243.151
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  up: 11 Mbps
+- client-fingerprint: chrome
+  ip-version: dual
+  name: 0|🇺🇸17 |  2.3MB/s
+  password: 6d0a7f2f-c26c-466a-8f90-d6630ba97928
+  port: 443
+  server: 137.184.120.86
+  skip-cert-verify: true
+  sni: 829D7BDE-64B9-E759-C661-78BC73E582A0.1c2871ba-6025-61e2-e87f-a5c9e0ac8c1d.9d8f269f96b25232-759cbb36d6548597.kaufen
+  type: trojan
+  udp: true
+- name: 0|🇺🇸18 |  1.2MB/s
   network: ws
-  port: 39519
-  server: 66.225.194.82
+  port: 443
+  server: 185.133.35.217
   servername: nb1.bgm2024.us.kg
   skip-cert-verify: true
   tls: true
@@ -121,10 +185,17 @@ proxies:
     headers:
       Host: nb1.bgm2024.us.kg
     path: /?ed=2560
-- name: 0|🇺🇸10 |  4.2MB/s
+- delay: 1355
+  name: 0|🇺🇸19 |  1.6MB/s
+  password: SZAaY0CIRDey6OCSpS3Dl3F2nnDTYFqRS8aClceOwAyTwy39XxDz4FYXZO3AxRaEz2SlN
+  port: 443
+  server: dessert.taiwanesefood.link
+  sni: dessert.taiwanesefood.link
+  type: trojan
+- name: 0|🇺🇸20 |  1.8MB/s
   network: ws
-  port: 41003
-  server: 158.101.154.245
+  port: 443
+  server: 135.84.76.110
   servername: nb1.bgm2024.us.kg
   skip-cert-verify: true
   tls: true
@@ -135,13 +206,62 @@ proxies:
     headers:
       Host: nb1.bgm2024.us.kg
     path: /?ed=2560
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇺🇸21 |  3.8MB/s
+  network: tcp
+  port: 33718
+  reality-opts:
+    public-key: g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14
+  server: 31.59.111.49
+  servername: icloud.cdn-apple.com
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e657e5fb-c417-4d3f-d84e-a3a8f010f9fa
+- name: 0|🇺🇸22 |  4.9MB/s
+  network: ws
+  port: 443
+  server: 140.238.212.95
+  servername: nb1.bgm2024.us.kg
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: nb1.bgm2024.us.kg
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 0|🇺🇸23 |  5.8MB/s
+  password: gyDw5KSa9D4ReNSYxnI8Z6zO8llAA53CFRKpCjpx6YjRDlwF3aeX3Oa2DCA37BeTzygaI
+  port: 443
+  server: product.wireshop.net
+  sni: product.wireshop.net
+  type: trojan
+- client-fingerprint: chrome
+  name: 0|🇺🇸24 |  3.8MB/s
+  password: 3wXO97Y83a9ynFAgyajxxpz6qeSSCu6z3C3RDwTNYcDZyCAFglBE3ANDFA0e7SFaIlDOq
+  port: 443
+  server: socepy.homeofbrave.net
+  sni: socepy.homeofbrave.net
+  type: trojan
+- delay: 818
+  name: 0|🇺🇸25 |  2.2MB/s
+  password: Yyjyl3Fwy6pSjTYSaCxg7Z0COIwBYxN38FwC3YBz44678OAypA87p2CEe53SaKel3pCDSZCZaeSaaZS
+  port: 28335
+  server: printer.wireshop.net
+  sni: printer.wireshop.net
+  type: trojan
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 10|🇺🇸 美国|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503161140460-Ypmr7Skyy1.download.microsoft.com
+    host: 202503170996717-wD0t0Kc8NT.download.microsoft.com
     mode: http
   port: 8771
   server: cn01.efan8867801.xyz
@@ -153,12 +273,21 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503161140460-Ypmr7Skyy1.download.microsoft.com
+    host: 202503170996717-wD0t0Kc8NT.download.microsoft.com
     mode: http
   port: 8773
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
+- client-fingerprint: chrome
+  name: 10,11|美国3|@ripaojiedian
+  network: tcp
+  password: 8cwxYqlSeC4Xw8KOApT3SxCIX69eZ7zBNZDE0Dap3y9AZTFBFlD5a2euA7A3YzR2DpSyI
+  port: 443
+  server: bedsheet.homeofbrave.net
+  skip-cert-verify: true
+  sni: bedsheet.homeofbrave.net
+  type: trojan
 - name: 12|US_speednode_0056
   network: ws
   port: 80
