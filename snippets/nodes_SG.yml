@@ -1,11 +1,11 @@
 proxies:
-- client-fingerprint: chrome
-  name: 0|🇸🇬1 |  5.8MB/s
-  password: S5pRBSp8O3Ej7lCKxRDqDaZS32pu39FgaFRIAZ3la3a6SFeYgCC9874Xe8O63TCyDw3nn
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 0|🇸🇬3 |  4.4MB/s
+  password: amazonskr05
   port: 443
-  server: valance.protocolbuffer.com
-  sni: valance.protocolbuffer.com
-  type: trojan
+  server: 47.129.39.129
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
