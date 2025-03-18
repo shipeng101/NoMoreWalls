@@ -1,27 +1,4 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  name: 0|🇹🇼1 |  5.5MB/s
-  network: ws
-  port: 23619
-  server: 19.mamamajd.site
-  skip-cert-verify: true
-  tfo: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 73a827eb-271f-378e-8d39-da04a598b6af
-  ws-opts:
-    headers:
-      Host: 19.mamamajd.site
-    path: /
-- client-fingerprint: chrome
-  name: 0|🇹🇼2 |  1.5MB/s
-  password: ZZKC9RDCeClE87u3D0NZ3xSRgAD8B3aSI3YOaDjFjR2aTqy6enpS6Fw4Y3unXpK9aAgAz
-  port: 28332
-  server: levuior.taiwanesefood.link
-  sni: levuior.taiwanesefood.link
-  type: trojan
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
