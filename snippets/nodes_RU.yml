@@ -1,13 +1,9 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 0|🇷🇺4 |  4.1MB/s
-  network: ws
-  port: 21013
-  server: 176.32.35.148
-  tls: false
-  type: vmess
-  uuid: 01d8ffc6-092e-46d5-8a09-6766f2bb2188
-  ws-opts:
-    headers: {}
-    path: /
+- cipher: chacha20-ietf-poly1305
+  country: 🇷🇺RU
+  delay: 1253
+  name: 0|🇷🇺1 |  3.2MB/s
+  password: d4213735ae33596a
+  port: 29003
+  server: 163.171.142.57
+  type: ss
