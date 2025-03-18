@@ -1,1 +1,13 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 0|🇷🇺3 |  2.1MB/s
+  network: ws
+  port: 22010
+  server: 46.17.43.122
+  tls: false
+  type: vmess
+  uuid: ca016e6a-34f6-4cf9-b213-1c5a19c065a8
+  ws-opts:
+    headers: {}
+    path: /

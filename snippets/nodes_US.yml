@@ -1,29 +1,18 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  name: 0|🇺🇸6 |  3.4MB/s
-  network: ws
-  port: 23615
-  server: 15.mamamajd.site
+- name: 0|🇺🇸1 |  4.1MB/s
+  password: SaujZeOR2F6eDD09KnxFcl3CY8laTXAyYOyCEI5qgwRSDp4ZCp33ASxN738zBa
+  port: 443
+  server: 69.5.52.87
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f2591110-7245-378a-9f10-b7dcbd1b7074
-  ws-opts:
-    headers:
-      Host: 15.mamamajd.site
-    path: /
-- country: 🇨🇳CN
-  delay: 1997
-  name: 0|🇺🇸8 |  1.5MB/s
-  password: f43d30ee-7a5d-408f-a32e-b74935eeb7d7
-  port: 40005
-  server: zz.mgxyt.fogvip-zz.uk
-  skip-cert-verify: true
-  sni: ld.mgxyt.yuiuingkig.icu
+  sni: beseech.homeofbrave.net
   type: trojan
   udp: true
+- cipher: aes-256-cfb
+  name: 0|🇺🇸2 |  1.3MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.236.137.219
+  type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 10|🇺🇸 美国|@ripaojiedian
