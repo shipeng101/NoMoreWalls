@@ -1,7 +1,37 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪1 |  1.1MB/s
-  password: 0b381b31811f4d98
-  port: 26905
-  server: 100.42.177.164
-  type: ss
+- client-fingerprint: chrome
+  name: 0|🇩🇪1 |  3.9MB/s
+  network: tcp
+  port: 3030
+  reality-opts:
+    public-key: 21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI
+  server: 167.235.104.138
+  servername: refersion.com
+  tls: true
+  type: vless
+  uuid: ca9ac6fc-7269-42c9-8e48-18d8f0449750
+- client-fingerprint: chrome
+  name: 0|🇩🇪2 |  1.7MB/s
+  network: ws
+  port: 2095
+  server: 156.238.18.28
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redw.pooriam.ir
+    path: /
+- client-fingerprint: chrome
+  name: 0|🇩🇪3 |  1.4MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: gFo7E95jYIdI1R8fmBzuPfCyQ4CHTFW-KHoDKIql7XE
+    short-id: 5d589d05
+  server: 91.107.255.255
+  servername: eset.com
+  tls: true
+  type: vless
+  uuid: 00cb16a4-4170-4e97-a5a3-852dea723681

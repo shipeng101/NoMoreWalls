@@ -1,48 +1,55 @@
 proxies:
 - cipher: aes-256-cfb
-  country: 🇸🇬SG
-  delay: 270
-  name: 0|🇸🇬1 |  5.8MB/s
+  name: 0|🇸🇬1 |  2.4MB/s
   password: amazonskr05
   port: 443
-  server: 13.229.209.178
+  server: 47.129.37.231
   type: ss
-- alterId: 0
-  cipher: auto
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 10|🇸🇬 新加坡2|@ripaojiedian
-  port: 11003
-  server: bgp1.bgp1.miaomiaowu114514.org
-  skip-cert-verify: false
+  delay: 656
+  name: 0|🇸🇬3 |  6.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.169.134.156
   tfo: false
-  tls: false
-  type: vmess
-  uuid: 035374e8-60ff-34b3-9e7a-cca4cce31013
-- client-fingerprint: chrome
-  name: 10,11|新加坡3|@ripaojiedian
-  network: tcp
-  password: 3gSFTSaSFB29S37DD3D6ne6q93nOCZz4FxYYpRacjp0ITRyRSc24AZypZCll88DXuaCDl
-  port: 28332
-  server: morlin.protocolbuffer.com
-  skip-cert-verify: false
-  sni: morlin.protocolbuffer.com
+  type: ss
+- name: 0|🇸🇬4 |  3.6MB/s
+  password: 50ab745d-c21e-3bd3-ae47-c10b1ef3f23b
+  port: 20130
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x130.flybar.work
   type: trojan
-- client-fingerprint: chrome
-  name: 10,11|新加坡4|@ripaojiedian
-  network: tcp
-  password: N5T0K3aYpYFSO4O3gnD73OcFwp6BCqCyCa3jlIxDXyZRDE282ljCASADaTN4CzZZYllFI
-  port: 18333
-  server: pricing.protocolbuffer.com
-  skip-cert-verify: false
-  sni: pricing.protocolbuffer.com
+  udp: true
+- name: 0|🇸🇬5 |  2.5MB/s
+  password: 50ab745d-c21e-3bd3-ae47-c10b1ef3f23b
+  port: 17806
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x65.flybar.work
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 11|新加坡2|@ripaojiedian
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|🇸🇬6 |  6.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.251.193.0
+  type: ss
+- name: 0|🇸🇬7 |  1.2MB/s
+  password: 50ab745d-c21e-3bd3-ae47-c10b1ef3f23b
+  port: 20299
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x299.flybar.work
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 10,11|新加坡|@ripaojiedian
   network: tcp
-  port: '11003'
-  server: bgp1.bgp1.miaomiaowu114514.org
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 035374e8-60ff-34b3-9e7a-cca4cce31013
+  password: 8jqRgpyc5lEe34TzC9A8DuFD23aS3ZyCleIFuCxp3xOYnZRCeA3Oc3yCga8C2DKYBDaRp
+  port: 443
+  server: mention.protocolbuffer.com
+  skip-cert-verify: false
+  sni: mention.protocolbuffer.com
+  type: trojan

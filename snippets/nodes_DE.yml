@@ -1,7 +1,1 @@
-proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪1 |  1.1MB/s
-  password: 0b381b31811f4d98
-  port: 26905
-  server: 100.42.177.164
-  type: ss
+proxies: []
