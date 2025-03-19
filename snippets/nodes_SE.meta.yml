@@ -1,15 +1,14 @@
 proxies:
-- name: 0|🌀4-SE |  4.9MB/s
+- client-fingerprint: chrome
+  name: 0|🌀3-SE |  4.0MB/s
   network: ws
-  port: 8443
-  server: www.speedtest.net
-  servername: 6PaI52dYm3.DmNeWnOd110.CoM
-  skip-cert-verify: true
-  tls: true
+  port: 8880
+  server: 185.146.173.112
+  skip-cert-verify: false
+  tls: false
   type: vless
-  udp: true
-  uuid: 24a4aa9b-b341-4717-9d4a-00d74c2b84e0
+  uuid: f6bd2c47-99da-4bca-bf70-7186aa9e7e06
   ws-opts:
     headers:
-      Host: 6PaI52dYm3.DmNeWnOd110.CoM
-    path: /
+      Host: photographipictureai.ir
+    path: /Telegram
