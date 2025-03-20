@@ -1,13 +1,22 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼1 |  4.7MB/s
-  password: 7cedfed8-92b2-49ad-a8b9-85bff3262195
-  port: 36243
-  server: free.2weradf.xyz
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼2 |  5.5MB/s
-  password: 7cedfed8-92b2-49ad-a8b9-85bff3262195
-  port: 36241
-  server: free.2weradf.xyz
-  type: ss
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇹🇼 台湾|@ripaojiedian
+  port: 50002
+  server: 112.132.215.12
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 11|台湾|@ripaojiedian
+  network: tcp
+  port: '50002'
+  server: 112.132.215.12
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24

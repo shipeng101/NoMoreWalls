@@ -1,14 +1,14 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬1 |  5.6MB/s
-  password: 7cedfed8-92b2-49ad-a8b9-85bff3262195
+  name: 0|🇸🇬1 |  5.4MB/s
+  password: b652cefb-32cf-4c9d-a0b6-ca941375cd46
   port: 36173
   server: free.2weradf.xyz
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬2 |  5.4MB/s
-  password: 7cedfed8-92b2-49ad-a8b9-85bff3262195
-  port: 36171
+  name: 0|🇸🇬2 |  4.3MB/s
+  password: b652cefb-32cf-4c9d-a0b6-ca941375cd46
+  port: 36175
   server: free.2weradf.xyz
   type: ss
 - client-fingerprint: chrome
@@ -25,6 +25,6 @@ proxies:
   name: 10|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 18.181.194.77
+  server: 43.201.85.71
   tfo: false
   type: ss

@@ -1,11 +1,17 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇯🇵1 |  2.4MB/s
+  password: b652cefb-32cf-4c9d-a0b6-ca941375cd46
+  port: 36113
+  server: free.2weradf.xyz
+  type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 10|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503170996717-1jfmRG1tQL.download.microsoft.com
+    host: 202503170996717-MVQjjXvt4R.download.microsoft.com
     mode: http
   port: 8764
   server: cn01.efan8867801.xyz
@@ -17,51 +23,43 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503170996717-1jfmRG1tQL.download.microsoft.com
+    host: 202503170996717-MVQjjXvt4R.download.microsoft.com
     mode: http
   port: 8761
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 10,11|日本3|@ripaojiedian
+  name: 10,11|日本5|@ripaojiedian
   network: tcp
-  password: l3ESwpOSN3FYFAR93RYe6SAyxa0XSFC2zlSaqTClDZ4OAanXOxweCDZznRc28DyY3yTID
-  port: 28334
-  server: sakoku.meijireform.com
+  password: 85aDyYZY30RxnpAD38lSCKaue9CDDTDOAASycaExR9OEZxOD8c25CXeSCF33lN3q43BeI
+  port: 443
+  server: gharial.superpokemon.com
   skip-cert-verify: false
-  sni: sakoku.meijireform.com
+  sni: gharial.superpokemon.com
   type: trojan
 - client-fingerprint: chrome
-  name: 10,11|日本4|@ripaojiedian
+  name: 10,11|日本6|@ripaojiedian
   network: tcp
-  password: B3Kyp23AXFw95RaAwzlXZDASNeNDZz9ROEEpxBFae2yAR4O6Sc0YqCluOY3CxTDp83KxD
-  port: 28335
-  server: national.meijireform.com
+  password: 88K4yE6e3Za9YxCXR53paOnlqDy5qYIa4OczBTaFAyS0gZjS083Dz3YRCxuwOScXOFNYD
+  port: 28341
+  server: fearow.superpokemon.com
   skip-cert-verify: false
-  sni: national.meijireform.com
+  sni: fearow.superpokemon.com
   type: trojan
 - client-fingerprint: chrome
-  name: 10|🇯🇵 日本6|@ripaojiedian
-  password: TOZA9E6pyq4z3pFYeIeOC3ApaSDjR2wFueaO8uNDx0czDF3YCSwa3xjZ3qZAyB4YCKCZS
+  name: 10|🇯🇵 日本7|@ripaojiedian
+  password: 0FaYIOcSy4lBg38yRxnj7RlR3RZYSq3pC9OaSDAAOw6Oe8FCpy08u8pzx3eKZacDz3XE3
   port: 443
-  server: swiftly.meijireform.com
+  server: terture.meijireform.com
   skip-cert-verify: false
-  sni: swiftly.meijireform.com
+  sni: terture.meijireform.com
   type: trojan
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 10|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 18.179.8.12
-  tfo: false
-  type: ss
-- name: 11|日本6|@ripaojiedian
+- name: 11|日本7|@ripaojiedian
   network: tcp
-  password: TOZA9E6pyq4z3pFYeIeOC3ApaSDjR2wFueaO8uNDx0czDF3YCSwa3xjZ3qZAyB4YCKCZS
+  password: 0FaYIOcSy4lBg38yRxnj7RlR3RZYSq3pC9OaSDAAOw6Oe8FCpy08u8pzx3eKZacDz3XE3
   port: 443
-  server: swiftly.meijireform.com
+  server: terture.meijireform.com
   type: trojan
 - alterId: 0
   cipher: auto
