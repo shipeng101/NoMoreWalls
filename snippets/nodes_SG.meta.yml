@@ -1,10 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬1 |  3.8MB/s
-  password: 5860178e-21ef-4df0-a190-48fa28c2e449
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
 - client-fingerprint: chrome
   name: 10,11|新加坡|@ripaojiedian
   network: tcp
