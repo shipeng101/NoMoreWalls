@@ -2,17 +2,17 @@ proxies:
 - client-fingerprint: chrome
   name: 10,11|新加坡|@ripaojiedian
   network: tcp
-  password: 8jqRgpyc5lEe34TzC9A8DuFD23aS3ZyCleIFuCxp3xOYnZRCeA3Oc3yCga8C2DKYBDaRp
-  port: 443
-  server: mention.protocolbuffer.com
+  password: 0979046d-90cc-4f58-9595-75ba19550d1c
+  port: 42881
+  server: aafrtpfxr.sgl02i9zjfegelp.5xfsur8v62.gosdk.xyz
   skip-cert-verify: false
-  sni: mention.protocolbuffer.com
+  sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 10|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 43.201.85.71
+  server: 43.203.196.43
   tfo: false
   type: ss
