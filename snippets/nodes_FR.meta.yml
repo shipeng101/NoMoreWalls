@@ -1,1 +1,21 @@
-proxies: []
+proxies:
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000
+  name: 0|🇫🇷1 |  4.5MB/s
+  port: 44557
+  protocol: udp
+  server: 195.154.200.178
+  skip-cert-verify: true
+  type: hysteria
+  up: 1000
+- auth: a3661fb3-b0ab-4022-ba5c-7c0ef0e01db8
+  name: 0|🇫🇷2 |  5.0MB/s
+  password: a3661fb3-b0ab-4022-ba5c-7c0ef0e01db8
+  port: 37732
+  server: 207.180.248.7
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
