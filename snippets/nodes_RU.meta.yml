@@ -1,29 +1,46 @@
 proxies:
 - alpn:
   - h3
+  auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
-  down: 1000 Mbps
-  name: 0|🇷🇺1 |  1.9MB/s
-  port: 10803
-  server: 185.22.155.71
+  down: 1000
+  name: 0|🇷🇺1 |  4.2MB/s
+  port: 10469
+  protocol: udp
+  server: 46.17.41.174
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: 100
+- fast-open: true
+  name: 0|🇷🇺2 |  5.1MB/s
+  password: dongtaiwang.com
+  port: 18626
+  server: 46.29.163.171
   skip-cert-verify: true
   sni: www.bing.com
-  type: hysteria
-  up: 1000 Mbps
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 0|🇷🇺3 |  3.6MB/s
+  network: ws
+  port: 23022
+  server: 185.22.152.236
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0e326162-0ee0-4503-96fc-bc67ca49dacb
+  ws-opts:
+    path: /
 - fast-open: true
-  name: 0|🇷🇺2 |  1.8MB/s
+  name: 0|🇷🇺4 |  1.5MB/s
   password: dongtaiwang.com
   port: 37481
   server: 46.17.41.217
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-- name: 0|🇷🇺3 |  5.8MB/s
-  password: 0597af27-0972-45de-a32f-d320348cb765
-  port: 46925
-  server: aafrtpfxr.rul01i9zjfegelp.5xfsur8v62.gosdk.xyz
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
 - name: 12|RU_speednode_0046
   network: ws
   port: 80
