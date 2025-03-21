@@ -1,16 +1,12 @@
 proxies:
-- ip-version: dual
-  name: 0|🇺🇸1 |  5.6MB/s
-  network: ws
-  password: 85950277-f447-48f0-9ead-aaf6d5ff3cad
+- cipher: aes-256-cfb
+  ip-version: dual
+  name: 0|🇺🇸1 |  1.9MB/s
+  password: amazonskr05
   port: 443
-  server: 107.172.132.248
-  skip-cert-verify: false
-  sni: huangshang9.zone.id
-  type: trojan
-  ws-opts:
-    headers: {}
-    path: /I4L1BP2DQVYmx5NYQ76MGGq
+  server: 34.219.71.252
+  tls: false
+  type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 10|🇺🇸 美国|@ripaojiedian
