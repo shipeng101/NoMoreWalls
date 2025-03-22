@@ -1,99 +1,15 @@
 proxies:
-- alpn:
-  - h2
-  - http/1.1
-  - h3
-  alterId: 0
-  cipher: auto
-  name: 0|🌀1-SE |  3.7MB/s
+- name: 0,12|SC_speednode_0049
   network: ws
-  port: 2083
-  raw:
-    add: esna.itn24.ir
-    aid: '0'
-    alpn: h2,http/1.1,h3
-    fp: random
-    host: esna.itn24.ir
-    id: 727a53da-37eb-4e4e-c741-3172fd0cc233
-    net: ws
-    path: /🆔@M3HDIO1
-    port: '2083'
-    ps: 🔥Join+Telegram:@FarahVPN🟣
-    scy: auto
-    sni: esna.itn24.ir
-    tls: tls
-    type: none
-    v: '2'
-  server: esna.itn24.ir
-  servername: esna.itn24.ir
-  tls: true
-  type: vmess
-  uuid: 727a53da-37eb-4e4e-c741-3172fd0cc233
-  ws-opts:
-    headers:
-      Host: esna.itn24.ir
-    path: /🆔@M3HDIO1
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 0|🌀3-SE |  4.9MB/s
-  network: ws
-  port: 2053
-  server: esna.itn24.ir
-  servername: esna.itn24.ir
-  tls: true
-  type: vless
-  udp: false
-  uuid: a51a53a5-8081-4094-f8e2-cd76aa8bea03
-  ws-opts:
-    headers:
-      Host: esna.itn24.ir
-    path: /🆔@M3HDIO1
-- allowInsecure: ''
-  name: 0|🌀4-SE |  4.6MB/s
-  network: ws
-  password: g9mHwm82X1
-  port: 2096
-  server: esna.itn24.ir
+  port: 8880
+  server: 154.83.2.156
+  servername: redw.pooriam.ir
   skip-cert-verify: false
-  sni: esna.itn24.ir
-  tls: true
-  type: trojan
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
   ws-opts:
     headers:
-      Host: esna.itn24.ir
-    path: /🆔@M3HDIO1
-- alpn:
-  - h2
-  - http/1.1
-  - h3
-  alterId: 0
-  cipher: auto
-  name: 0|🌀5-SE |  3.6MB/s
-  network: ws
-  port: 8443
-  raw:
-    add: esna.itn24.ir
-    aid: '0'
-    alpn: h2,http/1.1,h3
-    fp: random
-    host: esna.itn24.ir
-    id: 5ac7ae10-4025-41c4-cb03-deb8255da22c
-    net: ws
-    path: /🆔@M3HDIO1
-    port: '8443'
-    ps: 🔥Join+Telegram:@FarahVPN🟣
-    scy: auto
-    sni: esna.itn24.ir
-    tls: tls
-    type: none
-    v: '2'
-  server: esna.itn24.ir
-  servername: esna.itn24.ir
-  tls: true
-  type: vmess
-  uuid: 5ac7ae10-4025-41c4-cb03-deb8255da22c
-  ws-opts:
-    headers:
-      Host: esna.itn24.ir
-    path: /🆔@M3HDIO1
+      Host: redw.pooriam.ir
+    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560

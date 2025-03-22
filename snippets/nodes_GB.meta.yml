@@ -2,7 +2,7 @@ proxies:
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 0|🇬🇧1 |  1.2MB/s
+  name: 0|🇬🇧1 |  5.9MB/s
   network: ws
   port: 2096
   server: 104.16.142.237
@@ -15,6 +15,22 @@ proxies:
     headers:
       Host: Free.moqaab.ir
     path: Telegram-EiV2Ray-Telegram-EiV2Ray-Telegram-EiV2Ray-Telegram-EiV2Ray-Telegram-EiV2Ray-Telegram
+- alterId: 2
+  cipher: auto
+  name: 0|🇬🇧2 |  5.0MB/s
+  network: ws
+  port: 23613
+  server: 13.mamamajd.site
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e28834b8-3b57-3cc8-b084-7c5d08c6af57
+  ws-opts:
+    headers:
+      Host: 13.mamamajd.site
+    path: /
 - name: 12|GB_speednode_0009
   network: ws
   port: 443
