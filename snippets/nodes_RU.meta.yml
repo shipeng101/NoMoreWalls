@@ -1,31 +1,10 @@
 proxies:
-- auth: dongtaiwang.com
-  name: 0|🇷🇺1 |  4.6MB/s
-  password: dongtaiwang.com
-  port: 37481
-  server: 46.17.41.217
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: 1000
-  name: 0|🇷🇺2 |  6.0MB/s
-  port: 10803
-  protocol: udp
-  server: 185.22.155.71
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
-  up: 1000
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000
-  name: 0|🇷🇺3 |  4.6MB/s
+  name: 0|🇷🇺1 |  4.8MB/s
   port: 10469
   protocol: udp
   server: 46.17.41.174
@@ -34,19 +13,68 @@ proxies:
   type: hysteria
   up: 100
 - fast-open: true
-  name: 0|🇷🇺4 |  4.7MB/s
+  name: 0|🇷🇺2 |  1.5MB/s
   password: dongtaiwang.com
   port: 18626
   server: 46.29.163.171
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
+- auth: dongtaiwang.com
+  name: 0|🇷🇺3 |  1.9MB/s
+  password: dongtaiwang.com
+  port: 37481
+  server: 46.17.41.217
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
 - cipher: aes-128-gcm
-  name: 0|🇷🇺5 |  2.0MB/s
+  name: 0|🇷🇺4 |  4.8MB/s
   password: VMhGp5wEIyCDf90T
   port: 56226
   server: bsuqian01.dynu.net
   type: ss
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000
+  name: 0|🇷🇺5 |  5.4MB/s
+  port: 10803
+  protocol: udp
+  server: 185.22.155.71
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  up: 1000
+- alterId: 0
+  cipher: auto
+  name: 0|🇷🇺6 |  4.9MB/s
+  network: ws
+  port: 20023
+  raw:
+    add: 195.58.49.42
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: ''
+    id: e8a839f1-ab14-4f33-8280-229c19c3d3bf
+    net: ws
+    path: /
+    port: '20023'
+    ps: 🇷🇺 --001-1A
+    scy: ''
+    sni: ''
+    tls: ''
+    type: none
+    v: '2'
+  server: 195.58.49.42
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e8a839f1-ab14-4f33-8280-229c19c3d3bf
+  ws-opts:
+    path: /
 - name: 12|RU_speednode_0046
   network: ws
   port: 80

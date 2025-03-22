@@ -1,5 +1,96 @@
 proxies:
-- name: 0|🇩🇪1 |  5.1MB/s
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 0|🇩🇪1 |  5.4MB/s
+  network: ws
+  port: 2095
+  server: 156.238.18.153
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redw.pooriam.ir
+    path: /
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 0|🇩🇪2 |  3.6MB/s
+  network: ws
+  port: 80
+  server: 199.232.5.153
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: 714ed6b1-ee85-4ef1-9e74-572f39a98bf3
+  ws-opts:
+    headers:
+      Host: JoinBede--VPNCUSTOMIZE---VPNCUSTOMIZE.Ir
+    path: Channel----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE---VPNCUSTOMIZE---VPNCUSTOMIZE---VPNCUSTOMIZE?ed=2044
+- client-fingerprint: random
+  flow: ''
+  mode: ''
+  name: 0|🇩🇪3 |  5.1MB/s
+  network: ws
+  port: 2096
+  server: 172.67.66.177
+  servername: mJe.nimhub.ir
+  tls: true
+  type: vless
+  udp: false
+  uuid: 19429091-7825-4c39-8cf0-92e6b6402013
+  ws-opts:
+    headers:
+      Host: mJe.nimhub.ir
+    path: /
+- name: 0,12|SC_speednode_0049
+  network: ws
+  port: 8880
+  server: 154.83.2.156
+  servername: redw.pooriam.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redw.pooriam.ir
+    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
+- auth: afdaf0d8-1f8d-4449-afb6-e234c8aad9bd
+  client-fingerprint: chrome
+  down: 100
+  name: 0|🇩🇪5 |  1.7MB/s
+  obfs: salamander
+  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
+  password: afdaf0d8-1f8d-4449-afb6-e234c8aad9bd
+  port: 32008
+  server: 5.39.252.72
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 0|🇩🇪6 |  4.2MB/s
+  network: ws
+  port: 2096
+  server: 104.24.196.20
+  servername: mJe.nimhub.ir
+  tls: true
+  type: vless
+  udp: false
+  uuid: 19429091-7825-4c39-8cf0-92e6b6402013
+  ws-opts:
+    headers:
+      Host: mJe.nimhub.ir
+    path: /
+- name: 0|🇩🇪7 |  2.2MB/s
   network: ws
   port: 2087
   server: 192.200.160.188
@@ -11,10 +102,26 @@ proxies:
     headers:
       Host: crm.iranigamebaz.ir
     path: /V2raymizban-----V2raymizban-----V2raymizban-----V2raymizban-----V2raymizban-----V2raymizban-----V2raymizban-----V2raymizban-----V2raymizban-----V2raymizban
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 0|🇩🇪8 |  5.8MB/s
+  network: ws
+  port: 2096
+  server: 104.24.197.20
+  servername: mJe.nimhub.ir
+  tls: true
+  type: vless
+  udp: false
+  uuid: 19429091-7825-4c39-8cf0-92e6b6402013
+  ws-opts:
+    headers:
+      Host: mJe.nimhub.ir
+    path: /
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 0|🇩🇪2 |  3.8MB/s
+  name: 0|🇩🇪9 |  5.5MB/s
   network: ws
   port: 2082
   server: 104.17.148.22
@@ -27,41 +134,10 @@ proxies:
     headers:
       Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
     path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 0|🇩🇪3 |  5.4MB/s
-  network: ws
-  port: 80
-  server: 188.114.97.3
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /SIGrNRCU4ongDlz4?ed=2560
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 0|🇩🇪4 |  5.9MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 3Yzz5Unz5elPLlaQkzgBxirSUbvIRbg9XlJ1Vruc4RI
-    short-id: '8819'
-  server: 5.75.200.58
-  servername: eset.com
-  tls: true
-  type: vless
-  udp: false
-  uuid: b78fb3f5-e6a9-4e00-859f-3a886b19b394
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 0|🇩🇪5 |  5.7MB/s
+  name: 0|🇩🇪10 |  4.7MB/s
   network: tcp
   port: 443
   reality-opts:
@@ -74,66 +150,11 @@ proxies:
   udp: false
   uuid: b78fb3f5-e6a9-4e00-859f-3a886b19b394
 - client-fingerprint: chrome
-  name: 0|🇩🇪6 |  2.6MB/s
-  network: ws
-  port: 2052
-  server: 156.238.18.165
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 0|🇩🇪7 |  5.3MB/s
-  network: tcp
-  port: 2096
-  server: 64.225.108.157
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: c2ef0d95-8c91-4ecd-943f-191c6223b6ad
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 0|🇩🇪8 |  5.1MB/s
-  network: ws
-  port: 80
-  server: zmaoz.faculty.ucdavis.edu
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 252456af-eeaf-41a4-f4f2-d18a2d234301
-  ws-opts:
-    headers:
-      Host: foffmelo.com
-    path: /olem/ws?ed=1024
-- name: 0,12|SC_speednode_0050
-  network: ws
-  port: 8880
-  server: 154.83.2.230
-  servername: redw.pooriam.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-- client-fingerprint: chrome
   flow: ''
   grpc-opts:
     grpc-service-name: V2raymizban-----V2raymizban-----V2raymizban-----V2raymizban-----V2raymizban-----V2raymizban-----V2raymizban-----V2raymizban-----V2raymizban-----V2raymizban-----V2raymizban-----V2raymizban
   mode: ''
-  name: 0|🇩🇪10 |  5.3MB/s
+  name: 0|🇩🇪11 |  5.6MB/s
   network: grpc
   port: 8443
   server: 192.200.160.188
@@ -143,15 +164,34 @@ proxies:
   udp: false
   uuid: eb1f341a-d47c-4e17-94c0-8a1e5422fee7
 - client-fingerprint: chrome
-  name: 0|🇩🇪11 |  3.0MB/s
+  flow: ''
+  mode: ''
+  name: 0|🇩🇪12 |  5.6MB/s
   network: ws
-  port: 8880
-  server: 154.83.2.228
-  skip-cert-verify: false
-  tls: false
+  port: 2096
+  server: cdnjs.com
+  servername: mJe.nimhub.ir
+  tls: true
   type: vless
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  udp: false
+  uuid: 19429091-7825-4c39-8cf0-92e6b6402013
   ws-opts:
     headers:
-      Host: redw.pooriam.ir
+      Host: mJe.nimhub.ir
     path: /
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 0|🇩🇪13 |  5.1MB/s
+  network: ws
+  port: 80
+  server: 151.101.130.219
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: c59f7aeb-57fb-47ab-c420-03edd569b405
+  ws-opts:
+    headers:
+      Host: retete3.ir
+    path: /telegeam-@v2_city-----telegeam-@v2_city-----telegeam-@v2_city-----telegeam-@v2_city-----telegeam-@v2_city-----telegeam-@v2_city-----telegeam-@v2_city-----telegeam-@v2_city-----telegeam-@v2_city?ed=2048
