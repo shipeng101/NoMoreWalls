@@ -1,12 +1,10 @@
 proxies:
-- name: 0|🇭🇰1 |  6.2MB/s
-  password: 05e82148-0869-3dcb-9d78-df6225c8b372
-  port: 20278
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z278.hongkongnode.top
+- name: 0|🇭🇰9 |  6.2MB/s
+  password: 73456460-0e3c-46cd-a1aa-92d4fc17584c
+  port: 27102
+  server: aafrtpfxr.hkl02i9zjfegelp.5xfsur8v62.gosdk.xyz
+  sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome

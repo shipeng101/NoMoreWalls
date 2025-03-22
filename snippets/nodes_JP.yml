@@ -1,23 +1,37 @@
 proxies:
 - name: 0|🇯🇵1 |  6.2MB/s
-  password: 05e82148-0869-3dcb-9d78-df6225c8b372
-  port: 20139
+  password: 51da87ba-bd17-3012-8e0f-7c35a0562722
+  port: 20141
   server: gy.58n.net
   skip-cert-verify: true
-  sni: z139.hongkongnode.top
+  sni: z141.hongkongnode.top
   type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: 0|🇯🇵2 |  6.0MB/s
+  name: 0|🇯🇵2 |  4.5MB/s
   password: amazonskr05
   port: 443
-  server: 52.195.175.110
+  server: 52.197.235.237
   type: ss
 - cipher: aes-256-cfb
-  name: 0|🇯🇵3 |  1.7MB/s
+  name: 0|🇯🇵3 |  3.3MB/s
   password: amazonskr05
   port: 443
-  server: 18.179.8.12
+  server: 3.113.11.192
+  type: ss
+- name: 0|🇯🇵5 |  6.3MB/s
+  password: 51da87ba-bd17-3012-8e0f-7c35a0562722
+  port: 20300
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z300.hongkongnode.top
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|🇯🇵10 |  6.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.231.144.255
   type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome

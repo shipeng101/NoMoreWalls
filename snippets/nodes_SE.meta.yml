@@ -1,15 +1,17 @@
 proxies:
-- name: 0,12|SC_speednode_0049
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 0|🌀4-SE |  4.7MB/s
   network: ws
-  port: 8880
-  server: 154.83.2.156
-  servername: redw.pooriam.ir
-  skip-cert-verify: false
-  tls: false
+  port: 2053
+  server: 172.67.141.68
+  servername: esna.itn24.ir
+  tls: true
   type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  udp: false
+  uuid: e54493b7-9e13-4911-aa6f-c7b6b5ee2246
   ws-opts:
     headers:
-      Host: redw.pooriam.ir
-    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
+      Host: esna.itn24.ir
+    path: /🆔@M3HDIO1

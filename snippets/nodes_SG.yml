@@ -1,18 +1,25 @@
 proxies:
-- name: 0|🇸🇬1 |  6.3MB/s
-  password: 05e82148-0869-3dcb-9d78-df6225c8b372
-  port: 30712
-  server: gy.58n.net
+- alterId: 2
+  cipher: auto
+  name: 0|🇸🇬1 |  2.8MB/s
+  network: ws
+  port: 23617
+  server: 17.mamamajd.site
   skip-cert-verify: true
-  sni: x83.flybar.work
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-- name: 0|🇸🇬2 |  6.3MB/s
-  password: 05e82148-0869-3dcb-9d78-df6225c8b372
-  port: 20129
+  uuid: ffa4efea-a32b-398c-8e43-4e11e3dc63dc
+  ws-opts:
+    headers:
+      Host: 17.mamamajd.site
+    path: /
+- name: 0|🇸🇬2 |  1.6MB/s
+  password: 51da87ba-bd17-3012-8e0f-7c35a0562722
+  port: 17806
   server: gy.58n.net
   skip-cert-verify: true
-  sni: x129.flybar.work
+  sni: x65.flybar.work
   type: trojan
   udp: true
 - client-fingerprint: chrome
