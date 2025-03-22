@@ -1,27 +1,15 @@
 proxies:
 - name: 0|🇯🇵1 |  6.2MB/s
-  password: 51da87ba-bd17-3012-8e0f-7c35a0562722
-  port: 20141
+  password: e393f59c-9cd0-33ec-8a2f-235c5b30a220
+  port: 54178
   server: gy.58n.net
   skip-cert-verify: true
-  sni: z141.hongkongnode.top
+  sni: x115.flybar.work
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: 0|🇯🇵2 |  4.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 52.197.235.237
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|🇯🇵3 |  3.3MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.113.11.192
-  type: ss
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|🇯🇵4 |  2.9MB/s
+  name: 0|🇯🇵2 |  5.9MB/s
   network: tcp
   port: 25768
   reality-opts:
@@ -31,29 +19,38 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 0|🇯🇵5 |  6.3MB/s
-  password: 51da87ba-bd17-3012-8e0f-7c35a0562722
-  port: 20300
+- name: 0|🇯🇵3 |  6.2MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: jp104-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: jp104-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: 0|🇯🇵4 |  9.1MB/s
+  password: e393f59c-9cd0-33ec-8a2f-235c5b30a220
+  port: 20059
   server: gy.58n.net
   skip-cert-verify: true
-  sni: z300.hongkongnode.top
+  sni: x59.flybar.work
   type: trojan
   udp: true
-- name: 0|🇯🇵6 |  2.1MB/s
-  network: ws
-  port: '8880'
-  server: 154.83.2.156
-  servername: redw.pooriam.ir
-  skip-cert-verify: false
-  type: vless
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|🇯🇵7 |  6.0MB/s
+  name: 0|🇯🇵5 |  4.7MB/s
+  network: tcp
+  port: 17278
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou05.mysynology.net
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇯🇵6 |  3.7MB/s
   network: tcp
   port: 14548
   reality-opts:
@@ -65,37 +62,7 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|🇯🇵8 |  6.2MB/s
-  network: tcp
-  port: 11839
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: gy01.hunheiydd.xyz
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇯🇵9 |  5.9MB/s
-  network: tcp
-  port: 13989
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
-  servername: gateway.icloud.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- cipher: aes-256-cfb
-  name: 0|🇯🇵10 |  6.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.231.144.255
-  type: ss
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇯🇵11 |  6.1MB/s
+  name: 0|🇯🇵7 |  2.1MB/s
   network: tcp
   port: 48121
   reality-opts:
@@ -105,36 +72,39 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 0|🇯🇵12 |  4.9MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: jp104-cdn-route.couldflare-cdn.com
+- auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  name: 0|🇯🇵8 |  3.6MB/s
+  password: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  port: 2012
+  server: tw3.akebi.cc
   skip-cert-verify: false
-  sni: jp104-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
+  sni: jp02.akebi.cc
+  type: hysteria2
+- name: 0|🇯🇵9 |  6.2MB/s
+  password: e393f59c-9cd0-33ec-8a2f-235c5b30a220
+  port: 20139
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z139.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 0|🇯🇵10 |  6.1MB/s
+  password: e393f59c-9cd0-33ec-8a2f-235c5b30a220
+  port: 20142
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z142.hongkongnode.top
+  type: trojan
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|🇯🇵13 |  5.9MB/s
+  name: 0|🇯🇵11 |  5.7MB/s
   network: tcp
-  port: 31735
+  port: 13989
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: bsuqian01.dynu.net
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇯🇵14 |  6.6MB/s
-  network: tcp
-  port: 16497
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: zhee01.dynu.net
-  servername: www.nvidia.com
+  server: csuzhou01.1cooldns.com
+  servername: gateway.icloud.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45

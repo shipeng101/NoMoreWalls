@@ -1,17 +1,1 @@
-proxies:
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 0|🌀4-SE |  4.7MB/s
-  network: ws
-  port: 2053
-  server: 172.67.141.68
-  servername: esna.itn24.ir
-  tls: true
-  type: vless
-  udp: false
-  uuid: e54493b7-9e13-4911-aa6f-c7b6b5ee2246
-  ws-opts:
-    headers:
-      Host: esna.itn24.ir
-    path: /🆔@M3HDIO1
+proxies: []
