@@ -1,7 +1,8 @@
 proxies:
-- cipher: aes-128-gcm
-  name: 0|🇰🇷9 |  1.8MB/s
-  password: VMhGp5wEIyCDf90T
-  port: 13483
-  server: agaungzhou01.bumbleshrimp.com
+- cipher: aes-256-cfb
+  delay: 1259
+  name: 0|🇰🇷9 |  1.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 43.201.85.71
   type: ss
