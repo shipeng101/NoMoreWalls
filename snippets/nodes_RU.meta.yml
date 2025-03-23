@@ -1,19 +1,14 @@
 proxies:
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000
-  name: 0|🇷🇺1 |  5.6MB/s
-  port: 10469
-  protocol: udp
-  server: 46.17.41.174
+- auth: dongtaiwang.com
+  name: 0|🇷🇺1 |  2.0MB/s
+  password: dongtaiwang.com
+  port: 18626
+  server: 46.29.163.171
   skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: 100
+  sni: www.bing.com
+  type: hysteria2
 - cipher: aes-128-gcm
-  name: 0|🇷🇺2 |  2.2MB/s
+  name: 0|🇷🇺2 |  3.1MB/s
   password: VMhGp5wEIyCDf90T
   port: 56226
   server: bsuqian01.dynu.net
@@ -23,7 +18,28 @@ proxies:
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: 1000
-  name: 0|🇷🇺3 |  2.6MB/s
+  name: 0|🇷🇺3 |  5.8MB/s
+  port: 10469
+  protocol: udp
+  server: 46.17.41.174
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: 100
+- auth: dongtaiwang.com
+  name: 0|🇷🇺4 |  4.7MB/s
+  password: dongtaiwang.com
+  port: 37481
+  server: 46.17.41.217
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000
+  name: 0|🇷🇺5 |  1.5MB/s
   port: 10803
   protocol: udp
   server: 185.22.155.71
@@ -31,29 +47,6 @@ proxies:
   sni: www.bing.com
   type: hysteria
   up: 1000
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  mode: ''
-  name: 0|🇷🇺4 |  5.0MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: cGzNRbN_zruI3CVTDukB2nOqWWEj7kgkay24f2fdLmQ
-    short-id: 0f917152a871e9c0
-  server: 213.219.215.89
-  servername: maviks.eu
-  tls: true
-  type: vless
-  udp: false
-  uuid: 0a947205-01a0-4634-8e78-daf200d02def
-- auth: dongtaiwang.com
-  name: 0|🇷🇺5 |  3.6MB/s
-  password: dongtaiwang.com
-  port: 37481
-  server: 46.17.41.217
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
 - name: 12|RU_speednode_0046
   network: ws
   port: 80

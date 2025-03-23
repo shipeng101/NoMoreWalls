@@ -1,4 +1,34 @@
 proxies:
+- cipher: chacha20-ietf
+  name: 0|🇭🇰3 |  1.0MB/s
+  password: asd123456
+  port: 8388
+  server: 194.41.59.80
+  type: ss
+- name: 0|🇭🇰5 |  6.3MB/s
+  password: f0adb579-c185-3f3f-9795-adaeb36b676b
+  port: 20294
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z294.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 0|🇭🇰6 |  6.5MB/s
+  password: f0adb579-c185-3f3f-9795-adaeb36b676b
+  port: 24603
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z259.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 0|🇭🇰9 |  5.9MB/s
+  password: f0adb579-c185-3f3f-9795-adaeb36b676b
+  port: 20279
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z279.hongkongnode.top
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -10,6 +40,17 @@ proxies:
   tls: false
   type: vmess
   uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇭🇰 香港5|@ripaojiedian
+  port: 10701
+  server: 120.198.71.184
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: CE361194-7D70-614C-780B-D3BDB61D0257
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
