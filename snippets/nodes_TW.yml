@@ -1,8 +1,1 @@
-proxies:
-- name: 0|🇹🇼5 |  4.0MB/s
-  password: 67ed20d4-e1a4-46bb-97ca-d721f19a4291
-  port: 42765
-  server: nbae7a7.kaiqsz.com
-  skip-cert-verify: true
-  sni: mmbiz1.redapricotcloud.com
-  type: trojan
+proxies: []
