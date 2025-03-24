@@ -1,7 +1,15 @@
 proxies:
-- name: 0|🇸🇬2 |  5.8MB/s
+- name: 0|🇸🇬3 |  5.6MB/s
+  password: c02ccaf7-205e-3323-9766-236a4db26c0f
+  port: 20129
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x129.flybar.work
+  type: trojan
+  udp: true
+- name: 0|🇸🇬4 |  3.9MB/s
   password: 67ed20d4-e1a4-46bb-97ca-d721f19a4291
-  port: 48291
+  port: 18489
   server: nbae7a7.kaiqsz.com
   skip-cert-verify: true
   sni: mmbiz1.redapricotcloud.com
@@ -9,7 +17,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 0,10|🇸🇬 新加坡2|@ripaojiedian
+  name: 10|🇸🇬 新加坡2|@ripaojiedian
   port: 10710
   server: 120.198.71.184
   skip-cert-verify: false
@@ -17,12 +25,6 @@ proxies:
   tls: false
   type: vmess
   uuid: CE361194-7D70-614C-780B-D3BDB61D0257
-- cipher: aes-256-cfb
-  name: 0|🇸🇬4 |  6.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.251.193.0
-  type: ss
 - alterId: 0
   cipher: auto
   name: 11|新加坡2|@ripaojiedian
