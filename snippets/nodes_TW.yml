@@ -1,13 +1,16 @@
 proxies:
 - cipher: aes-128-gcm
-  name: 0|🇹🇼5 |  1.0MB/s
+  name: 0|🇹🇼5 |  1.2MB/s
   password: VMhGp5wEIyCDf90T
   port: 15375
   server: bsuqian01.dynu.net
   type: ss
-- cipher: aes-128-gcm
-  name: 0|🇹🇼9 |  6.9MB/s
-  password: VMhGp5wEIyCDf90T
-  port: 64050
-  server: csuzhou01.1cooldns.com
-  type: ss
+- client-fingerprint: chrome
+  name: 10,11|台湾2|@ripaojiedian
+  network: tcp
+  password: d7d8a8cd-239b-4b4e-93d9-dc3d89332ac9
+  port: 42765
+  server: wb.kaiqsz.com
+  skip-cert-verify: true
+  sni: mmbiz1.redapricotcloud.com
+  type: trojan
