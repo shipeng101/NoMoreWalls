@@ -1,31 +1,42 @@
 proxies:
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 0|🇩🇪1 |  2.8MB/s
+  network: ws
+  port: 22222
+  server: 63.176.234.200
+  servername: telegram-channel-vlessconfig.sohala.uk
+  tls: true
+  type: vless
+  udp: false
+  uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
+  ws-opts:
+    headers:
+      Host: telegram-channel-vlessconfig.sohala.uk
+    path: /telegram-channel-vlessconfig-ws
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇩🇪1 |  5.1MB/s
+  flow: ''
+  mode: ''
+  name: 0|🇩🇪2 |  5.7MB/s
   network: tcp
-  port: 443
-  server: 204.10.194.78
-  servername: yfnl1.xn--4gq62f52gppi29k.com
+  port: 35785
+  reality-opts:
+    public-key: sz_X684-MH30mtNFXgWxGXymB1vs82CNoMzwGJfVgWw
+    short-id: c8801ea23cbfc6ff
+  server: 116.203.165.24
+  servername: refersion.com
   tls: true
   type: vless
-  uuid: d21a2d0c-6872-457f-93f2-069d5167a8fc
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 0|🇩🇪2 |  3.3MB/s
-  network: tcp
-  port: 443
-  server: yrtuio.890604.filegear-sg.me
-  servername: yfnl1.xn--4gq62f52gppi29k.com
-  tls: true
-  type: vless
-  uuid: d21a2d0c-6872-457f-93f2-069d5167a8fc
+  udp: false
+  uuid: 81447221-6548-60a1-a9d9-aac48e8c410b
 - client-fingerprint: chrome
   disable-sni: true
   mode: ''
-  name: 0|🇩🇪3 |  5.3MB/s
+  name: 0|🇩🇪3 |  5.9MB/s
   network: ws
-  port: 2095
-  server: 156.238.18.208
+  port: 80
+  server: 156.238.19.232
   servername: ''
   skip-cert-verify: true
   tls: false
@@ -35,17 +46,16 @@ proxies:
   ws-opts:
     headers:
       Host: redw.pooriam.ir
-    path: /
-- client-fingerprint: chrome
-  name: 0|🇩🇪4 |  4.6MB/s
-  network: ws
-  port: 8880
-  server: 154.83.2.156
-  skip-cert-verify: false
+    path: /Telegram🇨🇳 @WangCai2
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 0|🇩🇪4 |  5.6MB/s
+  network: tcp
+  port: 4810
+  server: d6.vixsm.ir
+  servername: ''
   tls: false
   type: vless
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /
+  udp: false
+  uuid: d697e738-c105-42d0-916a-191b2e3074fd
