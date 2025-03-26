@@ -1,20 +1,4 @@
 proxies:
-- name: 0|🇯🇵2 |  4.4MB/s
-  password: 3f602a26-73e3-305f-a033-a9e78ca938f4
-  port: 41767
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x114.flybar.work
-  type: trojan
-  udp: true
-- name: 0|🇯🇵3 |  6.3MB/s
-  password: 3f602a26-73e3-305f-a033-a9e78ca938f4
-  port: 20139
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z139.hongkongnode.top
-  type: trojan
-  udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 10|🇯🇵 日本|@ripaojiedian
