@@ -1,8 +1,14 @@
 proxies:
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|🇸🇬2 |  3.4MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.213.69.248
-  type: ss
+- alterId: '0'
+  cipher: auto
+  name: 0|🇸🇬5 |  4.2MB/s
+  network: tcp
+  port: '56901'
+  server: 183.236.51.38
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.38
+  ws-path: /
