@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|🇬🇧1 |  2.7MB/s
+  name: 0|🇬🇧1 |  5.3MB/s
   network: tcp
   port: 65053
   reality-opts:
@@ -11,77 +11,39 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- allowInsecure: '1'
-  name: 0|🇬🇧2 |  2.3MB/s
-  network: tcp
-  password: '!!str 74260704627805900'
-  port: 443
-  server: 109.107.159.118
-  skip-cert-verify: true
-  sni: adapting-halibut.shiner427.skin
-  tls: true
-  type: trojan
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|🇬🇧3 |  4.5MB/s
-  network: tcp
-  port: 49699
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou05.mysynology.net
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- allowInsecure: '1'
-  name: 0|🇬🇧4 |  3.1MB/s
-  network: tcp
-  password: '!!str 74260704627805900'
-  port: 443
-  server: 109.107.159.248
-  skip-cert-verify: true
-  sni: willing-possum.shiner427.skin
-  tls: true
-  type: trojan
-- allowInsecure: ''
-  name: 0|🇬🇧5 |  3.0MB/s
-  network: tcp
-  password: '!!str 74260704627805900'
-  port: 443
-  server: willing-possum.shiner427.skin
-  skip-cert-verify: false
-  tls: true
-  type: trojan
-- allowInsecure: ''
-  name: 0|🇬🇧6 |  4.1MB/s
-  network: tcp
-  password: '!!str 74260704627805900'
-  port: 443
-  server: adapting-halibut.shiner427.skin
-  skip-cert-verify: false
-  tls: true
-  type: trojan
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇬🇧7 |  5.0MB/s
-  network: tcp
-  port: 32055
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇬🇧8 |  5.0MB/s
+  name: 0|🇬🇧2 |  4.1MB/s
   network: tcp
   port: 35311
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
   server: shenzhou02.mysynology.net
   servername: www.yahoo.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇬🇧3 |  5.1MB/s
+  network: tcp
+  port: 14659
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: csuzhou01.1cooldns.com
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇬🇧4 |  2.4MB/s
+  network: tcp
+  port: 49699
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou05.mysynology.net
+  servername: www.amazon.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
