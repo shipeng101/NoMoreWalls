@@ -1,14 +1,14 @@
 proxies:
-- alterId: 0
-  cipher: auto
+- auth: 96924d63-7600-44c3-9bfa-e6e0bcb32bac
   client-fingerprint: chrome
-  name: 0|🌀6-CN |  1.7MB/s
-  network: ws
-  port: 21031
+  down: 100
+  name: 0|🌀2-CN |  2.4MB/s
+  obfs: salamander
+  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
+  password: 96924d63-7600-44c3-9bfa-e6e0bcb32bac
+  port: 31003
   server: 212.192.12.56
-  tls: false
-  type: vmess
+  skip-cert-verify: true
+  type: hysteria2
   udp: true
-  uuid: d7c34d84-f217-4902-88aa-a5ada6eb2c7a
-  ws-opts:
-    path: /
+  up: 100
