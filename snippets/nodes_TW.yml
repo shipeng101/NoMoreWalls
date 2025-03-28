@@ -1,6 +1,6 @@
 proxies:
 - allowInsecure: ''
-  name: 0|🇹🇼1 |  5.9MB/s
+  name: 0|🇹🇼1 |  6.1MB/s
   network: ws
   password: Aimer
   port: 2087
@@ -14,30 +14,46 @@ proxies:
       Host: agepm.ambercc.filegear-sg.me
     path: /?ed=2560
 - allowInsecure: ''
-  name: 0|🇹🇼2 |  6.6MB/s
+  name: 0|🇹🇼2 |  5.8MB/s
   network: ws
   password: Aimer
-  port: 27149
-  server: 23.94.213.132
+  port: 2083
+  server: 154.83.2.88
   skip-cert-verify: false
-  sni: agepn.ambercc.filegear-sg.me
+  sni: agepm.ambercc.filegear-sg.me
   tls: true
   type: trojan
   ws-opts:
     headers:
-      Host: agepn.ambercc.filegear-sg.me
+      Host: agepm.ambercc.filegear-sg.me
     path: /?ed=2560
-- allowInsecure: ''
-  name: 0|🇹🇼5 |  4.0MB/s
-  network: ws
-  password: Aimer
-  port: 20080
-  server: 192.210.207.89
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇹🇼 台湾|@ripaojiedian
+  port: 31919
+  server: 183.236.51.38
   skip-cert-verify: false
-  sni: agepn.ambercc.filegear-sg.me
-  tls: true
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- client-fingerprint: chrome
+  name: 10,11|台湾2|@ripaojiedian
+  network: tcp
+  password: 6e8b9913-5277-4627-95b0-86766ae65ad6
+  port: 42765
+  server: wb.kaiqsz.com
+  skip-cert-verify: true
+  sni: mmbiz1.redapricotcloud.com
   type: trojan
-  ws-opts:
-    headers:
-      Host: agepn.ambercc.filegear-sg.me
-    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 11|台湾|@ripaojiedian
+  network: tcp
+  port: '31919'
+  server: 183.236.51.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
