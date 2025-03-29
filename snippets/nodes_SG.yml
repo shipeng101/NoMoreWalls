@@ -1,6 +1,20 @@
 proxies:
 - cipher: aes-256-cfb
   client-fingerprint: chrome
+  name: 0|🇸🇬3 |  1.8MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.169.134.156
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 0|🇸🇬4 |  2.9MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.141.139.23
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
   name: 10|🇸🇬 新加坡|@ripaojiedian
   obfs: tls1.2_ticket_auth
   obfs-param: sg2-cdn-route.couldflare-cdn.com
