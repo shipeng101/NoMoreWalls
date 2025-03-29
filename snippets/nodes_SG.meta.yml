@@ -1,21 +1,26 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0,12|CN_speednode_0079
+  name: 0|🇸🇬1 |  6.2MB/s
   network: tcp
   port: 44003
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
   server: csuzhou01.1cooldns.com
   servername: www.nvidia.com
-  skip-cert-verify: true
   tls: true
   type: vless
-  udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 0|🇸🇬2 |  3.3MB/s
+  password: amazonskr05
+  port: 443
+  server: 52.76.22.133
+  type: ss
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|🇸🇬2 |  1.2MB/s
+  name: 0|🇸🇬3 |  2.0MB/s
   network: tcp
   port: 10778
   reality-opts:
@@ -27,20 +32,6 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 0|🇸🇬3 |  1.8MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.169.134.156
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|🇸🇬4 |  2.9MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.141.139.23
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
   name: 10|🇸🇬 新加坡|@ripaojiedian
   obfs: tls1.2_ticket_auth
   obfs-param: sg2-cdn-route.couldflare-cdn.com
@@ -50,7 +41,7 @@ proxies:
   protocol-param: ''
   server: cm2.xcone.xyz
   type: ssr
-- name: 12|SG_speednode_0107
+- name: 12|SG_speednode_0030
   network: ws
   port: 8443
   server: 92.243.74.2
@@ -64,7 +55,7 @@ proxies:
     headers:
       Host: edfgv.aimercc.filegear-sg.me
     path: /?ed=2560
-- name: 12|SG_speednode_0108
+- name: 12|SG_speednode_0031
   network: ws
   port: 8443
   server: 27.50.49.177

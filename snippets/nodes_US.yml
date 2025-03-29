@@ -1,4 +1,11 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 0|🇺🇸8 |  2.9MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.69.142.224
+  type: ss
+  udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 10|🇺🇸 美国|@ripaojiedian
