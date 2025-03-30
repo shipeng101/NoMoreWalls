@@ -1,17 +1,17 @@
 proxies:
-- client-fingerprint: randomized
+- client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 0|🌀8-SE |  1.0MB/s
+  name: 0|🌀21-SE |  5.1MB/s
   network: ws
-  port: 443
-  server: 172.66.44.156
-  servername: besTiIvPn-6t8.PAGes.DEV
-  tls: true
+  port: 80
+  server: 45.131.4.115
+  servername: ''
+  tls: false
   type: vless
   udp: false
-  uuid: 9f387ad9-043b-40b2-97c5-265d30cbfbf1
+  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
   ws-opts:
     headers:
-      Host: bestiivpn-6t8.pages.dev
-    path: /FmuwAIEMEYaRjcUE?ed=2560
+      Host: gozargah.validbv7996.ir
+    path: /Telegram@WangCai2/?ed=2560

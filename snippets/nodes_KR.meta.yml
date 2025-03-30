@@ -1,20 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 0|🇰🇷1 |  5.1MB/s
-  network: ws
-  port: 2083
-  server: 172.66.40.87
-  servername: e.exedu.ip-ddns.com
-  tls: true
-  type: vless
-  udp: false
-  uuid: 8f320d6a-9953-4065-b61c-d62f89a6767f
-  ws-opts:
-    headers:
-      Host: e.exedu.ip-ddns.com
-    path: /?ed=2048
 - client-fingerprint: qq
   flow: xtls-rprx-vision
   name: 0,12|KR_speednode_0043
@@ -30,20 +14,6 @@ proxies:
   type: vless
   udp: true
   uuid: 30f85233-d41e-4297-97c1-cfac047a948b
-- name: 12|KR_speednode_0040
-  network: ws
-  port: 17774
-  server: 220.116.147.73
-  servername: edfgv.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      Host: edfgv.aimercc.filegear-sg.me
-    path: /?ed=2560
 - name: 12|KR_speednode_0042
   network: ws
   port: 12361

@@ -1,63 +1,56 @@
 proxies:
 - client-fingerprint: chrome
-  flow: ''
-  grpc-opts:
-    grpc-service-name: fdvsdv
-  mode: ''
-  name: 0|🇩🇪1 |  5.6MB/s
-  network: grpc
-  port: 2097
+  flow: xtls-rprx-vision
+  name: 0|🇩🇪1 |  4.3MB/s
+  network: tcp
+  port: 58031
   reality-opts:
-    public-key: JNcCRy0bfOEzzyqh1foTuuG9T8IvwiO8ApJu5FhVERs
-    short-id: 2665af94c7b25f90
-  server: 188.245.242.20
-  servername: sourceforge.net
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: csuzhou01.1cooldns.com
+  servername: www.yahoo.com
   tls: true
   type: vless
-  udp: false
-  uuid: de3e121a-8405-4888-98ec-8914c1850a2d
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 0|🇩🇪2 |  5.8MB/s
+  name: 0|🇩🇪2 |  5.6MB/s
   network: ws
-  port: 8080
-  server: 86.38.214.30
-  servername: ''
-  tls: false
+  port: 8443
+  server: 185.146.173.37
+  servername: NkG27c9Gl1.MySpDmMeTi.CoM
+  tls: true
   type: vless
   udp: false
-  uuid: 09ba60aa-6d83-486d-8de3-70a1f1c3c7a9
+  uuid: 24a4aa9b-b341-4717-9d4a-00d74c2b84e0
   ws-opts:
     headers:
-      Host: sNaPp.MaStErSrV.ir.
-    path: ?ed=8080
-- auth: 28cd2d99-8d76-439f-b22d-3029bb6c157e
+      Host: NkG27c9Gl1.MySpDmMeTi.CoM
+    path: /
+- auth: 6ed47616-95aa-4512-8c44-8cd5ba292149
   client-fingerprint: chrome
   down: 100
-  name: 0|🇩🇪3 |  1.1MB/s
+  name: 0|🇩🇪3 |  2.8MB/s
   obfs: salamander
   obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
-  password: 28cd2d99-8d76-439f-b22d-3029bb6c157e
+  password: 6ed47616-95aa-4512-8c44-8cd5ba292149
   port: 32008
   server: 5.39.252.72
   skip-cert-verify: true
   type: hysteria2
   udp: true
   up: 100
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 0|🇩🇪4 |  3.7MB/s
+- name: 0,12|LT_speednode_0045
   network: ws
-  port: 80
-  server: 45.131.4.254
-  servername: ''
+  port: 8080
+  server: 86.38.214.30
+  servername: sNaPp.MaStErSrV.ir.
+  skip-cert-verify: true
   tls: false
   type: vless
-  udp: false
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+  udp: true
+  uuid: 09ba60aa-6d83-486d-8de3-70a1f1c3c7a9
   ws-opts:
     headers:
-      Host: gozargah.validbv7996.ir
-    path: Telegram@WangCai2/?ed
+      Host: sNaPp.MaStErSrV.ir.
+    path: /
