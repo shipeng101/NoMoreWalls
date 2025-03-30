@@ -1,4 +1,10 @@
 proxies:
+- cipher: chacha20-ietf
+  name: 0|🇭🇰3 |  3.0MB/s
+  password: asd123456
+  port: 8388
+  server: 103.149.183.61
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -39,3 +45,11 @@ proxies:
   tls: false
   type: vmess
   uuid: 3949be3c-f862-4081-afca-9979bd189648
+- name: 12|HK_speednode_0036
+  password: 6557bf4a-852b-4a69-ad35-d53293386a13
+  port: 443
+  server: ru.mjt000.com
+  skip-cert-verify: false
+  sni: ru.mjt000.com
+  type: trojan
+  udp: true

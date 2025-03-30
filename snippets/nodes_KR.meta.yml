@@ -2,7 +2,7 @@ proxies:
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 0|🇰🇷1 |  4.5MB/s
+  name: 0|🇰🇷1 |  5.1MB/s
   network: ws
   port: 2083
   server: 172.66.40.87
@@ -17,7 +17,7 @@ proxies:
     path: /?ed=2048
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 0|🇰🇷2 |  5.7MB/s
+  name: 0,12|KR_speednode_0043
   network: tcp
   port: 23333
   reality-opts:
@@ -25,22 +25,36 @@ proxies:
     short-id: 15f7
   server: 193.123.248.228
   servername: www.yahoo.co.jp
+  skip-cert-verify: true
   tls: true
   type: vless
+  udp: true
   uuid: 30f85233-d41e-4297-97c1-cfac047a948b
-- client-fingerprint: randomized
-  flow: ''
-  mode: ''
-  name: 0|🇰🇷3 |  1.8MB/s
+- name: 12|KR_speednode_0040
   network: ws
-  port: 443
-  server: 172.66.44.68
-  servername: 37c60f8d.ALBAnGURaKUqi.paGEs.dEv
+  port: 17774
+  server: 220.116.147.73
+  servername: edfgv.aimercc.filegear-sg.me
+  skip-cert-verify: true
   tls: true
   type: vless
-  udp: false
-  uuid: 87ced8c4-b4d4-4c7b-ba67-11b78833a1b6
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
   ws-opts:
     headers:
-      Host: 37c60f8d.albangurakuqi.pages.dev
-    path: /telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420?ed=2560
+      Host: edfgv.aimercc.filegear-sg.me
+    path: /?ed=2560
+- name: 12|KR_speednode_0042
+  network: ws
+  port: 12361
+  server: 222.119.17.97
+  servername: edfgv.aimercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edfgv.aimercc.filegear-sg.me
+    path: /?ed=2560
