@@ -1,7 +1,7 @@
 proxies:
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 0|🇸🇬2 |  6.3MB/s
+  name: 0|🇸🇬1 |  6.0MB/s
   obfs: tls1.2_ticket_auth
   obfs-param: sg2-cdn-route.couldflare-cdn.com
   password: uiACqrIr
@@ -12,9 +12,35 @@ proxies:
   type: ssr
 - cipher: aes-256-cfb
   country: 🇸🇬SG
-  delay: 1565
-  name: 0|🇸🇬4 |  2.4MB/s
+  delay: 857
+  name: 0|🇸🇬2 |  3.5MB/s
   password: amazonskr05
   port: 443
-  server: 3.0.50.161
+  server: 13.229.73.58
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 0|🇸🇬5 |  6.3MB/s
+  network: ws
+  port: 25245
+  server: sg1.awslcn.info
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
+  ws-headers:
+    Host: sg1.awslcn.info
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 0|🇸🇬6 |  2.3MB/s
+  network: ws
+  port: 25243
+  server: sg1.awslcn.info
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
+  ws-headers:
+    Host: sg1.awslcn.info
+  ws-path: /
