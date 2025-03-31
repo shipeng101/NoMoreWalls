@@ -1,15 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0|🇯🇵4 |  1.7MB/s
-  network: tcp
-  port: 4151
-  server: 82ba1c75-su2dc0-sv85jh-dcdv.c.volczijie.com
-  tls: false
-  type: vmess
-  uuid: 1659deda-0625-11f0-8002-f23c93141fad
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
   name: 10|🇯🇵 日本|@ripaojiedian
   port: 29206

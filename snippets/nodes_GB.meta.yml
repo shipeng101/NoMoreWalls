@@ -1,69 +1,20 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|🇬🇧1 |  1.1MB/s
+  name: 0|🇬🇧1 |  5.0MB/s
   network: tcp
-  port: 47151
+  port: 14659
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou02.mysynology.net
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- alterId: 2
-  cipher: auto
-  name: 0|🇬🇧2 |  5.2MB/s
-  network: ws
-  port: 23605
-  server: 5.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0a14d5c0-f566-314c-9e22-7db5655c35de
-  ws-opts:
-    headers:
-      Host: 5.mamamajd.site
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧3 |  1.2MB/s
-  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
-  port: 11006
-  server: 183.232.229.164
-  type: ss
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 0|🇬🇧4 |  4.6MB/s
-  network: ws
-  port: 23613
-  server: 13.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0a14d5c0-f566-314c-9e22-7db5655c35de
-  ws-opts:
-    headers:
-      Host: 13.mamamajd.site
-    path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇬🇧5 |  5.8MB/s
-  network: tcp
-  port: 65053
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: beiyong.dynuddns.net
-  servername: www.amazon.com
+  server: csuzhou01.1cooldns.com
+  servername: www.nvidia.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 0|🇬🇧6 |  5.9MB/s
+  name: 0|🇬🇧2 |  5.9MB/s
   network: ws
   port: 2096
   server: www.speedtest.net
@@ -76,25 +27,53 @@ proxies:
     headers:
       Host: PhGhOlMi1.RoCkStOnEy.iNfO
     path: /
+- alterId: 0
+  cipher: auto
+  name: 0|🇬🇧3 |  4.8MB/s
+  network: ws
+  port: 25240
+  server: cm1.awslcn.info
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
+  ws-opts:
+    headers:
+      Host: cm1.awslcn.info
+    path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|🇬🇧7 |  3.9MB/s
+  name: 0|🇬🇧4 |  2.6MB/s
   network: tcp
-  port: 35311
+  port: 49699
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou02.mysynology.net
-  servername: www.yahoo.com
+  server: shenzhou05.mysynology.net
+  servername: www.amazon.com
   tls: true
   type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0,12|CN_speednode_0044
+  network: tcp
+  port: 32055
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: csuzhou01.1cooldns.com
+  servername: www.amazon.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 0|🇬🇧8 |  1.4MB/s
+  name: 0|🇬🇧6 |  4.8MB/s
   network: ws
-  port: 80
-  server: 45.131.4.248
+  port: 8080
+  server: 45.131.4.33
   servername: ''
   tls: false
   type: vless
@@ -103,4 +82,18 @@ proxies:
   ws-opts:
     headers:
       Host: gozargah.validbv7996.ir
-    path: ''
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0,12|CN_speednode_0035
+  network: tcp
+  port: 65053
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: beiyong.dynuddns.net
+  servername: www.amazon.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
