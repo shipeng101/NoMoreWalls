@@ -1,69 +1,42 @@
 proxies:
-- auth: e55ced36-3d80-4857-ad49-e4ba270a67f2
-  client-fingerprint: chrome
-  down: 100
-  name: 0|🇷🇺1 |  2.5MB/s
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: e55ced36-3d80-4857-ad49-e4ba270a67f2
-  port: 33007
-  server: 195.133.5.127
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
 - alpn:
   - h3
   auth_str: dongtaiwang.com
   down: 1000 Mbps
-  name: 0|🇷🇺2 |  5.9MB/s
-  port: 10469
-  server: 46.17.41.174
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: 100 Mbps
-- fast-open: true
-  name: 0|🇷🇺3 |  5.6MB/s
-  password: dongtaiwang.com
-  port: 4395
-  server: 46.17.41.217
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- name: 0,12|HK_speednode_0036
-  password: 6557bf4a-852b-4a69-ad35-d53293386a13
-  port: 443
-  server: ru.mjt000.com
-  skip-cert-verify: false
-  sni: ru.mjt000.com
-  type: trojan
-  udp: true
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: 1000 Mbps
-  name: 0|🇷🇺5 |  5.1MB/s
+  name: 0|🇷🇺1 |  1.3MB/s
   port: 10803
   server: 185.22.155.71
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria
   up: 1000 Mbps
+- fast-open: true
+  name: 0|🇷🇺2 |  5.2MB/s
+  password: dongtaiwang.com
+  port: 4395
+  server: 46.17.41.217
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
 - auth: dongtaiwang.com
-  name: 0|🇷🇺6 |  5.4MB/s
+  name: 0|🇷🇺3 |  5.7MB/s
   password: dongtaiwang.com
   port: 12904
   server: 46.17.41.5
   skip-cert-verify: true
   sni: apple.com
   type: hysteria2
-- fast-open: true
-  name: 0|🇷🇺7 |  3.7MB/s
-  password: dongtaiwang.com
-  port: 35751
-  server: 46.29.163.171
+- name: 12|RU_speednode_0083
+  network: ws
+  port: 8080
+  server: 46.254.93.124
+  servername: sNaPp.MaStErSrV.ir.
   skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
+  tls: false
+  type: vless
+  udp: true
+  uuid: a6ebd65f-2ab3-46f0-bf6b-3605f747434f
+  ws-opts:
+    headers:
+      Host: sNaPp.MaStErSrV.ir.
+    path: /
