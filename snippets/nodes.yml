@@ -1,266 +1,97 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 0|🌀1-TH |  3.2MB/s
-  port: 18139
-  server: v2-tgzz.netcar.live
-  tls: false
-  type: vmess
-  uuid: 76f19582-5c4b-49c6-a023-0f7c9e3c807a
-- alterId: 0
-  cipher: auto
-  name: 0|🇭🇰3 |  5.9MB/s
-  network: ws
-  port: 443
-  server: 104.21.6.201
-  servername: hknbyivfffj.site
-  tls: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  ws-opts:
-    headers:
-      Host: hknbyivfffj.site
-    path: /rbqqvws
-- alterId: 0
-  cipher: auto
-  name: 0|🇭🇰4 |  5.8MB/s
-  network: ws
-  port: 443
-  server: 172.67.135.62
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  ws-opts:
-    headers:
-      Host: hknbyivfffj.site
-    path: /rbqqvws
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇳🇱1 |  2.5MB/s
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 45.87.175.188
+  name: 0|🇮🇳2 |  2.1MB/s
+  password: 5e225507-4ef7-4006-9cc8-4d59855319f9
+  port: 58201
+  server: z1.9960721.xyz
   type: ss
-- alterId: 0
+  udp: true
+- alterId: '0'
   cipher: auto
-  name: 0|🌀10-VN |  6.2MB/s
+  name: 0|🇯🇵1 |  2.5MB/s
   network: ws
-  port: 25285
-  server: cm1.awslcn.info
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-  ws-opts:
-    headers:
-      Host: cm1.awslcn.info
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🌀13-MX |  5.1MB/s
-  network: ws
-  port: 25284
-  server: cu.awslcn.info
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-  ws-opts:
-    headers:
-      Host: cu.awslcn.info
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🇭🇰6 |  5.6MB/s
-  network: ws
-  port: 443
-  server: hknbyivfffj.site
-  servername: hknbyivfffj.site
+  port: '11184'
+  server: 175.215.154.208
   tls: true
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  uuid: 0ee75dd1-5e59-4615-a6a8-6fe7aa0b6f17
   ws-opts:
     headers:
-      Host: hknbyivfffj.site
-    path: /rbqqvws
-- alterId: 0
-  cipher: auto
-  name: 0|🇬🇧3 |  4.8MB/s
-  network: ws
-  port: 25240
-  server: cm1.awslcn.info
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-  ws-opts:
-    headers:
-      Host: cm1.awslcn.info
+      host: oracle2ipv4.till.nyc.mn
     path: /
-- cipher: aes-256-cfb
-  name: 0|🇸🇬2 |  6.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.179.52.175
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇬🇧1 |  3.4MB/s
+  password: pL1ZVFkk4uYDis2TD2PJLQ
+  port: 33742
+  server: 109.237.99.103
   type: ss
-- name: 0|🇦🇺3 |  5.8MB/s
+- alterId: '0'
+  cipher: auto
+  name: 0|🇺🇸5 |  2.6MB/s
   network: ws
-  password: bpb-trojan
-  port: 443
-  server: japan.com
-  skip-cert-verify: false
-  sni: zamim340.ggff.net
-  type: trojan
-  ws-opts:
-    headers:
-      Host: zamim340.ggff.net
-    path: /tr?ed=2560
-- allowInsecure: ''
-  name: 0|🇺🇸18 |  3.7MB/s
-  network: ws
-  password: d67cfeaf-b277-44ac-ab99-9dd02a7c5299
-  port: 443
-  server: 172.67.159.56
-  skip-cert-verify: false
-  sni: Fgh9JkR5.890617.xYz
+  port: '8088'
+  server: ora.aihi.uk
   tls: true
-  type: trojan
+  type: vmess
+  uuid: 979e39d7-fdf8-4e51-afb6-4d181c56170f
   ws-opts:
     headers:
-      Host: fgh9jkr5.890617.xyz
-    path: /lWljHWvIMOj85lz42MdhsCLV
+      host: ora.aihi.uk
+    path: /ray
 - alterId: 0
   cipher: auto
-  name: 0|🌀17-MY |  5.7MB/s
+  name: 0|🇯🇵2 |  3.6MB/s
   network: ws
-  port: 25258
-  server: cm1.awslcn.info
+  port: 12134
+  server: 221.165.128.234
+  servername: oracleipv4.till.nyc.mn
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
-  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
+  uuid: a13f1b5a-7071-4bbc-8bae-f4f74fd77ace
   ws-opts:
     headers:
-      Host: cm1.awslcn.info
-    path: /
-- alterId: 0
+      Host: oracleipv4.till.nyc.mn
+    path: /123
+- alterId: '0'
   cipher: auto
-  name: 0|🇸🇬3 |  5.8MB/s
+  name: 0|🇰🇷1 |  2.9MB/s
   network: ws
-  port: 25243
-  server: sg1.awslcn.info
-  skip-cert-verify: true
-  tls: false
+  port: '443'
+  server: kr3.ttcc.tech
+  tls: true
   type: vmess
-  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
+  uuid: b2d10673-24cc-4f96-b1f3-da8b17589077
   ws-opts:
     headers:
-      Host: sg1.awslcn.info
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🌀19-MY |  2.8MB/s
-  network: ws
-  port: 25258
-  server: cm.awslcn.info
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-  ws-opts:
-    headers:
-      Host: cm.awslcn.info
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🇮🇳2 |  6.2MB/s
-  network: ws
-  port: 25216
-  server: cm1.awslcn.info
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-  ws-opts:
-    headers:
-      Host: cm1.awslcn.info
+      host: kr3.ttcc.tech
     path: /
 - cipher: aes-256-cfb
-  name: 0|🇺🇸21 |  5.7MB/s
+  name: 0|🇺🇸9 |  3.7MB/s
   password: amazonskr05
   port: 443
   server: 54.245.10.2
   type: ss
 - alterId: 0
   cipher: auto
-  name: 0|🌀22-GR |  6.3MB/s
-  network: ws
-  port: 25244
-  server: hk1.awslcn.info
-  skip-cert-verify: true
+  name: 0|🇰🇷2 |  2.2MB/s
+  port: 34009
+  server: v3-hanguo-zx.netcar.live
   tls: false
   type: vmess
-  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-  ws-opts:
-    headers:
-      Host: hk1.awslcn.info
-    path: /
+  uuid: b4a59b54-4a1d-4afc-bd1b-2e3151047c9f
 - cipher: aes-256-cfb
-  name: 0|🇺🇦2 |  1.7MB/s
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 51.15.15.82
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 0|🇩🇪4 |  5.0MB/s
-  network: ws
-  port: 25241
-  server: cm.awslcn.info
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-  ws-opts:
-    headers:
-      Host: cm.awslcn.info
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🌀31-GR |  6.2MB/s
-  network: ws
-  port: 25242
-  server: hk2.awslcn.info
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-  ws-opts:
-    headers:
-      Host: hk2.awslcn.info
-    path: /
-- cipher: aes-256-cfb
-  name: 0|🇺🇸24 |  2.6MB/s
+  name: 0|🇺🇸12 |  2.3MB/s
   password: amazonskr05
   port: 443
-  server: 34.220.225.248
+  server: 34.208.203.47
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 0|🇩🇪5 |  5.1MB/s
-  network: ws
-  port: 25241
-  server: cm1.awslcn.info
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-  ws-headers:
-    Host: cm1.awslcn.info
-  ws-path: /
+- cipher: aes-256-cfb
+  name: 0|🇺🇸20 |  5.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.69.221.160
+  type: ss
 - name: 10,11|香港|@ripaojiedian
   network: tcp
   password: b13c1e89-60af-4462-8932-4acf1d604a19
@@ -293,7 +124,7 @@ proxies:
   skip-cert-verify: false
   sni: ru.mjt000.com
   type: trojan
-- name: 10,11,12|CN_speednode_0003
+- name: 10,11|香港6|@ripaojiedian
   network: tcp
   password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc
   port: 20020
@@ -301,7 +132,6 @@ proxies:
   skip-cert-verify: true
   sni: 10.elk3b3nwfy.xyz
   type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵 日本|@ripaojiedian
@@ -358,23 +188,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 551087e5-9a03-4634-9e7f-714133eb3ccb
-- name: 12|CN_speednode_0005
-  password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc
-  port: 20019
-  server: 9.elk3b3nwfy.xyz
-  skip-cert-verify: true
-  sni: 9.elk3b3nwfy.xyz
-  type: trojan
-  udp: true
-- name: 12|CN_speednode_0043
-  password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc
-  port: 20005
-  server: 5.9n3pqn1406.xyz
-  skip-cert-verify: true
-  sni: 5.9n3pqn1406.xyz
-  type: trojan
-  udp: true
-- name: 12|CN_speednode_0055
+- name: 12|CN_speednode_0008
   password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc
   port: 20016
   server: 6.elk3b3nwfy.xyz
@@ -382,7 +196,15 @@ proxies:
   sni: 6.elk3b3nwfy.xyz
   type: trojan
   udp: true
-- name: 12|SC_speednode_0062
+- name: 12|CN_speednode_0015
+  password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc
+  port: 20005
+  server: 5.9n3pqn1406.xyz
+  skip-cert-verify: true
+  sni: 5.9n3pqn1406.xyz
+  type: trojan
+  udp: true
+- name: 12|SC_speednode_0044
   password: 6db95bbc-c7a1-4b3f-9346-df71f4d95350
   port: 6104
   server: t22.emovpn.buzz

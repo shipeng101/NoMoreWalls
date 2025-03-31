@@ -1,4 +1,32 @@
 proxies:
+- alterId: '0'
+  cipher: auto
+  name: 0|🇯🇵1 |  2.5MB/s
+  network: ws
+  port: '11184'
+  server: 175.215.154.208
+  tls: true
+  type: vmess
+  uuid: 0ee75dd1-5e59-4615-a6a8-6fe7aa0b6f17
+  ws-opts:
+    headers:
+      host: oracle2ipv4.till.nyc.mn
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0|🇯🇵2 |  3.6MB/s
+  network: ws
+  port: 12134
+  server: 221.165.128.234
+  servername: oracleipv4.till.nyc.mn
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: a13f1b5a-7071-4bbc-8bae-f4f74fd77ace
+  ws-opts:
+    headers:
+      Host: oracleipv4.till.nyc.mn
+    path: /123
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome

@@ -1,30 +1,34 @@
 proxies:
-- allowInsecure: ''
-  name: 0|🇺🇸18 |  3.7MB/s
+- alterId: '0'
+  cipher: auto
+  name: 0|🇺🇸5 |  2.6MB/s
   network: ws
-  password: d67cfeaf-b277-44ac-ab99-9dd02a7c5299
-  port: 443
-  server: 172.67.159.56
-  skip-cert-verify: false
-  sni: Fgh9JkR5.890617.xYz
+  port: '8088'
+  server: ora.aihi.uk
   tls: true
-  type: trojan
+  type: vmess
+  uuid: 979e39d7-fdf8-4e51-afb6-4d181c56170f
   ws-opts:
     headers:
-      Host: fgh9jkr5.890617.xyz
-    path: /lWljHWvIMOj85lz42MdhsCLV
+      host: ora.aihi.uk
+    path: /ray
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|🇺🇸21 |  5.7MB/s
+  name: 0|🇺🇸9 |  3.7MB/s
   password: amazonskr05
   port: 443
   server: 54.245.10.2
   type: ss
 - cipher: aes-256-cfb
-  name: 0|🇺🇸24 |  2.6MB/s
+  name: 0|🇺🇸12 |  2.3MB/s
   password: amazonskr05
   port: 443
-  server: 34.220.225.248
+  server: 34.208.203.47
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|🇺🇸20 |  5.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.69.221.160
   type: ss
 - alterId: 0
   cipher: auto
