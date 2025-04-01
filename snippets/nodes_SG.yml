@@ -1,14 +1,19 @@
 proxies:
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|🇸🇬3 |  1.3MB/s
+  name: 0|🇸🇬1 |  4.1MB/s
   password: amazonskr05
   port: 443
-  server: 18.140.70.168
+  server: 18.141.139.23
+  type: ss
+- cipher: aes-256-gcm
+  name: 0|🇸🇬3 |  6.2MB/s
+  password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83
+  port: 21114
+  server: okanc.node-is.green
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 0|🇸🇬4 |  1.8MB/s
+  name: 0|🇸🇬8 |  1.8MB/s
   obfs: tls1.2_ticket_auth
   obfs-param: sg2-cdn-route.couldflare-cdn.com
   password: uiACqrIr
@@ -18,9 +23,8 @@ proxies:
   server: cm2.xcone.xyz
   type: ssr
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|🇸🇬5 |  5.2MB/s
+  name: 0|🇸🇬9 |  1.6MB/s
   password: amazonskr05
   port: 443
-  server: 54.169.188.214
+  server: 54.179.52.175
   type: ss

@@ -1,4 +1,31 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 0|🇸🇬1 |  4.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.141.139.23
+  type: ss
+- client-fingerprint: chrome
+  delay: 1335
+  flow: xtls-rprx-vision
+  name: 0,12|CN_speednode_0007
+  network: tcp
+  port: 56127
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: agaungzhou01.bumbleshrimp.com
+  servername: www.yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- cipher: aes-256-gcm
+  name: 0|🇸🇬3 |  6.2MB/s
+  password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83
+  port: 21114
+  server: okanc.node-is.green
+  type: ss
 - name: 0,12|US_speednode_0056
   network: ws
   port: 80
@@ -13,43 +40,10 @@ proxies:
     headers:
       Host: free.pranithsandaruwan.shop
     path: /
-- client-fingerprint: chrome
-  name: 0|🇸🇬2 |  1.2MB/s
-  password: myszy28811
-  port: 28811
-  server: pipi.myddns.me
-  type: socks5
-  udp: true
-  username: myszy
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|🇸🇬3 |  1.3MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.140.70.168
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|🇸🇬4 |  1.8MB/s
-  obfs: tls1.2_ticket_auth
-  obfs-param: sg2-cdn-route.couldflare-cdn.com
-  password: uiACqrIr
-  port: 56138
-  protocol: origin
-  protocol-param: ''
-  server: cm2.xcone.xyz
-  type: ssr
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|🇸🇬5 |  5.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.169.188.214
-  type: ss
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 0|🇸🇬7 |  5.4MB/s
+  name: 0|🇸🇬5 |  5.4MB/s
   network: ws
   port: 80
   server: 170.114.45.6
@@ -76,7 +70,7 @@ proxies:
     headers:
       Host: free.pranithsandaruwan.shop
     path: /
-- name: 0|🇸🇬9 |  5.1MB/s
+- name: 0|🇸🇬7 |  5.0MB/s
   network: ws
   port: 80
   server: 170.114.45.6
@@ -90,18 +84,20 @@ proxies:
     headers:
       Host: free.pranithsandaruwan.shop
     path: /
-- client-fingerprint: chrome
-  name: 0|🇸🇬10 |  3.7MB/s
-  network: ws
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 0|🇸🇬8 |  1.8MB/s
+  obfs: tls1.2_ticket_auth
+  obfs-param: sg2-cdn-route.couldflare-cdn.com
+  password: uiACqrIr
+  port: 56138
+  protocol: origin
+  protocol-param: ''
+  server: cm2.xcone.xyz
+  type: ssr
+- cipher: aes-256-cfb
+  name: 0|🇸🇬9 |  1.6MB/s
+  password: amazonskr05
   port: 443
-  server: 13.67.9.5
-  servername: shg2.azurewebsites.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6f995056-7802-4a1d-bff7-61678e626c3f
-  ws-opts:
-    headers:
-      host: shg2.azurewebsites.net
-    path: /
+  server: 54.179.52.175
+  type: ss
