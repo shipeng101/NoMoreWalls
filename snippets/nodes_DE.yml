@@ -1,1 +1,36 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 0|🇩🇪1 |  2.9MB/s
+  network: ws
+  port: 25241
+  server: cm1.awslcn.info
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
+  ws-opts:
+    headers:
+      Host: cm1.awslcn.info
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0|🇩🇪2 |  4.8MB/s
+  network: ws
+  port: 25241
+  server: cm.awslcn.info
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
+  ws-opts:
+    headers:
+      Host: cm.awslcn.info
+    path: /
+- cipher: rc4-md5
+  name: 0|🇩🇪3 |  5.2MB/s
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 193.108.119.230
+  type: ss
+  udp: true
