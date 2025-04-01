@@ -1,10 +1,24 @@
 proxies:
-- name: 0|🇸🇬1 |  5.8MB/s
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0,12|CN_speednode_0009
+  network: tcp
+  port: 44003
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: csuzhou01.1cooldns.com
+  servername: www.nvidia.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 0,12|US_speednode_0050
   network: ws
   port: 80
-  server: support.zoom.us
+  server: 170.114.46.6
   servername: free.pranithsandaruwan.shop
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vless
   udp: true
@@ -13,106 +27,7 @@ proxies:
     headers:
       Host: free.pranithsandaruwan.shop
     path: /
-- name: 0|🇸🇬2 |  2.1MB/s
-  password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc
-  port: 20048
-  server: 18.9n3pqn1406.xyz
-  skip-cert-verify: true
-  sni: 18.9n3pqn1406.xyz
-  type: trojan
-- name: 0|🇸🇬3 |  6.1MB/s
-  password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc
-  port: 20045
-  server: 15.9n3pqn1406.xyz
-  skip-cert-verify: true
-  sni: 15.9n3pqn1406.xyz
-  type: trojan
-- cipher: aes-256-cfb
-  name: 0|🇸🇬4 |  5.7MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.229.73.58
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|🇸🇬5 |  6.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.169.134.156
-  type: ss
-- name: 0|🇸🇬6 |  4.7MB/s
-  password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc
-  port: 20050
-  server: 20.9n3pqn1406.xyz
-  skip-cert-verify: true
-  sni: 20.9n3pqn1406.xyz
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 0|🇸🇬7 |  5.9MB/s
-  network: ws
-  port: 25245
-  server: sg1.awslcn.info
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-  ws-opts:
-    headers:
-      Host: sg1.awslcn.info
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🇸🇬8 |  6.4MB/s
-  network: ws
-  port: 25243
-  server: sg1.awslcn.info
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-  ws-opts:
-    headers:
-      Host: sg1.awslcn.info
-    path: /
-- cipher: aes-256-cfb
-  name: 0|🇸🇬9 |  3.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.169.188.214
-  type: ss
-- name: 0|🇸🇬10 |  4.6MB/s
-  password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc
-  port: 20047
-  server: 17.9n3pqn1406.xyz
-  skip-cert-verify: true
-  sni: 17.9n3pqn1406.xyz
-  type: trojan
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|🇸🇬11 |  4.4MB/s
-  obfs: tls1.2_ticket_auth
-  obfs-param: sg2-cdn-route.couldflare-cdn.com
-  password: uiACqrIr
-  port: 56138
-  protocol: origin
-  protocol-param: ''
-  server: cm2.xcone.xyz
-  type: ssr
-- name: 0|🇸🇬12 |  5.6MB/s
-  password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc
-  port: 20041
-  server: 11.9n3pqn1406.xyz
-  skip-cert-verify: true
-  sni: 11.9n3pqn1406.xyz
-  type: trojan
-- name: 0|🇸🇬13 |  1.2MB/s
-  password: VMhGp5wEIyCDf90T
-  port: 38340
-  server: gysz0000.dynu.net
-  skip-cert-verify: false
-  sni: hk39.work.gd
-  type: trojan
-- name: 0,12|US_speednode_0048
+- name: 0|🇸🇬3 |  5.7MB/s
   network: ws
   port: 80
   server: 170.114.45.6
@@ -126,41 +41,31 @@ proxies:
     headers:
       Host: free.pranithsandaruwan.shop
     path: /
-- name: 0|🇸🇬15 |  3.4MB/s
-  password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc
-  port: 20046
-  server: 16.9n3pqn1406.xyz
-  skip-cert-verify: true
-  sni: 16.9n3pqn1406.xyz
-  type: trojan
-- cipher: aes-256-gcm
-  name: 0|🇸🇬16 |  5.5MB/s
-  password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83
-  port: 21114
-  server: okanc.node-is.green
-  type: ss
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇸🇬17 |  3.2MB/s
-  network: tcp
-  port: 10778
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: test123.zlqhdns.top
-  servername: www.nvidia.com
-  tls: true
+- name: 0,12|US_speednode_0056
+  network: ws
+  port: 80
+  server: support.zoom.us
+  servername: free.pranithsandaruwan.shop
+  skip-cert-verify: false
+  tls: false
   type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+  udp: true
+  uuid: d9074e14-c4e4-4e58-8fff-3727e83af868
+  ws-opts:
+    headers:
+      Host: free.pranithsandaruwan.shop
+    path: /
 - client-fingerprint: chrome
+  delay: 1335
   flow: xtls-rprx-vision
-  name: 0,12|CN_speednode_0021
+  name: 0,12|CN_speednode_0007
   network: tcp
-  port: 44003
+  port: 56127
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
-  servername: www.nvidia.com
-  skip-cert-verify: true
+  server: agaungzhou01.bumbleshrimp.com
+  servername: www.yahoo.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true

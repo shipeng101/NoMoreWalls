@@ -1,122 +1,22 @@
 proxies:
-- name: 0|🇭🇰6 |  2.4MB/s
-  password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc
-  port: 20017
-  server: 7.elk3b3nwfy.xyz
-  skip-cert-verify: true
-  sni: 7.elk3b3nwfy.xyz
-  type: trojan
-- name: 0|🇭🇰8 |  1.7MB/s
-  password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc
-  port: 20101
-  server: 1.2gyh5ybsic.xyz
-  skip-cert-verify: true
-  sni: 1.2gyh5ybsic.xyz
-  type: trojan
-- name: 0|🇭🇰10 |  1.1MB/s
-  password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc
-  port: 20019
-  server: 9.elk3b3nwfy.xyz
-  skip-cert-verify: true
-  sni: 9.elk3b3nwfy.xyz
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 0|🇭🇰13 |  5.7MB/s
+- cipher: chacha20-ietf
+  name: 0|🇭🇰4 |  1.7MB/s
+  password: asd123456
+  port: 8388
+  server: 103.149.182.191
+  type: ss
+- name: 0|🇭🇰10 |  2.5MB/s
   network: ws
-  port: 2052
-  raw:
-    add: 20.189.122.198
-    aid: '0'
-    alpn: ''
-    fp: ''
-    host: ''
-    id: 84ab761a-9f51-42bf-83ab-8a6b4885ca27
-    net: ws
-    path: ''
-    port: '2052'
-    ps: 🔥Join+Telegram:@FarahVPN🟣
-    scy: auto
-    sni: ''
-    tls: ''
-    type: ''
-    v: '2'
-  server: 20.189.122.198
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 84ab761a-9f51-42bf-83ab-8a6b4885ca27
+  password: a38c9e28-9960-4e31-9f18-ed2495a756aa
+  port: 40021
+  server: vt-bana2-cn-11.ghpgwqswodgzv.com
+  skip-cert-verify: false
+  sni: vt-bana2-cn-11.ghpgwqswodgzv.com
+  type: trojan
   ws-opts:
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 0|🇭🇰14 |  1.7MB/s
-  network: ws
-  port: 2052
-  server: ms.rtxconfigz.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 84ab761a-9f51-42bf-83ab-8a6b4885ca27
-  ws-headers:
-    Host: ms.rtxconfigz.xyz
-  ws-path: /
-- name: 0|🇭🇰15 |  1.1MB/s
-  password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc
-  port: 20105
-  server: 111.62.241.211
-  skip-cert-verify: true
-  sni: 5.2gyh5ybsic.xyz
-  type: trojan
-- name: 0|🇭🇰18 |  1.4MB/s
-  password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc
-  port: 20018
-  server: 8.elk3b3nwfy.xyz
-  skip-cert-verify: true
-  sni: 8.elk3b3nwfy.xyz
-  type: trojan
-- name: 0|🇭🇰19 |  1.0MB/s
-  password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc
-  port: 20012
-  server: 2.elk3b3nwfy.xyz
-  skip-cert-verify: true
-  sni: 2.elk3b3nwfy.xyz
-  type: trojan
-- name: 0|🇭🇰20 |  1.4MB/s
-  password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc
-  port: 20104
-  server: 4.2gyh5ybsic.xyz
-  skip-cert-verify: true
-  sni: 4.2gyh5ybsic.xyz
-  type: trojan
-- name: 0|🇭🇰23 |  1.9MB/s
-  password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc
-  port: 20107
-  server: 7.2gyh5ybsic.xyz
-  skip-cert-verify: true
-  sni: 7.2gyh5ybsic.xyz
-  type: trojan
-- name: 0|🇭🇰27 |  1.4MB/s
-  password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc
-  port: 20102
-  server: 2.2gyh5ybsic.xyz
-  skip-cert-verify: true
-  sni: 2.2gyh5ybsic.xyz
-  type: trojan
-- name: 0|🇭🇰28 |  1.4MB/s
-  password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc
-  port: 20013
-  server: 3.elk3b3nwfy.xyz
-  skip-cert-verify: true
-  sni: 3.elk3b3nwfy.xyz
-  type: trojan
-- name: 0|🇭🇰29 |  1.4MB/s
-  password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc
-  port: 20106
-  server: 111.62.241.211
-  skip-cert-verify: true
-  sni: 6.2gyh5ybsic.xyz
-  type: trojan
+    headers:
+      Host: vt-bana2-cn-11.ghpgwqswodgzv.com
+    path: '%2Fdl_media'
 - client-fingerprint: chrome
   name: 10,11|香港2|@ripaojiedian
   network: tcp
@@ -166,7 +66,7 @@ proxies:
       Host: hk.ggpdx.ggff.net
     path: 0c08b87c-67d7-401e-93dc-7bcda12e795b-vm
 - client-fingerprint: chrome
-  name: 10,11,12|CN_speednode_0008
+  name: 10,11|香港7|@ripaojiedian
   network: tcp
   password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc
   port: 20016
@@ -174,7 +74,6 @@ proxies:
   skip-cert-verify: true
   sni: 6.elk3b3nwfy.xyz
   type: trojan
-  udp: true
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 10|🇭🇰 香港8|@ripaojiedian

@@ -1,90 +1,50 @@
 proxies:
-- name: 0|🇬🇧1 |  2.4MB/s
-  network: ws
-  port: 80
-  server: 45.131.4.210
-  tls: false
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇬🇧1 |  4.9MB/s
+  network: tcp
+  port: 49699
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou05.mysynology.net
+  servername: www.amazon.com
+  tls: true
   type: vless
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /
-- name: 0|🇬🇧2 |  5.9MB/s
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 0,12|US_speednode_0058
   network: ws
-  port: 80
-  server: 45.131.4.73
-  tls: false
+  port: 2096
+  server: 104.16.142.237
+  servername: Free.moqaab.ir
+  skip-cert-verify: false
+  tls: true
   type: vless
   udp: true
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+  uuid: 09ae3454-cf42-44e6-a81e-de00e5457af9
   ws-opts:
     headers:
-      Host: gozargah.validbv7996.ir
-    path: /MOSiV2--MOSiV2--MOSiV2--MOSiV2--MOSiV2--MOSiV2?ed=2560
+      Host: Free.moqaab.ir
+    path: /Telegram-EiV2Ray-Telegram-EiV2Ray-Telegram-EiV2Ray-Telegram-EiV2Ray-Telegram-EiV2Ray-Telegram
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 0|🇬🇧3 |  5.2MB/s
   network: tcp
-  port: 35311
+  port: 65053
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou02.mysynology.net
-  servername: www.yahoo.com
+  server: beiyong.dynuddns.net
+  servername: www.amazon.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- cipher: aes-256-cfb
-  name: 0|🇬🇧4 |  4.7MB/s
-  obfs: plain
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  protocol: origin
-  server: 62.100.205.48
-  type: ssr
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|🇬🇧5 |  5.2MB/s
-  network: tcp
-  port: 14659
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- alterId: 0
-  cipher: auto
-  name: 0|🇬🇧6 |  4.3MB/s
-  network: ws
-  port: 25240
-  server: cm.awslcn.info
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-  ws-opts:
-    headers:
-      Host: cm.awslcn.info
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🇬🇧7 |  5.1MB/s
-  network: ws
-  port: 25240
-  server: cm1.awslcn.info
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-  ws-opts:
-    headers:
-      Host: cm1.awslcn.info
-    path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇬🇧8 |  3.0MB/s
+  name: 0|🇬🇧4 |  2.6MB/s
   network: tcp
   port: 32055
   reality-opts:
@@ -94,3 +54,17 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- alterId: 0
+  cipher: auto
+  name: 0|🇬🇧5 |  5.1MB/s
+  network: ws
+  port: 25240
+  server: cm.awslcn.info
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
+  ws-headers:
+    Host: cm.awslcn.info
+  ws-path: /

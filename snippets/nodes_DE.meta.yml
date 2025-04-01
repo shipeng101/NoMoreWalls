@@ -1,36 +1,43 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 0|🇩🇪1 |  2.9MB/s
+- name: 0,12|NL_speednode_0027
   network: ws
-  port: 25241
-  server: cm1.awslcn.info
+  port: 80
+  server: 45.131.4.33
+  servername: gozargah.validbv7996.ir
   skip-cert-verify: false
   tls: false
-  type: vmess
-  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
+  type: vless
+  udp: true
+  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
   ws-opts:
     headers:
-      Host: cm1.awslcn.info
+      Host: gozargah.validbv7996.ir
     path: /
-- alterId: 0
-  cipher: auto
+- flow: ''
+  mode: ''
   name: 0|🇩🇪2 |  4.8MB/s
   network: ws
-  port: 25241
-  server: cm.awslcn.info
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
+  port: 2053
+  server: 173.245.59.132
+  servername: de.gt-ov.com
+  tls: true
+  type: vless
+  udp: false
+  uuid: 701909bd-3e3c-4fcf-ad09-06359625affe
   ws-opts:
     headers:
-      Host: cm.awslcn.info
+      Host: de.gt-ov.com
     path: /
-- cipher: rc4-md5
-  name: 0|🇩🇪3 |  5.2MB/s
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 193.108.119.230
-  type: ss
+- client-fingerprint: chrome
+  name: 12|DE_speednode_0018
+  port: 443
+  reality-opts:
+    public-key: 7Dd-Z14Mxvy_CJmFe5Q-StNR2ZloyDeMAC6MEVSq4yg
+    short-id: e9
+  server: mw8.niassa.ir
+  servername: mw8.niassa.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
+  uuid: 99b7f7d7-0c5f-463c-8f3c-548e15f5ae28

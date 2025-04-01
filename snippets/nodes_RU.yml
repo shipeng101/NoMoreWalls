@@ -1,14 +1,1 @@
-proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 0|🇷🇺6 |  2.5MB/s
-  network: ws
-  port: 23037
-  server: 195.133.5.127
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0d95b090-02a7-4af8-bb4f-27e2f0ed2a72
-  ws-opts:
-    path: /
+proxies: []
