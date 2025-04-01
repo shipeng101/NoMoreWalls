@@ -1,20 +1,13 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 0,11|日本4|@ripaojiedian
-  network: tcp
-  port: '36001'
-  server: v2-hk2-zf2.netcar.live
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f41a7211-3a16-4aa0-a3cf-0dd959b9ef1d
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵3 |  2.3MB/s
-  password: 220401d9-d4bf-444e-a140-d6c650948e74
-  port: 30003
-  server: gdgs.tarioblink.me
-  type: ss
+- name: 0|🇯🇵2 |  5.9MB/s
+  password: 68e6e853-d2d5-3126-950f-841d14dcf75c
+  port: 20300
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z300.hongkongnode.top
+  tfo: true
+  type: trojan
+  udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 10|🇯🇵 日本|@ripaojiedian
@@ -67,6 +60,16 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 11|日本4|@ripaojiedian
+  network: tcp
+  port: '36001'
+  server: v2-hk2-zf2.netcar.live
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f41a7211-3a16-4aa0-a3cf-0dd959b9ef1d
 - alterId: 0
   cipher: auto
   name: 11|日本A|@ripaojiedian
