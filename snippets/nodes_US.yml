@@ -1,18 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  delay: 2315
-  name: 0|🇺🇸12 |  3.3MB/s
-  network: ws
-  port: 80
-  server: 104.21.21.226
-  tls: false
-  type: vmess
-  uuid: a8fce442-ae9a-4cc1-a0cc-20308ff0a0db
-  ws-opts:
-    headers:
-      Host: 1c.890689.xyz
-    path: /lsUVr8VBxF4ylXngZ
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 10|🇺🇸 美国|@ripaojiedian

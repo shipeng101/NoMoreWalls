@@ -1,81 +1,38 @@
 proxies:
 - client-fingerprint: chrome
-  flow: ''
-  grpc-opts:
-    grpc-service-name: Go4HFJDtQYDNh5HQII31
-  mode: gun
-  name: 0|🇩🇪1 |  4.7MB/s
-  network: grpc
-  port: 110
+  flow: xtls-rprx-vision
+  mode: ''
+  name: 0|🇩🇪1 |  5.8MB/s
+  network: tcp
+  port: 20000
   reality-opts:
-    public-key: gjpZdZmvqNvzY9cgnc0tTF9XXAvvq5Hmp37jJl2lvWY
-    short-id: ce9fa5
-  server: free.serverlanddl.com
-  servername: cdnjs.cloudflare.com
+    public-key: PHP5Ibb_VceW-qb5RXLn-lKMHoqMTZbhrjwCMtsJZiQ
+    short-id: 49d5a3bd8cd3e6b6
+  server: 5.75.202.153
+  servername: fontawesome.com
   tls: true
   type: vless
   udp: false
-  uuid: d480786e-dc55-4c48-af9b-3ddf15bdd2cd
+  uuid: b7154df0-ce29-463e-8766-2afbf814b1b1
+  ws-opts:
+    headers:
+      Host: 'Telegram : @JOKERRVPN -JOKERRVPN : @JOKERRVPN -JOKERRVPN : @JOKERRVPN
+        -JOKERRVPN : @JOKERRVPN -JOKERRVPN : @JOKERRVPN -JOKERRVPN : @JOKERRVPN -JOKERRVPN
+        : @JOKERRVPN -JOKERRVPN : @JOKERRVPN -JOKERRVPN : @JOKERRVPN -JOKERRVPN :
+        @JOKERRVPN -JOKERRVPN : @JOKERRVPN'
+    path: ''
 - client-fingerprint: chrome
-  flow: ''
-  grpc-opts:
-    grpc-service-name: Go4HFJDtQYDNh5HQII31
+  flow: xtls-rprx-vision
   mode: ''
-  name: 0|🇩🇪2 |  5.1MB/s
-  network: grpc
-  port: 110
+  name: 0|🇩🇪2 |  5.2MB/s
+  network: tcp
+  port: 36443
   reality-opts:
-    public-key: gjpZdZmvqNvzY9cgnc0tTF9XXAvvq5Hmp37jJl2lvWY
-    short-id: ce9fa5
-  server: 91.107.161.47
-  servername: cdnjs.cloudflare.com
+    public-key: Fvm8Nk9_xIHnKlrqywijuK6FDWP7zSyNV_ap8qH__EQ
+    short-id: cc024cc0b79b6bad
+  server: 193.24.208.101
+  servername: www.speedtest.net
   tls: true
   type: vless
   udp: false
-  uuid: d480786e-dc55-4c48-af9b-3ddf15bdd2cd
-- name: 0,12|NL_speednode_0065
-  network: ws
-  port: 80
-  server: 45.131.5.179
-  servername: gozargah.validbv7996.ir
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /Telegram🇨🇳@WangCai2
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 0|🇩🇪4 |  5.8MB/s
-  network: ws
-  port: 2096
-  server: www.speedtest.net
-  servername: ZenharyB6.PersonApps.info
-  tls: true
-  type: vless
-  udp: false
-  uuid: 95267673-3bee-486b-b591-59baa689bb7e
-  ws-opts:
-    headers:
-      Host: ZenharyB6.PersonApps.info
-    path: /
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 0|🇩🇪5 |  4.5MB/s
-  network: ws
-  port: 2096
-  server: 104.17.147.22
-  servername: ZenharyB6.PersonApps.info
-  tls: true
-  type: vless
-  udp: false
-  uuid: 95267673-3bee-486b-b591-59baa689bb7e
-  ws-opts:
-    headers:
-      Host: ZenharyB6.PersonApps.info
-    path: /
+  uuid: dff6aeff-54dd-4d04-ad68-c79fbf89f9f0
