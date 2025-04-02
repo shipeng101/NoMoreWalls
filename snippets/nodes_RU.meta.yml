@@ -1,6 +1,6 @@
 proxies:
 - fast-open: true
-  name: 0|🇷🇺1 |  4.3MB/s
+  name: 0|🇷🇺1 |  4.7MB/s
   password: dongtaiwang.com
   port: 35751
   server: 46.29.163.171
@@ -8,7 +8,7 @@ proxies:
   sni: www.bing.com
   type: hysteria2
 - auth: dongtaiwang.com
-  name: 0|🇷🇺2 |  5.0MB/s
+  name: 0|🇷🇺2 |  1.5MB/s
   password: dongtaiwang.com
   port: 12904
   server: 46.17.41.5
@@ -19,7 +19,7 @@ proxies:
   - h3
   auth_str: dongtaiwang.com
   down: 1000 Mbps
-  name: 0|🇷🇺3 |  2.6MB/s
+  name: 0|🇷🇺3 |  5.8MB/s
   port: 10469
   server: 46.17.41.174
   skip-cert-verify: true
@@ -27,21 +27,10 @@ proxies:
   type: hysteria
   udp: true
   up: 100 Mbps
-- name: 0|🇷🇺4 |  1.2MB/s
+- name: 0|🇷🇺4 |  3.1MB/s
   password: dongtaiwang.com
   port: 4395
   server: 46.17.41.217
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: 1000 Mbps
-  name: 0|🇷🇺5 |  2.5MB/s
-  port: 10803
-  server: 185.22.155.71
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
-  up: 1000 Mbps
