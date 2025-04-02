@@ -1,44 +1,17 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸1 |  2.6MB/s
-  network: ws
-  port: 22440
-  server: 198.23.184.195
-  servername: ny.likelike.ddns-ip.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9ded86f7-5c00-4202-9769-0d5d4d22575c
-  ws-opts:
-    headers:
-      Host: ny.likelike.ddns-ip.net
-    path: /
 - cipher: aes-256-cfb
-  name: 0|🇸🇬1 |  5.8MB/s
+  country: 🇺🇸US
+  delay: 2869
+  name: 0|🇸🇬1 |  6.1MB/s
   password: amazonskr05
   port: 443
-  server: 13.212.77.19
+  server: 47.129.230.32
   type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|🇰🇷1 |  1.7MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.38.92.181
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 0|🇺🇸10 |  5.2MB/s
-  password: 3dfP6PjGUCzvML7n
-  port: 16339
-  server: 97.64.23.202
-  type: ss
-- alterId: 0
+- alterId: '0'
   cipher: auto
-  name: 0|🇨🇭1 |  1.7MB/s
+  name: 0|🇨🇭3 |  1.0MB/s
   network: tcp
-  port: 22324
+  port: '22324'
   raw:
     add: 186.190.215.193
     aid: '0'
@@ -62,74 +35,126 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 0|🇺🇸27 |  2.8MB/s
-  network: ws
-  port: 22440
-  server: 198.23.184.195
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9ded86f7-5c00-4202-9769-0d5d4d22575c
-  ws-headers:
-    Host: ny.likelike.ddns-ip.net
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🇹🇼42 |  1.7MB/s
-  port: 34006
-  server: v2-tw1-zx.netcar.live
+  name: 0|🇸🇬2 |  1.3MB/s
+  port: 3683
+  server: 1387ebdd-su7b40-su6828-eme.b.fosant.com
   tls: false
   type: vmess
-  uuid: a7a702a2-c56d-4379-972b-30690dddec0d
+  uuid: 16d93f14-af0e-11ee-8ebe-f23c93136cb3
+- cipher: aes-256-cfb
+  delay: 2631
+  name: 0|🇸🇬4 |  2.9MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.141.139.23
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 0|🇸🇬3 |  1.1MB/s
-  port: 3683
-  server: 4f4f231e-su7xc0-su1oku-2gok.b.fosant.com
-  skip-cert-verify: false
+  name: 0|🇸🇬5 |  1.0MB/s
+  port: 45055
+  server: xdd.dashuai.cyou
   tls: false
   type: vmess
   udp: true
-  uuid: 17cdeb6c-f046-11ee-bdac-f23c93141fad
+  uuid: 81b1f53c-00ed-4379-bbbf-bc33a1a71acf
+- cipher: chacha20-ietf
+  name: 0|🇭🇰4 |  1.5MB/s
+  password: asd123456
+  port: 8388
+  server: 103.149.183.61
+  type: ss
+- cipher: aes-256-cfb
+  delay: 733
+  name: 0|🇰🇷1 |  4.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 43.202.67.225
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 0|🇺🇸38 |  2.3MB/s
-  network: tcp
-  port: 32246
-  raw:
-    add: 38.209.65.51
-    aid: '0'
-    alpn: ''
-    fp: ''
-    host: ''
-    id: 3ded5f28-0704-4369-c011-68309fd94cd0
-    net: tcp
-    path: /
-    port: 32246
-    ps: 🇺🇸 US_323
-    scy: ''
-    sni: ''
-    tls: ''
-    type: ''
-    v: '2'
-  server: 38.209.65.51
-  servername: ''
+  delay: 2315
+  name: 0|🇺🇸12 |  3.3MB/s
+  network: ws
+  port: 80
+  server: 104.21.21.226
   tls: false
   type: vmess
-  uuid: 3ded5f28-0704-4369-c011-68309fd94cd0
+  uuid: a8fce442-ae9a-4cc1-a0cc-20308ff0a0db
+  ws-opts:
+    headers:
+      Host: 1c.890689.xyz
+    path: /lsUVr8VBxF4ylXngZ
+- country: 🇬🇧GB
+  delay: 2409
+  name: 0|🇬🇧2 |  3.3MB/s
+  password: 7634a410-0a7d-11f0-acfd-1239d0255272
+  port: 443
+  server: uk1.test3.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 0|🇸🇬5 |  3.1MB/s
+  name: 0|🌀5- |  2.5MB/s
   network: tcp
-  port: 36007
-  server: v2-sg2-zf.netcar.live
+  port: 34013
+  server: v2-us2-zx.netcar.live
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: b1f8ac28-98f4-4e75-93c1-37f0d959e78b
+  uuid: 9a037058-73a1-4fc3-973f-c73b1f612d81
   ws-headers:
-    Host: v2-sg2-zf.netcar.live
+    Host: v2-us2-zx.netcar.live
   ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 0|🇸🇬6 |  1.1MB/s
+  network: tcp
+  port: '3683'
+  server: 4f4f231e-su7xc0-su1oku-2gok.b.fosant.com
+  type: vmess
+  uuid: 17cdeb6c-f046-11ee-bdac-f23c93141fad
+- cipher: aes-256-cfb
+  country: 🇺🇸US
+  delay: 443
+  name: 0|🇸🇬7 |  6.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 47.128.80.62
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇫🇷FR
+  delay: 1773
+  name: 0|🇫🇷5 |  5.5MB/s
+  password: b3a20bc01aa4ce13
+  port: 26567
+  server: 57.130.21.59
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  delay: 555
+  name: 0|🇸🇬8 |  6.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.250.5.171
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  delay: 557
+  name: 0|🇸🇬9 |  6.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.229.48.116
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  delay: 288
+  name: 0|🇸🇬10 |  6.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.212.222.104
+  type: ss
 - alterId: 0
   cipher: auto
   name: 10,11|香港|@ripaojiedian

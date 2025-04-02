@@ -1,1 +1,10 @@
-proxies: []
+proxies:
+- country: 🇬🇧GB
+  delay: 2409
+  name: 0|🇬🇧2 |  3.3MB/s
+  password: 7634a410-0a7d-11f0-acfd-1239d0255272
+  port: 443
+  server: uk1.test3.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
