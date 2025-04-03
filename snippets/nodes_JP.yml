@@ -29,13 +29,14 @@ proxies:
       Host: u2.huvicloud.com
     path: /f07b9711-a6a4-4128-807d-fdb40dcaa488
 - client-fingerprint: chrome
-  name: 10|🇯🇵 日本3|@ripaojiedian
+  name: 10,12|GB_speednode_0050
   password: '!!str 74260700211203800'
   port: 443
   server: powerful-grackle.shiner427.skin
   skip-cert-verify: false
   sni: powerful-grackle.shiner427.skin
   type: trojan
+  udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 10|🇯🇵 日本5|@ripaojiedian
@@ -48,9 +49,11 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- name: 11|日本3|@ripaojiedian
+- name: 11,12|GB_speednode_0051
   network: tcp
   password: '!!str 74260700211203800'
   port: 443
   server: powerful-grackle.shiner427.skin
+  skip-cert-verify: false
   type: trojan
+  udp: true
