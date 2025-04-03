@@ -1,4 +1,36 @@
 proxies:
+- name: 0|🇭🇰1 |  6.2MB/s
+  password: 2bc1d12b-be42-3a9d-9c03-290111f9ed2b
+  port: 24603
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z259.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 0|🇭🇰2 |  6.3MB/s
+  password: 2bc1d12b-be42-3a9d-9c03-290111f9ed2b
+  port: 20278
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z278.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 0|🇭🇰5 |  6.1MB/s
+  password: 2bc1d12b-be42-3a9d-9c03-290111f9ed2b
+  port: 22741
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: dufu.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 0|🇭🇰6 |  6.4MB/s
+  password: 2bc1d12b-be42-3a9d-9c03-290111f9ed2b
+  port: 20309
+  server: gyl.58n.net
+  skip-cert-verify: true
+  sni: z309.hongkongnode.top
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
