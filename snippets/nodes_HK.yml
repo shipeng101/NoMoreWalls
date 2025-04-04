@@ -1,16 +1,7 @@
 proxies:
-- name: 0|🇭🇰1 |  5.7MB/s
-  password: b92ecfaf-6411-3702-a9c2-14f66f639728
-  port: 24603
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z259.hongkongnode.top
-  tfo: true
-  type: trojan
-  udp: true
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 10|🇭🇰 香港2|@ripaojiedian
+  name: 0,10|🇭🇰 香港2|@ripaojiedian
   password: Sj10bnYDe7w6V29E
   plugin: obfs
   plugin-opts:

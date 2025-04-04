@@ -1,37 +1,28 @@
 proxies:
-- alterId: '0'
-  cipher: auto
-  name: 0|🇹🇼1 |  1.0MB/s
-  network: tcp
-  port: '27228'
-  server: 45.121.50.116
-  type: vmess
-  uuid: 1d4d8fb8-c73c-4474-e301-dcb9570943ca
-- name: 0|🇭🇰1 |  5.7MB/s
-  password: b92ecfaf-6411-3702-a9c2-14f66f639728
-  port: 24603
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z259.hongkongnode.top
-  tfo: true
-  type: trojan
-  udp: true
-- name: 0|🇯🇵2 |  1.9MB/s
-  password: b92ecfaf-6411-3702-a9c2-14f66f639728
-  port: 20140
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z140.hongkongnode.top
-  tfo: true
-  type: trojan
-  udp: true
+- cipher: aes-256-cfb
+  name: 0|🇯🇵1 |  4.5MB/s
+  password: amazonskr05
+  port: 443
+  server: 43.207.203.164
+  type: ss
+- cipher: aes-128-gcm
+  name: 0,10|🇭🇰 香港2|@ripaojiedian
+  password: Sj10bnYDe7w6V29E
+  plugin: obfs
+  plugin-opts:
+    host: 5f981bce46.m.ctrip.com
+    mode: http
+  port: 10001
+  server: south.inmysecretlife.xyz
+  tfo: false
+  type: ss
 - alterId: 2
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|🇺🇸9 |  1.7MB/s
+  name: 0|🇺🇸4 |  1.2MB/s
   network: ws
-  port: 22642
+  port: 22641
   server: tk.hzlt.tkddns.xyz
   skip-cert-verify: true
   tls: true
@@ -40,35 +31,19 @@ proxies:
   uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
   ws-opts:
     headers:
-      Host: zxjp-b.tkong.cc
+      Host: zxjp-a.tkong.cc
     path: /
-- cipher: aes-256-cfb
-  delay: 733
-  name: 0|🇰🇷1 |  1.8MB/s
-  password: amazonskr05
-  port: 443
-  server: 43.202.67.225
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇳🇱1 |  5.3MB/s
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: 45.87.175.154
   type: ss
-  udp: true
-- alterId: 2
+- alterId: '0'
   cipher: auto
-  name: 0|🇨🇦2 |  2.3MB/s
-  network: ws
-  port: 30825
-  server: v25.heduian.link
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /oooo
-- alterId: 0
-  cipher: auto
-  name: 0|🇸🇬11 |  6.2MB/s
+  name: 0|🇸🇬4 |  2.0MB/s
   network: tcp
-  port: 3683
+  port: '3683'
   server: b268cf3c-su7xc0-swx10p-cw9v.b.fosant.com
   skip-cert-verify: true
   tls: false
@@ -77,33 +52,123 @@ proxies:
   ws-headers:
     Host: b268cf3c-su7xc0-swx10p-cw9v.b.fosant.com
   ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: 0|🌀6-AM |  4.6MB/s
-  password: 5rfA92M6A2a9E1GiFHa9Ux
-  port: 4443
-  server: 45.129.185.97
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 0|🌀4-MY |  1.5MB/s
+  network: tcp
+  port: 36700
+  raw:
+    add: 101.99.91.234
+    aid: null
+    alpn: ''
+    fp: ''
+    host: ''
+    id: 127ff43c-1851-4b2d-ba8c-6afba21ec04d
+    net: tcp
+    path: ''
+    port: 36700
+    ps: 🔥Join+Telegram:@FarahVPN🟣
+    scy: auto
+    sni: ''
+    tls: none
+    type: none
+    v: '2'
+  server: 101.99.91.234
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 127ff43c-1851-4b2d-ba8c-6afba21ec04d
+- alterId: 0
+  cipher: auto
+  name: 0,10|🇯🇵 日本4|@ripaojiedian
+  port: 28588
+  server: pqcaqxvt.xn--fiqs8sjz2bull.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: a9d360f5-6786-4ff0-9861-b4fecd4cfd11
 - cipher: aes-256-cfb
-  name: 0|🇸🇬5 |  6.1MB/s
+  name: 0|🇸🇬2 |  1.9MB/s
   password: amazonskr05
   port: 443
-  server: 54.169.64.13
+  server: 47.129.238.196
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸16 |  3.1MB/s
+  network: ws
+  port: 443
+  server: 104.18.149.75
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
+  ws-opts:
+    headers:
+      Host: us.insbot.filegear-sg.me
+    path: /aa
 - cipher: aes-256-cfb
-  name: 0|🇸🇬6 |  6.0MB/s
+  name: 0|🇯🇵10 |  6.1MB/s
   password: amazonskr05
   port: 443
-  server: 3.0.50.161
+  server: 175.41.230.149
   type: ss
 - cipher: aes-256-cfb
-  name: 0|🌀14- |  1.2MB/s
+  name: 0|🇯🇵11 |  5.2MB/s
   password: amazonskr05
   port: 443
-  server: 18.140.70.168
+  server: 13.112.73.126
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 0,10,11|日本2|@ripaojiedian
+  network: ws
+  port: '10390'
+  server: 222.104.240.250
+  servername: oracleipv4.till.nyc.mn
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: a13f1b5a-7071-4bbc-8bae-f4f74fd77ace
+  ws-opts:
+    headers:
+      Host: oracleipv4.till.nyc.mn
+    path: /123
+- alterId: 0
+  cipher: auto
+  name: 0|🇩🇪6 |  4.9MB/s
+  network: ws
+  port: 443
+  raw:
+    add: 172.67.71.217
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: 1t3chx0.zed23.web1337.net
+    id: 9072d339-3885-4fe1-b0bc-29fa7505410e
+    net: ws
+    path: /fixedfloati.cfd/linkwsd
+    port: 443
+    ps: 🇺🇸 US_273
+    scy: ''
+    sni: ''
+    tls: tls
+    type: ''
+    v: '2'
+  server: 172.67.71.217
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 9072d339-3885-4fe1-b0bc-29fa7505410e
+  ws-opts:
+    headers:
+      Host: 1t3chx0.zed23.web1337.net
+    path: /fixedfloati.cfd/linkwsd
 - alterId: 2
   cipher: auto
-  name: 0|🇺🇸18 |  1.7MB/s
+  name: 0|🇺🇸26 |  4.9MB/s
   network: ws
   port: 30807
   server: v7.heduian.link
@@ -116,22 +181,15 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- alterId: 0
-  cipher: auto
-  name: 0|🇸🇬10 |  3.9MB/s
-  network: tcp
-  port: 3683
-  server: 1387ebdd-su7b40-su6828-eme.b.fosant.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 16d93f14-af0e-11ee-8ebe-f23c93136cb3
-  ws-headers:
-    Host: 1387ebdd-su7b40-su6828-eme.b.fosant.com
-  ws-path: /
+- cipher: aes-256-cfb
+  name: 0|🇯🇵14 |  6.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 35.77.81.130
+  type: ss
 - alterId: 2
   cipher: auto
-  name: 0|🇮🇹1 |  5.4MB/s
+  name: 0|🇮🇹1 |  1.0MB/s
   network: ws
   port: 30805
   raw:
@@ -161,33 +219,6 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 0|🌀21-ID |  5.4MB/s
-  network: ws
-  port: 443
-  server: quiz.int.vidio.com
-  servername: serv1.idks1.web.id
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 9c7c7039-a5f1-47b2-9225-cbb5bf03b9e6
-  ws-opts:
-    headers:
-      Host: serv1.idks1.web.id
-    path: /vmess
-- cipher: aes-128-gcm
-  name: 10|🇭🇰 香港2|@ripaojiedian
-  password: Sj10bnYDe7w6V29E
-  plugin: obfs
-  plugin-opts:
-    host: 5f981bce46.m.ctrip.com
-    mode: http
-  port: 10001
-  server: south.inmysecretlife.xyz
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
   name: 10|🇭🇰 香港5|@ripaojiedian
   port: 41002
   server: 120.232.153.40
@@ -207,32 +238,6 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 10,11|日本2|@ripaojiedian
-  network: ws
-  port: '10390'
-  server: 222.104.240.250
-  servername: oracleipv4.till.nyc.mn
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: a13f1b5a-7071-4bbc-8bae-f4f74fd77ace
-  ws-opts:
-    headers:
-      Host: oracleipv4.till.nyc.mn
-    path: /123
-- alterId: 0
-  cipher: auto
-  name: 10|🇯🇵 日本4|@ripaojiedian
-  port: 28588
-  server: pqcaqxvt.xn--fiqs8sjz2bull.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: a9d360f5-6786-4ff0-9861-b4fecd4cfd11
 - cipher: rc4-md5
   name: 10|🇯🇵 日本5|@ripaojiedian
   password: efanccyun
@@ -286,85 +291,6 @@ proxies:
   tls: false
   type: vmess
   uuid: a9d360f5-6786-4ff0-9861-b4fecd4cfd11
-- name: 12|CN_speednode_0006
-  password: c4a51598-fb4d-4b70-bf19-f58e6ae704bf
-  port: 27101
-  server: aafrtpfxr.hkl01i9zjfegelp.5xfsur8v62.gosdk.xyz
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 12|CN_speednode_0007
-  password: c4a51598-fb4d-4b70-bf19-f58e6ae704bf
-  port: 10465
-  server: aafrtpfxr.hkl03i9zjfegelp.5xfsur8v62.gosdk.xyz
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 12|CN_speednode_0008
-  password: c4a51598-fb4d-4b70-bf19-f58e6ae704bf
-  port: 27002
-  server: aafrtpfxr.jpl02i9zjfegelp.5xfsur8v62.gosdk.xyz
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 12|CN_speednode_0009
-  password: c4a51598-fb4d-4b70-bf19-f58e6ae704bf
-  port: 43395
-  server: aafrtpfxr.thl01i9zjfegelp.5xfsur8v62.gosdk.xyz
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 12|CN_speednode_0015
-  password: c4a51598-fb4d-4b70-bf19-f58e6ae704bf
-  port: 33506
-  server: aafrtpfxr.usl03i9zjfegelp.5xfsur8v62.gosdk.xyz
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 12|CN_speednode_0019
-  password: c4a51598-fb4d-4b70-bf19-f58e6ae704bf
-  port: 43583
-  server: aafrtpfxr.del01i9zjfegelp.5xfsur8v62.gosdk.xyz
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 12|CN_speednode_0020
-  password: c4a51598-fb4d-4b70-bf19-f58e6ae704bf
-  port: 44397
-  server: aafrtpfxr.gbl01i9zjfegelp.5xfsur8v62.gosdk.xyz
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 12|CN_speednode_0021
-  password: c4a51598-fb4d-4b70-bf19-f58e6ae704bf
-  port: 43498
-  server: aafrtpfxr.frl01i9zjfegelp.5xfsur8v62.gosdk.xyz
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 12|GB_speednode_0050
-  password: '74260700211203800'
-  port: 443
-  server: powerful-grackle.shiner427.skin
-  skip-cert-verify: false
-  sni: powerful-grackle.shiner427.skin
-  type: trojan
-  udp: true
-- name: 12|GB_speednode_0051
-  password: '74260700211203800'
-  port: 443
-  server: powerful-grackle.shiner427.skin
-  skip-cert-verify: false
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 13|d*********g.com_2
