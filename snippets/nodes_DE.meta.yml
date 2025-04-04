@@ -1,20 +1,6 @@
 proxies:
-- client-fingerprint: ''
-  flow: ''
-  grpc-opts:
-    grpc-service-name: TEL@V2rayNG_SPDNet-TEL--@V2rayNG_SPDNet-TEL--@V2rayNG_SPDNet-TEL--@V2rayNG_SPDNet-JOIN-@V2rayNG_SPDNet-TEL--@V2rayNG_SPDNet-JOIN-@V2rayNG_SPDNet-TEL-@V2rayNG_SPDNet-TEL--@V2rayNG_SPDNet-JOIN-@V2rayNG_SPDNet-TEL--@V2rayNG_SPDNet
-  mode: ''
-  name: 0|🇩🇪1 |  2.5MB/s
-  network: grpc
-  port: 12685
-  server: 142.132.185.23
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: c8e39728-adb2-4f62-9dba-bd1f15a95e8a
 - auth: 18463200c271aa6d
-  name: 0|🇩🇪2 |  5.1MB/s
+  name: 0|🇩🇪1 |  1.7MB/s
   obfs: salamander
   obfs-password: 6c80ade6
   password: 18463200c271aa6d
@@ -25,33 +11,23 @@ proxies:
   type: hysteria2
 - client-fingerprint: ''
   flow: ''
-  grpc-opts:
-    grpc-service-name: TEL@V2rayNG_SPDNet-TEL--@V2rayNG_SPDNet-TEL--@V2rayNG_SPDNet-TEL--@V2rayNG_SPDNet-JOIN-@V2rayNG_SPDNet-TEL--@V2rayNG_SPDNet-JOIN-@V2rayNG_SPDNet-TEL-@V2rayNG_SPDNet-TEL--@V2rayNG_SPDNet-JOIN-@V2rayNG_SPDNet-TEL--@V2rayNG_SPDNet
-  mode: gun
-  name: 0|🇩🇪3 |  3.0MB/s
-  network: grpc
-  port: 12685
-  server: V2rayNG.SPDNet.online
+  mode: ''
+  name: 0|🇩🇪2 |  1.9MB/s
+  network: ws
+  port: 80
+  server: 45.131.5.35
   servername: ''
   tls: false
   type: vless
   udp: false
-  uuid: c8e39728-adb2-4f62-9dba-bd1f15a95e8a
-- name: 0|🇩🇪4 |  4.9MB/s
-  network: ws
-  port: 80
-  server: 45.131.5.151
-  servername: gozargah.validbv7996.ir
-  tls: false
-  type: vless
   uuid: c5293efa-28f8-4a0f-8f34-541078970cee
   ws-opts:
     headers:
       Host: gozargah.validbv7996.ir
-    path: /Telegram🇨🇳 @MxlShare@WangCai2
+    path: Telegram🇨🇳@WangCai2/?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|🇩🇪5 |  5.3MB/s
+  name: 0|🇩🇪3 |  1.9MB/s
   network: tcp
   port: 58031
   reality-opts:
@@ -61,15 +37,3 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 0|🇩🇪6 |  3.5MB/s
-  network: ws
-  port: 8080
-  server: 45.131.4.73
-  tls: false
-  type: vless
-  udp: true
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /

@@ -1,11 +1,20 @@
 proxies:
+- name: 0|🇯🇵2 |  1.9MB/s
+  password: b92ecfaf-6411-3702-a9c2-14f66f639728
+  port: 20140
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z140.hongkongnode.top
+  tfo: true
+  type: trojan
+  udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 10|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503170996717-V7W8Ez6eLg.download.microsoft.com
+    host: 202504031266665-b2qPz9YET8.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -16,44 +25,48 @@ proxies:
   client-fingerprint: chrome
   name: 10,11|日本2|@ripaojiedian
   network: ws
-  port: '443'
-  server: u2.huvicloud.com
-  servername: u2.huvicloud.com
+  port: '10390'
+  server: 222.104.240.250
+  servername: oracleipv4.till.nyc.mn
   skip-cert-verify: false
   tfo: false
   tls: true
   type: vmess
-  uuid: f07b9711-a6a4-4128-807d-fdb40dcaa488
+  uuid: a13f1b5a-7071-4bbc-8bae-f4f74fd77ace
   ws-opts:
     headers:
-      Host: u2.huvicloud.com
-    path: /f07b9711-a6a4-4128-807d-fdb40dcaa488
-- client-fingerprint: chrome
-  name: 10,12|GB_speednode_0050
-  password: '!!str 74260700211203800'
-  port: 443
-  server: powerful-grackle.shiner427.skin
+      Host: oracleipv4.till.nyc.mn
+    path: /123
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇯🇵 日本4|@ripaojiedian
+  port: 28588
+  server: pqcaqxvt.xn--fiqs8sjz2bull.com
   skip-cert-verify: false
-  sni: powerful-grackle.shiner427.skin
-  type: trojan
-  udp: true
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: a9d360f5-6786-4ff0-9861-b4fecd4cfd11
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 10|🇯🇵 日本5|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503170996717-V7W8Ez6eLg.download.microsoft.com
+    host: 202504031266665-b2qPz9YET8.download.microsoft.com
     mode: http
   port: 8769
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- name: 11,12|GB_speednode_0051
+- alterId: 0
+  cipher: auto
+  name: 11|日本4|@ripaojiedian
   network: tcp
-  password: '!!str 74260700211203800'
-  port: 443
-  server: powerful-grackle.shiner427.skin
-  skip-cert-verify: false
-  type: trojan
-  udp: true
+  port: '28588'
+  server: pqcaqxvt.xn--fiqs8sjz2bull.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a9d360f5-6786-4ff0-9861-b4fecd4cfd11

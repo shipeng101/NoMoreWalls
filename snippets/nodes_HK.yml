@@ -1,15 +1,25 @@
 proxies:
-- alterId: 0
-  cipher: auto
+- name: 0|🇭🇰1 |  5.7MB/s
+  password: b92ecfaf-6411-3702-a9c2-14f66f639728
+  port: 24603
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z259.hongkongnode.top
+  tfo: true
+  type: trojan
+  udp: true
+- cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 10|🇭🇰 香港2|@ripaojiedian
-  port: 18279
-  server: 103.30.76.96
-  skip-cert-verify: false
+  password: Sj10bnYDe7w6V29E
+  plugin: obfs
+  plugin-opts:
+    host: 5f981bce46.m.ctrip.com
+    mode: http
+  port: 10001
+  server: south.inmysecretlife.xyz
   tfo: false
-  tls: false
-  type: vmess
-  uuid: 05ad1fb1-fb21-47c2-b036-22d163eef3a7
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -21,16 +31,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11|香港2|@ripaojiedian
-  network: tcp
-  port: '18279'
-  server: 103.30.76.96
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 05ad1fb1-fb21-47c2-b036-22d163eef3a7
 - alterId: 0
   cipher: auto
   name: 11|香港5|@ripaojiedian

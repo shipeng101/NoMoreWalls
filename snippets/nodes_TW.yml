@@ -1,18 +1,9 @@
 proxies:
-- alterId: 0
+- alterId: '0'
   cipher: auto
-  client-fingerprint: chrome
-  name: 10,11|台湾|@ripaojiedian
-  network: ws
-  port: '443'
-  server: 104.17.137.127
-  servername: tw.niskakowski.ggff.net
-  skip-cert-verify: false
-  tfo: false
-  tls: true
+  name: 0|🇹🇼1 |  1.0MB/s
+  network: tcp
+  port: '27228'
+  server: 45.121.50.116
   type: vmess
-  uuid: 56529ad8-61d2-4bfa-aa0b-a800719cb5fe
-  ws-opts:
-    headers:
-      Host: tw.niskakowski.ggff.net
-    path: /aa
+  uuid: 1d4d8fb8-c73c-4474-e301-dcb9570943ca
