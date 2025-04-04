@@ -1,195 +1,123 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 0|🇯🇵1 |  4.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 43.207.203.164
-  type: ss
-- cipher: aes-128-gcm
-  name: 0,10|🇭🇰 香港2|@ripaojiedian
-  password: Sj10bnYDe7w6V29E
-  plugin: obfs
-  plugin-opts:
-    host: 5f981bce46.m.ctrip.com
-    mode: http
-  port: 10001
-  server: south.inmysecretlife.xyz
-  tfo: false
-  type: ss
 - alterId: 2
   cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|🇺🇸4 |  1.2MB/s
+  name: 0|🇮🇳1 |  5.9MB/s
   network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
+  port: 23611
+  server: 11.mamamajd.site
   skip-cert-verify: true
-  tls: true
+  tfo: true
+  tls: false
   type: vmess
   udp: true
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  uuid: 55555e72-2632-397d-9b59-953d54e2b0b7
   ws-opts:
     headers:
-      Host: zxjp-a.tkong.cc
+      Host: 11.mamamajd.site
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇳🇱1 |  5.3MB/s
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 45.87.175.154
+- cipher: aes-256-cfb
+  name: 0|🇯🇵3 |  5.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 52.197.57.24
   type: ss
-- alterId: '0'
+- cipher: aes-256-cfb
+  name: 0|🇯🇵5 |  1.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 35.77.81.130
+  type: ss
+- allowInsecure: ''
+  name: 0|🇺🇸15 |  5.6MB/s
+  network: ws
+  password: 2fec7227-9abe-46f2-af18-78302b836c45
+  port: 443
+  server: 172.67.200.238
+  skip-cert-verify: false
+  sni: 3s.890689.xyz
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 3s.890689.xyz
+    path: /XjTi1NYwi9A2bckpqdDoAgkondVWl
+- cipher: aes-256-gcm
+  name: 0|🇧🇷1 |  2.1MB/s
+  password: 475ca001-22d2-4c3b-856c-a0e20453920e
+  port: 7703
+  server: 137.131.180.87
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|🇸🇬5 |  1.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.250.61.152
+  type: ss
+- alterId: 2
   cipher: auto
-  name: 0|🇸🇬4 |  2.0MB/s
-  network: tcp
-  port: '3683'
-  server: b268cf3c-su7xc0-swx10p-cw9v.b.fosant.com
+  name: 0|🇫🇷2 |  4.7MB/s
+  network: ws
+  port: 30837
+  server: v37.heduian.link
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: f39baabc-ef78-11ef-b714-f23c93136cb3
-  ws-headers:
-    Host: b268cf3c-su7xc0-swx10p-cw9v.b.fosant.com
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🌀4-MY |  1.5MB/s
-  network: tcp
-  port: 36700
-  raw:
-    add: 101.99.91.234
-    aid: null
-    alpn: ''
-    fp: ''
-    host: ''
-    id: 127ff43c-1851-4b2d-ba8c-6afba21ec04d
-    net: tcp
-    path: ''
-    port: 36700
-    ps: 🔥Join+Telegram:@FarahVPN🟣
-    scy: auto
-    sni: ''
-    tls: none
-    type: none
-    v: '2'
-  server: 101.99.91.234
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 127ff43c-1851-4b2d-ba8c-6afba21ec04d
-- alterId: 0
-  cipher: auto
-  name: 0,10|🇯🇵 日本4|@ripaojiedian
-  port: 28588
-  server: pqcaqxvt.xn--fiqs8sjz2bull.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: a9d360f5-6786-4ff0-9861-b4fecd4cfd11
-- cipher: aes-256-cfb
-  name: 0|🇸🇬2 |  1.9MB/s
-  password: amazonskr05
-  port: 443
-  server: 47.129.238.196
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸16 |  3.1MB/s
-  network: ws
-  port: 443
-  server: 104.18.149.75
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
-  ws-opts:
-    headers:
-      Host: us.insbot.filegear-sg.me
-    path: /aa
-- cipher: aes-256-cfb
-  name: 0|🇯🇵10 |  6.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 175.41.230.149
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|🇯🇵11 |  5.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.112.73.126
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 0,10,11|日本2|@ripaojiedian
-  network: ws
-  port: '10390'
-  server: 222.104.240.250
-  servername: oracleipv4.till.nyc.mn
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: a13f1b5a-7071-4bbc-8bae-f4f74fd77ace
-  ws-opts:
-    headers:
-      Host: oracleipv4.till.nyc.mn
-    path: /123
-- alterId: 0
-  cipher: auto
-  name: 0|🇩🇪6 |  4.9MB/s
-  network: ws
-  port: 443
-  raw:
-    add: 172.67.71.217
-    aid: '0'
-    alpn: ''
-    fp: ''
-    host: 1t3chx0.zed23.web1337.net
-    id: 9072d339-3885-4fe1-b0bc-29fa7505410e
-    net: ws
-    path: /fixedfloati.cfd/linkwsd
-    port: 443
-    ps: 🇺🇸 US_273
-    scy: ''
-    sni: ''
-    tls: tls
-    type: ''
-    v: '2'
-  server: 172.67.71.217
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 9072d339-3885-4fe1-b0bc-29fa7505410e
-  ws-opts:
-    headers:
-      Host: 1t3chx0.zed23.web1337.net
-    path: /fixedfloati.cfd/linkwsd
-- alterId: 2
-  cipher: auto
-  name: 0|🇺🇸26 |  4.9MB/s
-  network: ws
-  port: 30807
-  server: v7.heduian.link
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
       Host: ocbc.com
     path: /oooo
 - cipher: aes-256-cfb
-  name: 0|🇯🇵14 |  6.2MB/s
+  name: 0|🇸🇬6 |  1.1MB/s
   password: amazonskr05
   port: 443
-  server: 35.77.81.130
+  server: 13.250.55.223
   type: ss
+- allowInsecure: ''
+  name: 0|🇺🇸21 |  1.4MB/s
+  network: ws
+  password: a8fce442-ae9a-4cc1-a0cc-20308ff0a0db
+  port: 443
+  server: 104.21.96.1
+  skip-cert-verify: false
+  sni: 1g.890699.xyZ
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 1g.890699.xyz
+    path: /lXENb74xF4ylXngZ
+- name: 0|🇹🇼5 |  1.9MB/s
+  password: 32b598e2-2bf7-4af1-8d17-306f839dde74
+  port: 27201
+  server: aafrtpfxr.twl01i9zjfegelp.5xfsur8v62.gosdk.xyz
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+- cipher: aes-256-cfb
+  country: 🇺🇸US
+  delay: 1414
+  name: 0|🇸🇬7 |  1.8MB/s
+  password: amazonskr05
+  port: 443
+  server: 47.129.202.70
+  type: ss
+- name: 0|🇺🇸31 |  5.6MB/s
+  network: ws
+  password: a8fce442-ae9a-4cc1-a0cc-20308ff0a0db
+  port: 443
+  server: 104.21.16.1
+  skip-cert-verify: true
+  sni: 1g.890699.xyZ
+  tfo: false
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 1g.890699.xyZ
+    path: /lXENb74xF4ylXngZ
 - alterId: 2
   cipher: auto
-  name: 0|🇮🇹1 |  1.0MB/s
+  name: 0|🇮🇹1 |  5.4MB/s
   network: ws
   port: 30805
   raw:
@@ -217,6 +145,36 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
+- alterId: '0'
+  cipher: auto
+  name: 0|🇸🇬11 |  1.0MB/s
+  network: tcp
+  port: '3683'
+  server: b268cf3c-su7xc0-swx10p-cw9v.b.fosant.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f39baabc-ef78-11ef-b714-f23c93136cb3
+  ws-headers:
+    Host: b268cf3c-su7xc0-swx10p-cw9v.b.fosant.com
+  ws-path: /
+- cipher: aes-256-cfb
+  name: 0|🇸🇬12 |  1.5MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.254.9.107
+  type: ss
+- cipher: aes-128-gcm
+  name: 10|🇭🇰 香港2|@ripaojiedian
+  password: Sj10bnYDe7w6V29E
+  plugin: obfs
+  plugin-opts:
+    host: 5f981bce46.m.ctrip.com
+    mode: http
+  port: 10001
+  server: south.inmysecretlife.xyz
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 10|🇭🇰 香港5|@ripaojiedian
@@ -238,6 +196,32 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 10,11|日本2|@ripaojiedian
+  network: ws
+  port: '10390'
+  server: 222.104.240.250
+  servername: oracleipv4.till.nyc.mn
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: a13f1b5a-7071-4bbc-8bae-f4f74fd77ace
+  ws-opts:
+    headers:
+      Host: oracleipv4.till.nyc.mn
+    path: /123
+- alterId: 0
+  cipher: auto
+  name: 10|🇯🇵 日本4|@ripaojiedian
+  port: 28588
+  server: pqcaqxvt.xn--fiqs8sjz2bull.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: a9d360f5-6786-4ff0-9861-b4fecd4cfd11
 - cipher: rc4-md5
   name: 10|🇯🇵 日本5|@ripaojiedian
   password: efanccyun

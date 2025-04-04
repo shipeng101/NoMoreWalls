@@ -1,7 +1,7 @@
 proxies:
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 0,10|🇭🇰 香港2|@ripaojiedian
+  name: 10|🇭🇰 香港2|@ripaojiedian
   password: Sj10bnYDe7w6V29E
   plugin: obfs
   plugin-opts:
