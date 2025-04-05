@@ -1,4 +1,19 @@
 proxies:
+- alterId: 2
+  cipher: auto
+  name: 0|🇬🇧1 |  1.4MB/s
+  network: ws
+  port: 23613
+  server: 13.mamamajd.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 16eb61a1-9016-3cd0-8a4a-c03e84d69630
+  ws-opts:
+    headers:
+      Host: 13.mamamajd.site
+    path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 0,12|CN_speednode_0023
@@ -12,32 +27,4 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 0|🇬🇧2 |  3.2MB/s
-  network: ws
-  port: 22222
-  server: 13.41.21.191
-  servername: telegram-channel-vlessconfig.sohala.uk
-  tls: true
-  type: vless
-  udp: false
-  uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
-  ws-opts:
-    headers:
-      Host: telegram-channel-vlessconfig.sohala.uk
-    path: /telegram-channel-vlessconfig-ws
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇬🇧3 |  5.5MB/s
-  network: tcp
-  port: 14659
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
-  servername: www.nvidia.com
-  tls: true
-  type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
