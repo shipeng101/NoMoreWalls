@@ -1,53 +1,67 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  name: 0|🇸🇬1 |  5.4MB/s
-  network: ws
-  port: 23617
-  server: 17.mamamajd.site
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0,12|CN_speednode_0010
+  network: tcp
+  port: 44003
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: csuzhou01.1cooldns.com
+  servername: www.nvidia.com
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 16eb61a1-9016-3cd0-8a4a-c03e84d69630
-  ws-opts:
-    headers:
-      Host: 17.mamamajd.site
-    path: /
-- cipher: aes-256-cfb
-  delay: 522
-  name: 0|🇸🇬2 |  1.8MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.212.77.19
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|🇸🇬3 |  2.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 47.129.157.77
-  type: ss
-- name: 0,12|US_speednode_0035
-  network: ws
-  port: 80
-  server: 170.114.45.6
-  servername: free.pranithsandaruwan.shop
-  skip-cert-verify: true
-  tls: false
+  tls: true
   type: vless
   udp: true
-  uuid: d9074e14-c4e4-4e58-8fff-3727e83af868
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 0|🇸🇬2 |  4.5MB/s
+  password: b13c1e89-60af-4462-8932-4acf1d604a19
+  port: 27401
+  server: aafrtpfxr.sgl01i9zjfegelp.5xfsur8v62.gosdk.xyz
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+- name: 0|🇸🇬3 |  2.8MB/s
+  password: myszy28811
+  port: 28811
+  server: pipi.myddns.me
+  type: socks5
+  udp: true
+  username: myszy
+- name: 0|🇸🇬4 |  1.1MB/s
+  network: ws
+  port: 8443
+  server: 111.119.235.98
+  servername: sgp.cayuo.me
+  tls: true
+  type: vless
+  uuid: a89981b0-8096-4bbc-8d24-da2330650c4b
   ws-opts:
     headers:
-      Host: free.pranithsandaruwan.shop
-    path: /
+      Host: sgp.cayuo.me
+    path: /bing
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇸🇬5 |  3.6MB/s
+  network: tcp
+  port: 29877
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: beiyong.dynuddns.net
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - cipher: aes-256-cfb
-  name: 0|🇸🇬5 |  3.5MB/s
+  name: 0|🇸🇬6 |  1.6MB/s
   password: amazonskr05
   port: 443
-  server: 13.212.199.43
+  server: 54.254.9.107
   type: ss
+- name: 0|🇸🇬7 |  5.1MB/s
+  password: 3c5783e9-884b-40cf-a992-bf6f6bbea149
+  port: 42881
+  server: aafrtpfxr.sgl02i9zjfegelp.5xfsur8v62.gosdk.xyz
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome

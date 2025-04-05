@@ -1,16 +1,7 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  name: 0|🇩🇪2 |  4.6MB/s
-  network: ws
-  port: 23618
-  server: 18.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 16eb61a1-9016-3cd0-8a4a-c03e84d69630
-  ws-opts:
-    headers:
-      Host: 18.mamamajd.site
-    path: /
+- name: 0|🇩🇪4 |  3.2MB/s
+  password: 3c5783e9-884b-40cf-a992-bf6f6bbea149
+  port: 43583
+  server: aafrtpfxr.del01i9zjfegelp.5xfsur8v62.gosdk.xyz
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan

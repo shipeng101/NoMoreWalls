@@ -1,8 +1,8 @@
 proxies:
-- name: 0|🇰🇷1 |  5.5MB/s
+- name: 0|🇰🇷1 |  2.2MB/s
   network: ws
   port: 80
-  server: 45.131.5.27
+  server: 172.64.152.226
   servername: gozargah.validbv7996.ir
   tls: false
   type: vless
@@ -10,30 +10,45 @@ proxies:
   ws-opts:
     headers:
       Host: gozargah.validbv7996.ir
-    path: /Telegram🇨🇳 @MxlShare@WangCai2
-- name: 0|🇰🇷2 |  5.8MB/s
+    path: /Telegram@sinavm/?ed=2550
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 0|🇰🇷2 |  5.4MB/s
   network: ws
   port: 80
-  server: 45.131.4.200
+  server: 172.64.152.226
+  servername: ''
   tls: false
   type: vless
+  udp: false
   uuid: c5293efa-28f8-4a0f-8f34-541078970cee
   ws-opts:
     headers:
       Host: gozargah.validbv7996.ir
-    path: /Telegram🇨🇳 @MxlShare@WangCai2/?ed
-- name: 0|🇰🇷3 |  5.5MB/s
+    path: /Telegram@sinavm
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 0|🇰🇷3 |  3.4MB/s
   network: ws
-  port: 80
-  server: 45.131.5.99
-  servername: gozargah.validbv7996.ir
+  port: 8080
+  server: 45.131.4.33
+  servername: ''
   tls: false
   type: vless
+  udp: false
   uuid: c5293efa-28f8-4a0f-8f34-541078970cee
   ws-opts:
     headers:
       Host: gozargah.validbv7996.ir
-    path: /Telegram🇨🇳 @MxlShare@WangCai2/?ed=2560
+    path: /
+- name: 0|🇰🇷4 |  2.4MB/s
+  password: 3c5783e9-884b-40cf-a992-bf6f6bbea149
+  port: 46668
+  server: aafrtpfxr.krl01i9zjfegelp.5xfsur8v62.gosdk.xyz
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome

@@ -1,6 +1,6 @@
 proxies:
 - auth: 2429bee3-e0c1-47dd-b420-75e6512b184b
-  name: 0|🇨🇦1 |  4.8MB/s
+  name: 0|🇨🇦1 |  4.2MB/s
   password: 2429bee3-e0c1-47dd-b420-75e6512b184b
   port: 30300
   server: 132.145.105.88
