@@ -1,7 +1,1 @@
-proxies:
-- name: 0|🇩🇪4 |  3.2MB/s
-  password: 3c5783e9-884b-40cf-a992-bf6f6bbea149
-  port: 43583
-  server: aafrtpfxr.del01i9zjfegelp.5xfsur8v62.gosdk.xyz
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
+proxies: []

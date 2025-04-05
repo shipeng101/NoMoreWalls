@@ -1,26 +1,32 @@
 proxies:
-- name: 0|🇫🇷1 |  5.5MB/s
-  password: 3c5783e9-884b-40cf-a992-bf6f6bbea149
-  port: 43498
-  server: aafrtpfxr.frl01i9zjfegelp.5xfsur8v62.gosdk.xyz
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
 - auth: dongtaiwang.com
-  name: 0|🇫🇷2 |  5.0MB/s
-  password: dongtaiwang.com
-  port: 59967
-  server: 195.154.33.70
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- auth: dongtaiwang.com
-  name: 0|🇫🇷3 |  4.9MB/s
+  name: 0|🇫🇷1 |  5.6MB/s
   password: dongtaiwang.com
   port: 61770
   server: 51.159.226.1
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
+- auth: dongtaiwang.com
+  name: 0|🇫🇷2 |  4.1MB/s
+  password: dongtaiwang.com
+  port: 59967
+  server: 195.154.33.70
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- client-fingerprint: chrome
+  name: 0|🇫🇷3 |  5.5MB/s
+  network: ws
+  port: 8080
+  server: 172.67.73.163
+  tls: false
+  type: vless
+  uuid: b30743e3-6d1a-4854-a3a0-a5769b64e3ad
+  ws-opts:
+    headers:
+      Host: qw.vU6d72nt9y.zULaIR.ORg.
+    path: /?ed=2048
 - client-fingerprint: chrome
   name: 10|🇫🇷 法国|@ripaojiedian
   network: ws
