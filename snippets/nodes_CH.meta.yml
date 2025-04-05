@@ -1,28 +1,6 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  mode: ''
-  name: 0|🇨🇭1 |  2.3MB/s
-  network: tcp
-  port: 2593
-  reality-opts:
-    public-key: stkzXR66Onu6K6sujTw1rr27jdnhHpC5EUp8CF4wQHI
-    short-id: ''
-  server: 84.234.28.218
-  servername: stackoverflow.com
-  tls: true
-  type: vless
-  udp: false
-  uuid: 1f1eb34f-9f6d-4316-b7a7-f95ecb6261bb
-  ws-opts:
-    headers:
-      Host: 'JOKERRVPNTelegram : @JOKERRVPN -JOKERRVPN : @JOKERRVPN -JOKERRVPN : @JOKERRVPN
-        -JOKERRVPN : @JOKERRVPN -JOKERRVPN : @JOKERRVPN -JOKERRVPN : @JOKERRVPN -JOKERRVPN
-        : @JOKERRVPN -JOKERRVPN : @JOKERRVPN -JOKERRVPN : @JOKERRVPN -JOKERRVPN :
-        @JOKERRVPN -JOKERRVPN : @JOKERRVPN'
-    path: ''
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
   name: 0,12|CH_speednode_0002
   network: tcp
   port: 443
