@@ -1,21 +1,6 @@
 proxies:
-- auth: dongtaiwang.com
-  name: 0|🇷🇺1 |  5.3MB/s
-  password: dongtaiwang.com
-  port: 12904
-  server: 46.17.41.5
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria2
-- name: 0|🇷🇺2 |  1.3MB/s
-  password: dongtaiwang.com
-  port: 4395
-  server: 46.17.41.217
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
 - fast-open: true
-  name: 0|🇷🇺3 |  2.4MB/s
+  name: 0|🇷🇺1 |  2.2MB/s
   password: dongtaiwang.com
   port: 35751
   server: 46.29.163.171
@@ -26,14 +11,21 @@ proxies:
   - h3
   auth_str: dongtaiwang.com
   down: 1000 Mbps
-  name: 0|🇷🇺4 |  3.0MB/s
-  port: 10469
-  server: 46.17.41.174
+  name: 0|🇷🇺2 |  2.7MB/s
+  port: 10803
+  server: 185.22.155.71
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  up: 1000 Mbps
+- auth: dongtaiwang.com
+  name: 0|🇷🇺3 |  1.3MB/s
+  password: dongtaiwang.com
+  port: 12904
+  server: 46.17.41.5
   skip-cert-verify: true
   sni: apple.com
-  type: hysteria
-  udp: true
-  up: 100 Mbps
+  type: hysteria2
 - client-fingerprint: chrome
   name: 10|🇷🇺 俄罗斯|@ripaojiedian
   network: ws
