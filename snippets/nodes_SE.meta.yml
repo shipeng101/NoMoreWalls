@@ -1,13 +1,17 @@
 proxies:
-- name: 0|🌀8-SE |  3.4MB/s
+- client-fingerprint: randomized
+  flow: ''
+  mode: ''
+  name: 0|🌀16-SE |  1.2MB/s
   network: ws
-  port: 80
-  server: 45.131.5.151
-  servername: gozargah.validbv7996.ir
-  tls: false
+  port: 443
+  server: 172.66.44.162
+  servername: bESTIVpN.paGeS.DEV
+  tls: true
   type: vless
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+  udp: false
+  uuid: 3e235d06-f9c9-450c-9a07-a8dc933326f0
   ws-opts:
     headers:
-      Host: gozargah.validbv7996.ir
-    path: /Telegram🇨🇳 @MxlShare@WangCai2
+      Host: bestivpn.pages.dev
+    path: /VTRW8C7XmWQUCZd5?ed=2560

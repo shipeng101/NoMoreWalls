@@ -1,63 +1,42 @@
 proxies:
-- name: 0|🇩🇪1 |  4.3MB/s
-  network: ws
-  port: 80
-  server: 45.131.4.248
-  tls: false
-  type: vless
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 0|🇩🇪2 |  5.4MB/s
-  network: ws
-  port: 80
-  server: 104.17.148.22
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redfree8.pooriashop.ir
-    path: /join---MTMVPN---join?ed=2560
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 0|🇩🇪3 |  5.8MB/s
-  network: ws
-  port: 2053
-  server: zula.ir
-  servername: all22.kikforwindows.com
+  name: 0|🇩🇪1 |  5.6MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: q7hb9bUwTztHAd0l_B1VXphQlTrt9Tisnzm-l9r-3xM
+    short-id: 4022a0e5fa8ccd7f
+  server: mww2.rogha.ir
+  servername: eset.com
   tls: true
   type: vless
   udp: false
-  uuid: 78905d87-0266-4825-868d-3069e88d1201
-  ws-opts:
-    headers:
-      Host: all22.kikforwindows.com
-    path: /containers/de
+  uuid: 8a8bf1b9-0830-4b9a-9ce9-30d1247ac356
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   mode: ''
-  name: 0|🇩🇪4 |  2.9MB/s
+  name: 0|🇩🇪2 |  2.1MB/s
   network: tcp
-  port: 577
-  reality-opts:
-    public-key: AU2O1no3apJnMhDrfHwDACAwFDo8-DZkCL66AXSRbh8
-    short-id: 9b28132c703433
-  server: 162.55.36.107
-  servername: stackoverflow.com
+  port: 443
+  server: 193.43.104.152
+  servername: fra5.vpntype.dev
   tls: true
   type: vless
   udp: false
-  uuid: bf4631cc-27eb-4b8e-ab85-5db1ddab6125
-- name: 0|🇩🇪5 |  1.1MB/s
+  uuid: f0bcd3cf-f823-4825-bb8b-bd3625d83410
+- auth: 18463200c271aa6d
+  name: 0|🇩🇪3 |  5.3MB/s
+  obfs: salamander
+  obfs-password: 6c80ade6
+  password: 18463200c271aa6d
+  port: 443
+  server: 45.63.116.113
+  skip-cert-verify: true
+  sni: vkvd127.mycdn.me
+  type: hysteria2
+- name: 0|🇩🇪4 |  4.3MB/s
   network: ws
   port: 80
   server: 45.131.4.228
@@ -72,15 +51,86 @@ proxies:
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 0|🇩🇪6 |  5.7MB/s
+  name: 0|🇩🇪5 |  1.4MB/s
+  network: ws
+  port: 2053
+  server: 172.67.204.84
+  servername: all18.kikforwindows.com
+  tls: true
+  type: vless
+  udp: false
+  uuid: 99333609-167f-4750-ab63-34cfa27c723a
+  ws-opts:
+    headers:
+      Host: all18.kikforwindows.com
+    path: /containers/de
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  mode: ''
+  name: 0|🇩🇪6 |  5.6MB/s
+  network: tcp
+  port: 577
+  reality-opts:
+    public-key: AU2O1no3apJnMhDrfHwDACAwFDo8-DZkCL66AXSRbh8
+    short-id: 9b28132c703433
+  server: 162.55.36.107
+  servername: stackoverflow.com
+  tls: true
+  type: vless
+  udp: false
+  uuid: bf4631cc-27eb-4b8e-ab85-5db1ddab6125
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 0|🇩🇪7 |  5.2MB/s
+  network: ws
+  port: 80
+  server: zmaoz.faculty.ucdavis.edu
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: 9df66056-a898-486a-9c67-6a5ad5ea056e
+  ws-opts:
+    headers:
+      Host: foffmelo.com
+    path: /olem/ws?ed=1024
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 0|🇩🇪8 |  5.6MB/s
   network: tcp
   port: 443
   reality-opts:
     public-key: q7hb9bUwTztHAd0l_B1VXphQlTrt9Tisnzm-l9r-3xM
     short-id: 4022a0e5fa8ccd7f
-  server: mww2.rogha.ir
+  server: 5.75.200.58
   servername: eset.com
   tls: true
   type: vless
   udp: false
   uuid: 8a8bf1b9-0830-4b9a-9ce9-30d1247ac356
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇩🇪9 |  4.3MB/s
+  network: tcp
+  port: 58031
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: csuzhou01.1cooldns.com
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  mode: ''
+  name: 0|🇩🇪10 |  2.7MB/s
+  network: tcp
+  port: 443
+  server: 204.10.194.78
+  servername: yfnl1.xn--4gq62f52gppi29k.com
+  tls: true
+  type: vless
+  udp: false
+  uuid: d21a2d0c-6872-457f-93f2-069d5167a8fc

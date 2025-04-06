@@ -1,22 +1,4 @@
 proxies:
-- allowInsecure: '1'
-  name: 0|🇯🇵3 |  4.2MB/s
-  network: tcp
-  password: '!!str 74260700211203800'
-  port: 443
-  server: 85.234.83.191
-  skip-cert-verify: true
-  sni: possible-tiger.shiner427.skin
-  tls: true
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 0|🇯🇵8 |  1.4MB/s
-  port: 4151
-  server: b4f25072-sudhc0-t21sg3-56fb.c.volczijie.com
-  tls: false
-  type: vmess
-  uuid: 16775616-0e76-11ee-81f3-f23c93141fad
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 10|🇯🇵 日本|@ripaojiedian

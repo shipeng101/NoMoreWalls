@@ -1,20 +1,16 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇫🇷1 |  5.6MB/s
-  network: tcp
-  port: 40072
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: agaungzhou01.bumbleshrimp.com
-  servername: www.yahoo.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- auth: dongtaiwang.com
+  name: 0|🇫🇷1 |  5.3MB/s
+  password: dongtaiwang.com
+  port: 61770
+  server: 51.159.226.1
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 0|🇫🇷2 |  5.8MB/s
+  name: 0|🇫🇷2 |  5.9MB/s
   network: ws
   port: 8080
   server: 104.26.14.85
@@ -27,29 +23,24 @@ proxies:
     headers:
       Host: JP.8HVL7WyiPt.zuLaIR.oRg.
     path: /?ed=2048
-- name: 0|🇫🇷3 |  4.4MB/s
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 0|🇫🇷3 |  5.1MB/s
   network: ws
-  port: 8080
-  server: 172.67.73.163
-  tls: false
+  port: 2087
+  server: 190.93.247.56
+  servername: WWW.adabefarsi.eu.
+  tls: true
   type: vless
-  uuid: b30743e3-6d1a-4854-a3a0-a5769b64e3ad
+  udp: false
+  uuid: 259ce089-06c5-4b40-bda2-6510bbca3bc4
   ws-opts:
     headers:
-      Host: qw.vU6d72nt9y.zULaIR.ORg.
-    path: /?ed=2048
-- allowInsecure: ''
-  name: 0|🇫🇷4 |  5.6MB/s
-  network: tcp
-  password: utF6JLQd2x
-  port: 1935
-  server: 141.227.128.69
-  skip-cert-verify: false
-  sni: x1es-ovh.devefun.net
-  tls: true
-  type: trojan
+      Host: WWW.adabefarsi.eu.
+    path: ''
 - auth: dongtaiwang.com
-  name: 0|🇫🇷5 |  5.3MB/s
+  name: 0|🇫🇷4 |  5.2MB/s
   password: dongtaiwang.com
   port: 59967
   server: 195.154.33.70
@@ -57,7 +48,7 @@ proxies:
   sni: www.bing.com
   type: hysteria2
 - allowInsecure: ''
-  name: 0|🇫🇷6 |  2.7MB/s
+  name: 0|🇫🇷5 |  3.1MB/s
   network: tcp
   password: FiSo7J6vfS
   port: 1935
