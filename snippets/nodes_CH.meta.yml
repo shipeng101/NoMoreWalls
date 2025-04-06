@@ -2,7 +2,7 @@ proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   mode: ''
-  name: 0|🇨🇭1 |  5.0MB/s
+  name: 0|🇨🇭1 |  1.9MB/s
   network: tcp
   port: 2593
   reality-opts:

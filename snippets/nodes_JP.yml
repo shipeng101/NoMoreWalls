@@ -1,51 +1,41 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 0|🇯🇵3 |  6.2MB/s
-  password: amazonskr05
+- allowInsecure: '1'
+  name: 0|🇯🇵3 |  4.2MB/s
+  network: tcp
+  password: '!!str 74260700211203800'
   port: 443
-  server: 52.195.209.247
-  type: ss
+  server: 85.234.83.191
+  skip-cert-verify: true
+  sni: possible-tiger.shiner427.skin
+  tls: true
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 0|🇯🇵9 |  2.5MB/s
-  port: 3684
-  server: 26025dd1-sudhc0-t33mcq-4tx.d.volczijie.com
+  name: 0|🇯🇵8 |  1.4MB/s
+  port: 4151
+  server: b4f25072-sudhc0-t21sg3-56fb.c.volczijie.com
   tls: false
   type: vmess
-  uuid: d0a9b5ea-bf85-11ee-b758-f23c93136cb3
-- name: 0|🇯🇵10 |  1.8MB/s
-  password: ef23ddd0-14c5-39c2-9880-af55ce892363
-  port: 53284
-  server: t6.qifei.app
-  skip-cert-verify: true
-  type: trojan
+  uuid: 16775616-0e76-11ee-81f3-f23c93141fad
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 10|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202504031266665-b2qPz9YET8.download.microsoft.com
+    host: 202504031266665-2FO2jW0pPK.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- client-fingerprint: chrome
-  name: 10|🇯🇵 日本2|@ripaojiedian
-  password: '!!str 74260700211203800'
-  port: 443
-  server: daring-gobbler.shiner427.skin
-  skip-cert-verify: false
-  sni: daring-gobbler.shiner427.skin
-  type: trojan
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 10|🇯🇵 日本5|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202504031266665-b2qPz9YET8.download.microsoft.com
+    host: 202504031266665-2FO2jW0pPK.download.microsoft.com
     mode: http
   port: 8769
   server: cn01.efan8867801.xyz
@@ -59,57 +49,9 @@ proxies:
   skip-cert-verify: false
   sni: possible-tiger.shiner427.skin
   type: trojan
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10|🇯🇵 日本7|@ripaojiedian
-  port: 4151
-  server: c50e5830-submo0-t23v18-6wpo.c.volczijie.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: aada003a-bc20-11ee-8ebe-f23c93136cb3
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10|🇯🇵 日本8|@ripaojiedian
-  port: 33184
-  server: gzhmbkqt.xn--fiqs8sjz2bull.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 65639009-9ea3-4b5b-8f6e-bba5ef17e350
-- name: 11|日本2|@ripaojiedian
-  network: tcp
-  password: '!!str 74260700211203800'
-  port: 443
-  server: daring-gobbler.shiner427.skin
-  type: trojan
 - name: 11|日本6|@ripaojiedian
   network: tcp
   password: '!!str 74260700211203800'
   port: 443
   server: possible-tiger.shiner427.skin
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 11|日本7|@ripaojiedian
-  network: tcp
-  port: '4151'
-  server: c50e5830-submo0-t23v18-6wpo.c.volczijie.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aada003a-bc20-11ee-8ebe-f23c93136cb3
-- alterId: 0
-  cipher: auto
-  name: 11|日本8|@ripaojiedian
-  network: tcp
-  port: '33184'
-  server: gzhmbkqt.xn--fiqs8sjz2bull.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 65639009-9ea3-4b5b-8f6e-bba5ef17e350

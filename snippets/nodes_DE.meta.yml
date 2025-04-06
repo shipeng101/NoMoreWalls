@@ -1,8 +1,35 @@
 proxies:
+- name: 0|🇩🇪1 |  4.3MB/s
+  network: ws
+  port: 80
+  server: 45.131.4.248
+  tls: false
+  type: vless
+  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+  ws-opts:
+    headers:
+      Host: gozargah.validbv7996.ir
+    path: /
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 0|🇩🇪2 |  5.4MB/s
+  network: ws
+  port: 80
+  server: 104.17.148.22
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redfree8.pooriashop.ir
+    path: /join---MTMVPN---join?ed=2560
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 0|🇩🇪1 |  5.7MB/s
+  name: 0|🇩🇪3 |  5.8MB/s
   network: ws
   port: 2053
   server: zula.ir
@@ -18,7 +45,7 @@ proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   mode: ''
-  name: 0|🇩🇪2 |  5.6MB/s
+  name: 0|🇩🇪4 |  2.9MB/s
   network: tcp
   port: 577
   reality-opts:
@@ -30,10 +57,10 @@ proxies:
   type: vless
   udp: false
   uuid: bf4631cc-27eb-4b8e-ab85-5db1ddab6125
-- name: 0|🇩🇪3 |  5.1MB/s
+- name: 0|🇩🇪5 |  1.1MB/s
   network: ws
   port: 80
-  server: 45.131.4.214
+  server: 45.131.4.228
   servername: gozargah.validbv7996.ir
   tls: false
   type: vless
@@ -41,16 +68,19 @@ proxies:
   ws-opts:
     headers:
       Host: gozargah.validbv7996.ir
-    path: /Telegram🇨🇳 @MxlShare@WangCai2/?ed=2560
+    path: /Telegram🇨🇳 @MxlShare@WangCai2
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇩🇪4 |  5.3MB/s
+  flow: ''
+  mode: ''
+  name: 0|🇩🇪6 |  5.7MB/s
   network: tcp
-  port: 58031
+  port: 443
   reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
-  servername: www.yahoo.com
+    public-key: q7hb9bUwTztHAd0l_B1VXphQlTrt9Tisnzm-l9r-3xM
+    short-id: 4022a0e5fa8ccd7f
+  server: mww2.rogha.ir
+  servername: eset.com
   tls: true
   type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+  udp: false
+  uuid: 8a8bf1b9-0830-4b9a-9ce9-30d1247ac356

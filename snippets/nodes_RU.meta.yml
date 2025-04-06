@@ -1,18 +1,6 @@
 proxies:
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: 1000 Mbps
-  name: 0|🇷🇺1 |  5.6MB/s
-  port: 10469
-  server: 46.17.41.174
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: 1000 Mbps
 - fast-open: true
-  name: 0|🇷🇺2 |  5.4MB/s
+  name: 0|🇷🇺1 |  6.1MB/s
   password: dongtaiwang.com
   port: 35751
   server: 46.29.163.171
@@ -21,7 +9,7 @@ proxies:
   type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|🇷🇺3 |  3.5MB/s
+  name: 0|🇷🇺2 |  4.1MB/s
   network: tcp
   port: 20216
   reality-opts:
@@ -31,50 +19,30 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: 1000 Mbps
-  name: 0|🇷🇺4 |  2.6MB/s
-  port: 10803
-  server: 185.22.155.71
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
-  up: 1000 Mbps
 - auth: dongtaiwang.com
-  name: 0|🇷🇺5 |  2.3MB/s
+  name: 0|🇷🇺3 |  5.3MB/s
   password: dongtaiwang.com
   port: 12904
   server: 46.17.41.5
   skip-cert-verify: true
   sni: apple.com
   type: hysteria2
-- name: 0|🇷🇺6 |  5.3MB/s
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: 1000 Mbps
+  name: 0|🇷🇺4 |  5.7MB/s
+  port: 10469
+  server: 46.17.41.174
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: 1000 Mbps
+- name: 0|🇷🇺5 |  5.4MB/s
   password: dongtaiwang.com
   port: 4395
   server: 46.17.41.217
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-- client-fingerprint: chrome
-  name: 10|🇷🇺 俄罗斯|@ripaojiedian
-  network: ws
-  password: c97cf46e-1554-36cb-8b36-c3556b883dc4
-  port: 443
-  server: ru1a.88888007.xyz
-  skip-cert-verify: false
-  sni: ru1a.88888007.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ru1a.88888007.xyz
-    path: /3f741a9f-3c66-4102-838c-c77524d32d85
-- name: 11|俄罗斯|@ripaojiedian
-  network: ws
-  password: c97cf46e-1554-36cb-8b36-c3556b883dc4
-  port: 443
-  server: ru1a.88888007.xyz
-  type: trojan
-  ws-opts:
-    path: '%2F3f741a9f-3c66-4102-838c-c77524d32d85'
