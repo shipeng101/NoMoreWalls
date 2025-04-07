@@ -1,15 +1,1 @@
-proxies:
-- allowInsecure: ''
-  name: 0|🇹🇼3 |  3.9MB/s
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 188.164.159.49
-  skip-cert-verify: false
-  sni: epccw.ambercc.filegear-sg.me
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: epccw.ambercc.filegear-sg.me
-    path: /?ed=2560
+proxies: []
