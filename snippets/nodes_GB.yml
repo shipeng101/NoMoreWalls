@@ -1,5 +1,6 @@
 proxies:
-- name: 12|GB_speednode_0012
+- client-fingerprint: chrome
+  name: 0,12|GB_speednode_0008
   password: b19c4375-d847-4c40-9824-4767c88b5f38
   port: 10200
   server: www.ak-hk.top
