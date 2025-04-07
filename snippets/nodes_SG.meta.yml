@@ -1,25 +1,11 @@
 proxies:
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0,12|CN_speednode_0010
-  network: tcp
-  port: 44003
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
-  servername: www.nvidia.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: ''
+  flow: none
   mode: ''
-  name: 0|🇸🇬2 |  5.9MB/s
+  name: 0|🇸🇬1 |  5.1MB/s
   network: ws
   port: 2096
-  server: 141.193.213.20
+  server: 141.193.213.21
   servername: premium.vkehi.shop
   tls: true
   type: vless
@@ -28,18 +14,32 @@ proxies:
   ws-opts:
     headers:
       Host: premium.vkehi.shop
-    path: /
-- name: 12|SG_speednode_0069
-  network: ws
+    path: '%2F'
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 0,12|SG_speednode_0083
   port: 443
-  server: 40.65.164.247
-  servername: sgp.bashabo.me
-  skip-cert-verify: false
+  server: 47.129.154.91
+  servername: android.google.com
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 9b594ac9-7e1c-4bcc-9fa5-797a7a58211d
-  ws-opts:
-    headers:
-      Host: sgp.bashabo.me
-    path: /bing
+  uuid: e752cca9-18aa-4eaf-a6f6-79c375eee55d
+- cipher: aes-256-cfb
+  name: 0|🇸🇬3 |  6.0MB/s
+  password: wiaimihu22
+  port: 80
+  server: 54.169.248.170
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|🇸🇬4 |  5.0MB/s
+  password: 25612qazwsx
+  port: 25612
+  server: 18.140.63.226
+  type: ss
+  udp: true
