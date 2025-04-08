@@ -1,11 +1,19 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 0|🇯🇵2 |  6.0MB/s
+  port: 4151
+  server: 5ba5b6bd-suh6o0-svqrrs-4cwg.c.volczijie.com
+  tls: false
+  type: vmess
+  uuid: 03c1d503-4803-11ef-8f3d-f23c9313b177
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 10|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202504031266665-2FO2jW0pPK.download.microsoft.com
+    host: 202504031266665-L1JNrfsrAR.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -14,21 +22,21 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 10|🇯🇵 日本4|@ripaojiedian
-  port: 31842
-  server: 45.159.50.212
+  name: 10|🇯🇵 日本2|@ripaojiedian
+  port: 35575
+  server: 45.159.50.12
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 570e52c1-be15-4c79-a9e7-bab82555a034
+  uuid: 94a09477-7cdc-450d-aecd-c73ef596b5e9
 - alterId: 0
   cipher: auto
-  name: 11|日本4|@ripaojiedian
+  name: 11|日本2|@ripaojiedian
   network: tcp
-  port: '31842'
-  server: 45.159.50.212
+  port: '35575'
+  server: 45.159.50.12
   servername: ''
   tls: false
   type: vmess
-  uuid: 570e52c1-be15-4c79-a9e7-bab82555a034
+  uuid: 94a09477-7cdc-450d-aecd-c73ef596b5e9
