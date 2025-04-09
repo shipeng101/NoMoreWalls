@@ -1,12 +1,4 @@
 proxies:
-- alterId: '0'
-  cipher: auto
-  name: 0|🇭🇰9 |  1.7MB/s
-  network: tcp
-  port: '46345'
-  server: 120.198.71.214
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - client-fingerprint: chrome
   name: 10,11,12|HK_speednode_0084
   network: tcp
