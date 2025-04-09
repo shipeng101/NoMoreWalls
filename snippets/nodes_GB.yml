@@ -1,4 +1,14 @@
 proxies:
+- allowInsecure: ''
+  name: 0|🇬🇧5 |  4.6MB/s
+  network: tcp
+  password: '!!str 74260698218909400'
+  port: 443
+  server: 109.107.159.124
+  skip-cert-verify: false
+  sni: ample-warthog.shiner427.skin
+  tls: true
+  type: trojan
 - client-fingerprint: chrome
   name: 10,11,12|RO_speednode_0088
   network: tcp
