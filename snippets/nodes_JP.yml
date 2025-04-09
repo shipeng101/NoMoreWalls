@@ -1,37 +1,24 @@
 proxies:
-- name: 0|🇯🇵1 |  6.2MB/s
-  password: e9e5933c-87a2-37d0-a7f5-e1334102ffd6
-  port: 54178
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x115.flybar.work
-  type: trojan
-  udp: true
-- name: 0|🇯🇵3 |  6.3MB/s
-  password: e9e5933c-87a2-37d0-a7f5-e1334102ffd6
-  port: 20076
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x76.flybar.work
-  type: trojan
-  udp: true
-- allowInsecure: ''
-  name: 0|🇯🇵7 |  5.4MB/s
-  network: tcp
-  password: '!!str 74260698218909400'
-  port: 443
-  server: 85.234.83.133
+- alterId: 0
+  cipher: auto
+  name: 0|🇯🇵5 |  6.1MB/s
+  port: 17233
+  server: 69c584f2-suif40-tee612-2r82.cm5.p5pv.com
   skip-cert-verify: false
-  sni: smooth-imp.shiner427.skin
-  tls: true
-  type: trojan
-- name: 0|🇯🇵12 |  2.7MB/s
-  password: '!!str 74260698218909400'
-  port: 443
-  server: smooth-imp.shiner427.skin
-  skip-cert-verify: true
-  sni: smooth-imp.shiner427.skin
-  type: trojan
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 0|🇯🇵9 |  2.2MB/s
+  port: 17233
+  server: fa7c2955-suif40-swjyj4-1mish.cm5.p5pv.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9eeeea88-f37b-11ed-bd3d-f23c9164ca5d
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 10|🇯🇵 日本|@ripaojiedian

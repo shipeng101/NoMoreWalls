@@ -1,14 +1,89 @@
 proxies:
-- name: 0|🇺🇸11 |  1.1MB/s
-  password: d4c22fd9-1474-4e9f-baf7-80b162f3e60c
-  port: 12052
-  server: cn2.cdn.xfltd-cdn.top
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸2 |  5.7MB/s
+  network: ws
+  port: 80
+  server: www.wn03.cc
   skip-cert-verify: true
-  sni: cdn.alibaba.com
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2f38f848-a899-4c87-9807-207a41615e3c
+  ws-opts:
+    headers:
+      Host: us.freeyyds.dpdns.org
+    path: /rongseven?ed=2048
+- allowInsecure: '1'
+  name: 0|🇺🇸4 |  4.7MB/s
+  network: original
+  password: 33fe5d7f-c9c1-4fd3-a2db-d0f3db6e5fba
+  port: 443
+  server: 15.204.58.214
+  skip-cert-verify: true
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 0|🇺🇸15 |  4.6MB/s
+  name: 0|🇺🇸17 |  5.9MB/s
+  network: ws
+  port: 23067
+  raw:
+    add: 45.147.201.231
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: ''
+    id: 4c0f8bca-fe65-4b7f-a731-7ea1322fac8e
+    net: ws
+    path: /
+    port: '23067'
+    ps: 🇺🇸 --002-1D
+    scy: ''
+    sni: ''
+    tls: ''
+    type: none
+    v: '2'
+  server: 45.147.201.231
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4c0f8bca-fe65-4b7f-a731-7ea1322fac8e
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸29 |  5.3MB/s
+  network: ws
+  port: 2086
+  server: 170.114.45.52
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0b5914c3-9284-44fa-b181-093e2943b9c1
+  ws-opts:
+    headers:
+      Host: ustoucjjnid18sj6us.lovebaipiao.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸30 |  1.1MB/s
+  network: ws
+  port: 443
+  server: QWe.852224.GGFF.NEt
+  servername: QWe.852224.GGFF.NEt
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: cd0e795a-4f26-4f8c-9981-ed8b7dcb6126
+  ws-opts:
+    headers:
+      Host: qwe.852224.ggff.net
+    path: /SpXidaRA9PbqU8RhisheV
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸33 |  3.7MB/s
   network: ws
   port: 8443
   raw:
@@ -36,20 +111,33 @@ proxies:
     headers:
       Host: 1743919978.speed.zjgza.cccp.freefly.pp.ua
     path: /
-- alterId: 2
+- alterId: '0'
   cipher: auto
-  name: 0|🇺🇸21 |  1.9MB/s
+  name: 0|🇺🇸35 |  1.0MB/s
   network: ws
-  port: 23615
-  server: 15.mamamajd.site
-  skip-cert-verify: true
+  port: '8443'
+  server: 104.18.118.195
+  tls: true
+  type: vmess
+  uuid: 3bb3c730-e107-49c5-a0b2-b576d1b26a5e
+  ws-opts:
+    headers:
+      host: 1743919978.speed.zjgza.cccp.freefly.pp.ua
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸38 |  3.4MB/s
+  network: ws
+  port: 2086
+  server: 170.114.45.53
+  skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 8bf7b007-9148-321d-beec-eec9b0d94aa5
+  uuid: 0b5914c3-9284-44fa-b181-093e2943b9c1
   ws-opts:
     headers:
-      Host: 15.mamamajd.site
+      Host: ustoucjjnid18sj6us.lovebaipiao.com
     path: /
 - cipher: rc4-md5
   client-fingerprint: chrome
