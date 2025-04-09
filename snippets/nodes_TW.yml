@@ -1,24 +1,7 @@
 proxies:
-- cipher: rc4-md5
-  name: 0|🇹🇼3 |  2.5MB/s
-  password: z6D4Jf
-  port: 25245
-  server: 118.184.136.138
+- cipher: aes-128-gcm
+  name: 0|🇹🇼5 |  5.7MB/s
+  password: VMhGp5wEIyCDf90T
+  port: 33368
+  server: shenzhou05.mysynology.net
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10,11|台湾2|@ripaojiedian
-  network: ws
-  port: '16616'
-  server: m.cnmjin.net
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 6400c720-13f6-45b0-81ea-419b89873cd2
-  ws-opts:
-    headers:
-      Host: 66d0c215104536850c337da2227b21cb.mobgslb.tbcache.com
-    path: /
