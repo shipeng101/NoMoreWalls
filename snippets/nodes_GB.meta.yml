@@ -1,28 +1,62 @@
 proxies:
 - client-fingerprint: chrome
-  name: 0|🇬🇧1 |  5.8MB/s
-  network: ws
-  port: 80
-  server: 45.131.4.33
-  tls: false
-  type: vless
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /
-- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|🇬🇧2 |  4.4MB/s
+  name: 0|🇬🇧1 |  4.2MB/s
   network: tcp
-  port: 49699
+  port: 32055
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou05.mysynology.net
+  server: csuzhou01.1cooldns.com
   servername: www.amazon.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 0|🇬🇧2 |  5.4MB/s
+  network: ws
+  port: 8880
+  server: 31.22.116.154
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redfree8.pooriashop.ir
+    path: /Telegram@V2ray_Alpha
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 0|🇬🇧3 |  2.5MB/s
+  network: tcp
+  port: 1002
+  reality-opts:
+    public-key: w9x-dAl7ESzK_pnkH4waEZmKcazaXPFxWi3AUqSHNko
+    short-id: becf5919b526c26e
+  server: gb.yw5jk.org
+  servername: refersion.com
+  tls: true
+  type: vless
+  udp: false
+  uuid: 91ea65a6-8896-40ea-ae94-63f1c90d15ef
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 0|🇬🇧4 |  1.9MB/s
+  network: tcp
+  port: 3662
+  reality-opts:
+    public-key: f8TgqVBYK3tmhip3lJ-r8D0i6fqEF1Zy-zAfEhS-Cl8
+    short-id: 67a1a8bb9ff0ed21
+  server: gb.carefreemob2.com
+  servername: icloud.com
+  tls: true
+  type: vless
+  udp: false
+  uuid: 91ea65a6-8896-40ea-ae94-63f1c90d15ef
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 0,12|CN_speednode_0033
@@ -39,78 +73,28 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|🇬🇧4 |  3.6MB/s
+  name: 0|🇬🇧6 |  4.2MB/s
   network: tcp
-  port: 32055
+  port: 49699
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
+  server: shenzhou05.mysynology.net
   servername: www.amazon.com
   tls: true
   type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0,12|CN_speednode_0025
-  network: tcp
-  port: 65053
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: beiyong.dynuddns.net
-  servername: www.amazon.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 0|🇬🇧6 |  5.5MB/s
-  network: ws
-  port: 8443
-  server: 104.17.147.22
-  servername: MdLoXlYg.rIcKtMoUsE.InFo
+  name: 0|🇬🇧7 |  2.6MB/s
+  network: tcp
+  port: 3662
+  reality-opts:
+    public-key: f8TgqVBYK3tmhip3lJ-r8D0i6fqEF1Zy-zAfEhS-Cl8
+    short-id: 67a1a8bb9ff0ed21
+  server: 157.180.73.74
+  servername: icloud.com
   tls: true
   type: vless
   udp: false
-  uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
-  ws-opts:
-    headers:
-      Host: MdLoXlYg.rIcKtMoUsE.InFo
-    path: /
-- allowInsecure: '1'
-  name: 0|🇬🇧7 |  2.0MB/s
-  network: original
-  password: b19c4375-d847-4c40-9824-4767c88b5f38
-  port: 10200
-  server: www.ak-hk.top
-  skip-cert-verify: true
-  type: trojan
-- name: 0|🇬🇧8 |  1.8MB/s
-  network: ws
-  port: 8080
-  server: 45.131.4.33
-  servername: gozargah.validbv7996.ir
-  tls: false
-  type: vless
-  udp: true
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY
-- name: 12|GB_speednode_0041
-  network: ws
-  port: 8880
-  server: 31.22.116.154
-  servername: redfree8.pooriashop.ir
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redfree8.pooriashop.ir
-    path: /---TM-@AZARBAYJAB1-------TM-@AZARBAYJAB1---------TM-@AZARBAYJAB1---join?ed=2560
+  uuid: 91ea65a6-8896-40ea-ae94-63f1c90d15ef
