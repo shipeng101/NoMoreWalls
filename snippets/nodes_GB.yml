@@ -1,4 +1,11 @@
 proxies:
+- name: 0|🇬🇧1 |  5.4MB/s
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 18.132.220.128
+  skip-cert-verify: false
+  sni: trojan.burgerip.co.uk
+  type: trojan
 - name: 12|GB_speednode_0082
   password: '!!str 74260698218909400'
   port: 443
