@@ -69,11 +69,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 12|HK_speednode_0084
-  password: 4467ae8518abf1ef321618c0bfb5549c
-  port: 28106
-  server: starlink-hkt2.2513142.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
