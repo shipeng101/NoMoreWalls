@@ -1,6 +1,6 @@
 proxies:
 - allowInsecure: '1'
-  name: 0|🇬🇧5 |  5.0MB/s
+  name: 0|🇬🇧7 |  2.0MB/s
   network: original
   password: b19c4375-d847-4c40-9824-4767c88b5f38
   port: 10200
