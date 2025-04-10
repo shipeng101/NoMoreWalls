@@ -1,14 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  name: 10,11,12|RO_speednode_0088
-  network: tcp
-  password: '!!str 74260698218909400'
-  port: 443
-  server: electric-mallard.shiner427.skin
-  skip-cert-verify: true
-  sni: electric-mallard.shiner427.skin
-  type: trojan
-  udp: true
 - name: 12|GB_speednode_0082
   password: '!!str 74260698218909400'
   port: 443

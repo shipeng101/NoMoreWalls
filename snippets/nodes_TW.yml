@@ -1,1 +1,28 @@
-proxies: []
+proxies:
+- cipher: aes-128-gcm
+  name: 0|🇹🇼10 |  4.1MB/s
+  password: VMhGp5wEIyCDf90T
+  port: 33368
+  server: shenzhou05.mysynology.net
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇹🇼 台湾2|@ripaojiedian
+  port: 50040
+  server: hk.zijieyunti.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: feb7005d-af1e-45ae-93a7-d782000210c8
+- alterId: 0
+  cipher: auto
+  name: 11|台湾2|@ripaojiedian
+  network: tcp
+  port: '50040'
+  server: hk.zijieyunti.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: feb7005d-af1e-45ae-93a7-d782000210c8
