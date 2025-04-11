@@ -3,28 +3,7 @@ proxies:
   - h3
   auth_str: dongtaiwang.com
   down: 1000 Mbps
-  name: 0|🇷🇺1 |  1.9MB/s
-  port: 10803
-  server: 185.22.155.71
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
-  up: 1000 Mbps
-- country: 🇷🇺RU
-  delay: 2197
-  name: 0|🇷🇺2 |  2.2MB/s
-  password: dongtaiwang.com
-  port: 12904
-  server: 46.17.41.5
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria2
-  udp: true
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: 1000 Mbps
-  name: 0|🇷🇺3 |  4.8MB/s
+  name: 0|🇷🇺1 |  2.9MB/s
   port: 10469
   server: 46.17.41.174
   skip-cert-verify: true
@@ -32,13 +11,3 @@ proxies:
   type: hysteria
   udp: true
   up: 1000 Mbps
-- auth: abbdd5f5-8200-46f3-8b4f-573d7bc99a57
-  name: 0|🇷🇺4 |  5.3MB/s
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: abbdd5f5-8200-46f3-8b4f-573d7bc99a57
-  port: 20000
-  server: ru.ansuyun.xyz
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria2
