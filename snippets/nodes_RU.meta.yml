@@ -1,9 +1,17 @@
 proxies:
+- fast-open: true
+  name: 0|🇷🇺1 |  5.3MB/s
+  password: dongtaiwang.com
+  port: 64816
+  server: 46.17.41.217
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria2
 - alpn:
   - h3
   auth_str: dongtaiwang.com
   down: 1000 Mbps
-  name: 0|🇷🇺1 |  2.8MB/s
+  name: 0|🇷🇺2 |  2.7MB/s
   port: 10469
   server: 46.17.41.174
   skip-cert-verify: true
@@ -12,18 +20,10 @@ proxies:
   udp: true
   up: 1000 Mbps
 - fast-open: true
-  name: 0|🇷🇺2 |  5.5MB/s
+  name: 0|🇷🇺3 |  3.5MB/s
   password: dongtaiwang.com
   port: 32555
   server: 46.29.163.171
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria2
-- fast-open: true
-  name: 0|🇷🇺3 |  5.5MB/s
-  password: dongtaiwang.com
-  port: 64816
-  server: 46.17.41.217
   skip-cert-verify: true
   sni: apple.com
   type: hysteria2
