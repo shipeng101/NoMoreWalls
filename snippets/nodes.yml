@@ -1,165 +1,18 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸2 |  3.0MB/s
-  network: tcp
-  port: 5228
-  server: fea38a5e-sum4g0-sv6oiy-1p1b.cu.plebai.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 279b8588-616b-11ed-a8bf-f23c91cfbbc9
-  ws-headers:
-    Host: fea38a5e-sum4g0-sv6oiy-1p1b.cu.plebai.net
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸3 |  3.2MB/s
-  port: 5228
-  server: 41875af0-sum4g0-t1smj4-u6bc.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: 21747146-3507-11ed-bb74-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 0|🇯🇵1 |  2.5MB/s
-  network: tcp
-  port: 17233
-  server: 69c584f2-suif40-tee612-2r82.cm5.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
-  ws-headers:
-    Host: 69c584f2-suif40-tee612-2r82.cm5.p5pv.com
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🇯🇵2 |  5.6MB/s
-  network: tcp
-  port: 17233
-  server: fa7c2955-suif40-swjyj4-1mish.cm5.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9eeeea88-f37b-11ed-bd3d-f23c9164ca5d
-  ws-headers:
-    Host: fa7c2955-suif40-swjyj4-1mish.cm5.p5pv.com
-  ws-path: /
-- name: 0|🇫🇷1 |  1.2MB/s
-  password: telegram-id-directvpn
-  port: 22222
-  server: 51.44.59.45
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 0|🇯🇵3 |  4.9MB/s
-  network: tcp
-  port: 17233
-  server: a0a40de3-suk9s0-t7mt0p-1sllg.cm5.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d6e1207c-f41a-11ef-9495-f23c91cfbbc9
-  ws-headers:
-    Host: a0a40de3-suk9s0-t7mt0p-1sllg.cm5.p5pv.com
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸8 |  5.0MB/s
-  port: 5228
-  server: f37db099-sum4g0-sy7yrp-1j3kc.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: 3a45a384-4ea7-11ed-a8bf-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸10 |  4.5MB/s
-  network: tcp
-  port: 5229
-  server: 4466f722-sum4g0-szbau2-2d9v.cu.plebai.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 554d0110-ce64-11ef-973a-f23c913c8d2b
-  ws-headers:
-    Host: 4466f722-sum4g0-szbau2-2d9v.cu.plebai.net
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸12 |  2.8MB/s
-  network: tcp
-  port: 5229
-  server: 405b7d32-suk9s0-tcmdts-1mmu6.cu.plebai.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2ee8f830-09e2-11f0-90e2-f23c913c8d2b
-  ws-headers:
-    Host: 405b7d32-suk9s0-tcmdts-1mmu6.cu.plebai.net
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🇸🇬1 |  1.1MB/s
-  network: tcp
-  port: 17231
-  server: 6f316071-suk9s0-swtza9-1q91p.cm5.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c11ff50c-f582-11ee-94df-f23c9164ca5d
-  ws-headers:
-    Host: 6f316071-suk9s0-swtza9-1q91p.cm5.p5pv.com
-  ws-path: /
-- alterId: '0'
-  cipher: auto
-  name: 0|🇺🇸16 |  5.7MB/s
-  network: ws
-  port: '443'
-  server: cloudgetservice.mcloudservice.site
-  tls: true
-  type: vmess
-  uuid: 1e537ee8-dc44-4c5b-8810-c41b4ae2e460
-  ws-opts:
-    headers:
-      host: MaxNEtvip-usa1.MAXnEtcLOUDsERvICe.COM
-    path: /linkws?ed=2560
-- cipher: chacha20-ietf
-  name: 0|🇭🇰2 |  1.2MB/s
-  password: asd123456
-  port: 8388
-  server: 103.149.182.61
+- cipher: rc4-md5
+  name: 0|🇩🇪1 |  2.7MB/s
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 193.108.119.230
   type: ss
 - alterId: 0
   cipher: auto
-  name: 0|🇺🇸19 |  2.7MB/s
-  network: tcp
-  port: 5229
-  server: edcc173e-sum4g0-sv7391-mv7m.cu.plebai.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 94d40708-8273-11ea-8fc9-f23c913c8d2b
-  ws-headers:
-    Host: edcc173e-sum4g0-sv7391-mv7m.cu.plebai.net
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🇸🇬2 |  4.7MB/s
-  port: 17231
-  server: 03d929ef-suk9s0-tcmdts-1mmu6.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 2ee8f830-09e2-11f0-90e2-f23c913c8d2b
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸22 |  2.4MB/s
+  name: 0|🇺🇸2 |  4.2MB/s
   network: ws
   port: 443
   server: 104.18.149.75
-  skip-cert-verify: false
+  servername: us.insbot.filegear-sg.me
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
@@ -167,7 +20,91 @@ proxies:
     headers:
       Host: us.insbot.filegear-sg.me
     path: /aa
-- name: 0|🇺🇸23 |  4.1MB/s
+- name: 0|🇯🇵1 |  6.0MB/s
+  password: 47a61c4e-87ac-31ea-b4d6-1feec63eeae4
+  port: 20142
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z142.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 0|🇰🇷1 |  2.3MB/s
+  password: 47a61c4e-87ac-31ea-b4d6-1feec63eeae4
+  port: 45168
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z263.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 0|🇯🇵2 |  4.6MB/s
+  password: 47a61c4e-87ac-31ea-b4d6-1feec63eeae4
+  port: 54178
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x115.flybar.work
+  type: trojan
+  udp: true
+- name: 0|🇺🇸7 |  5.1MB/s
+  password: 47a61c4e-87ac-31ea-b4d6-1feec63eeae4
+  port: 20308
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z308.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 0|🇺🇸8 |  2.1MB/s
+  password: 47a61c4e-87ac-31ea-b4d6-1feec63eeae4
+  port: 11215
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z268.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 0|🇯🇵5 |  4.4MB/s
+  password: 47a61c4e-87ac-31ea-b4d6-1feec63eeae4
+  port: 20076
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x76.flybar.work
+  type: trojan
+  udp: true
+- name: 0|🇭🇰1 |  1.3MB/s
+  network: ws
+  password: a38c9e28-9960-4e31-9f18-ed2495a756aa
+  port: 40021
+  server: vt-bana2-cn-11.ghpgwqswodgzv.com
+  sni: vt-bana2-cn-11.ghpgwqswodgzv.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: vt-bana2-cn-11.ghpgwqswodgzv.com
+    path: /dl_media
+- name: 0|🇭🇰2 |  3.5MB/s
+  password: 47a61c4e-87ac-31ea-b4d6-1feec63eeae4
+  port: 20279
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z279.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 0|🇺🇸12 |  1.4MB/s
+  password: 47a61c4e-87ac-31ea-b4d6-1feec63eeae4
+  port: 20306
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z306.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 0|🇭🇰3 |  4.7MB/s
+  password: 47a61c4e-87ac-31ea-b4d6-1feec63eeae4
+  port: 43337
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z102.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 0|🇺🇸16 |  2.7MB/s
   network: ws
   password: aTArbZ2F0E
   port: 443
@@ -181,14 +118,53 @@ proxies:
     headers:
       Host: uSa-vp-27.bLAzECLOUD.SITE
     path: /linkvkws
+- alterId: '0'
+  cipher: auto
+  name: 0|🇺🇸20 |  4.9MB/s
+  network: ws
+  port: '443'
+  server: cloudgetservice.mcloudservice.site
+  tls: true
+  type: vmess
+  uuid: 1e537ee8-dc44-4c5b-8810-c41b4ae2e460
+  ws-opts:
+    headers:
+      host: MaxNEtvip-usa1.MAXnEtcLOUDsERvICe.COM
+    path: /linkws?ed=2560
 - alterId: 0
   cipher: auto
-  name: 0|🇺🇸24 |  5.2MB/s
-  port: 5228
-  server: 8d3d7f83-suk9s0-sv6oiy-1p1b.cu.plebai.net
+  name: 0|🇰🇷3 |  1.1MB/s
+  port: 17232
+  server: 693debd4-sum4g0-svlqnl-2c08.cm5.p5pv.com
   tls: false
   type: vmess
-  uuid: 279b8588-616b-11ed-a8bf-f23c91cfbbc9
+  uuid: c76abed4-f2d2-e4de-50ce-a545ff74ecd0
+- alterId: 0
+  cipher: auto
+  name: 0|🇯🇵7 |  3.4MB/s
+  network: tcp
+  port: 17233
+  server: 69c584f2-suif40-tee612-2r82.cm5.p5pv.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
+  ws-headers:
+    Host: 69c584f2-suif40-tee612-2r82.cm5.p5pv.com
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 0|🇰🇷4 |  1.1MB/s
+  network: tcp
+  port: 17232
+  server: c92a67a3-sum4g0-t46yf9-e13q.cm5.p5pv.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 8d888b92-eec8-11ef-bca1-f23c91cfbbc9
+  ws-headers:
+    Host: c92a67a3-sum4g0-t46yf9-e13q.cm5.p5pv.com
+  ws-path: /
 - alterId: 2
   cipher: auto
   name: 10,11|香港4|@ripaojiedian
