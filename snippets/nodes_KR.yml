@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0|🇰🇷6 |  5.2MB/s
+  name: 0|🇰🇷7 |  5.4MB/s
   network: tcp
   port: 17232
   server: c92a67a3-sum4g0-t46yf9-e13q.cm5.p5pv.com
@@ -12,6 +12,14 @@ proxies:
   ws-headers:
     Host: c92a67a3-sum4g0-t46yf9-e13q.cm5.p5pv.com
   ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 0|🇰🇷8 |  1.8MB/s
+  port: 17232
+  server: 693debd4-sum4g0-svlqnl-2c08.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: c76abed4-f2d2-e4de-50ce-a545ff74ecd0
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
