@@ -1,20 +1,39 @@
 proxies:
-- name: 0|🇯🇵1 |  6.0MB/s
-  password: 47a61c4e-87ac-31ea-b4d6-1feec63eeae4
-  port: 20142
-  server: gy.58n.net
+- alterId: 0
+  cipher: auto
+  name: 0|🇯🇵1 |  4.8MB/s
+  network: tcp
+  port: 17233
+  server: a0a40de3-suk9s0-t7mt0p-1sllg.cm5.p5pv.com
   skip-cert-verify: true
-  sni: z142.hongkongnode.top
-  type: trojan
-  udp: true
-- name: 0|🇯🇵2 |  4.6MB/s
-  password: 47a61c4e-87ac-31ea-b4d6-1feec63eeae4
-  port: 54178
-  server: gy.58n.net
+  tls: false
+  type: vmess
+  uuid: d6e1207c-f41a-11ef-9495-f23c91cfbbc9
+  ws-headers:
+    Host: a0a40de3-suk9s0-t7mt0p-1sllg.cm5.p5pv.com
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 0|🇯🇵2 |  4.5MB/s
+  port: 4151
+  server: 81a06ee9-suh6o0-sui06s-76vp.c.volczijie.com
+  tls: false
+  type: vmess
+  uuid: aad405ea-cdb9-11ee-883a-f23c93136cb3
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0,12|CN_speednode_0019
+  network: tcp
+  port: 25768
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: bsuqian01.dynu.net
+  servername: www.nvidia.com
   skip-cert-verify: true
-  sni: x115.flybar.work
-  type: trojan
+  tls: true
+  type: vless
   udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 0,12|CN_speednode_0010
@@ -30,7 +49,7 @@ proxies:
   udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
-  name: 0|🇯🇵4 |  6.1MB/s
+  name: 0|🇯🇵5 |  3.8MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
   server: jp104-cdn-route.couldflare-cdn.com
@@ -39,17 +58,43 @@ proxies:
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: 0|🇯🇵5 |  4.4MB/s
-  password: 47a61c4e-87ac-31ea-b4d6-1feec63eeae4
-  port: 20076
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x76.flybar.work
-  type: trojan
-  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|🇯🇵6 |  3.7MB/s
+  name: 0,12|CN_speednode_0020
+  network: tcp
+  port: 35659
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou02.mysynology.net
+  servername: gateway.icloud.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- allowInsecure: ''
+  name: 0|🇯🇵7 |  5.9MB/s
+  network: original
+  password: dQUWbcwECl
+  port: 443
+  server: automq3-proxy.automq-sg.com
+  skip-cert-verify: false
+  type: trojan
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇯🇵8 |  7.3MB/s
+  network: tcp
+  port: 48121
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: beiyong.dynuddns.net
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇯🇵9 |  5.5MB/s
   network: tcp
   port: 16497
   reality-opts:
@@ -61,16 +106,38 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - alterId: 0
   cipher: auto
-  name: 0|🇯🇵7 |  3.4MB/s
+  name: 0|🇯🇵10 |  6.2MB/s
+  port: 17233
+  server: aa715e82-sunz40-t1tfcf-1o3sh.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 96b3f2ee-5f66-11ee-804b-f23c9164ca5d
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0,12|CN_speednode_0017
+  network: tcp
+  port: 13989
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: csuzhou01.1cooldns.com
+  servername: gateway.icloud.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- alterId: 0
+  cipher: auto
+  name: 0|🇯🇵12 |  5.4MB/s
   network: tcp
   port: 17233
-  server: 69c584f2-suif40-tee612-2r82.cm5.p5pv.com
+  server: fa7c2955-suif40-swjyj4-1mish.cm5.p5pv.com
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
+  uuid: 9eeeea88-f37b-11ed-bd3d-f23c9164ca5d
   ws-headers:
-    Host: 69c584f2-suif40-tee612-2r82.cm5.p5pv.com
+    Host: fa7c2955-suif40-swjyj4-1mish.cm5.p5pv.com
   ws-path: /
 - cipher: rc4-md5
   client-fingerprint: chrome
@@ -118,3 +185,17 @@ proxies:
   type: vless
   udp: true
   uuid: 3c5640c5-0e1b-4081-f174-0361c3c94d14
+- name: 12|JP_speednode_0059
+  network: ws
+  port: 2083
+  server: 103.116.7.103
+  servername: edccr.aimercc.filegear-sg.me
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edccr.aimercc.filegear-sg.me
+    path: /?ed=2560

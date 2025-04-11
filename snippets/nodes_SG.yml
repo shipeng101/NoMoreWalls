@@ -1,1 +1,139 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 0|🇸🇬3 |  4.8MB/s
+  network: tcp
+  port: 50266
+  raw:
+    add: 103.106.229.54
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: ''
+    id: 5edf584e-1351-436b-99b2-1033ba593d02
+    net: tcp
+    path: ''
+    port: '50266'
+    ps: 🔥Join+Telegram:@FarahVPN🟣
+    scy: auto
+    sni: ''
+    tls: ''
+    type: none
+    v: '2'
+  server: 103.106.229.54
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5edf584e-1351-436b-99b2-1033ba593d02
+- alterId: 0
+  cipher: auto
+  name: 0|🇸🇬6 |  1.8MB/s
+  network: tcp
+  port: 53802
+  raw:
+    add: 103.106.229.207
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: ''
+    id: 803c04ae-2da6-434b-a692-8fd75e5964d7
+    net: tcp
+    path: ''
+    port: '53802'
+    ps: 🔥Join+Telegram:@FarahVPN🟣
+    scy: auto
+    sni: ''
+    tls: ''
+    type: none
+    v: '2'
+  server: 103.106.229.207
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 803c04ae-2da6-434b-a692-8fd75e5964d7
+- alterId: 0
+  cipher: auto
+  name: 0|🇸🇬7 |  4.7MB/s
+  network: tcp
+  port: 47211
+  raw:
+    add: 84.247.149.77
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: ''
+    id: fb674260-1c21-4f99-8bd0-3d1d341c6771
+    net: tcp
+    path: ''
+    port: '47211'
+    ps: 🔥Join+Telegram:@FarahVPN🟣
+    scy: auto
+    sni: ''
+    tls: ''
+    type: none
+    v: '2'
+  server: 84.247.149.77
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: fb674260-1c21-4f99-8bd0-3d1d341c6771
+- allowInsecure: ''
+  name: 0|🇸🇬9 |  4.9MB/s
+  network: original
+  password: dQUWbcwECl
+  port: 443
+  server: automq4-proxy.automq-sg.com
+  skip-cert-verify: false
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 0|🇸🇬11 |  1.8MB/s
+  network: tcp
+  port: 38233
+  raw:
+    add: 103.106.229.132
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: ''
+    id: 537a199c-c1f1-4b6b-a7dd-cd00eb1babfc
+    net: tcp
+    path: ''
+    port: '38233'
+    ps: 🔥Join+Telegram:@FarahVPN🟣
+    scy: auto
+    sni: ''
+    tls: ''
+    type: none
+    v: '2'
+  server: 103.106.229.132
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 537a199c-c1f1-4b6b-a7dd-cd00eb1babfc
+- alterId: 0
+  cipher: auto
+  name: 0|🇸🇬12 |  1.4MB/s
+  network: tcp
+  port: 16369
+  raw:
+    add: 46.250.237.48
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: ''
+    id: 11aa4614-bb63-45fe-9d4b-f3b215c639e5
+    net: tcp
+    path: ''
+    port: '16369'
+    ps: V2CROSS.COM
+    scy: auto
+    sni: ''
+    tls: ''
+    type: none
+    v: '2'
+  server: 46.250.237.48
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 11aa4614-bb63-45fe-9d4b-f3b215c639e5
