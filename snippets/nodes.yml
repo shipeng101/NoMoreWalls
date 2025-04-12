@@ -1,135 +1,101 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0|🇸🇬1 |  4.8MB/s
+  name: 0|🇸🇬1 |  7.0MB/s
   port: 17231
   server: 6f316071-suk9s0-swtza9-1q91p.cm5.p5pv.com
   tls: false
   type: vmess
   uuid: c11ff50c-f582-11ee-94df-f23c9164ca5d
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 0|🇯🇵1 |  1.7MB/s
-  network: tcp
-  port: 27750
-  server: 5.253.41.147
-  skip-cert-verify: true
+  name: 0|🌀1- |  1.9MB/s
+  network: ws
+  port: 30825
+  server: v25.heduian.link
+  skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 4b1992cc-8e7c-4003-a45f-a28c3e6f6fa8
-  ws-headers:
-    Host: 5.253.41.147
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸12 |  3.5MB/s
-  network: tcp
-  port: 5229
-  server: 5d38531f-sum4g0-svq8ok-ebxr.cu.plebai.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5cfde7fa-ed1b-11ef-b5d9-f23c9164ca5d
-  ws-headers:
-    Host: 5d38531f-sum4g0-svq8ok-ebxr.cu.plebai.net
-  ws-path: /
-- cipher: rc4-md5
-  name: 0|🇩🇪3 |  3.7MB/s
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
+- name: 0|🇺🇸9 |  2.3MB/s
+  network: ws
+  password: aTArbZ2F0E
+  port: 443
+  server: 172.66.168.209
+  sni: uSa-vp-27.bLAzECLOUD.SITE
+  type: trojan
+  ws-opts:
+    headers:
+      Host: uSa-vp-27.bLAzECLOUD.SITE
+    path: /linkvkws
+- cipher: aes-256-cfb
+  name: 0|🇺🇸11 |  5.4MB/s
   obfs: plain
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
+  password: amazonskr05
+  port: 443
   protocol: origin
-  server: 193.108.119.230
+  server: 35.92.43.83
+  type: ssr
+- cipher: aes-256-cfb
+  name: 0|🇰🇷4 |  5.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.125.87.74
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 0|🇯🇵4 |  5.5MB/s
+  network: tcp
+  port: 17233
+  server: 9cb8b51d-sunz40-svabg7-1td06.cm5.p5pv.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: de5486da-f19c-11ef-8eaf-f23c9164ca5d
+  ws-headers:
+    Host: 9cb8b51d-sunz40-svabg7-1td06.cm5.p5pv.com
+  ws-path: /
+- cipher: chacha20-ietf
+  name: 0|🇦🇺1 |  1.7MB/s
+  obfs: http_simple
+  obfs-param: 20176-L1juani984.download.microsoft.com
+  password: passwd
+  port: 8625
+  protocol: origin
+  protocol-param: ''
+  server: cn17.mynode.me
   type: ssr
 - alterId: 0
   cipher: auto
-  name: 0|🌀3-ID |  1.2MB/s
+  name: 0|🌀5- |  1.5MB/s
+  network: ws
+  port: 443
+  server: 104.18.149.75
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
+  ws-opts:
+    headers:
+      Host: us.insbot.filegear-sg.me
+    path: /aa
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸15 |  4.2MB/s
   network: tcp
-  port: 17234
-  server: 693debd4-sum4g0-svlqnl-2c08.cm5.p5pv.com
+  port: 5228
+  server: fac9e438-sunz40-svabg7-1td06.cu.plebai.net
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: c76abed4-f2d2-e4de-50ce-a545ff74ecd0
+  uuid: de5486da-f19c-11ef-8eaf-f23c9164ca5d
   ws-headers:
-    Host: 693debd4-sum4g0-svlqnl-2c08.cm5.p5pv.com
+    Host: fac9e438-sunz40-svabg7-1td06.cu.plebai.net
   ws-path: /
-- name: 0|🇺🇸15 |  2.0MB/s
-  network: ws
-  password: 12bb340e-291c-406a-8402-c43f37fa201d
-  port: 443
-  server: oxui.supercopilot.top
-  skip-cert-verify: false
-  type: trojan
-  ws-opts:
-    path: /12bb340e-291c-406a-8402-c43f37fa201d
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸17 |  1.6MB/s
-  network: ws
-  port: 8083
-  server: dd26bf3b-sunz40-tavn57-1mtqy.se.plebai.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e27137c8-5952-11ef-aa23-f23c9164ca5d
-  ws-headers:
-    Host: dd26bf3b-sunz40-tavn57-1mtqy.se.plebai.net
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🇸🇬3 |  5.4MB/s
-  network: ws
-  port: 2053
-  server: cloudflare.182682.xyz
-  servername: sg1.pavo.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: cbd1d425-5379-4c44-82fc-5765d1d34dc9
-  ws-opts:
-    headers:
-      Host: sg1.pavo.eu.org
-    path: /sg1vmess
-- cipher: aes-128-gcm
-  name: 0|🌀6- |  4.6MB/s
-  password: 904d4c81-aebf-4882-bb2a-b4dcb8cb5d05
-  port: 12075
-  server: bit-kr.03ezhg0qsa.download
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|🇰🇷4 |  6.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.36.94.132
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 0|🇫🇷2 |  3.1MB/s
-  network: ws
-  port: 443
-  server: 8.219.206.22
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
-  ws-opts:
-    headers:
-      Host: beyonddsz.cfd
-    path: /linkws
-- cipher: aes-256-cfb
-  name: 0|🇰🇷5 |  1.7MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.124.81.166
-  type: ss
-- name: 0|🇭🇰6 |  6.3MB/s
-  password: 3ffa664f-364a-4937-a314-1d9f02ad8458
-  port: 32443
-  server: lbso.bnnodeservice.com
-  skip-cert-verify: false
-  sni: cert.bitbyte.one
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 0,10|🇺🇸 美国2|@ripaojiedian
@@ -140,22 +106,36 @@ proxies:
   tls: false
   type: vmess
   uuid: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-- alterId: 0
+- alterId: '0'
   cipher: auto
-  name: 0|🇰🇷6 |  2.1MB/s
+  name: 0|🇺🇸26 |  5.6MB/s
   network: tcp
-  port: 17232
-  server: c92a67a3-sum4g0-t46yf9-e13q.cm5.p5pv.com
+  port: '5229'
+  server: 5d38531f-sum4g0-svq8ok-ebxr.cu.plebai.net
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 8d888b92-eec8-11ef-bca1-f23c91cfbbc9
+  uuid: 5cfde7fa-ed1b-11ef-b5d9-f23c9164ca5d
   ws-headers:
-    Host: c92a67a3-sum4g0-t46yf9-e13q.cm5.p5pv.com
+    Host: 5d38531f-sum4g0-svq8ok-ebxr.cu.plebai.net
   ws-path: /
+- name: 0|🇹🇼37 |  4.9MB/s
+  network: ws
+  password: Ng35283528
+  port: 443
+  server: 104.16.83.176
+  skip-cert-verify: true
+  sni: c2.validbv3528.eu.org
+  tfo: false
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: c2.validbv3528.eu.org
+    path: /?ed=2560
 - alterId: 0
   cipher: auto
-  name: 0|🇯🇵7 |  5.7MB/s
+  name: 0|🇯🇵5 |  5.2MB/s
   network: tcp
   port: 17233
   server: 69c584f2-suif40-tee612-2r82.cm5.p5pv.com
@@ -168,45 +148,71 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 0|🇳🇱3 |  3.7MB/s
-  network: tcp
-  port: 30520
-  server: 45.8.145.145
-  skip-cert-verify: true
+  name: 0|🇯🇵6 |  5.6MB/s
+  port: 17233
+  server: f547c7cf-sunz40-t49lki-1ejce.cm5.p5pv.com
   tls: false
   type: vmess
-  uuid: 3038024f-3a34-4228-b61c-d741b2fbec8f
-  ws-headers:
-    Host: 45.8.145.145
-  ws-path: /
+  uuid: e534d120-d32f-11ef-bdb9-f23c91cfbbc9
 - alterId: 0
   cipher: auto
-  name: 0|🇺🇸28 |  5.8MB/s
+  name: 0|🇯🇵7 |  4.7MB/s
+  port: 17233
+  server: a0a40de3-suk9s0-t7mt0p-1sllg.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: d6e1207c-f41a-11ef-9495-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 0|🇯🇵8 |  6.0MB/s
+  port: 17233
+  server: fa7c2955-suif40-swjyj4-1mish.cm5.p5pv.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9eeeea88-f37b-11ed-bd3d-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 0|🇫🇷1 |  5.6MB/s
+  network: ws
+  port: 443
+  server: 8.219.206.22
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+  ws-opts:
+    headers:
+      Host: beyonddsz.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸30 |  5.3MB/s
   port: 5229
   server: 4f387ddd-sunz40-taklwz-12bd.cu.plebai.net
   tls: false
   type: vmess
   uuid: ea76ae7e-ea95-11ef-8b73-f23c91cfbbc9
-- cipher: aes-256-cfb
-  name: 0|🇰🇷8 |  5.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.125.87.74
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 0|🇩🇪6 |  4.2MB/s
-  network: ws
-  port: 32683
-  server: 92.114.54.227
-  servername: digitalcloud.pro.jiahe.buzz
-  tls: true
+  name: 0,11|美国2|@ripaojiedian
+  network: tcp
+  port: '5229'
+  server: 9f1822ee-sum4g0-t4nd8s-wujn.cu.plebai.net
+  servername: ''
+  tls: false
   type: vmess
-  uuid: b4134d6a-945b-4355-b34b-a0899b02701e
-  ws-opts:
-    headers:
-      Host: digitalcloud.pro.jiahe.buzz
-    path: /jh002
+  uuid: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  name: 0|🇯🇵9 |  6.0MB/s
+  port: 17233
+  server: d7481a66-sunz40-taklwz-12bd.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: ea76ae7e-ea95-11ef-8b73-f23c91cfbbc9
 - alterId: 2
   cipher: auto
   name: 10,11|香港4|@ripaojiedian
@@ -334,16 +340,6 @@ proxies:
     headers:
       Host: ji0612e.nfjunka.xyz
     path: '%2F%3Fed%3D2560%26proxyip%3D121.167.108.242%3A50000'
-- alterId: 0
-  cipher: auto
-  name: 11|美国2|@ripaojiedian
-  network: tcp
-  port: '5229'
-  server: 9f1822ee-sum4g0-t4nd8s-wujn.cu.plebai.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
 - name: 12|US_speednode_0088
   network: ws
   password: Aimer

@@ -1,11 +1,4 @@
 proxies:
-- name: 0|🇭🇰6 |  6.3MB/s
-  password: 3ffa664f-364a-4937-a314-1d9f02ad8458
-  port: 32443
-  server: lbso.bnnodeservice.com
-  skip-cert-verify: false
-  sni: cert.bitbyte.one
-  type: trojan
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome

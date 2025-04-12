@@ -1,38 +1,36 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸12 |  3.5MB/s
-  network: tcp
-  port: 5229
-  server: 5d38531f-sum4g0-svq8ok-ebxr.cu.plebai.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5cfde7fa-ed1b-11ef-b5d9-f23c9164ca5d
-  ws-headers:
-    Host: 5d38531f-sum4g0-svq8ok-ebxr.cu.plebai.net
-  ws-path: /
-- name: 0|🇺🇸15 |  2.0MB/s
+- name: 0|🇺🇸9 |  2.3MB/s
   network: ws
-  password: 12bb340e-291c-406a-8402-c43f37fa201d
+  password: aTArbZ2F0E
   port: 443
-  server: oxui.supercopilot.top
-  skip-cert-verify: false
+  server: 172.66.168.209
+  sni: uSa-vp-27.bLAzECLOUD.SITE
   type: trojan
   ws-opts:
-    path: /12bb340e-291c-406a-8402-c43f37fa201d
+    headers:
+      Host: uSa-vp-27.bLAzECLOUD.SITE
+    path: /linkvkws
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 0|🇺🇸11 |  5.4MB/s
+  obfs: plain
+  password: amazonskr05
+  port: 443
+  protocol: origin
+  server: 35.92.43.83
+  type: ssr
 - alterId: 0
   cipher: auto
-  name: 0|🇺🇸17 |  1.6MB/s
-  network: ws
-  port: 8083
-  server: dd26bf3b-sunz40-tavn57-1mtqy.se.plebai.net
+  name: 0|🇺🇸15 |  4.2MB/s
+  network: tcp
+  port: 5228
+  server: fac9e438-sunz40-svabg7-1td06.cu.plebai.net
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: e27137c8-5952-11ef-aa23-f23c9164ca5d
+  uuid: de5486da-f19c-11ef-8eaf-f23c9164ca5d
   ws-headers:
-    Host: dd26bf3b-sunz40-tavn57-1mtqy.se.plebai.net
+    Host: fac9e438-sunz40-svabg7-1td06.cu.plebai.net
   ws-path: /
 - alterId: 0
   cipher: auto
@@ -45,14 +43,37 @@ proxies:
   tls: false
   type: vmess
   uuid: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+- alterId: '0'
+  cipher: auto
+  name: 0|🇺🇸26 |  5.6MB/s
+  network: tcp
+  port: '5229'
+  server: 5d38531f-sum4g0-svq8ok-ebxr.cu.plebai.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 5cfde7fa-ed1b-11ef-b5d9-f23c9164ca5d
+  ws-headers:
+    Host: 5d38531f-sum4g0-svq8ok-ebxr.cu.plebai.net
+  ws-path: /
 - alterId: 0
   cipher: auto
-  name: 0|🇺🇸28 |  5.8MB/s
+  name: 0|🇺🇸30 |  5.3MB/s
   port: 5229
   server: 4f387ddd-sunz40-taklwz-12bd.cu.plebai.net
   tls: false
   type: vmess
   uuid: ea76ae7e-ea95-11ef-8b73-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 0,11|美国2|@ripaojiedian
+  network: tcp
+  port: '5229'
+  server: 9f1822ee-sum4g0-t4nd8s-wujn.cu.plebai.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -87,16 +108,6 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- alterId: 0
-  cipher: auto
-  name: 11|美国2|@ripaojiedian
-  network: tcp
-  port: '5229'
-  server: 9f1822ee-sum4g0-t4nd8s-wujn.cu.plebai.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
 - name: 12|US_speednode_0088
   network: ws
   password: Aimer
