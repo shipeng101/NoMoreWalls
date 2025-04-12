@@ -1,30 +1,30 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0|🇰🇷1 |  2.8MB/s
+  name: 0|🇰🇷3 |  5.0MB/s
   network: tcp
-  port: 26521
-  raw:
-    add: 45.82.246.173
-    aid: '0'
-    alpn: ''
-    fp: ''
-    host: ''
-    id: cff7001e-3a74-43e8-bfd8-a7af9630a58b
-    net: tcp
-    path: ''
-    port: '26521'
-    ps: 🔥Join+Telegram:@FarahVPN🟣
-    scy: auto
-    sni: ''
-    tls: ''
-    type: none
-    v: '2'
-  server: 45.82.246.173
-  servername: ''
+  port: 17232
+  server: c92a67a3-sum4g0-t46yf9-e13q.cm5.p5pv.com
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: cff7001e-3a74-43e8-bfd8-a7af9630a58b
+  uuid: 8d888b92-eec8-11ef-bca1-f23c91cfbbc9
+  ws-headers:
+    Host: c92a67a3-sum4g0-t46yf9-e13q.cm5.p5pv.com
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 0|🇰🇷4 |  3.5MB/s
+  network: tcp
+  port: 17232
+  server: 693debd4-sum4g0-svlqnl-2c08.cm5.p5pv.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c76abed4-f2d2-e4de-50ce-a545ff74ecd0
+  ws-headers:
+    Host: 693debd4-sum4g0-svlqnl-2c08.cm5.p5pv.com
+  ws-path: /
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -42,24 +42,27 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10|🇰🇷 韩国4|@ripaojiedian
-  port: 45245
-  server: ye.fxlcn.com
+- client-fingerprint: chrome
+  name: 10|🇰🇷 韩国2|@ripaojiedian
+  network: ws
+  password: ji0612uenfs
+  port: 50000
+  server: 121.167.108.242
   skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 469e0b31-30c3-4dab-800d-711232634ce1
-- alterId: 0
-  cipher: auto
-  name: 11|韩国4|@ripaojiedian
-  network: tcp
-  port: '45245'
-  server: ye.fxlcn.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 469e0b31-30c3-4dab-800d-711232634ce1
+  sni: ji0612e.nfjunka.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ji0612e.nfjunka.xyz
+    path: /?ed=2560&proxyip=121.167.108.242:50000
+- name: 11|韩国2|@ripaojiedian
+  network: ws
+  password: ji0612uenfs
+  port: 50000
+  server: 121.167.108.242
+  sni: ji0612e.nfjunka.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ji0612e.nfjunka.xyz
+    path: '%2F%3Fed%3D2560%26proxyip%3D121.167.108.242%3A50000'
