@@ -1,12 +1,34 @@
 proxies:
-- alterId: '0'
+- alterId: 2
   cipher: auto
-  name: 0|🇭🇰6 |  2.8MB/s
-  network: tcp
-  port: 34652
-  server: 183.236.51.38
+  name: 0|🇭🇰8 |  2.2MB/s
+  network: ws
+  port: 80
+  raw:
+    add: 3e236b99-sucv40-sudq0l-1rz5s.hk.p5pv.com
+    aid: '2'
+    alpn: ''
+    fp: ''
+    host: broadcastlv.chat.bilibili.com
+    id: 40e084d6-0316-11f0-90e2-f23c913c8d2b
+    net: ws
+    path: /
+    port: 80
+    ps: 🇭🇰 HK_146
+    scy: ''
+    sni: ''
+    tls: ''
+    type: ''
+    v: '2'
+  server: 3e236b99-sucv40-sudq0l-1rz5s.hk.p5pv.com
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 40e084d6-0316-11f0-90e2-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
