@@ -1,15 +1,18 @@
 proxies:
-- fast-open: true
-  name: 0|🇷🇺1 |  1.5MB/s
-  password: dongtaiwang.com
-  port: 64816
-  server: 46.17.41.217
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: 1000 Mbps
+  name: 0|🇷🇺1 |  2.3MB/s
+  port: 10803
+  server: 185.22.155.71
   skip-cert-verify: true
-  sni: apple.com
-  type: hysteria2
+  sni: www.bing.com
+  type: hysteria
+  up: 1000 Mbps
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|🇷🇺2 |  2.0MB/s
+  name: 0|🇷🇺2 |  5.3MB/s
   network: tcp
   port: 20216
   reality-opts:
@@ -19,24 +22,11 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- alterId: 0
-  cipher: auto
-  name: 0|🇷🇺3 |  3.5MB/s
-  network: tcp
-  port: 20779
-  server: 45.12.114.15
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9dc5bff8-bcbb-4703-b0fe-4f91ba517402
-  ws-headers:
-    Host: 45.12.114.15
-  ws-path: /
 - alpn:
   - h3
   auth_str: dongtaiwang.com
   down: 1000 Mbps
-  name: 0|🇷🇺4 |  3.1MB/s
+  name: 0|🇷🇺3 |  3.2MB/s
   port: 10469
   server: 46.17.41.174
   skip-cert-verify: true
@@ -45,10 +35,18 @@ proxies:
   udp: true
   up: 1000 Mbps
 - fast-open: true
-  name: 0|🇷🇺5 |  3.9MB/s
+  name: 0|🇷🇺4 |  2.9MB/s
   password: dongtaiwang.com
   port: 32555
   server: 46.29.163.171
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria2
+- fast-open: true
+  name: 0|🇷🇺5 |  3.9MB/s
+  password: dongtaiwang.com
+  port: 64816
+  server: 46.17.41.217
   skip-cert-verify: true
   sni: apple.com
   type: hysteria2
