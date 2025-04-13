@@ -1,20 +1,59 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 0|🇰🇷1 |  5.5MB/s
-  network: tcp
-  port: 17232
-  server: c92a67a3-sum4g0-t46yf9-e13q.cm5.p5pv.com
+- country: 🇰🇷KR
+  delay: 2987
+  name: 0|🇰🇷1 |  2.7MB/s
+  password: d07ec566-018a-4a80-b3d3-b378fdead52c
+  port: 55215
+  server: shy23.zqjc.cloud
+  skip-cert-verify: false
+  sni: shy23.zqjc.cloud
+  type: hysteria2
+  udp: true
+- name: 0|🇰🇷2 |  5.8MB/s
+  network: ws
+  port: 443
+  server: 198.62.62.156
+  servername: vb.ylka.dpdns.org
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 8d888b92-eec8-11ef-bca1-f23c91cfbbc9
-  ws-headers:
-    Host: c92a67a3-sum4g0-t46yf9-e13q.cm5.p5pv.com
-  ws-path: /
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: vb.ylka.dpdns.org
+    path: /?ed=2560
+- name: 0|🇰🇷3 |  1.8MB/s
+  network: ws
+  port: 443
+  server: wilson.ns.cloudflare.com
+  servername: vb.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: vb.ylka.dpdns.org
+    path: /?ed=2560
+- name: 0|🇰🇷4 |  1.3MB/s
+  network: ws
+  port: 443
+  server: 192.200.160.119
+  servername: vb.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: vb.ylka.dpdns.org
+    path: /?ed=2560
 - alterId: 0
   cipher: auto
-  name: 0|🇰🇷2 |  1.5MB/s
+  name: 0|🇰🇷5 |  1.1MB/s
   network: tcp
   port: 17232
   server: 693debd4-sum4g0-svlqnl-2c08.cm5.p5pv.com
@@ -25,27 +64,31 @@ proxies:
   ws-headers:
     Host: 693debd4-sum4g0-svlqnl-2c08.cm5.p5pv.com
   ws-path: /
-- country: 🇰🇷KR
-  delay: 2987
-  name: 0|🇰🇷3 |  5.3MB/s
-  password: d07ec566-018a-4a80-b3d3-b378fdead52c
-  port: 55215
-  server: shy23.zqjc.cloud
-  skip-cert-verify: false
-  sni: shy23.zqjc.cloud
-  type: hysteria2
-  udp: true
-- name: 12|KR_speednode_0051
+- name: 0|🇰🇷6 |  1.5MB/s
   network: ws
-  port: 12527
-  server: 221.144.200.91
-  servername: edccy.ambercc.filegear-sg.me
+  port: 443
+  server: 160.79.104.199
+  servername: vb.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      Host: edccy.ambercc.filegear-sg.me
+      host: vb.ylka.dpdns.org
+    path: /?ed=2560
+- name: 0|🇰🇷7 |  5.8MB/s
+  network: ws
+  port: 443
+  server: sullivan.ns.cloudflare.com
+  servername: vb.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: vb.ylka.dpdns.org
     path: /?ed=2560

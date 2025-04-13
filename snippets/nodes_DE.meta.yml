@@ -1,166 +1,41 @@
 proxies:
+- alterId: 2
+  cipher: auto
+  name: 0|🇩🇪1 |  5.0MB/s
+  network: ws
+  port: 23618
+  server: 18.mamamajd.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0b4c36ab-4385-353a-9305-566f12dcf4a5
+  ws-opts:
+    headers:
+      Host: 18.mamamajd.site
+    path: /
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 0|🇩🇪1 |  1.1MB/s
-  network: ws
-  port: 8880
-  server: 104.21.59.165
+  name: 0|🇩🇪2 |  1.2MB/s
+  network: tcp
+  port: 31904
+  server: tv2rayrr.set7.site
   servername: ''
   tls: false
   type: vless
   udp: false
-  uuid: 51d3d249-9095-4cbd-8fd2-3e6c1039cab4
-  ws-opts:
-    headers:
-      Host: falcunargo.c2259d7c10.workers.dev
-    path: /?ed=2048
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  mode: ''
-  name: 0|🇩🇪2 |  4.6MB/s
-  network: tcp
-  port: 58666
-  reality-opts:
-    public-key: bGCJWIH3EHCAGMeI-qgvjGZlL5tkY_HIqQEtsOqEVlw
-    short-id: a6a18a6e0259
-  server: 77.90.10.16
-  servername: addons.mozilla.org
-  tls: true
-  type: vless
-  udp: false
-  uuid: 08aa33d0-a8af-460b-807a-39791019015c
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  mode: ''
-  name: 0|🇩🇪3 |  5.4MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: Rcapy_5gvuL9LOr1Bqz-Y84P69L3wUQjG48xpB4fLTA
-    short-id: 1d13151ce1
-  server: direct.pdownloaddigikala.ir
-  servername: direct.pdownloaddigikala.ir
-  tls: true
-  type: vless
-  udp: false
-  uuid: eacc24ed-a1c1-4037-9af4-4f6bcd657119
-- alterId: 0
-  cipher: auto
-  name: 0|🇩🇪4 |  2.7MB/s
-  network: ws
-  port: 20050
-  raw:
-    add: 91.149.233.178
-    aid: '0'
-    alpn: ''
-    fp: ''
-    host: ''
-    id: a099b1cf-ac27-4273-9169-4cf51d19212e
-    net: ws
-    path: /
-    port: '20050'
-    ps: 🇩🇪 --001-1A
-    scy: ''
-    sni: ''
-    tls: ''
-    type: none
-    v: '2'
-  server: 91.149.233.178
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a099b1cf-ac27-4273-9169-4cf51d19212e
-  ws-opts:
-    path: /
-- client-fingerprint: chrome
-  flow: ''
-  grpc-opts:
-    grpc-service-name: '@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy'
-  mode: ''
-  name: 0|🇩🇪5 |  5.3MB/s
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: Aa3FogZ9ohTiRHsdnoyiMg7TFARWEeZs_m290juxEzs
-    short-id: ''
-  server: 178.63.228.220
-  servername: fauxid.com
-  tls: true
-  type: vless
-  udp: false
-  uuid: a3df7505-e10e-4707-bf56-49c1b1afee0d
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 0|🇩🇪6 |  5.3MB/s
-  network: ws
-  port: 2083
-  server: 104.17.147.22
-  servername: mehrab.filmekade.ru
-  tls: true
-  type: vless
-  udp: false
-  uuid: ddaed42a-36b0-4f57-fd20-80e0a97ffe14
-  ws-opts:
-    headers:
-      Host: mehrab.filmekade.ru
-    path: /telegram----------------v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---------------v2ryNG01---v2ryNG01--v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01?ed=2048
+  uuid: 37e9ed0b-bde6-48ad-b837-9f19a5bbc80f
 - auth: 18463200c271aa6d
-  name: 0|🇩🇪7 |  1.9MB/s
+  name: 0|🇩🇪3 |  5.1MB/s
   obfs: salamander
   obfs-password: 6c80ade6
   password: 18463200c271aa6d
   port: 443
-  server: 45.63.116.113
+  server: rplcehysttya6.airlineshoma.com
   skip-cert-verify: true
   sni: vkvd127.mycdn.me
   type: hysteria2
-- name: 0|🇩🇪8 |  2.5MB/s
-  network: ws
-  port: 2053
-  server: 199.34.228.183
-  servername: all22.kikforwindows.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 78905d87-0266-4825-868d-3069e88d1201
-  ws-opts:
-    headers:
-      host: all22.kikforwindows.com
-    path: /containers/de
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  mode: ''
-  name: 0|🇩🇪9 |  5.6MB/s
-  network: tcp
-  port: 1152
-  reality-opts:
-    public-key: EsdPQG7EdQ6yCid_OtlMfCDIRTnmFZ_ujpKbaqOiCT4
-    short-id: 4374d295a4f9dd83
-  server: 138.199.225.195
-  servername: stackoverflow.com
-  tls: true
-  type: vless
-  udp: false
-  uuid: dfa25b43-edf2-99e4-c3b0-1aa7c9ccaa96
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 0|🇩🇪10 |  5.5MB/s
-  network: ws
-  port: 2083
-  server: www.speedtest.net
-  servername: mehrab.filmekade.ru
-  tls: true
-  type: vless
-  udp: false
-  uuid: ddaed42a-36b0-4f57-fd20-80e0a97ffe14
-  ws-opts:
-    headers:
-      Host: mehrab.filmekade.ru
-    path: /telegram----------------v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---------------v2ryNG01---v2ryNG01--v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01?ed=2048
 - client-fingerprint: chrome
   delay: 2415
   flow: xtls-rprx-vision
@@ -176,30 +51,19 @@ proxies:
   type: vless
   udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- auth: 18463200c271aa6d
-  client-fingerprint: chrome
-  name: 0|🇩🇪12 |  3.8MB/s
-  obfs: salamander
-  obfs-password: 6c80ade6
-  password: 18463200c271aa6d
-  port: 443
-  server: rplcehysttya6.airlineshoma.com
-  skip-cert-verify: true
-  sni: vkvd127.mycdn.me
-  type: hysteria2
-- client-fingerprint: ''
+- client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 0|🇩🇪13 |  2.4MB/s
+  name: 0|🇩🇪5 |  5.7MB/s
   network: ws
-  port: 2086
-  server: 109.122.242.215
-  servername: ''
-  tls: false
+  port: 2083
+  server: www.speedtest.net
+  servername: mehrab.filmekade.ru
+  tls: true
   type: vless
   udp: false
-  uuid: 2dc574d3-b220-451d-9909-724e4fd1acf1
+  uuid: ddaed42a-36b0-4f57-fd20-80e0a97ffe14
   ws-opts:
     headers:
-      Host: Join_Bade_Channel@JOKERRVPNTELEGRAM----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN
-    path: /
+      Host: mehrab.filmekade.ru
+    path: /telegram----------------v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---------------v2ryNG01---v2ryNG01--v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01?ed=2048flow=-udp443

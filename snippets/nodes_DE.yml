@@ -1,29 +1,16 @@
 proxies:
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 0|🇩🇪4 |  2.7MB/s
+  name: 0|🇩🇪1 |  5.0MB/s
   network: ws
-  port: 20050
-  raw:
-    add: 91.149.233.178
-    aid: '0'
-    alpn: ''
-    fp: ''
-    host: ''
-    id: a099b1cf-ac27-4273-9169-4cf51d19212e
-    net: ws
-    path: /
-    port: '20050'
-    ps: 🇩🇪 --001-1A
-    scy: ''
-    sni: ''
-    tls: ''
-    type: none
-    v: '2'
-  server: 91.149.233.178
-  servername: ''
+  port: 23618
+  server: 18.mamamajd.site
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: a099b1cf-ac27-4273-9169-4cf51d19212e
+  udp: true
+  uuid: 0b4c36ab-4385-353a-9305-566f12dcf4a5
   ws-opts:
+    headers:
+      Host: 18.mamamajd.site
     path: /
