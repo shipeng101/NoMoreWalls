@@ -1,9 +1,29 @@
 proxies:
-- cipher: rc4-md5
-  name: 0|🇩🇪2 |  3.6MB/s
-  obfs: plain
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  protocol: origin
-  server: 193.108.119.230
-  type: ssr
+- alterId: 0
+  cipher: auto
+  name: 0|🇩🇪4 |  2.7MB/s
+  network: ws
+  port: 20050
+  raw:
+    add: 91.149.233.178
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: ''
+    id: a099b1cf-ac27-4273-9169-4cf51d19212e
+    net: ws
+    path: /
+    port: '20050'
+    ps: 🇩🇪 --001-1A
+    scy: ''
+    sni: ''
+    tls: ''
+    type: none
+    v: '2'
+  server: 91.149.233.178
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a099b1cf-ac27-4273-9169-4cf51d19212e
+  ws-opts:
+    path: /

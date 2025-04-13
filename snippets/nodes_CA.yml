@@ -1,15 +1,14 @@
 proxies:
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 0|🇨🇦1 |  2.0MB/s
-  network: ws
-  port: 30825
-  server: v25.heduian.link
-  skip-cert-verify: false
+  name: 0|🇨🇦3 |  1.0MB/s
+  network: tcp
+  port: 28984
+  server: 91.194.11.178
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /oooo
+  uuid: 9b2335af-f24c-4810-9c34-95568ebd579d
+  ws-headers:
+    Host: 91.194.11.178
+  ws-path: /

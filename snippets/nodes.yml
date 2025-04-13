@@ -1,20 +1,22 @@
 proxies:
-- cipher: rc4-md5
-  name: 0,10|🇯🇵 日本|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202504031266665-FaUpQWXZDf.download.microsoft.com
-    mode: http
-  port: 8765
-  server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 0|🇰🇷1 |  4.8MB/s
+  name: 0|🇺🇸22 |  5.6MB/s
   network: tcp
-  port: 17232
+  port: 5228
+  server: fac9e438-sunz40-svabg7-1td06.cu.plebai.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: de5486da-f19c-11ef-8eaf-f23c9164ca5d
+  ws-headers:
+    Host: fac9e438-sunz40-svabg7-1td06.cu.plebai.net
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 0|🌀1-ID |  5.4MB/s
+  network: tcp
+  port: 17234
   server: 693debd4-sum4g0-svlqnl-2c08.cm5.p5pv.com
   skip-cert-verify: true
   tls: false
@@ -23,161 +25,79 @@ proxies:
   ws-headers:
     Host: 693debd4-sum4g0-svlqnl-2c08.cm5.p5pv.com
   ws-path: /
-- name: 0|🇺🇸4 |  2.4MB/s
-  network: ws
-  password: d67cfeaf-b277-44ac-ab99-9dd02a7c5299
-  port: 443
-  server: 172.67.159.56
-  sni: Fgh9JkR5.890617.xYz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Fgh9JkR5.890617.xYz
-    path: /lWljHWvIMOj85lz42MdhsCLV
+- cipher: chacha20-ietf
+  name: 0|🇦🇺1 |  2.2MB/s
+  obfs: http_simple
+  obfs-param: 20176-L1juani984.download.microsoft.com
+  password: passwd
+  port: 8625
+  protocol: origin
+  protocol-param: ''
+  server: cn17.mynode.me
+  type: ssr
 - alterId: 0
   cipher: auto
-  name: 0|🇺🇸6 |  1.4MB/s
-  network: ws
-  port: 20010
-  raw:
-    add: 45.147.201.231
-    aid: '0'
-    alpn: ''
-    fp: ''
-    host: ''
-    id: 401026f3-4907-4285-bc0f-08c1eab30ed8
-    net: ws
-    path: /
-    port: '20010'
-    ps: 🇺🇸 --001-1A
-    scy: ''
-    sni: ''
-    tls: ''
-    type: none
-    v: '2'
-  server: 45.147.201.231
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 401026f3-4907-4285-bc0f-08c1eab30ed8
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸7 |  1.8MB/s
-  network: ws
-  port: 443
-  server: us10-09.852224.ggff.net
-  tls: true
-  type: vmess
-  uuid: 576c81b6-4976-4fe3-b1a9-05a9c302e98e
-  ws-opts:
-    headers:
-      Host: us10-09.852224.ggff.net
-    path: /SNwNdunw28lVztopw90eoXel
-- alpn:
-  - http%2F1.1
-  name: 0|🇺🇸8 |  2.0MB/s
-  network: ws
-  password: 2fec7227-9abe-46f2-af18-78302b836c45
-  port: 443
-  server: 172.67.208.155
-  sni: 3r.2030.pp.ua
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 3r.2030.pp.ua
-    path: /XjTi1NYwi9A2bckpqdDoAgkondVWl
-- alterId: 0
-  cipher: auto
-  name: 0|🇫🇷1 |  5.3MB/s
-  network: ws
-  port: 443
-  server: 188.114.97.79
-  servername: linde06.indiavideo.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  ws-opts:
-    headers:
-      Host: linde06.indiavideo.sbs
-    path: /linkws
-- alterId: '0'
-  cipher: auto
-  name: 0|🇺🇸13 |  5.0MB/s
-  network: tcp
-  port: '5228'
-  server: fac9e438-sunz40-svabg7-1td06.cu.plebai.net
-  type: vmess
-  uuid: de5486da-f19c-11ef-8eaf-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 0|🇫🇷2 |  4.3MB/s
-  network: ws
-  port: 443
-  server: 188.114.96.5
-  servername: linde06.indiavideo.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  ws-opts:
-    headers:
-      Host: linde06.indiavideo.sbs
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 0|🇬🇧4 |  2.3MB/s
+  name: 0|🇺🇸8 |  5.4MB/s
   network: ws
   port: 443
   raw:
-    add: 188.114.97.3
+    add: cloudgetservice.mcloudservice.site
     aid: '0'
     alpn: ''
     fp: ''
-    host: linde06.indiavideo.sbs
-    id: edbb1059-1633-4271-b66e-ed4fba47a1bf
+    host: maXNEtVIP-usA-VP3.nETKH3.SiTE
+    id: 3cf58606-5f2a-4609-9abd-404f633bd7e0
     net: ws
-    path: /linkws
-    port: 443
-    ps: 🏁 ZZ_364
-    scy: ''
-    sni: ''
+    path: /linkws?ed=2560
+    port: '443'
+    ps: 🔥Join+Telegram:@FarahVPN🟣
+    scy: auto
+    sni: maXNEtVIP-usA-VP3.nETKH3.SiTE
     tls: tls
     type: ''
     v: '2'
-  server: 188.114.97.3
-  servername: ''
+  server: cloudgetservice.mcloudservice.site
+  servername: maXNEtVIP-usA-VP3.nETKH3.SiTE
   tls: true
   type: vmess
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+  uuid: 3cf58606-5f2a-4609-9abd-404f633bd7e0
   ws-opts:
     headers:
-      Host: linde06.indiavideo.sbs
+      Host: maXNEtVIP-usA-VP3.nETKH3.SiTE
+    path: /linkws?ed=2560
+- alterId: 2
+  cipher: auto
+  name: 0,10,11|美国|@ripaojiedian
+  network: ws
+  port: '30808'
+  server: v8.heduian.link
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
+- alterId: 0
+  cipher: auto
+  name: 0|🇫🇷1 |  1.4MB/s
+  network: ws
+  port: 443
+  server: 8.219.206.22
+  servername: beyonddsz.cfd
+  tls: true
+  type: vmess
+  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+  ws-opts:
+    headers:
+      Host: beyonddsz.cfd
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: 0|🇺🇸18 |  4.7MB/s
-  network: tcp
-  port: 5229
-  server: 9f1822ee-sum4g0-t4nd8s-wujn.cu.plebai.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-  ws-headers:
-    Host: 9f1822ee-sum4g0-t4nd8s-wujn.cu.plebai.net
-  ws-path: /
-- cipher: aes-256-cfb
-  name: 0|🌀4-T1 |  1.8MB/s
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 51.15.15.82
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 0|🇰🇷2 |  3.1MB/s
+  name: 0|🇰🇷1 |  5.5MB/s
   network: tcp
   port: 17232
   server: c92a67a3-sum4g0-t46yf9-e13q.cm5.p5pv.com
@@ -190,7 +110,7 @@ proxies:
   ws-path: /
 - alterId: '0'
   cipher: auto
-  name: 0|🇺🇸32 |  3.2MB/s
+  name: 0|🇺🇸39 |  4.1MB/s
   network: tcp
   port: '5229'
   server: 5d38531f-sum4g0-svq8ok-ebxr.cu.plebai.net
@@ -201,73 +121,55 @@ proxies:
   ws-headers:
     Host: 5d38531f-sum4g0-svq8ok-ebxr.cu.plebai.net
   ws-path: /
-- cipher: chacha20-ietf
-  name: 0|🇦🇺2 |  5.7MB/s
-  obfs: http_simple
-  obfs-param: 20176-L1juani984.download.microsoft.com
-  password: passwd
-  port: 8625
-  protocol: origin
-  protocol-param: ''
-  server: cn17.mynode.me
-  type: ssr
-- cipher: rc4-md5
-  name: 0|🇩🇪2 |  3.6MB/s
-  obfs: plain
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  protocol: origin
-  server: 193.108.119.230
-  type: ssr
 - alterId: 0
   cipher: auto
-  name: 0|🇺🇸57 |  1.3MB/s
+  name: 0|🇺🇸15 |  5.7MB/s
+  port: 5229
+  server: 42317099-supts0-sxw44d-1re2s.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: a6a3c7fc-0de8-11ef-ba67-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 0|🇩🇪4 |  2.7MB/s
   network: ws
-  port: 443
+  port: 20050
   raw:
-    add: usa-sanjose-one.890614.filegear-sg.me
-    aid: 0
+    add: 91.149.233.178
+    aid: '0'
     alpn: ''
     fp: ''
-    host: usa-sanjose-one.890614.filegear-sg.me
-    id: 89c1aea7-4d0d-4013-b663-0f94a3e6bdbd
+    host: ''
+    id: a099b1cf-ac27-4273-9169-4cf51d19212e
     net: ws
-    path: /YfB29GXf4cThJQeJb
-    port: 443
-    ps: 🔥Join+Telegram:@FarahVPN🟣
+    path: /
+    port: '20050'
+    ps: 🇩🇪 --001-1A
     scy: ''
     sni: ''
-    tls: tls
-    type: auto
-    v: null
-  server: usa-sanjose-one.890614.filegear-sg.me
-  servername: usa-sanjose-one.890614.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
+    tls: ''
+    type: none
+    v: '2'
+  server: 91.149.233.178
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 89c1aea7-4d0d-4013-b663-0f94a3e6bdbd
+  uuid: a099b1cf-ac27-4273-9169-4cf51d19212e
   ws-opts:
-    headers:
-      Host: usa-sanjose-one.890614.filegear-sg.me
-    path: /YfB29GXf4cThJQeJb
-- alterId: 0
-  cipher: auto
-  name: 0|🇫🇷3 |  1.5MB/s
-  network: ws
-  port: 443
-  server: 172.67.161.77
-  servername: linde06.indiavideo.sbs
+    path: /
+- allowInsecure: ''
+  name: 0|🌀6-SE |  1.6MB/s
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 13.51.185.220
   skip-cert-verify: false
+  sni: trojan.burgerip.co.uk
   tls: true
-  type: vmess
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  ws-opts:
-    headers:
-      Host: linde06.indiavideo.sbs
-    path: /linkws
+  type: trojan
 - alterId: '0'
   cipher: auto
-  name: 0|🇺🇸31 |  5.8MB/s
+  name: 0|🇺🇸29 |  2.8MB/s
   network: ws
   port: '443'
   server: cloudgetservice.mcloudservice.site
@@ -280,40 +182,31 @@ proxies:
     path: /linkws?ed=2560
 - alterId: 0
   cipher: auto
-  name: 0|🇸🇬3 |  3.6MB/s
+  name: 0|🇰🇷2 |  1.5MB/s
   network: tcp
-  port: 44396
-  raw:
-    add: 84.247.148.192
-    aid: '0'
-    alpn: ''
-    fp: ''
-    host: ''
-    id: 3ca35e0a-e430-43fe-9c12-2e2eea70f873
-    net: tcp
-    path: ''
-    port: '44396'
-    ps: 🔥Join+Telegram:@FarahVPN🟣
-    scy: auto
-    sni: ''
-    tls: ''
-    type: none
-    v: '2'
-  server: 84.247.148.192
-  servername: ''
+  port: 17232
+  server: 693debd4-sum4g0-svlqnl-2c08.cm5.p5pv.com
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 3ca35e0a-e430-43fe-9c12-2e2eea70f873
-- name: 0|🇫🇷5 |  4.3MB/s
-  password: hZ7JkYVAfB
-  port: 1935
-  server: 141.227.138.29
-  skip-cert-verify: true
-  sni: x1ch-ovh.devefun.net
-  type: trojan
+  uuid: c76abed4-f2d2-e4de-50ce-a545ff74ecd0
+  ws-headers:
+    Host: 693debd4-sum4g0-svlqnl-2c08.cm5.p5pv.com
+  ws-path: /
+- cipher: rc4-md5
+  name: 0,10|🇺🇸 美国4|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202504031266665-FaUpQWXZDf.download.microsoft.com
+    mode: http
+  port: 8775
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
 - alterId: '0'
   cipher: auto
-  name: 0|🇺🇸51 |  5.2MB/s
+  name: 0|🇺🇸46 |  5.0MB/s
   network: tcp
   port: '5229'
   server: 4f387ddd-sunz40-taklwz-12bd.cu.plebai.net
@@ -324,147 +217,89 @@ proxies:
   ws-headers:
     Host: 4f387ddd-sunz40-taklwz-12bd.cu.plebai.net
   ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸41 |  1.6MB/s
-  port: 5229
-  server: 42317099-supts0-sxw44d-1re2s.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: a6a3c7fc-0de8-11ef-ba67-f23c91cfbbc9
 - alterId: 2
   cipher: auto
-  name: 0|🇨🇦1 |  2.0MB/s
+  name: 0|🇺🇸50 |  1.6MB/s
   network: ws
-  port: 30825
-  server: v25.heduian.link
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
   ws-opts:
     headers:
-      Host: baidu.com
-    path: /oooo
-- cipher: aes-256-cfb
-  name: 0|🌀10-RS |  5.5MB/s
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.186.77.220
-  type: ss
+      Host: zxjp-a.tkong.cc
+    path: /
 - alterId: 0
   cipher: auto
-  name: 0|🇫🇷6 |  1.7MB/s
+  name: 0|🇭🇰9 |  1.4MB/s
   network: ws
-  port: 443
+  port: 23010
   raw:
-    add: 188.114.96.2
+    add: 212.192.12.154
     aid: '0'
     alpn: ''
     fp: ''
-    host: linde06.indiavideo.sbs
-    id: edbb1059-1633-4271-b66e-ed4fba47a1bf
+    host: ''
+    id: 0bcdb99f-50eb-48f7-afb3-66992607c652
     net: ws
-    path: /linkws
-    port: 443
-    ps: 🏁 ZZ_368
+    path: /
+    port: '23010'
+    ps: 🇭🇰 --001-1C
     scy: ''
     sni: ''
-    tls: tls
-    type: ''
+    tls: ''
+    type: none
     v: '2'
-  server: 188.114.96.2
+  server: 212.192.12.154
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+  uuid: 0bcdb99f-50eb-48f7-afb3-66992607c652
   ws-opts:
-    headers:
-      Host: linde06.indiavideo.sbs
-    path: /linkws
+    path: /
 - alterId: 0
   cipher: auto
-  name: 0|🇺🇸52 |  1.2MB/s
+  name: 0|🇺🇸53 |  2.0MB/s
+  network: ws
+  port: 443
+  server: 104.18.149.75
+  servername: us.insbot.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
+  ws-opts:
+    headers:
+      Host: us.insbot.filegear-sg.me
+    path: /aa
+- alterId: 0
+  cipher: auto
+  name: 0|🇨🇦3 |  1.0MB/s
   network: tcp
-  port: 42259
-  server: 120.198.71.216
+  port: 28984
+  server: 91.194.11.178
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9b2335af-f24c-4810-9c34-95568ebd579d
+  ws-headers:
+    Host: 91.194.11.178
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 0|🇭🇰10 |  2.0MB/s
+  network: tcp
+  port: 34652
+  server: 183.236.51.38
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
-    Host: 120.198.71.216
+    Host: 183.236.51.38
   ws-path: /
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|🇫🇷8 |  5.5MB/s
-  network: ws
-  port: 2095
-  server: 185.174.138.209
-  servername: yellow-paper-029c.yvonna.workers.dev
-  skip-cert-verify: true
-  type: vmess
-  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
-  ws-opts:
-    headers:
-      HOST: yellow-paper-029c.yvonna.workers.dev
-    path: /az05.beyondy.cfd/link?/TM
-- delay: 2145
-  name: 0|🌀12- |  5.7MB/s
-  network: ws
-  password: tg-fq521free
-  port: 443
-  server: 216.24.57.30
-  skip-cert-verify: true
-  sni: torjan.xn--xhq44j.eu.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: torjan.xn--xhq44j.eu.org
-    path: /
-- name: 0|🇺🇸58 |  2.4MB/s
-  network: ws
-  password: d67cfeaf-b277-44ac-ab99-9dd02a7c5299
-  port: 443
-  server: 104.21.49.59
-  sni: Fgh9JkR5.890617.xYz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Fgh9JkR5.890617.xYz
-    path: /lWljHWvIMOj85lz42MdhsCLV
-- alterId: 0
-  cipher: auto
-  name: 0|🇬🇧9 |  2.6MB/s
-  network: ws
-  port: 443
-  raw:
-    add: 172.67.179.199
-    aid: '0'
-    alpn: ''
-    fp: ''
-    host: linde06.indiavideo.sbs
-    id: edbb1059-1633-4271-b66e-ed4fba47a1bf
-    net: ws
-    path: /linkws
-    port: 443
-    ps: 🇺🇸 US_309
-    scy: ''
-    sni: ''
-    tls: tls
-    type: ''
-    v: '2'
-  server: 172.67.179.199
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  ws-opts:
-    headers:
-      Host: linde06.indiavideo.sbs
-    path: /linkws
 - alterId: 2
   cipher: auto
   name: 10,11|香港4|@ripaojiedian
@@ -506,22 +341,17 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 2
-  cipher: auto
-  name: 10,11|美国|@ripaojiedian
-  network: ws
-  port: '30808'
-  server: v8.heduian.link
-  servername: ''
-  skip-cert-verify: false
+- cipher: rc4-md5
+  name: 10|🇯🇵 日本|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202504031266665-FaUpQWXZDf.download.microsoft.com
+    mode: http
+  port: 8765
+  server: cn01.efan8867801.xyz
   tfo: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /oooo
+  type: ss
 - alterId: 2
   cipher: auto
   name: 10,11|美国3|@ripaojiedian
@@ -538,17 +368,6 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- cipher: rc4-md5
-  name: 10|🇺🇸 美国4|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202504031266665-FaUpQWXZDf.download.microsoft.com
-    mode: http
-  port: 8775
-  server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 11|香港5|@ripaojiedian

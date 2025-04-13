@@ -1,20 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0|🇰🇷1 |  4.8MB/s
-  network: tcp
-  port: 17232
-  server: 693debd4-sum4g0-svlqnl-2c08.cm5.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c76abed4-f2d2-e4de-50ce-a545ff74ecd0
-  ws-headers:
-    Host: 693debd4-sum4g0-svlqnl-2c08.cm5.p5pv.com
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🇰🇷2 |  3.1MB/s
+  name: 0|🇰🇷1 |  5.5MB/s
   network: tcp
   port: 17232
   server: c92a67a3-sum4g0-t46yf9-e13q.cm5.p5pv.com
@@ -25,25 +12,22 @@ proxies:
   ws-headers:
     Host: c92a67a3-sum4g0-t46yf9-e13q.cm5.p5pv.com
   ws-path: /
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 0|🇰🇷3 |  5.6MB/s
-  network: ws
-  port: 2086
-  server: 104.21.38.248
-  servername: ''
+- alterId: 0
+  cipher: auto
+  name: 0|🇰🇷2 |  1.5MB/s
+  network: tcp
+  port: 17232
+  server: 693debd4-sum4g0-svlqnl-2c08.cm5.p5pv.com
+  skip-cert-verify: true
   tls: false
-  type: vless
-  udp: false
-  uuid: 86883d84-162c-42c4-af65-11dd80eb2ffa
-  ws-opts:
-    headers:
-      Host: tg20.dnopxqcx.workers.dev
-    path: /?ed=2560
+  type: vmess
+  uuid: c76abed4-f2d2-e4de-50ce-a545ff74ecd0
+  ws-headers:
+    Host: 693debd4-sum4g0-svlqnl-2c08.cm5.p5pv.com
+  ws-path: /
 - country: 🇰🇷KR
   delay: 2987
-  name: 0|🇰🇷4 |  2.7MB/s
+  name: 0|🇰🇷3 |  5.3MB/s
   password: d07ec566-018a-4a80-b3d3-b378fdead52c
   port: 55215
   server: shy23.zqjc.cloud
