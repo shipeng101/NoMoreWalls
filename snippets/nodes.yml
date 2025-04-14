@@ -1,85 +1,197 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0|🇭🇰1 |  1.0MB/s
+  name: 0|🇰🇷1 |  4.6MB/s
   network: tcp
-  port: 42524
-  server: 183.236.51.38
+  port: 17232
+  server: 693debd4-sum4g0-svlqnl-2c08.cm5.p5pv.com
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: c76abed4-f2d2-e4de-50ce-a545ff74ecd0
   ws-headers:
-    Host: 183.236.51.38
+    Host: 693debd4-sum4g0-svlqnl-2c08.cm5.p5pv.com
   ws-path: /
+- name: 0|🇺🇸1 |  1.5MB/s
+  network: ws
+  password: d67cfeaf-b277-44ac-ab99-9dd02a7c5299
+  port: 443
+  server: 172.67.159.56
+  sni: Fgh9JkR5.890617.xYz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Fgh9JkR5.890617.xYz
+    path: /lWljHWvIMOj85lz42MdhsCLV
+- cipher: rc4-md5
+  name: 0|🇩🇪1 |  3.0MB/s
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 193.108.119.230
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇳🇱2 |  3.9MB/s
+  password: 8ZgXVkKe8Kli6Ka3JAdJny
+  port: 4199
+  server: 212.34.150.176
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 0|🌀1-CN |  1.1MB/s
+  name: 0|🌀5- |  1.9MB/s
   network: ws
-  port: 23010
+  port: 443
   raw:
-    add: 212.192.12.154
+    add: 162.159.138.179
     aid: '0'
     alpn: ''
     fp: ''
-    host: ''
-    id: 4481da8f-06d4-4e6d-879c-e3e9ad5293f4
+    host: hms19.best-tizi.top
+    id: 62aa5f80-0328-4004-a375-7f5a59df4022
     net: ws
-    path: /
-    port: 23010
-    ps: Rubtsovsk Branch of Altai State University
-    scy: ''
-    sni: ''
-    tls: ''
+    path: /linkws?@AZARBAYJB1@AZARBAYJB1@AZARBAYJB1@AZARBAYJB1@AZARBAYJB1@AZARBAYJB1?ed=2560/linkws
+    port: '443'
+    ps: 🔥Join+Telegram:@FarahVPN🟣
+    scy: auto
+    sni: hms19.best-tizi.top
+    tls: tls
     type: ''
     v: '2'
-  server: 212.192.12.154
+  server: 162.159.138.179
+  servername: hms19.best-tizi.top
+  tls: true
+  type: vmess
+  uuid: 62aa5f80-0328-4004-a375-7f5a59df4022
+  ws-opts:
+    headers:
+      Host: hms19.best-tizi.top
+    path: /linkws?@AZARBAYJB1@AZARBAYJB1@AZARBAYJB1@AZARBAYJB1@AZARBAYJB1@AZARBAYJB1?ed=2560/linkws
+- alterId: 0
+  cipher: auto
+  name: 0|🇫🇷1 |  5.8MB/s
+  network: ws
+  port: 443
+  raw:
+    add: www.speedtest.net
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: obdii.cfd
+    id: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+    net: ws
+    path: /linkws
+    port: 443
+    ps: 🇺🇸 US_281
+    scy: ''
+    sni: ''
+    tls: tls
+    type: ''
+    v: '2'
+  server: www.speedtest.net
   servername: ''
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: obdii.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸4 |  5.3MB/s
+  network: ws
+  port: 7612
+  server: 6d1c9bd9-surog0-sy0g8x-1cc8s.lza.plebai.net
   tls: false
   type: vmess
-  uuid: 4481da8f-06d4-4e6d-879c-e3e9ad5293f4
+  uuid: 7e64224c-4c10-11ec-bd7c-f23c913c8d2b
   ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
     path: /
 - alterId: 0
   cipher: auto
-  name: 0|🇺🇸2 |  2.4MB/s
+  name: 0|🇫🇷2 |  4.7MB/s
   network: ws
   port: 443
-  server: 104.18.149.75
+  server: 172.67.175.56
+  servername: obdii.cfd
   skip-cert-verify: false
   tls: true
   type: vmess
-  uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
   ws-opts:
     headers:
-      Host: us.insbot.filegear-sg.me
-    path: /aa
+      Host: obdii.cfd
+    path: /linkws
+- name: 0|🇫🇷3 |  5.7MB/s
+  password: hZ7JkYVAfB
+  port: 1935
+  server: 141.227.138.29
+  skip-cert-verify: true
+  sni: x1ch-ovh.devefun.net
+  type: trojan
 - alterId: 2
   cipher: auto
-  delay: 2370
-  name: 0|🇺🇸3 |  4.3MB/s
+  name: 0,10,11|美国|@ripaojiedian
   network: ws
-  port: 22643
-  server: 119.188.66.248
-  servername: zxjp-c.tkong.cc
+  port: '30808'
+  server: v8.heduian.link
+  servername: ''
   skip-cert-verify: false
-  tls: true
+  tfo: false
+  tls: false
   type: vmess
-  udp: true
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      Host: zxjp-c.tkong.cc
-    path: /
+      Host: baidu.com
+    path: /oooo
+- name: 0|🇸🇬1 |  3.6MB/s
+  password: VMhGp5wEIyCDf90T
+  port: 38340
+  server: gysz0000.dynu.net
+  skip-cert-verify: true
+  sni: hk39.work.gd
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 0|🇫🇷4 |  2.8MB/s
+  network: ws
+  port: 443
+  raw:
+    add: 172.67.138.69
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: hms19.best-tizi.top
+    id: 62aa5f80-0328-4004-a375-7f5a59df4022
+    net: ws
+    path: /linkws
+    port: 443
+    ps: 🇺🇸 US_267
+    scy: ''
+    sni: ''
+    tls: tls
+    type: ''
+    v: '2'
+  server: 172.67.138.69
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 62aa5f80-0328-4004-a375-7f5a59df4022
+  ws-opts:
+    headers:
+      Host: hms19.best-tizi.top
+    path: /linkws
 - cipher: aes-128-cfb
-  name: 0|🇺🇸4 |  5.6MB/s
+  name: 0|🇺🇸9 |  4.7MB/s
   password: shadowsocks
   port: 443
   server: 184.170.241.194
   type: ss
 - alterId: 0
   cipher: auto
-  name: 0|🇷🇺1 |  2.5MB/s
+  name: 0|🌀9- |  1.2MB/s
   network: ws
   port: 22010
   raw:
@@ -107,244 +219,147 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0|🌀3-ID |  4.7MB/s
-  port: 17234
-  server: 2a668e37-surog0-sxm4ot-zn8y.cm5.p5pv.com
+  name: 0|🇭🇰3 |  3.6MB/s
+  network: tcp
+  port: 59554
+  server: 183.236.51.38
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 44e76f8c-7362-11ec-bb74-f23c9164ca5d
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.38
+  ws-path: /
+- alterId: 2
+  cipher: auto
+  delay: 2370
+  name: 0|🇺🇸15 |  1.8MB/s
+  network: ws
+  port: 22643
+  server: 119.188.66.248
+  servername: zxjp-c.tkong.cc
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-c.tkong.cc
+    path: /
 - alterId: 0
   cipher: auto
-  name: 0|🇺🇸8 |  2.5MB/s
-  port: 5228
-  server: 312b7317-surog0-svbm2l-1t8q3.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: 775baa4a-d75b-11ef-a11a-f23c913c8d2b
-- allowInsecure: ''
-  name: 0|🇺🇸9 |  1.3MB/s
+  name: 0|🇫🇷6 |  4.3MB/s
   network: ws
-  password: 2fec7227-9abe-46f2-af18-78302b836c45
   port: 443
-  server: 172.67.173.64
+  server: 104.26.0.95
+  servername: obdii.cfd
   skip-cert-verify: false
-  sni: 3y.2032.pp.ua
   tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: obdii.cfd
+    path: /linkws
+- name: 0|🇺🇸25 |  1.3MB/s
+  network: ws
+  password: a8fce442-ae9a-4cc1-a0cc-20308ff0a0db
+  port: 443
+  server: 104.21.16.1
+  skip-cert-verify: true
+  sni: 1g.890699.xyZ
+  tfo: false
   type: trojan
-  ws-opts:
-    headers:
-      Host: 3y.2032.pp.ua
-    path: /XjTi1NYwi9A2bckpqdDoAgkondVWl
-- alterId: 0
-  cipher: auto
-  name: 0|🌀5-ID |  3.8MB/s
-  port: 17234
-  server: a194ab3e-surog0-sy0g8x-1cc8s.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 7e64224c-4c10-11ec-bd7c-f23c913c8d2b
-- alterId: '0'
-  cipher: auto
-  name: 0|🇺🇸11 |  1.5MB/s
-  network: tcp
-  port: '46597'
-  server: 120.232.153.41
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 0|🇺🇸14 |  1.0MB/s
-  port: 50082
-  server: 120.198.71.216
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
   udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 2
-  cipher: auto
-  name: 0,10,11|美国|@ripaojiedian
-  network: ws
-  port: '30808'
-  server: v8.heduian.link
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      Host: baidu.com
-    path: /oooo
-- cipher: aes-128-gcm
-  name: 0|🇹🇼4 |  5.1MB/s
-  password: VMhGp5wEIyCDf90T
-  port: 33368
-  server: shenzhou05.mysynology.net
-  type: ss
-- cipher: rc4-md5
-  name: 0|🇩🇪6 |  5.3MB/s
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 193.108.119.230
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸20 |  5.9MB/s
-  port: 5228
-  server: 6912162d-surog0-tb016b-1m7l4.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: bd515574-3b10-11ee-ac14-f23c9164ca5d
-- cipher: chacha20-ietf
-  name: 0|🇦🇺1 |  5.1MB/s
-  obfs: http_simple
-  obfs-param: 20176-L1juani984.download.microsoft.com
-  password: passwd
-  port: 8625
-  protocol: origin
-  protocol-param: ''
-  server: cn17.mynode.me
-  type: ssr
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸21 |  2.4MB/s
-  network: ws
-  port: 7612
-  server: 6d1c9bd9-surog0-sy0g8x-1cc8s.lza.plebai.net
-  tls: false
-  type: vmess
-  uuid: 7e64224c-4c10-11ec-bd7c-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🌀11-ID |  2.6MB/s
-  port: 17234
-  server: ff6848d1-surog0-tc9wl2-py5w.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: ae5338ae-9a70-58c9-3d47-7d54a5675715
-- alterId: 2
-  cipher: auto
-  name: 0|🇺🇸25 |  1.0MB/s
-  network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-headers:
-    Host: zxjp-a.tkong.cc
-  ws-path: /
-- cipher: chacha20-ietf
-  name: 0|🇭🇰9 |  2.2MB/s
-  password: asd123456
-  port: 8388
-  server: 103.149.182.191
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸26 |  5.5MB/s
-  network: tcp
-  port: 5229
-  server: 03f17bde-supts0-tfvcxz-1nq4g.cu.plebai.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 80aa5178-f936-11ed-8ce6-f23c91369f2d
-  ws-headers:
-    Host: 03f17bde-supts0-tfvcxz-1nq4g.cu.plebai.net
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🌀12-ID |  4.6MB/s
-  network: tcp
-  port: 17234
-  server: 693debd4-sum4g0-svlqnl-2c08.cm5.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c76abed4-f2d2-e4de-50ce-a545ff74ecd0
-  ws-headers:
-    Host: 693debd4-sum4g0-svlqnl-2c08.cm5.p5pv.com
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🇰🇷3 |  4.3MB/s
-  network: tcp
-  port: 17232
-  server: 693debd4-sum4g0-svlqnl-2c08.cm5.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c76abed4-f2d2-e4de-50ce-a545ff74ecd0
-  ws-headers:
-    Host: 693debd4-sum4g0-svlqnl-2c08.cm5.p5pv.com
-  ws-path: /
-- alterId: 2
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|🇺🇸29 |  2.0MB/s
-  network: ws
-  port: 22642
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-b.tkong.cc
-    path: /
+      Host: 1g.890699.xyZ
+    path: /lXENb74xF4ylXngZ
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇳🇱5 |  1.6MB/s
-  password: 8ZgXVkKe8Kli6Ka3JAdJny
-  port: 4199
-  server: 212.34.150.176
+  name: 0|🇭🇰7 |  11.5MB/s
+  password: a2a1677c-0799-487e-8827-6cf0d4b5b86a
+  port: 49709
+  server: jg647hf446ghvw.gym0boy.com
   type: ss
-- name: 0|🇫🇷3 |  2.5MB/s
-  password: hZ7JkYVAfB
-  port: 1935
-  server: 141.227.138.29
-  skip-cert-verify: true
-  sni: x1ch-ovh.devefun.net
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: 0|🇰🇷5 |  5.7MB/s
-  network: tcp
-  port: 17232
-  server: c92a67a3-sum4g0-t46yf9-e13q.cm5.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 8d888b92-eec8-11ef-bca1-f23c91cfbbc9
-  ws-headers:
-    Host: c92a67a3-sum4g0-t46yf9-e13q.cm5.p5pv.com
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸35 |  5.2MB/s
+  name: 0|🇺🇸27 |  5.8MB/s
   port: 5228
   server: b4fd1bd2-surog0-tc9wl2-py5w.cu.plebai.net
   tls: false
   type: vmess
   uuid: ae5338ae-9a70-58c9-3d47-7d54a5675715
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇳🇱3 |  1.2MB/s
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: 45.87.175.154
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 0|🇺🇸36 |  1.1MB/s
+  name: 0|🇺🇸29 |  5.2MB/s
+  network: tcp
+  port: 48737
+  server: 185.189.32.179
+  type: vmess
+  uuid: 3680a006-d824-4574-90f3-21226dae6903
+- cipher: chacha20-ietf-poly1305
+  name: 0|🌀12-SE |  4.6MB/s
+  password: zCbrIk12Qlg9YcERdnzjoh
+  port: 39649
+  server: 151.236.206.42
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸34 |  5.6MB/s
+  network: tcp
+  port: 5229
+  server: 4e7ddab6-supts0-ubpxvf-1fq8c.cu.plebai.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 0b092b52-0d9e-11ee-92a0-f23c91cfbbc9
+  ws-headers:
+    Host: 4e7ddab6-supts0-ubpxvf-1fq8c.cu.plebai.net
+  ws-path: /
+- allowInsecure: ''
+  name: 0|🇹🇼11 |  3.0MB/s
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 213.241.198.189
+  skip-cert-verify: false
+  sni: epccr.ambercc.filegear-sg.me
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: epccr.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸45 |  2.5MB/s
   network: ws
   port: 8443
+  raw:
+    add: 156.238.18.68
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: uswuxian.pai50288.uk
+    id: c313606f-98c2-4d7b-ba74-48b94f61b11d
+    net: ws
+    path: /?maps.app.goo.gl/K3hM5xrwZV7bQVBa7?ed=2560
+    port: '8443'
+    ps: Cloudinnovation
+    scy: ''
+    sni: ''
+    tls: tls
+    type: none
+    v: '2'
   server: 156.238.18.68
-  servername: uswuxian.pai50288.uk
+  servername: ''
   skip-cert-verify: true
   tfo: false
   tls: true
@@ -357,42 +372,19 @@ proxies:
     path: /?maps.app.goo.gl/K3hM5xrwZV7bQVBa7?ed=2560
 - alterId: 0
   cipher: auto
-  name: 0|🇫🇷4 |  5.5MB/s
-  network: ws
-  port: 443
-  raw:
-    add: 188.114.96.2
-    aid: '0'
-    alpn: ''
-    fp: ''
-    host: obdii.cfd
-    id: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-    net: ws
-    path: /linkws
-    port: 443
-    ps: 🏁 ZZ_272
-    scy: ''
-    sni: ''
-    tls: tls
-    type: ''
-    v: '2'
-  server: 188.114.96.2
-  servername: ''
-  tls: true
+  name: 0|🇺🇸39 |  1.6MB/s
+  network: tcp
+  port: 44491
+  server: 120.232.153.41
+  skip-cert-verify: true
+  tls: false
   type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: obdii.cfd
-    path: /linkws
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰13 |  8.0MB/s
-  password: a2a1677c-0799-487e-8827-6cf0d4b5b86a
-  port: 49709
-  server: jg647hf446ghvw.gym0boy.com
-  type: ss
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.232.153.41
+  ws-path: /
 - allowInsecure: ''
-  name: 0|🇺🇸41 |  5.9MB/s
+  name: 0|🇺🇸40 |  3.7MB/s
   network: ws
   password: a8fce442-ae9a-4cc1-a0cc-20308ff0a0db
   port: 443
@@ -405,35 +397,122 @@ proxies:
     headers:
       Host: 1g.890699.xyz
     path: /lXENb74xF4ylXngZ
+- cipher: aes-256-cfb
+  name: 0|🇹🇼12 |  1.0MB/s
+  password: qwerREWQ@@
+  port: 64759
+  server: 185.189.160.98
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 0|🇫🇷5 |  4.8MB/s
-  network: ws
-  port: 443
-  server: 104.21.94.168
-  skip-cert-verify: false
-  tls: true
+  name: 0|🌀18-ID |  4.6MB/s
+  port: 17234
+  server: 2a668e37-surog0-sxm4ot-zn8y.cm5.p5pv.com
+  tls: false
   type: vmess
-  uuid: 62aa5f80-0328-4004-a375-7f5a59df4022
+  uuid: 44e76f8c-7362-11ec-bb74-f23c9164ca5d
+- name: 0|🇹🇼14 |  1.1MB/s
+  network: ws
+  password: Aimer
+  port: 443
+  server: 46.254.92.191
+  skip-cert-verify: true
+  sni: epcct.ambercc.filegear-sg.me
+  tfo: false
+  type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: hms19.best-tizi.top
-    path: /linkws
+      Host: epcct.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- allowInsecure: ''
+  name: 0|🇯🇵6 |  1.2MB/s
+  network: ws
+  password: redfree8
+  port: 443
+  server: 104.17.148.22
+  skip-cert-verify: false
+  sni: redfree8-p1.pooriashop.ir
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: redfree8-p1.pooriashop.ir
+    path: /trJF1XisQEbWZpxEHh?ed=2560
 - alterId: 0
   cipher: auto
-  name: 0|🇺🇸44 |  4.8MB/s
+  name: 0|🇺🇸46 |  5.5MB/s
   network: tcp
   port: 5229
-  server: 7a40b936-supts0-swbd0b-716s.cu.plebai.net
+  server: 03f17bde-supts0-tfvcxz-1nq4g.cu.plebai.net
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 088a0bbe-4f9f-11ea-a15d-f23c913c8d2b
+  uuid: 80aa5178-f936-11ed-8ce6-f23c91369f2d
   ws-headers:
-    Host: 7a40b936-supts0-swbd0b-716s.cu.plebai.net
+    Host: 03f17bde-supts0-tfvcxz-1nq4g.cu.plebai.net
   ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 0|🇰🇷4 |  5.5MB/s
+  network: tcp
+  port: 17232
+  server: c92a67a3-sum4g0-t46yf9-e13q.cm5.p5pv.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 8d888b92-eec8-11ef-bca1-f23c91cfbbc9
+  ws-headers:
+    Host: c92a67a3-sum4g0-t46yf9-e13q.cm5.p5pv.com
+  ws-path: /
+- name: 0|🇩🇪10 |  1.5MB/s
+  password: I46LpSIM1f
+  port: 1935
+  server: 194.164.57.9
+  skip-cert-verify: true
+  sni: x4ger-ionos.devefun.net
+  type: trojan
 - allowInsecure: ''
-  name: 0|🇺🇸45 |  2.8MB/s
+  name: 0|🇺🇸54 |  3.2MB/s
+  network: ws
+  password: 89c1aea7-4d0d-4013-b663-0f94a3e6bdbd
+  port: 443
+  server: 172.67.210.210
+  skip-cert-verify: false
+  sni: sanjose02.852224.ggff.net
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: sanjose02.852224.ggff.net
+    path: /T5yZBrY2Qkg2cThJQeJb
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸56 |  4.4MB/s
+  network: ws
+  port: 443
+  server: 104.18.149.75
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
+  ws-opts:
+    headers:
+      Host: us.insbot.filegear-sg.me
+    path: /aa
+- name: 0|🇺🇸57 |  2.2MB/s
+  network: ws
+  password: 0cda5f7e-cc55-4ff2-8ad8-268b9b99dd01
+  port: 443
+  server: 104.21.6.179
+  sni: uS6-16.890601.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: uS6-16.890601.xyz
+    path: /ILLcisbMYUd6MQzxVoMQ
+- allowInsecure: ''
+  name: 0|🇺🇸60 |  2.0MB/s
   network: ws
   password: a8fce442-ae9a-4cc1-a0cc-20308ff0a0db
   port: 443
@@ -446,36 +525,6 @@ proxies:
     headers:
       Host: 1g.890699.xyz
     path: /lXENb74xF4ylXngZ
-- alterId: 0
-  cipher: auto
-  name: 0|🇨🇦5 |  5.3MB/s
-  network: ws
-  port: 443
-  raw:
-    add: 172.66.168.209
-    aid: '0'
-    alpn: ''
-    fp: ''
-    host: MAxnETViP-ca2.mAxNETCloudsERVIcE.coM
-    id: 164d7619-b450-44a3-b488-5175823bfa56
-    net: ws
-    path: /linkws
-    port: '443'
-    ps: 🔥Join+Telegram:@FarahVPN🟣
-    scy: auto
-    sni: MAxnETViP-ca2.mAxNETCloudsERVIcE.coM
-    tls: tls
-    type: ''
-    v: '2'
-  server: 172.66.168.209
-  servername: MAxnETViP-ca2.mAxNETCloudsERVIcE.coM
-  tls: true
-  type: vmess
-  uuid: 164d7619-b450-44a3-b488-5175823bfa56
-  ws-opts:
-    headers:
-      Host: MAxnETViP-ca2.mAxNETCloudsERVIcE.coM
-    path: /linkws
 - alterId: 2
   cipher: auto
   name: 10,11|香港4|@ripaojiedian
@@ -522,7 +571,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202504131296640-OW0JYD5Wra.download.microsoft.com
+    host: 202504140137024-Zlzv0ZMcwk.download.microsoft.com
     mode: http
   port: 8765
   server: cn01.efan8867801.xyz
@@ -549,7 +598,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202504131296640-OW0JYD5Wra.download.microsoft.com
+    host: 202504140137024-Zlzv0ZMcwk.download.microsoft.com
     mode: http
   port: 8775
   server: cn01.efan8867801.xyz

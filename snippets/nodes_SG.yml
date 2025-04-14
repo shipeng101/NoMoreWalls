@@ -1,1 +1,8 @@
-proxies: []
+proxies:
+- name: 0|🇸🇬1 |  3.6MB/s
+  password: VMhGp5wEIyCDf90T
+  port: 38340
+  server: gysz0000.dynu.net
+  skip-cert-verify: true
+  sni: hk39.work.gd
+  type: trojan
