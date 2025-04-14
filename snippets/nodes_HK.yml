@@ -1,23 +1,104 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0|🇭🇰3 |  3.6MB/s
-  network: tcp
-  port: 59554
-  server: 183.236.51.38
-  skip-cert-verify: true
+  name: 0|🇭🇰3 |  5.9MB/s
+  network: ws
+  port: 443
+  server: hknbyivfffj.site
+  servername: hknbyivfffj.site
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-opts:
+    headers:
+      Host: hknbyivfffj.site
+    path: /rbqqvws
+- alterId: 0
+  cipher: auto
+  name: 0|🇭🇰4 |  3.1MB/s
+  port: 15229
+  server: 4c16178d-surog0-t26vr3-1likw.cm.plebai.net
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.38
-  ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰7 |  11.5MB/s
-  password: a2a1677c-0799-487e-8827-6cf0d4b5b86a
-  port: 49709
-  server: jg647hf446ghvw.gym0boy.com
-  type: ss
+  uuid: a23c20fc-3e66-11ef-b1d2-f23c91cfbbc9
+- cipher: chacha20-ietf
+  name: 0|🇭🇰10 |  1.5MB/s
+  obfs: http_simple
+  obfs-param: 20581-passw0rd.download.microsoft.com
+  password: passwd
+  port: 8115
+  protocol: origin
+  protocol-param: ''
+  server: cn03.closeai.one
+  type: ssr
+- alterId: 0
+  cipher: auto
+  name: 0|🇭🇰18 |  5.8MB/s
+  network: ws
+  port: 443
+  raw:
+    add: 104.21.6.201
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: hknbyivfffj.site
+    id: d13fc2f5-3e05-4795-81eb-44143a09e552
+    net: ws
+    path: /rbqqvws
+    port: 443
+    ps: 🇺🇸 US_310
+    scy: ''
+    sni: ''
+    tls: tls
+    type: ''
+    v: '2'
+  server: 104.21.6.201
+  servername: hknbyivfffj.site
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-opts:
+    headers:
+      Host: hknbyivfffj.site
+    path: /rbqqvws
+- client-fingerprint: chrome
+  name: 0|🇭🇰15 |  5.8MB/s
+  password: ea2QsO
+  port: 22745
+  server: 183.240.116.144
+  skip-cert-verify: true
+  sni: ctldl.windowsupdate.com
+  type: trojan
+- cipher: chacha20-ietf
+  name: 0|🇭🇰16 |  8.6MB/s
+  obfs: http_simple
+  obfs-param: 20581-passw0rd.download.microsoft.com
+  password: passwd
+  port: 8109
+  protocol: origin
+  protocol-param: ''
+  server: cn02.closeai.one
+  type: ssr
+- cipher: chacha20-ietf
+  name: 0|🇭🇰17 |  6.0MB/s
+  obfs: http_simple
+  obfs-param: 20581-passw0rd.download.microsoft.com
+  password: passwd
+  port: 8101
+  protocol: origin
+  protocol-param: ''
+  server: cn01.closeai.one
+  type: ssr
+- alterId: 0
+  cipher: auto
+  name: 0|🇭🇰19 |  1.8MB/s
+  port: 15229
+  server: b2bb1a46-surog0-t2cl3c-14ubl.cm.plebai.net
+  tls: false
+  type: vmess
+  uuid: d0f35ada-c39c-11ef-8a98-f23c91cfbbc9
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome

@@ -1,14 +1,7 @@
 proxies:
 - cipher: rc4-md5
-  name: 0|🇩🇪1 |  3.0MB/s
+  name: 0|🇩🇪14 |  5.5MB/s
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 193.108.119.230
   type: ss
-- name: 0|🇩🇪10 |  1.5MB/s
-  password: I46LpSIM1f
-  port: 1935
-  server: 194.164.57.9
-  skip-cert-verify: true
-  sni: x4ger-ionos.devefun.net
-  type: trojan

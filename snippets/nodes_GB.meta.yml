@@ -1,11 +1,10 @@
 proxies:
-- client-fingerprint: chrome
-  flow: ''
+- flow: ''
   mode: ''
-  name: 0|🇬🇧1 |  4.9MB/s
+  name: 0|🇬🇧1 |  5.5MB/s
   network: ws
   port: 8443
-  server: 104.17.147.22
+  server: 104.17.148.22
   servername: MdLoXlYg.rIcKtMoUsE.InFo
   tls: true
   type: vless
@@ -17,27 +16,14 @@ proxies:
     path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|🇬🇧2 |  5.3MB/s
+  name: 0,12|CN_speednode_0035
   network: tcp
-  port: 35311
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou02.mysynology.net
-  servername: www.yahoo.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  delay: 2310
-  flow: xtls-rprx-vision
-  name: 0,12|CN_speednode_0031
-  network: tcp
-  port: 14659
+  port: 32055
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
   server: csuzhou01.1cooldns.com
-  servername: www.nvidia.com
-  skip-cert-verify: true
+  servername: www.amazon.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -45,28 +31,44 @@ proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   mode: ''
-  name: 0|🇬🇧4 |  4.5MB/s
+  name: 0|🇬🇧3 |  5.1MB/s
   network: tcp
-  port: 1152
+  port: 32785
   reality-opts:
-    public-key: EsdPQG7EdQ6yCid_OtlMfCDIRTnmFZ_ujpKbaqOiCT4
-    short-id: 4374d295a4f9dd83
-  server: 57.128.166.88
-  servername: www.stackoverflow.com
+    public-key: K-rJkQX4Aix-0zxXbhxaZx2YcZmftmsMwybwpdGcpBU
+    short-id: ''
+  server: 18.169.158.249
+  servername: s0.awsstatic.com
   tls: true
   type: vless
   udp: false
-  uuid: dfa25b43-edf2-99e4-c3b0-1aa7c9ccaa96
+  uuid: 0feab3e5-b30a-47f6-b4ce-65a23fd33856
+- client-fingerprint: random
+  flow: ''
+  mode: ''
+  name: 0|🇬🇧4 |  2.0MB/s
+  network: ws
+  port: 443
+  server: 104.16.209.110
+  servername: masaleini.mahsaamini.dpdns.org
+  tls: true
+  type: vless
+  udp: false
+  uuid: 10d9df89-9a20-4110-9711-bca119490ee9
+  ws-opts:
+    headers:
+      Host: masaleini.mahsaamini.dpdns.org
+    path: JOKERRVPNJoin_Bade_Channel@JOKERRVPN/?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0,12|CN_speednode_0045
+  name: 0,12|CN_speednode_0029
   network: tcp
-  port: 49699
+  port: 65053
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou05.mysynology.net
+  server: beiyong.dynuddns.net
   servername: www.amazon.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
