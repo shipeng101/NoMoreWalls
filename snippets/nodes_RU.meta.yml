@@ -1,21 +1,27 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇷🇺1 |  5.1MB/s
-  password: m30QhUjzdUtXi1tsDsF7G1
-  port: 46356
-  server: 147.45.221.106
-  type: ss
 - alpn:
   - h3
   auth_str: dongtaiwang.com
   down: 1000 Mbps
-  name: 0|🇷🇺2 |  2.0MB/s
+  name: 0|🇷🇺1 |  1.8MB/s
   port: 10803
   server: 185.22.155.71
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria
   up: 1000 Mbps
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇷🇺2 |  2.9MB/s
+  network: tcp
+  port: 20216
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou05.mysynology.net
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - country: 🇷🇺RU
   delay: 2302
   name: 0|🇷🇺3 |  3.0MB/s
@@ -28,7 +34,7 @@ proxies:
   udp: true
 - country: 🇷🇺RU
   delay: 1442
-  name: 0|🇷🇺4 |  4.7MB/s
+  name: 0|🇷🇺4 |  1.4MB/s
   password: dongtaiwang.com
   port: 64816
   server: 46.17.41.217
@@ -40,7 +46,7 @@ proxies:
   - h3
   auth_str: dongtaiwang.com
   down: 1000 Mbps
-  name: 0|🇷🇺5 |  3.9MB/s
+  name: 0|🇷🇺5 |  2.0MB/s
   port: 10469
   server: 46.17.41.174
   skip-cert-verify: true
@@ -49,10 +55,16 @@ proxies:
   udp: true
   up: 1000 Mbps
 - auth: dongtaiwang.com
-  name: 0|🇷🇺6 |  1.6MB/s
+  name: 0|🇷🇺6 |  1.5MB/s
   password: dongtaiwang.com
   port: 12904
   server: 46.17.41.5
   skip-cert-verify: true
   sni: apple.com
   type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇷🇺7 |  1.8MB/s
+  password: m30QhUjzdUtXi1tsDsF7G1
+  port: 46356
+  server: 147.45.221.106
+  type: ss
