@@ -1,18 +1,27 @@
 proxies:
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: 1000 Mbps
-  name: 0|🇷🇺1 |  4.7MB/s
-  port: 10803
-  server: 185.22.155.71
+- fast-open: true
+  name: 0|🇷🇺1 |  5.4MB/s
+  password: dongtaiwang.com
+  port: 64816
+  server: 46.17.41.217
   skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
-  up: 1000 Mbps
+  sni: apple.com
+  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇷🇺2 |  5.6MB/s
+  network: tcp
+  port: 20216
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou05.mysynology.net
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - country: 🇷🇺RU
   delay: 2302
-  name: 0|🇷🇺2 |  4.6MB/s
+  name: 0|🇷🇺3 |  4.7MB/s
   password: dongtaiwang.com
   port: 32555
   server: 46.29.163.171
@@ -24,7 +33,7 @@ proxies:
   - h3
   auth_str: dongtaiwang.com
   down: 1000 Mbps
-  name: 0|🇷🇺3 |  4.7MB/s
+  name: 0|🇷🇺4 |  3.2MB/s
   port: 10469
   server: 46.17.41.174
   skip-cert-verify: true
@@ -32,15 +41,3 @@ proxies:
   type: hysteria
   udp: true
   up: 1000 Mbps
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇷🇺4 |  4.5MB/s
-  network: tcp
-  port: 20216
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou05.mysynology.net
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
