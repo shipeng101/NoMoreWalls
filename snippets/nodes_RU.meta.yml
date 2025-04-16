@@ -1,18 +1,15 @@
 proxies:
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: 1000 Mbps
-  name: 0|🇷🇺1 |  1.3MB/s
-  port: 10803
-  server: 185.22.155.71
+- fast-open: true
+  name: 0|🇷🇺1 |  1.8MB/s
+  password: dongtaiwang.com
+  port: 32555
+  server: 46.29.163.171
   skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
-  up: 1000 Mbps
+  sni: apple.com
+  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|🇷🇺2 |  5.5MB/s
+  name: 0|🇷🇺2 |  5.6MB/s
   network: tcp
   port: 20216
   reality-opts:
@@ -26,7 +23,7 @@ proxies:
   - h3
   auth_str: dongtaiwang.com
   down: 1000 Mbps
-  name: 0|🇷🇺3 |  2.4MB/s
+  name: 0|🇷🇺3 |  2.0MB/s
   port: 10469
   server: 46.17.41.174
   skip-cert-verify: true
