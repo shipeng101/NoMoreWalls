@@ -1,11 +1,20 @@
 proxies:
-- name: 0|🇸🇬2 |  6.2MB/s
-  password: VMhGp5wEIyCDf90T
-  port: 38340
-  server: gysz0000.dynu.net
+- alterId: 2
+  cipher: auto
+  name: 0|🇸🇬2 |  5.7MB/s
+  network: ws
+  port: 23617
+  server: 17.mamamajd.site
   skip-cert-verify: true
-  sni: hk39.work.gd
-  type: trojan
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4b307ddd-7de5-334d-84da-b9320dbfc45f
+  ws-opts:
+    headers:
+      Host: 17.mamamajd.site
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome

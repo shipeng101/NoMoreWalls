@@ -1,11 +1,20 @@
 proxies:
+- allowInsecure: ''
+  name: 0|🇰🇷2 |  5.6MB/s
+  network: tcp
+  password: 20bc0771-1fde-45ee-8052-3c26249c43dc
+  port: 52803
+  server: 250407.jichang.my
+  skip-cert-verify: false
+  sni: seoul3.678789.xyz
+  tls: true
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 0,11|韩国|@ripaojiedian
+  name: 0|🇰🇷4 |  4.8MB/s
   network: tcp
-  port: '17232'
+  port: 17232
   server: b79d3418-sux8g0-swe4j1-1rfon.cm5.p5pv.com
-  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -24,3 +33,15 @@ proxies:
   tls: false
   type: vmess
   uuid: aed1cc24-351d-11ef-ba52-f23c9164ca5d
+- name: 11|韩国|@ripaojiedian
+  network: ws
+  password: ji0612uenfs
+  port: 50004
+  server: 110.9.4.54
+  skip-cert-verify: true
+  sni: ji0612e.nfjunka.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ji0612e.nfjunka.xyz
+    path: '%2F%3Fed%3D2560%26proxyip%3D110.9.4.54%3A50004'

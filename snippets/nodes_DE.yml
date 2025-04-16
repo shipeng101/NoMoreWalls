@@ -1,1 +1,17 @@
-proxies: []
+proxies:
+- alterId: 2
+  cipher: auto
+  name: 0|🇩🇪1 |  5.0MB/s
+  network: ws
+  port: 23618
+  server: 18.mamamajd.site
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4b307ddd-7de5-334d-84da-b9320dbfc45f
+  ws-opts:
+    headers:
+      Host: 18.mamamajd.site
+    path: /
