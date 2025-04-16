@@ -1,12 +1,10 @@
 proxies:
-- alterId: '0'
-  cipher: auto
-  name: 0|🇭🇰5 |  1.0MB/s
-  network: tcp
-  port: '15229'
-  server: 81137562-sutj40-suyhjm-1hhyy.cm.plebai.net
-  type: vmess
-  uuid: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d
+- name: 0|🇭🇰6 |  2.4MB/s
+  password: 75471eea-5435-4255-b6c3-ea97cbd5682a
+  port: 27103
+  server: aafrtpfxr.hkl04i9zjfegelp.5xfsur8v62.gosdk.xyz
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome

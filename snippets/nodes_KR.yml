@@ -1,20 +1,11 @@
 proxies:
-- allowInsecure: ''
-  name: 0|🇰🇷2 |  5.6MB/s
-  network: tcp
-  password: 20bc0771-1fde-45ee-8052-3c26249c43dc
-  port: 52803
-  server: 250407.jichang.my
-  skip-cert-verify: false
-  sni: seoul3.678789.xyz
-  tls: true
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: 0|🇰🇷4 |  4.8MB/s
+  name: 0|🇰🇷5 |  2.4MB/s
   network: tcp
-  port: 17232
+  port: '17232'
   server: b79d3418-sux8g0-swe4j1-1rfon.cm5.p5pv.com
+  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -22,6 +13,18 @@ proxies:
   ws-headers:
     Host: b79d3418-sux8g0-swe4j1-1rfon.cm5.p5pv.com
   ws-path: /
+- name: 0|🇰🇷6 |  1.0MB/s
+  network: ws
+  password: amclubs
+  port: 2053
+  server: 162.159.129.11
+  skip-cert-verify: false
+  sni: tran.amclubs.rr.nu
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tran.amclubs.rr.nu
+    path: /?ed=2560
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
