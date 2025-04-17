@@ -1,53 +1,35 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 0|🇰🇷1 |  1.2MB/s
-  network: tcp
-  port: 17232
-  server: b79d3418-sux8g0-swe4j1-1rfon.cm5.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: aed1cc24-351d-11ef-ba52-f23c9164ca5d
-  ws-headers:
-    Host: b79d3418-sux8g0-swe4j1-1rfon.cm5.p5pv.com
-  ws-path: /
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 0|🇰🇷2 |  4.2MB/s
+  name: 0|🇰🇷1 |  1.9MB/s
   network: ws
-  port: 8443
-  server: 103.160.204.40
-  servername: vlee.amclubs.nyc.mn
-  tls: true
+  port: 80
+  server: 45.131.4.108
+  servername: digitalscientificresearchgroup.ir
+  tls: false
   type: vless
   udp: false
-  uuid: d6b8011a-c725-435a-9fec-bf6d3530392c
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
   ws-opts:
     headers:
-      Host: vlee.amclubs.nyc.mn
-    path: /?ed=2560
-- name: 0|🇰🇷3 |  2.2MB/s
-  network: ws
-  password: amclubs
-  port: 8443
-  server: 154.83.2.61
-  skip-cert-verify: true
-  sni: tran.amclubstest.nyc.mn
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: tran.amclubstest.nyc.mn
-    path: /?ed=2560
-- client-fingerprint: ''
+      Host: digitalscientificresearchgroup.ir
+    path: Telegram🇨🇳@WangCai2/?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 0|🇰🇷2 |  1.6MB/s
+  port: 17232
+  server: 2b6fa9f9-sum4g0-sv6oiy-1p1b.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 279b8588-616b-11ed-a8bf-f23c91cfbbc9
+- client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 0|🇰🇷4 |  5.2MB/s
+  name: 0|🇰🇷3 |  3.6MB/s
   network: ws
   port: 2083
-  server: 104.26.4.157
+  server: 172.67.75.52
   servername: 23-lsjfjwiposkfls.hc2021.cfd
   tls: true
   type: vless
@@ -56,4 +38,36 @@ proxies:
   ws-opts:
     headers:
       Host: 23-lsjfjwiposkfls.hc2021.cfd
-    path: /flow=-udp443
+    path: /flow=-udp443flow=-udp443flow=-udp443
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 0|🇰🇷4 |  4.9MB/s
+  network: ws
+  port: 443
+  server: 209.208.227.229
+  servername: digitalscientificresearchgroup.ir
+  tls: true
+  type: vless
+  udp: false
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+  ws-opts:
+    headers:
+      Host: digitalscientificresearchgroup.ir
+    path: /Telegram@V2ray_Alpha
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 0|🇰🇷5 |  2.9MB/s
+  network: ws
+  port: 2083
+  server: 104.26.5.157
+  servername: 23-lsjfjwiposkfls.hc2021.cfd
+  tls: true
+  type: vless
+  udp: false
+  uuid: 59860b15-b2d9-47f9-9b92-81bd1639fcc5
+  ws-opts:
+    headers:
+      Host: 23-lsjfjwiposkfls.hc2021.cfd
+    path: /

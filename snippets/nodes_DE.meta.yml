@@ -1,64 +1,139 @@
 proxies:
 - client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  mode: ''
+  name: 0|🇩🇪1 |  5.6MB/s
+  network: tcp
+  port: 577
+  reality-opts:
+    public-key: AU2O1no3apJnMhDrfHwDACAwFDo8-DZkCL66AXSRbh8
+    short-id: 9b28132c703433
+  server: 162.55.36.107
+  servername: stackoverflow.com
+  tls: true
+  type: vless
+  udp: false
+  uuid: bf4631cc-27eb-4b8e-ab85-5db1ddab6125
+- client-fingerprint: randomized
   flow: ''
   mode: ''
-  name: 0|🇩🇪1 |  2.7MB/s
+  name: 0|🇩🇪2 |  1.8MB/s
   network: ws
   port: 443
-  server: 91.107.131.31
-  servername: mw5.asalemaraghe.ir
+  server: g2.com
+  servername: cr7.medicalhistory.ir
   tls: true
   type: vless
   udp: false
-  uuid: 944d8b74-7a64-4b07-a278-9f968e9ef99c
+  uuid: d6a1143b-cdf0-41f8-a646-bd8f11663786
   ws-opts:
     headers:
-      Host: mw5.asalemaraghe.ir
-    path: /
-- flow: ''
-  mode: ''
-  name: 0|🇩🇪2 |  5.6MB/s
-  network: ws
-  port: 443
-  server: mw5.asalemaraghe.ir
-  servername: mw5.asalemaraghe.ir
-  tls: true
-  type: vless
-  udp: false
-  uuid: 944d8b74-7a64-4b07-a278-9f968e9ef99c
-  ws-opts:
-    headers:
-      Host: mw5.asalemaraghe.ir
-    path: /
+      Host: cr7.medicalhistory.ir
+    path: /vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl?ed=2560
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 0|🇩🇪3 |  5.8MB/s
+  name: 0|🇩🇪3 |  5.2MB/s
   network: ws
-  port: 2095
-  server: 173.245.59.100
+  port: 443
+  server: 138.2.64.229
+  servername: cr777.medicaldream.ir
+  tls: true
+  type: vless
+  udp: false
+  uuid: ccff34b1-44fd-478d-bc0e-5111cb11f5be
+  ws-opts:
+    headers:
+      Host: cr777.medicaldream.ir
+    path: /?ed=2560
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 0|🇩🇪4 |  5.5MB/s
+  network: ws
+  port: 443
+  server: 108.162.196.159
+  servername: cr7777.rayan.dpdns.org
+  tls: true
+  type: vless
+  udp: false
+  uuid: 1688039e-a45f-499e-b9f4-c098c87d3b32
+  ws-opts:
+    headers:
+      Host: cr7777.rayan.dpdns.org
+    path: /Telegram@V2ray_Alpha/?ed=2560flow=-udp443
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 0|🇩🇪5 |  1.2MB/s
+  network: ws
+  port: 8880
+  server: 46.254.93.124
+  servername: vIhYpErClOuD.aCaDeMiGrOuP.iR.
+  tls: false
+  type: vless
+  udp: false
+  uuid: 379a7f53-fddf-460f-8a62-52330c0d9cf5
+  ws-opts:
+    headers:
+      Host: vIhYpErClOuD.aCaDeMiGrOuP.iR.
+    path: /Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420?ed
+- name: 0|🇩🇪6 |  1.4MB/s
+  network: ws
+  port: 8880
+  server: 154.197.121.138
+  tls: false
+  type: vless
+  uuid: 379a7f53-fddf-460f-8a62-52330c0d9cf5
+  ws-opts:
+    headers:
+      Host: vIhYpErClOuD.aCaDeMiGrOuP.iR.
+    path: /Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420?ed=2048
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 0|🇩🇪7 |  5.2MB/s
+  network: ws
+  port: 443
+  server: 47.254.232.109
+  servername: cr777.medicaldream.ir
+  tls: true
+  type: vless
+  udp: false
+  uuid: ccff34b1-44fd-478d-bc0e-5111cb11f5be
+  ws-opts:
+    headers:
+      Host: cr777.medicaldream.ir
+    path: /?ed=2560
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 0|🇩🇪8 |  1.0MB/s
+  network: ws
+  port: 8880
+  server: 86.38.214.30
   servername: ''
   tls: false
   type: vless
   udp: false
-  uuid: dc64c508-ee7e-4054-9765-7356e1c6f6c5
+  uuid: 379a7f53-fddf-460f-8a62-52330c0d9cf5
   ws-opts:
     headers:
-      Host: www.speedtest.net.isv.spEedtest5.sOckschanGert.ir.
-    path: '@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam?ed=2048'
-- client-fingerprint: chrome
+      Host: vIhYpErClOuD.aCaDeMiGrOuP.iR.
+    path: /Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420?ed=2048
+- client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 0|🇩🇪4 |  1.3MB/s
+  name: 0|🇩🇪9 |  3.2MB/s
   network: ws
-  port: 2096
-  server: 5.75.200.153
-  servername: zhra.filmekade.ru
+  port: 443
+  server: 129.80.177.42
+  servername: cr777.medicaldream.ir
   tls: true
   type: vless
   udp: false
-  uuid: 81a015fd-c9b2-4953-81d8-9cdbf58a1b28
+  uuid: ccff34b1-44fd-478d-bc0e-5111cb11f5be
   ws-opts:
     headers:
-      Host: zhra.filmekade.ru
-    path: /telegram----------------v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---------------v2ryNG01---v2ryNG01--v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01?ed=2048
+      Host: cr777.medicaldream.ir
+    path: /?ed=2560

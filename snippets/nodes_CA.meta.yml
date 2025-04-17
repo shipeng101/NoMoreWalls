@@ -1,36 +1,12 @@
 proxies:
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 0|🇨🇦1 |  1.2MB/s
-  network: ws
-  port: 2087
-  server: 103.160.204.36
-  servername: vlee.amclubs.nyc.mn
-  tls: true
-  type: vless
-  udp: false
-  uuid: d6b8011a-c725-435a-9fec-bf6d3530392c
-  ws-opts:
-    headers:
-      Host: vlee.amclubs.nyc.mn
-    path: /?ed=2560
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 0|🇨🇦2 |  1.4MB/s
-  network: ws
-  port: 443
-  server: 103.160.204.59
-  servername: vlee.amclubs.nyc.mn
-  tls: true
-  type: vless
-  udp: false
-  uuid: d6b8011a-c725-435a-9fec-bf6d3530392c
-  ws-opts:
-    headers:
-      Host: vlee.amclubs.nyc.mn
-    path: /?ed=2560
+- auth: cfe032e4-1bc3-454f-9d09-301b0aea08ff
+  name: 0|🇨🇦1 |  1.1MB/s
+  password: cfe032e4-1bc3-454f-9d09-301b0aea08ff
+  port: 45979
+  server: 132.145.108.102
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 12|CA_speednode_0001
