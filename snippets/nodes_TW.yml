@@ -1,12 +1,4 @@
 proxies:
-- name: 0|🇹🇼2 |  6.3MB/s
-  password: 654a1226-9f17-350a-914a-14328af25e2f
-  port: 21247
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x91.flybar.work
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
