@@ -1,43 +1,11 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 0|🇯🇵2 |  3.5MB/s
-  network: tcp
-  port: 17233
-  server: 464fd463-sutj40-svphz8-1nhwh.cm5.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 3a3ef54c-eb42-11ed-9bf0-f23c91369f2d
-  ws-headers:
-    Host: 464fd463-sutj40-svphz8-1nhwh.cm5.p5pv.com
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 0,11|日本4|@ripaojiedian
-  network: tcp
-  port: '17233'
-  server: 81f6bf37-sutj40-svgpxu-y2gs.cm5.p5pv.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b806b388-5f97-11ee-8014-f23c913c8d2b
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 0|🇯🇵5 |  4.1MB/s
-  port: 17233
-  server: 2a070f4a-suvds0-tdcdb7-1k27l.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: ba4b1f2e-c985-11ed-9c0c-f23c913c8d2b
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 10|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202504161119105-ZoJ7RWX63r.download.microsoft.com
+    host: 202504161119105-iVU0NhGmal.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -89,3 +57,13 @@ proxies:
   port: 443
   server: robust-redfish.shiner427.skin
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 11|日本4|@ripaojiedian
+  network: tcp
+  port: '17233'
+  server: 81f6bf37-sutj40-svgpxu-y2gs.cm5.p5pv.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b806b388-5f97-11ee-8014-f23c913c8d2b
