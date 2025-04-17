@@ -1,20 +1,7 @@
 proxies:
-- alterId: '0'
-  cipher: auto
-  name: 0|🇫🇷2 |  4.1MB/s
-  network: tcp
-  port: '17235'
-  server: 00fd0574-sux8g0-sv07nd-jtx1.cm5.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 947dde8e-bcf5-11ef-af4a-f23c91cfbbc9
-  ws-headers:
-    Host: 00fd0574-sux8g0-sv07nd-jtx1.cm5.p5pv.com
-  ws-path: /
 - alterId: 0
   cipher: auto
-  name: 0|🇫🇷3 |  1.6MB/s
+  name: 0|🇫🇷3 |  2.8MB/s
   port: 17235
   server: a842afb9-sutj40-suyhjm-1hhyy.cm5.p5pv.com
   tls: false
