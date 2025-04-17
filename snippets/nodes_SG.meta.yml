@@ -1,18 +1,30 @@
 proxies:
-- name: 0|🇸🇬1 |  5.3MB/s
-  password: dQUWbcwECl
-  port: 443
-  server: automq-0413-1-proxy.automq-sg.com
-  sni: automq-0413-1-proxy.automq-sg.com
-  type: trojan
-- name: 0,12|CN_speednode_0045
-  password: d70a8847-7c64-4912-98f2-ea21e952880f
-  port: 27401
-  server: aafrtpfxr.sgl01i9zjfegelp.5xfsur8v62.gosdk.xyz
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0,12|CN_speednode_0009
+  network: tcp
+  port: 10778
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: test123.zlqhdns.top
+  servername: www.nvidia.com
   skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
+  tls: true
+  type: vless
   udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇸🇬2 |  2.8MB/s
+  network: tcp
+  port: 29877
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: beiyong.dynuddns.net
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - alterId: 0
   cipher: auto
   name: 0,11|新加坡3|@ripaojiedian
@@ -34,18 +46,18 @@ proxies:
   tls: false
   type: vmess
   uuid: a203d80e-10fe-11ef-88a6-f23c9164ca5d
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+- cipher: aes-256-gcm
   name: 0|🇸🇬5 |  5.9MB/s
-  network: tcp
-  port: 29877
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: beiyong.dynuddns.net
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+  password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83
+  port: 21115
+  server: okanc.node-is.green
+  type: ss
+- cipher: aes-256-gcm
+  name: 0|🇸🇬6 |  2.9MB/s
+  password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83
+  port: 21114
+  server: okanc.node-is.green
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome

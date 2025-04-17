@@ -1,77 +1,39 @@
 proxies:
-- name: 0|🇩🇪1 |  4.4MB/s
-  network: ws
-  port: 8880
-  server: 154.197.121.138
-  tls: false
-  type: vless
-  uuid: 379a7f53-fddf-460f-8a62-52330c0d9cf5
-  ws-opts:
-    headers:
-      Host: vIhYpErClOuD.aCaDeMiGrOuP.iR.
-    path: /Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420?ed=2048
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 0|🇩🇪2 |  5.7MB/s
-  network: ws
-  port: 2096
-  server: 5.75.200.153
-  servername: zhra.filmekade.ru
-  tls: true
-  type: vless
-  udp: false
-  uuid: 81a015fd-c9b2-4953-81d8-9cdbf58a1b28
-  ws-opts:
-    headers:
-      Host: zhra.filmekade.ru
-    path: /telegram----------------v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---------------v2ryNG01---v2ryNG01--v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01?ed=2048
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 0|🇩🇪3 |  5.7MB/s
-  network: tcp
-  port: 2078
-  server: 116.203.136.232
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 5528489a-c548-481f-b558-8c7a8a0b6448
-- client-fingerprint: randomized
-  flow: ''
-  mode: ''
-  name: 0|🇩🇪4 |  5.5MB/s
+  name: 0|🇩🇪1 |  2.7MB/s
   network: ws
   port: 443
-  server: 104.16.189.41
-  servername: cr7.medicalhistory.ir
+  server: 91.107.131.31
+  servername: mw5.asalemaraghe.ir
   tls: true
   type: vless
   udp: false
-  uuid: d6a1143b-cdf0-41f8-a646-bd8f11663786
+  uuid: 944d8b74-7a64-4b07-a278-9f968e9ef99c
   ws-opts:
     headers:
-      Host: cr7.medicalhistory.ir
-    path: /vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl?ed=2560
-- client-fingerprint: ''
-  flow: ''
+      Host: mw5.asalemaraghe.ir
+    path: /
+- flow: ''
   mode: ''
-  name: 0|🇩🇪5 |  5.5MB/s
+  name: 0|🇩🇪2 |  5.6MB/s
   network: ws
-  port: 15379
-  server: V2RAXX-channel.cataba.ir
-  servername: ''
-  tls: false
+  port: 443
+  server: mw5.asalemaraghe.ir
+  servername: mw5.asalemaraghe.ir
+  tls: true
   type: vless
   udp: false
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: 944d8b74-7a64-4b07-a278-9f968e9ef99c
   ws-opts:
-    path: /@V2RAXX-telegram,@V2RAXX-telegram,@V2RAXX-telegram,@V2RAXX-telegram,@V2RAXX-telegram,@V2RAXX-telegram,@V2RAXX-telegram,@V2RAXX-telegram?ed=2560
+    headers:
+      Host: mw5.asalemaraghe.ir
+    path: /
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 0|🇩🇪6 |  5.5MB/s
+  name: 0|🇩🇪3 |  5.8MB/s
   network: ws
   port: 2095
   server: 173.245.59.100
@@ -85,96 +47,18 @@ proxies:
       Host: www.speedtest.net.isv.spEedtest5.sOckschanGert.ir.
     path: '@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam?ed=2048'
 - client-fingerprint: chrome
-  delay: 1744
-  flow: xtls-rprx-vision
-  name: 0,12|CN_speednode_0028
-  network: tcp
-  port: 58031
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
-  servername: www.yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- flow: ''
-  mode: ''
-  name: 0|🇩🇪8 |  3.8MB/s
-  network: ws
-  port: 443
-  server: mw5.asalemaraghe.ir
-  servername: mw5.asalemaraghe.ir
-  tls: true
-  type: vless
-  udp: false
-  uuid: 944d8b74-7a64-4b07-a278-9f968e9ef99c
-  ws-opts:
-    headers:
-      Host: mw5.asalemaraghe.ir
-    path: /
-- client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 0|🇩🇪9 |  1.3MB/s
+  name: 0|🇩🇪4 |  1.3MB/s
   network: ws
-  port: 443
-  server: zula.ir
-  servername: cr777.medicaldream.ir
+  port: 2096
+  server: 5.75.200.153
+  servername: zhra.filmekade.ru
   tls: true
   type: vless
   udp: false
-  uuid: ccff34b1-44fd-478d-bc0e-5111cb11f5be
+  uuid: 81a015fd-c9b2-4953-81d8-9cdbf58a1b28
   ws-opts:
     headers:
-      Host: cr777.medicaldream.ir
-    path: /?ed=2560
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 0|🇩🇪10 |  5.9MB/s
-  network: ws
-  port: 443
-  server: 91.107.131.168
-  servername: mw5.asalemaraghe.ir
-  tls: true
-  type: vless
-  udp: false
-  uuid: 944d8b74-7a64-4b07-a278-9f968e9ef99c
-  ws-opts:
-    headers:
-      Host: mw5.asalemaraghe.ir
-    path: /
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 0|🇩🇪11 |  3.2MB/s
-  network: ws
-  port: 8880
-  server: soft98.ir.p31download.com
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 379a7f53-fddf-460f-8a62-52330c0d9cf5
-  ws-opts:
-    headers:
-      Host: vIhYpErClOuD.aCaDeMiGrOuP.iR.
-    path: /Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420?ed=2048
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 0|🇩🇪12 |  5.6MB/s
-  network: ws
-  port: 443
-  server: 91.107.131.31
-  servername: mw5.asalemaraghe.ir
-  tls: true
-  type: vless
-  udp: false
-  uuid: 944d8b74-7a64-4b07-a278-9f968e9ef99c
-  ws-opts:
-    headers:
-      Host: mw5.asalemaraghe.ir
-    path: /
+      Host: zhra.filmekade.ru
+    path: /telegram----------------v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---------------v2ryNG01---v2ryNG01--v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01?ed=2048
