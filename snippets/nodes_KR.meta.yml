@@ -1,13 +1,15 @@
 proxies:
-- cipher: aes-128-gcm
-  name: 0|🇰🇷1 |  1.5MB/s
-  password: VMhGp5wEIyCDf90T
-  port: 13483
-  server: agaungzhou01.bumbleshrimp.com
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 0|🇰🇷2 |  1.8MB/s
+  name: 0|🇰🇷1 |  2.6MB/s
+  port: 17232
+  server: 2b6fa9f9-sum4g0-sv6oiy-1p1b.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 279b8588-616b-11ed-a8bf-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 0|🇰🇷2 |  2.4MB/s
   network: tcp
   port: 17232
   server: b79d3418-sux8g0-swe4j1-1rfon.cm5.p5pv.com

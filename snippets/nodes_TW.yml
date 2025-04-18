@@ -2,6 +2,17 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
+  name: 10|🇹🇼 台湾|@ripaojiedian
+  port: 45078
+  server: haa.dashuai.cyou
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 9a1322b0-9c6e-433c-8fb3-d7690b3093f2
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
   name: 10|🇹🇼 台湾2|@ripaojiedian
   network: ws
   port: 46005
@@ -15,6 +26,16 @@ proxies:
     headers:
       Host: fadawtawd.zhangwei.li
     path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: 11|台湾|@ripaojiedian
+  network: tcp
+  port: '45078'
+  server: haa.dashuai.cyou
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9a1322b0-9c6e-433c-8fb3-d7690b3093f2
 - alterId: 0
   cipher: auto
   name: 11|台湾2|@ripaojiedian
