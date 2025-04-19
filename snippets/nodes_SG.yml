@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0|🇸🇬1 |  5.7MB/s
+  name: 0|🇸🇬3 |  5.8MB/s
   network: ws
   port: 2053
   server: cloudflare.182682.xyz
@@ -14,12 +14,6 @@ proxies:
     headers:
       Host: sg1.pavo.eu.org
     path: /sg1vmess
-- cipher: chacha20-ietf
-  name: 0|🇸🇬4 |  1.6MB/s
-  password: asd123456
-  port: 8388
-  server: 107.148.37.70
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
