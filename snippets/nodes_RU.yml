@@ -1,1 +1,29 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 0|🇷🇺4 |  1.5MB/s
+  network: ws
+  port: 22018
+  raw:
+    add: 195.58.49.84
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: ''
+    id: 9b58c5b5-df04-4755-bc87-c9039f50e9e3
+    net: ws
+    path: /
+    port: '22018'
+    ps: 🇷🇺 --001-1E
+    scy: ''
+    sni: ''
+    tls: ''
+    type: none
+    v: '2'
+  server: 195.58.49.84
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9b58c5b5-df04-4755-bc87-c9039f50e9e3
+  ws-opts:
+    path: /

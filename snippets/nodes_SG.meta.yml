@@ -1,7 +1,21 @@
 proxies:
 - client-fingerprint: chrome
+  delay: 1241
   flow: xtls-rprx-vision
-  name: 0,12|CN_speednode_0017
+  name: 0|🇸🇬1 |  6.2MB/s
+  network: tcp
+  port: 56127
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: agaungzhou01.bumbleshrimp.com
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0,12|CN_speednode_0027
   network: tcp
   port: 29877
   reality-opts:
@@ -14,9 +28,25 @@ proxies:
   udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 0|🇸🇬3 |  5.5MB/s
+  network: ws
+  port: 80
+  server: 170.114.46.6
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: 0110d1d5-12c2-4a80-bad9-8c33722e8699
+  ws-opts:
+    headers:
+      Host: lk.sahanwickramasinghe.shop
+    path: /
+- client-fingerprint: ''
   flow: none
   mode: ''
-  name: 0|🇸🇬2 |  4.8MB/s
+  name: 0|🇸🇬4 |  5.6MB/s
   network: ws
   port: 80
   server: 170.114.45.6
@@ -31,65 +61,6 @@ proxies:
     path: '%2Ffree.server.techsonicpremium.shop'
 - alterId: 0
   cipher: auto
-  name: 0|🇸🇬3 |  5.8MB/s
-  network: ws
-  port: 2053
-  server: cloudflare.182682.xyz
-  servername: sg1.pavo.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: cbd1d425-5379-4c44-82fc-5765d1d34dc9
-  ws-opts:
-    headers:
-      Host: sg1.pavo.eu.org
-    path: /sg1vmess
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 0|🇸🇬4 |  4.8MB/s
-  network: ws
-  port: 80
-  server: 170.114.46.6
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 0110d1d5-12c2-4a80-bad9-8c33722e8699
-  ws-opts:
-    headers:
-      Host: lk.sahanwickramasinghe.shop
-    path: /
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 0|🇸🇬5 |  5.7MB/s
-  network: ws
-  port: 80
-  server: partner.zoom.us
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 0110d1d5-12c2-4a80-bad9-8c33722e8699
-  ws-opts:
-    headers:
-      Host: lk.sahanwickramasinghe.shop
-    path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇸🇬6 |  3.4MB/s
-  network: tcp
-  port: 10778
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: test123.zlqhdns.top
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
   name: 10,11|新加坡|@ripaojiedian
   network: ws
@@ -100,7 +71,7 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: 865f0d89-ebf5-465b-ae3f-2bd2b7f56bfa
+  uuid: 4c7929b7-281f-4d86-ad24-d766904482e6
   ws-opts:
     headers:
       Host: www.bing.com
@@ -126,3 +97,33 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 12|SG_speednode_0099
+  port: 33496
+  server: 3.0.202.40
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 13ac0987-35a5-403f-df31-84a2ee5824a5
+- name: 12|SG_speednode_0100
+  port: 43664
+  server: 47.129.186.64
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 567eb2e2-42f9-4d42-f032-899ee9e2bce3
+- name: 12|SG_speednode_0101
+  network: ws
+  port: 443
+  server: 172.236.150.194
+  servername: sgp.cayuo.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: e82d795d-9848-40f4-a3ac-aa3da140794a
+  ws-opts:
+    headers:
+      Host: sgp.cayuo.me
+    path: /bing

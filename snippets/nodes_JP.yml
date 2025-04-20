@@ -1,39 +1,33 @@
 proxies:
-- name: 0|🇯🇵3 |  3.4MB/s
-  password: a811f822-3635-4ec6-9f3c-6156a3f58360
-  port: 27001
-  server: sla.cn.964e995b760.gogodns.xin
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 10|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202504182189466-KXW6ZXTh3H.download.microsoft.com
+    host: 202504182189466-8od2bG05Pm.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- alterId: 0
+- alterId: 2
   cipher: auto
   client-fingerprint: chrome
   name: 10,11|日本2|@ripaojiedian
   network: ws
-  port: '8004'
-  server: 59.42.247.189
+  port: '30806'
+  server: v6.heduian.link
   servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: ef19de03-2788-44ef-a0bd-d698657e0bb9
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      Host: www.bing.com
-    path: /nmkj
+      Host: ocbc.com
+    path: /oooo
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
