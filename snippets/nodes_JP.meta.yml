@@ -1,95 +1,29 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0,12|CN_speednode_0046
-  network: tcp
-  port: 17278
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou05.mysynology.net
-  servername: www.yahoo.com
+- name: 0,12|JP_speednode_0079
+  port: 52787
+  server: 13.231.172.203
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vless
   udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0,12|CN_speednode_0030
-  network: tcp
-  port: 48121
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: beiyong.dynuddns.net
-  servername: www.nvidia.com
-  skip-cert-verify: false
-  tls: true
+  uuid: abcaa7dc-9b0a-459e-a9fd-a76c161fa432
+- name: 0,12|NL_speednode_0090
+  network: ws
+  port: 80
+  server: 45.131.4.158
+  servername: digitalscientificresearchgroup.ir
+  skip-cert-verify: true
+  tls: false
   type: vless
   udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+  ws-opts:
+    headers:
+      Host: digitalscientificresearchgroup.ir
+    path: /Telegram🇨🇳@WangCai2/?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|🇯🇵3 |  6.2MB/s
-  network: tcp
-  port: 35659
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou02.mysynology.net
-  servername: gateway.icloud.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇯🇵4 |  1.6MB/s
-  network: tcp
-  port: 11839
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: gysz0000.dynu.net
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0,12|CN_speednode_0045
-  network: tcp
-  port: 25768
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: bsuqian01.dynu.net
-  servername: www.nvidia.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 0,12|JP_speednode_0081
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: jp104-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: jp104-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  udp: true
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇯🇵7 |  6.2MB/s
-  network: tcp
-  port: 31735
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: bsuqian01.dynu.net
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇯🇵8 |  6.1MB/s
+  name: 0|🇯🇵3 |  5.6MB/s
   network: tcp
   port: 16497
   reality-opts:
@@ -99,6 +33,72 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 0,12|JP_speednode_0080
+  port: 36962
+  server: 35.77.105.79
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: ba843d26-f159-4f4a-ae33-65b026e76e74
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 0|🇯🇵5 |  2.1MB/s
+  network: ws
+  port: 80
+  server: 45.131.4.4
+  servername: digitalscientificresearchgroup.ir
+  tls: false
+  type: vless
+  udp: false
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+  ws-opts:
+    headers:
+      Host: digitalscientificresearchgroup.ir
+    path: Telegram🇨🇳@WangCai2/?ed=2560
+- name: 0,12|JP_speednode_0077
+  port: 16725
+  server: 54.168.120.254
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fcc420da-544b-422a-944f-0ccb2b35acb2
+- name: 0,12|JP_speednode_0078
+  port: 58844
+  server: 13.114.104.164
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 8abb8754-4efa-406f-9ca4-b5a256321021
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇯🇵8 |  3.6MB/s
+  network: tcp
+  port: 35659
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou02.mysynology.net
+  servername: gateway.icloud.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 0,12|JP_speednode_0076
+  port: 49566
+  server: 57.180.46.180
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 1e1605b7-49e1-4928-ce1a-48796b3aec04
+- name: 0|🇯🇵10 |  3.1MB/s
+  password: b9c316f7-ab52-44db-944c-c56a60b9d2b5
+  port: 22269
+  server: sla.cn.964e995b760.gogodns.xin
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 10|🇯🇵 日本|@ripaojiedian
@@ -149,43 +149,11 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 12|JP_speednode_0076
-  port: 49566
-  server: 57.180.46.180
-  skip-cert-verify: false
-  tls: false
-  type: vless
+- name: 12|JP_speednode_0081
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: jp104-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
   udp: true
-  uuid: 1e1605b7-49e1-4928-ce1a-48796b3aec04
-- name: 12|JP_speednode_0077
-  port: 16725
-  server: 54.168.120.254
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fcc420da-544b-422a-944f-0ccb2b35acb2
-- name: 12|JP_speednode_0078
-  port: 58844
-  server: 13.114.104.164
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 8abb8754-4efa-406f-9ca4-b5a256321021
-- name: 12|JP_speednode_0079
-  port: 52787
-  server: 13.231.172.203
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: abcaa7dc-9b0a-459e-a9fd-a76c161fa432
-- name: 12|JP_speednode_0080
-  port: 36962
-  server: 35.77.105.79
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: ba843d26-f159-4f4a-ae33-65b026e76e74
+  username: mrwdfNTD8M79LCukCieldrqZWqs=

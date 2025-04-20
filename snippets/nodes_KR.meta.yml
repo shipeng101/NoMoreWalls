@@ -1,35 +1,38 @@
 proxies:
-- name: 0|🇰🇷1 |  1.4MB/s
+- client-fingerprint: randomized
+  flow: ''
+  mode: ''
+  name: 0|🇰🇷1 |  2.3MB/s
   network: ws
   port: 443
-  server: 192.0.63.211
-  servername: bn.ylks0033.dpdns.org
-  skip-cert-verify: true
+  server: 104.17.15.166
+  servername: zYzzzOAo.pUtATa.eu.oRG
   tls: true
   type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  udp: false
+  uuid: 103104c5-a3f5-4c48-8d8f-a72a56959799
   ws-opts:
     headers:
-      host: bn.ylks0033.dpdns.org
-    path: /?ed=2560
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇰🇷2 |  3.4MB/s
-  network: tcp
-  port: 21082
-  reality-opts:
-    public-key: tf7ZDGaue4C43MM0ECIfjOS-0kk7XMSqfnaSY4Er5Fc
-    short-id: 758719a6080f2767
-  server: tw-ty-line1-2-2.sudatech.store
-  servername: learn.microsoft.com
-  tls: true
-  type: vless
-  uuid: e7adaa99-8363-3ec4-b849-307c99005405
+      Host: zyzzzoao.putata.eu.org
+    path: /tbSRLeOuwtLBToSL?ed=2560
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 0,12|DE_speednode_0070
+  name: 0,12|SE_speednode_0098
+  network: ws
+  port: 8880
+  server: 185.146.173.167
+  servername: digitalscientificresearchgroup.ir
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+  ws-opts:
+    headers:
+      Host: digitalscientificresearchgroup.ir
+    path: /TM-@AZARBAYJAB1/?ed=2560
+- name: 0,12|DE_speednode_0070
   network: ws
   port: 8880
   server: 185.135.9.83
@@ -43,20 +46,6 @@ proxies:
     headers:
       Host: digitalscientificresearchgroup.ir
     path: /TM-@AZARBAYJAB1/?ed=2560
-- name: 0|🇰🇷4 |  4.7MB/s
-  network: ws
-  port: 8443
-  server: 158.180.230.4
-  servername: bn.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: bn.ylks0033.dpdns.org
-    path: /?ed=2560
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
