@@ -1,9 +1,27 @@
 proxies:
-- delay: 984
-  name: 0,12|NL_speednode_0037
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 0|🇰🇷1 |  1.9MB/s
+  network: ws
+  port: 2052
+  server: 216.24.57.6
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+  ws-opts:
+    headers:
+      Host: digitalscientificresearchgroup.ir
+    path: /TM@Azarbayjab1?ed=2560
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 0,12|NL_speednode_0035
   network: ws
   port: 80
-  server: 45.131.4.25
+  server: 45.131.4.194
   servername: digitalscientificresearchgroup.ir
   skip-cert-verify: false
   tls: false
@@ -13,100 +31,4 @@ proxies:
   ws-opts:
     headers:
       Host: digitalscientificresearchgroup.ir
-    path: /
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 0|🇰🇷2 |  5.4MB/s
-  network: ws
-  port: 80
-  server: 45.131.5.233
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
-  ws-opts:
-    headers:
-      Host: digitalscientificresearchgroup.ir
-    path: /Telegram@Selinc
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 0|🇰🇷3 |  1.7MB/s
-  network: ws
-  port: 1111
-  server: 138.2.95.61
-  servername: photosair.ir
-  tls: true
-  type: vless
-  udp: false
-  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
-  ws-opts:
-    headers:
-      Host: photosair.ir
-    path: /bing
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 0|🇰🇷4 |  1.1MB/s
-  network: ws
-  port: 24251
-  server: 121.155.154.142
-  servername: photosair.ir
-  tls: true
-  type: vless
-  udp: false
-  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
-  ws-opts:
-    headers:
-      Host: photosair.ir
-    path: /bingflow=-udp443flow=-udp443
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 0|🇰🇷5 |  4.7MB/s
-  network: ws
-  port: 2095
-  server: 168.100.6.173
-  servername: digitalscientificresearchgroup.ir
-  tls: false
-  type: vless
-  udp: false
-  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
-  ws-opts:
-    headers:
-      Host: digitalscientificresearchgroup.ir
-    path: /TM@Azarbayjab1?ed
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 0|🇰🇷6 |  4.4MB/s
-  network: ws
-  port: 50000
-  server: 116.47.199.34
-  servername: photosair.ir
-  tls: true
-  type: vless
-  udp: false
-  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
-  ws-opts:
-    headers:
-      Host: photosair.ir
-    path: /bing
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 0|🇰🇷7 |  4.2MB/s
-  network: ws
-  port: 30071
-  server: 118.39.88.64
-  servername: photosair.ir
-  tls: true
-  type: vless
-  udp: false
-  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
-  ws-opts:
-    headers:
-      Host: photosair.ir
-    path: /bing
+    path: /Telegram🇨🇳@WangCai2
