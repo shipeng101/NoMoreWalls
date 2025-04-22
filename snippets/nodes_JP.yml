@@ -1,18 +1,14 @@
 proxies:
-- alterId: '0'
+- alterId: 0
   cipher: auto
-  name: 0|🇯🇵1 |  6.2MB/s
-  network: tcp
-  port: '17233'
-  server: 9e6c9676-sv6hs0-sv7acf-1qw0q.cm5.p5pv.com
+  client-fingerprint: chrome
+  name: 0|🇯🇵2 |  6.0MB/s
+  port: 45057
+  server: xdd.dashuai.cyou
+  tls: false
   type: vmess
-  uuid: d4fe3d0c-9043-11ef-8dc4-f23c91cfbbc9
-- name: 0|🇯🇵5 |  2.4MB/s
-  password: 8e4ee829-afc3-400d-bc27-f696d6d7319a
-  port: 22271
-  server: sla.cn.964e995b760.gogodns.xin
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
+  udp: true
+  uuid: 72764647-1dce-497e-bf84-08fe56766f3f
 - alterId: 0
   cipher: auto
   name: 0,11|日本5|@ripaojiedian
@@ -27,19 +23,12 @@ proxies:
   ws-headers:
     Host: 8582ab4a-svc1s0-szegoe-12hj8.cm5.p5pv.com
   ws-path: /
-- name: 0|🇯🇵7 |  5.2MB/s
+- name: 0|🇯🇵10 |  5.6MB/s
   password: '!!str 3828095943467868160'
   port: 443
   server: active-lamb.dolphin109.quest
   skip-cert-verify: true
   sni: active-lamb.dolphin109.quest
-  type: trojan
-- name: 0|🇯🇵9 |  4.0MB/s
-  password: '!!str 3828095943467868160'
-  port: 443
-  server: workable-puma.dolphin109.quest
-  skip-cert-verify: true
-  sni: workable-puma.dolphin109.quest
   type: trojan
 - cipher: rc4-md5
   client-fingerprint: chrome

@@ -1,34 +1,11 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬2 |  5.2MB/s
-  password: wUIFQcMM2K2VYdVz8GKyeE
+- name: 0|🇸🇬1 |  1.7MB/s
+  password: '!!str 3828095943467868160'
   port: 443
-  server: 13.212.90.20
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 0,11|新加坡|@ripaojiedian
-  network: tcp
-  port: '17231'
-  server: fb6241fd-svc1s0-svjq5n-1r78y.cm5.p5pv.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1c618e62-fc90-11ee-944b-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 0|🇸🇬7 |  5.2MB/s
-  network: ws
-  port: 443
-  server: www.racknerd.com
-  servername: grants-andrews-lp-helpful.trycloudflare.com
-  tls: true
-  type: vmess
-  uuid: 78956f2a-5650-4ac1-b5e5-c86491768443
-  ws-opts:
-    headers:
-      Host: grants-andrews-lp-helpful.trycloudflare.com
-    path: /vmess-argo?ed=2048
+  server: secure-hookworm.dolphin109.quest
+  skip-cert-verify: true
+  sni: secure-hookworm.dolphin109.quest
+  type: trojan
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -51,6 +28,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11|新加坡|@ripaojiedian
+  network: tcp
+  port: '17231'
+  server: fb6241fd-svc1s0-svjq5n-1r78y.cm5.p5pv.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1c618e62-fc90-11ee-944b-f23c91cfbbc9
 - alterId: 0
   cipher: auto
   name: 11|新加坡2|@ripaojiedian
