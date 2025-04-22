@@ -1,22 +1,81 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10|🇰🇷 韩国3|@ripaojiedian
-  port: 45075
-  server: xdd.dashuai.cyou
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 1e4b5958-8f5b-4a7e-9045-66120ce7614e
-- alterId: 0
-  cipher: auto
-  name: 11|韩国3|@ripaojiedian
-  network: tcp
-  port: '45075'
-  server: xdd.dashuai.cyou
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1e4b5958-8f5b-4a7e-9045-66120ce7614e
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 0|🇰🇷1 |  5.7MB/s
+  network: ws
+  port: 11413
+  server: 121.158.194.32
+  servername: photosair.ir
+  tls: true
+  type: vless
+  udp: false
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+  ws-opts:
+    headers:
+      Host: photosair.ir
+    path: /bing
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 0|🇰🇷2 |  2.0MB/s
+  network: ws
+  port: 12534
+  server: 49.171.120.159
+  servername: photosair.ir
+  tls: true
+  type: vless
+  udp: false
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+  ws-opts:
+    headers:
+      Host: photosair.ir
+    path: /bing
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 0|🇰🇷3 |  3.2MB/s
+  network: ws
+  port: 50004
+  server: 175.127.79.237
+  servername: photosair.ir
+  tls: true
+  type: vless
+  udp: false
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+  ws-opts:
+    headers:
+      Host: photosair.ir
+    path: /bing
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 0|🇰🇷4 |  4.0MB/s
+  network: ws
+  port: 443
+  server: 172.66.47.92
+  servername: Work-YUU00.pageS.dEv
+  tls: true
+  type: vless
+  udp: false
+  uuid: 49d4b99d-7d99-416a-9778-2c75d79100bb
+  ws-opts:
+    headers:
+      Host: work-yuu00.pages.dev
+    path: ''
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 0|🇰🇷5 |  1.7MB/s
+  network: ws
+  port: 30045
+  server: 49.166.202.100
+  servername: photosair.ir
+  tls: true
+  type: vless
+  udp: false
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+  ws-opts:
+    headers:
+      Host: photosair.ir
+    path: /bing
