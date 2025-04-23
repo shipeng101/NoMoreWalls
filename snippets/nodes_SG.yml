@@ -1,40 +1,14 @@
 proxies:
-- name: 0|🇸🇬1 |  3.1MB/s
-  password: VMhGp5wEIyCDf90T
-  port: 38340
-  server: gysz0000.dynu.net
-  skip-cert-verify: true
-  sni: hk39.work.gd
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: 0|🇸🇬3 |  6.1MB/s
-  network: tcp
+  client-fingerprint: chrome
+  name: 0|🇸🇬1 |  2.1MB/s
   port: 17231
-  server: fb6241fd-svc1s0-svjq5n-1r78y.cm5.p5pv.com
-  skip-cert-verify: true
+  server: 5c460570-sux8g0-tbfsbm-nde6.cm5.p5pv.com
   tls: false
   type: vmess
-  uuid: 1c618e62-fc90-11ee-944b-f23c91cfbbc9
-  ws-headers:
-    Host: fb6241fd-svc1s0-svjq5n-1r78y.cm5.p5pv.com
-  ws-path: /
-- name: 0,12|SG_speednode_0079
-  password: f7a08c90-1f80-11f0-8f88-1239d0255272
-  port: 443
-  server: sg1.6n6.net
-  skip-cert-verify: true
-  sni: telewebion.com
-  type: trojan
-  udp: true
-- name: 0|🇸🇬9 |  1.0MB/s
-  password: '!!str 3828095943467868160'
-  port: 443
-  server: 103.106.229.240
-  skip-cert-verify: true
-  sni: stable-labrador.dolphin109.quest
-  type: trojan
-- name: 0,12|SG_speednode_0077
+  uuid: b19e8df4-fba9-11ea-9777-f23c9164ca5d
+- name: 12|SG_speednode_0077
   password: '!!str 3828095943467868160'
   port: 443
   server: stable-labrador.dolphin109.quest
@@ -42,26 +16,18 @@ proxies:
   sni: stable-labrador.dolphin109.quest
   type: trojan
   udp: true
-- name: 0|🇸🇬11 |  1.2MB/s
-  password: '!!str 3828095943467868160'
-  port: 443
-  server: poetic-coral.dolphin109.quest
-  skip-cert-verify: true
-  sni: poetic-coral.dolphin109.quest
-  type: trojan
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 0|🇸🇬12 |  5.4MB/s
-  port: 17231
-  server: d0012c0c-sux8g0-sycaxv-14au8.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 44811728-ebd8-11ec-adf5-f23c91cfbbc9
 - name: 12|SG_speednode_0078
   password: f7a08c90-1f80-11f0-8f88-1239d0255272
   port: 443
   server: 103.253.24.212
+  skip-cert-verify: true
+  sni: telewebion.com
+  type: trojan
+  udp: true
+- name: 12|SG_speednode_0079
+  password: f7a08c90-1f80-11f0-8f88-1239d0255272
+  port: 443
+  server: sg1.6n6.net
   skip-cert-verify: true
   sni: telewebion.com
   type: trojan
