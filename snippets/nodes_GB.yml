@@ -1,8 +1,45 @@
 proxies:
-- name: 0|🇬🇧4 |  4.4MB/s
+- name: 0,12|RO_speednode_0076
   password: '!!str 3828095943467868160'
   port: 443
   server: grateful-mako.dolphin109.quest
   skip-cert-verify: true
   sni: grateful-mako.dolphin109.quest
   type: trojan
+  udp: true
+- name: 0|🇬🇧6 |  5.8MB/s
+  network: ws
+  password: 2faaf996-d2b0-440d-8258-81f2b05dd0e4
+  port: 443
+  server: ip.sb
+  skip-cert-verify: true
+  sni: architects-optimize-rest-dow.trycloudflare.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: architects-optimize-rest-dow.trycloudflare.com
+    path: /trojan-argo?ed=2560
+- name: 12|GB_speednode_0059
+  password: '!!str 3828095943467868160'
+  port: 443
+  server: 202.78.163.141
+  skip-cert-verify: true
+  sni: sharp-bear.dolphin109.quest
+  type: trojan
+  udp: true
+- name: 12|GB_speednode_0061
+  password: '!!str 3828095943467868160'
+  port: 443
+  server: mutual-gannet.dolphin109.quest
+  skip-cert-verify: true
+  sni: mutual-gannet.dolphin109.quest
+  type: trojan
+  udp: true
+- name: 12|GB_speednode_0062
+  password: '!!str 3828095943467868160'
+  port: 443
+  server: 85.234.83.28
+  skip-cert-verify: true
+  sni: workable-puma.dolphin109.quest
+  type: trojan
+  udp: true

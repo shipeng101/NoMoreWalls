@@ -1,64 +1,9 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 0|🇷🇺1 |  2.9MB/s
-  network: ws
-  port: 22021
-  raw:
-    add: 195.58.49.84
-    aid: '0'
-    alpn: ''
-    fp: ''
-    host: ''
-    id: 00555bdb-a191-4f58-b204-e74e0d5b404f
-    net: ws
-    path: /
-    port: '22021'
-    ps: 🇷🇺 --001-1C
-    scy: ''
-    sni: ''
-    tls: ''
-    type: none
-    v: '2'
-  server: 195.58.49.84
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 00555bdb-a191-4f58-b204-e74e0d5b404f
-  ws-opts:
-    path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇷🇺2 |  4.8MB/s
-  network: tcp
-  port: 20216
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou05.mysynology.net
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  mode: ''
-  name: 0|🇷🇺3 |  4.4MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: cGzNRbN_zruI3CVTDukB2nOqWWEj7kgkay24f2fdLmQ
-    short-id: 0f917152a871e9c0
-  server: 212.233.94.204
-  servername: maviks.eu
-  tls: true
-  type: vless
-  udp: false
-  uuid: c8898cfd-9927-4f36-b7bc-40de76076b80
 - alpn:
   - h3
   auth_str: dongtaiwang.com
   down: 1000 Mbps
-  name: 0|🇷🇺4 |  5.9MB/s
+  name: 0|🇷🇺1 |  5.3MB/s
   port: 10469
   server: 46.17.41.174
   skip-cert-verify: true
@@ -66,39 +11,3 @@ proxies:
   type: hysteria
   udp: true
   up: 1000 Mbps
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  mode: ''
-  name: 0|🇷🇺5 |  5.2MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: cGzNRbN_zruI3CVTDukB2nOqWWEj7kgkay24f2fdLmQ
-    short-id: 0f917152a871e9c0
-  server: ru.maviks.eu
-  servername: maviks.eu
-  tls: true
-  type: vless
-  udp: false
-  uuid: c8898cfd-9927-4f36-b7bc-40de76076b80
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: 1000 Mbps
-  name: 0|🇷🇺6 |  4.5MB/s
-  port: 10803
-  server: 185.22.155.71
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
-  up: 1000 Mbps
-- country: 🇷🇺RU
-  delay: 1055
-  name: 0|🇷🇺7 |  5.4MB/s
-  password: dongtaiwang.com
-  port: 10011
-  server: hy2.694463.xyz
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true

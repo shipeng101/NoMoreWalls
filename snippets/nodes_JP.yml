@@ -1,67 +1,17 @@
 proxies:
-- name: 0|🇯🇵3 |  2.9MB/s
-  password: '!!str 3828095943467868160'
-  port: 443
-  server: 85.234.83.28
-  skip-cert-verify: true
-  sni: workable-puma.dolphin109.quest
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: 0|🇯🇵4 |  6.2MB/s
+  name: 0|🇯🇵4 |  4.4MB/s
   network: tcp
-  port: '17233'
+  port: 17233
   server: 8582ab4a-svc1s0-szegoe-12hj8.cm5.p5pv.com
-  servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
-- name: 0|🇯🇵7 |  3.6MB/s
-  password: 72367917-ca34-437d-8dfc-12a948ed50a4
-  port: 22271
-  server: sla.cn.964e995b760.gogodns.xin
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 0|🇯🇵8 |  5.5MB/s
-  network: tcp
-  port: 17233
-  raw:
-    add: 9e6c9676-sv6hs0-sv7acf-1qw0q.cm5.p5pv.com
-    aid: '0'
-    alpn: ''
-    fp: ''
-    host: ''
-    id: d4fe3d0c-9043-11ef-8dc4-f23c91cfbbc9
-    net: tcp
-    path: ''
-    port: '17233'
-    ps: 0|🇯🇵1 |  6.2MB/s
-    scy: auto
-    sni: ''
-    tls: ''
-    type: none
-    v: '2'
-  server: 9e6c9676-sv6hs0-sv7acf-1qw0q.cm5.p5pv.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d4fe3d0c-9043-11ef-8dc4-f23c91cfbbc9
-- name: 0|🇯🇵11 |  1.3MB/s
-  password: fffddde3-e433-47a0-87b7-a21f3ab4a9dc
-  port: 27002
-  server: sla.cn.964e995b760.gogodns.xin
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-- name: 0|🇯🇵15 |  2.3MB/s
-  password: '!!str 3828095943467868160'
-  port: 443
-  server: workable-puma.dolphin109.quest
-  skip-cert-verify: true
-  sni: workable-puma.dolphin109.quest
-  type: trojan
+  ws-headers:
+    Host: 8582ab4a-svc1s0-szegoe-12hj8.cm5.p5pv.com
+  ws-path: /
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 10|🇯🇵 日本|@ripaojiedian
