@@ -1,1 +1,31 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  name: 10,11|韩国|@ripaojiedian
+  network: tcp
+  password: 8e603038-3713-4c74-9b9c-43ad4cc15650
+  port: 46668
+  server: sla.cn.964e995b760.gogodns.xin
+  skip-cert-verify: false
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇰🇷 韩国2|@ripaojiedian
+  port: 17232
+  server: afc8577f-svc1s0-tc67m2-1tjc4.cm5.p5pv.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: fac704ae-0304-11f0-a2ef-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 11|韩国2|@ripaojiedian
+  network: tcp
+  port: '17232'
+  server: afc8577f-svc1s0-tc67m2-1tjc4.cm5.p5pv.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: fac704ae-0304-11f0-a2ef-f23c91cfbbc9

@@ -1,34 +1,44 @@
 proxies:
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 0|🇰🇷1 |  1.9MB/s
-  network: ws
-  port: 2052
-  server: 216.24.57.6
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇰🇷1 |  5.5MB/s
+  network: tcp
+  port: 21082
+  reality-opts:
+    public-key: tf7ZDGaue4C43MM0ECIfjOS-0kk7XMSqfnaSY4Er5Fc
+    short-id: 758719a6080f2767
+  server: tw-ty-line1-2-2.sudatech.store
+  servername: learn.microsoft.com
+  tls: true
+  type: vless
+  uuid: e7adaa99-8363-3ec4-b849-307c99005405
+- client-fingerprint: chrome
+  name: 10,11|韩国|@ripaojiedian
+  network: tcp
+  password: 8e603038-3713-4c74-9b9c-43ad4cc15650
+  port: 46668
+  server: sla.cn.964e995b760.gogodns.xin
+  skip-cert-verify: false
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇰🇷 韩国2|@ripaojiedian
+  port: 17232
+  server: afc8577f-svc1s0-tc67m2-1tjc4.cm5.p5pv.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: fac704ae-0304-11f0-a2ef-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 11|韩国2|@ripaojiedian
+  network: tcp
+  port: '17232'
+  server: afc8577f-svc1s0-tc67m2-1tjc4.cm5.p5pv.com
   servername: ''
   tls: false
-  type: vless
-  udp: false
-  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
-  ws-opts:
-    headers:
-      Host: digitalscientificresearchgroup.ir
-    path: /TM@Azarbayjab1?ed=2560
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 0,12|NL_speednode_0035
-  network: ws
-  port: 80
-  server: 45.131.4.194
-  servername: digitalscientificresearchgroup.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
-  ws-opts:
-    headers:
-      Host: digitalscientificresearchgroup.ir
-    path: /Telegram🇨🇳@WangCai2
+  type: vmess
+  uuid: fac704ae-0304-11f0-a2ef-f23c91cfbbc9

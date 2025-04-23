@@ -25,7 +25,7 @@ proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   mode: ''
-  name: 0|🇨🇭4 |  5.5MB/s
+  name: 0|🇨🇭3 |  3.9MB/s
   network: tcp
   port: 30548
   reality-opts:
