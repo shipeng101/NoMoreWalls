@@ -1,7 +1,7 @@
 proxies:
-- cipher: aes-128-gcm
-  name: 0|🇹🇼8 |  3.1MB/s
-  password: VMhGp5wEIyCDf90T
-  port: 33368
-  server: shenzhou05.mysynology.net
-  type: ss
+- name: 0|🇹🇼4 |  4.0MB/s
+  password: 11fa686c-b078-45e1-8f23-edcd3c62251a
+  port: 27202
+  server: sla.cn.964e995b760.gogodns.xin
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan

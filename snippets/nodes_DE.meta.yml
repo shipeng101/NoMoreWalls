@@ -1,25 +1,110 @@
 proxies:
-- name: 0|🇩🇪1 |  1.3MB/s
-  password: 0412a30a-bc16-4815-a3aa-3265d5037b6e
-  port: 43583
-  server: sla.cn.964e995b760.gogodns.xin
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
 - client-fingerprint: chrome
-  name: 12|DE_speednode_0054
-  port: 59248
+  flow: ''
+  mode: ''
+  name: 0|🇩🇪1 |  1.1MB/s
+  network: tcp
+  port: 443
   reality-opts:
-    public-key: 8Kv7EfgfL25rSlPhosakuzPleZ4wWXN90dlh4Ti6FhA
-  server: 91.107.167.61
-  servername: refersion.com
-  skip-cert-verify: false
+    public-key: HT5DfZtmmFSHXy__XWc1ukf2zJHRtCWJSc2mhcpptXc
+    short-id: b6c6a4369cb8
+  server: mmdv.s8573.ir
+  servername: eset.com
   tls: true
   type: vless
-  udp: true
-  uuid: def6e08c-b9ec-4257-86ef-475efaddd366
+  udp: false
+  uuid: acb9dedd-fa08-476f-b21a-06f6b7ddde97
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 0|🇩🇪2 |  2.1MB/s
+  network: ws
+  port: 2083
+  server: 104.17.148.22
+  servername: TKN.filmekade.ru
+  tls: true
+  type: vless
+  udp: false
+  uuid: 61a86474-7ab7-4fe1-f56a-09b41223781e
+  ws-opts:
+    headers:
+      Host: TKN.filmekade.ru
+    path: /telegram----------------v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---------------v2ryNG01---v2ryNG01--v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01?ed=2048
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 12|DE_speednode_0055
+  name: 0|🇩🇪3 |  1.8MB/s
+  network: tcp
+  port: 58031
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: csuzhou01.1cooldns.com
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 0|🇩🇪4 |  3.5MB/s
+  network: ws
+  port: 13438
+  server: 23.88.44.129
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: 56092b40-121b-4c63-9074-7c914703e928
+  ws-opts:
+    path: /@V2RAXX-telegram,@V2RAXX-telegram,@V2RAXX-telegram,@V2RAXX-telegram,@V2RAXX-telegram,@V2RAXX-telegram,@V2RAXX-telegram,@V2RAXX-telegram?ed=2560
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 0|🇩🇪5 |  4.9MB/s
+  network: ws
+  port: 2083
+  server: 104.17.147.22
+  servername: TKN.filmekade.ru
+  tls: true
+  type: vless
+  udp: false
+  uuid: 61a86474-7ab7-4fe1-f56a-09b41223781e
+  ws-opts:
+    headers:
+      Host: TKN.filmekade.ru
+    path: /telegram----------------v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---------------v2ryNG01---v2ryNG01--v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01?ed=2048
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 0|🇩🇪6 |  3.3MB/s
+  network: ws
+  port: 13438
+  server: V2RAXX-channel.cataba.ir
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: 56092b40-121b-4c63-9074-7c914703e928
+  ws-opts:
+    path: /@V2RAXX-telegram,@V2RAXX-telegram,@V2RAXX-telegram,@V2RAXX-telegram,@V2RAXX-telegram,@V2RAXX-telegram,@V2RAXX-telegram,@V2RAXX-telegram?ed=2560
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 0|🇩🇪7 |  5.9MB/s
+  network: ws
+  port: 2096
+  server: www.speedtest.net
+  servername: 0I1yE95cNq.AaAzZzAaA-8129.cOm
+  tls: true
+  type: vless
+  udp: false
+  uuid: 24a4aa9b-b341-4717-9d4a-00d74c2b84e0
+  ws-opts:
+    headers:
+      Host: 0I1yE95cNq.AaAzZzAaA-8129.cOm
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 12|DE_speednode_0041
   port: 33117
   reality-opts:
     public-key: Uu1ZW6SsALHqdsTBDaSB0EyLfG4jXxJhPWnu9A1VqiE

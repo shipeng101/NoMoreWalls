@@ -1,53 +1,141 @@
 proxies:
-- name: 0|🇬🇧1 |  1.4MB/s
-  password: 8f645249-52e1-46c7-8452-eb7bc557eba4
-  port: 44397
-  server: sla.cn.964e995b760.gogodns.xin
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: 0|🇺🇸5 |  4.9MB/s
+  name: 0|🇯🇵1 |  6.0MB/s
+  port: 4151
+  server: 3e5f4230-submo0-su9w3p-4mce.c.volczijie.com
+  tls: false
+  type: vmess
+  uuid: 06c625ea-5902-11ee-9e87-f23c9313b177
+- name: 0|🇭🇰1 |  1.3MB/s
+  password: VMhGp5wEIyCDf90T
+  port: 42303
+  server: csuzhou01.1cooldns.com
+  sni: hk06.run.place
+  type: trojan
+- alterId: 2
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|🇺🇸4 |  4.5MB/s
   network: ws
-  port: 8443
-  server: 199.34.228.174
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-a.tkong.cc
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0|🇭🇰2 |  1.6MB/s
+  port: 15229
+  server: 723cdaa4-sv8cg0-tcw58g-1p0be.cm.plebai.net
+  tls: false
+  type: vmess
+  uuid: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 0|🌀4-ID |  1.6MB/s
+  network: tcp
+  port: 17234
+  server: 33e096fb-sva740-sxnljm-1jr1u.cm5.p5pv.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
+  ws-headers:
+    Host: 33e096fb-sva740-sxnljm-1jr1u.cm5.p5pv.com
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 0|🇯🇵2 |  6.1MB/s
+  network: tcp
+  port: 17233
+  server: 9e6c9676-sv6hs0-sv7acf-1qw0q.cm5.p5pv.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d4fe3d0c-9043-11ef-8dc4-f23c91cfbbc9
+  ws-headers:
+    Host: 9e6c9676-sv6hs0-sv7acf-1qw0q.cm5.p5pv.com
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 0|🇰🇷1 |  4.6MB/s
+  port: 17232
+  server: cd5a3a1e-sv8cg0-tcw58g-1p0be.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
+- name: 0,10,11,12|CN_speednode_0028
+  network: tcp
+  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
+  port: 8313
+  server: dozo01.flztjc.top
+  skip-cert-verify: false
+  sni: hk-13-568.flztjc.net
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  ip-version: dual
+  name: 0|🌀5-CZ |  5.2MB/s
+  network: tcp
+  port: 180
+  server: 89.18.58.63
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 2
+  cipher: auto
+  name: 0|🇨🇦2 |  5.5MB/s
+  network: ws
+  port: 30825
+  server: v25.heduian.link
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
+- alterId: 2
+  cipher: auto
+  name: 0|🇺🇸12 |  5.7MB/s
+  network: ws
+  port: 30808
+  server: v8.heduian.link
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸13 |  1.6MB/s
+  network: ws
+  port: 443
+  server: d2860d7d-07ee-a0db-ef7b-54808db00b03.890601.pp.ua
   skip-cert-verify: false
   tls: true
   type: vmess
-  uuid: 3a1c628b-806d-461b-c28d-44b3bdff5220
+  uuid: 5453ae26-250d-4e79-b4ec-016baf806865
   ws-opts:
     headers:
-      Host: mass2.890602.xyz
-    path: /
+      Host: D2860d7d-07ee-A0Db-EF7B-54808dB00b03.890601.pP.UA
+    path: /h7Rcu0y30lhjdVjJ3gc4aj
 - alterId: 0
   cipher: auto
-  name: 0|🇭🇰3 |  3.2MB/s
-  network: tcp
-  port: 19901
-  raw:
-    add: xg.dashuai.cyou
-    aid: '0'
-    alpn: ''
-    fp: ''
-    host: xg.dashuai.cyou
-    id: 848cdadb-92fd-4e5f-a323-3592df550987
-    net: tcp
-    path: /
-    port: '19901'
-    ps: '🇭🇰 '
-    scy: ''
-    sni: ''
-    tls: ''
-    type: none
-    v: '2'
-  server: xg.dashuai.cyou
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 848cdadb-92fd-4e5f-a323-3592df550987
-- alterId: 0
-  cipher: auto
-  name: 0|🇰🇷1 |  2.9MB/s
+  name: 0|🇰🇷2 |  4.4MB/s
   port: 17232
   server: 33e096fb-sva740-sxnljm-1jr1u.cm5.p5pv.com
   skip-cert-verify: false
@@ -55,22 +143,90 @@ proxies:
   type: vmess
   udp: true
   uuid: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 0|🇺🇸10 |  2.1MB/s
-  network: ws
-  port: 30829
-  server: v29.heduian.link
+  name: 0|🌀8-ID |  1.3MB/s
+  port: 17234
+  server: cd5a3a1e-sv8cg0-tcw58g-1p0be.cm5.p5pv.com
   tls: false
+  type: vmess
+  uuid: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
+- alterId: '2'
+  cipher: auto
+  name: 0|🌀10-ES |  5.4MB/s
+  network: ws
+  port: '30805'
+  server: v5.heduian.link
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      Host: ocbc.com
+      host: ocbc.com
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 0|🇺🇸11 |  4.9MB/s
+  name: 0|🇺🇸19 |  2.0MB/s
+  network: ws
+  port: 443
+  server: 3sdfgvcxxx.938.pp.ua
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 0212fab5-e93c-4904-b7a8-187fd535f354
+  ws-opts:
+    headers:
+      Host: 3sdfgvcxxx.938.pp.ua
+    path: /P879mtCoHQqaWO67qEaMINZ1
+- name: 0,12|RO_speednode_0050
+  password: '3828095943467868160'
+  port: 443
+  server: grateful-mako.dolphin109.quest
+  skip-cert-verify: true
+  sni: grateful-mako.dolphin109.quest
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 0|🇭🇰8 |  4.4MB/s
+  network: tcp
+  port: 15229
+  raw:
+    add: f00627fb-sva740-sv995i-xz4l.cm.plebai.net
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: f00627fb-sva740-sv995i-xz4l.cm.plebai.net
+    id: 8c3ef4c2-980d-11ef-add7-f23c913c8d2b
+    net: tcp
+    path: /
+    port: '15229'
+    ps: null
+    scy: ''
+    sni: ''
+    tls: ''
+    type: none
+    v: '2'
+  server: f00627fb-sva740-sv995i-xz4l.cm.plebai.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8c3ef4c2-980d-11ef-add7-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  name: 0|🇫🇷2 |  2.5MB/s
+  network: tcp
+  port: 17235
+  server: 04c77dd5-sux8g0-sv9of9-lys7.cm5.p5pv.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 18c0664c-74f1-11ee-b51e-f23c9164ca5d
+  ws-headers:
+    Host: 04c77dd5-sux8g0-sv9of9-lys7.cm5.p5pv.com
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸23 |  3.5MB/s
   network: ws
   port: 443
   server: 2e21cedc-fa8b-4020-8ce0-390e7287d276.890603.pp.ua
@@ -85,7 +241,7 @@ proxies:
     path: /h7Rcu0y30lhjdVjJ3gc4aj
 - alterId: 0
   cipher: auto
-  name: 0|🇺🇸12 |  5.6MB/s
+  name: 0|🇺🇸25 |  4.6MB/s
   network: ws
   port: 8443
   server: 199.34.228.161
@@ -97,328 +253,53 @@ proxies:
     headers:
       Host: mass2.890602.xyz
     path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🌀3-ID |  2.0MB/s
-  port: 17234
-  server: cd5a3a1e-sv8cg0-tcw58g-1p0be.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
-- alterId: 64
-  cipher: auto
-  name: 0,11|香港8|@ripaojiedian
-  network: tcp
-  port: '42375'
-  server: 120.198.71.214
-  servername: ''
+- name: 0|🇺🇸27 |  4.9MB/s
+  password: c443be95-725d-4da3-a60f-d35af5bfbff8
+  port: 17742
+  server: 23.172.40.143
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.198.71.214
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🇯🇵2 |  6.2MB/s
-  network: tcp
-  port: 17233
-  server: 9e6c9676-sv6hs0-sv7acf-1qw0q.cm5.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d4fe3d0c-9043-11ef-8dc4-f23c91cfbbc9
-  ws-headers:
-    Host: 9e6c9676-sv6hs0-sv7acf-1qw0q.cm5.p5pv.com
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  country: 🇭🇷HR
-  delay: 666
-  h2-opts: {}
-  http-opts: {}
-  name: 0|🌀5-CZ |  5.5MB/s
-  network: tcp
-  port: 180
-  server: 89.18.58.71
-  skip-cert-verify: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 0|🇭🇰8 |  1.6MB/s
-  network: tcp
-  port: 15229
-  server: e871a090-sva740-tcq5zn-19qpt.cm.plebai.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d
-  ws-headers:
-    Host: e871a090-sva740-tcq5zn-19qpt.cm.plebai.net
-  ws-path: /
-- ip-version: dual
-  name: 0|🇺🇸18 |  2.4MB/s
-  network: ws
-  password: 5453ae26-250d-4e79-b4ec-016baf806865
-  port: 443
-  server: 172.67.204.22
-  skip-cert-verify: false
-  sni: 1SdfghJk.890602.xyz
   type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: 1sdfghjk.890602.xyz
-    path: /OYzPAeaZdXUq2d6J3gc4aj
 - alterId: 0
   cipher: auto
-  delay: 1114
-  name: 0|🇭🇰9 |  1.6MB/s
-  port: 34652
-  server: 183.236.51.38
+  name: 0|🇭🇰9 |  6.4MB/s
+  port: 15229
+  server: 789602b4-sux8g0-t8b7ls-qtx6.cm.plebai.net
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 0|🇰🇷2 |  2.7MB/s
-  port: 17232
-  server: cd5a3a1e-sv8cg0-tcw58g-1p0be.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
-- name: 0|🇩🇪1 |  1.3MB/s
-  password: 0412a30a-bc16-4815-a3aa-3265d5037b6e
-  port: 43583
+  uuid: b35f5984-a0b4-11ea-82ef-f23c9164ca5d
+- name: 0|🇹🇼4 |  4.0MB/s
+  password: 11fa686c-b078-45e1-8f23-edcd3c62251a
+  port: 27202
   server: sla.cn.964e995b760.gogodns.xin
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 0|🇯🇵6 |  6.0MB/s
-  network: ws
-  port: 26683
-  server: 34.146.235.4
-  tls: false
-  type: vmess
-  uuid: d40908c8-141b-4608-b973-5eede693a4b5
-  ws-opts:
-    headers:
-      Host: sdeweb.hkcsl.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🇯🇵7 |  3.1MB/s
-  network: tcp
-  port: 17233
-  server: 8582ab4a-svc1s0-szegoe-12hj8.cm5.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
-  ws-headers:
-    Host: 8582ab4a-svc1s0-szegoe-12hj8.cm5.p5pv.com
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🌀7- |  2.7MB/s
-  network: ws
-  port: 80
-  server: 445522e0-a147-66c0-6b59-becb865f30a5.castlepeakhospital.moe
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 21c90669-193d-49d3-8e37-f5c1462eb134
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🇸🇬4 |  1.5MB/s
-  port: 4137
-  server: 3e5f4230-submo0-su9w3p-4mce.c.volczijie.com
-  tls: false
-  type: vmess
-  uuid: 06c625ea-5902-11ee-9e87-f23c9313b177
-- alterId: 0
-  cipher: auto
-  name: 0|🇫🇷2 |  4.8MB/s
-  network: tcp
-  port: 17235
-  server: 04c77dd5-sux8g0-sv9of9-lys7.cm5.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 18c0664c-74f1-11ee-b51e-f23c9164ca5d
-  ws-headers:
-    Host: 04c77dd5-sux8g0-sv9of9-lys7.cm5.p5pv.com
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🇸🇬5 |  6.3MB/s
-  port: 3681
-  server: 3e5f4230-submo0-su9w3p-4mce.c.volczijie.com
-  tls: false
-  type: vmess
-  uuid: 06c625ea-5902-11ee-9e87-f23c9313b177
-- cipher: aes-256-cfb
-  name: 0|🇬🇧3 |  3.2MB/s
-  obfs: plain
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  protocol: origin
-  server: 62.100.205.48
-  type: ssr
-- name: 0,10,11,12|CN_speednode_0046
-  network: tcp
-  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
-  port: 8313
-  server: dozo01.flztjc.top
-  skip-cert-verify: false
-  sni: hk-13-568.flztjc.net
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 0|🇭🇰13 |  1.2MB/s
-  port: 15229
-  server: 6aceadab-sv0xs0-sv1gez-1tk5u.cm.plebai.net
-  tls: false
-  type: vmess
-  uuid: e3217bc2-061f-11f0-90e2-f23c913c8d2b
-- alterId: 0
-  cipher: auto
-  name: 0|🇸🇬6 |  3.3MB/s
-  port: 4135
-  server: e0ee2db1-submo0-su9w3p-4mce.d.volczijie.com
-  tls: false
-  type: vmess
-  uuid: 06c625ea-5902-11ee-9e87-f23c9313b177
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸26 |  5.7MB/s
-  network: ws
-  port: 443
-  server: 7fa54343-7c0a-45c9.2031.pp.ua
-  servername: 7fa54343-7c0a-45c9.2031.pp.ua
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 15b24b56-d667-4fa8-b548-f3dc942fb461
-  ws-opts:
-    headers:
-      Host: 7fa54343-7c0a-45c9.2031.pp.ua
-    path: /usYhm60UxQ8YJFJxz
-- cipher: aes-128-gcm
-  name: 0|🇹🇼8 |  3.1MB/s
-  password: VMhGp5wEIyCDf90T
-  port: 33368
-  server: shenzhou05.mysynology.net
-  type: ss
-- name: 0,12|SG_speednode_0077
-  password: '3828095943467868160'
-  port: 443
-  server: stable-labrador.dolphin109.quest
-  skip-cert-verify: true
-  sni: stable-labrador.dolphin109.quest
-  type: trojan
-  udp: true
-- name: 0|🇺🇸27 |  2.5MB/s
+- allowInsecure: ''
+  name: 0|🇺🇸38 |  1.8MB/s
   network: ws
   password: 5453ae26-250d-4e79-b4ec-016baf806865
   port: 443
-  server: 104.21.69.41
-  sni: 1SdfghJk.890602.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 1SdfghJk.890602.xyz
-    path: /OYzPAeaZdXUq2d6J3gc4aj
-- alterId: 0
-  cipher: auto
-  delay: 1033
-  name: 0|🇸🇬8 |  1.3MB/s
-  port: 54652
-  server: 183.236.51.38
+  server: 172.67.212.82
   skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸30 |  1.7MB/s
-  network: ws
-  port: 443
-  server: 3sdfgvcxxx.938.pp.ua
-  skip-cert-verify: false
+  sni: D05F4aA7-92B1-a659-E3b9-695Dd2870B3c.131.Pp.UA
   tls: true
-  type: vmess
-  uuid: 0212fab5-e93c-4904-b7a8-187fd535f354
-  ws-opts:
-    headers:
-      Host: 3sdfgvcxxx.938.pp.ua
-    path: /P879mtCoHQqaWO67qEaMINZ1
-- alterId: 2
-  cipher: auto
-  name: 0|🇨🇦3 |  3.9MB/s
-  network: ws
-  port: 30825
-  server: v25.heduian.link
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /oooo
-- alterId: 0
-  cipher: auto
-  name: 0|🇯🇵13 |  5.6MB/s
-  port: 4151
-  server: 3e5f4230-submo0-su9w3p-4mce.c.volczijie.com
-  tls: false
-  type: vmess
-  uuid: 06c625ea-5902-11ee-9e87-f23c9313b177
-- name: 0,12|CN_speednode_0038
-  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
-  port: 8313
-  server: 121.14.61.174
-  skip-cert-verify: true
-  sni: hk-13-568.flztjc.net
   type: trojan
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 0|🇭🇰21 |  1.2MB/s
-  network: ws
-  port: 80
-  server: 809d354b-sv2sg0-sw0aec-1t3oz.hgc1.tcpbbr.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b3370cdc-c26e-11ef-bd97-f23c9164ca5d
-  ws-headers:
-    Host: broadcastlv.chat.bilibili.com
-  ws-path: /
-- alterId: 2
-  cipher: auto
-  name: 0|🇭🇰22 |  5.1MB/s
-  network: ws
-  port: 80
-  server: 1cc01f38-sv2sg0-t2hy87-gmmc.hgc1.tcpbbr.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: e8a553fe-62bc-11ef-89a3-f23c913c8d2b
   ws-opts:
     headers:
-      Host: 1cc01f38-sv2sg0-t2hy87-gmmc.hgc1.tcpbbr.net
-    path: /
+      Host: d05f4aa7-92b1-a659-e3b9-695dd2870b3c.131.pp.ua
+    path: /OYzPAeaZdXUq2d6J3gc4aj
+- name: 0|🇺🇸44 |  5.8MB/s
+  password: 9672247e-c003-4464-8bd9-4f16b0e7d032
+  port: 33505
+  server: sla.cn.964e995b760.gogodns.xin
+  skip-cert-verify: true
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+- name: 0|🌀18-TR |  1.4MB/s
+  password: 5a403d9c-b1c3-4769-bfcd-32c9249a5938
+  port: 43397
+  server: sla.cn.964e995b760.gogodns.xin
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
 - name: 10|🇭🇰 香港|@ripaojiedian
   network: ws
   password: a38c9e28-9960-4e31-9f18-ed2495a756aa
@@ -431,14 +312,6 @@ proxies:
     headers:
       Host: vt-bana2-cn-11.ghpgwqswodgzv.com
     path: /dl_media
-- name: 10,11|香港2|@ripaojiedian
-  network: tcp
-  password: 6eea9cf6-ba81-4a78-90d9-19e13f53b98c
-  port: 27103
-  server: 183.240.116.252
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
 - cipher: chacha20-ietf-poly1305
   name: 10|🇭🇰 香港3|@ripaojiedian
   password: 91a41f4e02dc
@@ -450,7 +323,7 @@ proxies:
     path: /utvbnrzejpmt
     skip-cert-verify: false
     tls: true
-  port: 50101
+  port: 53925
   server: hkkh11v1.xpmc.cc
   tfo: false
   type: ss
@@ -494,12 +367,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 10,11|香港9|@ripaojiedian
+  network: tcp
+  password: 6efc45ce-f96b-401e-8220-633d37ba92ba
+  port: 27103
+  server: 183.240.116.252
+  skip-cert-verify: false
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
 - cipher: rc4-md5
   name: 10|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202504221857755-wjQtxZzCYu.download.microsoft.com
+    host: 202504231516596-2ovXmdP1DN.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -516,7 +397,7 @@ proxies:
     path: /plxbuqyt
     skip-cert-verify: false
     tls: true
-  port: 55958
+  port: 32747
   server: jp06v1.xmsj.red
   tfo: false
   type: ss
@@ -548,22 +429,46 @@ proxies:
     path: /oooo
 - name: 10,11|韩国|@ripaojiedian
   network: tcp
-  password: 8e603038-3713-4c74-9b9c-43ad4cc15650
+  password: 74fa3b6c-e333-49f4-ab15-9549fc53cf42
   port: 46668
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 10|🇰🇷 韩国2|@ripaojiedian
-  port: 17232
-  server: afc8577f-svc1s0-tc67m2-1tjc4.cm5.p5pv.com
+  name: 10,11|新加坡|@ripaojiedian
+  network: ws
+  port: '30812'
+  server: v12.heduian.link
+  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: fac704ae-0304-11f0-a2ef-f23c91cfbbc9
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
+- name: 10,11|新加坡2|@ripaojiedian
+  network: tcp
+  password: 64abf593-eeb7-4785-9323-d6f40e9a79d4
+  port: 27401
+  server: 183.2.150.64
+  skip-cert-verify: false
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 10|🇸🇬 新加坡3|@ripaojiedian
+  port: 17231
+  server: c9061f82-svc1s0-sy94f1-1nc6m.cm5.p5pv.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 85d450b2-1c2b-11f0-8a7b-f23c913c8d2b
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸 美国|@ripaojiedian
@@ -579,7 +484,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202504221857755-wjQtxZzCYu.download.microsoft.com
+    host: 202504231516596-2ovXmdP1DN.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
@@ -642,6 +547,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 11|香港8|@ripaojiedian
+  network: tcp
+  port: '42375'
+  server: 120.198.71.214
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 11|香港10|@ripaojiedian
@@ -674,14 +589,14 @@ proxies:
   uuid: 07287360-e12f-4f94-9c7a-54386c100d8a
 - alterId: 0
   cipher: auto
-  name: 11|韩国2|@ripaojiedian
+  name: 11|新加坡3|@ripaojiedian
   network: tcp
-  port: '17232'
-  server: afc8577f-svc1s0-tc67m2-1tjc4.cm5.p5pv.com
+  port: '17231'
+  server: c9061f82-svc1s0-sy94f1-1nc6m.cm5.p5pv.com
   servername: ''
   tls: false
   type: vmess
-  uuid: fac704ae-0304-11f0-a2ef-f23c91cfbbc9
+  uuid: 85d450b2-1c2b-11f0-8a7b-f23c913c8d2b
 - alterId: 0
   cipher: auto
   name: 11|美国|@ripaojiedian
@@ -692,55 +607,15 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 12|CN_speednode_0002
-  password: d7d8a8cd-239b-4b4e-93d9-dc3d89332ac9
-  port: 42765
-  server: wb.kaiqsz.com
+- name: 12|CN_speednode_0030
+  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
+  port: 8313
+  server: 121.14.61.174
   skip-cert-verify: true
-  sni: mmbiz1.redapricotcloud.com
+  sni: hk-13-568.flztjc.net
   type: trojan
   udp: true
-- name: 12|CN_speednode_0020
-  password: fe966b1a-3db5-442b-b64d-06650137f489
-  port: 43498
-  server: sla.cn.964e995b760.gogodns.xin
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 12|CN_speednode_0033
-  password: fffddde3-e433-47a0-87b7-a21f3ab4a9dc
-  port: 27002
-  server: sla.cn.964e995b760.gogodns.xin
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 12|ES_speednode_0056
-  password: '3828095943467868160'
-  port: 443
-  server: main-bee.dolphin109.quest
-  skip-cert-verify: true
-  sni: main-bee.dolphin109.quest
-  type: trojan
-  udp: true
-- name: 12|ES_speednode_0057
-  password: '3828095943467868160'
-  port: 443
-  server: 194.62.99.56
-  skip-cert-verify: false
-  sni: main-bee.dolphin109.quest
-  type: trojan
-  udp: true
-- name: 12|GB_speednode_0058
-  password: '3828095943467868160'
-  port: 443
-  server: sharp-bear.dolphin109.quest
-  skip-cert-verify: true
-  sni: sharp-bear.dolphin109.quest
-  type: trojan
-  udp: true
-- name: 12|GB_speednode_0059
+- name: 12|GB_speednode_0042
   password: '3828095943467868160'
   port: 443
   server: 202.78.163.141
@@ -748,7 +623,15 @@ proxies:
   sni: sharp-bear.dolphin109.quest
   type: trojan
   udp: true
-- name: 12|GB_speednode_0060
+- name: 12|GB_speednode_0043
+  password: '3828095943467868160'
+  port: 443
+  server: sharp-bear.dolphin109.quest
+  skip-cert-verify: true
+  sni: sharp-bear.dolphin109.quest
+  type: trojan
+  udp: true
+- name: 12|GB_speednode_0044
   password: '3828095943467868160'
   port: 443
   server: handy-sparrow.dolphin109.quest
@@ -756,39 +639,7 @@ proxies:
   sni: handy-sparrow.dolphin109.quest
   type: trojan
   udp: true
-- name: 12|GB_speednode_0061
-  password: '3828095943467868160'
-  port: 443
-  server: mutual-gannet.dolphin109.quest
-  skip-cert-verify: true
-  sni: mutual-gannet.dolphin109.quest
-  type: trojan
-  udp: true
-- name: 12|GB_speednode_0062
-  password: '3828095943467868160'
-  port: 443
-  server: 85.234.83.28
-  skip-cert-verify: true
-  sni: workable-puma.dolphin109.quest
-  type: trojan
-  udp: true
-- name: 12|HK_speednode_0063
-  password: 4d73fa95-c2ab-4be8-8938-dcb160a033e4
-  port: 10465
-  server: 45.146.232.173
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 12|LU_speednode_0068
-  password: '3828095943467868160'
-  port: 443
-  server: 93.174.164.49
-  skip-cert-verify: true
-  sni: concrete-lion.dolphin109.quest
-  type: trojan
-  udp: true
-- name: 12|LU_speednode_0069
+- name: 12|LU_speednode_0046
   password: '3828095943467868160'
   port: 443
   server: concrete-lion.dolphin109.quest
@@ -796,7 +647,15 @@ proxies:
   sni: concrete-lion.dolphin109.quest
   type: trojan
   udp: true
-- name: 12|NL_speednode_0073
+- name: 12|LU_speednode_0047
+  password: '3828095943467868160'
+  port: 443
+  server: 93.174.164.49
+  skip-cert-verify: true
+  sni: concrete-lion.dolphin109.quest
+  type: trojan
+  udp: true
+- name: 12|NL_speednode_0048
   password: '3828095943467868160'
   port: 443
   server: exotic-wahoo.dolphin109.quest
@@ -804,7 +663,7 @@ proxies:
   sni: exotic-wahoo.dolphin109.quest
   type: trojan
   udp: true
-- name: 12|NL_speednode_0075
+- name: 12|NL_speednode_0049
   password: '3828095943467868160'
   port: 443
   server: choice-gar.dolphin109.quest
@@ -812,52 +671,12 @@ proxies:
   sni: choice-gar.dolphin109.quest
   type: trojan
   udp: true
-- name: 12|RO_speednode_0076
+- name: 12|SG_speednode_0051
   password: '3828095943467868160'
   port: 443
-  server: grateful-mako.dolphin109.quest
+  server: stable-labrador.dolphin109.quest
   skip-cert-verify: true
-  sni: grateful-mako.dolphin109.quest
-  type: trojan
-  udp: true
-- name: 12|SG_speednode_0078
-  password: f7a08c90-1f80-11f0-8f88-1239d0255272
-  port: 443
-  server: 103.253.24.212
-  skip-cert-verify: true
-  sni: telewebion.com
-  type: trojan
-  udp: true
-- name: 12|SG_speednode_0079
-  password: f7a08c90-1f80-11f0-8f88-1239d0255272
-  port: 443
-  server: sg1.6n6.net
-  skip-cert-verify: true
-  sni: telewebion.com
-  type: trojan
-  udp: true
-- name: 12|TR_speednode_0080
-  password: '3828095943467868160'
-  port: 443
-  server: supreme-loon.dolphin109.quest
-  skip-cert-verify: true
-  sni: supreme-loon.dolphin109.quest
-  type: trojan
-  udp: true
-- name: 12|US_speednode_0094
-  password: '3828095943467868160'
-  port: 443
-  server: trusty-mayfly.dolphin109.quest
-  skip-cert-verify: true
-  sni: trusty-mayfly.dolphin109.quest
-  type: trojan
-  udp: true
-- name: 12|US_speednode_0096
-  password: '3828095943467868160'
-  port: 443
-  server: equipped-satyr.dolphin109.quest
-  skip-cert-verify: true
-  sni: equipped-satyr.dolphin109.quest
+  sni: stable-labrador.dolphin109.quest
   type: trojan
   udp: true
 - alterId: 0
