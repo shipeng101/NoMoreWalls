@@ -1,56 +1,13 @@
 proxies:
-- alterId: 1
+- alterId: 0
   cipher: auto
-  name: 0|🇯🇵3 |  3.5MB/s
+  name: 0|🇯🇵10 |  2.0MB/s
   network: tcp
-  port: 28787
-  raw:
-    add: 5vpif-g05.jp06-7c5a-vm0.entry.fr0307a.art
-    aid: '1'
-    alpn: ''
-    fp: ''
-    host: ''
-    id: b0e1254b-6ac6-3d12-bd6e-bd719eaab486
-    net: tcp
-    path: ''
-    port: '28787'
-    ps: 🔥Join+Telegram:@FarahVPN🟣
-    scy: auto
-    sni: ''
-    tls: tls
-    type: ''
-    v: '2'
-  server: 5vpif-g05.jp06-7c5a-vm0.entry.fr0307a.art
-  servername: ''
-  tls: true
+  port: 17233
+  server: a37e50db-svc1s0-t1bnjq-1krtb.cm5.p5pv.com
+  tls: false
   type: vmess
-  uuid: b0e1254b-6ac6-3d12-bd6e-bd719eaab486
-- alterId: 1
-  cipher: auto
-  name: 0|🇯🇵4 |  4.3MB/s
-  network: tcp
-  port: 28787
-  raw:
-    add: 35.79.17.152
-    aid: '1'
-    alpn: ''
-    fp: ''
-    host: ''
-    id: b0e1254b-6ac6-3d12-bd6e-bd719eaab486
-    net: tcp
-    path: ''
-    port: '28787'
-    ps: 🔥Join+Telegram:@FarahVPN🟣
-    scy: auto
-    sni: 5vpif-g05.jp06-7c5a-vm0.entry.fr0307a.art
-    tls: tls
-    type: ''
-    v: '2'
-  server: 35.79.17.152
-  servername: 5vpif-g05.jp06-7c5a-vm0.entry.fr0307a.art
-  tls: true
-  type: vmess
-  uuid: b0e1254b-6ac6-3d12-bd6e-bd719eaab486
+  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 10|🇯🇵 日本|@ripaojiedian

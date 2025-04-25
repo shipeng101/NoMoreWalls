@@ -1,4 +1,45 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 0|🇭🇰8 |  1.2MB/s
+  network: ws
+  port: 23023
+  server: 212.192.12.154
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 018474eb-864a-4fb6-9ee7-bcc51fb7e986
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0|🇭🇰9 |  1.3MB/s
+  network: tcp
+  port: 15229
+  server: f00627fb-sva740-sv995i-xz4l.cm.plebai.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 8c3ef4c2-980d-11ef-add7-f23c913c8d2b
+  ws-headers:
+    Host: f00627fb-sva740-sv995i-xz4l.cm.plebai.net
+  ws-path: /
+- name: 0|🇭🇰12 |  6.3MB/s
+  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
+  port: 8313
+  server: 121.14.61.174
+  skip-cert-verify: true
+  sni: hk-13-568.flztjc.net
+  type: trojan
+- client-fingerprint: chrome
+  name: 0,10,11|香港4|@ripaojiedian
+  network: tcp
+  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
+  port: 8313
+  server: dozo01.flztjc.top
+  skip-cert-verify: false
+  sni: hk-13-568.flztjc.net
+  type: trojan
 - client-fingerprint: chrome
   name: 10|🇭🇰 香港|@ripaojiedian
   network: ws
@@ -39,15 +80,6 @@ proxies:
   tls: false
   type: vmess
   uuid: b68f8c35-935e-444f-8944-291bf15a56a5
-- client-fingerprint: chrome
-  name: 10,11|香港4|@ripaojiedian
-  network: tcp
-  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
-  port: 8313
-  server: dozo01.flztjc.top
-  skip-cert-verify: false
-  sni: hk-13-568.flztjc.net
-  type: trojan
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
