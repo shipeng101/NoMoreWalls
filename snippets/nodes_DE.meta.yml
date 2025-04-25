@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|🇩🇪1 |  4.7MB/s
+  name: 0|🇩🇪1 |  1.4MB/s
   network: tcp
   port: 58031
   reality-opts:
@@ -11,3 +11,59 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 0|🇩🇪2 |  6.0MB/s
+  network: ws
+  port: 2096
+  server: 104.17.147.22
+  servername: RmLeQgB10q.AaAzZzAaA-8129.cOm
+  tls: true
+  type: vless
+  udp: false
+  uuid: 24a4aa9b-b341-4717-9d4a-00d74c2b84e0
+  ws-opts:
+    headers:
+      Host: RmLeQgB10q.AaAzZzAaA-8129.cOm
+    path: /
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 0|🇩🇪3 |  2.4MB/s
+  network: ws
+  port: 2087
+  server: 185.146.173.63
+  servername: Tp006ScRhP.gOlAbKaShAnIz.InFo
+  tls: true
+  type: vless
+  udp: false
+  uuid: 31a27ed1-2ec6-4ab5-95b6-3e213e59e0a9
+  ws-opts:
+    headers:
+      Host: Tp006ScRhP.gOlAbKaShAnIz.InFo
+    path: /
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 0|🇩🇪4 |  5.8MB/s
+  network: ws
+  port: 2082
+  server: 104.17.147.22
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: 0c130952-e604-4e04-d67c-aa07af10924f
+  ws-opts:
+    headers:
+      Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+    path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
+- auth: b543c066-2189-4aa4-8afb-445ac8ee28d4
+  name: 0|🇩🇪5 |  5.2MB/s
+  password: b543c066-2189-4aa4-8afb-445ac8ee28d4
+  port: 35000
+  server: 141.147.19.58
+  skip-cert-verify: true
+  sni: api.push.apple.com
+  type: hysteria2
