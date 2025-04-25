@@ -1,53 +1,7 @@
 proxies:
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 0|🇩🇪1 |  5.9MB/s
-  network: ws
-  port: 2087
-  server: www.speedtest.net
-  servername: Tp195GgFzF.sRvDoM-cOnF-dEl3.InFo
-  tls: true
-  type: vless
-  udp: false
-  uuid: 31a27ed1-2ec6-4ab5-95b6-3e213e59e0a9
-  ws-opts:
-    headers:
-      Host: Tp195GgFzF.sRvDoM-cOnF-dEl3.InFo
-    path: /
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 0|🇩🇪2 |  5.4MB/s
-  network: ws
-  port: 2087
-  server: 104.17.148.22
-  servername: Tp177Y9lEp.NeWrEtR432aS.iNfO
-  tls: true
-  type: vless
-  udp: false
-  uuid: 31a27ed1-2ec6-4ab5-95b6-3e213e59e0a9
-  ws-opts:
-    headers:
-      Host: Tp177Y9lEp.NeWrEtR432aS.iNfO
-    path: /
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 0|🇩🇪3 |  5.5MB/s
-  network: ws
-  port: 8443
-  server: v2.lunarmc.ir
-  servername: v2.lunarmc.ir
-  tls: true
-  type: vless
-  udp: false
-  uuid: 0ec588ee-71df-435e-b480-10ad6f00731c
-  ws-opts:
-    path: /tp-freevpn.com.tp-freevpn.com.tp-freevpn.com.tp-freevpn.com.tp-freevpn.com.tp-freevpn.com.tp-freevpn.com.tp-freevpn.com.tp-freevpn.com.tp-freevpn.com.tp-freevpn.com?ed=2048
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|🇩🇪4 |  5.3MB/s
+  name: 0|🇩🇪1 |  4.7MB/s
   network: tcp
   port: 58031
   reality-opts:
@@ -57,19 +11,3 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 0|🇩🇪5 |  3.9MB/s
-  network: ws
-  port: 2096
-  server: www.speedtest.net
-  servername: 0I1yE95cNq.AaAzZzAaA-8129.cOm
-  tls: true
-  type: vless
-  udp: false
-  uuid: 24a4aa9b-b341-4717-9d4a-00d74c2b84e0
-  ws-opts:
-    headers:
-      Host: 0I1yE95cNq.AaAzZzAaA-8129.cOm
-    path: /

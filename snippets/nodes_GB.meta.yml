@@ -1,23 +1,28 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|🇬🇧1 |  1.7MB/s
+  name: 0|🇬🇧1 |  4.5MB/s
+  network: tcp
+  port: 49699
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: vip.jddns0202.top
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇬🇧2 |  4.9MB/s
   network: tcp
   port: 14659
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: gysz0000.dynu.net
+  server: csuzhou01.1cooldns.com
   servername: www.nvidia.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- auth: 643f2ce3-2757-470d-b18d-a54d7a7fa679
-  name: 0|🇬🇧2 |  4.8MB/s
-  password: 643f2ce3-2757-470d-b18d-a54d7a7fa679
-  port: 443
-  server: uk-001.xiaoxiaobujidao.xyz
-  skip-cert-verify: true
-  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 0,12|CN_speednode_0048
@@ -34,13 +39,13 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|🇬🇧4 |  3.5MB/s
+  name: 0|🇬🇧4 |  4.2MB/s
   network: tcp
-  port: 49699
+  port: 14659
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou05.mysynology.net
-  servername: www.amazon.com
+  server: gysz0000.dynu.net
+  servername: www.nvidia.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
