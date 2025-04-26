@@ -1,68 +1,20 @@
 proxies:
-- auth: b543c066-2189-4aa4-8afb-445ac8ee28d4
-  client-fingerprint: chrome
-  name: 0|🇸🇬1 |  5.0MB/s
-  password: b543c066-2189-4aa4-8afb-445ac8ee28d4
-  port: 35000
-  server: 140.245.35.78
-  skip-cert-verify: true
-  sni: www.apple.com
-  type: hysteria2
-- auth: b543c066-2189-4aa4-8afb-445ac8ee28d4
-  client-fingerprint: chrome
-  name: 0|🇸🇬2 |  4.5MB/s
-  password: b543c066-2189-4aa4-8afb-445ac8ee28d4
-  port: 35000
-  server: 152.69.220.212
-  skip-cert-verify: true
-  sni: api.push.apple.com
-  type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇸🇬3 |  6.1MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: N86yyW-L91vOtC9qgJcYAhnva9M4WT3vclSnsQo4A2k
-    short-id: 79fd451e
-  server: pq.aws51.yydjc.top
-  servername: buylite.tv.apple.com
-  tls: true
-  type: vless
-  uuid: b543c066-2189-4aa4-8afb-445ac8ee28d4
 - cipher: aes-256-gcm
-  name: 0|🇸🇬4 |  4.7MB/s
+  name: 0|🇸🇬1 |  6.0MB/s
   password: amazongreatvpn
   port: 443
   server: 18.141.233.166
   type: ss
-- auth: b543c066-2189-4aa4-8afb-445ac8ee28d4
-  client-fingerprint: chrome
-  name: 0|🇸🇬5 |  1.0MB/s
-  password: b543c066-2189-4aa4-8afb-445ac8ee28d4
-  port: 35000
-  server: 140.245.37.170
-  skip-cert-verify: true
-  sni: www.apple.com
-  type: hysteria2
-- auth: b543c066-2189-4aa4-8afb-445ac8ee28d4
-  client-fingerprint: chrome
-  name: 0|🇸🇬6 |  4.0MB/s
-  password: b543c066-2189-4aa4-8afb-445ac8ee28d4
-  port: 35000
-  server: 140.245.36.207
-  skip-cert-verify: true
-  sni: www.apple.com
-  type: hysteria2
 - client-fingerprint: chrome
+  delay: 1924
   flow: xtls-rprx-vision
-  name: 0,12|CN_speednode_0034
+  name: 0,12|CN_speednode_0023
   network: tcp
-  port: 56127
+  port: 29877
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: agaungzhou01.bumbleshrimp.com
-  servername: www.yahoo.com
+  server: beiyong.dynuddns.net
+  servername: www.nvidia.com
   skip-cert-verify: false
   tls: true
   type: vless

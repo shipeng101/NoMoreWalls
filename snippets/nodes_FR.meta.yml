@@ -1,10 +1,11 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0|🇫🇷1 |  1.1MB/s
+  name: 0|🇫🇷4 |  1.3MB/s
   network: ws
   port: 443
   server: 8.219.206.22
+  servername: beyonddsz.cfd
   skip-cert-verify: false
   tls: true
   type: vmess
@@ -14,16 +15,8 @@ proxies:
       Host: beyonddsz.cfd
     path: /linkws
 - client-fingerprint: chrome
-  name: 0|🇫🇷2 |  2.8MB/s
-  password: 45b46edb-679b-4ea5-befd-88c05bb94f80
-  port: 2056
-  server: fr3.eyucdn.xyz
-  skip-cert-verify: true
-  sni: fr3.eyucdn.xyz
-  type: hysteria2
-- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|🇫🇷3 |  4.6MB/s
+  name: 0|🇫🇷2 |  3.3MB/s
   network: tcp
   port: 40072
   reality-opts:
@@ -36,7 +29,7 @@ proxies:
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 0|🇫🇷4 |  5.7MB/s
+  name: 0|🇫🇷3 |  4.2MB/s
   network: ws
   port: 2096
   server: whatismyipaddress.com
@@ -49,3 +42,11 @@ proxies:
     headers:
       Host: wwwspeedtestnetwhiteberinsistomd6625996s30.elitemizban.ir
     path: ''
+- client-fingerprint: chrome
+  name: 0|🇫🇷5 |  3.6MB/s
+  password: 45b46edb-679b-4ea5-befd-88c05bb94f80
+  port: 2056
+  server: fr3.eyucdn.xyz
+  skip-cert-verify: true
+  sni: fr3.eyucdn.xyz
+  type: hysteria2
