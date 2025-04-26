@@ -1,17 +1,42 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 0|🇭🇰1 |  1.0MB/s
-  network: tcp
-  port: 15229
-  server: 10fd33f4-sv4n40-tcq5zn-19qpt.cm.plebai.net
+- name: 0|🇭🇰1 |  6.1MB/s
+  password: ec6b43e1-a9a9-30af-a54e-274df6c5080b
+  port: 20294
+  server: gy.58n.net
   skip-cert-verify: true
+  sni: z294.hongkongnode.top
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 0|🇭🇰6 |  2.4MB/s
+  network: ws
+  port: 80
+  server: db663bf2-sv2sg0-sv7gs8-1lkbs.hk.p5pv.com
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d
-  ws-headers:
-    Host: 10fd33f4-sv4n40-tcq5zn-19qpt.cm.plebai.net
-  ws-path: /
+  uuid: 5a4c13ae-6673-11ee-a149-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: db663bf2-sv2sg0-sv7gs8-1lkbs.hk.p5pv.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 0|🇭🇰9 |  1.0MB/s
+  network: ws
+  port: 80
+  server: dbacca25-sv2sg0-sv0wpw-17xo8.hk.p5pv.com
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: b4e40aa2-74a1-11ed-b0b5-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: dbacca25-sv2sg0-sv0wpw-17xo8.hk.p5pv.com
+    path: /
 - client-fingerprint: chrome
   name: 10|🇭🇰 香港|@ripaojiedian
   network: ws
