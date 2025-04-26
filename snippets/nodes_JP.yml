@@ -1,36 +1,10 @@
 proxies:
 - cipher: aes-256-gcm
-  name: 0|🇯🇵2 |  4.4MB/s
+  name: 0|🇯🇵2 |  6.1MB/s
   password: amazonskr05
   port: 80
   server: 52.198.168.58
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 0|🇯🇵4 |  5.9MB/s
-  port: 3684
-  server: 02c32b60-sudhc0-sva30v-au6.d.volczijie.com
-  tls: false
-  type: vmess
-  uuid: 1b609740-eec2-11ef-8543-f23c93136cb3
-- alterId: 0
-  cipher: auto
-  name: 0|🇯🇵8 |  2.4MB/s
-  network: tcp
-  port: 17233
-  server: 3c984d30-svdwg0-t1bnjq-1krtb.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 0|🇯🇵12 |  2.1MB/s
-  network: tcp
-  port: 17233
-  server: a37e50db-svc1s0-t1bnjq-1krtb.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 10|🇯🇵 日本|@ripaojiedian
