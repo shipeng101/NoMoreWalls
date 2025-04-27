@@ -1,6 +1,30 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
+  name: 0|🇬🇧1 |  2.3MB/s
+  network: tcp
+  port: 49699
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: vip.jddns0202.top
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇬🇧2 |  2.0MB/s
+  network: tcp
+  port: 35311
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou02.mysynology.net
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 0,12|CN_speednode_0048
   network: tcp
   port: 65053
@@ -15,44 +39,44 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|🇬🇧2 |  3.9MB/s
+  name: 0|🇬🇧4 |  2.4MB/s
   network: tcp
-  port: 49699
+  port: 50123
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: vip.jddns0202.top
+  server: 84.32.41.200
   servername: www.amazon.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|🇬🇧3 |  5.1MB/s
+  name: 0|🇬🇧5 |  2.2MB/s
   network: tcp
-  port: 32055
+  port: 14659
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
-  servername: www.amazon.com
+  server: gysz0000.dynu.net
+  servername: www.nvidia.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: ''
+- client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 0|🇬🇧4 |  1.4MB/s
+  name: 0|🇬🇧6 |  1.9MB/s
   network: ws
   port: 443
-  server: 35.178.235.225
-  servername: uk.rtot.me
+  server: 172.66.47.92
+  servername: Work-YUU00.pageS.dEv
   tls: true
   type: vless
   udp: false
-  uuid: 00651706-0d2d-448b-80f2-7678f3e5187c
+  uuid: 49d4b99d-7d99-416a-9778-2c75d79100bb
   ws-opts:
     headers:
-      Host: uk.rtot.me
-    path: /bing
+      Host: work-yuu00.pages.dev
+    path: ''
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 12|GB_speednode_0058
