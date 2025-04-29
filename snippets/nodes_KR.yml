@@ -1,74 +1,22 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 0|🇰🇷1 |  2.4MB/s
-  network: tcp
-  port: 17232
-  server: 0356c0b3-svdwg0-t28b6o-ef48.cm5.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
-  ws-headers:
-    Host: 0356c0b3-svdwg0-t28b6o-ef48.cm5.p5pv.com
-  ws-path: /
 - cipher: aes-256-cfb
-  name: 0|🇰🇷2 |  6.1MB/s
+  name: 0|🇰🇷1 |  5.7MB/s
   password: qwerREWQ@@
-  port: 15098
-  server: p222.panda001.net
+  port: 60125
+  server: p225.panda004.net
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 0|🇰🇷3 |  2.8MB/s
-  network: tcp
-  port: 17232
-  server: 20986f4b-svfr40-t28b6o-ef48.cm5.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
-  ws-headers:
-    Host: 20986f4b-svfr40-t28b6o-ef48.cm5.p5pv.com
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 0|🇰🇷5 |  4.2MB/s
-  network: tcp
-  port: 17232
-  server: 79c77016-svhls0-t28b6o-ef48.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|🇰🇷6 |  5.4MB/s
+  name: 0|🇰🇷3 |  5.6MB/s
   password: qwerREWQ@@
   port: 30454
-  server: p229.panda004.net
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|🇰🇷7 |  5.0MB/s
-  password: qwerREWQ@@
-  port: 15098
-  server: 125.141.31.72
+  server: 125.141.26.14
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 0|🇰🇷8 |  3.8MB/s
+  name: 0|🇰🇷5 |  6.0MB/s
   password: qwerREWQ@@
-  port: 11389
-  server: 221.150.109.89
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|🇰🇷9 |  1.2MB/s
-  password: qwerREWQ@@
-  port: 3886
-  server: p241.panda004.net
+  port: 34669
+  server: p221.panda001.net
   tfo: true
   type: ss
   udp: true

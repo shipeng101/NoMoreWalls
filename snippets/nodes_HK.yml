@@ -2,19 +2,22 @@ proxies:
 - alterId: 0
   cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 0|🇭🇰10 |  4.7MB/s
+  name: 0|🇭🇰2 |  1.1MB/s
   password: ffc75281-6c9a-4cd7-8af6-aaa12eb7496f
   port: 30018
   server: 114.132.40.118
   skip-cert-verify: true
   tls: true
   type: ss
-- cipher: aes-256-gcm
-  name: 0|🇭🇰14 |  1.8MB/s
-  password: cf36df84-50ad-47fd-8cd3-ec443058d866
-  port: 65330
-  server: relay01.oceancloud.asia
-  type: ss
+- client-fingerprint: chrome
+  name: 0,10,11|香港4|@ripaojiedian
+  network: tcp
+  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
+  port: 8313
+  server: dozo01.flztjc.top
+  skip-cert-verify: false
+  sni: hk-13-568.flztjc.net
+  type: trojan
 - client-fingerprint: chrome
   name: 10|🇭🇰 香港|@ripaojiedian
   network: ws
@@ -44,15 +47,6 @@ proxies:
   server: hkkh11v1.xpmc.cc
   tfo: false
   type: ss
-- client-fingerprint: chrome
-  name: 10,11|香港4|@ripaojiedian
-  network: tcp
-  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
-  port: 8313
-  server: dozo01.flztjc.top
-  skip-cert-verify: false
-  sni: hk-13-568.flztjc.net
-  type: trojan
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
