@@ -1,7 +1,36 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0|🇺🇸1 |  1.9MB/s
+  name: 0|🇺🇸2 |  1.4MB/s
+  network: ws
+  port: 443
+  server: 443ip.yangmie.online
+  servername: shs111.kejixiaoqi666.store
+  tls: true
+  type: vmess
+  udp: true
+  uuid: f9e874d8-548b-4247-a484-d1f32fbd8b14
+  ws-opts:
+    headers:
+      Host: shs111.kejixiaoqi666.store
+    path: /
+- cipher: rc4-md5
+  name: 0|🇩🇪1 |  2.1MB/s
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 193.108.119.230
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 0|🇹🇼4 |  3.5MB/s
+  port: 3687
+  server: 4664f9a4-submo0-sv7alj-ctxx.a.fosant.com
+  tls: false
+  type: vmess
+  uuid: 4e84400e-f4bc-11ef-81b7-f23c932f2c32
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸6 |  1.0MB/s
   network: tcp
   port: 5229
   server: 6faf81e8-svdwg0-t1bnjq-1krtb.cu.plebai.net
@@ -14,36 +43,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 0|🇫🇷1 |  2.7MB/s
-  port: 17235
-  server: a842afb9-sutj40-suyhjm-1hhyy.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 0|🇸🇬2 |  2.7MB/s
-  port: 4135
-  server: db462a5d-sudhc0-syoixd-bm0y.d.volczijie.com
-  tls: false
-  type: vmess
-  uuid: fb8812ae-dcb5-11ef-a57d-f23c9313b177
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸12 |  3.4MB/s
-  network: tcp
-  port: 5228
-  server: b514723d-suz340-sw0fy8-4c42.cu.plebai.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 1758c288-c39d-3d20-f34f-f4c62bc1d8d4
-  ws-headers:
-    Host: b514723d-suz340-sw0fy8-4c42.cu.plebai.net
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸77 |  1.6MB/s
+  name: 0|🇺🇸7 |  2.4MB/s
   network: tcp
   port: 5229
   server: e890417c-svc1s0-t1bnjq-1krtb.cu.plebai.net
@@ -54,143 +54,53 @@ proxies:
   ws-headers:
     Host: e890417c-svc1s0-t1bnjq-1krtb.cu.plebai.net
   ws-path: /
-- cipher: aes-256-cfb
-  name: 0|🇰🇷1 |  5.8MB/s
-  password: qwerREWQ@@
-  port: 15098
-  server: 125.141.31.72
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 0|🇸🇬4 |  1.3MB/s
-  port: 4137
-  server: 120.233.64.140
-  tls: false
-  type: vmess
-  uuid: 03010754-faf0-11ef-a7c4-f23c9313b177
-- alterId: '0'
-  cipher: auto
-  name: 0|🇺🇸107 |  2.6MB/s
-  network: tcp
-  port: '5228'
-  server: 104a1dcf-sutj40-svgpxu-y2gs.cu.plebai.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b806b388-5f97-11ee-8014-f23c913c8d2b
-  ws-headers:
-    Host: 104a1dcf-sutj40-svgpxu-y2gs.cu.plebai.net
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸17 |  2.5MB/s
+  name: 0|🇺🇸9 |  2.3MB/s
   network: tcp
   port: 5228
-  server: 00c4bfe4-sunz40-t1tfcf-1o3sh.cu.plebai.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 96b3f2ee-5f66-11ee-804b-f23c9164ca5d
-  ws-headers:
-    Host: 00c4bfe4-sunz40-t1tfcf-1o3sh.cu.plebai.net
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸19 |  4.3MB/s
-  network: tcp
-  port: 5229
-  server: 0fad9e0f-svlb40-t1bnjq-1krtb.cu.plebai.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-  ws-headers:
-    Host: 0fad9e0f-svlb40-t1bnjq-1krtb.cu.plebai.net
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🇭🇰5 |  1.0MB/s
-  port: 4136
-  server: 8020e29c-submo0-t0t1z3-1qgn.d.volczijie.com
-  tls: false
-  type: vmess
-  uuid: 564b440a-700f-11ee-a90c-f23c9313b177
-- alterId: 0
-  cipher: auto
-  ip-version: dual
-  name: 0|🇺🇸21 |  2.2MB/s
-  network: tcp
-  port: 5228
-  server: cd04809b-sux8g0-t3f7qr-141tv.cu.plebai.net
-  type: vmess
-  udp: true
-  uuid: bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b
-- alterId: 0
-  cipher: auto
-  name: 0|🇯🇵7 |  1.1MB/s
-  port: 4151
-  server: d131cc2e-sukw00-sw1b1x-4550.c.volczijie.com
-  tls: false
-  type: vmess
-  uuid: 6286105c-fb6d-11ef-be96-f23c93136cb3
-- alterId: 0
-  cipher: auto
-  name: 0|🇸🇬5 |  1.0MB/s
-  port: 4137
-  server: a38c20dc-sudhc0-svm3vt-czv5.c.volczijie.com
-  tls: false
-  type: vmess
-  uuid: 82efba2c-f420-11ef-9529-f23c93141fad
-- alterId: 0
-  cipher: auto
-  name: 0|🇫🇷3 |  2.1MB/s
-  network: ws
-  port: 443
-  server: 129.151.254.48
-  servername: beyonddsz.cfd
-  tls: true
-  type: vmess
-  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
-  ws-opts:
-    headers:
-      Host: beyonddsz.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸23 |  4.4MB/s
-  network: tcp
-  port: 5228
-  server: 81167042-svhls0-swy6li-tni2.cu.plebai.net
+  server: 411b5601-svdwg0-swy6li-tni2.cu.plebai.net
   tls: false
   type: vmess
   uuid: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
 - alterId: 0
   cipher: auto
-  name: 0|🇺🇸24 |  4.0MB/s
-  port: 3695
-  server: 727846db-sudhc0-svm3vt-czv5.b.fosant.com
+  name: 0|🇺🇸10 |  1.9MB/s
+  port: 3693
+  server: 80808be8-sukw00-sw1b1x-4550.a.fosant.com
   tls: false
   type: vmess
-  uuid: 82efba2c-f420-11ef-9529-f23c93141fad
+  uuid: 6286105c-fb6d-11ef-be96-f23c93136cb3
+- alterId: 2
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|🇺🇸15 |  4.7MB/s
+  network: ws
+  port: 22642
+  server: tk.hzlt.tkddns.xyz
+  servername: tk.hzlt.tkddns.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-b.tkong.cc
+    path: /
 - alterId: 0
   cipher: auto
-  name: 0|🇫🇷4 |  1.1MB/s
-  port: 17235
-  server: a194ab3e-surog0-sy0g8x-1cc8s.cm5.p5pv.com
+  name: 0|🇺🇸16 |  2.0MB/s
+  network: tcp
+  port: 5228
+  server: 62511959-svjgg0-swy6li-tni2.cu.plebai.net
   tls: false
   type: vmess
-  uuid: 7e64224c-4c10-11ec-bd7c-f23c913c8d2b
+  uuid: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
 - alterId: 0
   cipher: auto
-  name: 0|🇸🇬6 |  1.7MB/s
-  port: 3683
-  server: 183.240.179.191
-  tls: false
-  type: vmess
-  uuid: a16d62f6-048d-11f0-af5a-f23c93136cb3
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸26 |  3.1MB/s
+  name: 0|🇺🇸17 |  2.4MB/s
   network: tcp
   port: 5228
   server: c6147365-svjgg0-t28b6o-ef48.cu.plebai.net
@@ -203,138 +113,57 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  ip-version: dual
-  name: 0|🇫🇷5 |  1.9MB/s
-  network: tcp
-  port: 17235
-  server: 04c77dd5-sux8g0-sv9of9-lys7.cm5.p5pv.com
-  type: vmess
-  udp: true
-  uuid: 18c0664c-74f1-11ee-b51e-f23c9164ca5d
-- alterId: '0'
-  cipher: auto
-  name: 0|🇺🇸83 |  4.9MB/s
-  network: tcp
-  port: '5228'
-  server: 89936472-svdwg0-t28b6o-ef48.cu.plebai.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
-  ws-headers:
-    Host: 89936472-svdwg0-t28b6o-ef48.cu.plebai.net
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🇹🇼6 |  5.9MB/s
-  port: 3687
-  server: 846f3279-submo0-syap8d-dbk8.a.fosant.com
-  tls: false
-  type: vmess
-  uuid: 45845d5e-0605-11f0-8cf9-f23c93136cb3
-- alterId: 0
-  cipher: auto
-  name: 0|🇯🇵12 |  1.2MB/s
+  name: 0|🌀4- |  1.3MB/s
   network: tcp
   port: 17233
-  server: 17bf3bb4-svjgg0-swy6li-tni2.cm5.p5pv.com
+  raw:
+    add: 69c584f2-suif40-tee612-2r82.cm5.p5pv.com
+    aid: 0
+    alpn: ''
+    fp: ''
+    host: ''
+    id: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
+    net: tcp
+    path: ''
+    port: 17233
+    ps: 1|🇯🇵7 |  5.7MB/s
+    scy: auto
+    sni: ''
+    tls: ''
+    type: none
+    v: '2'
+  server: 69c584f2-suif40-tee612-2r82.cm5.p5pv.com
+  servername: ''
   tls: false
   type: vmess
-  uuid: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 0|🇸🇬7 |  6.0MB/s
-  network: tcp
-  port: 17231
-  server: a0a40de3-suk9s0-t7mt0p-1sllg.cm5.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d6e1207c-f41a-11ef-9495-f23c91cfbbc9
-  ws-headers:
-    Host: a0a40de3-suk9s0-t7mt0p-1sllg.cm5.p5pv.com
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸41 |  1.7MB/s
-  port: 5228
-  server: 67149d44-sum4g0-t46yf9-e13q.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: 8d888b92-eec8-11ef-bca1-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸45 |  2.5MB/s
-  network: tcp
-  port: 5229
-  server: a1e2c206-svp0g0-ta64ri-1qzi1.cu.plebai.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 8f99107c-f091-11ee-9935-f23c9164ca5d
-  ws-headers:
-    Host: a1e2c206-svp0g0-ta64ri-1qzi1.cu.plebai.net
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🇸🇬8 |  3.3MB/s
-  port: 3683
-  server: 0a0ca27f-su7b40-tf38me-cum1.b.fosant.com
-  tls: false
-  type: vmess
-  uuid: 03010754-faf0-11ef-a7c4-f23c9313b177
-- alterId: 2
-  cipher: auto
-  name: 0|🇭🇰9 |  1.3MB/s
+  uuid: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
+- allowInsecure: ''
+  name: 0|🇺🇸21 |  1.9MB/s
   network: ws
-  port: 8080
-  server: c027a484-svlb40-szcku7-153sp.hk3.p5pv.com
-  servername: broadcastlv.chat.bilibili.com
+  password: 15b24b56-d667-4fa8-b548-f3dc942fb461
+  port: 443
+  server: 104.21.15.232
   skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 31ede2d8-3f22-11ef-b023-f23c9164ca5d
+  sni: ab2c7f0b-bf1b-4eb3-9884-256f4de3d.2030.pp.ua
+  tls: true
+  type: trojan
   ws-opts:
     headers:
-      Host: c027a484-svlb40-szcku7-153sp.hk3.p5pv.com
-    path: /
+      Host: ab2c7f0b-bf1b-4eb3-9884-256f4de3d.2030.pp.ua
+    path: /4p35eUnmGxQ8YJFJxz
 - alterId: 0
   cipher: auto
-  name: 0|🇸🇬9 |  3.0MB/s
-  port: 4137
-  server: d0f55eaf-submo0-t0t1z3-1qgn.c.volczijie.com
+  name: 0|🇭🇰2 |  1.3MB/s
+  port: 15228
+  server: 2a646fc6-sv0xs0-tevzxo-3e5b.cm.plebai.net
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: 564b440a-700f-11ee-a90c-f23c9313b177
+  uuid: b70f5316-cc87-11ed-ab19-f23c91cfbbc9
 - alterId: 0
   cipher: auto
-  name: 0|🇺🇸48 |  2.2MB/s
-  network: tcp
-  port: 5228
-  server: 6a483e32-svfr40-t28b6o-ef48.cu.plebai.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
-  ws-headers:
-    Host: 6a483e32-svfr40-t28b6o-ef48.cu.plebai.net
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸49 |  3.4MB/s
-  network: tcp
-  port: 5229
-  server: 73618903-svhls0-t1bnjq-1krtb.cu.plebai.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-  ws-headers:
-    Host: 73618903-svhls0-t1bnjq-1krtb.cu.plebai.net
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸53 |  1.2MB/s
+  name: 0|🇺🇸25 |  1.8MB/s
   network: tcp
   port: 5229
   server: 3bb8aaa7-suk9s0-swtza9-1q91p.cu.plebai.net
@@ -345,113 +174,26 @@ proxies:
   ws-headers:
     Host: 3bb8aaa7-suk9s0-swtza9-1q91p.cu.plebai.net
   ws-path: /
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 0|🇺🇸55 |  3.3MB/s
-  port: 5228
-  server: 8d3d7f83-suk9s0-sv6oiy-1p1b.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: 279b8588-616b-11ed-a8bf-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 0|🇭🇰11 |  2.0MB/s
-  port: 15228
-  server: 34cabfa3-surog0-tc9wl2-py5w.cm.plebai.net
-  tls: false
-  type: vmess
-  uuid: ae5338ae-9a70-58c9-3d47-7d54a5675715
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸57 |  2.4MB/s
-  port: 3693
-  server: 80808be8-sukw00-sw1b1x-4550.a.fosant.com
-  tls: false
-  type: vmess
-  uuid: 6286105c-fb6d-11ef-be96-f23c93136cb3
-- name: 0|🇭🇰12 |  4.8MB/s
-  password: b6200af42ccadea353f5b5856dd20d70
-  port: 39001
-  server: 120.233.128.68
-  skip-cert-verify: true
-  sni: 120.233.128.68
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸58 |  5.0MB/s
+  h2-opts: {}
+  http-opts: {}
+  name: 0|🇺🇸28 |  6.0MB/s
   network: ws
-  port: 443
-  server: ray.skymirror.cc
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
   skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: c99929e1-9c82-4a33-d11e-f177247b8f63
-  ws-headers:
-    Host: ray.skymirror.cc
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸59 |  4.0MB/s
-  port: 3693
-  server: aafb2de9-suh6o0-svqrrs-4cwg.a.fosant.com
-  tls: false
-  type: vmess
-  uuid: 03c1d503-4803-11ef-8f3d-f23c9313b177
-- alterId: 0
-  cipher: auto
-  name: 0|🇫🇷7 |  3.5MB/s
-  network: ws
-  port: 443
-  server: 172.67.154.84
-  skip-cert-verify: true
-  tfo: false
   tls: true
   type: vmess
   udp: true
-  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
   ws-opts:
     headers:
-      Host: irvideo.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 0|🇯🇵20 |  2.1MB/s
-  network: tcp
-  port: 17233
-  server: 7ab33995-svdwg0-swy6li-tni2.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
-- alterId: 2
-  cipher: auto
-  name: 0|🇭🇰13 |  3.0MB/s
-  network: ws
-  port: 8080
-  server: 36c38fee-svdwg0-swd5ff-f1v1.hk3.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 9cccea7a-b6ab-11eb-a0fc-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
+      Host: zxjp-a.tkong.cc
     path: /
-- cipher: aes-256-cfb
-  name: 0|🌀8- |  2.1MB/s
-  password: qwerREWQ@@
-  port: 11389
-  server: 221.150.109.89
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 0|🇺🇸61 |  2.8MB/s
-  network: tcp
-  port: 5228
-  server: 716545eb-sux8g0-t5oe1a-1ejod.cu.plebai.net
-  type: vmess
-  uuid: 6ada1622-e018-11ec-bb74-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 0|🇸🇬10 |  1.8MB/s
+  name: 0|🇸🇬2 |  1.3MB/s
   network: tcp
   port: 17231
   server: 5c460570-sux8g0-tbfsbm-nde6.cm5.p5pv.com
@@ -462,313 +204,166 @@ proxies:
   ws-headers:
     Host: 5c460570-sux8g0-tbfsbm-nde6.cm5.p5pv.com
   ws-path: /
-- name: 0|🇺🇸63 |  1.9MB/s
-  network: ws
-  password: 072f4db4-d89d-420d-9d9e-045ed8d5c9cc
-  port: 443
-  server: 104.21.57.88
-  skip-cert-verify: false
-  sni: 10tyu.iran.pp.ua
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 10tyu.iran.pp.ua
-    path: /VEP415T5mby2DulPWRIwOavJd
 - alterId: 0
   cipher: auto
-  name: 0|🇸🇬11 |  2.9MB/s
-  port: 4135
-  server: 55ae775c-sukw00-sw1e10-7yd9.d.volczijie.com
+  name: 0|🇺🇸33 |  2.5MB/s
+  port: 5228
+  server: b514723d-suz340-sw0fy8-4c42.cu.plebai.net
   tls: false
   type: vmess
-  uuid: 7f84fa90-9f44-11ef-ae1e-f23c93141fad
+  uuid: 1758c288-c39d-3d20-f34f-f4c62bc1d8d4
 - alterId: 0
   cipher: auto
-  name: 0|🇺🇸65 |  3.1MB/s
+  name: 0|🇯🇵6 |  1.7MB/s
+  port: 11555
+  server: 167.88.182.219
+  tls: false
+  type: vmess
+  uuid: c4968b1c-d71b-44be-f31e-ac231a2e828d
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸51 |  2.3MB/s
   network: tcp
   port: 5228
-  server: 87b134e3-svc1s0-t28b6o-ef48.cu.plebai.net
+  server: bff2da9a-svn5s0-swy6li-tni2.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸52 |  1.9MB/s
+  port: 5229
+  server: 05f88d3f-suk9s0-sxv16d-1k09w.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: 8de795d2-a06f-11ed-8edf-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸55 |  1.5MB/s
+  network: tcp
+  port: 5229
+  server: 9f1822ee-sum4g0-t4nd8s-wujn.cu.plebai.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+  ws-headers:
+    Host: 9f1822ee-sum4g0-t4nd8s-wujn.cu.plebai.net
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸61 |  1.3MB/s
+  network: tcp
+  port: 5228
+  server: 80d5143c-svfr40-swy6li-tni2.cu.plebai.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
+  ws-headers:
+    Host: 80d5143c-svfr40-swy6li-tni2.cu.plebai.net
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸65 |  1.5MB/s
+  port: 3695
+  server: 727846db-sudhc0-svm3vt-czv5.b.fosant.com
+  tls: false
+  type: vmess
+  uuid: 82efba2c-f420-11ef-9529-f23c93141fad
+- alterId: '0'
+  cipher: auto
+  name: 0|🇺🇸69 |  2.5MB/s
+  network: tcp
+  port: '5228'
+  server: 60077de0-svlb40-t28b6o-ef48.cu.plebai.net
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
   ws-headers:
-    Host: 87b134e3-svc1s0-t28b6o-ef48.cu.plebai.net
+    Host: 60077de0-svlb40-t28b6o-ef48.cu.plebai.net
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 0|🇰🇷3 |  1.8MB/s
-  port: 17232
-  server: 5a384b86-svhls0-t7h9gl-1q15s.cm5.p5pv.com
+  name: 0|🇺🇸71 |  1.9MB/s
+  network: tcp
+  port: 5228
+  server: 81167042-svhls0-swy6li-tni2.cu.plebai.net
   tls: false
   type: vmess
-  uuid: 11303a62-9a33-11ee-be7f-f23c9164ca5d
+  uuid: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
 - alterId: 0
   cipher: auto
-  name: 0|🇺🇸67 |  2.9MB/s
+  name: 0|🇺🇸73 |  2.6MB/s
+  network: tcp
+  port: 5228
+  server: 104a1dcf-sutj40-svgpxu-y2gs.cu.plebai.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b806b388-5f97-11ee-8014-f23c913c8d2b
+  ws-headers:
+    Host: 104a1dcf-sutj40-svgpxu-y2gs.cu.plebai.net
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸76 |  2.2MB/s
+  network: tcp
+  port: 5228
+  server: 1c265908-svn5s0-t28b6o-ef48.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸80 |  1.9MB/s
+  network: tcp
+  port: 5228
+  server: 1449f183-svhls0-t28b6o-ef48.cu.plebai.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
+  ws-headers:
+    Host: 1449f183-svhls0-t28b6o-ef48.cu.plebai.net
+  ws-path: /
+- alterId: 2
+  cipher: auto
+  name: 0|🇺🇸82 |  4.3MB/s
+  network: ws
+  port: 22643
+  server: tk.hzlt.tkddns.xyz
+  servername: zxjp-c.tkong.cc
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-c.tkong.cc
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸84 |  2.4MB/s
   network: tcp
   port: 5229
   server: 3009e36d-svn5s0-t1bnjq-1krtb.cu.plebai.net
   tls: false
   type: vmess
   uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇨🇦3 |  1.3MB/s
-  password: VekzIVJwbk1f
-  port: 443
-  server: 147.45.177.65
-  tfo: false
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 0|🇺🇸68 |  3.7MB/s
-  port: 5229
-  server: 8705693f-sv8cg0-t35mzx-1pp0x.cu.plebai.net
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 7734370a-8480-11ee-ab76-f23c91cfbbc9
-- country: 🇩🇪DE
-  name: 0|🌀12- |  4.6MB/s
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 18.193.90.151
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 0|🇯🇵23 |  1.7MB/s
-  network: ws
-  port: 35213
-  server: jp3.g2.moonbase.life
-  servername: web.xcjs.info
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 46a539d2-d3ba-4a6e-aedb-b727d2fc60f8
-  ws-opts:
-    headers:
-      Host: web.xcjs.info
-    path: /home
-- alterId: 0
-  cipher: auto
-  name: 0|🇸🇬12 |  1.6MB/s
-  network: tcp
-  port: 17231
-  server: 13806907-svc1s0-swy6li-tni2.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 0|🇸🇬13 |  2.3MB/s
-  port: 3683
-  server: fc1bb096-suh6o0-svqrrs-4cwg.b.fosant.com
-  tls: false
-  type: vmess
-  uuid: 03c1d503-4803-11ef-8f3d-f23c9313b177
-- alterId: 2
-  cipher: auto
-  name: 0|🇭🇰16 |  1.1MB/s
-  network: ws
-  port: 455
-  server: 3510b612-svlxc0-sw531k-aqho.hkt.east.wctype.com
-  tls: false
-  type: vmess
-  uuid: bca0b2c8-1908-11f0-afbe-f23c932f2c32
-  ws-opts:
-    headers:
-      Host: a605477178.m.ctrip.com
-    path: /
-- cipher: aes-256-cfb
-  name: 0|🌀13-VN |  2.9MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.20
-  tfo: true
-  type: ss
-  udp: true
-- name: 0|🇹🇼16 |  1.4MB/s
-  password: ef23ddd0-14c5-39c2-9880-af55ce892363
-  port: 51121
-  server: t4.qifei.app
-  skip-cert-verify: true
-  sni: t4.qifei.app
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 0|🇯🇵24 |  1.9MB/s
-  port: 4151
-  server: 87b6c700-sukw00-sw1e10-7yd9.c.volczijie.com
-  tls: false
-  type: vmess
-  uuid: 7f84fa90-9f44-11ef-ae1e-f23c93141fad
-- alterId: 0
-  cipher: auto
-  name: 0|🇯🇵25 |  2.9MB/s
-  port: 11555
-  server: 167.88.182.219
-  tls: false
-  type: vmess
-  uuid: c4968b1c-d71b-44be-f31e-ac231a2e828d
-- alterId: 2
-  cipher: auto
-  name: 0|🇺🇸79 |  3.3MB/s
-  network: ws
-  port: 30829
-  server: v29.heduian.link
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: ocbc.com
-    path: /oooo
-- alterId: 2
-  cipher: auto
-  name: 0|🇭🇰17 |  2.2MB/s
-  network: ws
-  port: 8102
-  server: 3e1c8931-svhls0-t4yfev-1rz31.wtt5.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7699767c-44ae-11ef-80c7-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🇸🇬14 |  1.2MB/s
-  port: 17231
-  server: 9e083647-sv2sg0-t35mzx-1pp0x.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 7734370a-8480-11ee-ab76-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 0|🇹🇼19 |  5.5MB/s
-  port: 3687
-  server: 1cea2198-sukw00-sv3y7m-1glq.a.fosant.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: df7bed3c-06eb-11f0-8ebc-f23c93141fad
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸80 |  3.5MB/s
-  network: tcp
-  port: 5229
-  server: fb79be22-svfr40-t1bnjq-1krtb.cu.plebai.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-  ws-headers:
-    Host: fb79be22-svfr40-t1bnjq-1krtb.cu.plebai.net
-  ws-path: /
-- alterId: '0'
-  cipher: auto
-  name: 0|🇺🇸81 |  2.6MB/s
-  network: tcp
-  port: '5229'
-  server: 05f88d3f-suk9s0-sxv16d-1k09w.cu.plebai.net
-  type: vmess
-  uuid: 8de795d2-a06f-11ed-8edf-f23c913c8d2b
-- alterId: 0
-  cipher: auto
-  name: 0|🇯🇵26 |  1.4MB/s
-  port: 4151
-  server: d0f55eaf-submo0-t0t1z3-1qgn.c.volczijie.com
-  tls: false
-  type: vmess
-  uuid: 564b440a-700f-11ee-a90c-f23c9313b177
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸84 |  2.8MB/s
-  port: 5229
-  server: 5d38531f-sum4g0-svq8ok-ebxr.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: 5cfde7fa-ed1b-11ef-b5d9-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 0|🇹🇼20 |  1.6MB/s
+  name: 0|🇹🇼17 |  1.3MB/s
   port: 3687
   server: e8defb00-su7xc0-tf3uue-cum1.a.fosant.com
   tls: false
   type: vmess
   uuid: 03010754-faf0-11ef-a7c4-f23c9313b177
-- alterId: 0
-  cipher: auto
-  name: 0|🇯🇵28 |  6.4MB/s
-  port: 11667
-  server: 167.88.182.219
-  tls: false
-  type: vmess
-  uuid: d4096144-32f1-424e-9b67-940186f35395
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸89 |  3.3MB/s
-  port: 5229
-  server: 05f88d3f-suk9s0-sxv16d-1k09w.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: 8de795d2-a06f-11ed-8edf-f23c913c8d2b
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸91 |  3.6MB/s
-  network: ws
-  port: 443
-  server: ray.skymirror.cc
-  servername: ray.skymirror.cc
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: c99929e1-9c82-4a33-d11e-f177247b8f63
-  ws-opts:
-    headers:
-      Host: ray.skymirror.cc
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸93 |  2.1MB/s
-  network: tcp
-  port: 5228
-  server: 411b5601-svdwg0-swy6li-tni2.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
-- cipher: chacha20-ietf
-  name: 0|🇺🇸96 |  2.2MB/s
-  password: asd123456
-  port: 8388
-  server: 103.36.91.32
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 0|🇯🇵29 |  1.5MB/s
-  network: tcp
-  port: 17233
-  server: 2c7f0fc0-svlb40-t1bnjq-1krtb.cm5.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-  ws-headers:
-    Host: 2c7f0fc0-svlb40-t1bnjq-1krtb.cm5.p5pv.com
-  ws-path: /
 - alterId: 2
   cipher: auto
-  name: 0|🇭🇰19 |  4.0MB/s
+  name: 0|🇭🇰8 |  1.9MB/s
   network: ws
   port: 8080
   server: c027a484-svlb40-szcku7-153sp.hk3.p5pv.com
@@ -779,27 +374,94 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
+- alterId: '0'
+  cipher: auto
+  name: 0|🇺🇸86 |  1.6MB/s
+  network: tcp
+  port: '5229'
+  server: 05f88d3f-suk9s0-sxv16d-1k09w.cu.plebai.net
+  type: vmess
+  uuid: 8de795d2-a06f-11ed-8edf-f23c913c8d2b
 - alterId: 0
   cipher: auto
-  name: 0|🇭🇰20 |  3.6MB/s
+  name: 0|🇺🇸87 |  1.9MB/s
+  network: tcp
+  port: 5228
+  server: 6a483e32-svfr40-t28b6o-ef48.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸88 |  1.6MB/s
+  port: 5229
+  server: 5d38531f-sum4g0-svq8ok-ebxr.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: 5cfde7fa-ed1b-11ef-b5d9-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 0|🇫🇷2 |  1.1MB/s
+  port: 17235
+  server: 79e892f2-sv2sg0-t6eg6k-1pckg.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 526a1128-7487-11ee-9bca-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸92 |  3.4MB/s
+  network: tcp
+  port: 5228
+  server: 716545eb-sux8g0-t5oe1a-1ejod.cu.plebai.net
+  type: vmess
+  uuid: 6ada1622-e018-11ec-bb74-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸94 |  2.2MB/s
+  port: 3693
+  server: aafb2de9-suh6o0-svqrrs-4cwg.a.fosant.com
+  tls: false
+  type: vmess
+  uuid: 03c1d503-4803-11ef-8f3d-f23c9313b177
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸95 |  1.6MB/s
+  network: tcp
+  port: 5229
+  server: b3e1a577-svjgg0-t1bnjq-1krtb.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  ip-version: dual
+  name: 0|🇭🇰9 |  1.2MB/s
   network: tcp
   port: 15229
-  server: fc4de86a-sv8cg0-sv995i-xz4l.cm.plebai.net
-  skip-cert-verify: true
+  server: f00627fb-sva740-sv995i-xz4l.cm.plebai.net
   tls: false
   type: vmess
   uuid: 8c3ef4c2-980d-11ef-add7-f23c913c8d2b
-  ws-headers:
-    Host: fc4de86a-sv8cg0-sv995i-xz4l.cm.plebai.net
-  ws-path: /
 - alterId: 0
   cipher: auto
-  name: 0|🇸🇬16 |  1.8MB/s
-  port: 4135
-  server: e0ee2db1-submo0-su9w3p-4mce.d.volczijie.com
+  ip-version: dual
+  name: 0|🇰🇷3 |  1.4MB/s
+  network: tcp
+  port: 17232
+  server: 33e096fb-sva740-sxnljm-1jr1u.cm5.p5pv.com
   tls: false
   type: vmess
-  uuid: 06c625ea-5902-11ee-9e87-f23c9313b177
+  uuid: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
+- alterId: 0
+  cipher: auto
+  name: 0|🇰🇷4 |  2.0MB/s
+  port: 17232
+  server: b79d3418-sux8g0-swe4j1-1rfon.cm5.p5pv.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: aed1cc24-351d-11ef-ba52-f23c9164ca5d
 - name: 10|🇭🇰 香港|@ripaojiedian
   network: ws
   password: a38c9e28-9960-4e31-9f18-ed2495a756aa
@@ -1021,80 +683,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 12|CN_speednode_0004
-  password: b3e04208-2162-47a4-9720-01f9870b2a3c
-  port: 27401
-  server: 183.2.150.64
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 12|CN_speednode_0005
-  password: 5c634f9c-3dd4-4d3e-97c2-9db2470cf722
-  port: 34015
-  server: bgp5.jssssss.com
-  skip-cert-verify: false
-  sni: jsygouer.weixin-baidu-qq.com
-  type: trojan
-  udp: true
-- name: 12|CN_speednode_0007
-  password: 3f0d1127-28d5-42b3-bcb7-e8767f033a2b
-  port: 43395
-  server: aafrtpfxr.thl01i9zjfegelp.5xfsur8v62.gosdk.xyz
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 12|CN_speednode_0008
-  password: 229f4499-8057-453b-8997-9f91fd5f95a5
-  port: 27102
-  server: 183.2.150.64
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 12|CN_speednode_0009
-  password: 3f0d1127-28d5-42b3-bcb7-e8767f033a2b
-  port: 27103
-  server: aafrtpfxr.hkl04i9zjfegelp.5xfsur8v62.gosdk.xyz
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 12|CN_speednode_0013
-  password: e47af2c3-5500-4dea-a4ae-6f0ea48c2e73
-  port: 19574
-  server: nc.cm.xiaomi-api.xyz
-  skip-cert-verify: true
-  sni: nc.cm.xiaomi-api.xyz
-  type: trojan
-  udp: true
-- name: 12|CN_speednode_0018
-  password: 3f0d1127-28d5-42b3-bcb7-e8767f033a2b
-  port: 27002
-  server: aafrtpfxr.jpl02i9zjfegelp.5xfsur8v62.gosdk.xyz
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 12|JP_speednode_0028
-  password: 05f1368b-1743-48a3-b2a5-56343e64e7be
-  port: 443
-  server: sg.lyyyds.club
-  skip-cert-verify: false
-  sni: sg.lyyyds.club
-  type: trojan
-  udp: true
-- name: 12|US_speednode_0160
-  network: ws
-  password: '123'
-  port: 2053
-  server: 104.24.92.207
-  skip-cert-verify: true
-  sni: epeius001-ea1.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epeius001-ea1.pages.dev
-    path: /?ed=2560

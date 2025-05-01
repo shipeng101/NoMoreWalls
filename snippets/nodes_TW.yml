@@ -1,35 +1,15 @@
 proxies:
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 0|🇹🇼6 |  5.9MB/s
+  name: 0|🇹🇼4 |  3.5MB/s
   port: 3687
-  server: 846f3279-submo0-syap8d-dbk8.a.fosant.com
+  server: 4664f9a4-submo0-sv7alj-ctxx.a.fosant.com
   tls: false
   type: vmess
-  uuid: 45845d5e-0605-11f0-8cf9-f23c93136cb3
-- client-fingerprint: chrome
-  name: 0|🇹🇼16 |  1.4MB/s
-  password: ef23ddd0-14c5-39c2-9880-af55ce892363
-  port: 51121
-  server: t4.qifei.app
-  skip-cert-verify: true
-  sni: t4.qifei.app
-  type: trojan
+  uuid: 4e84400e-f4bc-11ef-81b7-f23c932f2c32
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 0|🇹🇼19 |  5.5MB/s
-  port: 3687
-  server: 1cea2198-sukw00-sv3y7m-1glq.a.fosant.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: df7bed3c-06eb-11f0-8ebc-f23c93141fad
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 0|🇹🇼20 |  1.6MB/s
+  name: 0|🇹🇼17 |  1.3MB/s
   port: 3687
   server: e8defb00-su7xc0-tf3uue-cum1.a.fosant.com
   tls: false
