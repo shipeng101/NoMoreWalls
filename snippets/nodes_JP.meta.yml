@@ -440,6 +440,14 @@ proxies:
   server: 103.140.136.242
   tfo: false
   type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 10|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 47.129.143.102
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 11|日本5|@ripaojiedian

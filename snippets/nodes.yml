@@ -866,6 +866,13 @@ proxies:
     headers:
       Host: zxjp-c.tkong.cc
     path: /
+- cipher: aes-256-cfb
+  name: 10|tg频道:@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 43.201.55.5
+  tfo: false
+  type: ss
 - name: 10|🇭🇰 香港|@ripaojiedian
   network: ws
   password: a38c9e28-9960-4e31-9f18-ed2495a756aa
@@ -931,8 +938,7 @@ proxies:
   tls: false
   type: vmess
   uuid: f6866b0b-f946-4a03-8df0-c7e0016b55ad
-- name: 10,11|台湾2|@ripaojiedian
-  network: tcp
+- name: 10|🇹🇼 台湾2|@ripaojiedian
   password: e31da126-e127-46a1-abc2-9db20eea3f5d
   port: 27202
   server: 58.254.186.231
@@ -981,6 +987,13 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇸🇬 新加坡2|@ripaojiedian
+  password: 04a3ce12-5889-477f-a0b6-dbdee2ae198b
+  port: 5021
+  server: blog.andnsqd.com
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸 美国|@ripaojiedian
@@ -1018,6 +1031,27 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
+- cipher: aes-256-cfb
+  name: 10|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 47.129.143.102
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: 10|🇰🇷 韩国特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.251.192.191
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: 10|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 18.141.239.83
+  tfo: false
+  type: ss
 - name: 11|香港|@ripaojiedian
   network: ws
   password: a38c9e28-9960-4e31-9f18-ed2495a756aa
@@ -1029,16 +1063,6 @@ proxies:
     headers:
       Host: vt-bana2-cn-11.ghpgwqswodgzv.com
     path: '%2Fdl_media'
-- alterId: 0
-  cipher: auto
-  name: 11|香港5|@ripaojiedian
-  network: tcp
-  port: '41291'
-  server: 183.236.51.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 11|香港6|@ripaojiedian
