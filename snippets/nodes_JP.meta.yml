@@ -424,6 +424,14 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 10|🇯🇵 日本3|@ripaojiedian
+  password: 887306f3-af8c-472e-b6e0-e7dcf970a4f0
+  port: 44721
+  server: jsyd.piaomiaoxu.net
+  tfo: false
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 10|🇯🇵 日本2|@ripaojiedian
@@ -440,6 +448,28 @@ proxies:
   server: 137.220.142.140
   tfo: false
   type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 10|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.180.136.120
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11|日本3|@ripaojiedian
+  network: ws
+  port: '35246'
+  server: jp6.vip2.g2.moonbase.life
+  servername: web.xcjs.info
+  tls: true
+  type: vmess
+  uuid: c3136814-a07e-41f6-ad94-8e20458c0d21
+  ws-opts:
+    headers:
+      Host: web.xcjs.info
+    path: /home
 - alterId: 0
   cipher: auto
   name: 11|日本5|@ripaojiedian
@@ -450,3 +480,28 @@ proxies:
   tls: false
   type: vmess
   uuid: 07287360-e12f-4f94-9c7a-54386c100d8a
+- name: 11|日本4|@ripaojiedian
+  network: ws
+  password: ouo
+  port: 443
+  server: 18.183.158.211
+  sni: tr.koxok.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tr.koxok.us.kg
+    path: '%2F%3Fed%3D2560'
+- alterId: 0
+  cipher: auto
+  name: 11|日本6|@ripaojiedian
+  network: ws
+  port: '35216'
+  server: jp6.g2.moonbase.life
+  servername: web.xcjs.info
+  tls: true
+  type: vmess
+  uuid: c3136814-a07e-41f6-ad94-8e20458c0d21
+  ws-opts:
+    headers:
+      Host: web.xcjs.info
+    path: /home

@@ -155,13 +155,20 @@ proxies:
     headers:
       Host: vt-bana2-cn-11.ghpgwqswodgzv.com
     path: '%2Fdl_media'
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 11|香港6|@ripaojiedian
+  name: 11|香港5|@ripaojiedian
   network: tcp
-  port: '42375'
-  server: 120.198.71.214
+  port: '59082'
+  server: 120.232.153.40
   servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 11|香港6|@ripaojiedian
+  network: tcp
+  password: 799964a2-2a62-4b62-93a9-1f9ab4e87eb8
+  port: 27101
+  server: 58.254.186.222
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
