@@ -72,7 +72,7 @@ proxies:
   skip-cert-verify: false
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
-- name: 12|SG_speednode_0033
+- name: 12|SG_speednode_0020
   network: ws
   port: 40029
   server: 43.128.95.110
@@ -86,7 +86,7 @@ proxies:
     headers:
       Host: 111.workerscf.dpdns.org
     path: /?ed=2560
-- name: 12|SG_speednode_0034
+- name: 12|SG_speednode_0021
   network: ws
   password: Aimer
   port: 8443

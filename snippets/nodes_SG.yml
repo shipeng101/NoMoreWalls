@@ -34,7 +34,7 @@ proxies:
   skip-cert-verify: false
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
-- name: 12|SG_speednode_0034
+- name: 12|SG_speednode_0021
   network: ws
   password: Aimer
   port: 8443
