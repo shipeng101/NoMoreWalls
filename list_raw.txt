@@ -239,8 +239,8 @@ vless://794f9f41-92c9-4a78-8ffc-1f82cb48a4e2@160.79.104.113:443?allowInsecure=0&
 vless://da5d2d40-df2c-49fb-a3be-77f0f0299d23@104.24.236.108:443?allowInsecure=0&sni=520588.xyz&type=ws&host=520588.xyz&path=/security=tls#12%7CUS_speednode_0037
 vless://a73cf704-008c-439b-8a22-8b693a9e3104@162.159.153.245:2087?allowInsecure=0&sni=lyxahh316.dpdns.org&type=ws&host=lyxahh316.dpdns.org&path=/security=tls#12%7CUS_speednode_0038
 vless://b5540249-9ac4-4037-aacd-79c71052864f@170.114.46.6:80?allowInsecure=0&sni=free.pranithsandaruwan.cfd&type=ws&host=free.pranithsandaruwan.cfd&path=/#12%7CUS_speednode_0039
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0NWM1ZTAxN2ZlNWQ@104.233.168.10:30410?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bpath%3D%2Faqhncbnk%3Bhost%3Djpxx01v9.yiyi.design%3Btls#%E6%97%A5%E6%9C%AC2%7C%40ripaojiedian
+https://R1OlXb.absslk.xyz/091fa6e1fad6abd7ec284d12474857fc
 ss://cmM0LW1kNTplZmFuY2N5dW4@cn01.efan8867801.xyz:8766?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D202505041454917-UsWiINM30i.download.microsoft.com#%E6%97%A5%E6%9C%AC%7C%40ripaojiedian
-https://ZJBhoQ.mcsslk.xyz/56c70492e4a177a3d20eecbc9325e9aa
-https://G1iuh0.absslk.xyz/d985653e44375afdd6cb33a175e89ca3
+https://XYICnU.mcsslk.xyz/012f32f0c81776dd9724cbb602c459c3
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0NWM1ZTAxN2ZlNWQ@104.233.168.10:30410?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bpath%3D%2Faqhncbnk%3Bhost%3Djpxx01v9.yiyi.design%3Btls#%E6%97%A5%E6%9C%AC2%7C%40ripaojiedian
 ss://cmM0LW1kNTplZmFuY2N5dW4@cn01.efan8867801.xyz:8774?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D202505041454917-UsWiINM30i.download.microsoft.com#%E7%BE%8E%E5%9B%BD2%7C%40ripaojiedian
