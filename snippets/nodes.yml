@@ -1116,15 +1116,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 07287360-e12f-4f94-9c7a-54386c100d8a
-- name: 12|CN_speednode_0007
-  password: b6200af42ccadea353f5b5856dd20d70
-  port: 39001
-  server: 113.99.140.184
-  skip-cert-verify: true
-  sni: 113.99.140.184
-  type: trojan
-  udp: true
-- name: 12|SG_speednode_0021
+- name: 12|SG_speednode_0015
   network: ws
   password: Aimer
   port: 8443
