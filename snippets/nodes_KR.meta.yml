@@ -130,7 +130,7 @@ proxies:
     headers:
       host: cz.ylks0033.dpdns.org
     path: /?ed=2560
-- name: 12|KR_speednode_0029
+- name: 12|KR_speednode_0019
   network: ws
   port: 12365
   server: 220.120.172.116

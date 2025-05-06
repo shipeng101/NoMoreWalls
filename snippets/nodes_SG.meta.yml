@@ -80,25 +80,9 @@ proxies:
     headers:
       Host: web.xcjs.info
     path: /home
-- name: 12|SG_speednode_0036
-  password: '!!str 74260667533381300'
-  port: 443
-  server: just-buck.shiner427.skin
-  skip-cert-verify: true
-  sni: just-buck.shiner427.skin
-  type: trojan
-  udp: true
-- name: 12|SG_speednode_0037
-  password: '!!str 74260667533381300'
-  port: 443
-  server: loving-piranha.shiner427.skin
-  skip-cert-verify: false
-  sni: loving-piranha.shiner427.skin
-  type: trojan
-  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 12|SG_speednode_0038
+  name: 12|SG_speednode_0023
   port: 443
   reality-opts:
     public-key: USd1Iznfu9nwnvIfz5CPcrnhXoQX1e1C1fCPNB9mbAk
@@ -110,19 +94,3 @@ proxies:
   type: vless
   udp: true
   uuid: 9466263a-4b8e-4647-99b2-d2a363f001cd
-- name: 12|SG_speednode_0039
-  password: '!!str 74260667533381300'
-  port: 443
-  server: live-serval.shiner427.skin
-  skip-cert-verify: false
-  sni: live-serval.shiner427.skin
-  type: trojan
-  udp: true
-- name: 12|SG_speednode_0040
-  password: '!!str 74260667533381300'
-  port: 443
-  server: crucial-mustang.shiner427.skin
-  skip-cert-verify: true
-  sni: crucial-mustang.shiner427.skin
-  type: trojan
-  udp: true
