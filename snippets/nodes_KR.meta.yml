@@ -130,10 +130,10 @@ proxies:
     headers:
       host: cz.ylks0033.dpdns.org
     path: /?ed=2560
-- name: 12|KR_speednode_0011
+- name: 12|KR_speednode_0042
   network: ws
-  port: 12416
-  server: 121.174.200.92
+  port: 12365
+  server: 220.120.172.116
   servername: miku.mikuru.ip-ddns.com
   skip-cert-verify: true
   tls: true
