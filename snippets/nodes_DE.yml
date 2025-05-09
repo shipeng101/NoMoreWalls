@@ -1,1 +1,16 @@
-proxies: []
+proxies:
+- alpn:
+  - h3
+  client-fingerprint: chrome
+  name: 0|🇩🇪3 |  4.4MB/s|21%|Disney|Yout...
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: 35.201.203.106
+  skip-cert-verify: true
+  sni: skwygx.top
+  type: trojan
+  ws-opts:
+    headers:
+      Host: skwygx.top
+    path: /tr?ed=2560
