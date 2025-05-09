@@ -1,1 +1,17 @@
-proxies: []
+proxies:
+- cipher: chacha20-ietf-poly1305
+  ip-version: dual
+  name: 0|🇩🇪1 |  2.3MB/s|0%|Netflix|Yout...
+  password: 67dYfi1uAv2ZTxXvLoek39
+  port: 33133
+  server: 66.151.41.89
+  type: ss
+  udp: true
+- delay: 2144
+  name: 0|🇩🇪24 |  1.2MB/s|64%|Youtube|Op...
+  password: RlzoEILU
+  port: 7789
+  server: 36.151.251.61
+  skip-cert-verify: true
+  type: trojan
+  udp: true

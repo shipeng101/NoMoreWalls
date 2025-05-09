@@ -1,4 +1,22 @@
 proxies:
+- client-fingerprint: chrome
+  flow: none
+  name: 0|🇸🇬1 |  5.3MB/s|Youtube|Openai|...
+  network: ws
+  port: '2096'
+  server: 141.193.213.21
+  servername: premium.vkehi.shop
+  tls: true
+  type: vless
+  udp: true
+  uuid: 93be59b7-ebce-4aec-8e66-4470e06e58ae
+  ws-opts:
+    headers:
+      Host: premium.vkehi.shop
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: '%2F'
+  xudp: true
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -16,25 +34,28 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- client-fingerprint: chrome
-  name: 10,11|新加坡2|@ripaojiedian
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 10|🇸🇬 狮城特殊|@ripaojiedian
+  password: awsps0501
+  port: 443
+  server: 52.27.142.2
+  tfo: false
+  type: ss
+- name: 11|新加坡2|@ripaojiedian
   network: tcp
   password: ce44b416-2d7e-49af-aa40-5a61d45f6fcc
   port: 27401
   server: 58.254.186.222
-  skip-cert-verify: false
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 10,11|新加坡3|@ripaojiedian
+  name: 11|新加坡3|@ripaojiedian
   network: ws
   port: '35146'
   server: sg6.vip2.g2.moonbase.life
   servername: web.xcjs.info
-  skip-cert-verify: false
-  tfo: false
   tls: true
   type: vmess
   uuid: c3136814-a07e-41f6-ad94-8e20458c0d21
