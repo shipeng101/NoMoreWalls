@@ -1,13 +1,8 @@
 proxies:
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 0|🇩🇪2 |  1.5MB/s|34%|Openai
-  network: tcp
-  password: telegram-id-directvpn
-  port: '22223'
-  server: 18.157.170.126
-  skip-cert-verify: false
-  sni: trojan.burgerip.co.uk
-  type: trojan
+- cipher: rc4-md5
+  name: 0|🇩🇪2 |  2.8MB/s|100%|Openai
+  password: 14fFPrbezE3HDZzsMOr6
+  port: '8080'
+  server: 193.108.119.230
+  type: ss
   udp: true
