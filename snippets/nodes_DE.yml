@@ -1,27 +1,9 @@
 proxies:
 - alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: randomized
-  name: 0|🇩🇪4 |  1.8MB/s|21%|Disney|Open...
-  network: ws
-  password: T@_WvT8Ho@LW%w_,
-  port: '2053'
-  server: 172.66.47.42
-  skip-cert-verify: false
-  sni: NOp-55q.pAgEs.dEv
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /trGPZDfetEwuO25SAs?ed=2560
-- alpn:
   - ''
   alterId: '0'
   cipher: auto
-  name: 0|🇩🇪14 |  3.6MB/s|45%|Openai
+  name: 0|🇩🇪5 |  5.3MB/s|45%|Openai
   network: ws
   port: '443'
   server: cloudgetservice.mcloudservice.site
@@ -38,3 +20,10 @@ proxies:
     max-early-data: 2560
     path: /linkws
   xudp: true
+- cipher: rc4-md5
+  name: 0|🇩🇪14 |  3.9MB/s|100%|Youtube|O...
+  password: 14fFPrbezE3HDZzsMOr6
+  port: '8080'
+  server: 193.108.119.230
+  type: ss
+  udp: true
