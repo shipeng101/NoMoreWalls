@@ -1,7 +1,41 @@
 proxies:
-- client-fingerprint: chrome
+- delay: 713
+  down: ''
+  fingerprint: ''
+  name: 0|🇷🇺1 |  1.9MB/s|0%
+  obfs: ''
+  obfs-password: ''
+  password: dongtaiwang.com
+  port: 10011
+  server: 46.29.163.171
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  up: ''
+- delay: 699
+  down: ''
+  fingerprint: ''
+  name: 0|🇷🇺2 |  4.4MB/s|50%|Youtube
+  obfs: ''
+  obfs-password: ''
+  password: dongtaiwang.com
+  port: 10011
+  server: 46.17.41.217
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  up: ''
+- auth: dongtaiwang.com
+  name: 0|🇷🇺3 |  2.0MB/s|50%|Youtube
+  password: dongtaiwang.com
+  port: 12904
+  server: 46.17.41.5
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria2
+- delay: 765
   fast-open: true
-  name: 0|🇷🇺1 |  2.5MB/s|0%
+  name: 0|🇷🇺4 |  2.3MB/s|0%
   password: dongtaiwang.com
   port: 10011
   server: hy2.694463.xyz
