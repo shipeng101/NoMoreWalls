@@ -1,4 +1,66 @@
 proxies:
+- name: 0,12|JP_speednode_0044
+  password: cacb4d4fa26f4eed25e4d17a6370083c
+  port: 443
+  server: tky03.sqx001.com
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: dmpyoary@mayorlogistic.com
+- name: 0,12|US_speednode_0102
+  network: ws
+  port: 80
+  server: 185.148.106.32
+  servername: ipsycho.suex12.ir
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: ipsycho.suex12.ir
+    path: /re5IzbZ9IZZMddtw?ed=2560
+- cipher: aes-256-gcm
+  name: 0|🇯🇵3 |  1.2MB/s|13%|Netflix|Dis...
+  password: 423cf642-6528-410c-b542-2aae04113d33
+  port: '11528'
+  server: cdn-p1-jp.weibo-dns.com
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 0|🇯🇵4 |  2.4MB/s|64%|Netflix|Dis...
+  password: 423cf642-6528-410c-b542-2aae04113d33
+  port: '11504'
+  server: cdn-p1-jp.weibo-dns.com
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 0|🇯🇵5 |  5.8MB/s|34%|Youtube|Ope...
+  password: p0gcYaXnnqIyx6ajxFRClBeaeeCTOY8AY3ONCD9FyDapS33xAEacEwDxFjXp0a4ZgRSR3
+  port: '443'
+  server: 43.206.220.255
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 0|🇯🇵6 |  1.4MB/s|64%|Netflix|Dis...
+  password: 423cf642-6528-410c-b542-2aae04113d33
+  port: '11506'
+  server: cdn-p1-jp.weibo-dns.com
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 0|🇯🇵7 |  2.7MB/s|0%|Disney|Youtu...
+  password: cacb4d4fa26f4eed25e4d17a6370083c
+  port: 443
+  server: tky02.sqx001.com
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: dmpyoary@mayorlogistic.com
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 10|🇯🇵 日本|@ripaojiedian
@@ -89,12 +151,3 @@ proxies:
   type: vless
   udp: true
   uuid: 17606d29-e77d-4d2c-81ac-81b8bb1311d1
-- name: 12|JP_speednode_0044
-  password: cacb4d4fa26f4eed25e4d17a6370083c
-  port: 443
-  server: tky03.sqx001.com
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: dmpyoary@mayorlogistic.com

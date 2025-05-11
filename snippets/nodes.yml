@@ -12,175 +12,14 @@ proxies:
     headers:
       Host: skwygx.top
     path: /tr?ed=2560
-- name: 0,12|CN_speednode_0026
-  password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-  port: 15229
-  server: 15606cc9-sw3ts0-t1bnjq-1krtb.cu.plebai.net
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: 0,12|RU_speednode_0061
-  network: ws
-  password: Aimer
-  port: 2096
-  server: 176.124.223.133
-  skip-cert-verify: false
-  sni: epccj.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epccj.ambercc.filegear-sg.me
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 0|🇫🇷3 |  2.5MB/s|100%|Openai
-  network: ws
-  port: 443
-  server: 8.219.206.22
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
-  ws-opts:
-    headers:
-      Host: beyonddsz.cfd
-    path: /linkws
-- ip-version: dual
-  name: 0|🇺🇸7 |  1.0MB/s|Netflix|Openai
-  network: ws
-  password: ad4a124c-12fb-4467-9ad0-dc6d9b509ac0
-  port: 443
-  server: 104.21.96.1
-  sni: 7nnn.191262.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /wGgR8FyAGgRCKSiyxgvJgLl
-- delay: 1106
-  name: 0|🇺🇸39 |  1.3MB/s|Openai
-  password: RlzoEILU
-  port: 7815
-  server: 36.151.251.59
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|🇰🇷3 |  1.4MB/s|44%|Netflix|Dis...
-  password: qwerREWQ@@
-  port: 15098
-  server: 125.141.31.72
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|🇰🇷4 |  3.5MB/s|44%|Netflix|Dis...
-  password: qwerREWQ@@
-  port: 15098
-  server: p222.panda001.net
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: 0|🇸🇬2 |  1.1MB/s|0%|Netflix|Open...
-  port: 43302
-  server: 183.236.51.38
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alpn:
-  - http/1.1
-  name: 0|🌀4-SE |  2.9MB/s|34%|Youtube|O...
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.51.117.245
-  skip-cert-verify: false
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- name: 0|🇺🇸42 |  2.6MB/s|47%|Openai|Gem...
-  password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
-  port: 15229
-  server: fc32160e-sw5og0-swy6li-tni2.cu.plebai.net
-  type: trojan
-- name: 0|🇺🇸43 |  1.1MB/s|0%|Netflix|Ope...
-  network: ws
-  password: 4f435a3a-dfb8-4c90-b637-8df8c5d44550
-  port: 443
-  server: 172.67.135.37
-  sni: m9rrrfgh.459.pp.ua
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /l6lvY4hFZriQDBimbKYmPIggy
-- name: 0|🇺🇸44 |  1.8MB/s|47%|Openai|Gem...
+- name: 0|🇺🇸17 |  1.1MB/s|Openai|Gemini
   password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
   port: 15229
   server: c6b50ea5-sw5og0-t1bnjq-1krtb.cu.plebai.net
   type: trojan
-- alpn:
-  - http/1.1
-  name: 0|🇺🇸45 |  1.0MB/s|32%
-  network: ws
-  password: 1549e70f-dc57-45e3-ac7c-515f0161db72
-  port: 443
-  server: 172.67.155.140
-  skip-cert-verify: false
-  sni: 6667.HUAnGSHanG.dpdNs.orG
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /TomYJoQX0RSt1mktNrT
-- name: 0|🌀5-SE |  5.4MB/s|20%|Openai
-  network: ws
-  password: poTB9j1n12Tq
-  port: 2053
-  server: 104.21.54.208
-  skip-cert-verify: false
-  sni: tasnim.andishehnegariran.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /🆔@M3HDIO1
-- alterId: 0
-  cipher: auto
-  name: 0|🇨🇦2 |  1.0MB/s|29%|Youtube|Ope...
-  network: ws
-  port: 2083
-  server: cloudgetservice.mcloudservice.site
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 698d9a5b-59dc-4ea6-b404-cd9e967fc54c
-  ws-opts:
-    headers:
-      Host: CanaDa-138.blAzecAnAdA.SITe
-    path: /linkvkws
-- alterId: 0
-  cipher: auto
-  name: 0|🌀6-ID |  1.1MB/s|Youtube|Opena...
-  network: tcp
-  port: 17234
-  server: 1e69d086-sux8g0-t9eu8q-tlhh.cm5.p5pv.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
-  xudp: true
 - alterId: '0'
   cipher: auto
-  name: 0|🌀10-ID |  1.6MB/s|41%|Youtube|...
-  network: tcp
-  port: '17234'
-  server: 2a668e37-surog0-sxm4ot-zn8y.cm5.p5pv.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 44e76f8c-7362-11ec-bb74-f23c9164ca5d
-  xudp: true
-- alterId: '0'
-  cipher: auto
-  name: 0|🇨🇦3 |  5.8MB/s|29%|Youtube|Ope...
+  name: 0|🇨🇦1 |  1.9MB/s|29%|Youtube|Ope...
   network: ws
   port: 443
   server: cloudgetservice.mcloudservice.site
@@ -194,22 +33,369 @@ proxies:
       Host: CANADa-199.BLaZecANADA.sIte
     path: /linkvkvws
   xudp: true
-- alpn:
-  - http/1.1
-  name: 0|🇺🇸98 |  4.0MB/s|34%|Openai
+- name: 0|🇺🇸36 |  2.9MB/s|56%|Openai|Gem...
   network: ws
-  password: f82fb954-06a1-4f0b-9180-17e07585b61f
+  password: aTArbZ2F0E
   port: 443
-  server: 104.21.48.1
-  skip-cert-verify: false
-  sni: 6hj8.191262.xyz
+  server: cloudgetservice.mcloudservice.site
+  sni: uSa-vp-27.bLAzECLOUD.SITE
   type: trojan
   udp: true
   ws-opts:
+    path: /linkvkws
+- cipher: aes-256-gcm
+  name: 0|🇭🇰1 |  1.2MB/s|16%|Netflix|Dis...
+  password: 423cf642-6528-410c-b542-2aae04113d33
+  port: '11501'
+  server: cdn-p1-hk.weibo-dns.com
+  type: ss
+  udp: true
+- delay: 670
+  name: 0|🇹🇼1 |  6.0MB/s|43%|Netflix|Dis...
+  password: 2f653ecd-c290-451e-a848-f8f525bc5a21
+  port: 600
+  server: updatess.sub-zrj.com
+  sni: data.sub-zrj.com
+  type: trojan
+- delay: 1063
+  name: 0|🇭🇰2 |  6.0MB/s|0%|Netflix|Disn...
+  password: 2f653ecd-c290-451e-a848-f8f525bc5a21
+  port: 321
+  server: shltt.sub-zrj.com
+  sni: streaming.sub-zrj.com
+  type: trojan
+- alterId: '64'
+  cipher: auto
+  delay: 1267
+  name: 0|🇺🇸39 |  4.8MB/s|20%
+  network: tcp
+  port: 40392
+  server: 120.232.153.123
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  xudp: true
+- alterId: 0
+  cipher: auto
+  delay: 2377
+  name: 0|🇭🇰3 |  1.1MB/s|16%|Youtube
+  network: ws
+  port: 8080
+  server: 77becdb4-sw7j40-t94bdb-mrtr.hgc1.tcpbbr.net
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9
+  ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/51.0.2704.103 Safari/537.36
-    path: /Yu29UN3Yz8hcnI3SlZor0
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  delay: 2796
+  h2-opts: {}
+  http-opts: {}
+  name: 0|🇭🇰4 |  1.4MB/s|16%|Youtube
+  network: ws
+  port: 80
+  server: 4fdf48f2-sv2sg0-t51bp0-1nyy5.hk.p5pv.com
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 8f7cb770-1305-11ee-b107-f23c91cfbbc9
+  ws-opts:
+    headers:
+      HOST: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  delay: 1531
+  h2-opts: {}
+  http-opts: {}
+  name: 0|🇭🇰5 |  1.2MB/s|Youtube|Openai
+  network: ws
+  port: 80
+  server: e2cc3a1d-sv6hs0-t17ajj-1n7d9.hk.p5pv.com
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 48e51dfa-db8f-11ed-a23f-f23c91369f2d
+  ws-opts:
+    headers:
+      HOST: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  delay: 2553
+  h2-opts: {}
+  http-opts: {}
+  name: 0|🇭🇰6 |  1.7MB/s|Openai
+  network: ws
+  port: 80
+  server: 9fcf426f-sv6hs0-tcmken-19les.hk.p5pv.com
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
+  ws-opts:
+    headers:
+      HOST: broadcastlv.chat.bilibili.com
+    path: /
+- delay: 816
+  name: 0|🇨🇦2 |  1.6MB/s|Youtube|Openai|...
+  password: RlzoEILU
+  port: 3744
+  server: 36.151.251.61
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  delay: 1352
+  name: 0|🇭🇰7 |  1.6MB/s|16%|Youtube
+  network: ws
+  port: 8080
+  server: 5e750680-sw1z40-sx27gr-1t926.hgc1.tcpbbr.net
+  tls: false
+  type: vmess
+  uuid: 921bd912-ef8a-11ef-8eaf-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  delay: 2385
+  h2-opts: {}
+  http-opts: {}
+  name: 0|🇨🇦3 |  5.5MB/s|29%|Youtube|Ope...
+  network: ws
+  port: 2083
+  server: 172.66.168.209
+  servername: CanaDa-138.blAzecAnAdA.SITe
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 698d9a5b-59dc-4ea6-b404-cd9e967fc54c
+  ws-opts:
+    headers:
+      HOST: CanaDa-138.blAzecAnAdA.SITe
+    path: /linkvkws
+- delay: 1441
+  name: 0|🇩🇪10 |  1.5MB/s|64%|Youtube|Op...
+  password: RlzoEILU
+  port: 36654
+  server: 36.151.251.61
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- delay: 1532
+  name: 0|🇸🇬1 |  2.4MB/s|0%|Netflix|Yout...
+  password: 2f653ecd-c290-451e-a848-f8f525bc5a21
+  port: 222
+  server: ngzydd.sub-zrj.com
+  sni: streaming.sub-zrj.com
+  type: trojan
+- delay: 1889
+  name: 0|🇸🇬2 |  4.1MB/s|0%|Netflix|Yout...
+  password: 2f653ecd-c290-451e-a848-f8f525bc5a21
+  port: 222
+  server: cn2hnn.sub-zrj.com
+  sni: streaming.sub-zrj.com
+  type: trojan
+- cipher: aes-128-gcm
+  delay: 675
+  name: 0|🇺🇸41 |  1.3MB/s|0%|Openai|Gemi...
+  password: 75938771-c43e-4747-a028-65e3e98c841d
+  port: 12024
+  server: 346855.blhao0o.dpdns.org
+  type: ss
+- cipher: aes-128-gcm
+  delay: 645
+  name: 0|🇺🇸42 |  2.3MB/s|0%|Disney|Open...
+  password: 7b18c0b3-9ced-4efb-9154-ab8e900bee5c
+  port: 12023
+  server: 346855.blhao0o.dpdns.org
+  type: ss
+- delay: 907
+  name: 0|🇺🇸44 |  4.3MB/s|6%|Netflix|Dis...
+  password: 2f653ecd-c290-451e-a848-f8f525bc5a21
+  port: 6811
+  server: cn2hnn.sub-zrj.com
+  sni: streaming.sub-zrj.com
+  type: trojan
+- delay: 1493
+  name: 0|🇺🇸45 |  3.5MB/s|6%|Netflix|Ope...
+  password: 2f653ecd-c290-451e-a848-f8f525bc5a21
+  port: 6811
+  server: shltt.sub-zrj.com
+  sni: streaming.sub-zrj.com
+  type: trojan
+- cipher: aes-256-gcm
+  name: 0|🇸🇬4 |  5.7MB/s|13%|Netflix|Dis...
+  password: 423cf642-6528-410c-b542-2aae04113d33
+  port: '11508'
+  server: cdn-p1-sg.weibo-dns.com
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 0|🇯🇵3 |  1.2MB/s|13%|Netflix|Dis...
+  password: 423cf642-6528-410c-b542-2aae04113d33
+  port: '11528'
+  server: cdn-p1-jp.weibo-dns.com
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 0|🇸🇬5 |  1.4MB/s|13%|Netflix|Dis...
+  password: 423cf642-6528-410c-b542-2aae04113d33
+  port: '11536'
+  server: ieplqz.youku-dns.com
+  type: ss
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 0|🇺🇸52 |  1.2MB/s|31%|Openai
+  network: ws
+  port: 22643
+  server: tk.hzlt.tkddns.xyz
+  servername: zxjp-c.tkong.cc
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-c.tkong.cc
+    path: /
+  xudp: true
+- cipher: aes-256-gcm
+  name: 0|🇯🇵4 |  2.4MB/s|64%|Netflix|Dis...
+  password: 423cf642-6528-410c-b542-2aae04113d33
+  port: '11504'
+  server: cdn-p1-jp.weibo-dns.com
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 0|🌀5-TR |  1.2MB/s|0%|Openai
+  password: 423cf642-6528-410c-b542-2aae04113d33
+  port: '11520'
+  server: cdn-p1-lm.youku-dns.com
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 0|🇺🇸53 |  5.7MB/s|23%|Netflix|Di...
+  password: 423cf642-6528-410c-b542-2aae04113d33
+  port: '11512'
+  server: cdn-p1-us.youku-dns.com
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 0|🇸🇬6 |  5.1MB/s|13%|Netflix|Dis...
+  password: 423cf642-6528-410c-b542-2aae04113d33
+  port: '11535'
+  server: ieplqz.youku-dns.com
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 0|🇩🇪12 |  5.6MB/s|39%|Disney|Ope...
+  password: 423cf642-6528-410c-b542-2aae04113d33
+  port: '11518'
+  server: cdn-p1-lm.youku-dns.com
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 0|🌀6-MY |  4.1MB/s|9%|Netflix|Di...
+  password: 423cf642-6528-410c-b542-2aae04113d33
+  port: '11525'
+  server: cdn-p1-lm.youku-dns.com
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 0|🇬🇧6 |  5.5MB/s|39%|Netflix|Dis...
+  password: 423cf642-6528-410c-b542-2aae04113d33
+  port: '11516'
+  server: cdn-p1-lm.youku-dns.com
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 0|🇸🇬7 |  1.1MB/s|38%|Netflix|Dis...
+  password: 423cf642-6528-410c-b542-2aae04113d33
+  port: '11509'
+  server: cdn-p1-sg.weibo-dns.com
+  type: ss
+  udp: true
+- name: 0|🇯🇵5 |  5.8MB/s|34%|Youtube|Ope...
+  password: p0gcYaXnnqIyx6ajxFRClBeaeeCTOY8AY3ONCD9FyDapS33xAEacEwDxFjXp0a4ZgRSR3
+  port: '443'
+  server: 43.206.220.255
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 0|🇭🇰8 |  1.0MB/s|0%|Netflix|Disn...
+  password: 423cf642-6528-410c-b542-2aae04113d33
+  port: '11532'
+  server: cdn-p1-hk.weibo-dns.com
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 0|🇸🇬8 |  4.9MB/s|13%|Netflix|Dis...
+  password: 423cf642-6528-410c-b542-2aae04113d33
+  port: '11530'
+  server: cdn-p1-sg.weibo-dns.com
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 0|🇭🇰9 |  5.7MB/s|13%|Netflix|Dis...
+  password: 423cf642-6528-410c-b542-2aae04113d33
+  port: '11503'
+  server: cdn-p1-hk.weibo-dns.com
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 0|🇯🇵6 |  1.4MB/s|64%|Netflix|Dis...
+  password: 423cf642-6528-410c-b542-2aae04113d33
+  port: '11506'
+  server: cdn-p1-jp.weibo-dns.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 0|🇫🇷8 |  5.6MB/s|100%|Netflix|Di...
+  network: ws
+  port: 443
+  server: 8.219.206.22
+  servername: beyonddsz.cfd
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+  ws-opts:
+    headers:
+      Host: beyonddsz.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸83 |  5.8MB/s|34%|Netflix|Di...
+  network: ws
+  port: 2096
+  server: 141.101.120.253
+  servername: 1746882891.speed.adl.cccp.freefly.pp.ua
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 381cb6d1-6ad4-4909-8494-b8d786cf78ce
+  ws-opts:
+    headers:
+      Host: 1746882891.speed.adl.cccp.freefly.pp.ua
+    path: /
 - name: 10|🇭🇰 香港|@ripaojiedian
   network: ws
   password: a38c9e28-9960-4e31-9f18-ed2495a756aa
@@ -501,6 +687,13 @@ proxies:
   sni: cgsg2.hysality.com
   type: trojan
   udp: true
+- name: 12|CN_speednode_0026
+  password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+  port: 15229
+  server: 15606cc9-sw3ts0-t1bnjq-1krtb.cu.plebai.net
+  skip-cert-verify: false
+  type: trojan
+  udp: true
 - name: 12|DE_speednode_0029
   password: telegram-id-directvpn
   port: 22223
@@ -540,6 +733,19 @@ proxies:
   password: Aimer
   port: 50000
   server: 211.251.7.76
+  skip-cert-verify: false
+  sni: epccj.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epccj.ambercc.filegear-sg.me
+    path: /?ed=2560
+- name: 12|RU_speednode_0061
+  network: ws
+  password: Aimer
+  port: 2096
+  server: 176.124.223.133
   skip-cert-verify: false
   sni: epccj.ambercc.filegear-sg.me
   type: trojan

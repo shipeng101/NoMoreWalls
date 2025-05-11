@@ -1,17 +1,11 @@
 proxies:
-- name: 0,12|RU_speednode_0061
-  network: ws
-  password: Aimer
-  port: 2096
-  server: 176.124.223.133
-  skip-cert-verify: false
-  sni: epccj.ambercc.filegear-sg.me
+- delay: 670
+  name: 0|🇹🇼1 |  6.0MB/s|43%|Netflix|Dis...
+  password: 2f653ecd-c290-451e-a848-f8f525bc5a21
+  port: 600
+  server: updatess.sub-zrj.com
+  sni: data.sub-zrj.com
   type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epccj.ambercc.filegear-sg.me
-    path: /?ed=2560
 - client-fingerprint: chrome
   name: 10,11|台湾|@ripaojiedian
   network: tcp
