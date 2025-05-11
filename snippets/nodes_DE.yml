@@ -1,22 +1,19 @@
 proxies:
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: randomized
-  name: 0|🇩🇪2 |  1.1MB/s|21%|Disney|Open...
-  network: ws
-  password: T@_WvT8Ho@LW%w_,
-  port: '2053'
-  server: 172.66.44.214
-  skip-cert-verify: false
-  sni: NOp-55q.pAgEs.dEv
+- client-fingerprint: chrome
+  name: 0|🇩🇪14 |  1.1MB/s|64%|Openai
+  password: RlzoEILU
+  port: '7789'
+  server: 36.151.251.61
+  skip-cert-verify: true
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /trGPZDfetEwuO25SAs?ed=2560
+- cipher: rc4-md5
+  name: 0|🇩🇪18 |  4.7MB/s|100%|Openai
+  password: 14fFPrbezE3HDZzsMOr6
+  port: '8080'
+  server: 193.108.119.230
+  type: ss
+  udp: true
 - name: 12|DE_speednode_0029
   password: telegram-id-directvpn
   port: 22223
