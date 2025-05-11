@@ -1,66 +1,50 @@
 proxies:
-- delay: 1532
-  name: 0|🇸🇬1 |  2.4MB/s|0%|Netflix|Yout...
-  password: 2f653ecd-c290-451e-a848-f8f525bc5a21
-  port: 222
-  server: ngzydd.sub-zrj.com
-  sni: streaming.sub-zrj.com
-  type: trojan
-- delay: 1889
-  name: 0|🇸🇬2 |  4.1MB/s|0%|Netflix|Yout...
-  password: 2f653ecd-c290-451e-a848-f8f525bc5a21
-  port: 222
-  server: cn2hnn.sub-zrj.com
-  sni: streaming.sub-zrj.com
-  type: trojan
-- delay: 404
-  name: 0|🇸🇬3 |  2.9MB/s|34%|Disney|Open...
+- client-fingerprint: chrome
+  flow: none
+  name: 0|🇸🇬1 |  1.4MB/s|Youtube|Openai
   network: ws
-  port: 8880
-  server: 156.238.18.118
+  port: '2096'
+  server: 141.193.213.21
+  servername: premium.vkehi.shop
+  tls: true
+  type: vless
+  udp: true
+  uuid: 93be59b7-ebce-4aec-8e66-4470e06e58ae
+  ws-opts:
+    headers:
+      Host: premium.vkehi.shop
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: '%2F'
+  xudp: true
+- name: 0,12|US_speednode_0102
+  network: ws
+  port: 80
+  server: 185.148.106.32
+  servername: ipsycho.suex12.ir
+  skip-cert-verify: true
   tls: false
   type: vless
   udp: true
   uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
   ws-opts:
     headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /Telegram🇨🇳 @pgkj666 /?ed=2560
-- cipher: aes-256-gcm
-  name: 0|🇸🇬4 |  5.7MB/s|13%|Netflix|Dis...
-  password: 423cf642-6528-410c-b542-2aae04113d33
-  port: '11508'
-  server: cdn-p1-sg.weibo-dns.com
-  type: ss
+      Host: ipsycho.suex12.ir
+    path: /re5IzbZ9IZZMddtw?ed=2560
+- name: 0|🇸🇬3 |  2.0MB/s|Youtube|Openai
+  network: ws
+  port: 80
+  server: 141.193.213.21
+  type: vless
   udp: true
-- cipher: aes-256-gcm
-  name: 0|🇸🇬5 |  1.4MB/s|13%|Netflix|Dis...
-  password: 423cf642-6528-410c-b542-2aae04113d33
-  port: '11536'
-  server: ieplqz.youku-dns.com
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 0|🇸🇬6 |  5.1MB/s|13%|Netflix|Dis...
-  password: 423cf642-6528-410c-b542-2aae04113d33
-  port: '11535'
-  server: ieplqz.youku-dns.com
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 0|🇸🇬7 |  1.1MB/s|38%|Netflix|Dis...
-  password: 423cf642-6528-410c-b542-2aae04113d33
-  port: '11509'
-  server: cdn-p1-sg.weibo-dns.com
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 0|🇸🇬8 |  4.9MB/s|13%|Netflix|Dis...
-  password: 423cf642-6528-410c-b542-2aae04113d33
-  port: '11530'
-  server: cdn-p1-sg.weibo-dns.com
-  type: ss
-  udp: true
+  uuid: 628a3541-1b2d-43ab-ad4f-82b6406480fe
+  ws-opts:
+    headers:
+      Host: lk.sahanwickramasinghe.shop
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /
+  xudp: true
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome

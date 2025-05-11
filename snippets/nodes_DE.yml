@@ -1,18 +1,12 @@
 proxies:
-- delay: 1441
-  name: 0|🇩🇪10 |  1.5MB/s|64%|Youtube|Op...
-  password: RlzoEILU
-  port: 36654
-  server: 36.151.251.61
-  skip-cert-verify: true
+- client-fingerprint: chrome
+  name: 0|🇩🇪10 |  1.2MB/s|34%|Youtube|Op...
+  password: telegram-id-privatevpns
+  port: '22222'
+  server: 18.199.43.148
+  skip-cert-verify: false
+  sni: trojan.burgerip.co.uk
   type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 0|🇩🇪12 |  5.6MB/s|39%|Disney|Ope...
-  password: 423cf642-6528-410c-b542-2aae04113d33
-  port: '11518'
-  server: cdn-p1-lm.youku-dns.com
-  type: ss
   udp: true
 - name: 12|DE_speednode_0029
   password: telegram-id-directvpn

@@ -1,8 +1,1 @@
-proxies:
-- cipher: aes-256-gcm
-  name: 0|🇬🇧6 |  5.5MB/s|39%|Netflix|Dis...
-  password: 423cf642-6528-410c-b542-2aae04113d33
-  port: '11516'
-  server: cdn-p1-lm.youku-dns.com
-  type: ss
-  udp: true
+proxies: []

@@ -1,11 +1,4 @@
 proxies:
-- delay: 670
-  name: 0|🇹🇼1 |  6.0MB/s|43%|Netflix|Dis...
-  password: 2f653ecd-c290-451e-a848-f8f525bc5a21
-  port: 600
-  server: updatess.sub-zrj.com
-  sni: data.sub-zrj.com
-  type: trojan
 - client-fingerprint: chrome
   name: 10,11|台湾|@ripaojiedian
   network: tcp
@@ -35,3 +28,16 @@ proxies:
   skip-cert-verify: false
   sni: skwygx.top
   type: trojan
+- name: 12|TW_speednode_0074
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: 35.201.203.106
+  skip-cert-verify: true
+  sni: skwygx.top
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: skwygx.top
+    path: /tr?ed=2560

@@ -1,115 +1,82 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 0|🇭🇰1 |  1.2MB/s|16%|Netflix|Dis...
-  password: 423cf642-6528-410c-b542-2aae04113d33
-  port: '11501'
-  server: cdn-p1-hk.weibo-dns.com
-  type: ss
-  udp: true
-- delay: 1063
-  name: 0|🇭🇰2 |  6.0MB/s|0%|Netflix|Disn...
-  password: 2f653ecd-c290-451e-a848-f8f525bc5a21
-  port: 321
-  server: shltt.sub-zrj.com
-  sni: streaming.sub-zrj.com
-  type: trojan
 - alterId: 0
   cipher: auto
-  delay: 2377
-  name: 0|🇭🇰3 |  1.1MB/s|16%|Youtube
+  delay: 1140
+  name: 0|🇭🇰2 |  2.7MB/s|Youtube|Openai
   network: ws
   port: 8080
-  server: 77becdb4-sw7j40-t94bdb-mrtr.hgc1.tcpbbr.net
+  server: 338b2185-sw1z40-sw51rj-hkb8.hgc1.tcpbbr.net
   tls: false
   type: vmess
-  udp: true
-  uuid: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9
+  uuid: 21a70fd2-c69c-11eb-8673-f23c9164ca5d
   ws-opts:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 2796
-  h2-opts: {}
-  http-opts: {}
-  name: 0|🇭🇰4 |  1.4MB/s|16%|Youtube
-  network: ws
-  port: 80
-  server: 4fdf48f2-sv2sg0-t51bp0-1nyy5.hk.p5pv.com
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 8f7cb770-1305-11ee-b107-f23c91cfbbc9
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 1531
-  h2-opts: {}
-  http-opts: {}
-  name: 0|🇭🇰5 |  1.2MB/s|Youtube|Openai
-  network: ws
-  port: 80
-  server: e2cc3a1d-sv6hs0-t17ajj-1n7d9.hk.p5pv.com
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 48e51dfa-db8f-11ed-a23f-f23c91369f2d
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 2553
-  h2-opts: {}
-  http-opts: {}
-  name: 0|🇭🇰6 |  1.7MB/s|Openai
-  network: ws
-  port: 80
-  server: 9fcf426f-sv6hs0-tcmken-19les.hk.p5pv.com
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
 - alterId: 0
   cipher: auto
-  delay: 1352
-  name: 0|🇭🇰7 |  1.6MB/s|16%|Youtube
+  delay: 1335
+  name: 0|🇭🇰3 |  2.1MB/s|Youtube|Openai
   network: ws
   port: 8080
-  server: 5e750680-sw1z40-sx27gr-1t926.hgc1.tcpbbr.net
+  server: 2d7952be-sw7j40-t6yqh9-1bhda.hgc1.tcpbbr.net
   tls: false
   type: vmess
-  uuid: 921bd912-ef8a-11ef-8eaf-f23c9164ca5d
+  udp: true
+  uuid: f61628aa-3d18-11ec-bb74-f23c9164ca5d
   ws-opts:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
-- cipher: aes-256-gcm
-  name: 0|🇭🇰8 |  1.0MB/s|0%|Netflix|Disn...
-  password: 423cf642-6528-410c-b542-2aae04113d33
-  port: '11532'
-  server: cdn-p1-hk.weibo-dns.com
+- alterId: 0
+  cipher: auto
+  delay: 2719
+  name: 0|🇭🇰4 |  1.5MB/s|Youtube|Openai
+  network: ws
+  port: 8080
+  server: c6e48a12-sw1z40-swtwwj-1su7j.hgc1.tcpbbr.net
+  tls: false
+  type: vmess
+  uuid: 0e4ec84a-a324-11ef-81b0-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 1320
+  name: 0|🇭🇰5 |  4.0MB/s|16%|Youtube|Ope...
+  network: ws
+  port: 8080
+  server: 7b5d670c-sw1z40-swjbhe-8bem.hgc1.tcpbbr.net
+  tls: false
+  type: vmess
+  uuid: ca506e08-ce3d-5e5a-c128-6358caca15e5
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇭🇰8 |  8.8MB/s|Disney|Gemini
+  password: a2a1677c-0799-487e-8827-6cf0d4b5b86a
+  port: 49709
+  server: jg647hf446ghvw.gym0boy.com
   type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 0|🇭🇰9 |  5.7MB/s|13%|Netflix|Dis...
-  password: 423cf642-6528-410c-b542-2aae04113d33
-  port: '11503'
-  server: cdn-p1-hk.weibo-dns.com
-  type: ss
-  udp: true
+- alterId: 2
+  cipher: auto
+  name: 0|🇭🇰10 |  2.6MB/s|Youtube|Openai
+  network: ws
+  port: 80
+  server: 7b2f8c5e-sv2sg0-tc61cs-1tja8.hk.p5pv.com
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d2f0bee2-02f1-11f0-8eb0-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: 7b2f8c5e-sv2sg0-tc61cs-1tja8.hk.p5pv.com
+    path: /
 - client-fingerprint: chrome
   name: 10|🇭🇰 香港|@ripaojiedian
   network: ws

@@ -1,16 +1,20 @@
 proxies:
-- down: ''
-  fingerprint: ''
-  name: 0|🇬🇧1 |  5.1MB/s|62%|Youtube|Ope...
-  obfs: ''
-  obfs-password: ''
-  password: nfsn666
-  port: '8888'
-  server: ld-arm.nfsn666.gq
-  skip-cert-verify: true
-  sni: ld-arm.nfsn666.gq
-  type: hysteria2
-  up: ''
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config
+  name: 0|🇬🇧5 |  5.2MB/s|0%|Netflix|Disn...
+  network: grpc
+  port: '2030'
+  reality-opts:
+    public-key: YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E
+    short-id: 7fe29733
+  server: 74.220.23.227
+  servername: refersion.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ad5e479a-d0f6-4809-902c-e74f5404336c
+  xudp: true
 - client-fingerprint: chrome
   name: 0,12|RU_speednode_0059
   port: 2040
@@ -24,61 +28,33 @@ proxies:
   type: vless
   udp: true
   uuid: 10b59513-ef76-4494-a925-305ec45dd3a4
-- client-fingerprint: chrome
-  http-opts:
-    headers:
-      Host:
-      - Join_Bade_Channel@JOKERRVPN
-    path:
-    - /
-  name: 0|🇬🇧3 |  1.7MB/s|Openai
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: TXHciLv9Ctu7k7sdIcadLJIEa1WTCIseYctDMa6NW0c
-    short-id: 7e39db0c
-  server: 213.21.245.83
-  servername: www.cdn77.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8db8f511-f01f-4ec7-8f88-08765acb0552
-  xudp: true
-- name: 0|🇬🇧4 |  2.3MB/s|50%|Openai
-  network: ws
-  port: '8880'
-  server: 104.19.54.50
-  type: vless
-  udp: true
-  uuid: 883a7a73-0b8b-4b95-aa62-545952be13c0
-  ws-opts:
-    headers:
-      Host: V2rayArgoN.elmahstyle.xyz.
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/43.0.2357.65 Safari/537.36
-    path: /@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN?ed=2048
-  xudp: true
-- name: 0|🇬🇧5 |  2.1MB/s|0%|Openai
+- down: ''
+  fingerprint: ''
+  name: 0|🇬🇧3 |  2.2MB/s|62%|Youtube|Ope...
+  obfs: ''
+  obfs-password: ''
+  password: nfsn666
+  port: '8888'
+  server: ld-arm.nfsn666.gq
+  skip-cert-verify: true
+  sni: ld-arm.nfsn666.gq
+  type: hysteria2
+  up: ''
+- flow: ''
+  mode: ''
+  name: 0|🇬🇧4 |  1.2MB/s|Openai
   network: ws
   port: 443
-  server: 45.131.6.160
+  server: 45.142.120.97
   servername: CxNiMjJz.cAfUnEaR.InFo
-  skip-cert-verify: true
   tls: true
   type: vless
-  udp: true
+  udp: false
   uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
   ws-opts:
     headers:
-      host: CxNiMjJz.cAfUnEaR.InFo
+      Host: CxNiMjJz.cAfUnEaR.InFo
     path: /
-- cipher: aes-256-gcm
-  name: 0|🇬🇧6 |  5.5MB/s|39%|Netflix|Dis...
-  password: 423cf642-6528-410c-b542-2aae04113d33
-  port: '11516'
-  server: cdn-p1-lm.youku-dns.com
-  type: ss
-  udp: true
 - name: 12|GB_speednode_0036
   network: ws
   port: 80
