@@ -1,5 +1,5 @@
 proxies:
-- name: 0|🇭🇰1 |  1.2MB/s|0%|Netflix|Disn...
+- name: 0|🇭🇰1 |  1.3MB/s|0%
   password: 2c605663-b89a-5734-a9d6-97d4743d72cf
   port: 8313
   server: dozo01.flztjc.top
@@ -7,7 +7,7 @@ proxies:
   sni: dozo01.flztjc.top
   type: trojan
   udp: true
-- name: 0|🇭🇰2 |  1.3MB/s|0%|Disney
+- name: 0|🇭🇰2 |  3.6MB/s|Disney
   password: 2c605663-b89a-5734-a9d6-97d4743d72cf
   port: 8313
   server: 183.232.235.2
@@ -39,7 +39,7 @@ proxies:
     path: /utvbnrzejpmt
     skip-cert-verify: false
     tls: true
-  port: 54259
+  port: 52013
   server: hkkh11v1.xpmc.cc
   tfo: false
   type: ss

@@ -17,3 +17,14 @@ proxies:
   skip-cert-verify: false
   sni: 45.32.28.232
   type: trojan
+- alpn:
+  - h3
+  client-fingerprint: chrome
+  name: 10,11|台湾3|@ripaojiedian
+  network: tcp
+  password: bpb-trojan
+  port: 443
+  server: 35.201.203.106
+  skip-cert-verify: false
+  sni: skwygx.top
+  type: trojan

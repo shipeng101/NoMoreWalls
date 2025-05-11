@@ -1,10 +1,29 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 0|🇸🇬1 |  6.3MB/s|6%|Disney|Youtu...
-  password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83
-  port: '21114'
-  server: okanc.node-is.green
-  type: ss
+- client-fingerprint: chrome
+  name: 0|🇸🇬1 |  2.7MB/s|Youtube|Openai|...
+  network: ws
+  port: '2096'
+  server: 141.193.213.21
+  servername: premium.vkehi.shop
+  tls: true
+  type: vless
+  udp: true
+  uuid: 93be59b7-ebce-4aec-8e66-4470e06e58ae
+  ws-opts:
+    headers:
+      Host: premium.vkehi.shop
+      User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: ''
+  xudp: true
+- client-fingerprint: chrome
+  name: 0|🇸🇬2 |  6.1MB/s|0%|Netflix|Disn...
+  password: 54231b3d-a39d-4769-a511-2a1c663a62b1
+  port: '443'
+  server: sg02.trojanyyds.xyz
+  skip-cert-verify: false
+  sni: sg02.trojanyyds.xyz
+  type: trojan
   udp: true
 - alterId: 2
   cipher: auto
