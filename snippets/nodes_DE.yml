@@ -1,5 +1,5 @@
 proxies:
-- name: 0|🇩🇪3 |  2.9MB/s|22%|Youtube|Ope...
+- name: 0|🇩🇪5 |  2.4MB/s|22%|Disney|Yout...
   network: ws
   password: bpb-trojan
   port: 443
@@ -14,11 +14,11 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 0|🇩🇪5 |  3.3MB/s|30%|Openai
+  name: 0|🇩🇪21 |  5.8MB/s|30%|Youtube|Op...
   network: tcp
-  password: telegram-id-privatevpns
-  port: '22222'
-  server: 35.156.70.183
+  password: telegram-id-directvpn
+  port: '22223'
+  server: 3.66.72.220
   skip-cert-verify: false
   sni: trojan.burgerip.co.uk
   type: trojan
