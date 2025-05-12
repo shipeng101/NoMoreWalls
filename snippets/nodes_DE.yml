@@ -1,1 +1,10 @@
-proxies: []
+proxies:
+- name: 0|🇩🇪5 |  1.3MB/s|Youtube|Openai
+  password: 4732adfa16c6450bbef87264e41332db
+  port: 443
+  server: 165.22.74.230
+  skip-cert-verify: true
+  sni: nextstepcareer.online
+  tfo: false
+  type: trojan
+  udp: true
