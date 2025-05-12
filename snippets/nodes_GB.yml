@@ -1,1 +1,7 @@
-proxies: []
+proxies:
+- cipher: aes-128-gcm
+  name: 0|🇬🇧3 |  4.0MB/s|0%|Openai
+  password: 763bf612-4c66-4fd4-b54b-5349bdea6bca
+  port: 634
+  server: neweur.upperlay.xyz
+  type: ss
