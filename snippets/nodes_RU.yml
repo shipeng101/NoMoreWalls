@@ -1,5 +1,5 @@
 proxies:
-- name: 12|RU_speednode_0075
+- name: 12|RU_speednode_0045
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -12,7 +12,7 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=45.67.215.153:443&proxyIP=null
-- name: 12|RU_speednode_0076
+- name: 12|RU_speednode_0046
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -25,7 +25,7 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=45.67.215.234:443&proxyIP=null
-- name: 12|RU_speednode_0077
+- name: 12|RU_speednode_0047
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
