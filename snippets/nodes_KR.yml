@@ -1,24 +1,22 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 0|🇰🇷2 |  3.9MB/s|44%|Netflix|Dis...
+  name: 0|🇰🇷1 |  5.5MB/s|44%|Netflix|Dis...
   password: qwerREWQ@@
   port: 15098
   server: p222.panda001.net
   type: ss
 - cipher: aes-256-cfb
-  name: 0|🇰🇷4 |  5.9MB/s|75%|Netflix|You...
+  name: 0|🇰🇷3 |  4.6MB/s|44%|Netflix|Dis...
   password: qwerREWQ@@
-  port: '11389'
-  server: 221.150.109.89
+  port: '4857'
+  server: 125.141.26.12
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|🇰🇷5 |  2.4MB/s|75%|Netflix|You...
+  name: 0|🇰🇷4 |  5.0MB/s|44%|Netflix|Dis...
   password: qwerREWQ@@
-  port: 11389
-  server: p231.panda004.net
-  tfo: true
+  port: '15098'
+  server: 125.141.31.72
   type: ss
   udp: true
 - name: 12|KR_speednode_0163
