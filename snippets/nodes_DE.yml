@@ -1,4 +1,16 @@
 proxies:
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 0|🇩🇪7 |  1.5MB/s|30%|Openai
+  network: tcp
+  password: telegram-id-directvpn
+  port: '22223'
+  server: 3.64.181.93
+  skip-cert-verify: false
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
 - name: 0,12|DE_speednode_0019
   password: '!!str 74260665780162200'
   port: 443
@@ -7,7 +19,7 @@ proxies:
   sni: cuddly-finch.shiner427.skin
   type: trojan
   udp: true
-- name: 0,12|DE_speednode_0018
+- name: 12|DE_speednode_0018
   password: '!!str 74260665780162200'
   port: 443
   server: ultimate-lemming.shiner427.skin
@@ -15,37 +27,3 @@ proxies:
   sni: ultimate-lemming.shiner427.skin
   type: trojan
   udp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - parsabr.com
-    path:
-    - /
-  name: 0|🇩🇪7 |  5.0MB/s|Youtube|Openai
-  network: http
-  port: '443'
-  server: 167.172.180.77
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 76f413b9-48a2-43be-933d-df686cb958a9
-  xudp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 0|🇩🇪9 |  5.7MB/s|20%|Youtube|Ope...
-  network: tcp
-  port: '45541'
-  server: 142.132.185.156
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d79bcd65-10ed-4cc2-b5fa-3680f6092951
-  xudp: true
