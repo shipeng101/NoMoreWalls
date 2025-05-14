@@ -1,13 +1,19 @@
 proxies:
 - alpn:
+  - h2
   - http/1.1
-  client-fingerprint: chrome
-  name: 0|🇩🇪7 |  5.6MB/s|30%|Openai
-  network: tcp
-  password: telegram-id-directvpn
-  port: '22223'
-  server: 3.77.67.70
+  client-fingerprint: randomized
+  name: 0|🇩🇪7 |  1.5MB/s|22%|Openai
+  network: ws
+  password: T@_WvT8Ho@LW%w_,
+  port: '2053'
+  server: 172.66.47.42
   skip-cert-verify: false
-  sni: trojan.burgerip.co.uk
+  sni: NOp-55q.pAgEs.dEv
   type: trojan
   udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/64.0.3282.167 Safari/537.36
+    path: /trGPZDfetEwuO25SAs?ed=2560
