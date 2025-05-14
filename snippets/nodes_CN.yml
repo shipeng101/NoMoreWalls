@@ -15,6 +15,14 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+- name: 12|CN_speednode_0021
+  password: ef35dfd8-b468-42fb-abf8-0a6c4536c1ff
+  port: 46927
+  server: 120.232.220.45
+  skip-cert-verify: true
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+  udp: true
 - name: 12|CN_speednode_0027
   password: RlzoEILU
   port: 3744
@@ -29,19 +37,11 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 12|CN_speednode_0031
+- name: 12|CN_speednode_0030
   password: ef35dfd8-b468-42fb-abf8-0a6c4536c1ff
-  port: 43590
-  server: 58.254.186.222
+  port: 46926
+  server: 120.232.220.45
   skip-cert-verify: true
   sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 12|CN_speednode_0033
-  password: 4a7f880c-72f4-11ed-b0b5-f23c9164ca5d
-  port: 15229
-  server: 3c80a135-swb8g0-t6ouc9-13xtu.cu.plebai.net
-  skip-cert-verify: false
-  sni: 3c80a135-swb8g0-t6ouc9-13xtu.cu.plebai.net
   type: trojan
   udp: true
