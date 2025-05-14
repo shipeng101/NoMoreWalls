@@ -1,9 +1,21 @@
 proxies:
+- down: ''
+  fingerprint: ''
+  name: 0|🇷🇺1 |  1.0MB/s
+  obfs: ''
+  obfs-password: ''
+  password: dongtaiwang.com
+  port: '10011'
+  server: hy2.694463.xyz
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  up: ''
 - alpn:
   - h3
   client-fingerprint: chrome
   disable-sni: false
-  name: 0|🇷🇺1 |  1.5MB/s|50%
+  name: 0|🇷🇺2 |  1.0MB/s
   password: f3ba3679-f2f4-465f-92a5-de320b775a88
   port: 43516
   reduce-rtt: false
@@ -15,49 +27,32 @@ proxies:
   udp-relay-mode: native
   uuid: f3ba3679-f2f4-465f-92a5-de320b775a88
   version: 5
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: 1000 Mbps
-  name: 0|🇷🇺2 |  1.4MB/s|50%
-  port: 10803
-  server: 185.22.155.71
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
-  up: 1000 Mbps
-- down: ''
-  fingerprint: ''
-  name: 0|🇷🇺3 |  1.6MB/s|0%
-  obfs: ''
-  obfs-password: ''
-  password: dongtaiwang.com
-  port: '10011'
-  server: 46.29.163.171
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: 0|🇷🇺4 |  1.1MB/s|0%
-  obfs: ''
-  obfs-password: ''
-  password: dongtaiwang.com
-  port: '10011'
-  server: hy2.694463.xyz
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  up: ''
 - auth: dongtaiwang.com
-  name: 0|🇷🇺5 |  2.5MB/s
+  name: 0|🇷🇺3 |  5.0MB/s|50%
   password: dongtaiwang.com
   port: 10011
   server: 46.17.41.217
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 0|🇷🇺4 |  1.1MB/s|0%|Gemini
+  network: ws
+  port: 443
+  server: 46.29.239.149
+  servername: unixkey.nobatow.site
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2947a55-5fa6-4d21-93c6-b558c662ec8d
+  ws-opts:
+    headers:
+      Host: unixkey.nobatow.site
+    path: /nobatow
 - name: 12|RU_speednode_0020
   network: ws
   port: 80
