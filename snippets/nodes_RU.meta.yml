@@ -2,7 +2,7 @@ proxies:
 - alpn:
   - h3
   disable-sni: false
-  name: 0|🇷🇺1 |  3.4MB/s|50%
+  name: 0|🇷🇺1 |  2.5MB/s|50%
   password: f3ba3679-f2f4-465f-92a5-de320b775a88
   port: 43516
   reduce-rtt: false
@@ -13,74 +13,34 @@ proxies:
   type: tuic
   udp-relay-mode: native
   uuid: f3ba3679-f2f4-465f-92a5-de320b775a88
-- down: ''
-  fingerprint: ''
-  name: 0|🇷🇺2 |  2.4MB/s|50%
-  obfs: ''
-  obfs-password: ''
-  password: dongtaiwang.com
-  port: '10011'
-  server: 46.17.41.217
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: 0|🇷🇺3 |  4.2MB/s|0%
-  obfs: ''
-  obfs-password: ''
-  password: dongtaiwang.com
-  port: '10011'
-  server: 46.29.163.171
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  up: ''
-- client-fingerprint: chrome
-  fast-open: true
-  name: 0|🇷🇺4 |  3.4MB/s|0%
-  password: dongtaiwang.com
-  port: 10011
-  server: hy2.694463.xyz
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 0|🇷🇺5 |  1.1MB/s|0%
+- name: 12|RU_speednode_0175
   network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
-  server: 46.29.239.149
-  servername: unixkey.nobatow.site
-  tls: true
-  type: vless
+  server: 45.67.215.153
+  skip-cert-verify: true
+  sni: icecream.955850.xyz
+  type: trojan
   udp: true
-  uuid: d2947a55-5fa6-4d21-93c6-b558c662ec8d
   ws-opts:
     headers:
-      Host: unixkey.nobatow.site
-    path: /nobatow
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  delay: 1480
-  down: '1000'
-  name: 0|🇷🇺6 |  2.2MB/s|50%
-  obfs: ''
-  port: 10803
-  protocol: ''
-  server: 185.22.155.71
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
-  up: '1000'
+      Host: icecream.955850.xyz
+    path: /proxyip=45.67.215.153:443&proxyIP=null
+- name: 12|RU_speednode_0176
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 443
+  server: 45.67.215.153
+  skip-cert-verify: false
+  sni: icecream.955850.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: icecream.955850.xyz
+    path: /proxyip=45.67.215.153:443
 - client-fingerprint: random
-  name: 12|RU_speednode_0144
+  name: 12|RU_speednode_0177
   network: ws
   port: 443
   server: 45.67.215.168
@@ -94,7 +54,7 @@ proxies:
     headers:
       Host: 0229.patterdeng.pp.ua
     path: /?ed=2560
-- name: 12|RU_speednode_0145
+- name: 12|RU_speednode_0178
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -107,3 +67,16 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=45.67.215.234:443
+- name: 12|RU_speednode_0179
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 443
+  server: 45.67.215.5
+  skip-cert-verify: true
+  sni: icecream.955850.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: icecream.955850.xyz
+    path: /proxyip=45.67.215.5:443&proxyIP=null
