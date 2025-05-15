@@ -33,6 +33,14 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
+- client-fingerprint: chrome
+  name: 10|🇸🇬 新加坡3|@ripaojiedian
+  password: 4GA1yNVbxOmx5deR3oj6CgKcHxL1aOSN
+  port: 8123
+  server: mortify.koreanbbq.link
+  skip-cert-verify: false
+  sni: mortify.koreanbbq.link
+  type: trojan
 - name: 11|新加坡3|@ripaojiedian
   network: tcp
   password: 4GA1yNVbxOmx5deR3oj6CgKcHxL1aOSN
