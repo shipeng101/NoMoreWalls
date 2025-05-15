@@ -2,7 +2,7 @@ proxies:
 - alpn:
   - h3
   disable-sni: false
-  name: 0|🇷🇺1 |  2.9MB/s|50%
+  name: 0|🇷🇺1 |  4.3MB/s|50%
   password: f3ba3679-f2f4-465f-92a5-de320b775a88
   port: 43516
   reduce-rtt: false
@@ -14,10 +14,28 @@ proxies:
   udp-relay-mode: native
   uuid: f3ba3679-f2f4-465f-92a5-de320b775a88
 - fast-open: true
-  name: 0|🇷🇺2 |  1.2MB/s|50%
+  name: 0|🇷🇺2 |  2.0MB/s|50%
   password: dongtaiwang.com
   port: 10011
   server: hy2.694463.xyz
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- auth: dongtaiwang.com
+  client-fingerprint: chrome
+  name: 0|🇷🇺3 |  3.3MB/s|50%
+  password: dongtaiwang.com
+  port: 10011
+  server: 46.17.41.217
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- auth: dongtaiwang.com
+  client-fingerprint: chrome
+  name: 0|🇷🇺4 |  1.7MB/s|0%
+  password: dongtaiwang.com
+  port: 10011
+  server: 46.29.163.171
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
