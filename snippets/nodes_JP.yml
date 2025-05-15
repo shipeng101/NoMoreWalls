@@ -1,15 +1,7 @@
 proxies:
-- delay: 478
-  name: 0|🇯🇵1 |  3.4MB/s|0%|Netflix|Yout...
-  password: feac8d6d-8fcf-4ef1-9ad0-18833c9fca11
-  port: 28507
-  server: green.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green.cdntencentmusic.com
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: 0|🇯🇵2 |  1.2MB/s|11%|Disney|Yout...
+  name: 0|🇯🇵1 |  1.1MB/s|Disney|Youtube|...
   network: tcp
   port: 17233
   server: 2bbb71ac-svdwg0-sw0nbj-1anhm.cm5.p5pv.com
@@ -20,6 +12,23 @@ proxies:
   ws-headers:
     Host: 2bbb71ac-svdwg0-sw0nbj-1anhm.cm5.p5pv.com
   ws-path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 0,10,11|日本4|@ripaojiedian
+  network: ws
+  port: '46015'
+  server: 112.29.213.228
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 10|🇯🇵 日本|@ripaojiedian
@@ -59,23 +68,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10,11|日本4|@ripaojiedian
-  network: ws
-  port: '46015'
-  server: 112.29.213.228
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn
 - alterId: 64
   cipher: auto
   name: 11|日本3|@ripaojiedian
