@@ -1,9 +1,23 @@
 proxies:
-- delay: 2286
-  name: 0|🇨🇦1 |  3.5MB/s|0%|Youtube|Open...
+- alterId: 2
+  cipher: auto
+  name: 0|🇨🇦1 |  2.3MB/s|Youtube|Openai|...
+  network: ws
+  port: 30825
+  server: v25.heduian.link
+  skip-cert-verify: true
+  sni: ''
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      host: baidu.com
+    path: /oooo
+- name: 0|🇨🇦2 |  3.8MB/s|0%|Openai
   password: '!!str 74260665780162200'
   port: 443
   server: allowing-owl.shiner427.skin
+  skip-cert-verify: true
   sni: allowing-owl.shiner427.skin
   type: trojan
 - name: 12|CA_speednode_0009

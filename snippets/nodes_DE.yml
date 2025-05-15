@@ -1,71 +1,17 @@
 proxies:
-- name: 0,12|DE_speednode_0019
-  password: '!!str 74260665780162200'
-  port: 443
-  server: cuddly-finch.shiner427.skin
-  skip-cert-verify: false
-  sni: cuddly-finch.shiner427.skin
-  type: trojan
-  udp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 0|🇩🇪3 |  2.0MB/s|30%|Youtube|Ope...
-  network: tcp
-  password: telegram-id-directvpn
-  port: '22223'
-  server: 63.176.33.105
-  skip-cert-verify: false
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 0|🇩🇪4 |  5.5MB/s|30%|Youtube|Ope...
-  network: tcp
-  password: telegram-id-privatevpns
-  port: '22222'
-  server: 63.176.33.105
-  skip-cert-verify: false
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 0|🇩🇪5 |  3.8MB/s|30%|Openai
-  network: tcp
-  password: telegram-id-privatevpns
-  port: '22222'
-  server: 18.157.248.200
-  skip-cert-verify: false
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 0|🇩🇪13 |  1.6MB/s|30%|Youtube|Op...
-  password: '!!str 74260665780162200'
-  port: '443'
-  server: 18.156.46.68
-  skip-cert-verify: false
-  sni: ultimate-lemming.shiner427.skin
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 0|🇩🇪14 |  3.6MB/s|30%|Youtube|Op...
-  password: '!!str 74260665780162200'
-  port: '443'
-  server: 3.121.11.241
-  skip-cert-verify: false
-  sni: cuddly-finch.shiner427.skin
-  type: trojan
-  udp: true
-- name: 12|DE_speednode_0018
+- name: 0,12|DE_speednode_0018
   password: '!!str 74260665780162200'
   port: 443
   server: ultimate-lemming.shiner427.skin
   skip-cert-verify: false
   sni: ultimate-lemming.shiner427.skin
+  type: trojan
+  udp: true
+- name: 12|DE_speednode_0019
+  password: '!!str 74260665780162200'
+  port: 443
+  server: cuddly-finch.shiner427.skin
+  skip-cert-verify: false
+  sni: cuddly-finch.shiner427.skin
   type: trojan
   udp: true
