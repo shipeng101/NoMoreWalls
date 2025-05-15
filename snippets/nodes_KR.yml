@@ -1,20 +1,13 @@
 proxies:
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 0|🇰🇷9 |  5.3MB/s|75%|Netflix|You...
+  name: 0|🇰🇷1 |  1.8MB/s|75%|Netflix|You...
   password: qwerREWQ@@
   port: 11389
   server: 221.150.109.89
   type: ss
 - cipher: aes-256-cfb
-  delay: 304
-  name: 0|🇰🇷10 |  5.4MB/s|44%|Netflix|Op...
-  password: qwerREWQ@@
-  port: 15098
-  server: 125.141.31.72
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|🇰🇷11 |  6.2MB/s|44%|Netflix|Di...
+  name: 0|🇰🇷2 |  4.4MB/s|44%|Netflix|Dis...
   password: qwerREWQ@@
   port: 15098
   server: p222.panda001.net
