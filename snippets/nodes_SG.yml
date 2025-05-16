@@ -16,37 +16,6 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10,11|新加坡2|@ripaojiedian
-  network: ws
-  port: '46019'
-  server: 112.29.213.228
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn
-- client-fingerprint: chrome
-  name: 10|🇸🇬 新加坡3|@ripaojiedian
-  password: 4GA1yNVbxOmx5deR3oj6CgKcHxL1aOSN
-  port: 8123
-  server: mortify.koreanbbq.link
-  skip-cert-verify: false
-  sni: mortify.koreanbbq.link
-  type: trojan
-- name: 11|新加坡3|@ripaojiedian
-  network: tcp
-  password: 4GA1yNVbxOmx5deR3oj6CgKcHxL1aOSN
-  port: 8123
-  server: mortify.koreanbbq.link
-  type: trojan
 - name: 12|SG_speednode_0056
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
