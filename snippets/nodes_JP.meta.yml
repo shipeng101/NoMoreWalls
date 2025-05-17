@@ -1,19 +1,7 @@
 proxies:
-- auth: 3ed64477-9d5c-49ca-b536-2dae51c987d2
-  client-fingerprint: chrome
-  name: 0|🇯🇵1 |  1.3MB/s|0%|Disney|Youtu...
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 3ed64477-9d5c-49ca-b536-2dae51c987d2
-  port: 13301
-  server: baipiaoyun-japan.baipiaoyun.site
-  skip-cert-verify: true
-  sni: s0.awsstatic.com
-  type: hysteria2
-  udp: true
 - alterId: 64
   cipher: auto
-  name: 0|🇯🇵2 |  1.5MB/s|54%|Youtube|Ope...
+  name: 0|🇯🇵1 |  1.3MB/s|Youtube|Openai|...
   network: ws
   port: 1443
   server: sslvpn.51job.com
