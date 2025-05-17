@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   fast-open: true
-  name: 0|🇷🇺1 |  1.1MB/s|0%
+  name: 0|🇷🇺1 |  6.0MB/s|50%
   password: dongtaiwang.com
   port: 10011
   server: hy2.694463.xyz
@@ -10,13 +10,38 @@ proxies:
   type: hysteria2
 - auth: dongtaiwang.com
   client-fingerprint: chrome
-  name: 0|🇷🇺2 |  2.8MB/s|0%
+  name: 0|🇷🇺2 |  1.5MB/s|0%
   password: dongtaiwang.com
   port: 10011
   server: 46.29.163.171
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
+- auth: dongtaiwang.com
+  client-fingerprint: chrome
+  name: 0|🇷🇺3 |  5.0MB/s|50%
+  password: dongtaiwang.com
+  port: 10011
+  server: 46.17.41.217
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- alpn:
+  - h3
+  client-fingerprint: chrome
+  disable-sni: false
+  name: 0|🇷🇺4 |  4.7MB/s|50%
+  password: f3ba3679-f2f4-465f-92a5-de320b775a88
+  port: 43516
+  reduce-rtt: false
+  request-timeout: 0
+  server: 185.22.155.105
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: tuic
+  udp-relay-mode: native
+  uuid: f3ba3679-f2f4-465f-92a5-de320b775a88
+  version: 5
 - name: 12|RU_speednode_0074
   network: ws
   port: 443
