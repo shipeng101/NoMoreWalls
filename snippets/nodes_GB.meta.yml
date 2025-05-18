@@ -8,22 +8,6 @@ proxies:
   reality-opts:
     public-key: YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E
     short-id: 7fe29733
-  server: ns7.esfahansiman.com
-  servername: refersion.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 35069c14-6c3b-428c-89b1-ebe9779631b8
-  xudp: true
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config
-  name: 0|🇬🇧2 |  4.9MB/s|0%|Netflix|Disn...
-  network: grpc
-  port: '2030'
-  reality-opts:
-    public-key: YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E
-    short-id: 7fe29733
   server: 74.220.23.227
   servername: refersion.com
   tls: true
