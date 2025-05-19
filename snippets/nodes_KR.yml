@@ -1,4 +1,10 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 0|🇰🇷2 |  1.5MB/s|44%|Openai
+  password: qwerREWQ@@
+  port: 15098
+  server: 125.141.31.72
+  type: ss
 - name: 12|KR_speednode_0123
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
