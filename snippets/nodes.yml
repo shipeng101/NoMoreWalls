@@ -121,7 +121,7 @@ proxies:
     path: /utvbnrzejpmt
     skip-cert-verify: false
     tls: true
-  port: 48113
+  port: 53098
   server: hkkh11v1.xpmc.cc
   tfo: false
   type: ss
@@ -138,13 +138,13 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 10|🇭🇰 香港4|@ripaojiedian
-  port: 13651
-  server: 103.30.76.66
+  port: 57922
+  server: 103.224.80.111
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 6831c9ce-4ca8-42c0-8181-fb1055710ccc
+  uuid: 92d204d0-5808-4f68-963d-4aa3b425f8aa
 - name: 10,11|香港5|@ripaojiedian
   network: tcp
   password: 2c605663-b89a-5734-a9d6-97d4743d72cf
@@ -153,16 +153,6 @@ proxies:
   skip-cert-verify: false
   sni: hk-13-568.flztjc.net
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 10|🇭🇰 香港6|@ripaojiedian
-  port: 45939
-  server: 103.30.76.218
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 268fe594-cd35-4038-8bc1-1086ada27fe8
 - alterId: 2
   cipher: auto
   name: 10,11|香港7|@ripaojiedian
@@ -179,22 +169,12 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- alterId: 0
-  cipher: auto
-  name: 10|🇭🇰 香港8|@ripaojiedian
-  port: 29714
-  server: 45.196.234.135
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 26312aa7-13a8-40c9-9c37-da0cdfc2d225
 - cipher: rc4-md5
   name: 10|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505181740997-PGL2R6MGpn.download.microsoft.com
+    host: 202505181740997-raSiYgrttO.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -202,16 +182,16 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 10|🇯🇵 日本2|@ripaojiedian
-  password: af77ad2f906d
+  password: 1b5297f2203b
   plugin: v2ray-plugin
   plugin-opts:
     host: jp1v9.8vote.cn
     mode: websocket
     mux: true
-    path: /ozasebsz
+    path: /xejseyjyquez
     skip-cert-verify: false
     tls: true
-  port: 19222
+  port: 443
   server: 103.140.136.76
   tfo: false
   type: ss
@@ -225,6 +205,22 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 10,11|日本7|@ripaojiedian
+  network: ws
+  port: '1443'
+  server: 58.246.138.244
+  servername: centos7
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: a6a0d901-67e9-460a-90b5-634c5c4f9782
+  ws-opts:
+    headers:
+      Host: centos7
+    path: /634c5c4f9782
 - alterId: 2
   cipher: auto
   name: 10,11|新加坡|@ripaojiedian
@@ -241,7 +237,7 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- name: 10,11|新加坡2|@ripaojiedian
+- name: 10,11|新加坡4|@ripaojiedian
   network: tcp
   password: 09e8b39a-4c09-4df0-a50c-af3bef01567e
   port: 35000
@@ -249,20 +245,12 @@ proxies:
   skip-cert-verify: false
   sni: cgsg2.hysality.com
   type: trojan
-- name: 10,11|新加坡3|@ripaojiedian
-  network: tcp
-  password: ffea316f-7e81-4f8c-b122-1673abe353ed
-  port: 42881
-  server: 120.232.220.45
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
 - cipher: rc4-md5
   name: 10|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505181740997-PGL2R6MGpn.download.microsoft.com
+    host: 202505181740997-raSiYgrttO.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
@@ -330,32 +318,12 @@ proxies:
   cipher: auto
   name: 11|香港4|@ripaojiedian
   network: tcp
-  port: '13651'
-  server: 103.30.76.66
+  port: '57922'
+  server: 103.224.80.111
   servername: ''
   tls: false
   type: vmess
-  uuid: 6831c9ce-4ca8-42c0-8181-fb1055710ccc
-- alterId: 0
-  cipher: auto
-  name: 11|香港6|@ripaojiedian
-  network: tcp
-  port: '45939'
-  server: 103.30.76.218
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 268fe594-cd35-4038-8bc1-1086ada27fe8
-- alterId: 0
-  cipher: auto
-  name: 11|香港8|@ripaojiedian
-  network: tcp
-  port: '29714'
-  server: 45.196.234.135
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 26312aa7-13a8-40c9-9c37-da0cdfc2d225
+  uuid: 92d204d0-5808-4f68-963d-4aa3b425f8aa
 - alterId: 64
   cipher: auto
   name: 11|日本4|@ripaojiedian
