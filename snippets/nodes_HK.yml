@@ -25,7 +25,7 @@ proxies:
     path: /utvbnrzejpmt
     skip-cert-verify: false
     tls: true
-  port: 53098
+  port: 38585
   server: hkkh11v1.xpmc.cc
   tfo: false
   type: ss
@@ -44,13 +44,13 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   name: 10|🇭🇰 香港4|@ripaojiedian
-  port: 57922
-  server: 103.224.80.111
+  port: 19504
+  server: 43.247.135.192
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 92d204d0-5808-4f68-963d-4aa3b425f8aa
+  uuid: 1322968d-536f-4dd4-8cea-fee6c04e2d97
 - client-fingerprint: chrome
   name: 10,11|香港5|@ripaojiedian
   network: tcp
@@ -91,9 +91,9 @@ proxies:
   cipher: auto
   name: 11|香港4|@ripaojiedian
   network: tcp
-  port: '57922'
-  server: 103.224.80.111
+  port: '19504'
+  server: 43.247.135.192
   servername: ''
   tls: false
   type: vmess
-  uuid: 92d204d0-5808-4f68-963d-4aa3b425f8aa
+  uuid: 1322968d-536f-4dd4-8cea-fee6c04e2d97
