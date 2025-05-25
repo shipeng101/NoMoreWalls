@@ -31,3 +31,12 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
+- client-fingerprint: chrome
+  name: 10,11|韩国2|@ripaojiedian
+  network: tcp
+  password: RlzoEILU
+  port: 44907
+  server: 36.151.251.59
+  skip-cert-verify: true
+  sni: cdn.egvra.cn
+  type: trojan
