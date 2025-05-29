@@ -127,7 +127,7 @@ proxies:
     path: /utvbnrzejpmt
     skip-cert-verify: false
     tls: true
-  port: 27599
+  port: 46583
   server: hkkh11v1.xpmc.cc
   tfo: false
   type: ss
@@ -175,22 +175,12 @@ proxies:
   tls: false
   type: vmess
   uuid: cbffb825-93d5-4a19-aed0-0936a48c84d3
-- alterId: 0
-  cipher: auto
-  name: 10|🇭🇰 香港9|@ripaojiedian
-  port: 39919
-  server: 183.236.51.38
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: rc4-md5
   name: 10|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505251086349-WBHKQamx7o.download.microsoft.com
+    host: 202505250813455-9i84PIbLBb.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -207,7 +197,7 @@ proxies:
     path: /matwnpkhug
     skip-cert-verify: false
     tls: true
-  port: 21755
+  port: 20091
   server: 43.226.17.8
   tfo: false
   type: ss
@@ -242,7 +232,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505251086349-WBHKQamx7o.download.microsoft.com
+    host: 202505250813455-9i84PIbLBb.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
@@ -264,6 +254,16 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸 美国4|@ripaojiedian
+  port: 41597
+  server: 120.232.153.41
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
   name: 10,11|美国5|@ripaojiedian
@@ -280,16 +280,6 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸 美国4|@ripaojiedian
-  port: 41597
-  server: 120.232.153.41
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 11|香港5|@ripaojiedian
@@ -310,26 +300,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbffb825-93d5-4a19-aed0-0936a48c84d3
-- alterId: 0
-  cipher: auto
-  name: 11|香港9|@ripaojiedian
-  network: tcp
-  port: '39919'
-  server: 183.236.51.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11|香港V2|@ripaojiedian
-  network: kcp
-  port: '39253'
-  server: 47.76.92.36
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 16e7adc5-8a1e-44b1-8327-14f7367caaf8
 - alterId: 0
   cipher: auto
   name: 11|日本V2|@ripaojiedian
