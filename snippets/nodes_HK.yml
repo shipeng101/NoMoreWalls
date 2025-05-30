@@ -25,7 +25,7 @@ proxies:
     path: /utvbnrzejpmt
     skip-cert-verify: false
     tls: true
-  port: 46583
+  port: 20273
   server: hkkh11v1.xpmc.cc
   tfo: false
   type: ss
@@ -52,7 +52,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 10,11|香港7|@ripaojiedian
+  name: 10,11|香港8|@ripaojiedian
   network: ws
   port: '30809'
   server: v9.heduian.link
@@ -66,17 +66,6 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10|🇭🇰 香港8|@ripaojiedian
-  port: 47010
-  server: 43.247.134.85
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: cbffb825-93d5-4a19-aed0-0936a48c84d3
 - alterId: 64
   cipher: auto
   name: 11|香港5|@ripaojiedian
@@ -87,13 +76,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11|香港8|@ripaojiedian
-  network: tcp
-  port: '47010'
-  server: 43.247.134.85
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cbffb825-93d5-4a19-aed0-0936a48c84d3
