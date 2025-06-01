@@ -34,27 +34,6 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10|🇰🇷 韩国3|@ripaojiedian
-  port: 17232
-  server: 34ac196c-svlb40-tdnzz0-1qtp7.cm5.p5pv.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 3653c708-df72-11ee-aec1-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 11|韩国3|@ripaojiedian
-  network: tcp
-  port: '17232'
-  server: 34ac196c-svlb40-tdnzz0-1qtp7.cm5.p5pv.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3653c708-df72-11ee-aec1-f23c9164ca5d
 - name: 12|KR_speednode_0059
   network: ws
   port: 10986
