@@ -15,21 +15,7 @@ proxies:
   udp-relay-mode: native
   uuid: f3ba3679-f2f4-465f-92a5-de320b775a88
   version: 5
-- name: 12|RU_speednode_0128
-  network: ws
-  port: 8880
-  server: 45.142.120.147
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /
-- name: 12|RU_speednode_0129
+- name: 12|RU_speednode_0057
   network: ws
   port: 8880
   server: 45.142.120.116
@@ -43,49 +29,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /
-- name: 12|RU_speednode_0130
-  network: ws
-  port: 8880
-  server: 45.142.120.214
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /
-- name: 12|RU_speednode_0131
-  network: ws
-  port: 8880
-  server: 45.142.120.56
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /
-- name: 12|RU_speednode_0132
-  network: ws
-  port: 8880
-  server: 45.8.211.88
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /
-- name: 12|RU_speednode_0133
+- name: 12|RU_speednode_0058
   network: ws
   port: 8880
   server: 5.182.84.20
@@ -99,10 +43,24 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /
-- name: 12|RU_speednode_0134
+- name: 12|RU_speednode_0059
   network: ws
   port: 8880
-  server: 45.142.120.93
+  server: 45.142.120.214
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /
+- name: 12|RU_speednode_0060
+  network: ws
+  port: 8880
+  server: 45.8.211.88
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -113,37 +71,35 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /
-- client-fingerprint: chrome
-  name: 12|RU_speednode_0135
+- name: 12|RU_speednode_0061
   network: ws
-  port: 8443
-  server: 193.233.115.226
-  servername: 0926.qiang2000.link
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1a79d43f-b41c-496b-a241-dcbeefa81f0e
-  ws-opts:
-    headers:
-      Host: 0926.qiang2000.link
-    path: /TelegramU0001F1E8U0001F1F3@WangCai2/?ed=2560
-- client-fingerprint: chrome
-  name: 12|RU_speednode_0136
-  network: ws
-  port: 8443
-  server: 193.233.115.226
-  servername: 0926.qiang2000.link
+  port: 8880
+  server: 45.142.120.56
+  servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vless
   udp: true
-  uuid: 1a79d43f-b41c-496b-a241-dcbeefa81f0e
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
   ws-opts:
     headers:
-      Host: 0926.qiang2000.link
-    path: /Telegram🇨🇳@WangCai2/?ed=2560
-- name: 12|RU_speednode_0137
+      Host: reedfree8mahsang2.redorg.ir
+    path: /
+- name: 12|RU_speednode_0063
+  network: ws
+  port: 8880
+  server: 45.142.120.147
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /
+- name: 12|RU_speednode_0064
   network: ws
   password: Aimer
   port: 443
