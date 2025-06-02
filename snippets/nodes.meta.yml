@@ -1668,7 +1668,7 @@ proxies:
     path: /utvbnrzejpmt
     skip-cert-verify: false
     tls: true
-  port: 34566
+  port: 27693
   server: hkkh11v1.xpmc.cc
   tfo: false
   type: ss
@@ -1731,7 +1731,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505160159024-hAiTvMCGlv.download.microsoft.com
+    host: 202505282364048-MMi78MWpgU.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -1748,20 +1748,10 @@ proxies:
     path: /lornlqecrjwe
     skip-cert-verify: false
     tls: true
-  port: 50494
+  port: 25356
   server: 43.226.17.17
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 10|🇯🇵 日本3|@ripaojiedian
-  port: 17233
-  server: f67f4b28-suvds0-t1k53r-1jm8i.cm5.p5pv.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
 - alterId: 2
   cipher: auto
   name: 10,11|新加坡|@ripaojiedian
@@ -1851,16 +1841,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11|日本3|@ripaojiedian
-  network: tcp
-  port: '17233'
-  server: f67f4b28-suvds0-t1k53r-1jm8i.cm5.p5pv.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
 - alterId: 0
   cipher: auto
   name: 11|日本V2|@ripaojiedian

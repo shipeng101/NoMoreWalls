@@ -25,7 +25,7 @@ proxies:
     path: /utvbnrzejpmt
     skip-cert-verify: false
     tls: true
-  port: 34566
+  port: 27693
   server: hkkh11v1.xpmc.cc
   tfo: false
   type: ss
