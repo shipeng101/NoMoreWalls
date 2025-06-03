@@ -1,7 +1,1 @@
-proxies:
-- cipher: aes-256-cfb
-  name: 0|🇰🇷2 |  1.5MB/s|44%|Openai
-  password: qwerREWQ@@
-  port: 15098
-  server: 125.141.31.72
-  type: ss
+proxies: []
