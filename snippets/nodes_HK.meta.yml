@@ -13,6 +13,23 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10,11|香港|@ripaojiedian
+  network: ws
+  port: '8080'
+  server: b959ad51-sxaf40-t323lh-1t0nn.hgc1.tcpbbr.net
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: ba78226c-b772-11ef-ab53-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 10|🇭🇰 香港2|@ripaojiedian
@@ -25,7 +42,7 @@ proxies:
     path: /utvbnrzejpmt
     skip-cert-verify: false
     tls: true
-  port: 27693
+  port: 48345
   server: hkkh11v1.xpmc.cc
   tfo: false
   type: ss
@@ -49,11 +66,22 @@ proxies:
   skip-cert-verify: false
   sni: usla.mjt000.com
   type: trojan
-- alterId: 64
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇭🇰 香港6|@ripaojiedian
+  port: 50412
+  server: 103.30.78.122
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 086124a3-0084-405b-aea4-39b69d3836f3
+- alterId: 0
   cipher: auto
   client-fingerprint: chrome
   name: 10|🇭🇰 香港5|@ripaojiedian
-  port: 52182
+  port: 43292
   server: 120.232.153.40
   skip-cert-verify: false
   tfo: false
@@ -63,7 +91,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 10,11|香港8|@ripaojiedian
+  name: 10,11|香港7|@ripaojiedian
   network: ws
   port: '30809'
   server: v9.heduian.link
@@ -80,7 +108,7 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 10|🇭🇰 香港9|@ripaojiedian
+  name: 10|🇭🇰 香港8|@ripaojiedian
   port: 31209
   server: 120.232.153.40
   skip-cert-verify: false
@@ -98,11 +126,21 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
+- alterId: 0
+  cipher: auto
+  name: 11|香港6|@ripaojiedian
+  network: tcp
+  port: '50412'
+  server: 103.30.78.122
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 086124a3-0084-405b-aea4-39b69d3836f3
+- alterId: 0
   cipher: auto
   name: 11|香港5|@ripaojiedian
   network: tcp
-  port: '52182'
+  port: '43292'
   server: 120.232.153.40
   servername: ''
   tls: false
@@ -110,7 +148,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 11|香港9|@ripaojiedian
+  name: 11|香港8|@ripaojiedian
   network: tcp
   port: '31209'
   server: 120.232.153.40
