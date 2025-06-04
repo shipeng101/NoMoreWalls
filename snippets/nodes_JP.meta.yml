@@ -1,1 +1,97 @@
-proxies: []
+proxies:
+- alterId: 64
+  cipher: auto
+  name: 0|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
+  network: ws
+  port: 1443
+  server: sslvpn.51job.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: a6a0d901-67e9-460a-90b5-634c5c4f9782
+  ws-opts:
+    headers:
+      Host: centos7
+    path: /634c5c4f9782
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 10|🇯🇵 日本|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202505282364048-WX78G4MFft.download.microsoft.com
+    mode: http
+  port: 8766
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 10|🇯🇵 日本2|@ripaojiedian
+  password: 60a930c17ff0
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: kr6v1.xpmc.cc
+    mode: websocket
+    mux: true
+    path: /matwnpkhug
+    skip-cert-verify: false
+    tls: true
+  port: 37989
+  server: 43.226.17.11
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11|日本V2|@ripaojiedian
+  network: kcp
+  port: '50951'
+  server: 8.211.154.107
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a3d04548-625c-4658-9ff0-f9a7835d1f6d
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 12|JP_speednode_0062
+  port: 443
+  reality-opts:
+    public-key: N86yyW-L91vOtC9qgJcYAhnva9M4WT3vclSnsQo4A2k
+    short-id: 79fd451e
+  server: pq.aws51.yydjc.top
+  servername: buylite.tv.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c05490c8-ca69-4c45-b2e8-adf3c3090da4
+- name: 12|JP_speednode_0063
+  network: ws
+  port: 13357
+  server: 141.147.144.15
+  servername: steep.skyfigure.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec
+  ws-opts:
+    headers:
+      Host: steep.skyfigure.top
+    path: /Telegram🇨🇳 @pgkj666 /?ed=2560
+- name: 12|JP_speednode_0064
+  network: ws
+  port: 13118
+  server: 140.83.57.20
+  servername: steep.skyfigure.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec
+  ws-opts:
+    headers:
+      Host: steep.skyfigure.top
+    path: /Telegram🇨🇳 @pgkj666 /?ed=2560
