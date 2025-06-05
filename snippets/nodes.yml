@@ -116,28 +116,29 @@ proxies:
   sni: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net
   type: trojan
   udp: true
-- name: 10|🇭🇰 香港|@ripaojiedian
-  password: '63099'
-  port: 18000
-  server: vhs.88443.cf
-  skip-cert-verify: false
-  sni: vhs.88443.cf
-  type: trojan
 - cipher: chacha20-ietf-poly1305
   name: 10|🇭🇰 香港2|@ripaojiedian
-  password: 91a41f4e02dc
+  password: 1450cecfb93f
   plugin: v2ray-plugin
   plugin-opts:
-    host: hkkh11v1.xpmc.cc
+    host: kh36v1.pmxiaonan.xyz
     mode: websocket
     mux: true
-    path: /utvbnrzejpmt
+    path: /simieepvt
     skip-cert-verify: false
     tls: true
-  port: 56804
-  server: hkkh11v1.xpmc.cc
+  port: 17161
+  server: 121.127.231.217
   tfo: false
   type: ss
+- name: 10,11|香港4|@ripaojiedian
+  network: tcp
+  password: e4af2638-bb12-4e4a-84f1-a032e23ca63f
+  port: 443
+  server: usla.mjt000.com
+  skip-cert-verify: false
+  sni: usla.mjt000.com
+  type: trojan
 - alterId: 64
   cipher: auto
   name: 10|🇸🇬 新加坡2|@ripaojiedian
@@ -148,14 +149,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 10,11|香港4|@ripaojiedian
-  network: tcp
-  password: e4af2638-bb12-4e4a-84f1-a032e23ca63f
-  port: 443
-  server: usla.mjt000.com
-  skip-cert-verify: false
-  sni: usla.mjt000.com
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 10|🇭🇰 香港5|@ripaojiedian
@@ -192,23 +185,22 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇹🇼 台湾|@ripaojiedian
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 09499c8:182394
-    mode: tls
-  port: 2377
-  server: 60.249.35.38
+- alterId: 0
+  cipher: auto
+  name: 10|🇭🇰 香港6|@ripaojiedian
+  port: 49131
+  server: 38.147.188.236
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: beca03de-218f-4c6c-8e63-b4ccac456fa4
 - cipher: rc4-md5
   name: 10|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505282364048-WX78G4MFft.download.microsoft.com
+    host: 202505282364048-k4BSs9rOoW.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -225,8 +217,19 @@ proxies:
     path: /matwnpkhug
     skip-cert-verify: false
     tls: true
-  port: 37989
+  port: 43361
   server: 43.226.17.11
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 10|🇯🇵 日本4|@ripaojiedian
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)aa1c23d:49858
+    mode: tls
+  port: 2377
+  server: 221.215.48.116
   tfo: false
   type: ss
 - alterId: 2
@@ -270,12 +273,20 @@ proxies:
   skip-cert-verify: false
   sni: 3050cfd7-sx6ps0-sydxa9-fa3p.cm5.cnkuaishou.com
   type: trojan
+- name: 10,11|新加坡6|@ripaojiedian
+  network: tcp
+  password: 1469e09e-027c-11ec-a0fc-f23c913c8d2b
+  port: 27231
+  server: 204bdce4-sxaf40-t5bgb3-l4nv.cm5.cnkuaishou.com
+  skip-cert-verify: false
+  sni: 204bdce4-sxaf40-t5bgb3-l4nv.cm5.cnkuaishou.com
+  type: trojan
 - cipher: rc4-md5
   name: 10|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505282364048-WX78G4MFft.download.microsoft.com
+    host: 202505282364048-k4BSs9rOoW.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
@@ -329,12 +340,16 @@ proxies:
     headers:
       Host: zxjp-c.tkong.cc
     path: /
-- name: 11|香港|@ripaojiedian
-  network: tcp
-  password: '63099'
-  port: 18000
-  server: vhs.88443.cf
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 10|🇨🇭 瑞士|@ripaojiedian
+  port: 15002
+  server: 15002.kuaiyin02.top
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
 - alterId: 64
   cipher: auto
   name: 11|新加坡2|@ripaojiedian
@@ -367,6 +382,16 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
+  name: 11|香港6|@ripaojiedian
+  network: tcp
+  port: '49131'
+  server: 38.147.188.236
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: beca03de-218f-4c6c-8e63-b4ccac456fa4
+- alterId: 0
+  cipher: auto
   name: 11|日本V2|@ripaojiedian
   network: kcp
   port: '50951'
@@ -391,3 +416,13 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11|瑞士|@ripaojiedian
+  network: tcp
+  port: '15002'
+  server: 15002.kuaiyin02.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
