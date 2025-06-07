@@ -105,62 +105,15 @@ vmess://eyJ2IjogIjIiLCAicHMiOiAiMTF86aaZ5rivNXxAcmlwYW9qaWVkaWFuIiwgImFkZCI6ICIx
 vmess://eyJ2IjogIjIiLCAicHMiOiAiMTF86aaZ5rivOHxAcmlwYW9qaWVkaWFuIiwgImFkZCI6ICIxODMuMjM2LjUxLjM4IiwgInBvcnQiOiAiNTk2NTIiLCAiYWlkIjogNjQsICJzY3kiOiAiYXV0byIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAibm9uZSIsICJ0bHMiOiAiIiwgImlkIjogIjQxODA0OGFmLWEyOTMtNGI5OS05YjBjLTk4Y2EzNTgwZGQyNCIsICJzbmkiOiAiIn0=
 vmess://eyJ2IjogIjIiLCAicHMiOiAiMTF85pel5pysVjJ8QHJpcGFvamllZGlhbiIsICJhZGQiOiAiOC4yMTEuMTU0LjEwNyIsICJwb3J0IjogIjUwOTUxIiwgImFpZCI6IDAsICJzY3kiOiAiYXV0byIsICJuZXQiOiAia2NwIiwgInR5cGUiOiAibm9uZSIsICJ0bHMiOiAiIiwgImlkIjogImEzZDA0NTQ4LTYyNWMtNDY1OC05ZmYwLWY5YTc4MzVkMWY2ZCIsICJzbmkiOiAiIn0=
 trojan://bf109e1a-2b99-11ed-bb74-f23c9164ca5d@ddd0977f-sxaf40-t3b4w3-ywms.cm5.cnkuaishou.com:27231?#11%7C%E6%96%B0%E5%8A%A0%E5%9D%A13%7C%40ripaojiedian
-vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@147.78.140.20:8880?allowInsecure=0&sni=us.laoyoutiao.link&type=ws&host=us.laoyoutiao.link&path=/#12%7CBG_speednode_0001
-trojan://9e1ddc04-073b-11ed-bd7c-f23c913c8d2b@4aaff985-sxfz40-t1jamc-1fvdh.cm5.cnkuaishou.com:27231?allowInsecure=0&sni=4aaff985-sxfz40-t1jamc-1fvdh.cm5.cnkuaishou.com#12%7CCN_speednode_0003
-trojan://d076280a-0d5f-11f0-8a7b-f23c913c8d2b@6a98e275-sx8kg0-tcum62-se45.cm5.cnkuaishou.com:27231?allowInsecure=0&sni=6a98e275-sx8kg0-tcum62-se45.cm5.cnkuaishou.com#12%7CCN_speednode_0005
-trojan://659990ba-650f-11ea-a7af-f23c9164ca5d@7fd1be71-sxc9s0-tcselz-oua4.cm5.cnkuaishou.com:27231?allowInsecure=0&sni=7fd1be71-sxc9s0-tcselz-oua4.cm5.cnkuaishou.com#12%7CCN_speednode_0006
-vless://63601f9f-7c67-4952-919a-1ef802b5a7ec@45.12.134.250:443?allowInsecure=1&sni=steep.skyfigure.top&type=ws&host=steep.skyfigure.top&path=/Telegram🇨🇳 @pgkj666 /?ed=2560security=tls#12%7CCY_speednode_0007
-vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@45.80.111.20:8880?allowInsecure=0&sni=us.laoyoutiao.link&type=ws&host=us.laoyoutiao.link&path=/#12%7CDE_speednode_0008
-vless://583ceab3-4022-4553-9158-9bedc625ad4e@185.238.228.39:8880?allowInsecure=0&sni=ip.langmanshanxi.top&type=ws&host=ip.langmanshanxi.top&path=/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560#12%7CES_speednode_0009
-vless://1a79d43f-b41c-496b-a241-dcbeefa81f0e@185.114.72.31:2053?allowInsecure=0&sni=0926.qiang2000.link&type=ws&host=0926.qiang2000.link&path=/Telegram🇨🇳@WangCai2/?ed=2560fp=chrome&security=tls#12%7CES_speednode_0010
-vless://1a79d43f-b41c-496b-a241-dcbeefa81f0e@185.114.72.31:2053?allowInsecure=0&sni=0926.qiang2000.link&type=ws&host=0926.qiang2000.link&path=/fp=chrome&security=tls#12%7CES_speednode_0011
-vless://1a79d43f-b41c-496b-a241-dcbeefa81f0e@77.221.159.70:443?allowInsecure=0&sni=0926.qiang2000.link&type=ws&host=0926.qiang2000.link&path=/Telegram🇨🇳@WangCai2/?ed=2560fp=chrome&security=tls#12%7CFI_speednode_0012
-vless://1a79d43f-b41c-496b-a241-dcbeefa81f0e@77.221.159.70:443?allowInsecure=0&sni=0926.qiang2000.link&type=ws&host=0926.qiang2000.link&path=/TelegramU0001F1E8U0001F1F3@WangCai2/?ed=2560fp=chrome&security=tls#12%7CFI_speednode_0013
-vless://7f93e196-1b2f-4a42-8051-5815554c05db@3.10.4.186:443?allowInsecure=0&sni=zula.ir&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CGB_speednode_0017
-vless://7f93e196-1b2f-4a42-8051-5815554c05db@18.175.189.187:443?allowInsecure=0&sni=zula.ir&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CGB_speednode_0018
-vless://7f93e196-1b2f-4a42-8051-5815554c05db@35.179.75.215:443?allowInsecure=0&sni=zula.ir&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CGB_speednode_0019
-vless://7f93e196-1b2f-4a42-8051-5815554c05db@3.8.199.254:443?allowInsecure=0&sni=zula.ir&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CGB_speednode_0020
-vless://7f93e196-1b2f-4a42-8051-5815554c05db@18.175.226.50:443?allowInsecure=0&sni=zula.ir&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CGB_speednode_0021
-vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@91.193.58.69:8880?allowInsecure=0&sni=cs.laoyoutiao.link&type=ws&host=cs.laoyoutiao.link&path=/#12%7CGB_speednode_0022
-vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@91.193.58.172:8880?allowInsecure=0&sni=us.laoyoutiao.link&type=ws&host=us.laoyoutiao.link&path=/#12%7CGB_speednode_0023
-vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@91.193.58.79:8880?allowInsecure=1&sni=us.laoyoutiao.link&type=ws&host=us.laoyoutiao.link&path=/#12%7CGB_speednode_0024
-vless://7f93e196-1b2f-4a42-8051-5815554c05db@35.178.206.253:443?allowInsecure=0&sni=zula.ir&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CGB_speednode_0025
-vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@91.193.58.63:8880?allowInsecure=0&sni=us.laoyoutiao.link&type=ws&host=us.laoyoutiao.link&path=/#12%7CGB_speednode_0026
-vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@91.193.58.134:8880?allowInsecure=0&sni=us.laoyoutiao.link&type=ws&host=us.laoyoutiao.link&path=/#12%7CGB_speednode_0027
-vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@91.193.58.102:8880?allowInsecure=0&sni=sk.laoyoutiao.link&type=ws&host=sk.laoyoutiao.link&path=/#12%7CGB_speednode_0028
-vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@91.193.58.184:8880?allowInsecure=0&sni=us.laoyoutiao.link&type=ws&host=us.laoyoutiao.link&path=/#12%7CGB_speednode_0029
-vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@91.193.58.4:8880?allowInsecure=0&sni=us.laoyoutiao.link&type=ws&host=us.laoyoutiao.link&path=/#12%7CGB_speednode_0030
-vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@91.193.58.245:8880?allowInsecure=0&sni=us.laoyoutiao.link&type=ws&host=us.laoyoutiao.link&path=/#12%7CGB_speednode_0031
-vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@91.193.58.78:8880?allowInsecure=0&sni=cs.laoyoutiao.link&type=ws&host=cs.laoyoutiao.link&path=/#12%7CGB_speednode_0032
-vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@91.193.58.64:8880?allowInsecure=0&sni=us.laoyoutiao.link&type=ws&host=us.laoyoutiao.link&path=/#12%7CGB_speednode_0033
-vless://63601f9f-7c67-4952-919a-1ef802b5a7ec@46.149.203.202:7656?allowInsecure=1&sni=steep.skyfigure.top&type=ws&host=steep.skyfigure.top&path=/TelegramU0001F1E8U0001F1F3 @pgkj666 /?ed=2560security=tls#12%7CHK_speednode_0034
-vless://63601f9f-7c67-4952-919a-1ef802b5a7ec@46.149.203.202:7656?allowInsecure=1&sni=steep.skyfigure.top&type=ws&host=steep.skyfigure.top&path=/Telegram🇨🇳 @pgkj666 /?ed=2560security=tls#12%7CHK_speednode_0035
-vless://63601f9f-7c67-4952-919a-1ef802b5a7ec@121.87.0.21:11588?allowInsecure=0&sni=steep.skyfigure.top&type=ws&host=steep.skyfigure.top&path=/Telegram🇨🇳 @pgkj666 /?ed=2560security=tls#12%7CJP_speednode_0038
-vless://63601f9f-7c67-4952-919a-1ef802b5a7ec@5.253.41.94:443?allowInsecure=1&sni=steep.skyfigure.top&type=ws&host=steep.skyfigure.top&path=/Telegram🇨🇳 @pgkj666 /?ed=2560security=tls#12%7CJP_speednode_0039
-vless://63601f9f-7c67-4952-919a-1ef802b5a7ec@183.96.245.165:30060?allowInsecure=1&sni=steep.skyfigure.top&type=ws&host=steep.skyfigure.top&path=/TelegramU0001F1E8U0001F1F3 @pgkj666 /?ed=2560security=tls#12%7CKR_speednode_0040
-vless://63601f9f-7c67-4952-919a-1ef802b5a7ec@121.154.68.40:25079?allowInsecure=0&sni=steep.skyfigure.top&type=ws&host=steep.skyfigure.top&path=/TelegramU0001F1E8U0001F1F3 @pgkj666 /?ed=2560security=tls#12%7CKR_speednode_0041
-vless://63601f9f-7c67-4952-919a-1ef802b5a7ec@121.154.68.40:16040?allowInsecure=1&sni=steep.skyfigure.top&type=ws&host=steep.skyfigure.top&path=/Telegram🇨🇳 @pgkj666 /?ed=2560security=tls#12%7CKR_speednode_0042
-vless://7f93e196-1b2f-4a42-8051-5815554c05db@13.53.217.148:443?allowInsecure=0&sni=zula.ir&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CSE_speednode_0043
-vless://7f93e196-1b2f-4a42-8051-5815554c05db@13.53.186.195:443?allowInsecure=0&sni=zula.ir&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CSE_speednode_0044
-vless://7f93e196-1b2f-4a42-8051-5815554c05db@13.48.49.132:443?allowInsecure=0&sni=zula.ir&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CSE_speednode_0045
-vless://1a79d43f-b41c-496b-a241-dcbeefa81f0e@77.232.143.85:443?allowInsecure=0&sni=0926.qiang2000.link&type=ws&host=0926.qiang2000.link&path=/TelegramU0001F1E8U0001F1F3@WangCai2/?ed=2560fp=chrome&security=tls#12%7CSE_speednode_0046
-vless://63601f9f-7c67-4952-919a-1ef802b5a7ec@47.245.91.197:9000?allowInsecure=1&sni=steep.skyfigure.top&type=ws&host=steep.skyfigure.top&path=/Telegram🇨🇳 @pgkj666 /?ed=2560security=tls#12%7CSG_speednode_0047
-vless://63601f9f-7c67-4952-919a-1ef802b5a7ec@47.245.91.197:9000?allowInsecure=1&sni=steep.skyfigure.top&type=ws&host=steep.skyfigure.top&path=/TelegramU0001F1E8U0001F1F3 @pgkj666 /?ed=2560security=tls#12%7CSG_speednode_0048
-vless://63601f9f-7c67-4952-919a-1ef802b5a7ec@160.22.79.155:443?allowInsecure=0&sni=steep.skyfigure.top&type=ws&host=steep.skyfigure.top&path=/telegramU0001F1E8U0001F1F3@pgkj666security=tls#12%7CSG_speednode_0049
-vless://583ceab3-4022-4553-9158-9bedc625ad4e@104.129.164.39:8880?allowInsecure=0&sni=ip.langmanshanxi.top&type=ws&host=ip.langmanshanxi.top&path=/TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560fp=chrome#12%7CUS_speednode_0051
-vless://583ceab3-4022-4553-9158-9bedc625ad4e@104.129.164.39:8880?allowInsecure=0&sni=ip.langmanshanxi.top&type=ws&host=ip.langmanshanxi.top&path=/Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560fp=chrome#12%7CUS_speednode_0052
-vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@156.238.18.239:8880?allowInsecure=0&sni=yd.laoyoutiao.link&type=ws&host=yd.laoyoutiao.link&path=/#12%7CUS_speednode_0053
-vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@141.193.213.172:80?allowInsecure=0&sni=cs.laoyoutiao.link&type=ws&host=cs.laoyoutiao.link&path=/#12%7CUS_speednode_0055
-vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@156.238.18.170:8880?allowInsecure=0&sni=yd.laoyoutiao.link&type=ws&host=yd.laoyoutiao.link&path=/#12%7CUS_speednode_0056
-vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@141.193.213.157:80?allowInsecure=0&sni=cs.laoyoutiao.link&type=ws&host=cs.laoyoutiao.link&path=/#12%7CUS_speednode_0058
-vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@155.46.213.20:8880?allowInsecure=0&sni=us.laoyoutiao.link&type=ws&host=us.laoyoutiao.link&path=/#12%7CUS_speednode_0060
-vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@156.238.18.1:8880?allowInsecure=0&sni=yd.laoyoutiao.link&type=ws&host=yd.laoyoutiao.link&path=/#12%7CUS_speednode_0061
-vless://4cc56b53-a6fe-4ff7-af6e-689437a44738@151.101.64.155:80?allowInsecure=0&sni=Mard.asabani.coM&type=ws&host=Mard.asabani.coM&path=/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=8080#12%7CUS_speednode_0063
-vless://41ec8f30-6cd7-4703-94e1-95913c1626fa@NUFiLTER.fastly80-2.hosting-ip.com:80?allowInsecure=0&sni=arayeshgaham.com&type=ws&host=arayeshgaham.com&path=/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=80#12%7CUS_speednode_0064
-vless://b28545ee-8965-4321-fee1-95964a8ab7ec@151.101.64.155:80?allowInsecure=0&sni=Bpalanenok.org&type=ws&host=Bpalanenok.org&path=/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam?ed=2048#12%7CUS_speednode_0065
-https://Zbiypn.mcsslk.xyz/b26545fe7461cd712d8eee4e1a07e98c
+trojan://85f133142f04dbf6547da33895cfabb3@125.94.40.221:39001?allowInsecure=1&sni=www.yrtok.com#12%7CCN_speednode_0002
+trojan://2b1ed981-6547-4094-998b-06a3323d6f6c@120.233.44.201:21031?allowInsecure=1&sni=k54.tudou211.com#12%7CCN_speednode_0003
+vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@25.129.197.19:8880?allowInsecure=0&sni=hk.laoyoutiao.link&type=ws&host=hk.laoyoutiao.link&path=/telegram🇨🇳 @pgkj666 /?ed=2560#12%7CGB_speednode_0005
+vless://63601f9f-7c67-4952-919a-1ef802b5a7ec@91.193.58.247:8880?allowInsecure=0&sni=steep.skyfigure.top&type=ws&host=steep.skyfigure.top&path=/Telegram🇨🇳 @WangCai2 /?ed=2560#12%7CGB_speednode_0006
+vless://d342d11e-d424-4583-b36e-524ab1f0afa4@185.18.184.66:80?allowInsecure=1&sni=hello.96xckkzx.workers.dev&type=ws&host=hello.96xckkzx.workers.dev&path=/?ed=2048#12%7CNL_speednode_0009
+vless://d8dd94fd-540e-461d-b5d4-acebef02c22a@43.99.251.175:34045?allowInsecure=0&sni=visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me&fp=firefox&security=tls#12%7CSG_speednode_0014
+https://uUfgUY.absslk.xyz/f01d17e779d8f3f693d363b56a3ba4a0
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2MGE5MzBjMTdmZjA@43.226.17.11:17018?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bpath%3D%2Fmatwnpkhug%3Bhost%3Dkr6v1.xpmc.cc%3Btls#%E6%97%A5%E6%9C%AC2%7C%40ripaojiedian
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxNDUwY2VjZmI5M2Y@121.127.231.217:37689?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bmux%3D8%3Bpath%3D%2Fsimieepvt%3Bhost%3Dkh36v1.pmxiaonan.xyz%3Btls#%E9%A6%99%E6%B8%AF2%7C%40ripaojiedian
-https://nkTlzI.absslk.xyz/d994a539e392f5a0f79102f5d70908dc
-ss://cmM0LW1kNTplZmFuY2N5dW4@cn01.efan8867801.xyz:8766?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D202505310989964-u6lMbYHt99.download.microsoft.com#%E6%97%A5%E6%9C%AC%7C%40ripaojiedian
 ss://cmM0LW1kNTplZmFuY2N5dW4@cn01.efan8867801.xyz:8774?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D202505310989964-u6lMbYHt99.download.microsoft.com#%E7%BE%8E%E5%9B%BD2%7C%40ripaojiedian
+https://nAXvtV.mcsslk.xyz/15c6bd5cdc500fe5fba4ea84ffd1bd77
+ss://cmM0LW1kNTplZmFuY2N5dW4@cn01.efan8867801.xyz:8766?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D202505310989964-u6lMbYHt99.download.microsoft.com#%E6%97%A5%E6%9C%AC%7C%40ripaojiedian
