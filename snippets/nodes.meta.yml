@@ -1678,7 +1678,7 @@ proxies:
     path: /simieepvt
     skip-cert-verify: false
     tls: true
-  port: 11400
+  port: 37689
   server: 121.127.231.217
   tfo: false
   type: ss
@@ -1726,20 +1726,38 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
+- name: 10,11|香港7|@ripaojiedian
+  network: tcp
+  password: 85f133142f04dbf6547da33895cfabb3
+  port: 39001
+  server: 113.99.140.184
+  skip-cert-verify: true
+  sni: www.yrtok.com
+  type: trojan
+- alterId: 64
+  cipher: auto
+  name: 10|🇭🇰 香港8|@ripaojiedian
+  port: 59652
+  server: 183.236.51.38
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: 10,11|台湾|@ripaojiedian
   network: tcp
-  password: b483bf41-79d4-48df-bec6-30a756a3bd6b
-  port: 42765
-  server: js-12f83a8c.kaiqsz.com
-  skip-cert-verify: true
-  sni: mmbiz1.redapricotcloud.com
+  password: 92435aa8-f3b6-466a-ad58-c55cbb6d2acf
+  port: 443
+  server: hinet.mjt000.com
+  skip-cert-verify: false
+  sni: hinet.mjt000.com
   type: trojan
 - cipher: rc4-md5
   name: 10|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505282364048-Tbm8fXQu06.download.microsoft.com
+    host: 202505310989964-u6lMbYHt99.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -1756,7 +1774,7 @@ proxies:
     path: /matwnpkhug
     skip-cert-verify: false
     tls: true
-  port: 59333
+  port: 17018
   server: 43.226.17.11
   tfo: false
   type: ss
@@ -1804,7 +1822,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505282364048-Tbm8fXQu06.download.microsoft.com
+    host: 202505310989964-u6lMbYHt99.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
@@ -1828,10 +1846,10 @@ proxies:
     path: /oooo
 - alterId: 2
   cipher: auto
-  name: 10,11|美国5|@ripaojiedian
+  name: 10,11|美国3|@ripaojiedian
   network: ws
-  port: '30828'
-  server: 111.26.109.79
+  port: '30824'
+  server: v24.heduian.link
   servername: ''
   skip-cert-verify: false
   tfo: false
@@ -1840,7 +1858,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      Host: ocbc.com
+      Host: v24.heduian.link
     path: /oooo
 - alterId: 2
   cipher: auto
@@ -1884,6 +1902,16 @@ proxies:
   network: tcp
   port: '31209'
   server: 120.232.153.40
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 11|香港8|@ripaojiedian
+  network: tcp
+  port: '59652'
+  server: 183.236.51.38
   servername: ''
   tls: false
   type: vmess
