@@ -31,6 +31,16 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
+- client-fingerprint: chrome
+  name: 10,11,12|CN_speednode_0006
+  network: tcp
+  password: 85f133142f04dbf6547da33895cfabb3
+  port: 39001
+  server: 203.156.253.12
+  skip-cert-verify: true
+  sni: www.yrtok.com
+  type: trojan
+  udp: true
 - name: 12|KR_speednode_0048
   network: ws
   port: 36636
