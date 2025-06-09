@@ -6,7 +6,7 @@ proxies:
   server: 125.141.31.72
   type: ss
 - client-fingerprint: chrome
-  name: 10,11,12|CN_speednode_0006
+  name: 10,11|韩国|@ripaojiedian
   network: tcp
   password: 85f133142f04dbf6547da33895cfabb3
   port: 39001
@@ -14,4 +14,3 @@ proxies:
   skip-cert-verify: true
   sni: www.yrtok.com
   type: trojan
-  udp: true

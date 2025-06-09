@@ -32,7 +32,7 @@ proxies:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 10,11,12|CN_speednode_0006
+  name: 10,11|韩国|@ripaojiedian
   network: tcp
   password: 85f133142f04dbf6547da33895cfabb3
   port: 39001
@@ -40,22 +40,7 @@ proxies:
   skip-cert-verify: true
   sni: www.yrtok.com
   type: trojan
-  udp: true
-- name: 12|KR_speednode_0048
-  network: ws
-  port: 36636
-  server: 14.43.209.58
-  servername: steep.skyfigure.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec
-  ws-opts:
-    headers:
-      Host: steep.skyfigure.top
-    path: /Telegram🇨🇳 @pgkj666 /?ed=2560
-- name: 12|KR_speednode_0049
+- name: 12|KR_speednode_0029
   network: ws
   port: 30060
   server: 183.96.245.165
