@@ -137,7 +137,7 @@ proxies:
     path: /simieepvt
     skip-cert-verify: false
     tls: true
-  port: 54778
+  port: 29755
   server: 121.127.231.217
   tfo: false
   type: ss
@@ -151,14 +151,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 10,11|香港4|@ripaojiedian
-  network: tcp
-  password: e4af2638-bb12-4e4a-84f1-a032e23ca63f
-  port: 443
-  server: usla.mjt000.com
+- alterId: 0
+  cipher: auto
+  name: 10|🇭🇰 香港4|@ripaojiedian
+  port: 27680
+  server: 38.147.189.7
   skip-cert-verify: false
-  sni: usla.mjt000.com
-  type: trojan
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 1e17ef3c-b4a9-4430-ba37-3c986dba8f2f
 - alterId: 64
   cipher: auto
   name: 10|🇭🇰 香港5|@ripaojiedian
@@ -203,28 +205,12 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 10,11|台湾|@ripaojiedian
-  network: tcp
-  password: 92435aa8-f3b6-466a-ad58-c55cbb6d2acf
-  port: 443
-  server: hinet.mjt000.com
-  skip-cert-verify: false
-  sni: hinet.mjt000.com
-  type: trojan
-- name: 10,11|台湾2|@ripaojiedian
-  network: tcp
-  password: 6e1b9a65-884f-3aa9-9469-bf6ec0f08610
-  port: 443
-  server: taifo03a.kbservice.club
-  skip-cert-verify: false
-  sni: 45.32.28.232
-  type: trojan
 - cipher: rc4-md5
   name: 10|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506070920094-XtwGcPhiXY.download.microsoft.com
+    host: 202506070920094-RCFIknio7m.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -241,18 +227,10 @@ proxies:
     path: /matwnpkhug
     skip-cert-verify: false
     tls: true
-  port: 41952
+  port: 50058
   server: 43.226.17.11
   tfo: false
   type: ss
-- name: 10,11|日本4|@ripaojiedian
-  network: tcp
-  password: 2f653ecd-c290-451e-a848-f8f525bc5a21
-  port: 2323
-  server: shltt.sub-zrj.com
-  skip-cert-verify: true
-  sni: streaming.sub-zrj.com
-  type: trojan
 - alterId: 2
   cipher: auto
   name: 10,11|新加坡|@ripaojiedian
@@ -269,36 +247,6 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- name: 10,11|新加坡5|@ripaojiedian
-  network: tcp
-  password: 905fcd78-866c-81e1-3cb8-1beb59d661ab
-  port: 27231
-  server: 3050cfd7-sx6ps0-sydxa9-fa3p.cm5.cnkuaishou.com
-  skip-cert-verify: false
-  sni: 3050cfd7-sx6ps0-sydxa9-fa3p.cm5.cnkuaishou.com
-  type: trojan
-- name: 10|🇸🇬 新加坡3|@ripaojiedian
-  password: bf109e1a-2b99-11ed-bb74-f23c9164ca5d
-  port: 27231
-  server: ddd0977f-sxaf40-t3b4w3-ywms.cm5.cnkuaishou.com
-  skip-cert-verify: false
-  sni: ddd0977f-sxaf40-t3b4w3-ywms.cm5.cnkuaishou.com
-  type: trojan
-- name: 10|🇸🇬 新加坡4|@ripaojiedian
-  password: ba151628-b3a2-11ef-bdb9-f23c91cfbbc9
-  port: 27231
-  server: 3a55af19-sxlj40-t8tsp0-1szmi.cm5.cnkuaishou.com
-  skip-cert-verify: false
-  sni: 3a55af19-sxlj40-t8tsp0-1szmi.cm5.cnkuaishou.com
-  type: trojan
-- name: 10,11|新加坡6|@ripaojiedian
-  network: tcp
-  password: 1469e09e-027c-11ec-a0fc-f23c913c8d2b
-  port: 27231
-  server: 204bdce4-sxaf40-t5bgb3-l4nv.cm5.cnkuaishou.com
-  skip-cert-verify: false
-  sni: 204bdce4-sxaf40-t5bgb3-l4nv.cm5.cnkuaishou.com
-  type: trojan
 - name: 10,11,12|CN_speednode_0006
   network: tcp
   password: 85f133142f04dbf6547da33895cfabb3
@@ -313,7 +261,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506070920094-XtwGcPhiXY.download.microsoft.com
+    host: 202506070920094-RCFIknio7m.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
@@ -387,6 +335,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11|香港4|@ripaojiedian
+  network: tcp
+  port: '27680'
+  server: 38.147.189.7
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1e17ef3c-b4a9-4430-ba37-3c986dba8f2f
 - alterId: 64
   cipher: auto
   name: 11|香港5|@ripaojiedian
@@ -417,18 +375,6 @@ proxies:
   tls: false
   type: vmess
   uuid: a3d04548-625c-4658-9ff0-f9a7835d1f6d
-- name: 11|新加坡3|@ripaojiedian
-  network: tcp
-  password: bf109e1a-2b99-11ed-bb74-f23c9164ca5d
-  port: 27231
-  server: ddd0977f-sxaf40-t3b4w3-ywms.cm5.cnkuaishou.com
-  type: trojan
-- name: 11|新加坡4|@ripaojiedian
-  network: tcp
-  password: ba151628-b3a2-11ef-bdb9-f23c91cfbbc9
-  port: 27231
-  server: 3a55af19-sxlj40-t8tsp0-1szmi.cm5.cnkuaishou.com
-  type: trojan
 - name: 12|CN_speednode_0004
   password: 85f133142f04dbf6547da33895cfabb3
   port: 39001
