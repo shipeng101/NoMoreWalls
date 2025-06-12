@@ -14,7 +14,7 @@ proxies:
       Host: broadcastlv.chat.bilibili.com
     path: /
 - client-fingerprint: chrome
-  name: 10,11,12|CN_speednode_0027
+  name: 10,11|香港|@ripaojiedian
   network: tcp
   password: 85f133142f04dbf6547da33895cfabb3
   port: 39001
@@ -22,7 +22,6 @@ proxies:
   skip-cert-verify: true
   sni: 120.233.128.68
   type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 10|🇭🇰 香港2|@ripaojiedian
