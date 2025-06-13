@@ -1970,39 +1970,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 0d90d331-6c70-4cb9-855b-c11bcfd227c4
-- name: 12|CN_speednode_0002
-  password: 85d450b2-1c2b-11f0-8a7b-f23c913c8d2b
-  port: 27233
-  server: 8cbcd01f-sxsxs0-sy94f1-1nc6m.cm5.cnkuaishou.com
-  skip-cert-verify: false
-  sni: 8cbcd01f-sxsxs0-sy94f1-1nc6m.cm5.cnkuaishou.com
-  type: trojan
-  udp: true
-- name: 12|CN_speednode_0003
-  password: 3a45a384-4ea7-11ed-a8bf-f23c91cfbbc9
-  port: 27233
-  server: 6a4d70fb-sxsxs0-sy7yrp-1j3kc.cm5.cnkuaishou.com
-  skip-cert-verify: false
-  sni: 6a4d70fb-sxsxs0-sy7yrp-1j3kc.cm5.cnkuaishou.com
-  type: trojan
-  udp: true
-- name: 12|CN_speednode_0004
-  password: 85f133142f04dbf6547da33895cfabb3
-  port: 39001
-  server: 116.31.75.150
-  skip-cert-verify: true
-  sni: www.yrtok.com
-  type: trojan
-  udp: true
-- name: 12|CN_speednode_0005
-  password: 2b1ed981-6547-4094-998b-06a3323d6f6c
-  port: 21179
-  server: 120.233.44.201
-  skip-cert-verify: false
-  sni: k30.tudou211.com
-  type: trojan
-  udp: true
-- name: 12|CN_speednode_0006
+- name: 12|CN_speednode_0001
   password: 1b4c16925f934c57b954a9f0f23dea33
   port: 8842
   server: 42.240.152.238
@@ -2011,7 +1979,7 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: firefox
-  name: 12|GB_speednode_0009
+  name: 12|GB_speednode_0004
   port: 34045
   reality-opts:
     public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
@@ -2023,63 +1991,7 @@ proxies:
   type: vless
   udp: true
   uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
-- name: 12|HK_speednode_0010
-  network: ws
-  port: 443
-  server: 47.76.218.163
-  servername: steep.skyfigure.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec
-  ws-opts:
-    headers:
-      Host: steep.skyfigure.top
-    path: /Telegram @pgkj666 /?ed=2560
-- name: 12|JP_speednode_0012
-  network: ws
-  port: 443
-  server: 150.66.0.85
-  servername: steep.skyfigure.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec
-  ws-opts:
-    headers:
-      Host: steep.skyfigure.top
-    path: /Telegram🇨🇳 @pgkj666 /?ed=2560
-- name: 12|JP_speednode_0013
-  network: ws
-  port: 19842
-  server: 121.85.55.59
-  servername: steep.skyfigure.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec
-  ws-opts:
-    headers:
-      Host: steep.skyfigure.top
-    path: /Telegram🇨🇳 @pgkj666 /?ed=2560
-- name: 12|JP_speednode_0014
-  network: ws
-  port: 443
-  server: 160.16.76.226
-  servername: steep.skyfigure.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec
-  ws-opts:
-    headers:
-      Host: steep.skyfigure.top
-    path: /Telegram🇨🇳 @pgkj666 /?ed=2560
-- name: 12|SG_speednode_0019
+- name: 12|SG_speednode_0008
   network: ws
   port: 443
   server: 168.138.181.208
@@ -2093,80 +2005,13 @@ proxies:
     headers:
       Host: sgp.rtot.me
     path: /bing
-- name: 12|US_speednode_0056
-  network: ws
-  port: 80
-  server: 151.101.2.133
-  servername: xasshsga---RUBIKA.ir.speedtest.net.ARCHYU.IR
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 75ecef77-2050-4250-99f7-936d0188edf2
-  ws-opts:
-    headers:
-      Host: xasshsga---RUBIKA.ir.speedtest.net.ARCHYU.IR
-    path: /ws/?ed=2048
-- name: 12|US_speednode_0059
-  network: ws
-  port: 80
-  server: 151.101.130.133
-  servername: xasshsga---RUBIKA.ir.speedtest.net.ARCHYU.IR
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 75ecef77-2050-4250-99f7-936d0188edf2
-  ws-opts:
-    headers:
-      Host: xasshsga---RUBIKA.ir.speedtest.net.ARCHYU.IR
-    path: /ws/?ed=2048
 - client-fingerprint: firefox
-  name: 12|VN_speednode_0070
-  port: 34045
-  reality-opts:
-    public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
-    short-id: e8ab71d0
-  server: 103.12.77.78
-  servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
-- client-fingerprint: firefox
-  name: 12|VN_speednode_0071
+  name: 12|VN_speednode_0029
   port: 34045
   reality-opts:
     public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
     short-id: e8ab71d0
   server: 103.81.86.9
-  servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
-- client-fingerprint: firefox
-  name: 12|VN_speednode_0072
-  port: 34045
-  reality-opts:
-    public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
-    short-id: e8ab71d0
-  server: 59.153.217.57
-  servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
-- client-fingerprint: firefox
-  name: 12|VN_speednode_0073
-  port: 34045
-  reality-opts:
-    public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
-    short-id: e8ab71d0
-  server: 103.81.85.15
   servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
   skip-cert-verify: false
   tls: true

@@ -1359,31 +1359,3 @@ proxies:
     headers:
       Host: v24.heduian.link
     path: /oooo
-- name: 12|US_speednode_0056
-  network: ws
-  port: 80
-  server: 151.101.2.133
-  servername: xasshsga---RUBIKA.ir.speedtest.net.ARCHYU.IR
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 75ecef77-2050-4250-99f7-936d0188edf2
-  ws-opts:
-    headers:
-      Host: xasshsga---RUBIKA.ir.speedtest.net.ARCHYU.IR
-    path: /ws/?ed=2048
-- name: 12|US_speednode_0059
-  network: ws
-  port: 80
-  server: 151.101.130.133
-  servername: xasshsga---RUBIKA.ir.speedtest.net.ARCHYU.IR
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 75ecef77-2050-4250-99f7-936d0188edf2
-  ws-opts:
-    headers:
-      Host: xasshsga---RUBIKA.ir.speedtest.net.ARCHYU.IR
-    path: /ws/?ed=2048
