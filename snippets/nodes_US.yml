@@ -81,3 +81,35 @@ proxies:
     headers:
       Host: v24.heduian.link
     path: /oooo
+- name: 12|US_speednode_0119
+  password: b6fb3816-af03-4b21-b1fc-cb2b70fa2705
+  port: 12527
+  server: t11.emovpn.buzz
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
+  udp: true
+- name: 12|US_speednode_0120
+  password: b6fb3816-af03-4b21-b1fc-cb2b70fa2705
+  port: 1401
+  server: t10.emovpn.buzz
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
+  udp: true
+- name: 12|US_speednode_0123
+  password: b6fb3816-af03-4b21-b1fc-cb2b70fa2705
+  port: 1662
+  server: t16.emovpn.buzz
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
+  udp: true
+- name: 12|US_speednode_0125
+  password: b6fb3816-af03-4b21-b1fc-cb2b70fa2705
+  port: 1370
+  server: t15.emovpn.buzz
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
+  udp: true

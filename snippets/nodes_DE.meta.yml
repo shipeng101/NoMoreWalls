@@ -85,3 +85,16 @@ proxies:
   udp: true
   uuid: b8bd42a9-551f-419d-b70d-4aefdd2cb074
   xudp: true
+- client-fingerprint: chrome
+  name: 12|DE_speednode_0041
+  port: 44073
+  reality-opts:
+    public-key: nRam85lBjCFi0rb3z2TdscE3iYf5XxkRQHMThf4dThk
+    short-id: bb3e0a552dfe5995
+  server: 92.112.23.189
+  servername: yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d6b65f08-f2ea-4871-aa7f-1ffeb81447d1
