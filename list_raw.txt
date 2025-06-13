@@ -166,10 +166,10 @@ vless://d8dd94fd-540e-461d-b5d4-acebef02c22a@103.81.85.15:34045?allowInsecure=0&
 vless://d8dd94fd-540e-461d-b5d4-acebef02c22a@103.12.76.236:34045?allowInsecure=1&sni=visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me&fp=firefox&security=tls#12%7CVN_speednode_0145
 vless://d8dd94fd-540e-461d-b5d4-acebef02c22a@103.81.86.9:34045?allowInsecure=0&sni=visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me&fp=firefox&security=tls#12%7CVN_speednode_0146
 vless://d8dd94fd-540e-461d-b5d4-acebef02c22a@103.12.77.78:34045?allowInsecure=0&sni=visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me&fp=firefox&security=tls#12%7CVN_speednode_0147
-ss://cmM0LW1kNTplZmFuY2N5dW4@cn01.efan8867801.xyz:8774?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D202506070920094-n6Kql0nGua.download.microsoft.com#%E7%BE%8E%E5%9B%BD2%7C%40ripaojiedian
-ss://cmM0LW1kNTplZmFuY2N5dW4@cn01.efan8867801.xyz:8766?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D202506070920094-n6Kql0nGua.download.microsoft.com#%E6%97%A5%E6%9C%AC%7C%40ripaojiedian
-https://9i9frg.mcsslk.xyz/824d04a251cf8f4c699030b079ae0ff7
-https://eFfacS.absslk.xyz/95ec40feff314e47dc4e40c0db4abb19
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2MGE5MzBjMTdmZjA@43.226.17.11:59294?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bpath%3D%2Fmatwnpkhug%3Bhost%3Dkr6v1.xpmc.cc%3Btls#%E6%97%A5%E6%9C%AC2%7C%40ripaojiedian
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxNDUwY2VjZmI5M2Y@121.127.231.229:42519?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bmux%3D8%3Bpath%3D%2Fsimieepvt%3Bhost%3Dkh36v1.pmxiaonan.xyz%3Btls#%E9%A6%99%E6%B8%AF2%7C%40ripaojiedian
+https://Vab6mo.mcsslk.xyz/815241b3fd9778b723d721a822ba9306
+ss://cmM0LW1kNTplZmFuY2N5dW4@cn01.efan8867801.xyz:8766?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D202506070920094-n6Kql0nGua.download.microsoft.com#%E6%97%A5%E6%9C%AC%7C%40ripaojiedian
+https://Eg2B8r.absslk.xyz/50793307b7642a2a8c67e0f8fd99edf9
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowODI5M2IyMDQ3MDc@156.251.179.79:41174?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bmux%3D8%3Bpath%3D%2Fsclbvcgkp%3Bhost%3Dhk6v1.pmxiaonan.xyz%3Btls#%E9%A6%99%E6%B8%AF2%7C%40ripaojiedian
+ss://cmM0LW1kNTplZmFuY2N5dW4@cn01.efan8867801.xyz:8774?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D202506070920094-n6Kql0nGua.download.microsoft.com#%E7%BE%8E%E5%9B%BD2%7C%40ripaojiedian
