@@ -36,24 +36,8 @@ proxies:
     path: /simieepvt
     skip-cert-verify: false
     tls: true
-  port: 42519
+  port: 15056
   server: 121.127.231.229
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 10|🇭🇰 香港2|@ripaojiedian 2
-  password: 08293b204707
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: hk6v1.pmxiaonan.xyz
-    mode: websocket
-    mux: true
-    path: /sclbvcgkp
-    skip-cert-verify: false
-    tls: true
-  port: 41174
-  server: 156.251.179.79
   tfo: false
   type: ss
 - client-fingerprint: chrome
