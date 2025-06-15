@@ -13,6 +13,15 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
+- client-fingerprint: chrome
+  name: 10,11|香港4|@ripaojiedian
+  network: tcp
+  password: 85f133142f04dbf6547da33895cfabb3
+  port: 39001
+  server: 113.99.140.184
+  skip-cert-verify: true
+  sni: www.yrtok.com
+  type: trojan
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 10|🇭🇰 香港2|@ripaojiedian
@@ -29,15 +38,6 @@ proxies:
   server: 156.251.179.238
   tfo: false
   type: ss
-- client-fingerprint: chrome
-  name: 10,11|香港4|@ripaojiedian
-  network: tcp
-  password: 85f133142f04dbf6547da33895cfabb3
-  port: 39001
-  server: 113.99.140.184
-  skip-cert-verify: true
-  sni: www.yrtok.com
-  type: trojan
 - client-fingerprint: chrome
   name: 10,11|香港3|@ripaojiedian
   network: tcp

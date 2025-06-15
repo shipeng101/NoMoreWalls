@@ -46,7 +46,7 @@ proxies:
   plugin-opts:
     host: kr6v1.dashengjs.net
     mode: websocket
-    mux: false
+    mux: true
     path: /bylnxldqaquw
     skip-cert-verify: false
     tls: true
