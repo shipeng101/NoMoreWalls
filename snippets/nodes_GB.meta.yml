@@ -1,51 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: 12|GB_speednode_0035
-  network: ws
-  port: 8880
-  server: 25.129.198.63
-  servername: sg.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: sg.laoyoutiao.link
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- client-fingerprint: chrome
-  name: 12|GB_speednode_0036
-  network: ws
-  port: 8880
-  server: 25.129.199.63
-  servername: sg.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: sg.laoyoutiao.link
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- client-fingerprint: chrome
-  name: 12|GB_speednode_0037
-  network: ws
-  port: 8880
-  server: 25.129.197.63
-  servername: sg.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: sg.laoyoutiao.link
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- client-fingerprint: chrome
-  name: 12|GB_speednode_0038
+  name: 12|GB_speednode_0024
   network: ws
   port: 8880
   server: 77.75.199.63
@@ -60,7 +15,52 @@ proxies:
       Host: sg.laoyoutiao.link
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
 - client-fingerprint: chrome
-  name: 12|GB_speednode_0039
+  name: 12|GB_speednode_0025
+  network: ws
+  port: 8880
+  server: 25.129.198.63
+  servername: sg.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: sg.laoyoutiao.link
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- client-fingerprint: chrome
+  name: 12|GB_speednode_0026
+  network: ws
+  port: 8880
+  server: 25.129.199.63
+  servername: sg.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: sg.laoyoutiao.link
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- client-fingerprint: chrome
+  name: 12|GB_speednode_0027
+  network: ws
+  port: 8880
+  server: 25.129.197.63
+  servername: sg.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: sg.laoyoutiao.link
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- client-fingerprint: chrome
+  name: 12|GB_speednode_0028
   network: ws
   port: 8880
   server: 185.193.31.63
@@ -76,7 +76,7 @@ proxies:
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 12|GB_speednode_0040
+  name: 12|GB_speednode_0029
   port: 443
   reality-opts:
     public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
@@ -91,7 +91,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: randomized
-  name: 12|GB_speednode_0041
+  name: 12|GB_speednode_0030
   network: ws
   port: 10108
   server: 134.122.100.178

@@ -48,7 +48,7 @@ proxies:
   type: vmess
   uuid: 5ddb4459-ce08-462b-b920-efc464f7e94e
 - client-fingerprint: random
-  name: 12|SG_speednode_0092
+  name: 12|SG_speednode_0080
   network: ws
   port: 27223
   server: 43.134.111.154
@@ -63,7 +63,7 @@ proxies:
       Host: etc.mesa.ip-ddns.com
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 12|SG_speednode_0093
+  name: 12|SG_speednode_0081
   network: ws
   port: 20223
   server: 43.134.23.141
@@ -78,7 +78,7 @@ proxies:
       Host: mot.majusti.dpdns.org
     path: /?ed=2560
 - client-fingerprint: random
-  name: 12|SG_speednode_0094
+  name: 12|SG_speednode_0082
   network: ws
   port: 20223
   server: 43.134.23.141

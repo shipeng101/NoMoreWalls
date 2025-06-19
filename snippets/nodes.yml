@@ -141,7 +141,7 @@ proxies:
   server: kh36v1.pmxiaonan.xyz
   tfo: false
   type: ss
-- name: 10,11,12|CN_speednode_0006
+- name: 10,11|香港3|@ripaojiedian
   network: tcp
   password: 85f133142f04dbf6547da33895cfabb3
   port: 39001
@@ -149,8 +149,7 @@ proxies:
   skip-cert-verify: true
   sni: 120.233.128.68
   type: trojan
-  udp: true
-- name: 10,11,12|CN_speednode_0010
+- name: 10,11|香港4|@ripaojiedian
   network: tcp
   password: 85f133142f04dbf6547da33895cfabb3
   port: 39001
@@ -158,7 +157,6 @@ proxies:
   skip-cert-verify: true
   sni: www.yrtok.com
   type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 10|🇭🇰 香港6|@ripaojiedian
@@ -237,7 +235,7 @@ proxies:
   skip-cert-verify: false
   sni: k14.tudou211.com
   type: trojan
-- name: 10,11,12|CN_speednode_0009
+- name: 10,11|韩国2|@ripaojiedian
   network: tcp
   password: 85f133142f04dbf6547da33895cfabb3
   port: 39001
@@ -245,7 +243,6 @@ proxies:
   skip-cert-verify: true
   sni: www.yrtok.com
   type: trojan
-  udp: true
 - alterId: 2
   cipher: auto
   name: 10,11|美国|@ripaojiedian
@@ -372,7 +369,7 @@ proxies:
   port: 15229
   server: 35eb0e91-sy0cg0-t7fz1r-8rja.cu.plebai.net
   type: trojan
-- name: 12|CN_speednode_0008
+- name: 12|CN_speednode_0006
   password: 85f133142f04dbf6547da33895cfabb3
   port: 39001
   server: 116.31.75.150
@@ -380,22 +377,7 @@ proxies:
   sni: www.yrtok.com
   type: trojan
   udp: true
-- name: 12|CN_speednode_0014
-  password: LfcDJuqe
-  port: 38632
-  server: 36.151.251.62
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 12|CN_speednode_0015
-  password: FpQhGpIr
-  port: 38632
-  server: 36.151.251.62
-  skip-cert-verify: true
-  sni: 36.151.251.62
-  type: trojan
-  udp: true
-- name: 12|CN_speednode_0017
+- name: 12|CN_speednode_0008
   password: VdWBGFmg
   port: 23770
   server: 36.151.251.62
@@ -403,15 +385,7 @@ proxies:
   sni: TG.WangCai2
   type: trojan
   udp: true
-- name: 12|CN_speednode_0019
-  password: 2b1ed981-6547-4094-998b-06a3323d6f6c
-  port: 21179
-  server: 120.233.44.201
-  skip-cert-verify: true
-  sni: k30.tudou211.com
-  type: trojan
-  udp: true
-- name: 12|CN_speednode_0020
+- name: 12|CN_speednode_0009
   password: 1b4c16925f934c57b954a9f0f23dea33
   port: 8842
   server: 42.240.152.238
@@ -419,46 +393,15 @@ proxies:
   sni: brwx.spvpv.com
   type: trojan
   udp: true
-- name: 12|KR_speednode_0057
-  network: ws
-  password: ttfang
-  port: 34529
-  server: 112.165.17.199
-  skip-cert-verify: false
-  sni: ttfang.fange.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ttfang.fange.me
-    path: /
-- name: 12|KR_speednode_0059
-  network: ws
-  password: ttfang
-  port: 17682
-  server: 59.26.30.111
+- name: 12|CN_speednode_0011
+  password: 2b1ed981-6547-4094-998b-06a3323d6f6c
+  port: 21179
+  server: 120.233.44.201
   skip-cert-verify: true
-  sni: ttfang.fange.me
+  sni: k30.tudou211.com
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: ttfang.fange.me
-    path: /
-- name: 12|KR_speednode_0060
-  network: ws
-  password: ttfang
-  port: 36840
-  server: 59.26.30.111
-  skip-cert-verify: false
-  sni: ttfang.fange.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ttfang.fange.me
-    path: /
-- name: 12|KR_speednode_0061
+- name: 12|KR_speednode_0046
   network: ws
   password: ttfang
   port: 13364
@@ -471,11 +414,37 @@ proxies:
     headers:
       Host: ttfang.fange.me
     path: /
-- name: 12|TW_speednode_0100
+- name: 12|KR_speednode_0047
   network: ws
   password: ttfang
-  port: 81
-  server: 220.135.202.250
+  port: 36840
+  server: 59.26.30.111
+  skip-cert-verify: false
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /
+- name: 12|KR_speednode_0048
+  network: ws
+  password: ttfang
+  port: 34529
+  server: 112.165.17.199
+  skip-cert-verify: false
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /
+- name: 12|KR_speednode_0049
+  network: ws
+  password: ttfang
+  port: 17682
+  server: 59.26.30.111
   skip-cert-verify: true
   sni: ttfang.fange.me
   type: trojan
@@ -484,7 +453,7 @@ proxies:
     headers:
       Host: ttfang.fange.me
     path: /
-- name: 12|US_speednode_0135
+- name: 12|US_speednode_0121
   password: c4njgwUZU5
   port: 42538
   server: 38.59.241.141
@@ -492,14 +461,14 @@ proxies:
   sni: 38.59.241.141
   type: trojan
   udp: true
-- name: 12|US_speednode_0175
+- name: 12|US_speednode_0158
   password: c4njgwUZU5
   port: 42538
   server: 38.59.241.141
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 12|US_speednode_0184
+- name: 12|US_speednode_0169
   network: ws
   password: ttfang
   port: 443
@@ -512,20 +481,7 @@ proxies:
     headers:
       Host: ttfang.fange.me
     path: /Telegram🇨🇳+@WangCai2+/?ed=2560
-- name: 12|US_speednode_0185
-  network: ws
-  password: ttfang
-  port: 443
-  server: 198.41.221.0
-  skip-cert-verify: false
-  sni: ttfang.fange.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ttfang.fange.me
-    path: /Telegram🇨🇳+@WangCai2+/?ed=2560
-- name: 12|US_speednode_0186
+- name: 12|US_speednode_0170
   network: ws
   password: ttfang
   port: 443
@@ -538,7 +494,20 @@ proxies:
     headers:
       Host: ttfang.fange.me
     path: /Telegram🇨🇳+@WangCai2+/?ed=2560
-- name: 12|US_speednode_0187
+- name: 12|US_speednode_0171
+  network: ws
+  password: ttfang
+  port: 443
+  server: 198.41.221.0
+  skip-cert-verify: false
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /Telegram🇨🇳+@WangCai2+/?ed=2560
+- name: 12|US_speednode_0172
   network: ws
   password: ttfang
   port: 443
@@ -551,7 +520,7 @@ proxies:
     headers:
       Host: ttfang.fange.me
     path: /Telegram🇨🇳+@WangCai2+/?ed=2560
-- name: 12|US_speednode_0188
+- name: 12|US_speednode_0173
   network: ws
   password: ttfang
   port: 443
@@ -564,33 +533,7 @@ proxies:
     headers:
       Host: ttfang.fange.me
     path: /Telegram🇨🇳+@WangCai2+/?ed=2560
-- name: 12|US_speednode_0189
-  network: ws
-  password: ttfang
-  port: 443
-  server: 198.41.221.1
-  skip-cert-verify: false
-  sni: ttfang.fange.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ttfang.fange.me
-    path: /Telegram🇨🇳+@WangCai2+/?ed=2560
-- name: 12|US_speednode_0190
-  network: ws
-  password: ttfang
-  port: 443
-  server: 198.41.221.2
-  skip-cert-verify: false
-  sni: ttfang.fange.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ttfang.fange.me
-    path: /Telegram🇨🇳+@WangCai2+/?ed=2560
-- name: 12|US_speednode_0191
+- name: 12|US_speednode_0174
   network: ws
   password: ttfang
   port: 443
@@ -603,7 +546,33 @@ proxies:
     headers:
       Host: ttfang.fange.me
     path: /Telegram🇨🇳+@WangCai2+/?ed=2560
-- name: 12|US_speednode_0192
+- name: 12|US_speednode_0176
+  network: ws
+  password: ttfang
+  port: 443
+  server: 198.41.221.1
+  skip-cert-verify: false
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /Telegram🇨🇳+@WangCai2+/?ed=2560
+- name: 12|US_speednode_0177
+  network: ws
+  password: ttfang
+  port: 443
+  server: 198.41.221.2
+  skip-cert-verify: false
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /Telegram🇨🇳+@WangCai2+/?ed=2560
+- name: 12|US_speednode_0178
   network: ws
   password: ttfang
   port: 443
@@ -616,7 +585,7 @@ proxies:
     headers:
       Host: ttfang.fange.me
     path: /Telegram🇨🇳+@WangCai2+/?ed=2560
-- name: 12|US_speednode_0193
+- name: 12|US_speednode_0180
   network: ws
   password: ttfang
   port: 443
@@ -629,20 +598,7 @@ proxies:
     headers:
       Host: ttfang.fange.me
     path: /Telegram🇨🇳+@WangCai2+/?ed=2560
-- name: 12|US_speednode_0196
-  network: ws
-  password: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
-  port: 443
-  server: 172.67.220.140
-  skip-cert-verify: false
-  sni: iIIIiIIIii.000890604.xyZ
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: iIIIiIIIii.000890604.xyZ
-    path: /x9F83IcyjcEyBXZBROjL3Q5vTymr
-- name: 12|US_speednode_0197
+- name: 12|US_speednode_0181
   network: ws
   password: ttfang
   port: 443
@@ -655,46 +611,7 @@ proxies:
     headers:
       Host: ttfang.fange.me
     path: /Telegram🇨🇳+@WangCai2+/?ed=2560
-- name: 12|US_speednode_0198
-  network: ws
-  password: ttfang
-  port: 443
-  server: 198.41.221.11
-  skip-cert-verify: false
-  sni: ttfang.fange.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ttfang.fange.me
-    path: /Telegram🇨🇳+@WangCai2+/?ed=2560
-- name: 12|US_speednode_0199
-  network: ws
-  password: ttfang
-  port: 443
-  server: 198.41.221.10
-  skip-cert-verify: false
-  sni: ttfang.fange.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ttfang.fange.me
-    path: /Telegram🇨🇳+@WangCai2+/?ed=2560
-- name: 12|US_speednode_0200
-  network: ws
-  password: ttfang
-  port: 443
-  server: 198.41.221.8
-  skip-cert-verify: false
-  sni: ttfang.fange.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ttfang.fange.me
-    path: /Telegram🇨🇳+@WangCai2+/?ed=2560
-- name: 12|US_speednode_0203
+- name: 12|US_speednode_0183
   network: ws
   password: ttfang
   port: 443
@@ -707,11 +624,11 @@ proxies:
     headers:
       Host: ttfang.fange.me
     path: /Telegram🇨🇳+@WangCai2+/?ed=2560
-- name: 12|US_speednode_0205
+- name: 12|US_speednode_0185
   network: ws
   password: ttfang
   port: 443
-  server: 198.41.221.13
+  server: 198.41.221.11
   skip-cert-verify: false
   sni: ttfang.fange.me
   type: trojan
@@ -720,7 +637,7 @@ proxies:
     headers:
       Host: ttfang.fange.me
     path: /Telegram🇨🇳+@WangCai2+/?ed=2560
-- name: 12|US_speednode_0206
+- name: 12|US_speednode_0186
   network: ws
   password: ttfang
   port: 443
@@ -733,46 +650,59 @@ proxies:
     headers:
       Host: ttfang.fange.me
     path: /Telegram🇨🇳+@WangCai2+/?ed=2560
-- name: 12|US_speednode_0213
+- name: 12|US_speednode_0187
   network: ws
-  password: e4cbe8b8-37db-4aaa-8469-b84f34c51ebc
+  password: ttfang
   port: 443
-  server: 104.21.22.133
+  server: 198.41.221.8
   skip-cert-verify: false
-  sni: xsCdfVg.20220420.Pp.UA
+  sni: ttfang.fange.me
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: xsCdfVg.20220420.Pp.UA
-    path: /dilyfCPEmLvYr5hYXD
-- name: 12|US_speednode_0231
+      Host: ttfang.fange.me
+    path: /Telegram🇨🇳+@WangCai2+/?ed=2560
+- name: 12|US_speednode_0188
   network: ws
-  password: 11fbdd36-f418-4894-b2ed-50426a01ebcb
+  password: ttfang
   port: 443
-  server: 172.67.216.240
+  server: 198.41.221.10
   skip-cert-verify: false
-  sni: eeeeeeeeeeeee.857856.xyz
+  sni: ttfang.fange.me
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: eeeeeeeeeeeee.857856.xyz
-    path: /7fxgLRYv0nICignez9wTcHYw4Ll
-- name: 12|US_speednode_0242
+      Host: ttfang.fange.me
+    path: /Telegram🇨🇳+@WangCai2+/?ed=2560
+- name: 12|US_speednode_0189
   network: ws
-  password: 4b33b482-25bc-49e4-b866-878c914d945a
+  password: ttfang
   port: 443
-  server: 104.21.7.147
+  server: 198.41.221.13
   skip-cert-verify: false
-  sni: 44444444.HuanGShANG.DPDNs.oRG
+  sni: ttfang.fange.me
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: 44444444.HuanGShANG.DPDNs.oRG
-    path: /kzefUfBUzMsQY6zyyQCjn8kmnN0ehd
-- name: 12|US_speednode_0244
+      Host: ttfang.fange.me
+    path: /Telegram🇨🇳+@WangCai2+/?ed=2560
+- name: 12|US_speednode_0200
+  network: ws
+  password: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
+  port: 443
+  server: 172.67.220.140
+  skip-cert-verify: false
+  sni: iIIIiIIIii.000890604.xyZ
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: iIIIiIIIii.000890604.xyZ
+    path: /x9F83IcyjcEyBXZBROjL3Q5vTymr
+- name: 12|US_speednode_0222
   network: ws
   password: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
   port: 443
@@ -785,3 +715,16 @@ proxies:
     headers:
       Host: iIIIiIIIii.000890604.xyZ
     path: /x9F83IcyjcEyBXZBROjL3Q5vTymr
+- name: 12|US_speednode_0224
+  network: ws
+  password: 4b33b482-25bc-49e4-b866-878c914d945a
+  port: 443
+  server: 104.21.7.147
+  skip-cert-verify: false
+  sni: 44444444.HuanGShANG.DPDNs.oRG
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 44444444.HuanGShANG.DPDNs.oRG
+    path: /kzefUfBUzMsQY6zyyQCjn8kmnN0ehd

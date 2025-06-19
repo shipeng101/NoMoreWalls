@@ -15,7 +15,7 @@ proxies:
   sni: k14.tudou211.com
   type: trojan
 - client-fingerprint: chrome
-  name: 10,11,12|CN_speednode_0009
+  name: 10,11|韩国2|@ripaojiedian
   network: tcp
   password: 85f133142f04dbf6547da33895cfabb3
   port: 39001
@@ -23,24 +23,10 @@ proxies:
   skip-cert-verify: true
   sni: www.yrtok.com
   type: trojan
-  udp: true
-- name: 12|KR_speednode_0057
+- name: 12|KR_speednode_0046
   network: ws
   password: ttfang
-  port: 34529
-  server: 112.165.17.199
-  skip-cert-verify: false
-  sni: ttfang.fange.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ttfang.fange.me
-    path: /
-- name: 12|KR_speednode_0059
-  network: ws
-  password: ttfang
-  port: 17682
+  port: 13364
   server: 59.26.30.111
   skip-cert-verify: true
   sni: ttfang.fange.me
@@ -50,7 +36,7 @@ proxies:
     headers:
       Host: ttfang.fange.me
     path: /
-- name: 12|KR_speednode_0060
+- name: 12|KR_speednode_0047
   network: ws
   password: ttfang
   port: 36840
@@ -63,10 +49,23 @@ proxies:
     headers:
       Host: ttfang.fange.me
     path: /
-- name: 12|KR_speednode_0061
+- name: 12|KR_speednode_0048
   network: ws
   password: ttfang
-  port: 13364
+  port: 34529
+  server: 112.165.17.199
+  skip-cert-verify: false
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /
+- name: 12|KR_speednode_0049
+  network: ws
+  password: ttfang
+  port: 17682
   server: 59.26.30.111
   skip-cert-verify: true
   sni: ttfang.fange.me
