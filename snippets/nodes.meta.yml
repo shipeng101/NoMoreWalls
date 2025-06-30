@@ -1675,43 +1675,73 @@ proxies:
     path: /oooo
 - cipher: aes-256-gcm
   name: 10|🇭🇰 香港2|@ripaojiedian
-  password: 941cbc4237e0
+  password: 0b191076d18f
   plugin: v2ray-plugin
   plugin-opts:
-    host: kh36v1.dsjsapp.com
+    host: hk6v1.dsjsapp.com
     mode: websocket
     mux: true
-    path: /tkzhhylcfuf
+    path: /ugiibpkbca
     skip-cert-verify: false
     tls: true
   port: 636
-  server: 121.127.231.239
+  server: 156.251.179.136
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 10|🇭🇰 香港3|@ripaojiedian
+  port: 59149
+  server: 43.247.134.201
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: efbdabeb-68df-4cd0-959d-7d4f4b508609
+- alterId: 64
+  cipher: auto
+  name: 10|🇭🇰 香港4|@ripaojiedian
+  port: 46621
+  server: 183.236.51.37
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 10|🇹🇼 台湾|@ripaojiedian
+  port: 19490
+  server: fiwejniavzoj.xn--fiqs8sjz2bull.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: fc7b534b-9188-4d81-b804-55b4eb91cd6e
 - cipher: rc4-md5
   name: 10|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506261935105-0ppQRz8sLh.download.microsoft.com
+    host: 202506261935105-8wt2dE37PQ.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- cipher: aes-256-gcm
+- cipher: chacha20-ietf-poly1305
   name: 10|🇯🇵 日本2|@ripaojiedian
-  password: 08f0c77ed619
+  password: ac9df7aab595
   plugin: v2ray-plugin
   plugin-opts:
-    host: xwkr1v1.dsjsapi.net
+    host: jp5v1.8vote.cn
     mode: websocket
     mux: true
-    path: /yjriebtdvghs
+    path: /jlyoefhqt
     skip-cert-verify: false
     tls: true
-  port: 636
-  server: 43.226.17.54
+  port: 36937
+  server: 137.220.142.140
   tfo: false
   type: ss
 - name: 10,11|韩国|@ripaojiedian
@@ -1743,7 +1773,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506261935105-0ppQRz8sLh.download.microsoft.com
+    host: 202506261935105-8wt2dE37PQ.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
@@ -1767,6 +1797,26 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
+  name: 11|香港3|@ripaojiedian
+  network: tcp
+  port: '59149'
+  server: 43.247.134.201
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: efbdabeb-68df-4cd0-959d-7d4f4b508609
+- alterId: 64
+  cipher: auto
+  name: 11|香港4|@ripaojiedian
+  network: tcp
+  port: '46621'
+  server: 183.236.51.37
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
   name: 11|香港v2|@ripaojiedian
   network: kcp
   port: '34833'
@@ -1777,6 +1827,16 @@ proxies:
   uuid: dd0d30ae-a4d1-4d1e-8553-42bfff66fd27
 - alterId: 0
   cipher: auto
+  name: 11|台湾|@ripaojiedian
+  network: tcp
+  port: '19490'
+  server: fiwejniavzoj.xn--fiqs8sjz2bull.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: fc7b534b-9188-4d81-b804-55b4eb91cd6e
+- alterId: 0
+  cipher: auto
   name: 11|台湾v2|@ripaojiedian
   network: kcp
   port: '5663'
@@ -1785,16 +1845,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 986b3bc8-d0fb-4b60-b01f-28164e44cd48
-- alterId: 0
-  cipher: auto
-  name: 11|日本v2|@ripaojiedian
-  network: kcp
-  port: '47628'
-  server: 47.74.43.182
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f8d05bf8-bc4d-4599-9a3a-8dce9c223815
 - name: 12|AE_speednode_0001
   network: ws
   port: 8880
