@@ -349,29 +349,42 @@ proxies:
   port: 27233
   server: 096755a1-sytz40-syu28m-1mmbp.cm5.cnkuaishou.com
   type: trojan
-- name: 12|US_speednode_0215
+- name: 12|ES_speednode_0002
   network: ws
-  password: juzi
-  port: 443
-  server: 172.66.46.221
-  skip-cert-verify: true
-  sni: juzi8186-sr1.pages.dev
+  password: trojan
+  port: 8443
+  server: 109.234.211.66
+  skip-cert-verify: false
+  sni: store.timimi.dpdns.org
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: juzi8186-sr1.pages.dev
+      Host: store.timimi.dpdns.org
     path: /
-- name: 12|US_speednode_0217
+- name: 12|HK_speednode_0056
   network: ws
-  password: juzi
-  port: 443
-  server: 172.66.45.35
-  skip-cert-verify: true
-  sni: juzi8186-sr1.pages.dev
+  password: trojan
+  port: 8443
+  server: 45.192.222.112
+  skip-cert-verify: false
+  sni: store.timimi.dpdns.org
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: juzi8186-sr1.pages.dev
+      Host: store.timimi.dpdns.org
+    path: /?ed=2560
+- name: 12|SG_speednode_0065
+  network: ws
+  password: ttfang
+  port: 443
+  server: 138.2.64.229
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
     path: /
