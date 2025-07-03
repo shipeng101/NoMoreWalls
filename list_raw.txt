@@ -317,9 +317,9 @@ vless://d8dd94fd-540e-461d-b5d4-acebef02c22a@59.153.216.133:34045?allowInsecure=
 vless://d8dd94fd-540e-461d-b5d4-acebef02c22a@103.12.77.48:34045?allowInsecure=0&sni=visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me&fp=firefox&security=tls#12%7CVN_speednode_0231
 vless://d8dd94fd-540e-461d-b5d4-acebef02c22a@103.12.77.78:34045?allowInsecure=0&sni=visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me&fp=firefox&security=tls#12%7CVN_speednode_0232
 vless://583ceab3-4022-4553-9158-9bedc625ad4e@102.177.176.177:8880?allowInsecure=0&sni=Telegram-channel-WangCai2&type=ws&host=ip.langmanshanxi.top&path=/Telegram🇨🇳 @WangCai2 /?ed=2560fp=chrome#12%7CZA_speednode_0233
-ss://YWVzLTI1Ni1nY206ODg3YmZjZjQzYjUy@137.220.142.143:636?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bmux%3D8%3Bpath%3D%2Fsvynueogf%3Bhost%3Djp6v1.lingjfjkm002.com%3Btls#%E6%97%A5%E6%9C%AC2%7C%40ripaojiedian
 ss://cmM0LW1kNTplZmFuY2N5dW4@cn01.efan8867801.xyz:8774?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D202506101686237-pCdX1ZAl7Y.download.microsoft.com#%E7%BE%8E%E5%9B%BD2%7C%40ripaojiedian
-https://spqXga.absslk.xyz/2779beb1b4e7254ee00e19c320d5eb5c
-ss://YWVzLTI1Ni1nY206MGIxOTEwNzZkMThm@156.251.179.139:636?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bmux%3D8%3Bpath%3D%2Fugiibpkbca%3Bhost%3Dhk6v1.dsjsapp.com%3Btls#%E9%A6%99%E6%B8%AF2%7C%40ripaojiedian
 ss://cmM0LW1kNTplZmFuY2N5dW4@cn01.efan8867801.xyz:8766?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D202506101686237-pCdX1ZAl7Y.download.microsoft.com#%E6%97%A5%E6%9C%AC%7C%40ripaojiedian
-https://D4yMrD.mcsslk.xyz/0e8f0790c93d1f51212a076feb095126
+https://88AUZX.absslk.xyz/c4d6f69b29cbbd9d1d6199ced459699e
+https://Zx2AZI.mcsslk.xyz/05df0173af73656bbd7516971f447173
+ss://YWVzLTI1Ni1nY206MGIxOTEwNzZkMThm@156.251.179.139:636?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bmux%3D8%3Bpath%3D%2Fugiibpkbca%3Bhost%3Dhk6v1.dsjsapp.com%3Btls#%E9%A6%99%E6%B8%AF2%7C%40ripaojiedian
+ss://YWVzLTI1Ni1nY206ODg3YmZjZjQzYjUy@137.220.142.143:636?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bmux%3D8%3Bpath%3D%2Fsvynueogf%3Bhost%3Djp6v1.lingjfjkm002.com%3Btls#%E6%97%A5%E6%9C%AC2%7C%40ripaojiedian
