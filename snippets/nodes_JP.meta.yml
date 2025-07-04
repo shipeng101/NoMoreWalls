@@ -61,31 +61,3 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: 12|JP_speednode_0058
-  network: ws
-  port: 10443
-  server: 20.243.85.49
-  servername: edmx.aimercc.filegear-sg.me
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      Host: edmx.aimercc.filegear-sg.me
-    path: /
-- name: 12|JP_speednode_0059
-  network: ws
-  port: 8080
-  server: 82.163.16.69
-  servername: edmx.ambercc.filegear-sg.me
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      Host: edmx.ambercc.filegear-sg.me
-    path: /

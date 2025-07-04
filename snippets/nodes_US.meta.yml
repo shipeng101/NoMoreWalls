@@ -1343,20 +1343,3 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- http-opts:
-    headers:
-      Host:
-      - speedtest.net
-    method: GET
-    path:
-    - /
-  name: 12|US_speednode_0067
-  network: http
-  port: 8080
-  server: 194.36.209.104
-  servername: speedtest.net
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: b24657bb-418e-4a23-8d8e-3a699fb71a3d
