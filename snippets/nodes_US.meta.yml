@@ -1313,7 +1313,20 @@ proxies:
   sni: f7c80a8d-svc1s0-t28b6o-ef48.los.gotochinatown.net
   tls: true
   type: socks5
-- name: 11|美国3|@ripaojiedian
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 10|🇺🇸 美国2|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202507031938065-UXanxWSRH3.download.microsoft.com
+    mode: http
+  port: 8774
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
+- client-fingerprint: chrome
+  name: 10,11|美国3|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 30534
@@ -1321,7 +1334,8 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: 11|美国4|@ripaojiedian
+- client-fingerprint: chrome
+  name: 10,11|美国4|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 30495
