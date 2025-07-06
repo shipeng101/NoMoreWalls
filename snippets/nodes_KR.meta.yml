@@ -57,7 +57,7 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: 12|KR_speednode_0175
+- name: 12|KR_speednode_0116
   network: ws
   port: 30060
   server: 183.96.245.165
