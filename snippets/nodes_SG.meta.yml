@@ -37,8 +37,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- client-fingerprint: chrome
-  name: 10,11|新加坡|@ripaojiedian
+- name: 11|新加坡|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 38482
@@ -46,8 +45,7 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- client-fingerprint: chrome
-  name: 10,11|新加坡2|@ripaojiedian
+- name: 11|新加坡2|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 7041
@@ -55,8 +53,7 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- client-fingerprint: chrome
-  name: 10,11|新加坡4|@ripaojiedian
+- name: 11|新加坡4|@ripaojiedian
   network: tcp
   password: 1a17b19d-4896-4531-af79-6e91d8ef8228
   port: 6668
