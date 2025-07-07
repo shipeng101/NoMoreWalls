@@ -29,6 +29,23 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10,11|香港3|@ripaojiedian
+  network: ws
+  port: '80'
+  server: hkt.gotochinatown.net
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: a305ac08-d136-11ee-b6db-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - client-fingerprint: chrome
   name: 10,11|香港4|@ripaojiedian
   network: tcp
@@ -47,8 +64,17 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
+- client-fingerprint: chrome
+  name: 10,11|香港6|@ripaojiedian
+  network: tcp
+  password: 0b9c9261-7209-4dcc-b268-2fa74f6cd536
+  port: 20220
+  server: q2.46322416.xyz
+  skip-cert-verify: true
+  sni: cdn.alibaba.com
+  type: trojan
 - alterId: 0
-  cipher: auto
+  cipher: none
   name: 11|香港v2|@ripaojiedian
   network: kcp
   port: '34833'

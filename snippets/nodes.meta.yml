@@ -1672,6 +1672,22 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
+- alterId: 2
+  cipher: auto
+  name: 10,11|香港3|@ripaojiedian
+  network: ws
+  port: '80'
+  server: hkt.gotochinatown.net
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: a305ac08-d136-11ee-b6db-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - name: 10,11|香港4|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
@@ -1688,23 +1704,20 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇹🇼 台湾|@ripaojiedian
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 97f5bf6:94874
-    mode: tls
-  port: 2377
-  server: 3ce8ee8.b5.gladns.com
-  tfo: false
-  type: ss
+- name: 10,11|香港6|@ripaojiedian
+  network: tcp
+  password: 0b9c9261-7209-4dcc-b268-2fa74f6cd536
+  port: 20220
+  server: q2.46322416.xyz
+  skip-cert-verify: true
+  sni: cdn.alibaba.com
+  type: trojan
 - cipher: rc4-md5
   name: 10|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507031938065-kCgyohOaHg.download.microsoft.com
+    host: 202507031938065-JVU2imwfVB.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -1797,27 +1810,12 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: 10,11|新加坡4|@ripaojiedian
-  network: tcp
-  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
-  port: 6668
-  server: 13.215.50.90
-  skip-cert-verify: true
-  sni: baidu.com
-  type: trojan
-- name: 10,11|新加坡5|@ripaojiedian
-  network: tcp
-  password: a0f7a422-7867-469c-946b-190d8fbc2a5d
-  port: 1531
-  server: 103.248.229.29
-  skip-cert-verify: true
-  type: trojan
 - cipher: rc4-md5
   name: 10|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507031938065-kCgyohOaHg.download.microsoft.com
+    host: 202507031938065-JVU2imwfVB.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
@@ -1840,7 +1838,7 @@ proxies:
   sni: www.baidu.com
   type: trojan
 - alterId: 0
-  cipher: auto
+  cipher: none
   name: 11|香港v2|@ripaojiedian
   network: kcp
   port: '34833'
@@ -1849,6 +1847,16 @@ proxies:
   tls: false
   type: vmess
   uuid: dd0d30ae-a4d1-4d1e-8553-42bfff66fd27
+- alterId: 0
+  cipher: auto
+  name: 11|日本v2|@ripaojiedian
+  network: kcp
+  port: '7965'
+  server: 47.91.19.216
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9a2e59c2-e8a1-4684-8df7-5a5ca5ae174a
 - name: 12|AM_speednode_0001
   network: ws
   password: Aimer

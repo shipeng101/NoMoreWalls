@@ -21,7 +21,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507031938065-kCgyohOaHg.download.microsoft.com
+    host: 202507031938065-JVU2imwfVB.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -78,6 +78,16 @@ proxies:
     headers:
       Host: file.dingtalk.com
     path: /market?ed=512
+- alterId: 0
+  cipher: auto
+  name: 11|日本v2|@ripaojiedian
+  network: kcp
+  port: '7965'
+  server: 47.91.19.216
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9a2e59c2-e8a1-4684-8df7-5a5ca5ae174a
 - name: 12|JP_speednode_0106
   network: ws
   port: 8880
