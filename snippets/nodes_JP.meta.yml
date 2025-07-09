@@ -21,7 +21,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507031938065-yZ3kjukUbq.download.microsoft.com
+    host: 202507031938065-U5JTftURXP.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -56,8 +56,8 @@ proxies:
   name: 10,11|日本4|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 19577
-  server: 36.151.251.33
+  port: 53248
+  server: 36.151.192.27
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
@@ -65,13 +65,13 @@ proxies:
   cipher: auto
   name: 11|日本v2|@ripaojiedian
   network: kcp
-  port: '7965'
-  server: 47.91.19.216
+  port: '2389'
+  server: 8.211.145.146
   servername: ''
   tls: false
   type: vmess
-  uuid: 9a2e59c2-e8a1-4684-8df7-5a5ca5ae174a
-- name: 12|JP_speednode_0075
+  uuid: 9f9f395b-e9b2-4cfd-85b3-0425f0e11ad7
+- name: 12|JP_speednode_0046
   network: ws
   port: 443
   server: 202.144.195.204
@@ -85,7 +85,7 @@ proxies:
     headers:
       Host: steep.skyfigure.top
     path: /TelegramU0001F1E8U0001F1F3 @pgkj666 /?ed=2560
-- name: 12|JP_speednode_0076
+- name: 12|JP_speednode_0047
   network: ws
   port: 8880
   server: 154.92.9.77
@@ -99,7 +99,7 @@ proxies:
     headers:
       Host: free.cfdns.online
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- name: 12|JP_speednode_0077
+- name: 12|JP_speednode_0048
   network: ws
   port: 443
   server: 141.147.147.180
