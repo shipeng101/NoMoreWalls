@@ -15,21 +15,7 @@ proxies:
   udp-relay-mode: native
   uuid: f3ba3679-f2f4-465f-92a5-de320b775a88
   version: 5
-- name: 12|RU_speednode_0041
-  network: ws
-  port: 8880
-  server: 188.42.145.77
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 40c708ca-42e4-4224-a12d-1dbd7ef1e0b7
-  ws-opts:
-    headers:
-      Host: free.cfdns.online
-    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
-- name: 12|RU_speednode_0042
+- name: 12|RU_speednode_0038
   network: ws
   port: 80
   server: 45.8.211.139
@@ -43,7 +29,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: '/Channel id: @ShadowProxy66/?ed=2560'
-- name: 12|RU_speednode_0043
+- name: 12|RU_speednode_0039
   network: ws
   port: 8880
   server: 45.8.211.78
@@ -57,7 +43,21 @@ proxies:
     headers:
       Host: free.cfdns.online
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- name: 12|RU_speednode_0044
+- name: 12|RU_speednode_0040
+  network: ws
+  port: 8880
+  server: 188.42.145.77
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 40c708ca-42e4-4224-a12d-1dbd7ef1e0b7
+  ws-opts:
+    headers:
+      Host: free.cfdns.online
+    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+- name: 12|RU_speednode_0041
   network: ws
   port: 8880
   server: 185.174.138.77
@@ -71,7 +71,7 @@ proxies:
     headers:
       Host: free.cfdns.online
     path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
-- name: 12|RU_speednode_0046
+- name: 12|RU_speednode_0042
   network: ws
   port: 80
   server: 45.8.211.139
