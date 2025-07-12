@@ -303,24 +303,11 @@ proxies:
   tls: false
   type: vmess
   uuid: 9f9f395b-e9b2-4cfd-85b3-0425f0e11ad7
-- name: 12|RU_speednode_0104
-  network: ws
-  password: tg-fq521free
-  port: 443
-  server: 45.67.215.95
-  skip-cert-verify: false
-  sni: torjan.xn--xhq44j.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: torjan.xn--xhq44j.eu.org
-    path: /
-- name: 12|SG_speednode_0107
+- name: 12|SG_speednode_0072
   network: ws
   password: ttfang
-  port: 443
-  server: 138.2.64.229
+  port: 1111
+  server: 138.2.95.61
   skip-cert-verify: false
   sni: ttfang.fange.me
   type: trojan
