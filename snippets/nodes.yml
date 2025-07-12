@@ -116,16 +116,22 @@ proxies:
   sni: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net
   type: trojan
   udp: true
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 10|🇭🇰 香港|@ripaojiedian
-  port: 58236
-  server: 103.224.80.92
+  name: 10,11|香港|@ripaojiedian
+  network: ws
+  port: '30809'
+  server: v9.heduian.link
+  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 829218e3-9f74-4303-88da-a9d84f0c7852
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
 - cipher: aes-256-gcm
   name: 10|🇭🇰 香港2|@ripaojiedian
   password: 9bfdde71b4c0
@@ -141,6 +147,16 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 10|🇭🇰 香港3|@ripaojiedian
+  port: 31076
+  server: 38.147.189.233
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 5c2228f2-757b-4446-8682-68b652b05993
 - name: 10,11|香港4|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
@@ -169,7 +185,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507031938065-e8zxTxmqk7.download.microsoft.com
+    host: 202507031938065-xSDyIYO2PY.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -206,15 +222,7 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: 10,11|韩国2|@ripaojiedian
-  network: tcp
-  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
-  port: 6668
-  server: 3.34.143.101
-  skip-cert-verify: true
-  sni: baidu.com
-  type: trojan
-- name: 10,11|韩国4|@ripaojiedian
+- name: 10,11|韩国|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 16158
@@ -243,7 +251,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507031938065-e8zxTxmqk7.download.microsoft.com
+    host: 202507031938065-xSDyIYO2PY.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
@@ -267,14 +275,14 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 11|香港|@ripaojiedian
+  name: 11|香港3|@ripaojiedian
   network: tcp
-  port: '58236'
-  server: 103.224.80.92
+  port: '31076'
+  server: 38.147.189.233
   servername: ''
   tls: false
   type: vmess
-  uuid: 829218e3-9f74-4303-88da-a9d84f0c7852
+  uuid: 5c2228f2-757b-4446-8682-68b652b05993
 - alterId: 0
   cipher: none
   name: 11|香港v2|@ripaojiedian
