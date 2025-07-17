@@ -154,7 +154,7 @@ proxies:
   server: 155.117.228.70
   skip-cert-verify: true
   type: trojan
-- name: 10,11|香港4|@ripaojiedian
+- name: 10,11,12|CN_speednode_0015
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 1122
@@ -162,7 +162,8 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: 10,11|香港5|@ripaojiedian
+  udp: true
+- name: 10,11,12|CN_speednode_0014
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 9141
@@ -170,6 +171,7 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 10,11|台湾|@ripaojiedian
@@ -197,7 +199,7 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- name: 10,11|日本3|@ripaojiedian
+- name: 10,11,12|CN_speednode_0011
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 53248
@@ -205,6 +207,7 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
+  udp: true
 - cipher: aes-256-gcm
   name: 10|🇯🇵 日本2|@ripaojiedian
   password: 823e135ed103
@@ -220,7 +223,7 @@ proxies:
   server: 137.220.191.40
   tfo: false
   type: ss
-- name: 10,11|日本4|@ripaojiedian
+- name: 10,11,12|CN_speednode_0010
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 41225
@@ -228,7 +231,8 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: 10,11|韩国|@ripaojiedian
+  udp: true
+- name: 10,11,12|CN_speednode_0012
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 16158
@@ -236,7 +240,8 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: 10,11|新加坡|@ripaojiedian
+  udp: true
+- name: 10,11,12|CN_speednode_0017
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 44123
@@ -244,7 +249,8 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: 10,11|新加坡2|@ripaojiedian
+  udp: true
+- name: 10,11,12|CN_speednode_0013
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 32765
@@ -252,6 +258,7 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
+  udp: true
 - cipher: rc4-md5
   name: 10|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
@@ -263,7 +270,7 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- name: 10,11|美国3|@ripaojiedian
+- name: 10,11,12|CN_speednode_0018
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 4447
@@ -271,7 +278,8 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: 10,11|美国4|@ripaojiedian
+  udp: true
+- name: 10,11,12|CN_speednode_0016
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 13855
@@ -279,6 +287,7 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 11|香港v2|@ripaojiedian
@@ -299,7 +308,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 2a37eb45-4cdd-4c2e-914e-ed2f972e4003
-- name: 12|ES_speednode_0045
+- name: 12|ES_speednode_0029
   network: ws
   password: trojan
   port: 8443
@@ -312,20 +321,7 @@ proxies:
     headers:
       Host: store.timimi.dpdns.org
     path: /
-- name: 12|GB_speednode_0075
-  network: ws
-  password: trojan
-  port: 443
-  server: 91.193.58.0
-  skip-cert-verify: true
-  sni: wahaha.yingyangkuaixian.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: wahaha.yingyangkuaixian.dpdns.org
-    path: /?ed=2560
-- name: 12|GB_speednode_0076
+- name: 12|GB_speednode_0047
   network: ws
   password: trojan
   port: 443
@@ -337,4 +333,56 @@ proxies:
   ws-opts:
     headers:
       Host: wahaha.yingyangkuaixian.dpdns.org
+    path: /
+- name: 12|KZ_speednode_0057
+  network: ws
+  password: tg-fq521free
+  port: 443
+  server: 194.76.18.129
+  skip-cert-verify: false
+  sni: torjan.xn--xhq44j.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: torjan.xn--xhq44j.eu.org
+    path: /
+- name: 12|RU_speednode_0074
+  network: ws
+  password: tg-fq521free
+  port: 443
+  server: 45.67.215.95
+  skip-cert-verify: false
+  sni: torjan.xn--xhq44j.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: torjan.xn--xhq44j.eu.org
+    path: /
+- name: 12|TW_speednode_0079
+  network: ws
+  password: ttfang
+  port: 81
+  server: 103.106.230.186
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /
+- name: 12|US_speednode_0122
+  network: ws
+  password: tg-fq521free
+  port: 443
+  server: 198.62.62.67
+  skip-cert-verify: false
+  sni: torjan.xn--xhq44j.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: torjan.xn--xhq44j.eu.org
     path: /
