@@ -1,5 +1,5 @@
 proxies:
-- name: 12|GB_speednode_0047
+- name: 12|GB_speednode_0028
   network: ws
   password: trojan
   port: 443
