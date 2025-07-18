@@ -311,14 +311,14 @@ proxies:
   tls: false
   type: vmess
   uuid: 2a37eb45-4cdd-4c2e-914e-ed2f972e4003
-- name: 12|GB_speednode_0050
+- name: 12|GB_speednode_0046
   password: '74260628090146500'
   port: 443
   server: stirring-parakeet.shiner427.skin
   skip-cert-verify: false
   type: trojan
   udp: true
-- name: 12|GB_speednode_0065
+- name: 12|GB_speednode_0064
   network: ws
   password: trojan
   port: 443

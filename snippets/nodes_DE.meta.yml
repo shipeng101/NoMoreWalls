@@ -88,8 +88,8 @@ proxies:
 - name: 12|DE_speednode_0021
   network: ws
   port: 8880
-  server: 5.10.214.213
-  servername: jp.laoyoutiao.link
+  server: 45.80.111.168
+  servername: kjgx.laoyoutiao.link
   skip-cert-verify: false
   tls: false
   type: vless
@@ -97,12 +97,12 @@ proxies:
   uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   ws-opts:
     headers:
-      Host: jp.laoyoutiao.link
-    path: /?ed=2560
+      Host: kjgx.laoyoutiao.link
+    path: /Telegram@WangCai2/?ed=2560
 - name: 12|DE_speednode_0022
   network: ws
   port: 8880
-  server: 77.37.33.213
+  server: 5.10.214.213
   servername: jp.laoyoutiao.link
   skip-cert-verify: false
   tls: false
@@ -116,17 +116,17 @@ proxies:
 - name: 12|DE_speednode_0023
   network: ws
   port: 8880
-  server: 5.10.215.186
-  servername: Telegram-channel-WangCai2
+  server: 77.37.33.213
+  servername: jp.laoyoutiao.link
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   ws-opts:
     headers:
-      Host: ip.langmanshanxi.top
-    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+      Host: jp.laoyoutiao.link
+    path: /?ed=2560
 - name: 12|DE_speednode_0024
   network: ws
   port: 8880
@@ -144,20 +144,6 @@ proxies:
 - name: 12|DE_speednode_0025
   network: ws
   port: 8880
-  server: 45.80.111.168
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: kjgx.laoyoutiao.link
-    path: /Telegram@WangCai2/?ed=2560
-- name: 12|DE_speednode_0026
-  network: ws
-  port: 8880
   server: 188.244.122.63
   servername: jp.laoyoutiao.link
   skip-cert-verify: false
@@ -169,7 +155,7 @@ proxies:
     headers:
       Host: jp.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3
-- name: 12|DE_speednode_0027
+- name: 12|DE_speednode_0026
   network: ws
   port: 8880
   server: 5.10.215.177
@@ -183,6 +169,20 @@ proxies:
     headers:
       Host: ip.langmanshanxi.top
     path: /Telegram🇨🇳
+- name: 12|DE_speednode_0027
+  network: ws
+  port: 8880
+  server: 77.37.33.186
+  servername: ip.langmanshanxi.top
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /
 - name: 12|DE_speednode_0028
   network: ws
   port: 8880
@@ -200,8 +200,8 @@ proxies:
 - name: 12|DE_speednode_0029
   network: ws
   port: 8880
-  server: 77.37.33.186
-  servername: ip.langmanshanxi.top
+  server: 5.10.215.186
+  servername: Telegram-channel-WangCai2
   skip-cert-verify: false
   tls: false
   type: vless
@@ -210,22 +210,8 @@ proxies:
   ws-opts:
     headers:
       Host: ip.langmanshanxi.top
-    path: /
+    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
 - name: 12|DE_speednode_0030
-  network: ws
-  port: 8880
-  server: 188.244.122.247
-  servername: ex.sue.x10.mx
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
-  ws-opts:
-    headers:
-      Host: ex.sue.x10.mx
-    path: /Telegram🇨🇳
-- name: 12|DE_speednode_0031
   network: ws
   port: 8880
   server: 5.10.215.177
@@ -239,3 +225,17 @@ proxies:
     headers:
       Host: ip.langmanshanxi.top
     path: /TelegramU0001F1E8U0001F1F3
+- name: 12|DE_speednode_0031
+  network: ws
+  port: 8880
+  server: 188.244.122.247
+  servername: ex.sue.x10.mx
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
+  ws-opts:
+    headers:
+      Host: ex.sue.x10.mx
+    path: /Telegram🇨🇳
