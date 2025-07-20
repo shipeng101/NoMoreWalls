@@ -1690,20 +1690,14 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 10,11|香港3|@ripaojiedian
-  network: ws
-  port: '80'
-  server: 2112e4.7d79233c.shop
-  servername: ''
+  name: 10|🇭🇰 香港3|@ripaojiedian
+  port: 13584
+  server: 38.147.189.50
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 952797b6-21a0-4e66-9239-30ef5c0efcdf
-  ws-opts:
-    headers:
-      Host: hk01s.7d79233c.shop
-    path: /
+  uuid: 0596d1ea-8de9-4005-b075-d679a27a7b44
 - name: 10,11|香港4|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
@@ -1762,18 +1756,18 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: 10,11|韩国|@ripaojiedian
-  network: tcp
-  password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 16158
-  server: 36.151.192.239
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
 - name: 10,11|新加坡|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 32063
+  server: 36.151.192.239
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
+- name: 10,11|韩国|@ripaojiedian
+  network: tcp
+  password: d0d08cddacc3190ea81b1b792e1b5fde
+  port: 4448
   server: 36.151.192.239
   skip-cert-verify: true
   sni: www.baidu.com
@@ -1786,6 +1780,22 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
+- alterId: 2
+  cipher: auto
+  name: 10,11|美国|@ripaojiedian
+  network: ws
+  port: '30804'
+  server: v4.heduian.link
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
 - cipher: rc4-md5
   name: 10|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
@@ -1813,6 +1823,16 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 11|香港3|@ripaojiedian
+  network: tcp
+  port: '13584'
+  server: 38.147.189.50
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0596d1ea-8de9-4005-b075-d679a27a7b44
 - alterId: 0
   cipher: auto
   name: 11|香港v2|@ripaojiedian
