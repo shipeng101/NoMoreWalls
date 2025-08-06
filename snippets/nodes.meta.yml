@@ -1688,22 +1688,16 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 10,11|香港7|@ripaojiedian
-  network: ws
-  port: '80'
-  server: hkt.gotochinatown.net
-  servername: ''
+  name: 10|🇭🇰 香港3|@ripaojiedian
+  port: 51527
+  server: 38.147.188.109
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: ca506e08-ce3d-5e5a-c128-6358caca15e5
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
+  uuid: 861a3fbe-e925-4163-9c28-2413abd580af
 - name: 10,11|香港4|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
@@ -1714,11 +1708,11 @@ proxies:
   type: trojan
 - name: 10,11|香港5|@ripaojiedian
   network: tcp
-  password: dfd4867b-26c6-4e49-9b96-ef4dbbb3f31f
-  port: 12221
-  server: gz-43e866.kaiqsz.com
+  password: 02491ccf-e969-4200-9ebd-5e0da4eff308
+  port: 23003
+  server: okanc.iepl.cac.cab
   skip-cert-verify: true
-  sni: mmbiz.redapricotcloud.com
+  sni: www.bilibili.com
   type: trojan
 - name: 10,11|香港6|@ripaojiedian
   network: tcp
@@ -1742,7 +1736,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507282137611-T3mfnF0MuU.download.microsoft.com
+    host: 202507282137611-RCmbvsdXhz.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -1765,11 +1759,11 @@ proxies:
   type: ss
 - name: 10,11|日本3|@ripaojiedian
   network: tcp
-  password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 181
-  server: 36.156.102.125
+  password: 02491ccf-e969-4200-9ebd-5e0da4eff308
+  port: 23007
+  server: okanc.iepl.cac.cab
   skip-cert-verify: true
-  sni: www.baidu.com
+  sni: www.bilibili.com
   type: trojan
 - name: 10,11|日本4|@ripaojiedian
   network: tcp
@@ -1778,6 +1772,14 @@ proxies:
   server: 36.156.102.125
   skip-cert-verify: true
   sni: www.baidu.com
+  type: trojan
+- name: 10,11|韩国|@ripaojiedian
+  network: tcp
+  password: 02491ccf-e969-4200-9ebd-5e0da4eff308
+  port: 24001
+  server: okanc.iepl.cac.cab
+  skip-cert-verify: true
+  sni: www.bilibili.com
   type: trojan
 - name: 10,11|新加坡|@ripaojiedian
   network: tcp
@@ -1797,11 +1799,11 @@ proxies:
   type: trojan
 - name: 10,11|新加坡3|@ripaojiedian
   network: tcp
-  password: 92435aa8-f3b6-466a-ad58-c55cbb6d2acf
-  port: 443
-  server: sg.mjt000.com
-  skip-cert-verify: false
-  sni: sg.mjt000.com
+  password: 02491ccf-e969-4200-9ebd-5e0da4eff308
+  port: 23012
+  server: okanc.iepl.cac.cab
+  skip-cert-verify: true
+  sni: www.bilibili.com
   type: trojan
 - name: 10|🇺🇸 美国|@ripaojiedian
   network: ws
@@ -1815,12 +1817,20 @@ proxies:
     headers:
       Host: xXcdvFgt.191268.XYz
     path: /ctdmgeIg3NII3ibrzzKXJGy3S1
+- name: 10,11|美国4|@ripaojiedian
+  network: tcp
+  password: d0d08cddacc3190ea81b1b792e1b5fde
+  port: 472
+  server: 36.156.102.125
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
 - cipher: rc4-md5
   name: 10|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507282137611-T3mfnF0MuU.download.microsoft.com
+    host: 202507282137611-RCmbvsdXhz.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
@@ -1834,14 +1844,16 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: 10,11|美国4|@ripaojiedian
+- alterId: 0
+  cipher: auto
+  name: 11|香港3|@ripaojiedian
   network: tcp
-  password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 472
-  server: 36.156.102.125
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
+  port: '51527'
+  server: 38.147.188.109
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 861a3fbe-e925-4163-9c28-2413abd580af
 - alterId: 0
   cipher: auto
   name: 11|香港v2|@ripaojiedian
