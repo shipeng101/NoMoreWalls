@@ -1706,14 +1706,6 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: 10,11|香港5|@ripaojiedian
-  network: tcp
-  password: 02491ccf-e969-4200-9ebd-5e0da4eff308
-  port: 23003
-  server: okanc.iepl.cac.cab
-  skip-cert-verify: true
-  sni: www.bilibili.com
-  type: trojan
 - name: 10,11|香港6|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
@@ -1757,14 +1749,6 @@ proxies:
   server: 137.220.191.40
   tfo: false
   type: ss
-- name: 10,11|日本3|@ripaojiedian
-  network: tcp
-  password: 02491ccf-e969-4200-9ebd-5e0da4eff308
-  port: 23007
-  server: okanc.iepl.cac.cab
-  skip-cert-verify: true
-  sni: www.bilibili.com
-  type: trojan
 - name: 10,11|日本4|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
@@ -1772,14 +1756,6 @@ proxies:
   server: 36.156.102.125
   skip-cert-verify: true
   sni: www.baidu.com
-  type: trojan
-- name: 10,11|韩国|@ripaojiedian
-  network: tcp
-  password: 02491ccf-e969-4200-9ebd-5e0da4eff308
-  port: 24001
-  server: okanc.iepl.cac.cab
-  skip-cert-verify: true
-  sni: www.bilibili.com
   type: trojan
 - name: 10,11|新加坡|@ripaojiedian
   network: tcp
@@ -1796,14 +1772,6 @@ proxies:
   server: 36.156.102.125
   skip-cert-verify: true
   sni: www.baidu.com
-  type: trojan
-- name: 10,11|新加坡3|@ripaojiedian
-  network: tcp
-  password: 02491ccf-e969-4200-9ebd-5e0da4eff308
-  port: 23012
-  server: okanc.iepl.cac.cab
-  skip-cert-verify: true
-  sni: www.bilibili.com
   type: trojan
 - name: 10|🇺🇸 美国|@ripaojiedian
   network: ws
