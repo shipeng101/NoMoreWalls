@@ -76,28 +76,30 @@ vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@156.238.18.106:8880?type=ws&host=yd
 vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@212.183.88.20:8880?type=ws&host=reedfree8mahsang2.redorg.ir&path=/?ed=2560fp=chrome#0%7C%F0%9F%87%B0%F0%9F%87%B73%20%7C%20%201.3MB/s%7C61%25%7CDisney%7COpen...
 vless://b8bd42a9-551f-419d-b70d-4aefdd2cb074@204.10.194.78:443?sni=yfnl1.xn--4gq62f52gppi29k.com&flow=xtls-rprx-vision-udp443-udp443&fp=safari&security=tls#0%7C%F0%9F%87%A9%F0%9F%87%AA6%20%7C%20%204.3MB/s%7C0%25%7CDisney%7COpena...
 vless://9e769ce1-34be-4e3f-b0a6-823f30eb8f69@www.speedtest.net:443?sni=Ds807Ay6Vc.MaKeFoRlEsS.iNfO&alpn=h3h2&type=ws&host=Ds807Ay6Vc.MaKeFoRlEsS.iNfO&path=/fp=chrome&security=tls#0%7C%F0%9F%8C%806-CY%20%7C%20%204.9MB/s%7C44%25%7COpenai
-ss://c3M6Ly9ZV1Z6TFRJMU5pMWpabUk2WVcxaGVtOXVjMnR5TURV@13.239.86.92:443#10%2C11%7Ctg%E9%A2%91%E9%81%93%3A%40ripaojiedian%20%231
+ss://c3M6Ly9ZV1Z6TFRJMU5pMWpabUk2WVcxaGVtOXVjMnR5TURV@34.203.13.163:443#10%2C11%7Ctg%E9%A2%91%E9%81%93%3A%40ripaojiedian%20%231
 vmess://eyJ2IjogIjIiLCAicHMiOiAiMTAsMTF86aaZ5rivfEByaXBhb2ppZWRpYW4iLCAiYWRkIjogInY5LmhlZHVpYW4ubGluayIsICJwb3J0IjogIjMwODA5IiwgImFpZCI6IDIsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICIiLCAiaWQiOiAiY2JiM2Y4NzctZDFmYi0zNDRjLTg3YTktZDE1M2JmZmQ1NDg0IiwgInNuaSI6ICIiLCAiaG9zdCI6ICJiYWlkdS5jb20iLCAicGF0aCI6ICIvb29vbyJ9
 ss://YWVzLTI1Ni1nY206OWJmZGRlNzFiNGMw@103.103.245.158:636#10%7C%F0%9F%87%AD%F0%9F%87%B0%20%E9%A6%99%E6%B8%AF2%7C%40ripaojiedian
-trojan://82d0fb76-b9ff-41c2-ba15-2aec44f78e7c@okanc.iepl.cac.cab:23001?allowInsecure=1&sni=www.bilibili.com#10%2C11%7C%E9%A6%99%E6%B8%AF3%7C%40ripaojiedian
+ss://c3M6Ly9ZMmhoWTJoaE1qQXRhV1YwWmpwaGMyUXhNak0wTlRZ@103.149.182.191:8388#10%2C11%7C%E9%A6%99%E6%B8%AF3%7C%40ripaojiedian
 trojan://253bc477d4e43c209f2d427272968280@36.156.102.125:447?allowInsecure=1&sni=www.baidu.com#10%2C11%7C%E9%A6%99%E6%B8%AF4%7C%40ripaojiedian
+trojan://c7a5a064-ac05-44ea-a449-0c0c7cae19f7@106.53.211.194:36026?allowInsecure=1#10%2C11%7C%E9%A6%99%E6%B8%AF5%7C%40ripaojiedian
 trojan://253bc477d4e43c209f2d427272968280@36.156.102.125:444?allowInsecure=1&sni=www.ithome.com#10%2C11%7C%E9%A6%99%E6%B8%AF6%7C%40ripaojiedian
+trojan://f60cd513-7b83-4b64-936c-f7e88e95dacd@120.240.118.186:9233?allowInsecure=1&sni=steamcdn-a.akamaihd.net#10%2C11%7C%E9%A6%99%E6%B8%AF7%7C%40ripaojiedian
 ss://cmM0LW1kNTplZmFuY2N5dW4=@cn01.efan8867801.xyz:8766#10%7C%F0%9F%87%AF%F0%9F%87%B5%20%E6%97%A5%E6%9C%AC%7C%40ripaojiedian
 ss://YWVzLTI1Ni1nY206ODIzZTEzNWVkMTAz@137.220.191.40:636#10%7C%F0%9F%87%AF%F0%9F%87%B5%20%E6%97%A5%E6%9C%AC2%7C%40ripaojiedian
 trojan://253bc477d4e43c209f2d427272968280@36.156.102.125:180?allowInsecure=1&sni=www.baidu.com#10%2C11%7C%E6%97%A5%E6%9C%AC3%7C%40ripaojiedian
 trojan://253bc477d4e43c209f2d427272968280@36.156.102.125:461?allowInsecure=1&sni=www.baidu.com#10%2C11%7C%E6%97%A5%E6%9C%AC4%7C%40ripaojiedian
-trojan://82d0fb76-b9ff-41c2-ba15-2aec44f78e7c@okanc.iepl.cac.cab:24001?allowInsecure=1&sni=www.bilibili.com#10%2C11%7C%E9%9F%A9%E5%9B%BD%7C%40ripaojiedian
-trojan://005fddef-e432-482f-a98c-2715563a2b25@139.199.194.86:36009?allowInsecure=1#10%2C11%7C%E9%9F%A9%E5%9B%BD2%7C%40ripaojiedian
+trojan://f60cd513-7b83-4b64-936c-f7e88e95dacd@120.240.118.186:8181?allowInsecure=1&sni=www.microsoft365.com#10%2C11%7C%E6%97%A5%E6%9C%AC5%7C%40ripaojiedian
 trojan://253bc477d4e43c209f2d427272968280@36.156.102.125:1256?allowInsecure=1&sni=www.baidu.com#10%2C11%7C%E6%96%B0%E5%8A%A0%E5%9D%A1%7C%40ripaojiedian
 trojan://253bc477d4e43c209f2d427272968280@36.156.102.125:406?allowInsecure=1&sni=www.baidu.com#10%2C11%7C%E6%96%B0%E5%8A%A0%E5%9D%A12%7C%40ripaojiedian
-trojan://82d0fb76-b9ff-41c2-ba15-2aec44f78e7c@okanc.iepl.cac.cab:23012?allowInsecure=1&sni=www.bilibili.com#10%2C11%7C%E6%96%B0%E5%8A%A0%E5%9D%A13%7C%40ripaojiedian
+trojan://f60cd513-7b83-4b64-936c-f7e88e95dacd@120.240.118.215:9231?allowInsecure=1&sni=steampipe.akamaized.net#10%2C11%7C%E6%96%B0%E5%8A%A0%E5%9D%A13%7C%40ripaojiedian
 trojan://7248e825-887c-48b9-83bc-c26bc6392bf8@172.67.214.21:443?allowInsecure=0&sni=xXcdvFgt.191268.XYz&type=ws&host=xXcdvFgt.191268.XYz&path=/ctdmgeIg3NII3ibrzzKXJGy3S1#10%7C%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%7C%40ripaojiedian
 ss://cmM0LW1kNTplZmFuY2N5dW4=@cn01.efan8867801.xyz:8774#10%7C%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD2%7C%40ripaojiedian
 trojan://253bc477d4e43c209f2d427272968280@36.156.102.125:347?allowInsecure=1&sni=www.baidu.com#10%2C11%7C%E7%BE%8E%E5%9B%BD3%7C%40ripaojiedian
-trojan://253bc477d4e43c209f2d427272968280@36.156.102.125:472?allowInsecure=1&sni=www.baidu.com#10%2C11%7C%E7%BE%8E%E5%9B%BD4%7C%40ripaojiedian
+vmess://eyJ2IjogIjIiLCAicHMiOiAiMTB88J+HuvCfh7gg576O5Zu9NHxAcmlwYW9qaWVkaWFuIiwgImFkZCI6ICIyMy4yMzYuNjguOTkiLCAicG9ydCI6IDMzNzIwLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICIiLCAiaWQiOiAiMDQwOWUzMjgtMTlmOS00MzA1LTk5NjItMmY5ZjNjZTlkZjFhIn0=
 vmess://eyJ2IjogIjIiLCAicHMiOiAiMTF86aaZ5rivdjJ8QHJpcGFvamllZGlhbiIsICJhZGQiOiAiNDcuMjQzLjEzNS40NyIsICJwb3J0IjogIjUyMjUiLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJrY3AiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICIiLCAiaWQiOiAiZTY0ZjY2NmQtNGI3NS00NzNiLTljYzItYWFmNmYwYmYwZTMzIiwgInNuaSI6ICIifQ==
 vmess://eyJ2IjogIjIiLCAicHMiOiAiMTF85pel5pysdjJ8QHJpcGFvamllZGlhbiIsICJhZGQiOiAiNDcuNzQuNTcuMTAiLCAicG9ydCI6ICIzNzI1NyIsICJhaWQiOiAwLCAic2N5IjogImF1dG8iLCAibmV0IjogImtjcCIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICJjYjc3NDg4My0xYzJmLTRiOGEtODYzNy04MjhmMzU2ZTBjNzYiLCAic25pIjogIiJ9
 trojan://7248e825-887c-48b9-83bc-c26bc6392bf8@172.67.214.21:443?sni=xXcdvFgt.191268.XYz&type=ws&host=xXcdvFgt.191268.XYz&path=%2FctdmgeIg3NII3ibrzzKXJGy3S1#11%7C%E7%BE%8E%E5%9B%BD%7C%40ripaojiedian
+vmess://eyJ2IjogIjIiLCAicHMiOiAiMTF8576O5Zu9NHxAcmlwYW9qaWVkaWFuIiwgImFkZCI6ICIyMy4yMzYuNjguOTkiLCAicG9ydCI6ICIzMzcyMCIsICJhaWQiOiAwLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICIwNDA5ZTMyOC0xOWY5LTQzMDUtOTk2Mi0yZjlmM2NlOWRmMWEiLCAic25pIjogIiJ9
 vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@94.140.0.156:8880?allowInsecure=0&sni=Telegram-channel-WangCai2&type=ws&host=kjgx.laoyoutiao.link&path=/TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560#12%7CAE_speednode_0001
 vless://583ceab3-4022-4553-9158-9bedc625ad4e@103.245.229.186:8880?allowInsecure=0&sni=Telegram-channel-WangCai2&type=ws&host=ip.langmanshanxi.top&path=/TelegramU0001F1E8U0001F1F3 @WangCai2#12%7CAE_speednode_0002
 vless://583ceab3-4022-4553-9158-9bedc625ad4e@212.183.88.188:8880?allowInsecure=0&sni=Telegram-channel-WangCai2&type=ws&host=ip.langmanshanxi.top&path=/TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560#12%7CAT_speednode_0003
@@ -149,9 +151,9 @@ vless://583ceab3-4022-4553-9158-9bedc625ad4e@185.176.24.188:8880?allowInsecure=0
 vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@185.148.107.213:8880?allowInsecure=0&sni=jp.laoyoutiao.link&type=ws&host=jp.laoyoutiao.link&path=/?ed=2560#12%7CRU_speednode_0049
 vless://583ceab3-4022-4553-9158-9bedc625ad4e@185.221.160.188:8880?allowInsecure=0&sni=Telegram-channel-WangCai2&type=ws&host=ip.langmanshanxi.top&path=/TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560#12%7CRU_speednode_0050
 vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@92.53.188.213:8880?allowInsecure=0&sni=jp.laoyoutiao.link&type=ws&host=jp.laoyoutiao.link&path=/?ed=2560#12%7CSI_speednode_0051
-https://EOrgGO.absslk.xyz/b2f39ed1aa00222852b8498d890bef1f
-https://bn1ewK.mcsslk.xyz/bd0117bbdf4b95262674be52559abfb3
+ss://cmM0LW1kNTplZmFuY2N5dW4@cn01.efan8867801.xyz:8766?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D202507282137611-ABbKq8VLBc.download.microsoft.com#%E6%97%A5%E6%9C%AC%7C%40ripaojiedian
 ss://YWVzLTI1Ni1nY206OWJmZGRlNzFiNGMw@103.103.245.158:636?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bmux%3D8%3Bpath%3D%2Fcauejypbltqt%3Bhost%3Dnewroot2v1.dsjsapp.com%3Btls#%E9%A6%99%E6%B8%AF2%7C%40ripaojiedian
-ss://cmM0LW1kNTplZmFuY2N5dW4@cn01.efan8867801.xyz:8766?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D202507282137611-G2zNAjxjDH.download.microsoft.com#%E6%97%A5%E6%9C%AC%7C%40ripaojiedian
 ss://YWVzLTI1Ni1nY206ODIzZTEzNWVkMTAz@137.220.191.40:636?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bmux%3D8%3Bpath%3D%2Fdchlbvrbbotc%3Bhost%3Djp7v1.lingjfjkm002.com%3Btls#%E6%97%A5%E6%9C%AC2%7C%40ripaojiedian
-ss://cmM0LW1kNTplZmFuY2N5dW4@cn01.efan8867801.xyz:8774?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D202507282137611-G2zNAjxjDH.download.microsoft.com#%E7%BE%8E%E5%9B%BD2%7C%40ripaojiedian
+ss://cmM0LW1kNTplZmFuY2N5dW4@cn01.efan8867801.xyz:8774?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D202507282137611-ABbKq8VLBc.download.microsoft.com#%E7%BE%8E%E5%9B%BD2%7C%40ripaojiedian
+https://ALH43x.absslk.xyz/b4c8944f37001f641550e34ce6314b61
+https://ArOguY.mcsslk.xyz/b99a4c973415dd699cf75d6527bc4b96
