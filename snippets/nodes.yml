@@ -1,17 +1,11 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 10|tg频道:@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 18.184.59.16
-  tfo: false
-  type: ss
 - alterId: 2
   cipher: auto
-  name: 10|🇭🇰 香港|@ripaojiedian
+  name: 10,11|香港|@ripaojiedian
   network: ws
-  port: 30809
+  port: '30809'
   server: v9.heduian.link
+  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -36,14 +30,16 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
-- name: 10|🇭🇰 香港3|@ripaojiedian
+- name: 10,11|香港3|@ripaojiedian
+  network: tcp
   password: 2ee85121-31de-4581-a492-eb00f606e392
   port: 443
   server: 103.252.116.138
   skip-cert-verify: false
   sni: hk.freeguard.org
   type: trojan
-- name: 10|🇭🇰 香港4|@ripaojiedian
+- name: 10,11|香港4|@ripaojiedian
+  network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 447
   server: 36.156.102.125
@@ -52,10 +48,11 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 10|🇭🇰 香港5|@ripaojiedian
+  name: 10,11|香港5|@ripaojiedian
   network: ws
-  port: 80
+  port: '80'
   server: hkt.gotochinatown.net
+  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -65,7 +62,8 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
-- name: 10|🇭🇰 香港6|@ripaojiedian
+- name: 10,11|香港6|@ripaojiedian
+  network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 444
   server: 36.156.102.125
@@ -74,10 +72,11 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 10|🇭🇰 香港7|@ripaojiedian
+  name: 10,11|香港7|@ripaojiedian
   network: ws
-  port: 80
+  port: '80'
   server: f0364aea-t13gg0-t1rksu-1ssud.hk3.p5pv.com
+  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -113,42 +112,32 @@ proxies:
   server: 137.220.191.40
   tfo: false
   type: ss
-- name: 10|🇯🇵 日本3|@ripaojiedian
+- name: 10,11|日本3|@ripaojiedian
+  network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 409
   server: 36.156.102.78
   skip-cert-verify: true
   sni: 1-dy.ixigua.com
   type: trojan
-- name: 10|🇯🇵 日本4|@ripaojiedian
+- name: 10,11|日本4|@ripaojiedian
+  network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 461
   server: 36.156.102.125
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 10|🇰🇷 韩国|@ripaojiedian
-  password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e
-  port: 19852
-  server: mm.huawei-api.top
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: 10|🇰🇷 韩国2|@ripaojiedian
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 154.90.63.177
-  tfo: false
-  type: ss
-- name: 10|🇸🇬 新加坡|@ripaojiedian
+- name: 10,11|新加坡|@ripaojiedian
+  network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1256
   server: 36.156.102.125
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: 10|🇸🇬 新加坡2|@ripaojiedian
+- name: 10,11|新加坡2|@ripaojiedian
+  network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 406
   server: 36.156.102.125
@@ -178,20 +167,53 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- name: 10|🇺🇸 美国3|@ripaojiedian
+- name: 10,11|美国3|@ripaojiedian
+  network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 347
   server: 36.156.102.125
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: 10|🇺🇸 美国4|@ripaojiedian
+- name: 10,11|美国4|@ripaojiedian
+  network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 22006
   server: 36.156.102.67
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 11|香港v2|@ripaojiedian
+  network: kcp
+  port: '3351'
+  server: 47.83.181.154
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0bfc8acf-ac40-45c1-8dde-7f3417621286
+- alterId: 0
+  cipher: auto
+  name: 11|日本v2|@ripaojiedian
+  network: kcp
+  port: '37257'
+  server: 47.74.57.10
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cb774883-1c2f-4b8a-8637-828f356e0c76
+- name: 11|美国|@ripaojiedian
+  network: ws
+  password: 7248e825-887c-48b9-83bc-c26bc6392bf8
+  port: 443
+  server: 172.67.214.21
+  sni: xXcdvFgt.191268.XYz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: xXcdvFgt.191268.XYz
+    path: '%2FctdmgeIg3NII3ibrzzKXJGy3S1'
 - name: 12|AM_speednode_0013
   network: ws
   password: Aimer
