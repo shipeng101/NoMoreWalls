@@ -187,7 +187,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cb774883-1c2f-4b8a-8637-828f356e0c76
-- name: 12|KZ_speednode_0047
+- name: 12|KZ_speednode_0035
   network: ws
   password: tg-fq521free
   port: 443
@@ -200,7 +200,7 @@ proxies:
     headers:
       Host: torjan.xn--xhq44j.eu.org
     path: /
-- name: 12|LT_speednode_0052
+- name: 12|LT_speednode_0040
   network: ws
   password: ttfang
   port: 2096
@@ -213,7 +213,7 @@ proxies:
     headers:
       Host: ttfang.fange.me
     path: /TelegramU0001F1E8U0001F1F3
-- name: 12|RU_speednode_0081
+- name: 12|RU_speednode_0065
   network: ws
   password: tg-fq521free
   port: 443
@@ -226,11 +226,11 @@ proxies:
     headers:
       Host: torjan.xn--xhq44j.eu.org
     path: /
-- name: 12|US_speednode_0109
+- name: 12|US_speednode_0090
   network: ws
   password: tg-fq521free
   port: 443
-  server: 198.62.62.67
+  server: 216.24.57.30
   skip-cert-verify: false
   sni: torjan.xn--xhq44j.eu.org
   type: trojan
@@ -239,24 +239,11 @@ proxies:
     headers:
       Host: torjan.xn--xhq44j.eu.org
     path: /
-- name: 12|US_speednode_0110
-  network: ws
-  password: ttfang
-  port: 2096
-  server: ttfang.fange.me
-  skip-cert-verify: false
-  sni: ttfang.fange.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ttfang.fange.me
-    path: /Telegram🇨🇳
-- name: 12|US_speednode_0111
+- name: 12|US_speednode_0092
   network: ws
   password: tg-fq521free
   port: 443
-  server: 216.24.57.30
+  server: 198.62.62.67
   skip-cert-verify: false
   sni: torjan.xn--xhq44j.eu.org
   type: trojan
