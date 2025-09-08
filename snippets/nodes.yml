@@ -46,30 +46,28 @@ proxies:
     headers:
       Host: hkt.gotochinatown.net
     path: /
+- name: 10,11|香港4|@ripaojiedian
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 443
+  server: 203.218.174.80
+  skip-cert-verify: true
+  sni: 23.45.86.28
+  type: trojan
 - name: 10,11|香港6|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 443
-  server: 219.77.97.194
+  server: 218.103.234.218
   skip-cert-verify: true
   sni: 23.45.86.28
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 10|🇭🇰 香港5|@ripaojiedian
-  port: 28677
-  server: 43.247.134.80
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: f9575b63-7410-4c76-88db-91c24a429ea8
 - cipher: rc4-md5
   name: 10|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202509031722041-JFOtqRTqqb.download.microsoft.com
+    host: 202509031722041-ZYgtULpH5Q.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -90,14 +88,6 @@ proxies:
   server: 137.220.142.150
   tfo: false
   type: ss
-- name: 10,11|日本3|@ripaojiedian
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 13345
-  server: xingxing.jiasu123.org
-  skip-cert-verify: true
-  sni: 23.45.86.28
-  type: trojan
 - name: 10,11|日本4|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
@@ -109,15 +99,15 @@ proxies:
 - name: 10,11|新加坡|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
-  port: 46943
-  server: xingxing.jiasu123.org
+  port: 3957
+  server: 43.198.153.8
   skip-cert-verify: true
   sni: 23.45.86.28
   type: trojan
 - name: 10,11|新加坡2|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
-  port: 3043
+  port: 9160
   server: xingxing.jiasu123.org
   skip-cert-verify: true
   sni: 23.45.86.28
@@ -143,7 +133,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202509031722041-JFOtqRTqqb.download.microsoft.com
+    host: 202509031722041-ZYgtULpH5Q.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
@@ -160,21 +150,11 @@ proxies:
 - name: 10,11|美国4|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
-  port: 4317
+  port: 47293
   server: xingxing.jiasu123.org
   skip-cert-verify: true
   sni: 23.45.86.28
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 11|香港5|@ripaojiedian
-  network: tcp
-  port: '28677'
-  server: 43.247.134.80
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f9575b63-7410-4c76-88db-91c24a429ea8
 - alterId: 0
   cipher: auto
   name: 11|香港v2|@ripaojiedian
