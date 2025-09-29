@@ -49,5 +49,5 @@ vless://b65f4df7-f6af-42b2-877a-cef33f21675e@204.93.210.32:2096?allowInsecure=1&
 vless://b65f4df7-f6af-42b2-877a-cef33f21675e@160.79.105.32:2096?allowInsecure=0&sni=kejiland.freewarp.eu.org&type=ws&host=kejiland.freewarp.eu.org&path=/snippetssecurity=tlssecurity=tls#12%7CUS_speednode_0036
 vless://b65f4df7-f6af-42b2-877a-cef33f21675e@192.0.54.32:2096?allowInsecure=0&sni=kejiland.freewarp.eu.org&type=ws&host=kejiland.freewarp.eu.org&path=/snippetssecurity=tls#12%7CUS_speednode_0037
 ss://YWVzLTI1Ni1nY206Y2NmNDI2ZjFmZTc4@103.103.245.158:443?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bmux%3D8%3Bpath%3D%2Fzksuapgx%3Bhost%3Dnewroot2v1.dsjsapp.com%3Btls#%E9%A6%99%E6%B8%AF2%7C%40ripaojiedian
-https://PhnZDW.mcsslk.xyz/1bd0217ce4342d2f884d094f5c828aba
-https://hkhAOx.absslk.xyz/2f0d71087f6085dad6b854a9d94f9035
+https://RaQO5p.mcsslk.xyz/24d96cb75ad91d96fdbc4c13126cb8de
+https://G2bKN5.absslk.xyz/d7727b5c8ddfc72a81a91aa7fbcb6f57
