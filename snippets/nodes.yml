@@ -122,7 +122,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 10,11|美国2|@ripaojiedian
+- name: 10,11,12|CN_speednode_0007
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 472
@@ -130,6 +130,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 11|香港3|@ripaojiedian
