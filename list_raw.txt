@@ -48,6 +48,6 @@ vless://1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37@84.22.150.195:8080?allowInsecure=0&
 vless://d4e4c02a-d969-47a6-ba0f-3d433fdac206@66.90.90.10:443?allowInsecure=0&sni=wa.sfasti.ru&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CRU_speednode_0035
 vless://a0de1607-5b63-fab8-a759-9f98706b6125@146.19.90.10:443?allowInsecure=0&sni=speed.cloudflare.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CSC_speednode_0036
 vless://bf9b316d-31ac-42ee-b8a5-8dc795118917@192.210.183.136:36678?allowInsecure=0&sni=swdist.apple.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CUS_speednode_0037
-https://KlwWQN.absslk.xyz/110be4bc27d239c940a96b7742cee137
-https://Jm8vpR.mcsslk.xyz/1a95dfd93c06be86b1dc84b3bb8d4198
 ss://YWVzLTI1Ni1nY206Y2NmNDI2ZjFmZTc4@103.103.245.158:443?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bmux%3D8%3Bpath%3D%2Fzksuapgx%3Bhost%3Dnewroot2v1.dsjsapp.com%3Btls#%E9%A6%99%E6%B8%AF2%7C%40ripaojiedian
+https://ILmHeS.absslk.xyz/6ee0ca81f2ec390eb3874e378c783715
+https://eATCgW.mcsslk.xyz/e5446df4ee019d6031ae70cd42a07687
