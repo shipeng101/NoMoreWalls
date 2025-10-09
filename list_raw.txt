@@ -79,5 +79,5 @@ trojan://iwangjie@158.101.11.204:15805?allowInsecure=1&sni=nodes.830901.xyz&type
 vless://857b7905-8b11-4987-994d-09bcbf7979df@mstr.fastly80.hosting-ip.com:80?allowInsecure=0&sni=Gn8656.io&type=ws&host=Gn8656.io&path=/admin#12%7CUS_speednode_0073
 trojan://iwangjie@158.101.11.204:15805?allowInsecure=1&sni=nodes.830901.xyz&type=ws&host=nodes.830901.xyz&path=/#12%7CUS_speednode_0074
 ss://YWVzLTI1Ni1nY206Y2NmNDI2ZjFmZTc4@103.103.245.158:443?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bmux%3D8%3Bpath%3D%2Fzksuapgx%3Bhost%3Dnewroot2v1.dsjsapp.com%3Btls#%E9%A6%99%E6%B8%AF2%7C%40ripaojiedian
-https://f6lieN.mcsslk.xyz/b01281b6c1f5ad74fc99da46585ce913
-https://Q98w3g.absslk.xyz/ebc005558f192df3caaf3afd1228f26c
+https://GsyJTU.mcsslk.xyz/effa426f946dc56ec1131c1d8ca2bba4
+https://q6clgr.absslk.xyz/befa268532aa770e9d4229a89bdcd9a6
