@@ -21,6 +21,6 @@ vless://0abf9050-c7be-464d-80af-24094c2b97de@188.68.53.100:6666?allowInsecure=0&
 vless://677615f7-87d5-5019-a44d-4fc3ff8d59d7@185.39.207.121:443?allowInsecure=0&sni=vk.cc&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CGR_speednode_0003
 vless://f61a4285-7264-4d07-9408-7b9ba1922c26@188.42.145.253:2096?allowInsecure=0&sni=gaosir.unfeeling.sbs&type=ws&host=gaosir.unfeeling.sbs&path=/Telegram🇨🇳 @WangCai2 /?ed=2560security=tls#12%7CRU_speednode_0009
 vless://677615f7-87d5-5019-a44d-4fc3ff8d59d7@212.18.104.19:443?allowInsecure=1&sni=nspk.ru&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CUS_speednode_0012
-https://EFkgzf.mcsslk.xyz/97f04a16b3e843ad1227fc36c4fc624a
-https://CYKKhr.absslk.xyz/d3f8d5451bb9ca8ddb90373b2e8d35b2
+https://ZfJkMI.absslk.xyz/f7b4a566067edd7c0a5969ed73225b2b
 ss://YWVzLTI1Ni1nY206Y2NmNDI2ZjFmZTc4@103.103.245.158:443?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bmux%3D8%3Bpath%3D%2Fzksuapgx%3Bhost%3Dnewroot2v1.dsjsapp.com%3Btls#%E9%A6%99%E6%B8%AF2%7C%40ripaojiedian
+https://ERHUiT.mcsslk.xyz/a5f298014ba043eae8fe082a3dbfd0ea
