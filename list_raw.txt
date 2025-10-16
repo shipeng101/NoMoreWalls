@@ -23,5 +23,5 @@ vless://0abf9050-c7be-464d-80af-24094c2b97de@188.68.53.100:6666?allowInsecure=0&
 vless://2e23b585-a486-4541-83d8-5832a1409c6e@31.207.44.210:32155?allowInsecure=0&sni=yahoo.com&fp=chrome&security=tls#12%7CNL_speednode_0006
 vless://f61a4285-7264-4d07-9408-7b9ba1922c26@188.42.145.253:2096?allowInsecure=0&sni=gaosir.unfeeling.sbs&type=ws&host=gaosir.unfeeling.sbs&path=/Telegram🇨🇳 @WangCai2 /?ed=2560security=tls#12%7CRU_speednode_0007
 ss://YWVzLTI1Ni1nY206Y2NmNDI2ZjFmZTc4@103.103.245.158:443?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bmux%3D8%3Bpath%3D%2Fzksuapgx%3Bhost%3Dnewroot2v1.dsjsapp.com%3Btls#%E9%A6%99%E6%B8%AF2%7C%40ripaojiedian
-https://XNfZ4O.mcsslk.xyz/ecfe715c6ee82ab9359ccc781a57a2da
-https://7tsagU.absslk.xyz/9065aa7bfabbe061ca51b8ab33277d93
+https://vr7Dex.mcsslk.xyz/136fb7b726425d334c578f8614120979
+https://G1CkOj.absslk.xyz/e986d1eeb8d9b28fbf4591096fe6c992
