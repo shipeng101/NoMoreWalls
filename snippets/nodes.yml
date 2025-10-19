@@ -30,13 +30,23 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 10|🇭🇰 香港3|@ripaojiedian
+  port: 45939
+  server: 103.224.80.118
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 0ab56c46-8bee-42fe-9ec1-a2da8b264bb8
 - name: 10,11|香港4|@ripaojiedian
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
   port: 443
-  server: 58.152.30.92
-  skip-cert-verify: false
-  sni: www.nintendogames.net
+  server: 203.198.122.28
+  skip-cert-verify: true
+  sni: fe2.update.microsoft.com
   type: trojan
 - name: 10,11|香港5|@ripaojiedian
   network: tcp
@@ -49,7 +59,7 @@ proxies:
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
   port: 1331
-  server: 160.16.131.243
+  server: 160.16.240.91
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
@@ -57,7 +67,7 @@ proxies:
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
   port: 316
-  server: 160.16.131.243
+  server: 160.16.240.91
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
@@ -65,15 +75,15 @@ proxies:
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
   port: 5041
-  server: 153.121.41.97
+  server: 160.16.240.91
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
 - name: 10,11|新加坡2|@ripaojiedian
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 5321
-  server: 160.16.131.243
+  port: 2283
+  server: 160.16.132.158
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
@@ -114,7 +124,7 @@ proxies:
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
   port: 2381
-  server: 153.121.41.97
+  server: 160.16.132.158
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
@@ -122,7 +132,17 @@ proxies:
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
   port: 2467
-  server: 153.121.41.97
+  server: 160.16.132.158
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 11|香港3|@ripaojiedian
+  network: tcp
+  port: '45939'
+  server: 103.224.80.118
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0ab56c46-8bee-42fe-9ec1-a2da8b264bb8
