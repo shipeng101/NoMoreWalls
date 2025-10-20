@@ -46,5 +46,5 @@ vless://9c8b8aec-7a20-4271-8a4f-a87bb029dae9@ktff.tencentapp.cn:443?allowInsecur
 vless://f61a4285-7264-4d07-9408-7b9ba1922c26@195.13.45.253:2096?allowInsecure=0&sni=gaosir.unfeeling.sbs&type=ws&host=gaosir.unfeeling.sbs&path=/x @节点狂魔security=tlssecurity=tls#12%7CUS_speednode_0038
 vless://f61a4285-7264-4d07-9408-7b9ba1922c26@195.13.45.253:2096?allowInsecure=0&sni=gaosir.unfeeling.sbs&type=ws&host=gaosir.unfeeling.sbs&path=/x @节点狂魔security=tls#12%7CUS_speednode_0039
 ss://YWVzLTI1Ni1nY206Y2NmNDI2ZjFmZTc4@103.103.245.158:443?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bmux%3D8%3Bpath%3D%2Fzksuapgx%3Bhost%3Dnewroot2v1.dsjsapp.com%3Btls#%E9%A6%99%E6%B8%AF2%7C%40ripaojiedian
-https://PffJxa.mcsslk.xyz/1b00ec76e9176c36c79064448a524010
-https://x8JGQq.absslk.xyz/845d090c2222d9030ea93ba21b360df7
+https://XY25aX.absslk.xyz/81142366ed307a8346aa15bb78ce700a
+https://7KcxrS.mcsslk.xyz/f7253869c120721ffae65f66efca859a
