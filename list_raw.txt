@@ -45,6 +45,6 @@ vless://f61a4285-7264-4d07-9408-7b9ba1922c26@167.179.27.92:443?allowInsecure=0&s
 vless://9c8b8aec-7a20-4271-8a4f-a87bb029dae9@ktff.tencentapp.cn:443?allowInsecure=0&sni=sp5.sutu.eu.org&type=ws&host=sp5.sutu.eu.org&path=/security=tls#12%7CUA_speednode_0037
 vless://f61a4285-7264-4d07-9408-7b9ba1922c26@195.13.45.253:2096?allowInsecure=0&sni=gaosir.unfeeling.sbs&type=ws&host=gaosir.unfeeling.sbs&path=/x @节点狂魔security=tlssecurity=tls#12%7CUS_speednode_0038
 vless://f61a4285-7264-4d07-9408-7b9ba1922c26@195.13.45.253:2096?allowInsecure=0&sni=gaosir.unfeeling.sbs&type=ws&host=gaosir.unfeeling.sbs&path=/x @节点狂魔security=tls#12%7CUS_speednode_0039
-https://u9q8lZ.mcsslk.xyz/ccd1e3b4d850b8d80902b7aef51b345b
+https://ZOvekY.mcsslk.xyz/5f4d146ca79f0fba15377cbf8bff1091
 ss://YWVzLTI1Ni1nY206Y2NmNDI2ZjFmZTc4@103.103.245.158:443?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bmux%3D8%3Bpath%3D%2Fzksuapgx%3Bhost%3Dnewroot2v1.dsjsapp.com%3Btls#%E9%A6%99%E6%B8%AF2%7C%40ripaojiedian
-https://gPAs5q.absslk.xyz/39ed391c7654c964894e1422a6777b1a
+https://N1j4TU.absslk.xyz/fb0c04d5b44cef17bca754a0df5e8fe3
