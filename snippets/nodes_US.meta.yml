@@ -46,7 +46,22 @@ proxies:
   tls: false
   type: vmess
   uuid: fd49381f-9fd8-4403-8698-48331a4d775d
-- name: 12|US_speednode_0035
+- client-fingerprint: chrome
+  name: 12|US_speednode_0029
+  network: ws
+  port: 8443
+  server: 104.20.2.221
+  servername: bycf.lzjnb.shop
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6c7a6a6a-6a6a-4000-8000-000000000002
+  ws-opts:
+    headers:
+      Host: bycf.lzjnb.shop
+    path: /?ed=2560
+- name: 12|US_speednode_0031
   network: ws
   port: 2096
   server: 195.13.45.253
@@ -60,3 +75,17 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /x @节点狂魔security=tls
+- name: 12|US_speednode_0032
+  network: ws
+  port: 2096
+  server: 195.13.45.253
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /x @节点狂魔
