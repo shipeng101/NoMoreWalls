@@ -50,5 +50,5 @@ vless://eb64d6b8-b3ed-48a2-9662-af2c65352215@us01-xr03.vpnvezdehod.net:443?allow
 vless://359bb8b1-d8b3-4ab1-905c-c7829935ace0@3.236.251.7:443?allowInsecure=0&sni=www.paypal.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CUS_speednode_0036
 vless://f31f5fe0-0a42-436a-be94-437330801388@us.nitroo-tech.ru:443?allowInsecure=0&sni=mirror.yandex.ru&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CUS_speednode_0037
 ss://YWVzLTI1Ni1nY206Y2NmNDI2ZjFmZTc4@103.103.245.158:443?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bmux%3D8%3Bpath%3D%2Fzksuapgx%3Bhost%3Dnewroot2v1.dsjsapp.com%3Btls#%E9%A6%99%E6%B8%AF2%7C%40ripaojiedian
-https://mWma5N.absslk.xyz/4e2faad1c05fd5fe7d3e6bd4e1beaacf
-https://K8wHp9.mcsslk.xyz/f8308e53e163615df12dd8826db5e04f
+https://PQe2sA.mcsslk.xyz/064eea1344d7a5868db322b413a7961a
+https://eiA9U1.absslk.xyz/9d3e3e147c711bc03b5df9b25bde77d6
