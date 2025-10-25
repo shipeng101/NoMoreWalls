@@ -40,7 +40,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 40731c98-9514-4e75-b78e-58311d214095
-- name: 10,11|香港4|@ripaojiedian
+- name: 10,11,12|HK_speednode_0012
   network: tcp
   password: ea39fa94f1ee00999337ea1fd3318e69
   port: 443
@@ -48,13 +48,15 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 10,11|香港5|@ripaojiedian
+  udp: true
+- name: 10,11,12|CN_speednode_0002
   network: tcp
   password: BxceQaOe
   port: 4451
   server: 36.151.251.23
   skip-cert-verify: true
   type: trojan
+  udp: true
 - name: 10,11|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -102,13 +104,14 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 10,11|新加坡3|@ripaojiedian
+- name: 10,11,12|CN_speednode_0001
   network: tcp
   password: BxceQaOe
   port: 24392
   server: 36.151.251.35
   skip-cert-verify: true
   type: trojan
+  udp: true
 - name: 10,11|美国|@ripaojiedian
   network: tcp
   password: ea39fa94f1ee00999337ea1fd3318e69
@@ -142,34 +145,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 40731c98-9514-4e75-b78e-58311d214095
-- name: 12|HK_speednode_0005
-  network: ws
-  port: 26666
-  server: 43.154.124.136
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /telegram@freecodes/?ed=2560
-- name: 12|HK_speednode_0006
-  network: ws
-  port: 443
-  server: 202.85.53.74
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /Telegram🇨🇳@WangCai2/?ed=2560
 - name: 12|HK_speednode_0007
   network: ws
   port: 443
@@ -183,7 +158,7 @@ proxies:
   ws-opts:
     headers:
       Host: gaosir.unfeeling.sbs
-    path: /TelegramU0001F1E8U0001F1F3@WangCai2/?ed=2560
+    path: /X@节点狂魔/?ed=2560
 - name: 12|HK_speednode_0008
   network: ws
   port: 443
@@ -197,22 +172,8 @@ proxies:
   ws-opts:
     headers:
       Host: gaosir.unfeeling.sbs
-    path: /X@节点狂魔
+    path: /Telegram@freecodes/?ed=2560
 - name: 12|HK_speednode_0009
-  network: ws
-  port: 443
-  server: 202.85.53.74
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /X@节点狂魔/?ed=2560
-- name: 12|HK_speednode_0010
   network: ws
   port: 443
   server: 202.85.53.74
@@ -239,11 +200,108 @@ proxies:
   ws-opts:
     headers:
       Host: gaosir.unfeeling.sbs
-    path: /Telegram@freecodes/?ed=2560
-- name: 12|KR_speednode_0012
+    path: /TelegramU0001F1E8U0001F1F3@WangCai2/?ed=2560
+- name: 12|HK_speednode_0013
+  network: ws
+  port: 443
+  server: 202.85.53.74
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /Telegram🇨🇳@WangCai2/?ed=2560
+- name: 12|HK_speednode_0014
+  network: ws
+  port: 443
+  server: 202.85.53.74
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /X@节点狂魔
+- name: 12|HK_speednode_0015
+  network: ws
+  port: 443
+  server: 202.85.53.74
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /X@节点狂魔security=tls
+- flow: xtls-rprx-vision
+  name: 12|IL_speednode_0016
+  port: 443
+  reality-opts:
+    public-key: YVDo7U4O-AT2fa5H9E7hyYHKgfZd1vB6UdbAf2ggWQE
+    short-id: 55e6af1a35e64a98
+  server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
+  servername: i2pd.website
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
+- name: 12|KR_speednode_0017
+  network: ws
+  port: 12312
+  server: 211.48.77.114
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /X@节点狂魔/?ed=2560
+- name: 12|KR_speednode_0018
+  network: ws
+  port: 12312
+  server: 211.48.77.114
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /x @节点狂魔
+- name: 12|KR_speednode_0019
+  network: ws
+  port: 50003
+  server: 175.211.35.161
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /X@节点狂魔/?ed=2560
+- name: 12|KR_speednode_0020
   network: ws
   port: 50001
-  server: 118.40.126.7
+  server: 118.91.78.76
   servername: gaosir.unfeeling.sbs
   skip-cert-verify: false
   tls: true
@@ -253,22 +311,8 @@ proxies:
   ws-opts:
     headers:
       Host: gaosir.unfeeling.sbs
-    path: /X@节点狂魔/?ed=2560
-- name: 12|KR_speednode_0013
-  network: ws
-  port: 27443
-  server: 211.229.77.184
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /X@节点狂魔/?ed=2560
-- name: 12|KR_speednode_0014
+    path: /Telegram@节点狂魔/?ed=2560
+- name: 12|KR_speednode_0021
   network: ws
   port: 443
   server: 147.75.225.105
@@ -282,7 +326,63 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /Telegram🇨🇳@WangCai2/?ed=2560
-- name: 12|RU_speednode_0016
+- name: 12|RU_speednode_0022
+  network: ws
+  port: 2096
+  server: 188.42.145.253
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /Telegram🇨🇳@WangCai2/?ed=2560
+- name: 12|RU_speednode_0023
+  network: ws
+  port: 2096
+  server: 188.42.145.253
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /Telegram@freecodes/?ed=2560
+- name: 12|RU_speednode_0024
+  network: ws
+  port: 2096
+  server: 188.42.145.253
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /freecodes@节点狂魔/?ed=2560
+- name: 12|RU_speednode_0025
+  network: ws
+  port: 2096
+  server: 188.42.145.253
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /XU0001F1E8U0001F1F3@节点狂魔/?ed=2560
+- name: 12|RU_speednode_0026
   network: ws
   port: 2096
   server: 188.42.145.253
@@ -296,7 +396,63 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /TelegramU0001F1E8U0001F1F3@WangCai2/?ed=2560
-- name: 12|RU_speednode_0017
+- name: 12|RU_speednode_0027
+  network: ws
+  port: 2096
+  server: 188.42.145.253
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 12|RU_speednode_0028
+  network: ws
+  port: 2096
+  server: 188.42.145.253
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+- name: 12|RU_speednode_0029
+  network: ws
+  port: 2096
+  server: 188.42.145.253
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /XU0001F1E8U0001F1F3@节点狂魔security=tls
+- name: 12|RU_speednode_0030
+  network: ws
+  port: 2096
+  server: 188.42.145.253
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /
+- name: 12|RU_speednode_0031
   network: ws
   port: 2096
   server: 188.42.145.253
@@ -310,7 +466,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /XU0001F1E8U0001F1F3@节点狂魔
-- name: 12|RU_speednode_0018
+- name: 12|RU_speednode_0032
   network: ws
   port: 2096
   server: 188.42.145.253
@@ -323,8 +479,22 @@ proxies:
   ws-opts:
     headers:
       Host: gaosir.unfeeling.sbs
-    path: /
-- name: 12|RU_speednode_0019
+    path: /security=tls
+- name: 12|RU_speednode_0033
+  network: ws
+  port: 8443
+  server: 5.42.220.253
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /x @节点狂魔security=tls
+- name: 12|RU_speednode_0034
   network: ws
   port: 8443
   server: 5.42.220.253
@@ -338,7 +508,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /x @节点狂魔
-- name: 12|SG_speednode_0020
+- name: 12|SG_speednode_0035
   network: ws
   port: 443
   server: 185.114.78.230
@@ -352,7 +522,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /Telegram🇨🇳@WangCai2/?ed=2560
-- name: 12|SG_speednode_0021
+- name: 12|SG_speednode_0036
   network: ws
   port: 443
   server: 185.114.78.230
@@ -366,7 +536,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /TelegramU0001F1E8U0001F1F3@WangCai2/?ed=2560
-- name: 12|TW_speednode_0022
+- name: 12|TW_speednode_0037
   network: ws
   port: 443
   server: 167.179.27.92
@@ -380,7 +550,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /TelegramU0001F1E8U0001F1F3@WangCai2/?ed=2560
-- name: 12|TW_speednode_0023
+- name: 12|TW_speednode_0038
   network: ws
   port: 443
   server: 167.179.27.92
@@ -394,21 +564,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /Telegram🇨🇳@WangCai2/?ed=2560
-- name: 12|US_speednode_0024
-  network: ws
-  port: 443
-  server: 172.66.44.179
-  servername: xzxcxzs.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ebab6efe-5627-48f6-8b11-22d0a113c1d3
-  ws-opts:
-    headers:
-      Host: xzxcxzs.pages.dev
-    path: /?ed=2048
-- name: 12|US_speednode_0025
+- name: 12|US_speednode_0039
   network: ws
   port: 2096
   server: 104.19.50.238
@@ -422,22 +578,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /telegramU0001F1E8U0001F1F3@wangcai2/?ed=2560
-- client-fingerprint: random
-  name: 12|US_speednode_0026
-  network: ws
-  port: 443
-  server: npmjs.com
-  servername: xzxcxzs.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ebab6efe-5627-48f6-8b11-22d0a113c1d3
-  ws-opts:
-    headers:
-      Host: xzxcxzs.pages.dev
-    path: /
-- name: 12|US_speednode_0027
+- name: 12|US_speednode_0041
   network: ws
   port: 2096
   server: 195.13.45.253
@@ -451,7 +592,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /x @节点狂魔
-- name: 12|US_speednode_0028
+- name: 12|US_speednode_0042
   network: ws
   password: T@_WvT8Ho@LW%w_,
   port: 2053
@@ -464,17 +605,30 @@ proxies:
     headers:
       Host: NOp-55q.pAgEs.dEv
     path: /trGPZDfetEwuO25SAs
-- name: 12|US_speednode_0029
+- name: 12|US_speednode_0043
   network: ws
   port: 2096
-  server: 104.18.15.201
-  servername: iamdt.pages.dev
+  server: 195.13.45.253
+  servername: gaosir.unfeeling.sbs
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 67c662fa-cd6a-474a-b55f-d50dc0a7e210
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   ws-opts:
     headers:
-      Host: iamdt.pages.dev
-    path: /
+      Host: gaosir.unfeeling.sbs
+    path: /x @节点狂魔security=tls
+- client-fingerprint: firefox
+  name: 12|US_speednode_0044
+  port: 14333
+  reality-opts:
+    public-key: 6m6kUON0alvajtw1VbVxsSmENGy2muRDFxpRmizXEFk
+    short-id: feea69900702
+  server: 104.238.214.30
+  servername: amazon.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 19c25ef3-9233-4191-acdc-ec278a54185f
