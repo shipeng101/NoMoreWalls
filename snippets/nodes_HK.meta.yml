@@ -35,11 +35,10 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 10,11|香港3|@ripaojiedian
+  name: 10|🇭🇰 香港3|@ripaojiedian
   network: ws
-  port: '80'
+  port: 80
   server: 95811783-t02f40-t4nxvc-1p1b.hk.p5pv.com
-  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -50,8 +49,7 @@ proxies:
       Host: broadcastlv.chat.bilibili.com
     path: /
 - client-fingerprint: chrome
-  name: 10,11|香港4|@ripaojiedian
-  network: tcp
+  name: 10|🇭🇰 香港4|@ripaojiedian
   password: BxceQaOe
   port: 194
   server: 36.156.102.72
@@ -76,13 +74,17 @@ proxies:
   tls: false
   type: vmess
   uuid: 4f8db425-47ac-420e-b2d7-6e85bbc25562
-- alterId: 0
-  cipher: auto
-  name: 11|香港6|@ripaojiedian
+- name: 11|香港3|@ripaojiedian
   network: tcp
-  port: '54804'
-  server: 43.247.135.64
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4f8db425-47ac-420e-b2d7-6e85bbc25562
+  password: bca467b8c15211d189008a93c7519d3b
+  port: 5135
+  server: 221.128.195.7
+  sni: www.nintendogames.net
+  type: trojan
+- name: 11|香港4|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 4451
+  server: 36.156.102.72
+  skip-cert-verify: true
+  type: trojan
