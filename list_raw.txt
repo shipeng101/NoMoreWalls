@@ -23,5 +23,5 @@ vless://4741863d-e3ac-4b9d-8185-466f437b3fa8@usvless.yydzx.xyz:17597?allowInsecu
 vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@linux.do:2095?allowInsecure=0&sni=fangbinxingnmsl.pusytroller.cf&type=ws&host=fangbinxingnmsl.pusytroller.cf&path=/#12%7CUS_speednode_0048
 vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@www.npmjs.com:2095?allowInsecure=0&sni=fangbinxingnmsl.pusytroller.cf&type=ws&host=fangbinxingnmsl.pusytroller.cf&path=/#12%7CUS_speednode_0049
 https://V6yman.mcsslk.xyz/62d67fd87a081adf063035d99a80a7f6
-https://nKKWKS.absslk.xyz/96104e30c6229c881e37a229a97dde59
+https://rZa5hU.absslk.xyz/383bac5cc48f6f31ea498299b9058782
 ss://YWVzLTI1Ni1nY206Y2NmNDI2ZjFmZTc4@103.103.245.158:443?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bmux%3D8%3Bpath%3D%2Fzksuapgx%3Bhost%3Dnewroot2v1.dsjsapp.com%3Btls#%E9%A6%99%E6%B8%AF2%7C%40ripaojiedian
