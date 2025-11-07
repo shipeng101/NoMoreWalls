@@ -23,5 +23,5 @@ vmess://eyJ2IjogIjIiLCAicHMiOiAiMTF86Z+p5Zu9fEByaXBhb2ppZWRpYW4iLCAiYWRkIjogIjE1
 vmess://eyJ2IjogIjIiLCAicHMiOiAiMTF86LaK5Y2XfEByaXBhb2ppZWRpYW4iLCAiYWRkIjogIjEwMy4xOTcuMTg1LjE0OSIsICJwb3J0IjogIjIzODA2IiwgImFpZCI6IDAsICJzY3kiOiAiYXV0byIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAibm9uZSIsICJ0bHMiOiAiIiwgImlkIjogIjg0MTU1MGI0LWQ0YmYtNGUzZS1kZTljLWNmZjdiYWE0N2RmMyIsICJzbmkiOiAiIn0=
 vless://cdc453bb-34c8-4405-a322-56f6878ccd40@198.186.131.216:47387?allowInsecure=0#12%7CUS_speednode_0018
 ss://YWVzLTI1Ni1nY206Y2NmNDI2ZjFmZTc4@103.103.245.158:443?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bmux%3D8%3Bpath%3D%2Fzksuapgx%3Bhost%3Dnewroot2v1.dsjsapp.com%3Btls#%E9%A6%99%E6%B8%AF2%7C%40ripaojiedian
-https://qYxiwy.absslk.xyz/605375d0dec852f98bc7b6b264c1f687
+https://Lj9uwY.absslk.xyz/cd78d4139a209ce76d00389746968c6c
 https://V6yman.mcsslk.xyz/62d67fd87a081adf063035d99a80a7f6
