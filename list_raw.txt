@@ -17,6 +17,6 @@ trojan://BxceQaOe@36.151.251.38:25891?allowInsecure=1&sni=t.me%2Fripaojiedian#10
 ss://c3M6Ly9ZV1Z6TFRJMU5pMWpabUk2V0c0NGFrdGtiVVJOTURCSlpVOGxJeVFqWmtwQlRYUnpSVUZGVlU5d1NDOVpWMWwwV1hGRVJtNVVNRk5X@103.186.154.193:38388#10%2C11%7C%E8%B6%8A%E5%8D%97%7C%40ripaojiedian
 vmess://eyJ2IjogIjIiLCAicHMiOiAiMTF86aaZ5rivNnxAcmlwYW9qaWVkaWFuIiwgImFkZCI6ICIzNi4xNTAuMjcuNzYiLCAicG9ydCI6ICI0OTUwOSIsICJhaWQiOiAwLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICJhZWQ0MWYxZS03NWU3LTQxY2UtYTJkNC0zOGY2NWE2YmJjODYiLCAic25pIjogIiJ9
 vless://cdc453bb-34c8-4405-a322-56f6878ccd40@198.186.131.216:47387?allowInsecure=0#12%7CUS_speednode_0018
-https://V6yman.mcsslk.xyz/62d67fd87a081adf063035d99a80a7f6
+https://dV7h0E.absslk.xyz/89637ba3ba546a78f1e869211c3f36d4
 ss://YWVzLTI1Ni1nY206Y2NmNDI2ZjFmZTc4@103.103.245.158:443?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bmux%3D8%3Bpath%3D%2Fzksuapgx%3Bhost%3Dnewroot2v1.dsjsapp.com%3Btls#%E9%A6%99%E6%B8%AF2%7C%40ripaojiedian
-https://HTYqfs.absslk.xyz/0ad569f3527f733754b0e79a1283da1a
+https://V6yman.mcsslk.xyz/62d67fd87a081adf063035d99a80a7f6
