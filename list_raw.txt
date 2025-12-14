@@ -38,5 +38,5 @@ vless://d5f7970e-121f-4e6f-9acf-250effc0715b@89.23.101.203:443?allowInsecure=0&s
 vless://4a6de183-2ad3-456c-b420-feeac81f6257@51.250.25.11:1488?allowInsecure=0&sni=ads.x5.ru&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CRU_speednode_0008
 vless://a00d89f6-ab7e-4e30-a5e5-54c701d62c93@178.236.16.98:35728?allowInsecure=0&sni=yahoo.com&fp=chrome&security=tls#12%7CRU_speednode_0009
 vless://a47338c5-c793-4da3-acd8-c583fb6f344d@www.speedtest.net:2083?allowInsecure=0&sni=golestan.hajalwi.ir.&alpn=h2%2Chttp%2F1.1&type=ws&host=golestan.hajalwi.ir.&path=/---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN?ed=8080fp=chrome&security=tls#12%7CUS_speednode_0013
-https://kCTe86.mcsslk.xyz/48be495118a2c6190a00e954b437198c
 https://MXgC81.absslk.xyz/dc336b9f6a9cda78570cb3a3ed1443a3
+https://kCTe86.mcsslk.xyz/48be495118a2c6190a00e954b437198c
