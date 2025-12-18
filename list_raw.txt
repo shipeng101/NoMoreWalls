@@ -30,5 +30,5 @@ vless://5a3e6548-a706-4f50-ab13-a913eb33283f@185.146.173.185:2052?allowInsecure=
 vless://c1444d72-6b3c-4b4b-9525-2ea5ef08bc21@www.speedtest.net:2087?allowInsecure=0&sni=dl4.hajalwi.ir.&alpn=h2%2Chttp%2F1.1&type=ws&host=dl4.hajalwi.ir.&path=/---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN?ed=8080fp=chrome&security=tls#12%7CUS_speednode_0021
 vless://88538870-5626-4cd7-9cda-1e0b6253c9ce@www.speedtest.net:443?allowInsecure=0&sni=havij.mrconfigur.site&type=ws&host=havij.mrconfigur.site&path=/security=tls#12%7CUS_speednode_0022
 vless://edb3d24d-1a55-42f7-8752-6ae216f18cf4@45.15.127.139:4443?allowInsecure=0&sni=github.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CUS_speednode_0023
-https://T5Py6N.absslk.xyz/307c6aa7d8c372cc548626de71875df4
-https://TsKjUj.mcsslk.xyz/88f4f652a890162654c1ce48ce29fd33
+https://zNc9Xb.mcsslk.xyz/de5b2b65e7dc99a8ab9bc77a90491f75
+https://cnGVIj.absslk.xyz/44d13ef0688f25f5298c4d4dabc63a2d
