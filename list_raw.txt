@@ -38,5 +38,5 @@ vless://6943fe4d-0a5e-0543-d402-0e5cf7fe7af0@34.143.159.175:443?allowInsecure=0&
 vless://6943fe4d-0a5e-0543-d402-0e5cf7fe7af0@210.61.97.241:81?allowInsecure=0&sni=stall.saass.ccwu.cc&type=ws&host=stall.saass.ccwu.cc&path=/proxyip=sjc.o00o.ooosecurity=tls#12%7CTW_speednode_0019
 vless://71e0492e-9dc5-4fef-891b-15c983934886@185.177.238.40:443?allowInsecure=0&sni=alban.normbot.ru&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CUS_speednode_0020
 vless://6943fe4d-0a5e-0543-d402-0e5cf7fe7af0@66.235.200.109:2053?allowInsecure=0&sni=stall.saass.ccwu.cc&type=ws&host=stall.saass.ccwu.cc&path=/proxyip=sjc.o00o.ooosecurity=tls#12%7CUS_speednode_0021
+https://z0hLlV.mcsslk.xyz/fa4a98c969aec9ff53e5f018c962de62
 https://mBClkx.absslk.xyz/6d3e7e5c2eb16392ff26beb0bc5f642d
-https://ZefLYy.mcsslk.xyz/b25cac5ad040954236a807154337db7f
