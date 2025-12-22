@@ -8,7 +8,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 10,11|香港3|@ripaojiedian
+- name: 10,11,12|HK_speednode_0016
   network: tcp
   password: 44e660b0ee21cf3ac66aee2c08af85d2
   port: 443
@@ -16,6 +16,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+  udp: true
 - name: 10,11|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -42,17 +43,3 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 12|HK_speednode_0005
-  port: 10122
-  reality-opts:
-    public-key: TU2OTQBiMyK-mKCI3G6fENadfG-fdNlWJF7Qv9ywkFY
-    short-id: 8a6394aa28d6
-  server: 1.36.189.217
-  servername: music.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7f60f6e7-8419-4cff-9e1b-14179f677a5e
