@@ -39,4 +39,4 @@ vless://b27c7007-9a35-43cb-ab1e-8c5c0a7e3c34@158.160.201.80:443?allowInsecure=0&
 trojan://5a2c16f9@freeyx.cloudflare88.eu.org:443?allowInsecure=0&sni=snippets.kkii.eu.org&type=ws&host=snippets.kkii.eu.org&path=/#12%7CRU_speednode_0026
 vless://9f721f50-e015-5ea3-8bb0-22428307e9c0@89.23.113.137:47944?allowInsecure=0&sni=www.ietf.org&fp=chrome&security=tls#12%7CRU_speednode_0027
 https://mBClkx.absslk.xyz/6d3e7e5c2eb16392ff26beb0bc5f642d
-https://VhSjVh.mcsslk.xyz/6d33ee398be8164eb48bcb0b50f63957
+https://r1x2At.mcsslk.xyz/063a938bd941a0e30bd9491441cf3b38
