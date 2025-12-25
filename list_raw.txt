@@ -29,4 +29,4 @@ vless://c42e4667-ca09-4769-b544-89a8da730daf@ru2.tunnely.ru:443?allowInsecure=0&
 vless://98cb33a8-d6f7-41f0-8796-e4b471d65df8@144.31.5.179:443?allowInsecure=0&type=ws#12%7CUS_speednode_0023
 vless://6949ea89-4825-1b47-3b03-113cede87254@oralb.com:2053?allowInsecure=0&sni=stall.saass.ccwu.cc&type=ws&host=stall.saass.ccwu.cc&path=/proxyip=sjc.o00o.ooosecurity=tls#12%7CUS_speednode_0024
 https://mBClkx.absslk.xyz/6d3e7e5c2eb16392ff26beb0bc5f642d
-https://ZTIqtc.mcsslk.xyz/ed578aa8a753628d46b478431e7eb2d9
+https://W3NHdV.mcsslk.xyz/4dfe4d8584c9bbaf0970e0f2971eda19
