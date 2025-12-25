@@ -23,4 +23,4 @@ trojan://5a2c16f9@freeyx.cloudflare88.eu.org:443?allowInsecure=0&sni=snippets.kk
 vless://c42e4667-ca09-4769-b544-89a8da730daf@ru2.tunnely.ru:443?allowInsecure=0&sni=vk.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CUS_speednode_0005
 vless://53cd8178-2ee6-43d9-a2a7-881f287fd408@172.234.130.82:10001?allowInsecure=0&sni=yahoo.com&fp=chrome&security=tls#12%7CUS_speednode_0006
 https://mBClkx.absslk.xyz/6d3e7e5c2eb16392ff26beb0bc5f642d
-https://OcywOq.mcsslk.xyz/4a4a163102bf6ee82df11a4bf62331ed
+https://Q7OadK.mcsslk.xyz/efe0c5c793b62dab67d96885794a1369
