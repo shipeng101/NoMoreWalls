@@ -26,5 +26,5 @@ vless://7f60f6e7-8419-4cff-9e1b-14179f677a5e@1.36.189.217:10122?allowInsecure=0&
 vless://9042affd-0ad3-4014-adbc-e52f00891ea2@sakura.bunnywaffle.org:26978?allowInsecure=0&sni=tesla.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CNN_speednode_0008
 trojan://5a2c16f9@freeyx.cloudflare88.eu.org:443?allowInsecure=0&sni=snippets.kkii.eu.org&type=ws&host=snippets.kkii.eu.org&path=/#12%7CRU_speednode_0009
 trojan://5a2c16f9@cf.130519.xyz:443?allowInsecure=0&sni=snippets.kkii.eu.org&type=ws&host=snippets.kkii.eu.org&path=/#12%7CRU_speednode_0010
+https://4WKYMt.mcsslk.xyz/3f8297e22d024e6b8adfd324a4a565dd
 https://mBClkx.absslk.xyz/6d3e7e5c2eb16392ff26beb0bc5f642d
-https://1Bt6Ov.mcsslk.xyz/041e9bda4c617b93dcad5fd661030295
