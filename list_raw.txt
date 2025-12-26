@@ -27,4 +27,4 @@ vless://9042affd-0ad3-4014-adbc-e52f00891ea2@sakura.bunnywaffle.org:26978?allowI
 trojan://5a2c16f9@freeyx.cloudflare88.eu.org:443?allowInsecure=0&sni=snippets.kkii.eu.org&type=ws&host=snippets.kkii.eu.org&path=/#12%7CRU_speednode_0009
 trojan://5a2c16f9@cf.130519.xyz:443?allowInsecure=0&sni=snippets.kkii.eu.org&type=ws&host=snippets.kkii.eu.org&path=/#12%7CRU_speednode_0010
 https://mBClkx.absslk.xyz/6d3e7e5c2eb16392ff26beb0bc5f642d
-https://5Kf5U5.mcsslk.xyz/621cfc36fcde5f34ea487b3ad7ce4067
+https://1Bt6Ov.mcsslk.xyz/041e9bda4c617b93dcad5fd661030295
