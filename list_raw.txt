@@ -41,5 +41,5 @@ trojan://5a2c16f9@172.64.229.2:443?allowInsecure=1&sni=snippets.kkii.eu.org&type
 trojan://5a2c16f9@162.159.24.131:443?allowInsecure=0&sni=snippets.kkii.eu.org&type=ws&host=snippets.kkii.eu.org&path=/#12%7CUS_speednode_0026
 vless://5a2c16f9-e365-4080-8d38-6924c3835586@nrtcfdns.zone.id:443?allowInsecure=0&sni=snippets.kkii.eu.org&type=ws&host=snippets.kkii.eu.org&path=/fp=chrome&security=tls#12%7CUS_speednode_0027
 vless://5a2c16f9-e365-4080-8d38-6924c3835586@cdn.204910.best:443?allowInsecure=0&sni=snippets.kkii.eu.org&type=ws&host=snippets.kkii.eu.org&path=/fp=chrome&security=tls#12%7CUS_speednode_0028
-https://BtnxDH.mcsslk.xyz/fc9fdcbba6351c1ee04184c1ac555cd0
 https://mBClkx.absslk.xyz/6d3e7e5c2eb16392ff26beb0bc5f642d
+https://OSRXMc.mcsslk.xyz/7067a401aad71684a216fa7a3a069c2f
