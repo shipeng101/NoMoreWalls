@@ -23,5 +23,5 @@ vless://846c5d45-936c-42f6-9120-2d13830d5fa0@51.250.4.181:443?allowInsecure=0&sn
 vless://2c8adcaa-e428-4cea-9c88-e88166651ab3@78.159.246.66:443?allowInsecure=0&sni=eh.vk.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CRU_speednode_0006
 vless://2c8adcaa-e428-4cea-9c88-e88166651ab3@89.169.137.193:443?allowInsecure=0&sni=eh.vk.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CRU_speednode_0007
 trojan://kkzh2prsyr2ik47as615@64.94.95.118:57142?allowInsecure=1#12%7CUS_speednode_0009
+https://FSa5nT.mcsslk.xyz/691bc5fe4a8475731753e73bded8a51d
 https://mBClkx.absslk.xyz/6d3e7e5c2eb16392ff26beb0bc5f642d
-https://9Rz7OC.mcsslk.xyz/6885bb6fb83fefce6d81429ad6f7685a
