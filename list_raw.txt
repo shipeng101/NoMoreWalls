@@ -25,4 +25,4 @@ vless://9042affd-0ad3-4014-adbc-e52f00891ea2@sakura.bunnywaffle.org:26978?allowI
 vless://2c8adcaa-e428-4cea-9c88-e88166651ab3@89.169.137.193:443?allowInsecure=0&sni=eh.vk.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CRU_speednode_0008
 vless://846c5d45-936c-42f6-9120-2d13830d5fa0@51.250.4.181:443?allowInsecure=0&sni=eh.vk.com&fp=chrome&security=tls#12%7CRU_speednode_0009
 https://mBClkx.absslk.xyz/6d3e7e5c2eb16392ff26beb0bc5f642d
-https://MY8SAv.mcsslk.xyz/6557706a51bdc12dbe050a5e0f59f600
+https://icUZIP.mcsslk.xyz/7c094b3dad627493db4e83b29b5701e4
