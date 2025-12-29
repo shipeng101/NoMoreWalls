@@ -24,5 +24,5 @@ vless://1374476c-f07c-47c3-86ba-a8c10dc87050@apple.land200.netmeli.com:51921?all
 vless://9042affd-0ad3-4014-adbc-e52f00891ea2@sakura.bunnywaffle.org:26978?allowInsecure=0&sni=tesla.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CNN_speednode_0007
 vless://2c8adcaa-e428-4cea-9c88-e88166651ab3@89.169.137.193:443?allowInsecure=0&sni=eh.vk.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CRU_speednode_0008
 vless://846c5d45-936c-42f6-9120-2d13830d5fa0@51.250.4.181:443?allowInsecure=0&sni=eh.vk.com&fp=chrome&security=tls#12%7CRU_speednode_0009
+https://2kHE8k.mcsslk.xyz/6e7beb353a9d8a5fc155de4d7b9e9f70
 https://mBClkx.absslk.xyz/6d3e7e5c2eb16392ff26beb0bc5f642d
-https://icUZIP.mcsslk.xyz/7c094b3dad627493db4e83b29b5701e4
