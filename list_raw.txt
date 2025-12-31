@@ -45,4 +45,4 @@ trojan://5a2c16f9@172.64.229.65:443?allowInsecure=0&sni=snippets.kkii.eu.org&typ
 trojan://5a2c16f9@172.64.229.6:443?allowInsecure=0&sni=snippets.kkii.eu.org&type=ws&host=snippets.kkii.eu.org&path=/#12%7CUS_speednode_0064
 trojan://5a2c16f9@104.26.1.110:443?allowInsecure=0&sni=snippets.kkii.eu.org&type=ws&host=snippets.kkii.eu.org&path=/#12%7CUS_speednode_0066
 https://mBClkx.absslk.xyz/6d3e7e5c2eb16392ff26beb0bc5f642d
-https://Q2Gc4l.mcsslk.xyz/74cdbc441cf9e375c6791551fe07bb32
+https://4se3ZD.mcsslk.xyz/609efba487428652697bc5cc302dff83
