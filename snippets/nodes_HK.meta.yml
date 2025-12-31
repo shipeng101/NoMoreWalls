@@ -8,15 +8,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 10|🇭🇰 香港2|@ripaojiedian
-  port: 43307
-  server: 8.210.248.133
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: f6a1f4ad-9d26-43c7-bce3-025df8dac591
 - name: 10,11|香港3|@ripaojiedian
   network: tcp
   password: f36f4495b4b26cc2fe346cfa23e05b1b
@@ -37,7 +28,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 443
-  server: 203.198.84.221
+  server: 58.152.25.236
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -51,16 +42,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 11|香港2|@ripaojiedian
-  network: tcp
-  port: '43307'
-  server: 8.210.248.133
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f6a1f4ad-9d26-43c7-bce3-025df8dac591
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 12|HK_speednode_0014
