@@ -31,5 +31,5 @@ vless://5ba2e48a-d36c-40a5-a4a1-2819ed6efce5@51.250.29.71:1488?allowInsecure=0&s
 vless://5ba2e48a-d36c-40a5-a4a1-2819ed6efce5@51.250.24.245:4249?allowInsecure=0&sni=ads.x5.ru&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CRU_speednode_0016
 vless://5ba2e48a-d36c-40a5-a4a1-2819ed6efce5@51.250.98.83:1488?allowInsecure=0&sni=ads.x5.ru&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CRU_speednode_0017
 trojan://iwangjie@158.101.11.204:15805?allowInsecure=0&sni=nodes.830901.xyz&type=ws&host=nodes.830901.xyz&path=/#12%7CUS_speednode_0018
-https://eIBmwE.mcsslk.xyz/77b3554f615a3e015e2fc5f4b98f2222
+https://QLpaAc.mcsslk.xyz/d15e186f6d75935c576c5ebdb25ad0ee
 https://mBClkx.absslk.xyz/6d3e7e5c2eb16392ff26beb0bc5f642d
