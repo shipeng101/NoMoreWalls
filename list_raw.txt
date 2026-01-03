@@ -31,5 +31,5 @@ vless://00000000-0000-4000-8000-000000000000@43.165.190.11:42841?allowInsecure=0
 trojan://Aimer@167.68.4.199:2053?allowInsecure=0&sni=epge.muarua.filegear-sg.me&type=ws&host=epge.muarua.filegear-sg.me&path=/#12%7CUS_speednode_0019
 trojan://Aimer@167.68.4.199:2053?allowInsecure=0&sni=epge.muarua.filegear-sg.me&type=ws&host=epge.muarua.filegear-sg.me&path=/?ed=2560#12%7CUS_speednode_0020
 trojan://5a2c16f9@135.84.73.238:2096?allowInsecure=1&sni=snippets.kkii.eu.org&type=ws&host=snippets.kkii.eu.org&path=/Telegram🇨🇳WangCai2#12%7CUS_speednode_0021
-https://bZnZed.mcsslk.xyz/785a9852d9af7e2093137976275de89b
 https://mBClkx.absslk.xyz/6d3e7e5c2eb16392ff26beb0bc5f642d
+https://sW8tmm.mcsslk.xyz/c69f40a29bc4c60f1fcae632ba03549a
