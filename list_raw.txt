@@ -31,5 +31,5 @@ vless://d2d79fd8-a3d4-4792-9766-e472e1fe8a5f@51.250.28.232:1488?allowInsecure=0&
 trojan://ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0@64.181.227.82:443?allowInsecure=1&sni=snippets.kkii.eu.org&type=ws&host=snippets.kkii.eu.org&path=/Telegram🇨🇳WangCai2#12%7CUS_speednode_0015
 trojan://5a2c16f9@135.84.73.238:2096?allowInsecure=1&sni=snippets.kkii.eu.org&type=ws&host=snippets.kkii.eu.org&path=/TelegramU0001F1E8U0001F1F3WangCai2#12%7CUS_speednode_0016
 trojan://5a2c16f9@135.84.73.238:2096?allowInsecure=1&sni=snippets.kkii.eu.org&type=ws&host=snippets.kkii.eu.org&path=/Telegram🇨🇳WangCai2#12%7CUS_speednode_0017
+https://Zf6VHX.mcsslk.xyz/23622700dfebc4c658f797a240bdcf59
 https://mBClkx.absslk.xyz/6d3e7e5c2eb16392ff26beb0bc5f642d
-https://Mz7385.mcsslk.xyz/04d1fb4fdc6a0a9605443c43f2820461
