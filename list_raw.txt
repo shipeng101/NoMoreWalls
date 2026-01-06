@@ -34,5 +34,5 @@ vless://75bc2f7a-0e6c-46ad-8639-283deaa701c3@47.79.94.192:443?allowInsecure=1&sn
 vless://75bc2f7a-0e6c-46ad-8639-283deaa701c3@47.79.94.145:443?allowInsecure=1&sni=new7370.h2333.ggff.net&type=ws&host=new7370.h2333.ggff.net&path=/?ed=2560security=tls#12%7CUS_speednode_0016
 vless://75bc2f7a-0e6c-46ad-8639-283deaa701c3@38.55.198.52:443?allowInsecure=1&sni=new7370.h2333.ggff.net&type=ws&host=new7370.h2333.ggff.net&path=/?ed=2560security=tls#12%7CUS_speednode_0017
 vless://75bc2f7a-0e6c-46ad-8639-283deaa701c3@38.207.171.71:51434?allowInsecure=1&sni=new7370.h2333.ggff.net&type=ws&host=new7370.h2333.ggff.net&path=/?ed=2560security=tls#12%7CUS_speednode_0018
-https://lG6v8V.mcsslk.xyz/c9a7b61e5bc82db433adfac5a29350f6
 https://mBClkx.absslk.xyz/6d3e7e5c2eb16392ff26beb0bc5f642d
+https://4GOywk.mcsslk.xyz/6b055f51f5e0ceffa1a4a8a2150d9699
