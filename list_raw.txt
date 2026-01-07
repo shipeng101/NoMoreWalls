@@ -38,5 +38,5 @@ vless://f5837d40-b8ce-45ea-8b1a-dfda963cee9b@47.79.94.192:443?allowInsecure=1&sn
 vless://3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97@162.159.16.63:443?allowInsecure=0&sni=l.ayovo.netlib.re&type=ws&host=l.ayovo.netlib.re&path=/?ed=2560fp=chrome&security=tls#12%7CUS_speednode_0030
 vless://14c80e0e-f7ce-4991-94fc-99a1db4a9b1e@159.89.87.21:28190?allowInsecure=0&sni=aws.amazon.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CUS_speednode_0032
 vless://e343471a-aad3-40da-9dea-72cc8c7dce5f@unamecf.xn--ghqu5fm27b67w.com:443?allowInsecure=0&sni=ujp1.xn--ghqu5fm27b67w.com&type=ws&host=ujp1.xn--ghqu5fm27b67w.com&path=/pq/jp1fp=chrome&security=tls#12%7CUS_speednode_0033
+https://PD5YJb.mcsslk.xyz/32a8b71eaeafe7dfa1798509de615ef0
 https://mBClkx.absslk.xyz/6d3e7e5c2eb16392ff26beb0bc5f642d
-https://7rH9Vi.mcsslk.xyz/c26e4561071d1dcbc791f8bad3b04c84
