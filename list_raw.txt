@@ -39,5 +39,5 @@ vless://e258977b-e413-4718-a3af-02d75492c349@34.143.159.175:443?allowInsecure=0&
 trojan://97e79a62-f686-4b91-87a7-be39c9e57658@34.143.159.175:443?allowInsecure=0&sni=page.anjue39.qzz.io&type=ws&host=page.anjue39.qzz.io&path=/#12%7CSG_speednode_0024
 vless://ff03e357-b531-4f30-9f47-ba9b57dd384f@45.15.127.139:4443?allowInsecure=0&sni=github.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CUS_speednode_0026
 vless://a11ab9c5-4155-430b-9efc-7a7122531382@japan.geodema.network:443?allowInsecure=0&sni=japan.geodema.network&flow=xtls-rprx-vision-udp443&fp=qq&security=tls#12%7CUS_speednode_0027
-https://GD9THC.mcsslk.xyz/d954fd9e15b7352bfef6da00e0333a32
 https://mBClkx.absslk.xyz/6d3e7e5c2eb16392ff26beb0bc5f642d
+https://wa5co2.mcsslk.xyz/e968dbfd9c47226000cd5b554ae69b10
