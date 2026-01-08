@@ -28,4 +28,4 @@ vless://c5c9d8ec-6c95-4f84-a395-de41ef895f34@176.98.178.184:443?allowInsecure=0&
 vless://329bd550-a8f8-4157-b2df-dc4503097a27@158.160.189.247:443?allowInsecure=0&sni=m.vk.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CRU_speednode_0011
 vless://483809cc-4a30-42d9-b713-6916b048aad7@8.223.63.150:443?allowInsecure=1&sni=gyhh2333.2288888.xyz&type=ws&host=gyhh2333.2288888.xyz&path=/security=tls#12%7CSG_speednode_0012
 https://mBClkx.absslk.xyz/6d3e7e5c2eb16392ff26beb0bc5f642d
-https://BaHK78.mcsslk.xyz/154c26d31c94d4c0eb0feb214d770b7b
+https://oDwAGs.mcsslk.xyz/6c89f941830b1bd15f8354d4517ea469
