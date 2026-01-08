@@ -8,15 +8,15 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
+- alterId: 0
   cipher: auto
   name: 10|🇭🇰 香港2|@ripaojiedian
-  port: 30809
-  server: v9.hdacd.com
+  port: 19226
+  server: jy-hk.kunlun07dns.com
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 48d361a8-e9a1-3c28-9b51-47775d62077e
 - name: 10,11|香港3|@ripaojiedian
   network: tcp
   password: 381f2e86233720eacda26d50e9aa26da
@@ -37,7 +37,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 443
-  server: 58.152.25.236
+  server: 58.152.18.21
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -51,13 +51,13 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
+- alterId: 0
   cipher: auto
   name: 11|香港2|@ripaojiedian
   network: tcp
-  port: '30809'
-  server: v9.hdacd.com
+  port: '19226'
+  server: jy-hk.kunlun07dns.com
   servername: ''
   tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 48d361a8-e9a1-3c28-9b51-47775d62077e
