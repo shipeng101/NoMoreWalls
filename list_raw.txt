@@ -37,5 +37,5 @@ vless://5c83b272-47db-4ef1-b8c5-4f7d0886608b@84.201.163.192:4249?allowInsecure=0
 vless://5c83b272-47db-4ef1-b8c5-4f7d0886608b@84.201.138.55:4249?allowInsecure=0&sni=sun6-22.userapi.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CRU_speednode_0027
 vless://080d1733-7509-4c7b-8c7e-5a1f415efc80@129.153.71.226:443?allowInsecure=0&sni=iosapps.itunes.apple.com&flow=xtls-rprx-vision-udp443&fp=ios&security=tls#12%7CUS_speednode_0028
 vless://932fbc77-4dff-4607-8b69-50d6580331a3@45.15.178.117:8443?allowInsecure=0&sni=ign.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CUS_speednode_0029
-https://lLJPAR.mcsslk.xyz/dde9a4ba5f0f1f1a34721a85be588d5c
-https://roioyI.absslk.xyz/4a88c69368c453ef0960de5a703f0668
+https://MLB5lG.absslk.xyz/c9e302e592b8107f05ba5f89f577f593
+https://0voAMh.mcsslk.xyz/af9352e505ce25dc0fb479709f5d5cfb
