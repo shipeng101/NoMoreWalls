@@ -43,5 +43,5 @@ vless://582f44d4-4511-402c-a0b7-b5771a2a5c9d@us11.miyazono-kaori.com:443?allowIn
 vless://ffb5a850-edbc-4831-ad0b-e29483949ea8@139.144.199.41:33873?allowInsecure=0&sni=www.nokia.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CUS_speednode_0029
 vless://a11ab9c5-4155-430b-9efc-7a7122531382@142.91.106.176:443?allowInsecure=0&sni=japan.geodema.network&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CUS_speednode_0030
 vless://a11ab9c5-4155-430b-9efc-7a7122531382@japan.geodema.network:443?allowInsecure=0&sni=japan.geodema.network&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CUS_speednode_0031
-https://q3lRVw.mcsslk.xyz/994898f3535b59c8646612f199badedd
-https://VWkM5r.absslk.xyz/6ea7a45937d6ce906976c87fa57e74f8
+https://nGyzrD.mcsslk.xyz/9a361435a911ed02c5c1096304584959
+https://gS9cUp.absslk.xyz/965d426190b8ab453ccaf5bb33eca460
