@@ -32,4 +32,4 @@ vless://ffb5a850-edbc-4831-ad0b-e29483949ea8@139.144.199.41:33873?allowInsecure=
 vless://582f44d4-4511-402c-a0b7-b5771a2a5c9d@us12.miyazono-kaori.com:443?allowInsecure=0&sni=download-porter.hoyoverse.com&flow=xtls-rprx-vision-udp443&fp=ios&security=tls#12%7CUS_speednode_0015
 vless://582f44d4-4511-402c-a0b7-b5771a2a5c9d@us11.miyazono-kaori.com:443?allowInsecure=0&sni=download-porter.hoyoverse.com&flow=xtls-rprx-vision-udp443&fp=firefox&security=tls#12%7CUS_speednode_0016
 https://vqdauK.absslk.xyz/3b3cabaca0edbf5cd4a39afb6f2e5507
-https://0Xm05s.mcsslk.xyz/94f1df9013f02c5aece5867f94068390
+https://Fqvw4e.mcsslk.xyz/9373e21667ea22139dfcce0a993c86d8
