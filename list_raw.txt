@@ -31,5 +31,5 @@ vless://582f44d4-4511-402c-a0b7-b5771a2a5c9d@us1.miyazono-kaori.com:443?allowIns
 vless://ffb5a850-edbc-4831-ad0b-e29483949ea8@139.144.199.41:33873?allowInsecure=0&sni=www.nokia.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CUS_speednode_0014
 vless://582f44d4-4511-402c-a0b7-b5771a2a5c9d@us12.miyazono-kaori.com:443?allowInsecure=0&sni=download-porter.hoyoverse.com&flow=xtls-rprx-vision-udp443&fp=ios&security=tls#12%7CUS_speednode_0015
 vless://582f44d4-4511-402c-a0b7-b5771a2a5c9d@us11.miyazono-kaori.com:443?allowInsecure=0&sni=download-porter.hoyoverse.com&flow=xtls-rprx-vision-udp443&fp=firefox&security=tls#12%7CUS_speednode_0016
-https://vqdauK.absslk.xyz/3b3cabaca0edbf5cd4a39afb6f2e5507
-https://Fqvw4e.mcsslk.xyz/9373e21667ea22139dfcce0a993c86d8
+https://rBkpfo.absslk.xyz/822fe56c03dfe0acb3a936fb771d76c7
+https://0X6Hz6.mcsslk.xyz/2ca7bbe73a76abfc6e1f3500ba90124f
