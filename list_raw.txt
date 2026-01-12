@@ -29,5 +29,5 @@ vless://3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97@cloudflare.182682.xyz:443?allowInse
 vless://3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97@104.18.185.26:443?allowInsecure=0&sni=l.ayovo.netlib.re&type=ws&host=l.ayovo.netlib.re&path=/?ed=2560security=tls#12%7CUS_speednode_0013
 vless://3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97@104.17.25.173:443?allowInsecure=0&sni=l.ayovo.netlib.re&type=ws&host=l.ayovo.netlib.re&path=/?ed=2560fp=chrome&security=tls#12%7CUS_speednode_0014
 vless://a11ab9c5-4155-430b-9efc-7a7122531382@142.91.106.176:443?allowInsecure=0&sni=japan.geodema.network&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CUS_speednode_0015
-https://1TZ690.mcsslk.xyz/fd95eca88b5b6dabb3d1c8730fdc5ebc
+https://x7EWRq.mcsslk.xyz/1b3ce7776760b4e49430a4cdf5764ff2
 https://zUh22P.absslk.xyz/ed75a04335379c29110225dc508d23f4
