@@ -48,5 +48,5 @@ vless://3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97@162.159.16.63:443?allowInsecure=0&s
 vless://3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97@162.159.45.232:443?allowInsecure=0&sni=l.ayovo.netlib.re&type=ws&host=l.ayovo.netlib.re&path=/?ed=2560security=tls#12%7CUS_speednode_0042
 vless://3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97@162.159.44.142:443?allowInsecure=0&sni=l.ayovo.netlib.re&type=ws&host=l.ayovo.netlib.re&path=/?ed=2560fp=chrome&security=tls#12%7CUS_speednode_0043
 vless://655a808d-d2f8-4675-9b05-84be201eaa16@saas.sin.fan:443?allowInsecure=0&sni=madcity.123123123.shop&type=ws&host=madcity.123123123.shop&path=/?ed=2560security=tls#12%7CUS_speednode_0044
-https://VvpLUi.absslk.xyz/f6ce01b4536196b3024854d8fc61b7d9
-https://TgujCK.mcsslk.xyz/40a379559c63ba049598c41ff20c30b2
+https://lFzL2w.mcsslk.xyz/011488bce6e7aee2125d5a220947a8c2
+https://64XzZP.absslk.xyz/b7dd35fbade4d2bd0a0ee6b1a419e752
