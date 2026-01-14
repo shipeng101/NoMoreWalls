@@ -12,7 +12,7 @@ proxies:
   network: tcp
   password: 61d8077bfb174e171b8283f155a555ad
   port: 443
-  server: 112.118.116.123
+  server: 58.152.110.111
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
