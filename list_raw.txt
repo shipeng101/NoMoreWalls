@@ -45,5 +45,5 @@ vless://3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97@104.21.227.134:443?allowInsecure=0&
 trojan://k52nemqqdx9e@172.64.145.38:8443?allowInsecure=1&sni=8end0fr.zjde5.de5.net&type=ws&host=8end0fr.zjde5.de5.net&path=/?ed=2560#12%7CUS_speednode_0041
 vless://beddd73b-ed90-4e76-8a30-492384220878@192.161.60.13:52800?allowInsecure=0&sni=www.paypal.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CUS_speednode_0042
 vless://00e3aa57-aad0-4b7c-90ef-8fbdc2175ddb@us.catconnect.ru:8443?allowInsecure=0&sni=www.deepl.com&flow=xtls-rprx-vision-udp443&fp=qq&security=tls#12%7CUS_speednode_0044
-https://slqv7q.mcsslk.xyz/4c2601e7e77ced53fdc4849f4277a9eb
-https://8DPocA.absslk.xyz/6f7da541fe7d677e738cb4db2adc9fd9
+https://D3dbqD.absslk.xyz/7dfc0a7dbcb3691bf4aa9503b4bbdda1
+https://9qnO70.mcsslk.xyz/3819551efe5a10c7c81ba8a3332e72e6
