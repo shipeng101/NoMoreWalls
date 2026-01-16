@@ -47,5 +47,5 @@ vless://dd0cfef0-fda9-47ec-8a65-49d7bc004f82@151.101.3.8:80?allowInsecure=0&sni=
 vless://1679af35-6dd6-4c09-ae3b-18f239217f3e@adf.ly:443?allowInsecure=1&sni=rAyAn-007.pArViN.DpDnS.OrG&type=ws&host=rAyAn-007.pArViN.DpDnS.OrG&path=/?ed=2560fp=chrome&security=tls#12%7CUS_speednode_0045
 vless://b5dbd0aa-22f6-4a00-9bcc-3606fa8fc56d@staticdelivery.nexusmods.com:443?allowInsecure=0&sni=kb.as129394.me&type=ws&host=kb.as129394.me&path=/?ed=2560security=tls#12%7CUS_speednode_0046
 trojan://Aimer@167.68.4.199:2053?allowInsecure=0&sni=epge.muarua.filegear-sg.me&type=ws&host=epge.muarua.filegear-sg.me&path=/#12%7CUS_speednode_0047
-https://NpPJTN.mcsslk.xyz/a60b3a9adab2fa5470d5e3d892656ae0
-https://90NO9R.absslk.xyz/df51a6c8ac72c627b47010c209e323f7
+https://kWxCTz.mcsslk.xyz/0d77d124a4d91cd5ee044d96010d0b02
+https://k0Kk55.absslk.xyz/7539cc1c9ee102b0055da6e1d3e676cf
