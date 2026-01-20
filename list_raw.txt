@@ -50,5 +50,5 @@ vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@cdnjs.com:2095?allowInsecure=0&sni=
 vless://8c10273b-1d54-49b3-9af8-801d9978d1f9@104.16.81.162:2053?allowInsecure=0&sni=ezdriv-server.help&type=ws&host=ezdriv-server.help&path=/fp=random&security=tls#12%7CUS_speednode_0036
 vless://8c10273b-1d54-49b3-9af8-801d9978d1f9@103.21.244.132:2083?allowInsecure=0&sni=ezdriv-server.help&type=ws&host=ezdriv-server.help&path=/fp=random&security=tls#12%7CUS_speednode_0037
 vless://7993192f-2875-4aed-ac8f-26f1596cf8e7@144.31.2.122:443?allowInsecure=0&sni=sun6-21.userapi.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CUS_speednode_0038
-https://e7cys1.mcsslk.xyz/3dac8fd1d656387267ae04fe71c37876
-https://seavyh.absslk.xyz/8188d33599e1b4911d755130194f3bc5
+https://H3jA69.absslk.xyz/351ec862e6e41c2abe1c48d5a8fae640
+https://IfM1j1.mcsslk.xyz/0bacea730360cc3894517a8ac6a0bd90
