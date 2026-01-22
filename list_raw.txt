@@ -51,5 +51,5 @@ vless://0d93b787-b66b-4696-a036-a0f549764f69@91.224.74.91:443?allowInsecure=0&sn
 trojan://Aimer@167.68.4.199:2053?allowInsecure=1&sni=epge.muarua.filegear-sg.me&type=ws&host=epge.muarua.filegear-sg.me&path=/?ed=2560#12%7CUS_speednode_0037
 vless://02fb468f-21f2-460e-bfa1-ef52ae5e627f@plcdn14.suio.me:443?allowInsecure=0&sni=plcdn14.suio.me&security=tls#12%7CUS_speednode_0038
 trojan://Aimer@167.68.4.199:2053?allowInsecure=0&sni=epge.muarua.filegear-sg.me&type=ws&host=epge.muarua.filegear-sg.me&path=/#12%7CUS_speednode_0039
-https://cOEOKJ.absslk.xyz/add40149c7025117a1333c4772eccb34
-https://eqZxS1.mcsslk.xyz/d6fb1d408a4705a77cf6538156e41411
+https://8yUEV2.absslk.xyz/6333fa6553d7eee4177b6510988a2bbc
+https://PvaBBY.mcsslk.xyz/0d26237f9d5128d4f0178deab059b1ab
