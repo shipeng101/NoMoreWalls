@@ -38,5 +38,5 @@ vless://cc61ea7c-92f2-4c2d-b272-32cfe8fdf99f@95.174.92.156:443?allowInsecure=0&s
 vless://71031aa1-067e-425e-97f5-37875f838a10@51.250.42.73:8443?allowInsecure=0&sni=api-maps.yandex.ru&fp=chrome&security=tls#12%7CRU_speednode_0023
 vless://0d93b787-b66b-4696-a036-a0f549764f69@kz.fasti.win:443?allowInsecure=0&sni=kz.fasti.win&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CUA_speednode_0024
 vless://24c59c32-286a-4d62-8744-9cb8c45e7168@66.235.104.110:53553?allowInsecure=0&sni=www.sony.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CUS_speednode_0025
-https://jc4JS3.absslk.xyz/abb13f7cfc0137856adaa691d7227bc3
-https://1FGY4M.mcsslk.xyz/ca672b577d6646bb3d34b8bddb238c81
+https://gt8ubN.mcsslk.xyz/c25f92341d29b9d6b86ec0a4bd5109f6
+https://u5zrA1.absslk.xyz/36b33b365aa46605ee34647a7ea0216f
