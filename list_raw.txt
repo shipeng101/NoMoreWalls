@@ -198,5 +198,5 @@ vless://0582626b-615b-49bc-aaea-5a88d3c6d03d@172.67.67.105:443?allowInsecure=0&s
 vless://6b1348aa-43de-4c14-af6a-bcbe02b0c7d5@www.speedtest.net:80?allowInsecure=0&sni=Www.speedtest.net.sIgmasigmaboy.site.&type=ws&host=Www.speedtest.net.sIgmasigmaboy.site.&path=/-ViV2ry@V2RIRAN-TEL--@V2RIRAN-TEL--@V2RIRAN-TEL--@V2RIRAN-JOIN-@V2RIRAN-TEL--@V2RIRAN-JOIN-@V2RIRAN-TEL-@V2RIRAN-TEL--@V2RIRAN-JOIN-@V2RIRAN-TEL--@V2RIRAN#12%7CUS_speednode_0197
 vless://0524840c-b9c9-4994-82db-129ac8caeac5@iran.zone-server-irani.ir:2053?allowInsecure=1&sni=wizwiz.vidboxco.ir&type=ws&host=wizwiz.vidboxco.ir&path=/?ed=2048fp=chrome&security=tls#12%7CUS_speednode_0198
 vless://0524840c-b9c9-4994-82db-129ac8caeac5@cf.zone-server-irani.ir:2053?allowInsecure=0&sni=sepah.systemgamingirani.ir&type=ws&host=sepah.systemgamingirani.ir&path=/?ed=2048fp=chrome&security=tls#12%7CUS_speednode_0199
-https://TMW2g4.mcsslk.xyz/2dbe217ce669dc9ef2653d60732b8756
-https://vu37uF.absslk.xyz/a0d9f2b32e2aaa548146bde4b55ec2b9
+https://cMscE6.mcsslk.xyz/f481b4b3a6fb9e283be30d90a88d6251
+https://RKFmlw.absslk.xyz/235961e69a2ea98a197ea4109bc12bbe
