@@ -15,11 +15,18 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 10,11|美国3|@ripaojiedian
-  network: tcp
+- name: 10|🇺🇸 美国3|@ripaojiedian
   password: BxceQaOe
   port: 3159
   server: 43.198.102.247
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 11|美国3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 1221
+  server: 54.250.244.16
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
