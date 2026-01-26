@@ -56,5 +56,5 @@ vless://32c257a1-f18c-42c7-860d-9cb0ead8b07c@188.114.98.0:443?allowInsecure=0&sn
 vless://32c257a1-f18c-42c7-860d-9cb0ead8b07c@188.114.98.0:443?allowInsecure=0&sni=dragonhost9.qzz.io&type=ws&host=dragonhost9.qzz.io&path=/47.250.139.59=443fp=chrome&security=tls#12%7CUS_speednode_0045
 vless://5dd5d72b-1965-44f3-b342-5e96bcb921cb@185.28.119.14:443?allowInsecure=0&sni=sberbank.ru&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CUS_speednode_0046
 vless://96dd3618-ae4e-4a9d-89f9-5316296d7814@192.0.54.34:443?allowInsecure=0&sni=cErT.sHakHle.iR&alpn=h2%2Chttp%2F1.1&type=ws&host=cErT.sHakHle.iR&path=/?ed=1024fp=chrome&security=tls#12%7CUS_speednode_0047
-https://tBSNNP.mcsslk.xyz/e7cc639b73daa5db8ef74ca94a6dfa80
-https://QnsJDy.absslk.xyz/3e17411c5b6067b7110ddf4bae280ad9
+https://O383yn.mcsslk.xyz/fb0cfe7b0a26365cbf91ff935eb6b836
+https://t2JsWP.absslk.xyz/f8fe05cae0d9112c159ca3cc2ce10266
