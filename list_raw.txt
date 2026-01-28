@@ -63,5 +63,5 @@ vless://3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97@104.21.227.134:443?allowInsecure=0&
 trojan://42bbf526-5530-470a-aeec-3b919b21c58d@173.249.201.109:54443?allowInsecure=1&sni=0000.hkvip.ip-ddns.com&type=ws&host=0000.hkvip.ip-ddns.com&path=/?ed=2560#12%7CUS_speednode_0057
 vless://15235ce9-4cd2-4483-b6b6-7fc4a3f44735@198.41.223.212:443?allowInsecure=0&sni=snip.ere.de5.net&type=ws&host=snip.ere.de5.net&path=/?ed=2560fp=random&security=tls#12%7CUS_speednode_0058
 vless://3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97@104.21.224.5:443?allowInsecure=0&sni=l.ayovo.netlib.re&type=ws&host=l.ayovo.netlib.re&path=/x-aniu/?ed=2560security=tls#12%7CUS_speednode_0059
-https://nMFRP0.absslk.xyz/630494479a6cc2c95f0474606a7d6682
-https://BsOrNY.mcsslk.xyz/5ce033dd59a0528bb2d4bd33ce01dbff
+https://cGQLeq.mcsslk.xyz/3a98dff14681fedd41f6e101f8694445
+https://jrW7Oz.absslk.xyz/a092bd888c980fbbb872cbe1cd6a19b2
