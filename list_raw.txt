@@ -54,5 +54,5 @@ vless://51d68902-063d-43c4-a29a-63b5561b4c96@gera.flucatlove.com:443?allowInsecu
 vless://3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97@198.62.62.241:443?allowInsecure=0&sni=l.ayovo.netlib.re&type=ws&host=l.ayovo.netlib.re&path=/?ed=2560security=tls#12%7CUS_speednode_0040
 vless://3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97@104.21.224.5:443?allowInsecure=0&sni=l.ayovo.netlib.re&type=ws&host=l.ayovo.netlib.re&path=/x-aniu/?ed=2560security=tls#12%7CUS_speednode_0041
 vless://3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97@104.21.227.134:443?allowInsecure=0&sni=l.ayovo.netlib.re&type=ws&host=l.ayovo.netlib.re&path=/?ed=2560security=tls#12%7CUS_speednode_0042
-https://OzMKqN.mcsslk.xyz/289f5872ddc457ec2e49edbdec922b8f
-https://PIeap0.absslk.xyz/de25d83a2a0736aa6127a2ef5e287bb2
+https://1wsphI.mcsslk.xyz/b7dfe77c7dba1644768d9814b8711faf
+https://f6GiHH.absslk.xyz/e839db566caf442aa8c692f8c25776ad
