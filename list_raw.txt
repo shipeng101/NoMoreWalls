@@ -40,5 +40,5 @@ vless://fbf28ef0-3981-4ac6-ab33-95e599afdd99@sg2.miyazono-kaori.com:443?allowIns
 vless://fbf28ef0-3981-4ac6-ab33-95e599afdd99@us3.miyazono-kaori.com:443?allowInsecure=0&sni=download-porter.hoyoverse.com&flow=xtls-rprx-vision-udp443&fp=edge&security=tls#12%7CUS_speednode_0022
 vless://fbf28ef0-3981-4ac6-ab33-95e599afdd99@hk6.miyazono-kaori.com:443?allowInsecure=0&sni=www.maxims.com.hk&flow=xtls-rprx-vision-udp443&fp=edge&security=tls#12%7CUS_speednode_0023
 vless://e12e60f8-f955-4b46-905d-fd99692e19d7@136.175.178.165:443?allowInsecure=0&sni=navi.bankrate.com&fp=chrome&security=tls#12%7CUS_speednode_0029
-https://vp065l.mcsslk.xyz/8060a1c2e5b6746a39b6618038372f2a
-https://urD0fI.absslk.xyz/26aaefba9d80ad15d2758813bc35e3ff
+https://BmY4iQ.mcsslk.xyz/e582bedef3ed11bb59322e379038e547
+https://FF1zZi.absslk.xyz/0d1e1415cd5b7c6a09fe1bd48f708d6f
