@@ -40,5 +40,5 @@ vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@developers.cloudflare.com:2095?allo
 vless://2275e858-8aff-44fe-b816-d85c2ab372e5@afrcloud4.c01.kr:443?allowInsecure=0&sni=afrcloud4.c01.kr&type=ws&host=afrcloud4.c01.kr&path=/47.254.255.125=443fp=chrome&security=tls#12%7CUS_speednode_0040
 vless://a2a396c3-f40e-4dee-bdbb-b1201f12dc1c@104.26.12.27:2053?allowInsecure=0&sni=snippet.danfeng21.ndjp.net&type=ws&host=snippet.danfeng21.ndjp.net&path=/danfengfp=chrome&security=tls#12%7CUS_speednode_0041
 vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@www.epicgames.com:2095?allowInsecure=0&sni=cnm-fangbinxing-nmsl.cnm-fangbinxing-nmsl-wcnm.workers.dev&type=ws&host=cnm-fangbinxing-nmsl.cnm-fangbinxing-nmsl-wcnm.workers.dev&path=/fp=randomized#12%7CUS_speednode_0042
-https://qEgYg7.absslk.xyz/5bb5a132fa9ef8f78ff4361f15583240
-https://eoNyYi.mcsslk.xyz/e9ffe28cfda54a6e8047d3b32ca95127
+https://jtJKO7.absslk.xyz/1cf671d5a7cf91081a99dbc247563416
+https://qGvczM.mcsslk.xyz/1356be6fefcd3aad30c73145e743a098
