@@ -53,5 +53,5 @@ vless://a2a396c3-f40e-4dee-bdbb-b1201f12dc1c@104.17.73.206:2053?allowInsecure=0&
 vless://a2a396c3-f40e-4dee-bdbb-b1201f12dc1c@one.dash.cloudflare.com:2053?allowInsecure=0&sni=snippet.danfeng21.ndjp.net&type=ws&host=snippet.danfeng21.ndjp.net&path=/danfengfp=chrome&security=tls#12%7CUS_speednode_0051
 vless://a2a396c3-f40e-4dee-bdbb-b1201f12dc1c@china.embassy.gov.au:2053?allowInsecure=0&sni=snippet.danfeng.gleeze.com&type=ws&host=snippet.danfeng.gleeze.com&path=/danfengfp=chrome&security=tls#12%7CUS_speednode_0052
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@147.75.237.72:443?allowInsecure=0&sni=sni.111000.indevs.in&type=ws&host=sni.111000.indevs.in&path=/?ed=2560security=tls#12%7CUS_speednode_0053
-https://hSlQIf.mcsslk.xyz/9f80fc916a56e1ef8ac20c8fd292ebb2
-https://0RAoBb.absslk.xyz/240c3264e7ffdfd349953e992913d0f9
+https://KRn5ZW.absslk.xyz/c1dab0f8f83886e3533e864ad5d858ae
+https://kJ8Y96.mcsslk.xyz/cb92607dbe5a9c9d9715a1249a0f75c7
