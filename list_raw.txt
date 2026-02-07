@@ -93,5 +93,5 @@ trojan://Aimer@167.68.4.199:2053?allowInsecure=0&sni=epge.muarua.filegear-sg.me&
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@185.218.137.83:443?allowInsecure=0&sni=sni.111000.indevs.in&type=ws&host=sni.111000.indevs.in&path=/?ed=2560security=tls#12%7CUS_speednode_0080
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@199.119.137.95:2053?allowInsecure=0&sni=sni.111000.indevs.in&type=ws&host=sni.111000.indevs.in&path=/?ed=2560security=tls#12%7CUS_speednode_0081
 vless://cca053d5-7123-4a87-83d6-babe4e9c8115@103.245.237.124:58202?allowInsecure=0&type=ws#12%7CVN_speednode_0083
-https://CA7X91.mcsslk.xyz/29d85010f3668cce474c273ce2bf3110
-https://pc9eMs.absslk.xyz/a80538a8c3109cb4cfc7035d6379e26e
+https://MX7a1h.mcsslk.xyz/c7291f6a41f53889ab663e871c1ffa23
+https://jkmCZX.absslk.xyz/05fe8784d26a77938cf43d71c14ed2de
