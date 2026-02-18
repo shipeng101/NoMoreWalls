@@ -18,8 +18,8 @@ proxies:
 - name: 10,11|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2673
-  server: 43.199.161.245
+  port: 381
+  server: 57.180.245.83
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
