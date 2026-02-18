@@ -28,5 +28,5 @@ vless://8ff544c5-303c-46f4-80fe-8e8e166fd981@45.139.26.213:443?allowInsecure=0&s
 vless://c6977f74-e620-4748-a2d3-4351a588c659@203.10.96.138:443?allowInsecure=0&sni=cdn-dynmedia-1.microsoft.com&flow=xtls-rprx-vision-udp443&fp=ios&security=tls#12%7CUS_speednode_0013
 vless://12cb9911-a48d-4147-85cc-68dd678e94c6@64.188.64.59:443?allowInsecure=0&sni=yandex.ru&fp=chrome&security=tls#12%7CUS_speednode_0014
 vless://b183589d-5e32-4141-a39a-6cb747964c67@pl2.jugsenkeys4pays.su:443?allowInsecure=0&sni=pl2.jugsenkeys4pays.su&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CUS_speednode_0015
-https://jjEMAM.absslk.xyz/096bfaaeb8625cc9352f7cde7f4a1d14
-https://DgIyzz.mcsslk.xyz/5b235cc5c14e88b3e3fc0b4e9668bfde
+https://PM9XpH.absslk.xyz/8adcae8d29830ca201a27e3fdacb8e48
+https://mV8KgA.mcsslk.xyz/0465e14e2fd506cd243ab58cfb7e97de
