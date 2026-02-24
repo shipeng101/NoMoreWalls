@@ -39,4 +39,4 @@ vless://6202b230-417c-4d8e-b624-0f71afa9c75d@209.102.207.120:443?allowInsecure=0
 vless://010c8bf7-0a43-404f-a6c5-2427acb4d476@130.49.177.161:8443?allowInsecure=0&sni=sun6-21.userapi.com&fp=chrome&security=tls#12%7CUS_speednode_0023
 vless://b1267991-59ff-4b67-b141-97e3ced4e7c8@66.179.82.126:443?allowInsecure=0&sni=yahoo.com&fp=chrome&security=tls#12%7CUS_speednode_0024
 https://MKFRKr.absslk.xyz/08780f09879bee7ef9416337682a4d5f
-https://Y6FX2U.mcsslk.xyz/08e7372b1ddd20e9188498b5239e48de
+https://RLBW7K.mcsslk.xyz/17f5d987b6e2844298ed375c6fc0bf2f
