@@ -36,5 +36,5 @@ vless://5fad3ad2-1a94-40d0-85bb-51eb83f5c7df@109.172.55.232:13760?allowInsecure=
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@209.102.207.120:443?allowInsecure=0&sni=sni.111000.v6.navy&type=ws&host=sni.111000.v6.navy&path=/?ed=2560security=tls#12%7CUS_speednode_0021
 vless://010c8bf7-0a43-404f-a6c5-2427acb4d476@130.49.177.161:8443?allowInsecure=0&sni=sun6-21.userapi.com&fp=chrome&security=tls#12%7CUS_speednode_0023
 vless://b1267991-59ff-4b67-b141-97e3ced4e7c8@66.179.82.126:443?allowInsecure=0&sni=yahoo.com&fp=chrome&security=tls#12%7CUS_speednode_0024
-https://aLouam.absslk.xyz/3ed69b035b9a0c719d191859cdf10d07
-https://zPQgaG.mcsslk.xyz/b0ad6ab3c139beb5dec6fa51fd7000be
+https://xH8EOU.absslk.xyz/e0b7ed03343bd73c77ac11371291dc5c
+https://A9C8PT.mcsslk.xyz/dedc0adf4818af2ea0c40e4444773c8b
