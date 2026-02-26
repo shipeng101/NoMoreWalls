@@ -46,5 +46,5 @@ vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@www.shopify.com:2095?allowInsecure=
 vless://e384913f-8863-47b4-8858-a84b68abb4a6@3.cdnconn.com:23335?allowInsecure=0&sni=icloud.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CUS_speednode_0036
 vless://b1267991-59ff-4b67-b141-97e3ced4e7c8@66.179.82.126:443?allowInsecure=0&sni=yahoo.com&fp=chrome&security=tls#12%7CUS_speednode_0037
 vless://5a4abb78-ecd7-4d68-ab2a-c11a3842f261@198.62.62.248:443?allowInsecure=0&sni=tar.alabama-tigr.info&type=ws&host=tar.alabama-tigr.info&path=/lovefp=chrome&security=tls#12%7CUS_speednode_0038
-https://aZzntv.mcsslk.xyz/c460678ad539556a9733afb28e87a0b7
-https://DeafsB.absslk.xyz/23b245c1a4eac8f320b6cdff0d827cde
+https://IK5Hb9.mcsslk.xyz/803bbb4601fd698e6f67b59441a64e27
+https://grYKfU.absslk.xyz/6847833b4b3e42b3d53691a8f438d83f
