@@ -36,5 +36,5 @@ vless://b1267991-59ff-4b67-b141-97e3ced4e7c8@66.179.82.126:443?allowInsecure=0&s
 vless://5a4abb78-ecd7-4d68-ab2a-c11a3842f261@198.62.62.248:443?allowInsecure=0&sni=tar.alabama-tigr.info&type=ws&host=tar.alabama-tigr.info&path=/lovefp=chrome&security=tls#12%7CUS_speednode_0026
 vless://e43dd231-7c75-4606-80ec-50fbb8335ce7@132.226.85.167:443?allowInsecure=0&sni=www.microsoft.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CUS_speednode_0028
 vless://e384913f-8863-47b4-8858-a84b68abb4a6@144.31.130.59:23335?allowInsecure=0&sni=icloud.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CUS_speednode_0029
-https://6NhnEn.mcsslk.xyz/1945f1a2957bbab569cb07cb26cd5405
-https://C1EwAl.absslk.xyz/f7311c8e0ade4e8e44b778517d2bc414
+https://dvBLwv.absslk.xyz/0c0decc1256f53e554602086132a72ff
+https://SH6Pgz.mcsslk.xyz/d1f13b31563bb25305b331b5d526ba09
