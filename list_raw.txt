@@ -24,5 +24,5 @@ vless://79cd8514-aea9-41b9-b950-db5aa8937497@84.201.171.134:18122?allowInsecure=
 vless://1c4aceb6-bff7-4737-8c5d-43afb3dc350b@77.92.145.192:443?allowInsecure=0&sni=hls-svod.itunes.apple.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CTR_speednode_0013
 vless://e43dd231-7c75-4606-80ec-50fbb8335ce7@132.226.85.167:443?allowInsecure=0&sni=www.microsoft.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CUS_speednode_0014
 vless://be70763e-ab0a-4f8d-87aa-b8ae86495cca@165.154.235.194:30001?allowInsecure=0&sni=www.cloudflare.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CUS_speednode_0015
-https://Dj6CCo.absslk.xyz/f4a8307e1400586750b49851de5c4f3b
-https://Bo7w5M.mcsslk.xyz/91ff85f670e499024db61935dc91ef00
+https://oi9QoM.absslk.xyz/f5578f62b08cc9377d3851abcc96403a
+https://DCVdY2.mcsslk.xyz/4bea4c3ed802d3c4241682e915ad6cc9
