@@ -78,5 +78,5 @@ vless://f6c7016b-6f94-4a32-975c-013f2494d312@us2.miyazono-kaori.com:443?allowIns
 vless://2baffe9c-099d-481b-8d9c-7eb351c9bf35@us.netvora.space:443?allowInsecure=0&sni=us.netvora.space&flow=xtls-rprx-vision-udp443&fp=qq&security=tls#12%7CUS_speednode_0069
 vless://26524cce-d514-4014-a426-365fb266a14d@152.70.113.150:52125?allowInsecure=0&sni=k7ryegiaeu.chinam.eu.org&type=ws&host=k7ryegiaeu.chinam.eu.org&path=/danfengfp=random&security=tls#12%7CUS_speednode_0070
 vless://cbdf8ca4-62a9-3822-60b7-d83b5534ed7b@74.211.102.111:443?allowInsecure=0&sni=8pa3.y23.edukg.dpdns.org&type=ws&host=8pa3.y23.edukg.dpdns.org&path=/security=tls#12%7CUS_speednode_0071
-https://ZrYMms.mcsslk.xyz/798ce8fcdc17fd9195b0ad1d30bb370b
-https://4UjlGv.absslk.xyz/8e298048594431c67cf152dc03098f73
+https://j7uMYs.absslk.xyz/ad188f4f041da99bab4454d08399786c
+https://1ikXJA.mcsslk.xyz/da1c62be85dcb3f2110e60b32c8d6752
