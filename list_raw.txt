@@ -17,5 +17,5 @@ vless://3fa2f5cd-0cbc-4e4f-bce1-a59ae090eef4@192.76.160.216:2280?allowInsecure=0
 vless://0a0d8e6f-8747-4ff6-afe0-e70aa97e7de8@sahand.cocomelon.org:443?allowInsecure=0&sni=finance.yahoo.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CES_speednode_0003
 vless://a001c9c4-ece2-4dc1-9658-cbad90fcd2e0@finland.tortvpnbot.world:8080?allowInsecure=0&sni=main.tortvpnbot.world&fp=chrome&security=tls#12%7CLB_speednode_0004
 vless://d65cc14c-f53f-4fe2-b262-97856601319c@143.20.236.51:443?allowInsecure=0&sni=yahoo.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CUS_speednode_0005
-https://TjMBwB.mcsslk.xyz/59eca6c5568aed1b5004a4564f3983d9
-https://K5LHk0.absslk.xyz/fab4f3e40c5075eaa797df9feb08991b
+https://JL3FuR.mcsslk.xyz/a8cf249e81c0ab7cce9e45215c90caa7
+https://G9q08P.absslk.xyz/5d004a0fca01e52a1b346688950fc728
