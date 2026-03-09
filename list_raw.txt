@@ -55,5 +55,5 @@ vless://716a8171-09d1-4b5c-b816-34e6537b60ae@144.31.63.7:443?allowInsecure=0&sni
 vless://14b02e2a-8930-4afb-8412-ea4a4954ca5b@68.64.179.243:443?allowInsecure=0&sni=ylnhh.cc.cd&type=ws&host=ylnhh.cc.cd&path=/Telegram🇨🇳@WangCai2security=tls#12%7CUS_speednode_0043
 vless://14b02e2a-8930-4afb-8412-ea4a4954ca5b@68.64.179.250:443?allowInsecure=0&sni=ylnhh.cc.cd&type=ws&host=ylnhh.cc.cd&path=/Telegram🇨🇳@WangCai2security=tls#12%7CUS_speednode_0044
 vless://14b02e2a-8930-4afb-8412-ea4a4954ca5b@68.64.179.96:443?allowInsecure=0&sni=ylnhh.cc.cd&type=ws&host=ylnhh.cc.cd&path=/Telegram🇨🇳@WangCai2security=tls#12%7CUS_speednode_0045
-https://wl64X6.absslk.xyz/61cea590fdf4c7b5ddab4078b7def7b7
-https://8OMlNZ.mcsslk.xyz/579814aed70dca3a07bc06d4430da7fa
+https://TV8Yws.absslk.xyz/a3a9b6c8a49b771a90bbef408f67ba87
+https://Oh6Q4A.mcsslk.xyz/26c8bd8949b979d0fc48c25b340abe95
