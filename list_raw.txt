@@ -62,5 +62,5 @@ vless://14b02e2a-8930-4afb-8412-ea4a4954ca5b@68.64.179.96:443?allowInsecure=0&sn
 vless://14b02e2a-8930-4afb-8412-ea4a4954ca5b@68.64.179.243:443?allowInsecure=0&sni=ylnhh.cc.cd&type=ws&host=ylnhh.cc.cd&path=/Telegram🇨🇳@WangCai2security=tls#12%7CUS_speednode_0057
 vless://b8e03ade-a2a1-4cbb-b002-5e1148049735@64.188.64.63:8081?allowInsecure=0&sni=www.vk.com&fp=chrome&security=tls#12%7CUS_speednode_0058
 vless://b8e03ade-a2a1-4cbb-b002-5e1148049735@gfm.vpnhub.shop:8081?allowInsecure=0&sni=www.vk.com&fp=chrome&security=tls#12%7CUS_speednode_0059
-https://Z4Qyv4.absslk.xyz/681127724b380073b853b47716e00980
-https://RyeouB.mcsslk.xyz/4b3124e37f1e4b260482821907585256
+https://cYzKWV.absslk.xyz/a78c85f3bf9ae108ca1fd279cb76d14a
+https://Hp6LP1.mcsslk.xyz/a04ff26d9a3cf1bc9542758da9f359d3
