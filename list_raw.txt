@@ -36,5 +36,5 @@ vless://a16bd0e2-ff2e-4e4c-a955-0c684255a065@144.31.2.248:443?allowInsecure=0&sn
 vless://420a0e21-08c6-4e94-a965-41226b38b674@proxy.darknet.run:443?allowInsecure=0&sni=proxy.darknet.run&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CUS_speednode_0028
 vless://b52989b9-09dc-4ca0-b722-e6fe3e8a0313@144.31.234.7:4546?allowInsecure=0&sni=enterprise.api-maps.yandex.ru&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CUS_speednode_0030
 vless://948fac3c-42bf-41a6-a5f9-704d36ff0d8d@192.0.63.91:443?allowInsecure=0&sni=snippet.fgfw.indevs.in&type=ws&host=snippet.fgfw.indevs.in&path=/danfengsecurity=tls#12%7CUS_speednode_0031
-https://2jolLw.mcsslk.xyz/8810be24710133a5f87f7af0f2c691ff
-https://weS411.absslk.xyz/add7dba7b8394846f8b0c42cf369cf2d
+https://HmuhM4.mcsslk.xyz/66b226061f2ca75cc2ac128d341ccca7
+https://OfYnDY.absslk.xyz/248f8ebd247b5ca31d9ea8269890b428
