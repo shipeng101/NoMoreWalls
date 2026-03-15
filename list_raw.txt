@@ -61,5 +61,5 @@ vless://948fac3c-42bf-41a6-a5f9-704d36ff0d8d@192.0.63.216:443?allowInsecure=0&sn
 vless://948fac3c-42bf-41a6-a5f9-704d36ff0d8d@192.0.63.76:443?allowInsecure=0&sni=snippet.danfeng.theworkpc.com&type=ws&host=snippet.danfeng.theworkpc.com&path=/danfeng?ed=2560security=tls#12%7CUS_speednode_0061
 vless://948fac3c-42bf-41a6-a5f9-704d36ff0d8d@192.0.54.250:443?allowInsecure=0&sni=snippet.danfeng.theworkpc.com&type=ws&host=snippet.danfeng.theworkpc.com&path=/danfeng?ed=2560security=tls#12%7CUS_speednode_0062
 vless://d46ad20a-4454-4da7-8f9c-87f9152bedee@63.141.128.188:443?allowInsecure=0&sni=d2-us4.djwstlsweb.top&type=ws&host=d2-us4.djwstlsweb.top&path=/djjc/us4fp=ios&security=tls#12%7CUS_speednode_0063
-https://p1Uwjr.mcsslk.xyz/02ede55d06f4536f70a6a24fb6308ff0
-https://bBCZAD.absslk.xyz/54227f7f8abb2ea4712546b229f51bfa
+https://1OIa82.absslk.xyz/f1074997a0a5f4daed8b0b45d0ca26b1
+https://jeXClE.mcsslk.xyz/7eb7a5228e4ed0fea2c436071684c20f
