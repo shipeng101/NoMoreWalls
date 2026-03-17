@@ -36,5 +36,5 @@ vless://948fac3c-42bf-41a6-a5f9-704d36ff0d8d@192.0.54.188:443?allowInsecure=0&sn
 vless://948fac3c-42bf-41a6-a5f9-704d36ff0d8d@192.0.63.56:443?allowInsecure=0&sni=snippet.danfeng.kozow.com&type=ws&host=snippet.danfeng.kozow.com&path=/danfeng?ed=2560security=tls#12%7CUS_speednode_0027
 vless://948fac3c-42bf-41a6-a5f9-704d36ff0d8d@192.0.54.225:443?allowInsecure=0&sni=snippet.danfeng.kozow.com&type=ws&host=snippet.danfeng.kozow.com&path=/danfeng?ed=2560security=tls#12%7CUS_speednode_0028
 vless://948fac3c-42bf-41a6-a5f9-704d36ff0d8d@192.0.63.134:443?allowInsecure=0&sni=snippet.danfeng.kozow.com&type=ws&host=snippet.danfeng.kozow.com&path=/danfeng?ed=2560security=tls#12%7CUS_speednode_0029
-https://6vDuLO.mcsslk.xyz/5b2b08f1b67d6ed82cf58088a72e2bd6
-https://kVZUkC.absslk.xyz/5cf01f294f8da0730b1c7df0424bb6a8
+https://mujcCb.mcsslk.xyz/38a4e9dd0ddb9e7ee2f2f4d2ad2d8707
+https://gOsM6Z.absslk.xyz/c2dce4a94cd95f75a0b55901131eff31
