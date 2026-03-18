@@ -18,5 +18,5 @@ vmess://eyJ2IjogIjIiLCAicHMiOiAiMTF86aaZ5rivMnxAcmlwYW9qaWVkaWFuIiwgImFkZCI6ICJj
 trojan://IL37892054@upright-rhino.rooster465.autos:443?allowInsecure=0&sni=upright-rhino.rooster465.autos#12%7CGB_speednode_0004
 trojan://IL37892054@apt-magpie.rooster465.autos:443?allowInsecure=0&sni=apt-magpie.rooster465.autos#12%7CLU_speednode_0006
 vless://9e4f36da-8f61-44f8-a9a7-0fd3a8d81234@172.64.52.210:443?allowInsecure=0&sni=r.icy.de5.net&type=ws&host=r.icy.de5.net&path=/?ed=2560security=tls#12%7CUS_speednode_0011
-https://qsxOMF.mcsslk.xyz/a9e6eefeb1748ab6084d385fd93557c7
-https://9KQNPH.absslk.xyz/f8ac1ae2ff620dcf674b5a04af7d8ba3
+https://Io1CDK.mcsslk.xyz/3e003ac630a95c079cbd840468eb176f
+https://sNbHfq.absslk.xyz/b87bea4b06ae85d3d2f1182401f9c434
