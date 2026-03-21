@@ -64,5 +64,5 @@ vless://729764b1-149c-49f2-b170-322544df7b5b@pl202.mechvpn.online:443?allowInsec
 vless://26524cce-d514-4014-a426-365fb266a14d@104.19.73.126:2053?allowInsecure=0&sni=d2wiyfbwnyf.danfeng.gv.uy&type=ws&host=d2wiyfbwnyf.danfeng.gv.uy&path=/danfeng?ed=2560fp=chrome&security=tls#12%7CUS_speednode_0061
 vless://26524cce-d514-4014-a426-365fb266a14d@convera.com:2053?allowInsecure=0&sni=mzees9mh.danfeng.gv.uy&type=ws&host=mzees9mh.danfeng.gv.uy&path=/danfengfp=chrome&security=tls#12%7CUS_speednode_0062
 vless://69bb253b-a6fe-ed44-1ebd-cd148ac58a53@mfa.gov.ua:443?allowInsecure=0&sni=b86bf7fa.mfree.ccwu.cc&alpn=h3&type=ws&host=b86bf7fa.mfree.ccwu.cc&path=/socks5=4b2c7676:6f0f4cbba5bb@38.111.30.111:26433fp=random&security=tls#12%7CUS_speednode_0063
-https://QISFSm.mcsslk.xyz/28536c1789417325e0c3773f3c3c122e
-https://AZY3bJ.absslk.xyz/a1b4a980913b734ce317e13d4665455a
+https://fAoTub.absslk.xyz/8e978dcba7ac77e56eaf78f40370a62e
+https://LwTuyB.mcsslk.xyz/c150fff66ed5a1f73d488d083e7f1ae7
