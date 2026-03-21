@@ -85,5 +85,5 @@ vless://d0b3e27d-bbfc-4a3b-8e60-6973de8fcefa@157.254.223.44:18959?allowInsecure=
 trojan://3ac6a6ca99f74941b1eaf892818e2ddb@194.33.45.157:443?allowInsecure=1#12%7CUS_speednode_0068
 vless://948fac3c-42bf-41a6-a5f9-704d36ff0d8d@143.14.22.98:8443?allowInsecure=0&sni=snippet.chinat.eu.cc&alpn=http/1.1&type=ws&host=snippet.chinat.eu.cc&path=/danfengfp=random&security=tls#12%7CUS_speednode_0069
 vless://92b82d0f-d2f8-4f6f-b177-08f681a337e6@192.200.160.20:443?allowInsecure=0&sni=639073677243791121.camry-perma.info&type=ws&host=639073677243791121.camry-perma.info&path=/njvqoews?ed=2560security=tls#12%7CUS_speednode_0070
-https://e3B87e.mcsslk.xyz/6ae678b31ba0155494c24ef40c1bea82
-https://KEcMsC.absslk.xyz/cfd60abb056c36f6498caa73391bfe1a
+https://VcnWVz.absslk.xyz/3cbed8dbf747627a30b760dbd7c80a98
+https://CPhR7n.mcsslk.xyz/be207ed7ae094d437a383f708160291f
