@@ -32,5 +32,5 @@ vless://96a1cd77-d7f8-42b6-86c1-29a2e2e85ea0@194.36.39.84:8443?allowInsecure=0&s
 trojan://trojan@38.83.41.89:28080?allowInsecure=1&sni=jflsjlaf.pages.dev&type=ws&host=jflsjlaf.pages.dev&path=/#12%7CUS_speednode_0026
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@135.84.74.155:443?allowInsecure=0&sni=sni.111000.v6.navy&type=ws&host=sni.111000.v6.navy&path=/security=tls#12%7CUS_speednode_0027
 vless://96a1cd77-d7f8-42b6-86c1-29a2e2e85ea0@braskivo.ru:8443?allowInsecure=0&sni=rbc.ru&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CUS_speednode_0028
-https://HPhwJB.mcsslk.xyz/5f21a71613b109478fa66a50937f3216
-https://vEb7Lp.absslk.xyz/60e84e10e64b2418721be501d95d3c1b
+https://EKPoi9.mcsslk.xyz/16277ecf95272c8390bddcd80ace32ba
+https://6dkBBk.absslk.xyz/f31b17b95035769d06a7968524dbb22b
