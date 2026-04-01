@@ -63,5 +63,5 @@ vless://ee740b72-87f6-45e4-a680-85d8d1cc3df1@194.36.39.144:8443?allowInsecure=0&
 vless://ee740b72-87f6-45e4-a680-85d8d1cc3df1@194.36.39.78:8443?allowInsecure=0&sni=rbc.ru&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CUS_speednode_0059
 vless://948fac3c-42bf-41a6-a5f9-704d36ff0d8d@192.0.63.161:443?allowInsecure=0&sni=snippet.chinav.eu.cc&alpn=http/1.1&type=ws&host=snippet.chinav.eu.cc&path=/danfengfp=random&security=tls#12%7CUS_speednode_0060
 vless://948fac3c-42bf-41a6-a5f9-704d36ff0d8d@192.0.63.18:443?allowInsecure=0&sni=snippet.danfeng.loc.cc&type=ws&host=snippet.danfeng.loc.cc&path=/danfengsecurity=tls#12%7CUS_speednode_0061
-https://J3YUR3.absslk.xyz/e70bf0b09ad9a0c9045c6df775a8c2bc
-https://JGaRV4.mcsslk.xyz/c41348516169fa919292df3b3d0611e6
+https://OcUgmO.mcsslk.xyz/e592cffe08ca5baa89739dc6d5174cf4
+https://bXhbgb.absslk.xyz/84d59d5289a5933ac9fcff46fed4c300
