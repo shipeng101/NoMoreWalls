@@ -45,5 +45,5 @@ vless://9768f14f-a790-4c78-b1d9-60cc0e9d99a0@217.114.11.246:443?allowInsecure=0&
 vless://d6cbf3e4-b7ca-a4b2-0b04-eacbdc28bc5a@188.132.184.148:8443?allowInsecure=0&sni=greenpepper.ir&flow=xtls-rprx-vision-udp443&fp=firefox&security=tls#12%7CTR_speednode_0064
 vless://e9254fe9-dd7e-4f90-ab06-4c96c5cd7362@192.200.160.20:443?allowInsecure=0&sni=639073677243704890.camry-perma.info&type=ws&host=639073677243704890.camry-perma.info&path=/qszxrsws?ed=2560security=tls#12%7CUS_speednode_0066
 vless://b605b776-b676-430e-8957-00f1e0166bee@vleesvpn-app-nl01.gw-vpn.click:443?allowInsecure=0&sni=plus.im&flow=xtls-rprx-vision-udp443&fp=random&security=tls#12%7CUS_speednode_0072
-https://4DsQsH.mcsslk.xyz/1f0b304b9503a6ea8e7e27b9ea47125f
-https://k7lh4d.absslk.xyz/f9f91de497989f9561078f1e7f866f5c
+https://LHIim5.absslk.xyz/e86696e15897e075c1cd91dc00018706
+https://HRCmtZ.mcsslk.xyz/b4c08677088dc29f791c16c7b5d5b514
