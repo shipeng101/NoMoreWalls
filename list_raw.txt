@@ -28,4 +28,4 @@ vless://948fac3c-42bf-41a6-a5f9-704d36ff0d8d@192.0.63.230:443?allowInsecure=0&sn
 vless://948fac3c-42bf-41a6-a5f9-704d36ff0d8d@192.0.63.56:443?allowInsecure=0&sni=snippet.danfeng.kozow.com&type=ws&host=snippet.danfeng.kozow.com&path=/danfeng?ed=2560security=tls#12%7CUS_speednode_0014
 vless://948fac3c-42bf-41a6-a5f9-704d36ff0d8d@192.0.63.49:443?allowInsecure=0&sni=snippet.danfeng.theworkpc.com&type=ws&host=snippet.danfeng.theworkpc.com&path=/danfeng?ed=2560security=tls#12%7CUS_speednode_0016
 vless://d8dd94fd-540e-461d-b5d4-acebef02c22a@64.23.143.23:34045?allowInsecure=0&sni=visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me&fp=chrome&security=tls#12%7CUS_speednode_0017
-https://VGjcu7.absslk.xyz/548a4165038b0a7537dbd46d2290470b
+https://RVnWAa.absslk.xyz/a3e79cd0e55e6b27e89d21117bdc6dbb
