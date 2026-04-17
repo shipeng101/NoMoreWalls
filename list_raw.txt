@@ -36,4 +36,4 @@ vless://d5f95f47-9399-49c6-a76b-aa6b289609ba@144.31.127.61:443?allowInsecure=0&s
 vless://73c0a723-c0ab-4ad8-8f25-799b9bd54e36@216.57.105.74:443?allowInsecure=0&sni=yahoo.com&fp=chrome&security=tls#12%7CUS_speednode_0029
 vless://f10367b9-5b67-40fa-a4aa-675eee3e0530@sqt.gtimg.cn.e791.com:443?allowInsecure=0&sni=cdn.download.7602.org&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CUS_speednode_0030
 vless://d46056cf-da4e-4426-a3e4-39fcbfefa112@129.153.71.226:443?allowInsecure=0&sni=iosapps.itunes.apple.com&flow=xtls-rprx-vision-udp443&fp=ios&security=tls#12%7CUS_speednode_0031
-https://2TNpg2.absslk.xyz/b3bb6413269f46745d0f7eb6472cc76e
+https://GdEb7Q.absslk.xyz/2e1d1c779724db5d186a09cdd3799444
