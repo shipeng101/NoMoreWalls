@@ -37,4 +37,4 @@ vless://fb99f4f0-181d-4117-be22-df9856fbbc06@72.56.35.163:4454?allowInsecure=0&s
 vless://fb99f4f0-181d-4117-be22-df9856fbbc06@72.56.35.203:4495?allowInsecure=0&sni=files.moscownews24.ru&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CUS_speednode_0027
 vless://19ef3d02-1c55-4fec-9794-6def8cbac396@st-2.globalcache.onnstreaming.ru:443?allowInsecure=0&sni=st-2.globalcache.onnstreaming.ru&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CUS_speednode_0028
 vless://fb99f4f0-181d-4117-be22-df9856fbbc06@72.56.39.76:4510?allowInsecure=0&sni=files.moscownews24.ru&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CUS_speednode_0029
-https://Mt91Qa.absslk.xyz/40a9b240bbcbc1d0cb0e0b553bf96ffb
+https://fZDHRg.absslk.xyz/6302a832bb7b7348573a5ea1700b14cf
