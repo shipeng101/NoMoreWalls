@@ -172,4 +172,4 @@ vless://6202b230-417c-4d8e-b624-0f71afa9c75d@169.40.1.34:443?allowInsecure=0&sni
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@46.243.6.25:443?allowInsecure=0&sni=sni.111000.v6.rocks&type=ws&host=sni.111000.v6.rocks&path=/?ed=2560security=tls#12%7CVG_speednode_0169
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@46.243.1.164:443?allowInsecure=0&sni=sni.111000.v6.rocks&type=ws&host=sni.111000.v6.rocks&path=/?ed=2560security=tls#12%7CVG_speednode_0170
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@46.243.1.9:443?allowInsecure=0&sni=sni.111000.v6.rocks&type=ws&host=sni.111000.v6.rocks&path=/?ed=2560security=tls#12%7CVG_speednode_0171
-https://KfpT1w.absslk.xyz/4e49d63823f91dec52bb44b3760d3dbe
+https://dnlEjb.absslk.xyz/c5394bb1f1e5f9e564e541d5a9b11744
