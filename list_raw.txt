@@ -129,4 +129,4 @@ vless://19ef3d02-1c55-4fec-9794-6def8cbac396@150.241.103.74:443?allowInsecure=0&
 trojan://1234567890@144.31.188.6:443?allowInsecure=0&sni=kfm-bn0.pages.dev&type=ws&host=kfm-bn0.pages.dev&path=/#12%7CUS_speednode_0125
 trojan://1234567890@64.188.89.147:8443?allowInsecure=0&sni=kfm-bn0.pages.dev&type=ws&host=kfm-bn0.pages.dev&path=/?ed=2560#12%7CUS_speednode_0126
 trojan://1234567890@104.128.139.68:443?allowInsecure=0&sni=kfm-bn0.pages.dev&type=ws&host=kfm-bn0.pages.dev&path=/#12%7CUS_speednode_0127
-https://hP8TuQ.absslk.xyz/1c47b234570a6168b6c4b0901936f95a
+https://cvgFZN.absslk.xyz/778665d83ad37183aa1ffa27d2b9587f
