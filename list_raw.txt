@@ -41,4 +41,4 @@ vless://6d916d55-fead-4ff3-a3a9-83e175ea8ad7@pl194.mechvpn.online:443?allowInsec
 vless://9c5d1bf0-d58b-4001-9e7c-0c1fa314068c@216.23.108.4:55306?allowInsecure=0&sni=download.windowsupdate.com&flow=xtls-rprx-vision-udp443&fp=ios&security=tls#12%7CUS_speednode_0038
 vless://d2f54466-0055-4a25-a3b3-b54a5107f980@ct.877774.xyz:443?allowInsecure=1&sni=do-sfo3.862400.xyz&type=ws&host=do-sfo3.862400.xyz&path=/announcement?ed=2048fp=random&security=tls#12%7CUS_speednode_0040
 vless://d2f54466-0055-4a25-a3b3-b54a5107f980@ct.877774.xyz:443?allowInsecure=1&sni=do-fra1.862400.xyz&type=ws&host=do-fra1.862400.xyz&path=/announcement?ed=2048fp=random&security=tls#12%7CUS_speednode_0041
-https://WqP0yn.absslk.xyz/ec0760f442abc1d7d5f949df7886c9a2
+https://Lyh2nV.absslk.xyz/35641359a5cde0e5ffbcde86063651b1
