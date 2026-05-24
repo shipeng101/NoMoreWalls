@@ -45,4 +45,4 @@ vless://d511e429-e32b-46a7-ac07-a0fffa9b634c@144.31.157.163:443?allowInsecure=0&
 vless://06b65903-406d-4a41-8463-6fd5c0ee7798@64.186.225.13:8443?allowInsecure=1&sni=sni.skylee4.cloudns.ch&type=ws&host=sni.skylee4.cloudns.ch&path=/proxyip=ProxyIP.CMLiussss.netsecurity=tls#12%7CUS_speednode_0047
 trojan://bpb-trojan@vless.herogoing.top:443?allowInsecure=0&sni=vless.herogoing.top&type=ws&host=vless.herogoing.top&path=/tr?ed=2560#12%7CUS_speednode_0048
 vless://dc540911-cd1d-41e9-9301-ecb5a507b788@ru3.banovano.space:443?allowInsecure=0&sni=www.icloud.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CUS_speednode_0049
-https://Eatr8a.absslk.xyz/5e814d7a4542c9fe3a66276891a81423
+https://36asTg.absslk.xyz/72f8c706f11334eab250947a7546bd9b
