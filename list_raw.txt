@@ -37,4 +37,4 @@ vless://439f353b-b52f-4355-93d8-26e0567d5308@193.163.203.76:50592?allowInsecure=
 vless://c5563e04-daff-4fea-a8ce-8741ad0bc2cf@193.163.203.76:50547?allowInsecure=0&sni=kinopoisk.ru&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CRU_speednode_0029
 vless://61bf6a18-727e-4492-ab5f-01dea4aa2df9@216.57.108.24:443?allowInsecure=0&sni=yahoo.com&fp=chrome&security=tls#12%7CUS_speednode_0035
 vless://301a4309-0f4d-42bf-a057-7d60c7a73259@144.31.30.131:8443?allowInsecure=0&sni=eh.vk.com&fp=chrome&security=tls#12%7CUS_speednode_0036
-https://lbTe14.absslk.xyz/d86e055a8ded6c0d1f9112f7d17b6850
+https://kWJm2P.absslk.xyz/8d4d582608b3881334214f86c47a45a5
