@@ -65,4 +65,4 @@ vless://8a6b2cf8-b21a-402a-bc3f-7efee320052f@se.endvn.org:443?allowInsecure=0&sn
 vless://aaaaaabb-4ddd-4eee-9fff-ffffffffffff@208.103.161.12:443?allowInsecure=1&sni=afrcloud2.c01.kr&type=ws&host=afrcloud2.c01.kr&path=/2.56.206.114:8443fp=chromefp=chrome&security=tls#12%7CUS_speednode_0076
 vless://aaaaaabb-4ddd-4eee-9fff-ffffffffffff@208.103.161.11:443?allowInsecure=1&sni=afrcloud2.c01.kr&type=ws&host=afrcloud2.c01.kr&path=/139.45.214.126:443fp=chromefp=chrome&security=tls#12%7CUS_speednode_0077
 vless://aaaaaabb-4ddd-4eee-9fff-ffffffffffff@69.84.182.62:443?allowInsecure=1&sni=afrcloud2.c01.kr&type=ws&host=afrcloud2.c01.kr&path=/2.56.204.183:443fp=chromefp=chrome&security=tls#12%7CUS_speednode_0078
-https://rjfzuq.absslk.xyz/d1c3d706ae0fab1fab3c7b361b6d26ac
+https://XCpygI.absslk.xyz/2c8bba73880a1ab31a899a6a216fcf87
