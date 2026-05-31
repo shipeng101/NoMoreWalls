@@ -30,4 +30,4 @@ vless://4706d9c3-eec0-4666-9d84-e608a200e872@194.226.169.36:443?allowInsecure=0&
 vless://afcac633-0e1a-46c3-bef2-cc01cc0097c8@85.234.114.53:443?allowInsecure=0&sni=r1.mizulina.top&flow=xtls-rprx-vision-udp443-udp443&fp=edge&security=tls#12%7CRU_speednode_0022
 vless://afcac633-0e1a-46c3-bef2-cc01cc0097c8@85.234.114.53:22231?allowInsecure=0&sni=r1.mizulina.top&flow=xtls-rprx-vision-udp443-udp443&fp=edge&security=tls#12%7CRU_speednode_0025
 vless://7625adbb-52f7-4ff4-95f8-677471071a77@132.243.231.122:8443?allowInsecure=0&sni=io.ozone.ru&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CUS_speednode_0028
-https://SKX3My.absslk.xyz/082f77061deefd18f502e94b794610d9
+https://xFYkpN.absslk.xyz/e043494085428e154184cf7c6382256d
