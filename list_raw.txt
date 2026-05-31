@@ -36,4 +36,4 @@ vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@developers.cloudflare.com:2095?allo
 vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@cdnjs.com:2095?allowInsecure=0&sni=cnmfangbinxing.cnmfangbinxing.workers.dev&type=ws&host=cnmfangbinxing.cnmfangbinxing.workers.dev&path=/fp=randomized#12%7CUS_speednode_0032
 vless://5a20b5d0-3a98-4792-9559-95f4e24277ec@155.117.127.137:443?allowInsecure=0#12%7CUS_speednode_0033
 vless://44a59812-43ff-46ff-8acc-c7fe4dfc4e46@162.159.141.236:443?allowInsecure=0&sni=newspeedbypass.wt4p2ppro.me&alpn=http/1.1&type=ws&host=newspeedbypass.wt4p2ppro.me&path=/fp=chrome&security=tls#12%7CUS_speednode_0034
-https://HgM8CL.absslk.xyz/fe4cdb0a36d63aab3aeb07b2ff18f54d
+https://fvhZ8O.absslk.xyz/24d2d6f106d7c392b617063a3a93f9c5
