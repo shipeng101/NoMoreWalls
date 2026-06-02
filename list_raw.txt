@@ -39,4 +39,4 @@ trojan://BxceQaOe@95.40.4.37:2520?allowInsecure=1&sni=t.me%2Fripaojiedian#12%7CU
 vless://e277ac9b-3225-4381-a9fb-3585419f7142@kobe.ns.cloudflare.com:443?allowInsecure=0&sni=35cdnws.frnstatic.info&alpn=http/1.1&type=ws&host=35cdnws.frnstatic.info&path=/35cdnwsfp=firefox&security=tls#12%7CUS_speednode_0051
 trojan://BxceQaOe@95.40.4.37:2520?allowInsecure=1&sni=95.40.4.37#12%7CUS_speednode_0052
 vless://30980fc4-8789-42df-80d1-0c8e5cd26881@172.67.195.79:443?allowInsecure=1&sni=cdn.veilvpn.fans&type=ws&host=cdn.veilvpn.fans&path=/vpnhusecurity=tls#12%7CUS_speednode_0055
-https://mMt7Kb.absslk.xyz/3d8f5c6aec88292b953d2a5ceb934ebe
+https://7DfMnu.absslk.xyz/631f918b587d3bace1173b82c5bfacc5
