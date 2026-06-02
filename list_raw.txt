@@ -33,4 +33,4 @@ vless://afcac633-0e1a-46c3-bef2-cc01cc0097c8@85.234.114.53:22231?allowInsecure=0
 vless://9287f532-4150-48ff-a755-64b21e30e9c3@217.26.24.101:23151?allowInsecure=0&sni=cms-res-web.online.sberbank.ru&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CRU_speednode_0047
 trojan://BxceQaOe@95.40.4.37:2520?allowInsecure=1&sni=t.me%2Fripaojiedian#12%7CUS_speednode_0053
 vless://e277ac9b-3225-4381-a9fb-3585419f7142@kobe.ns.cloudflare.com:443?allowInsecure=0&sni=35cdnws.frnstatic.info&alpn=http/1.1&type=ws&host=35cdnws.frnstatic.info&path=/35cdnwsfp=firefox&security=tls#12%7CUS_speednode_0054
-https://5l2fdN.absslk.xyz/8c1f546ae72bc998cfc51d474acbc9d2
+https://1F8HBj.absslk.xyz/403a62e4a6ba80b6f2be2b60ebc9f4b5
