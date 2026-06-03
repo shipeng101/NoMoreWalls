@@ -42,4 +42,4 @@ vless://e277ac9b-3225-4381-a9fb-3585419f7142@kobe.ns.cloudflare.com:443?allowIns
 trojan://BxceQaOe@95.40.4.37:2520?allowInsecure=1&sni=95.40.4.37#12%7CUS_speednode_0052
 trojan://BxceQaOe@95.40.68.192:17801?allowInsecure=1&sni=t.me%2Fripaojiedian#12%7CUS_speednode_0054
 vless://30980fc4-8789-42df-80d1-0c8e5cd26881@172.67.195.79:443?allowInsecure=1&sni=cdn.veilvpn.fans&type=ws&host=cdn.veilvpn.fans&path=/vpnhusecurity=tls#12%7CUS_speednode_0055
-https://zvwi3S.absslk.xyz/27fcf838a2e5b10ef641c779be906674
+https://9XMntZ.absslk.xyz/9c780f78f3936dc7d8e6c7d55a56adef
