@@ -30,4 +30,4 @@ vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@www.fbi.gov:2095?allowInsecure=0&sn
 vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@cloudflare-dns.com:2095?allowInsecure=0&sni=cnmfangbinxing.cnmfangbinxing-a.workers.dev&type=ws&host=cnmfangbinxing.cnmfangbinxing-a.workers.dev&path=/fp=randomized#12%7CUS_speednode_0057
 vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@www.whatismyip.net:2095?allowInsecure=0&sni=cnmfangbinxing.cnmfangbinxing-a.workers.dev&type=ws&host=cnmfangbinxing.cnmfangbinxing-a.workers.dev&path=/fp=randomized#12%7CUS_speednode_0058
 vless://ad961404-6249-4a11-9577-d1e81f6b198f@150.241.90.13:443?allowInsecure=0&sni=monolithgate.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CUS_speednode_0060
-https://A9cIei.absslk.xyz/bff8ad9a6446f86c640e58a4045a6d87
+https://kwZf1M.absslk.xyz/7ccaffe27124d8531d173e8010641643
