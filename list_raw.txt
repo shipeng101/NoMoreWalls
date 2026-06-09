@@ -31,4 +31,4 @@ vless://36af4874-d6a3-4f7c-82a7-1cb724961b52@132.243.203.193:8443?allowInsecure=
 vless://36af4874-d6a3-4f7c-82a7-1cb724961b52@132.243.203.210:8443?allowInsecure=1&sni=linek.perry.us.kg&type=ws&host=linek.perry.us.kg&path=/app/citysecurity=tls#12%7CUS_speednode_0060
 vless://36af4874-d6a3-4f7c-82a7-1cb724961b52@132.243.203.211:8443?allowInsecure=1&sni=linek.perry.us.kg&type=ws&host=linek.perry.us.kg&path=/programssecurity=tls#12%7CUS_speednode_0061
 vless://30980fc4-8789-42df-80d1-0c8e5cd26881@172.67.195.79:443?allowInsecure=1&sni=cdn.veilvpn.fans&type=ws&host=cdn.veilvpn.fans&path=/vpnhusecurity=tls#12%7CUS_speednode_0062
-https://lm0F4r.absslk.xyz/20f0bdb2d74258d9d3e325b8aad24b47
+https://dL5yrT.absslk.xyz/33415de8f1c7af4f4a860b4c912ed588
