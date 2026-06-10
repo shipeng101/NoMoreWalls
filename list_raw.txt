@@ -27,4 +27,4 @@ vless://cabbfe13-038b-4dbb-9c45-5079c829abfa@167.82.0.1:80?allowInsecure=0&sni=m
 vless://cabbfe13-038b-4dbb-9c45-5079c829abfa@151.101.2.219:80?allowInsecure=0&sni=max-gb1.global.ssl.fastly.net&type=ws&host=max-gb1.global.ssl.fastly.net&path=/#12%7CUS_speednode_0072
 vless://4442c33c-9889-4e0f-bff7-14f1f626dd6c@tw3.miyazono-kaori.com:443?allowInsecure=0&sni=dlcdnets.asus.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CUS_speednode_0074
 vless://4442c33c-9889-4e0f-bff7-14f1f626dd6c@tw4.miyazono-kaori.com:443?allowInsecure=0&sni=dlcdnets.asus.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CUS_speednode_0075
-https://ML1psv.absslk.xyz/6fded5f439c4ca184a2c7aebd2dea574
+https://KtgOWb.absslk.xyz/41272d696286696b3c213db63be436f9
