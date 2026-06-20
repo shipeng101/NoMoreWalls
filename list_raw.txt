@@ -60,4 +60,4 @@ trojan://eeb6823c-b926-4ea2-866a-5542edd26e59@69.63.223.42:443?allowInsecure=0&s
 vless://23cb9aa7-9756-459f-aa84-3a27bdf6ad64@154.17.16.176:443?allowInsecure=1&sni=s5.868001.xyz&type=ws&host=s5.868001.xyz&path=/proxyip=ProxyIP.CMLiussss.netfp=chrome&security=tls#12%7CUS_speednode_0071
 vless://83afd88f-200f-4d89-bfc7-66eff160c1d8@172.64.35.7:2053?allowInsecure=1&sni=josni.hoyes.cloudns.ch&type=ws&host=josni.hoyes.cloudns.ch&path=/security=tls#12%7CUS_speednode_0072
 vless://e1ebbd5e-ba89-4b05-8336-de7834d14164@104.16.80.73:443?allowInsecure=0&sni=amirsa.pages.dev&type=ws&host=amirsa.pages.dev&path=/fp=chrome&security=tls#12%7CUS_speednode_0073
-https://zOq6cN.absslk.xyz/60b8ec1c4d96a2296fcd16c57bbdc4da
+https://mBRHZp.absslk.xyz/1a3a12678cabe04e20f6929068713adc
