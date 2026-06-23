@@ -31,4 +31,4 @@ vless://580d81f8-4f30-49d6-ad90-59fb4a850313@tw3.miyazono-kaori.com:443?allowIns
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@speedtest.net:80?allowInsecure=0&sni=max-gb1.global.ssl.fastly.net&type=ws&host=max-gb1.global.ssl.fastly.net&path=/#12%7CUS_speednode_0071
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.130.219:80?allowInsecure=0&sni=max-gb1.global.ssl.fastly.net&type=ws&host=max-gb1.global.ssl.fastly.net&path=/#12%7CUS_speednode_0072
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.194.219:80?allowInsecure=0&sni=max-gb1.global.ssl.fastly.net&type=ws&host=max-gb1.global.ssl.fastly.net&path=/#12%7CUS_speednode_0073
-https://MUIUSM.absslk.xyz/6ec93a0e93e7243760f1ed681854e1d3
+https://0118Ka.absslk.xyz/d63d12b024322f221cbd059dd57c75cc
