@@ -29,4 +29,4 @@ vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@cdnjs.com:2095?allowInsecure=0&sni=
 vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@www.npmjs.com:2095?allowInsecure=0&sni=cnmfangbinxing.cnmfangbinxing-i.workers.dev&type=ws&host=cnmfangbinxing.cnmfangbinxing-i.workers.dev&path=/fp=randomized#12%7CUS_speednode_0037
 vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@www.udemy.com:2095?allowInsecure=0&sni=cnmfangbinxing.cnmfangbinxing-i.workers.dev&type=ws&host=cnmfangbinxing.cnmfangbinxing-i.workers.dev&path=/fp=randomized#12%7CUS_speednode_0038
 vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@www.whatismyip.net:2095?allowInsecure=0&sni=cnmfangbinxing.cnmfangbinxing-i.workers.dev&type=ws&host=cnmfangbinxing.cnmfangbinxing-i.workers.dev&path=/fp=randomized#12%7CUS_speednode_0039
-https://6P3YTI.absslk.xyz/4265befd000c40539a52e55392350d41
+https://HNMXuA.absslk.xyz/867801af85c0442541ca4ba05ada4299
