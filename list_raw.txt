@@ -28,4 +28,4 @@ vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@cdnjs.com:2095?allowInsecure=0&sni=
 vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@www.npmjs.com:2095?allowInsecure=0&sni=cnmfangbinxing.cnmfangbinxing-i.workers.dev&type=ws&host=cnmfangbinxing.cnmfangbinxing-i.workers.dev&path=/fp=randomized#12%7CUS_speednode_0037
 vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@www.udemy.com:2095?allowInsecure=0&sni=cnmfangbinxing.cnmfangbinxing-i.workers.dev&type=ws&host=cnmfangbinxing.cnmfangbinxing-i.workers.dev&path=/fp=randomized#12%7CUS_speednode_0038
 vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@www.whatismyip.net:2095?allowInsecure=0&sni=cnmfangbinxing.cnmfangbinxing-i.workers.dev&type=ws&host=cnmfangbinxing.cnmfangbinxing-i.workers.dev&path=/fp=randomized#12%7CUS_speednode_0039
-https://gUvxnE.absslk.xyz/3d8cc89f9e31b733fc3e1e950355567b
+https://8M9X7b.absslk.xyz/3678ef538e1ef987581db639db2b25eb
