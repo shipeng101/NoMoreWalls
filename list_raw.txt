@@ -13,15 +13,5 @@ trojan://d1960ba9f0f6353353994fa844cf817b@18.166.178.12:39024?allowInsecure=1&sn
 trojan://d1960ba9f0f6353353994fa844cf817b@18.163.100.58:39024?allowInsecure=1&sni=www.nintendogames.net#10%2C11%7C%E7%BE%8E%E5%9B%BD2%7C%40ripaojiedian
 trojan://BxceQaOe@16.162.3.64:53001?allowInsecure=1&sni=t.me%2Fripaojiedian#10%2C11%7C%E7%BE%8E%E5%9B%BD3%7C%40ripaojiedian
 vmess://eyJ2IjogIjIiLCAicHMiOiAiMTF86aaZ5rivfEByaXBhb2ppZWRpYW4iLCAiYWRkIjogInYxMC5oZGFjZC5jb20iLCAicG9ydCI6ICIzMDgwNyIsICJhaWQiOiAyLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICJjYmIzZjg3Ny1kMWZiLTM0NGMtODdhOS1kMTUzYmZmZDU0ODQiLCAic25pIjogIiJ9
-vless://5c192fd7-ef98-4112-a20c-129108fcd7e9@217.60.193.1:443?allowInsecure=1&sni=ddc-akn.astralweb.tech&fp=firefox&security=tls#12%7CAE_speednode_0001
-vless://631ee34f-4faf-4ad7-b49d-e6f50403cf0e@212.104.141.166:443?allowInsecure=1&sni=findmypackets.com&flow=xtls-rprx-vision-udp443&fp=firefox&security=tls#12%7CGB_speednode_0004
-trojan://ND91608427@upright-hamster.rooster465.autos:443?allowInsecure=1&sni=upright-hamster.rooster465.autos#12%7CHK_speednode_0008
-trojan://ND91608427@skilled-lioness.rooster465.autos:443?allowInsecure=1&sni=skilled-lioness.rooster465.autos#12%7CIE_speednode_0009
-vless://d516ffe9-f519-3c47-872b-666249bdc7b7@family.bucket.9.kfc-520.com:10053?allowInsecure=0&sni=www.amd.com&flow=xtls-rprx-vision-udp443&fp=firefox&security=tls#12%7CJP_speednode_0010
-vless://d516ffe9-f519-3c47-872b-666249bdc7b7@family.bucket.4.kfc-520.com:10005?allowInsecure=0&sni=www.asus.com&flow=xtls-rprx-vision-udp443&fp=firefox&security=tls#12%7CJP_speednode_0011
-trojan://ND91608427@eager-louse.rooster465.autos:443?allowInsecure=1&sni=eager-louse.rooster465.autos#12%7CLU_speednode_0012
-vless://631ee34f-4faf-4ad7-b49d-e6f50403cf0e@89.105.197.203:443?allowInsecure=1&sni=anyfile2file.com&flow=xtls-rprx-vision-udp443&fp=firefox&security=tls#12%7CNL_speednode_0013
-vless://b3b23e31-4972-4eec-9852-8de3eb6c7ef7@45.78.73.241:443?allowInsecure=0#12%7CUS_speednode_0059
-vless://7c74b0e4-f132-5583-4692-622a7d6b71a4@88.218.44.4:993?allowInsecure=0&sni=dl.google.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CUS_speednode_0071
-vless://6a0a5673-2406-4fd3-b0e9-8ecbd6d16a3a@156.248.10.58:443?allowInsecure=0&sni=nono.hhhkkhktt.xyz&flow=xtls-rprx-vision-udp443&fp=safari&security=tls#12%7CUS_speednode_0070
-https://RR6qJQ.absslk.xyz/9df317df4e5c11823e5ae8dba17183e0
+vless://e7d317bd-9124-4eb0-ae76-4d3b8dc54e92@evacuee.papstore.xyz:40724?allowInsecure=0&sni=www.e-japannavi.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CUS_speednode_0021
+https://K7EkRm.absslk.xyz/34e57ba56ecdb7ed0c6512ceb9cae9e8
