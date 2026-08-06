@@ -14,4 +14,4 @@ trojan://d1960ba9f0f6353353994fa844cf817b@18.163.100.58:39024?allowInsecure=1&sn
 trojan://BxceQaOe@16.162.3.64:53001?allowInsecure=1&sni=t.me%2Fripaojiedian#10%2C11%7C%E7%BE%8E%E5%9B%BD3%7C%40ripaojiedian
 vmess://eyJ2IjogIjIiLCAicHMiOiAiMTF86aaZ5rivfEByaXBhb2ppZWRpYW4iLCAiYWRkIjogInYxMC5oZGFjZC5jb20iLCAicG9ydCI6ICIzMDgwNyIsICJhaWQiOiAyLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICJjYmIzZjg3Ny1kMWZiLTM0NGMtODdhOS1kMTUzYmZmZDU0ODQiLCAic25pIjogIiJ9
 vless://e7d317bd-9124-4eb0-ae76-4d3b8dc54e92@evacuee.papstore.xyz:40724?allowInsecure=0&sni=www.e-japannavi.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CUS_speednode_0021
-https://tprU4V.absslk.xyz/58ec944e43c35518bcff891446bb7ba4
+https://Nr5naf.absslk.xyz/e98af01c1d1a5c4506aead30efa93f08
