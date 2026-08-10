@@ -12,5 +12,7 @@ trojan://BxceQaOe@18.163.120.239:32434?allowInsecure=1&sni=t.me%252Fripaojiedian
 trojan://6ec301428255a78a1d826988d86cc87e@18.163.100.58:34039?allowInsecure=1&sni=www.nintendogames.net#10%2C11%7C%E7%BE%8E%E5%9B%BD2%7C%40ripaojiedian
 trojan://BxceQaOe@18.167.76.203:10418?allowInsecure=1&sni=t.me%2Fripaojiedian#10%2C11%7C%E7%BE%8E%E5%9B%BD3%7C%40ripaojiedian
 vmess://eyJ2IjogIjIiLCAicHMiOiAiMTF86aaZ5rivfEByaXBhb2ppZWRpYW4iLCAiYWRkIjogInYxMC5oZGFjZC5jb20iLCAicG9ydCI6ICIzMDgwNyIsICJhaWQiOiAyLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICJjYmIzZjg3Ny1kMWZiLTM0NGMtODdhOS1kMTUzYmZmZDU0ODQiLCAic25pIjogIiJ9
-vless://e7d317bd-9124-4eb0-ae76-4d3b8dc54e92@evacuee.papstore.xyz:40724?allowInsecure=0&sni=www.e-japannavi.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CUS_speednode_0021
+vless://5710bc50-f5ff-02fc-a3f5-067959ed2644@ru-sl.convert-flow.net:443?allowInsecure=1&sni=ru-sl.convert-flow.net&flow=xtls-rprx-vision-udp443&fp=qq&security=tls#12%7CFR_speednode_0006
+vless://02e2d68f-9982-4467-ad47-00cbeeae30e6@2.27.26.140:443?allowInsecure=1&sni=aq.cdn-global.pro&flow=xtls-rprx-vision-udp443&fp=firefox&security=tls#12%7CGB_speednode_0007
+vless://02e2d68f-9982-4467-ad47-00cbeeae30e6@89.125.37.74:443?allowInsecure=1&sni=se-cdn.ru&flow=xtls-rprx-vision-udp443&fp=firefox&security=tls#12%7CIE_speednode_0016
 https://Nr5naf.absslk.xyz/e98af01c1d1a5c4506aead30efa93f08
