@@ -1,16 +1,9 @@
 proxies:
-- name: 10|🇯🇵 日本|@ripaojiedian
-  password: BxceQaOe
-  port: 9408
-  server: 18.163.11126
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 11|日本|@ripaojiedian
+- name: 10,11|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 9408
-  server: 18.163.115.126
+  server: 18.167.96.176
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
