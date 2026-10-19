@@ -23,13 +23,8 @@ trojan://AA885B42-133C-3828-FB69-E45105C06092@63182sh8-4d7b.aws-agent.net:10155?
 trojan://AA885B42-133C-3828-FB69-E45105C06092@63182sh8-4d7b.aws-agent.net:12122?allowInsecure=1&sni=m.ctrip.com#11%7C%E7%BE%8E%E5%9B%BD2%7C%40ripaojiedian
 trojan://AA885B42-133C-3828-FB69-E45105C06092@7d0a2gz0-7a0c.aws-agent.net:12142?allowInsecure=1&sni=m.ctrip.com#11%7C%E5%8F%B0%E6%B9%BE%7C%40ripaojiedian
 trojan://AA885B42-133C-3828-FB69-E45105C06092@63182sh8-4d7b.aws-agent.net:11171?allowInsecure=1&sni=m.ctrip.com#11%7C%E9%9F%A9%E5%9B%BD%7C%40ripaojiedian
-vless://5905d91f-c3bc-4e80-bd66-4b17beb166cb@38.244.4.1:443?allowInsecure=0&sni=www.apple.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CUS_speednode_0130
-vless://f1fa0ad9-b122-4b7c-da82-4bea9edc48dd@51.81.223.225:11094?allowInsecure=1&sni=www.yahoo.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CUS_speednode_0132
-vless://b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb@89.117.123.243:443?allowInsecure=0&sni=us.savesafe.cc&flow=xtls-rprx-vision-udp443&fp=firefox&security=tls#12%7CUS_speednode_0135
-vless://f06c6039-a489-3d78-a676-ed43be6deca3@155.117.199.13:29893?allowInsecure=0&sni=cdnjs.cloudflare.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CUS_speednode_0136
-vless://f06c6039-a489-3d78-a676-ed43be6deca3@155.117.199.13:39399?allowInsecure=0&sni=cdnjs.cloudflare.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CUS_speednode_0137
-vless://055dce30-0ee3-44c3-b680-be1c95b8d6e7@107.151.250.68:443?allowInsecure=0&sni=www.bing.com&flow=xtls-rprx-vision-udp443&fp=firefox&security=tls#12%7CUS_speednode_0138
-vless://9638a83e-f1f7-4cc8-a602-924965d9534f@wr28-6njjgu.linenheath.site:443?allowInsecure=0&sni=www.cloudflare.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CUS_speednode_0139
-vless://f06c6039-a489-3d78-a676-ed43be6deca3@155.117.199.13:39211?allowInsecure=0&sni=cdnjs.cloudflare.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CUS_speednode_0142
-vless://ec31f6d7-c71a-413d-93aa-24296805a594@nsuc-znkbig.avonex.top:443?allowInsecure=0&sni=www.bing.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CUS_speednode_0144
+vless://57beeeb0-03fc-4fc9-94da-7604488a7134@funagfrdfs.alixxplay.com:34379?allowInsecure=0&sni=us1p1.xn--ghq880n3na965a.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CSG_speednode_0021
+vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform109.golnamakcert.top:80?allowInsecure=0&sni=platform109.halalkhor.info&type=ws&host=platform109.halalkhor.info&path=/platform109#12%7CUS_speednode_0022
+vless://7060231d-b9ba-495f-a218-bf427940cf3e@44.251.76.224:443?allowInsecure=0&sni=play.googleapis.com#12%7CUS_speednode_0023
+vless://7060231d-b9ba-495f-a218-bf427940cf3e@100.54.27.217:443?allowInsecure=0&sni=play.googleapis.com#12%7CUS_speednode_0024
 https://Nr5naf.absslk.xyz/e98af01c1d1a5c4506aead30efa93f08

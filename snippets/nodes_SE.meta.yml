@@ -1,1 +1,8 @@
-proxies: []
+proxies:
+- name: 12|SE_speednode_0020
+  port: 443
+  server: 217.210.129.243
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
