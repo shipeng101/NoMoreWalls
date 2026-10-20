@@ -23,8 +23,5 @@ trojan://AA885B42-133C-3828-FB69-E45105C06092@63182sh8-4d7b.aws-agent.net:10155?
 trojan://AA885B42-133C-3828-FB69-E45105C06092@63182sh8-4d7b.aws-agent.net:12122?allowInsecure=1&sni=m.ctrip.com#11%7C%E7%BE%8E%E5%9B%BD2%7C%40ripaojiedian
 trojan://AA885B42-133C-3828-FB69-E45105C06092@7d0a2gz0-7a0c.aws-agent.net:12142?allowInsecure=1&sni=m.ctrip.com#11%7C%E5%8F%B0%E6%B9%BE%7C%40ripaojiedian
 trojan://AA885B42-133C-3828-FB69-E45105C06092@63182sh8-4d7b.aws-agent.net:11171?allowInsecure=1&sni=m.ctrip.com#11%7C%E9%9F%A9%E5%9B%BD%7C%40ripaojiedian
-vless://57beeeb0-03fc-4fc9-94da-7604488a7134@funagfrdfs.alixxplay.com:34379?allowInsecure=0&sni=us1p1.xn--ghq880n3na965a.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CSG_speednode_0021
-vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform109.golnamakcert.top:80?allowInsecure=0&sni=platform109.halalkhor.info&type=ws&host=platform109.halalkhor.info&path=/platform109#12%7CUS_speednode_0022
-vless://7060231d-b9ba-495f-a218-bf427940cf3e@44.251.76.224:443?allowInsecure=0&sni=play.googleapis.com#12%7CUS_speednode_0023
-vless://7060231d-b9ba-495f-a218-bf427940cf3e@100.54.27.217:443?allowInsecure=0&sni=play.googleapis.com#12%7CUS_speednode_0024
+vless://ed6ae8d0-0ad4-4828-8fee-621a650abb39@freev2.cloudflare.182682.xyz:443?allowInsecure=0&sni=jp-osa.862400.xyz&type=ws&host=jp-osa.862400.xyz&path=/announcement?ed=2048fp=random&security=tls#12%7CUS_speednode_0031
 https://Nr5naf.absslk.xyz/e98af01c1d1a5c4506aead30efa93f08

@@ -1,1 +1,9 @@
-proxies: []
+proxies:
+- name: 12|GB_speednode_0010
+  password: None
+  port: 443
+  server: 212.102.63.61
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
