@@ -19,4 +19,4 @@ vless://7a09c6e0-ad6e-4f96-980e-e0b198bb722f@47.250.146.252:443?allowInsecure=1&
 vless://a197af05-7048-478e-8d99-c3151adb4064@147.139.197.200:443?allowInsecure=1&sni=www.ebay.com&flow=xtls-rprx-vision&fp=chrome&security=reality&pbk=ulPGCwIg38AVGww0FBfCNROmu_0N1hykbHbhcAFgcl0&sid=6135361d11cc2b31#10%2C11%7C%E5%8D%B0%E5%B0%BC%7C%40ripaojiedian
 vless://7f0270f9-1abc-4c4f-960d-0a23e32f1eb8@139.162.20.241:443?sni=itunes.apple.com&type=ws&path=%2Fwsflow=&fp=chrome&security=reality&pbk=fG1u2AZj5pgSNWO3MBmkoY6K61xBwnuYX3_z1fSeR0o&sid=640c807d#11%7C%E6%96%B0%E5%8A%A0%E5%9D%A1%7C%40ripaojiedian
 vless://ead3595f-4020-4e76-a3ec-c248e1a2f2f7@free.fugui.lol:47396?allowInsecure=0&sni=swdist.apple.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#12%7CTW_speednode_0026
-https://HndGsG.absslk.xyz/d04574cf64354d421b63373fcc822abd
+https://Fr66BC.absslk.xyz/5a3c50a7f7aafc807baa8419321e1643
