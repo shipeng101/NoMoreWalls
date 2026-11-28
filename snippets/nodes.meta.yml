@@ -81,7 +81,7 @@ proxies:
   type: anytls
   udp: true
 - flow: xtls-rprx-vision
-  name: 10,11|香港|@ripaojiedian
+  name: 10|🇭🇰 香港|@ripaojiedian
   network: tcp
   port: 443
   reality-opts:
@@ -91,7 +91,7 @@ proxies:
   servername: stg.nvbugspro.nvidia.com
   skip-cert-verify: true
   tfo: false
-  tls: false
+  tls: true
   type: vless
   udp: true
   uuid: 330a570e-c0ba-4a9d-8e37-d20540cc8eaa
@@ -431,6 +431,19 @@ proxies:
     headers:
       Host: itunes.apple.com
     path: '%2Fws'
+- flow: ''
+  name: 11|香港|@ripaojiedian
+  network: ws
+  port: 1891
+  server: 216.236.51.44
+  servername: senflarelink-node-71i.pages.dev
+  tls: true
+  type: vless
+  uuid: e9923122-5d88-43f1-8548-5771d7750ef5
+  ws-opts:
+    headers:
+      Host: senflarelink-node-71i.pages.dev
+    path: '%2F'
 - name: 12|BE_speednode_0001
   port: 443
   server: 146.70.123.98
